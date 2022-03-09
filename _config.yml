@@ -1,0 +1,25 @@
+title: Nix Review Tools Reports
+description: >-
+  Automatically generated reports for Hydra Nix Hydra jobsets using `nix-review-tools`.
+  Updated every 6 hours.
+baseurl: /nix-review-tools-reports
+url: https://malob.github.io
+github_username: malob
+
+markdown: kramdown
+theme: minima
+permalink: none
+plugins:
+  - jekyll-feed
+  - jekyll-default-layout
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - data/
+  - '*.nix'
