@@ -22,9 +22,14 @@
       rec {
 
         packages = rec {
-          jobset-latest-eval-id = pkgs.writeShellScriptBin "jobset-latest-eval-id" ''
+          jobset-latest-successful-eval-id = pkgs.writeShellScriptBin "jobset-latest-successful-eval-id" ''
             ${curl} -s -L -H 'Accept: application/json' https://hydra.nixos.org/jobset/$1/$2/latest-eval \
             | ${jq} .id \
+          '';
+
+          jobset-latest-eval-id = pkgs.writeShellScriptBin "jobset-latest-eval-id" ''
+            ${curl} -s -H 'Accept: application/json' https://hydra.nixos.org/jobset/$1/$2/evals \
+            | ${jq} .evals[0].id \
           '';
 
           jobset-eval-date = pkgs.writeShellScriptBin "jobset-eval-date" ''
@@ -37,9 +42,14 @@
             mkdir -p data
             cd data
             id=$(${jobset-latest-eval-id}/bin/jobset-latest-eval-id $1 $2)
+            successid=$(${jobset-latest-successful-eval-id}/bin/jobset-latest-successful-eval-id $1 $2)
             date=$(${jobset-eval-date}/bin/jobset-eval-date $id)
             file=../_posts/$date-$1_$2_$id.md
-            echo -e "---\ntitle: $1:$2 $id\ncategories: $1:$2\n---" > $file
+            if [ "$id" = "$successid" ]; then
+              echo -e "---\ntitle: $1:$2 $id (succeeded)\ncategories: $1:$2\n---" > $file
+            else
+              echo -e "---\ntitle: $1:$2 $id\ncategories: $1:$2\n---" > $file
+            fi
             nix-shell ${nix-review-tools}/shell.nix --run "${nix-review-tools}/eval-report $id" >> $file
           '';
         };

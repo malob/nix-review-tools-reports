@@ -1,5 +1,5 @@
 ---
-title: nixpkgs:nixpkgs-21.11-darwin 1747469
+title: nixpkgs:nixpkgs-21.11-darwin 1747469 (succeeded)
 categories: nixpkgs:nixpkgs-21.11-darwin
 ---
 # Evals report
@@ -10,7 +10,7 @@ Built for evals:
 
   * [1747469](https://hydra.nixos.org/eval/1747469)
 
- * * * 
+ * * *
 
 ### x86_64-linux
 
@@ -165,7 +165,7 @@ Built for evals:
 <b>=> Failed</b> <tt>gccgo6-6.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/167418079/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/167418079/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/167418079/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/167408499'>build 167408499</a>
 </li>
 <li>
-<b>=> Failed</b> <tt>gccgo6-6.5.0</tt> <br /> 
+<b>=> Failed</b> <tt>gccgo6-6.5.0</tt> <br />
 </li>
 </ul>
 </details>
@@ -199,7 +199,7 @@ Built for evals:
 <b>=> Failed</b> <tt>gcj-6.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/167412174/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/167412174/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/167412174/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/167376170'>build 167376170</a>
 </li>
 <li>
-<b>=> Failed</b> <tt>gcj-6.5.0</tt> <br /> 
+<b>=> Failed</b> <tt>gcj-6.5.0</tt> <br />
 </li>
 </ul>
 </details>
@@ -216,7 +216,7 @@ Built for evals:
 <b>=> Failed</b> <tt>gcj-6.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/167376170/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/167376170/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/167376170/nixlog/3/tail'>tail</a>
 </li>
 <li>
-<b>=> Aborted</b> <tt>gcj-6.5.0</tt> <br /> 
+<b>=> Aborted</b> <tt>gcj-6.5.0</tt> <br />
 </li>
 <li>
 <b>=> Failed</b> <tt>gcj-6.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/167412174'>build 167412174</a>
@@ -406,7 +406,7 @@ Built for evals:
 <b>=> Failed</b> <tt>jetbrains-jdk-11_0_11-b1504.13</tt> <br /> <a href='https://hydra.nixos.org/build/167423926/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/167423926/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/167423926/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/167400663'>build 167400663</a>
 </li>
 <li>
-<b>=> Failed</b> <tt>jetbrains-jdk-11_0_11-b1504.13</tt> <br /> 
+<b>=> Failed</b> <tt>jetbrains-jdk-11_0_11-b1504.13</tt> <br />
 </li>
 </ul>
 </details>
@@ -1052,7 +1052,7 @@ Built for evals:
 <b>=> Failed</b> <tt>lsquic-2.18.1</tt> <br /> <a href='https://hydra.nixos.org/build/167380332/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/167380332/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/167380332/nixlog/2/tail'>tail</a>
 </li>
 <li>
-<b>=> Failed</b> <tt>lsquic-2.18.1</tt> <br /> 
+<b>=> Failed</b> <tt>lsquic-2.18.1</tt> <br />
 </li>
 </ul>
 </details>
@@ -1298,7 +1298,7 @@ Built for evals:
 <b>=> Failed</b> <tt>netcoredbg-1.2.0-825</tt> <br /> <a href='https://hydra.nixos.org/build/167406023/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/167406023/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/167406023/nixlog/3/tail'>tail</a>
 </li>
 <li>
-<b>=> Failed</b> <tt>netcoredbg-1.2.0-825</tt> <br /> 
+<b>=> Failed</b> <tt>netcoredbg-1.2.0-825</tt> <br />
 </li>
 </ul>
 </details>
@@ -2165,7 +2165,7 @@ Built for evals:
 <b>=> Failed</b> <tt>python3.8-dask-2021.10.0</tt> <br /> <a href='https://hydra.nixos.org/build/167399786/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/167399786/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/167399786/nixlog/2/tail'>tail</a>
 </li>
 <li>
-<b>=> Failed</b> <tt>python3.8-dask-2021.10.0</tt> <br /> 
+<b>=> Failed</b> <tt>python3.8-dask-2021.10.0</tt> <br />
 </li>
 </ul>
 </details>
@@ -3420,7 +3420,7 @@ Built for evals:
 <b>=> Failed</b> <tt>chicken-ugarit-2.0</tt> <br /> <a href='https://hydra.nixos.org/build/167426377/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/167426377/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/167426377/nixlog/2/tail'>tail</a>
 </li>
 <li>
-<b>=> Failed</b> <tt>chicken-ugarit-2.0</tt> <br /> 
+<b>=> Failed</b> <tt>chicken-ugarit-2.0</tt> <br />
 </li>
 </ul>
 </details>
@@ -3471,7 +3471,7 @@ Built for evals:
 <b>=> Failed</b> <tt>ruby2.7.5-eventmachine-1.0.9.1</tt> <br /> <a href='https://hydra.nixos.org/build/167416815/nixlog/9'>log</a>, <a href='https://hydra.nixos.org/build/167416815/nixlog/9/raw'>raw</a>, <a href='https://hydra.nixos.org/build/167416815/nixlog/9/tail'>tail</a>, <a href='https://hydra.nixos.org/build/167380059'>build 167380059</a>
 </li>
 <li>
-<b>=> Failed</b> <tt>ruby2.7.5-eventmachine-1.0.9.1</tt> <br /> 
+<b>=> Failed</b> <tt>ruby2.7.5-eventmachine-1.0.9.1</tt> <br />
 </li>
 </ul>
 </details>
@@ -9269,7 +9269,7 @@ Built for evals:
 <b>=> Failed</b> <tt>ocaml-4.06.1+bs</tt> <br /> <a href='https://hydra.nixos.org/build/167393464/nixlog/4'>log</a>, <a href='https://hydra.nixos.org/build/167393464/nixlog/4/raw'>raw</a>, <a href='https://hydra.nixos.org/build/167393464/nixlog/4/tail'>tail</a>
 </li>
 <li>
-<b>=> Failed</b> <tt>ocaml-4.06.1+bs</tt> <br /> 
+<b>=> Failed</b> <tt>ocaml-4.06.1+bs</tt> <br />
 </li>
 </ul>
 </details>
@@ -9536,7 +9536,7 @@ Built for evals:
 <b>=> Failed</b> <tt>chicken-srfi-37-1.4</tt> <br /> <a href='https://hydra.nixos.org/build/167395676/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/167395676/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/167395676/nixlog/3/tail'>tail</a>
 </li>
 <li>
-<b>=> Failed</b> <tt>chicken-srfi-37-1.4</tt> <br /> 
+<b>=> Failed</b> <tt>chicken-srfi-37-1.4</tt> <br />
 </li>
 <li>
 <b>=> Failed</b> <tt>chicken-srfi-14-0.2.1</tt> <br /> <a href='https://hydra.nixos.org/build/167395676/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/167395676/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/167395676/nixlog/1/tail'>tail</a>
@@ -10080,7 +10080,7 @@ Built for evals:
 <b>=> Cached failure</b> <tt>ocaml4.10.2-cairo2-0.6.2</tt> <br /> <a href='https://hydra.nixos.org/build/167430479/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/167430479/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/167430479/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/167430479'>build 167430479</a>
 </li>
 <li>
-<b>=> Failed</b> <tt>ocaml4.10.2-cairo2-0.6.2</tt> <br /> 
+<b>=> Failed</b> <tt>ocaml4.10.2-cairo2-0.6.2</tt> <br />
 </li>
 </ul>
 </details>
@@ -11017,7 +11017,7 @@ Built for evals:
 <b>=> Failed</b> <tt>ocaml-4.09.1</tt> <br /> <a href='https://hydra.nixos.org/build/167431458/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/167431458/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/167431458/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/167398369'>build 167398369</a>
 </li>
 <li>
-<b>=> Failed</b> <tt>ocaml-4.09.1</tt> <br /> 
+<b>=> Failed</b> <tt>ocaml-4.09.1</tt> <br />
 </li>
 </ul>
 </details>
@@ -12114,7 +12114,7 @@ Built for evals:
 <b>=> Failed</b> <tt>gambit-bootstrap-4.9.3</tt> <br /> <a href='https://hydra.nixos.org/build/167388399/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/167388399/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/167388399/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/167404644'>build 167404644</a>
 </li>
 <li>
-<b>=> Failed</b> <tt>gambit-bootstrap-4.9.3</tt> <br /> 
+<b>=> Failed</b> <tt>gambit-bootstrap-4.9.3</tt> <br />
 </li>
 </ul>
 </details>
@@ -12182,7 +12182,7 @@ Built for evals:
 <b>=> Failed</b> <tt>gcc-10.3.0</tt> <br /> <a href='https://hydra.nixos.org/build/167431390/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/167431390/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/167431390/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/167423399'>build 167423399</a>
 </li>
 <li>
-<b>=> Failed</b> <tt>gcc-10.3.0</tt> <br /> 
+<b>=> Failed</b> <tt>gcc-10.3.0</tt> <br />
 </li>
 </ul>
 </details>
@@ -12199,7 +12199,7 @@ Built for evals:
 <b>=> Failed</b> <tt>gcc-4.8.5</tt> <br /> <a href='https://hydra.nixos.org/build/167389721/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/167389721/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/167389721/nixlog/2/tail'>tail</a>
 </li>
 <li>
-<b>=> Failed</b> <tt>gcc-4.8.5</tt> <br /> 
+<b>=> Failed</b> <tt>gcc-4.8.5</tt> <br />
 </li>
 </ul>
 </details>
@@ -12233,7 +12233,7 @@ Built for evals:
 <b>=> Cached failure</b> <tt>gcc-4.9.4</tt> <br /> <a href='https://hydra.nixos.org/build/167429771/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/167429771/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/167429771/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/167429771'>build 167429771</a>
 </li>
 <li>
-<b>=> Failed</b> <tt>gcc-4.9.4</tt> <br /> 
+<b>=> Failed</b> <tt>gcc-4.9.4</tt> <br />
 </li>
 </ul>
 </details>
@@ -12284,7 +12284,7 @@ Built for evals:
 <b>=> Failed</b> <tt>gcc-7.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/167384975/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/167384975/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/167384975/nixlog/2/tail'>tail</a>
 </li>
 <li>
-<b>=> Failed</b> <tt>gcc-7.5.0</tt> <br /> 
+<b>=> Failed</b> <tt>gcc-7.5.0</tt> <br />
 </li>
 </ul>
 </details>
@@ -12403,7 +12403,7 @@ Built for evals:
 <b>=> Failed</b> <tt>gccgo6-6.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/167392108/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/167392108/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/167392108/nixlog/2/tail'>tail</a>
 </li>
 <li>
-<b>=> Failed</b> <tt>gccgo6-6.5.0</tt> <br /> 
+<b>=> Failed</b> <tt>gccgo6-6.5.0</tt> <br />
 </li>
 </ul>
 </details>
@@ -12437,19 +12437,19 @@ Built for evals:
 <b>=> Failed</b> <tt>gcj-6.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/167376658/nixlog/6'>log</a>, <a href='https://hydra.nixos.org/build/167376658/nixlog/6/raw'>raw</a>, <a href='https://hydra.nixos.org/build/167376658/nixlog/6/tail'>tail</a>, <a href='https://hydra.nixos.org/build/167390482'>build 167390482</a>
 </li>
 <li>
-<b>=> Aborted</b> <tt>gcj-6.5.0</tt> <br /> 
+<b>=> Aborted</b> <tt>gcj-6.5.0</tt> <br />
 </li>
 <li>
-<b>=> Aborted</b> <tt>gcj-6.5.0</tt> <br /> 
+<b>=> Aborted</b> <tt>gcj-6.5.0</tt> <br />
 </li>
 <li>
-<b>=> Aborted</b> <tt>gcj-6.5.0</tt> <br /> 
+<b>=> Aborted</b> <tt>gcj-6.5.0</tt> <br />
 </li>
 <li>
-<b>=> Aborted</b> <tt>gcj-6.5.0</tt> <br /> 
+<b>=> Aborted</b> <tt>gcj-6.5.0</tt> <br />
 </li>
 <li>
-<b>=> Aborted</b> <tt>gcj-6.5.0</tt> <br /> 
+<b>=> Aborted</b> <tt>gcj-6.5.0</tt> <br />
 </li>
 </ul>
 </details>
@@ -12534,7 +12534,7 @@ Built for evals:
 <b>=> Failed</b> <tt>gdc-9.3.0</tt> <br /> <a href='https://hydra.nixos.org/build/167384574/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/167384574/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/167384574/nixlog/2/tail'>tail</a>
 </li>
 <li>
-<b>=> Failed</b> <tt>gdc-9.3.0</tt> <br /> 
+<b>=> Failed</b> <tt>gdc-9.3.0</tt> <br />
 </li>
 </ul>
 </details>
@@ -12690,7 +12690,7 @@ Built for evals:
 <b>=> Failed</b> <tt>gfortran-10.3.0</tt> <br /> <a href='https://hydra.nixos.org/build/167422005/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/167422005/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/167422005/nixlog/2/tail'>tail</a>
 </li>
 <li>
-<b>=> Failed</b> <tt>gfortran-10.3.0</tt> <br /> 
+<b>=> Failed</b> <tt>gfortran-10.3.0</tt> <br />
 </li>
 </ul>
 </details>
@@ -12707,7 +12707,7 @@ Built for evals:
 <b>=> Failed</b> <tt>gfortran-4.8.5</tt> <br /> <a href='https://hydra.nixos.org/build/167391615/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/167391615/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/167391615/nixlog/2/tail'>tail</a>
 </li>
 <li>
-<b>=> Failed</b> <tt>gfortran-4.8.5</tt> <br /> 
+<b>=> Failed</b> <tt>gfortran-4.8.5</tt> <br />
 </li>
 </ul>
 </details>
@@ -12724,7 +12724,7 @@ Built for evals:
 <b>=> Failed</b> <tt>gfortran-4.9.4</tt> <br /> <a href='https://hydra.nixos.org/build/167404761/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/167404761/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/167404761/nixlog/2/tail'>tail</a>
 </li>
 <li>
-<b>=> Failed</b> <tt>gfortran-4.9.4</tt> <br /> 
+<b>=> Failed</b> <tt>gfortran-4.9.4</tt> <br />
 </li>
 </ul>
 </details>
@@ -12741,7 +12741,7 @@ Built for evals:
 <b>=> Failed</b> <tt>gfortran-6.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/167421632/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/167421632/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/167421632/nixlog/2/tail'>tail</a>
 </li>
 <li>
-<b>=> Failed</b> <tt>gfortran-6.5.0</tt> <br /> 
+<b>=> Failed</b> <tt>gfortran-6.5.0</tt> <br />
 </li>
 </ul>
 </details>
@@ -12758,7 +12758,7 @@ Built for evals:
 <b>=> Failed</b> <tt>gfortran-7.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/167408144/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/167408144/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/167408144/nixlog/2/tail'>tail</a>
 </li>
 <li>
-<b>=> Failed</b> <tt>gfortran-7.5.0</tt> <br /> 
+<b>=> Failed</b> <tt>gfortran-7.5.0</tt> <br />
 </li>
 </ul>
 </details>
@@ -12775,7 +12775,7 @@ Built for evals:
 <b>=> Failed</b> <tt>gfortran-8.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/167399174/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/167399174/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/167399174/nixlog/2/tail'>tail</a>
 </li>
 <li>
-<b>=> Failed</b> <tt>gfortran-8.5.0</tt> <br /> 
+<b>=> Failed</b> <tt>gfortran-8.5.0</tt> <br />
 </li>
 </ul>
 </details>
@@ -12792,7 +12792,7 @@ Built for evals:
 <b>=> Failed</b> <tt>gfortran-9.3.0</tt> <br /> <a href='https://hydra.nixos.org/build/167411375/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/167411375/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/167411375/nixlog/2/tail'>tail</a>
 </li>
 <li>
-<b>=> Failed</b> <tt>gfortran-9.3.0</tt> <br /> 
+<b>=> Failed</b> <tt>gfortran-9.3.0</tt> <br />
 </li>
 </ul>
 </details>
@@ -13208,7 +13208,7 @@ Built for evals:
 <b>=> Failed</b> <tt>jetbrains-jdk-11_0_11-b1504.13</tt> <br /> <a href='https://hydra.nixos.org/build/167404283/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/167404283/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/167404283/nixlog/2/tail'>tail</a>
 </li>
 <li>
-<b>=> Failed</b> <tt>jetbrains-jdk-11_0_11-b1504.13</tt> <br /> 
+<b>=> Failed</b> <tt>jetbrains-jdk-11_0_11-b1504.13</tt> <br />
 </li>
 </ul>
 </details>
@@ -14665,7 +14665,7 @@ Built for evals:
 <b>=> Failed</b> <tt>polyml-5.8.2</tt> <br /> <a href='https://hydra.nixos.org/build/167412187/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/167412187/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/167412187/nixlog/3/tail'>tail</a>
 </li>
 <li>
-<b>=> Failed</b> <tt>polyml-5.8.2</tt> <br /> 
+<b>=> Failed</b> <tt>polyml-5.8.2</tt> <br />
 </li>
 </ul>
 </details>
@@ -15129,7 +15129,7 @@ Built for evals:
 <b>=> Failed</b> <tt>gcc-6.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/167428836/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/167428836/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/167428836/nixlog/2/tail'>tail</a>
 </li>
 <li>
-<b>=> Failed</b> <tt>gcc-6.5.0</tt> <br /> 
+<b>=> Failed</b> <tt>gcc-6.5.0</tt> <br />
 </li>
 </ul>
 </details>
@@ -16217,7 +16217,7 @@ Built for evals:
 <b>=> Failed</b> <tt>ruby2.7.5-eventmachine-1.0.9.1</tt> <br /> <a href='https://hydra.nixos.org/build/167383998/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/167383998/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/167383998/nixlog/3/tail'>tail</a>
 </li>
 <li>
-<b>=> Failed</b> <tt>ruby2.7.5-eventmachine-1.0.9.1</tt> <br /> 
+<b>=> Failed</b> <tt>ruby2.7.5-eventmachine-1.0.9.1</tt> <br />
 </li>
 </ul>
 </details>
@@ -16568,7 +16568,7 @@ Built for evals:
 <b>=> Failed</b> <tt>ocaml-4.08.1</tt> <br /> <a href='https://hydra.nixos.org/build/167391395/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/167391395/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/167391395/nixlog/2/tail'>tail</a>
 </li>
 <li>
-<b>=> Failed</b> <tt>ocaml-4.08.1</tt> <br /> 
+<b>=> Failed</b> <tt>ocaml-4.08.1</tt> <br />
 </li>
 </ul>
 </details>
@@ -17064,7 +17064,7 @@ Built for evals:
 <b>=> Failed</b> <tt>nix-perl-2.3.16</tt> <br /> <a href='https://hydra.nixos.org/build/167433360/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/167433360/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/167433360/nixlog/2/tail'>tail</a>
 </li>
 <li>
-<b>=> Failed</b> <tt>nix-perl-2.3.16</tt> <br /> 
+<b>=> Failed</b> <tt>nix-perl-2.3.16</tt> <br />
 </li>
 </ul>
 </details>
@@ -17169,7 +17169,7 @@ Built for evals:
 <b>=> Cached failure</b> <tt>ocaml4.12.0-cairo2-0.6.2</tt> <br /> <a href='https://hydra.nixos.org/build/167428004/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/167428004/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/167428004/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/167428004'>build 167428004</a>
 </li>
 <li>
-<b>=> Failed</b> <tt>ocaml4.12.0-cairo2-0.6.2</tt> <br /> 
+<b>=> Failed</b> <tt>ocaml4.12.0-cairo2-0.6.2</tt> <br />
 </li>
 </ul>
 </details>
@@ -17254,7 +17254,7 @@ Built for evals:
 <b>=> Failed</b> <tt>ocaml-4.07.1</tt> <br /> <a href='https://hydra.nixos.org/build/167428061/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/167428061/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/167428061/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/167423937'>build 167423937</a>
 </li>
 <li>
-<b>=> Failed</b> <tt>ocaml-4.07.1</tt> <br /> 
+<b>=> Failed</b> <tt>ocaml-4.07.1</tt> <br />
 </li>
 </ul>
 </details>
@@ -19209,7 +19209,7 @@ Built for evals:
 <b>=> Failed</b> <tt>mod_perl-2.0.11</tt> <br /> <a href='https://hydra.nixos.org/build/167423789/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/167423789/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/167423789/nixlog/2/tail'>tail</a>
 </li>
 <li>
-<b>=> Failed</b> <tt>mod_perl-2.0.11</tt> <br /> 
+<b>=> Failed</b> <tt>mod_perl-2.0.11</tt> <br />
 </li>
 </ul>
 </details>
@@ -20869,7 +20869,7 @@ Built for evals:
 <b>=> Failed</b> <tt>mod_perl-2.0.11</tt> <br /> <a href='https://hydra.nixos.org/build/167410850/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/167410850/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/167410850/nixlog/2/tail'>tail</a>
 </li>
 <li>
-<b>=> Failed</b> <tt>mod_perl-2.0.11</tt> <br /> 
+<b>=> Failed</b> <tt>mod_perl-2.0.11</tt> <br />
 </li>
 </ul>
 </details>
@@ -32764,7 +32764,7 @@ Built for evals:
 <b>=> Cached failure</b> <tt>filesystem-1.5.6</tt> <br /> <a href='https://hydra.nixos.org/build/167410255/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/167410255/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/167410255/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/167410255'>build 167410255</a>
 </li>
 <li>
-<b>=> Failed</b> <tt>filesystem-1.5.6</tt> <br /> 
+<b>=> Failed</b> <tt>filesystem-1.5.6</tt> <br />
 </li>
 </ul>
 </details>
@@ -34962,7 +34962,7 @@ Built for evals:
 <b>=> Failed</b> <tt>gcc-8.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/167410791/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/167410791/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/167410791/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/167402593'>build 167402593</a>
 </li>
 <li>
-<b>=> Failed</b> <tt>gcc-8.5.0</tt> <br /> 
+<b>=> Failed</b> <tt>gcc-8.5.0</tt> <br />
 </li>
 </ul>
 </details>
@@ -38343,7 +38343,7 @@ Built for evals:
 <b>=> Failed</b> <tt>avr-stage-static-gcc-debug-10.3.0</tt> <br /> <a href='https://hydra.nixos.org/build/167380919/nixlog/4'>log</a>, <a href='https://hydra.nixos.org/build/167380919/nixlog/4/raw'>raw</a>, <a href='https://hydra.nixos.org/build/167380919/nixlog/4/tail'>tail</a>
 </li>
 <li>
-<b>=> Failed</b> <tt>avr-stage-static-gcc-debug-10.3.0</tt> <br /> 
+<b>=> Failed</b> <tt>avr-stage-static-gcc-debug-10.3.0</tt> <br />
 </li>
 </ul>
 </details>
@@ -38840,7 +38840,7 @@ Built for evals:
 <b>=> Failed</b> <tt>gcc-9.3.0</tt> <br /> <a href='https://hydra.nixos.org/build/167376579/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/167376579/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/167376579/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/167425793'>build 167425793</a>
 </li>
 <li>
-<b>=> Failed</b> <tt>gcc-9.3.0</tt> <br /> 
+<b>=> Failed</b> <tt>gcc-9.3.0</tt> <br />
 </li>
 </ul>
 </details>
@@ -38860,16 +38860,16 @@ Built for evals:
 <b>=> Aborted</b> <tt>cctools-binutils-darwin-wrapper-949.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/167405300/nixlog/5'>log</a>, <a href='https://hydra.nixos.org/build/167405300/nixlog/5/raw'>raw</a>, <a href='https://hydra.nixos.org/build/167405300/nixlog/5/tail'>tail</a>
 </li>
 <li>
-<b>=> Aborted</b> <tt>cctools-binutils-darwin-wrapper-949.0.1</tt> <br /> 
+<b>=> Aborted</b> <tt>cctools-binutils-darwin-wrapper-949.0.1</tt> <br />
 </li>
 <li>
-<b>=> Aborted</b> <tt>cctools-binutils-darwin-wrapper-949.0.1</tt> <br /> 
+<b>=> Aborted</b> <tt>cctools-binutils-darwin-wrapper-949.0.1</tt> <br />
 </li>
 <li>
-<b>=> Aborted</b> <tt>cctools-binutils-darwin-wrapper-949.0.1</tt> <br /> 
+<b>=> Aborted</b> <tt>cctools-binutils-darwin-wrapper-949.0.1</tt> <br />
 </li>
 <li>
-<b>=> Aborted</b> <tt>cctools-binutils-darwin-wrapper-949.0.1</tt> <br /> 
+<b>=> Aborted</b> <tt>cctools-binutils-darwin-wrapper-949.0.1</tt> <br />
 </li>
 </ul>
 </details>
@@ -38886,7 +38886,7 @@ Built for evals:
 <b>=> Failed</b> <tt>test-writers-rust-bin</tt> <br /> <a href='https://hydra.nixos.org/build/167414230/nixlog/24'>log</a>, <a href='https://hydra.nixos.org/build/167414230/nixlog/24/raw'>raw</a>, <a href='https://hydra.nixos.org/build/167414230/nixlog/24/tail'>tail</a>
 </li>
 <li>
-<b>=> Failed</b> <tt>test-writers-rust-bin</tt> <br /> 
+<b>=> Failed</b> <tt>test-writers-rust-bin</tt> <br />
 </li>
 <li>
 <b>=> Aborted</b> <tt>run-test-writers-haskell-path</tt> <br /> <a href='https://hydra.nixos.org/build/167414230/nixlog/5'>log</a>, <a href='https://hydra.nixos.org/build/167414230/nixlog/5/raw'>raw</a>, <a href='https://hydra.nixos.org/build/167414230/nixlog/5/tail'>tail</a>
@@ -39227,7 +39227,7 @@ Built for evals:
 <b>=> Failed</b> <tt>python2.7-scandir-1.10.0</tt> <br /> <a href='https://hydra.nixos.org/build/167428563/nixlog/15'>log</a>, <a href='https://hydra.nixos.org/build/167428563/nixlog/15/raw'>raw</a>, <a href='https://hydra.nixos.org/build/167428563/nixlog/15/tail'>tail</a>, <a href='https://hydra.nixos.org/build/167422268'>build 167422268</a>
 </li>
 <li>
-<b>=> Failed</b> <tt>python2.7-scandir-1.10.0</tt> <br /> 
+<b>=> Failed</b> <tt>python2.7-scandir-1.10.0</tt> <br />
 </li>
 </ul>
 </details>

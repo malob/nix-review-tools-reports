@@ -1,5 +1,5 @@
 ---
-title: nixpkgs:nixpkgs-unstable-aarch64-darwin 1746935
+title: nixpkgs:nixpkgs-unstable-aarch64-darwin 1746935 (succeeded)
 categories: nixpkgs:nixpkgs-unstable-aarch64-darwin
 ---
 # Evals report
@@ -10,7 +10,7 @@ Built for evals:
 
   * [1746935](https://hydra.nixos.org/eval/1746935)
 
- * * * 
+ * * *
 
 ### x86_64-linux
 
@@ -10499,10 +10499,10 @@ Built for evals:
 <b>=> Failed</b> <tt>arrow-cpp-7.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/168685527/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/168685527/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/168685527/nixlog/3/tail'>tail</a>
 </li>
 <li>
-<b>=> Aborted</b> <tt>arrow-cpp-7.0.0</tt> <br /> 
+<b>=> Aborted</b> <tt>arrow-cpp-7.0.0</tt> <br />
 </li>
 <li>
-<b>=> Aborted</b> <tt>arrow-cpp-7.0.0</tt> <br /> 
+<b>=> Aborted</b> <tt>arrow-cpp-7.0.0</tt> <br />
 </li>
 </ul>
 </details>
@@ -13431,16 +13431,16 @@ Built for evals:
 <b>=> Failed</b> <tt>source</tt> <br /> <a href='https://hydra.nixos.org/build/168250352/nixlog/5'>log</a>, <a href='https://hydra.nixos.org/build/168250352/nixlog/5/raw'>raw</a>, <a href='https://hydra.nixos.org/build/168250352/nixlog/5/tail'>tail</a>
 </li>
 <li>
-<b>=> Failed</b> <tt>source</tt> <br /> 
+<b>=> Failed</b> <tt>source</tt> <br />
 </li>
 <li>
-<b>=> Failed</b> <tt>source</tt> <br /> 
+<b>=> Failed</b> <tt>source</tt> <br />
 </li>
 <li>
-<b>=> Failed</b> <tt>source</tt> <br /> 
+<b>=> Failed</b> <tt>source</tt> <br />
 </li>
 <li>
-<b>=> Failed</b> <tt>source</tt> <br /> 
+<b>=> Failed</b> <tt>source</tt> <br />
 </li>
 </ul>
 </details>
@@ -16537,16 +16537,16 @@ Built for evals:
 <b>=> Failed</b> <tt>source</tt> <br /> <a href='https://hydra.nixos.org/build/167159499/nixlog/5'>log</a>, <a href='https://hydra.nixos.org/build/167159499/nixlog/5/raw'>raw</a>, <a href='https://hydra.nixos.org/build/167159499/nixlog/5/tail'>tail</a>
 </li>
 <li>
-<b>=> Failed</b> <tt>source</tt> <br /> 
+<b>=> Failed</b> <tt>source</tt> <br />
 </li>
 <li>
-<b>=> Failed</b> <tt>source</tt> <br /> 
+<b>=> Failed</b> <tt>source</tt> <br />
 </li>
 <li>
-<b>=> Failed</b> <tt>source</tt> <br /> 
+<b>=> Failed</b> <tt>source</tt> <br />
 </li>
 <li>
-<b>=> Failed</b> <tt>source</tt> <br /> 
+<b>=> Failed</b> <tt>source</tt> <br />
 </li>
 </ul>
 </details>
@@ -27427,19 +27427,19 @@ Built for evals:
 <b>=> Failed</b> <tt>ruby2.7.5-vimgolf-0.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/168695282/nixlog/10'>log</a>, <a href='https://hydra.nixos.org/build/168695282/nixlog/10/raw'>raw</a>, <a href='https://hydra.nixos.org/build/168695282/nixlog/10/tail'>tail</a>
 </li>
 <li>
-<b>=> Aborted</b> <tt>ruby2.7.5-vimgolf-0.5.0</tt> <br /> 
+<b>=> Aborted</b> <tt>ruby2.7.5-vimgolf-0.5.0</tt> <br />
 </li>
 <li>
-<b>=> Aborted</b> <tt>ruby2.7.5-vimgolf-0.5.0</tt> <br /> 
+<b>=> Aborted</b> <tt>ruby2.7.5-vimgolf-0.5.0</tt> <br />
 </li>
 <li>
-<b>=> Aborted</b> <tt>ruby2.7.5-vimgolf-0.5.0</tt> <br /> 
+<b>=> Aborted</b> <tt>ruby2.7.5-vimgolf-0.5.0</tt> <br />
 </li>
 <li>
 <b>=> Aborted</b> <tt>ruby2.7.5-json_pure-2.6.1</tt> <br /> <a href='https://hydra.nixos.org/build/168695282/nixlog/5'>log</a>, <a href='https://hydra.nixos.org/build/168695282/nixlog/5/raw'>raw</a>, <a href='https://hydra.nixos.org/build/168695282/nixlog/5/tail'>tail</a>
 </li>
 <li>
-<b>=> Aborted</b> <tt>ruby2.7.5-json_pure-2.6.1</tt> <br /> 
+<b>=> Aborted</b> <tt>ruby2.7.5-json_pure-2.6.1</tt> <br />
 </li>
 </ul>
 </details>

@@ -1,5 +1,5 @@
 ---
-title: nixos:release-21.11-aarch64 1747168
+title: nixos:release-21.11-aarch64 1747168 (succeeded)
 categories: nixos:release-21.11-aarch64
 ---
 # Evals report
@@ -10,7 +10,7 @@ Built for evals:
 
   * [1747168](https://hydra.nixos.org/eval/1747168)
 
- * * * 
+ * * *
 
 ### x86_64-linux
 
@@ -307,7 +307,7 @@ Built for evals:
 <b>=> Failed</b> <tt>boost-1.65.1</tt> <br /> <a href='https://hydra.nixos.org/build/167355249'>build 167355249</a>
 </li>
 <li>
-<b>=> Failed</b> <tt>boost-1.65.1</tt> <br /> 
+<b>=> Failed</b> <tt>boost-1.65.1</tt> <br />
 </li>
 <li>
 <b>=> Cached failure</b> <tt>boost-1.65.1</tt> <br /> <a href='https://hydra.nixos.org/build/166815733'>build 166815733</a>
@@ -330,7 +330,7 @@ Built for evals:
 <b>=> Failed</b> <tt>gmp-4.3.2</tt> <br /> <a href='https://hydra.nixos.org/build/167349237'>build 167349237</a>
 </li>
 <li>
-<b>=> Failed</b> <tt>gmp-4.3.2</tt> <br /> 
+<b>=> Failed</b> <tt>gmp-4.3.2</tt> <br />
 </li>
 <li>
 <b>=> Cached failure</b> <tt>gmp-4.3.2</tt> <br /> <a href='https://hydra.nixos.org/build/166734633'>build 166734633</a>
@@ -950,10 +950,10 @@ Built for evals:
 <b>=> Failed</b> <tt>ruby2.7.5-nokogiri-1.10.3</tt> <br /> <a href='https://hydra.nixos.org/build/167365012/nixlog/4'>log</a>, <a href='https://hydra.nixos.org/build/167365012/nixlog/4/raw'>raw</a>, <a href='https://hydra.nixos.org/build/167365012/nixlog/4/tail'>tail</a>
 </li>
 <li>
-<b>=> Failed</b> <tt>ruby2.7.5-nokogiri-1.10.3</tt> <br /> 
+<b>=> Failed</b> <tt>ruby2.7.5-nokogiri-1.10.3</tt> <br />
 </li>
 <li>
-<b>=> Failed</b> <tt>ruby2.7.5-nokogiri-1.10.3</tt> <br /> 
+<b>=> Failed</b> <tt>ruby2.7.5-nokogiri-1.10.3</tt> <br />
 </li>
 <li>
 <b>=> Cached failure</b> <tt>ruby2.7.5-nokogiri-1.10.3</tt> <br /> <a href='https://hydra.nixos.org/build/167276247'>build 167276247</a>
@@ -1122,22 +1122,22 @@ Built for evals:
 <b>=> Failed</b> <tt>coreutils-9.0</tt> <br /> <a href='https://hydra.nixos.org/build/164466133/nixlog/8'>log</a>, <a href='https://hydra.nixos.org/build/164466133/nixlog/8/raw'>raw</a>, <a href='https://hydra.nixos.org/build/164466133/nixlog/8/tail'>tail</a>
 </li>
 <li>
-<b>=> Failed</b> <tt>coreutils-9.0</tt> <br /> 
+<b>=> Failed</b> <tt>coreutils-9.0</tt> <br />
 </li>
 <li>
-<b>=> Failed</b> <tt>coreutils-9.0</tt> <br /> 
+<b>=> Failed</b> <tt>coreutils-9.0</tt> <br />
 </li>
 <li>
-<b>=> Failed</b> <tt>coreutils-9.0</tt> <br /> 
+<b>=> Failed</b> <tt>coreutils-9.0</tt> <br />
 </li>
 <li>
-<b>=> Failed</b> <tt>coreutils-9.0</tt> <br /> 
+<b>=> Failed</b> <tt>coreutils-9.0</tt> <br />
 </li>
 <li>
-<b>=> Failed</b> <tt>coreutils-9.0</tt> <br /> 
+<b>=> Failed</b> <tt>coreutils-9.0</tt> <br />
 </li>
 <li>
-<b>=> Failed</b> <tt>coreutils-9.0</tt> <br /> 
+<b>=> Failed</b> <tt>coreutils-9.0</tt> <br />
 </li>
 <li>
 <b>=> Cached failure</b> <tt>coreutils-9.0</tt> <br /> <a href='https://hydra.nixos.org/build/164372997'>build 164372997</a>
@@ -1157,10 +1157,10 @@ Built for evals:
 <b>=> Failed</b> <tt>boost-1.65.1</tt> <br /> <a href='https://hydra.nixos.org/build/167369301/nixlog/4'>log</a>, <a href='https://hydra.nixos.org/build/167369301/nixlog/4/raw'>raw</a>, <a href='https://hydra.nixos.org/build/167369301/nixlog/4/tail'>tail</a>
 </li>
 <li>
-<b>=> Failed</b> <tt>boost-1.65.1</tt> <br /> 
+<b>=> Failed</b> <tt>boost-1.65.1</tt> <br />
 </li>
 <li>
-<b>=> Failed</b> <tt>boost-1.65.1</tt> <br /> 
+<b>=> Failed</b> <tt>boost-1.65.1</tt> <br />
 </li>
 <li>
 <b>=> Cached failure</b> <tt>boost-1.65.1</tt> <br /> <a href='https://hydra.nixos.org/build/167278431'>build 167278431</a>
@@ -1935,7 +1935,7 @@ Built for evals:
 <b>=> Failed</b> <tt>boost-1.65.1</tt> <br /> <a href='https://hydra.nixos.org/build/167355249/nixlog/4'>log</a>, <a href='https://hydra.nixos.org/build/167355249/nixlog/4/raw'>raw</a>, <a href='https://hydra.nixos.org/build/167355249/nixlog/4/tail'>tail</a>
 </li>
 <li>
-<b>=> Failed</b> <tt>boost-1.65.1</tt> <br /> 
+<b>=> Failed</b> <tt>boost-1.65.1</tt> <br />
 </li>
 <li>
 <b>=> Failed</b> <tt>boost-1.65.1</tt> <br /> <a href='https://hydra.nixos.org/build/167364923'>build 167364923</a>
@@ -2713,10 +2713,10 @@ Built for evals:
 <b>=> Failed</b> <tt>rocm-runtime-4.3.1</tt> <br /> <a href='https://hydra.nixos.org/build/167342468/nixlog/4'>log</a>, <a href='https://hydra.nixos.org/build/167342468/nixlog/4/raw'>raw</a>, <a href='https://hydra.nixos.org/build/167342468/nixlog/4/tail'>tail</a>
 </li>
 <li>
-<b>=> Failed</b> <tt>rocm-runtime-4.3.1</tt> <br /> 
+<b>=> Failed</b> <tt>rocm-runtime-4.3.1</tt> <br />
 </li>
 <li>
-<b>=> Failed</b> <tt>rocm-runtime-4.3.1</tt> <br /> 
+<b>=> Failed</b> <tt>rocm-runtime-4.3.1</tt> <br />
 </li>
 <li>
 <b>=> Cached failure</b> <tt>rocm-runtime-4.3.1</tt> <br /> <a href='https://hydra.nixos.org/build/167266077'>build 167266077</a>
@@ -2833,10 +2833,10 @@ Built for evals:
 <b>=> Failed</b> <tt>ruby2.7.5-nokogiri-1.10.1</tt> <br /> <a href='https://hydra.nixos.org/build/167364302/nixlog/4'>log</a>, <a href='https://hydra.nixos.org/build/167364302/nixlog/4/raw'>raw</a>, <a href='https://hydra.nixos.org/build/167364302/nixlog/4/tail'>tail</a>
 </li>
 <li>
-<b>=> Failed</b> <tt>ruby2.7.5-nokogiri-1.10.1</tt> <br /> 
+<b>=> Failed</b> <tt>ruby2.7.5-nokogiri-1.10.1</tt> <br />
 </li>
 <li>
-<b>=> Failed</b> <tt>ruby2.7.5-nokogiri-1.10.1</tt> <br /> 
+<b>=> Failed</b> <tt>ruby2.7.5-nokogiri-1.10.1</tt> <br />
 </li>
 <li>
 <b>=> Cached failure</b> <tt>ruby2.7.5-nokogiri-1.10.1</tt> <br /> <a href='https://hydra.nixos.org/build/166689702'>build 166689702</a>
