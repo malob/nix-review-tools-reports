@@ -1,0 +1,84 @@
+{
+  "nodes": {
+    "devshell": {
+      "inputs": {
+        "flake-utils": [
+          "flake-utils"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1646667754,
+        "narHash": "sha256-LahZHvCC3UVzGQ55iWDRZkuDssXl1rYgqgScrPV9S38=",
+        "owner": "numtide",
+        "repo": "devshell",
+        "rev": "59fbe1dfc0de8c3332957c16998a7d16dff365d8",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "devshell",
+        "type": "github"
+      }
+    },
+    "flake-utils": {
+      "locked": {
+        "lastModified": 1644229661,
+        "narHash": "sha256-1YdnJAsNy69bpcjuoKdOYQX0YxZBiCYZo4Twxerqv7k=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "3cecb5b042f7f209c56ffd8371b2711a290ec797",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "nix-review-tools": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1646800028,
+        "narHash": "sha256-j5iJPgzuAFfHqCTZ/wKpfYWk5tHPYJqfm1AGzigKzwg=",
+        "owner": "nix-community",
+        "repo": "nix-review-tools",
+        "rev": "e183ddb864e1ef1bee0d92e70e0510a06ee4ca71",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-community",
+        "repo": "nix-review-tools",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1646470760,
+        "narHash": "sha256-dQISyucVCCPaFioUhy5ZgfBz8rOMKGI8k13aPDFTqEs=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "1fc7212a2c3992eedc6eedf498955c321ad81cc2",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixpkgs-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "devshell": "devshell",
+        "flake-utils": "flake-utils",
+        "nix-review-tools": "nix-review-tools",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
