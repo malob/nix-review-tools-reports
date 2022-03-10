@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
 
     strategy:
-      max-parallel: 1
+      max-parallel: 2
       matrix:
         jobset:
         - 'nixpkgs trunk'
@@ -78,4 +78,5 @@ jobs:
         git config user.email github-actions@github.com
         git add --all
         git commit -m "Add/update $JOBSET report for eval $EVAL"
+        git pull --rebase=true
         git push
