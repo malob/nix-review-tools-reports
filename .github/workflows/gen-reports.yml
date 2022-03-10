@@ -56,9 +56,9 @@ jobs:
       id: cache
       with:
         path: data
-        key: ${{ matrix.jobset }}-${{ steps.get-jobset-ids.outputs.success-id }}-${{ steps.get-jobset-ids.outputs.id }}
+        key: ${{ matrix.jobset }}-${{ steps.get-jobset-ids.outputs.success-id }}-${{ steps.get-jobset-ids.outputs.id }}-
         restore-keys: |
-          ${{ matrix.jobset }}-${{ steps.get-jobset-ids.outputs.success-id }}
+          ${{ matrix.jobset }}-${{ steps.get-jobset-ids.outputs.success-id }}-
           ${{ matrix.jobset }}-
 
     - name: Generate report
