@@ -51,6 +51,7 @@
               echo -e "---\ntitle: $1:$2 $id\ncategories: $1:$2\n---" > $file
             fi
             nix-shell ${nix-review-tools}/shell.nix --run "${nix-review-tools}/eval-report $id" >> $file
+            rm eval_$id
           '';
         };
         defaultPackage = packages.gen-report;
