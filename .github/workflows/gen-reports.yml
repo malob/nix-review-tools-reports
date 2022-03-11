@@ -4,6 +4,9 @@ on:
   push:
     branches:
     - master
+    paths:
+    - flake.*
+    - .github/workflows/gen-reports.yml
 
   schedule:
    - cron: '0 */1 * * *'
