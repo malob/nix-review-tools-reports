@@ -4,7 +4,7 @@ categories: nixos:release-21.11
 ---
 # Evals report
 
-*Report built at 2022-03-11 12:25:17 UTC*
+*Report built at 2022-03-11 13:29:36 UTC*
 
 Built for evals:
 
@@ -8443,7 +8443,7 @@ Built for evals:
 ### x86_64-linux
 
 
- * 289 issues
+ * 290 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -10706,6 +10706,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/168905801'>nixos.tests.initrd-network-openvpn.x86_64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/168905936'>nixos.tests.kubernetes.rbac-single-node</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -15252,7 +15258,7 @@ Built for evals:
 ### Still queued
 
 
- * 483 issues
+ * 478 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -15955,13 +15961,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/168905936'>nixos.tests.kubernetes.rbac-single-node</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/168946002'>nixos.tests.lxd-image.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -16158,13 +16157,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/168946069'>nixpkgs.calligra.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/168946369'>nixpkgs.calligra.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -16242,13 +16234,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/168945916'>nixpkgs.kdev-php.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/168946294'>nixpkgs.kdev-php.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -16256,24 +16241,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/168945709'>nixpkgs.kdev-python.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/168946170'>nixpkgs.kdev-python.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/168945676'>nixpkgs.kdevelop-unwrapped.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
