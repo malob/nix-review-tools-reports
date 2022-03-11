@@ -10,7 +10,8 @@ layout: default
 
   {%- if site.posts.size > 0 -%}
     <ul class="post-list">
-      {%- for category in site.categories -%}
+      {% assign categories = site.categories | sort %}
+      {%- for category in categories -%}
       <li>
         <details>
           <summary>{{ category[0] }}</summary>
