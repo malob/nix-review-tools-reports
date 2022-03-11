@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-unstable-aarch64-darwin
 ---
 # Evals report
 
-*Report built at 2022-03-11 10:14:30 UTC*
+*Report built at 2022-03-11 11:13:08 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### aarch64-darwin
 
 
- * 2930 issues
+ * 2931 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -32839,6 +32839,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/168990604'>deltachat-cursed.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/167145065'>dgen-sdl.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -32976,7 +32982,7 @@ Built for evals:
 ### Still queued
 
 
- * 53 issues
+ * 52 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -33015,13 +33021,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/168945405'>crystal2nix.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/168990604'>deltachat-cursed.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
