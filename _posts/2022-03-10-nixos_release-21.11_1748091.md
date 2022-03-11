@@ -4,7 +4,7 @@ categories: nixos:release-21.11
 ---
 # Evals report
 
-*Report built at 2022-03-11 20:26:18 UTC*
+*Report built at 2022-03-11 20:40:59 UTC*
 
 Built for evals:
 
@@ -15264,7 +15264,7 @@ Built for evals:
 ### Still queued
 
 
- * 474 issues
+ * 473 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -15646,13 +15646,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/168946103'>nixos.tests.containers-portforward.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/168906804'>nixos.tests.containers-reloadable.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
