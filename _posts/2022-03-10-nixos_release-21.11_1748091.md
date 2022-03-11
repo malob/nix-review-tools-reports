@@ -4,7 +4,7 @@ categories: nixos:release-21.11
 ---
 # Evals report
 
-*Report built at 2022-03-11 13:29:36 UTC*
+*Report built at 2022-03-11 14:32:18 UTC*
 
 Built for evals:
 
@@ -8443,7 +8443,7 @@ Built for evals:
 ### x86_64-linux
 
 
- * 290 issues
+ * 291 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -10706,6 +10706,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/168905801'>nixos.tests.initrd-network-openvpn.x86_64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/168906498'>nixos.tests.kubernetes.rbac-multi-node</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -15258,7 +15264,7 @@ Built for evals:
 ### Still queued
 
 
- * 478 issues
+ * 476 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -15954,13 +15960,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/168906498'>nixos.tests.kubernetes.rbac-multi-node</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/168946002'>nixos.tests.lxd-image.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -16168,13 +16167,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/168945597'>nixpkgs.digikam.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
