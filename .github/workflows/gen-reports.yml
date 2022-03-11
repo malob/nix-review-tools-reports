@@ -10,24 +10,38 @@ on:
 
 jobs:
   generante-reports:
-    name: Generate reports
-    runs-on: ubuntu-latest
 
     strategy:
       fail-fast: false
       max-parallel: 2
       matrix:
-        jobset:
-        - 'nixpkgs trunk'
-        - 'nixpkgs nixpkgs-unstable-aarch64-darwin'
-        - 'nixpkgs nixpkgs-21.11-darwin'
-        - 'nixpkgs staging-next'
-        - 'nixpkgs staging-next-21.11'
-        - 'nixos trunk-combined'
-        - 'nixos release-21.11'
-        - 'nixos release-21.11-aarch64'
+        include:
+        - project: nixpkgs
+          jobset: trunk
+        - project: nixpkgs
+          jobset: nixpkgs-unstable-aarch64-darwin
+        - project: nixpkgs
+          jobset: nixpkgs-21.11-darwin
+        - project: nixpkgs
+          jobset: staging-next
+        - project: nixpkgs
+          jobset: staging-next-21.11
+        - project: nixos
+          jobset: trunk-combined
+        - project: nixos
+          jobset: release-21.11
+        - project: nixos
+          jobset: release-21.11-aarch64
+
+    name: Generate ${{ matrix.project }}:${{ matrix.jobset }} report
+
+    env:
+      PROJECT: ${{ matrix.project }}
+      JOBSET: ${{ matrix.jobset }}
+    runs-on: ubuntu-latest
 
     steps:
+
     - name: Checkout repository
       uses: actions/checkout@v3
       with:
@@ -47,38 +61,33 @@ jobs:
 
     - name: Get jobset eval IDs
       id: get-jobset-ids
-      env:
-        JOBSET: ${{ matrix.jobset }}
       run: |
-        echo "::set-output name=id::$(nix run .#jobset-latest-eval-id -- $JOBSET)"
-        echo "::set-output name=success-id::$(nix run .#jobset-latest-successful-eval-id -- $JOBSET)"
+        echo "::set-output name=id::$(nix run .#jobset-latest-eval-id -- $PROJECT $JOBSET)"
+        echo "::set-output name=success-id::$(nix run .#jobset-latest-successful-eval-id -- $PROJECT $JOBSET)"
 
     - name: Get cache
       uses: actions/cache@v2
       id: cache
       with:
         path: data
-        key: ${{ matrix.jobset }}-${{ steps.get-jobset-ids.outputs.success-id }}-${{ steps.get-jobset-ids.outputs.id }}-
+        key: ${{ matrix.project }}:${{ matrix.jobset }}-${{ steps.get-jobset-ids.outputs.success-id }}-${{ steps.get-jobset-ids.outputs.id }}
         restore-keys: |
-          ${{ matrix.jobset }}-${{ steps.get-jobset-ids.outputs.success-id }}-
-          ${{ matrix.jobset }}-
+          ${{ matrix.project }}:${{ matrix.jobset }}-${{ steps.get-jobset-ids.outputs.success-id }}-
+          ${{ matrix.project }}:${{ matrix.jobset }}-
 
     - name: Generate report
       if: steps.get-jobset-ids.outputs.success-id != steps.get-jobset-ids.outputs.id || steps.cache.outputs.cache-hit != 'true'
-      env:
-        JOBSET: ${{ matrix.jobset }}
       run: |
-        nix run . -- $JOBSET
+        nix run . -- $PROJECT $JOBSET
 
     - name: Push new/updated report
       if: steps.get-jobset-ids.outputs.success-id != steps.get-jobset-ids.outputs.id || steps.cache.outputs.cache-hit != 'true'
       env:
-        JOBSET: ${{ matrix.jobset }}
         EVAL: ${{ steps.get-jobset-ids.outputs.id }}
       run: |
         git config user.name github-actions
         git config user.email github-actions@github.com
         git add --all
-        git commit -m "Add/update $JOBSET report for eval $EVAL"
+        git commit -m "Add/update $PROJECT:$JOBSET report for eval $EVAL"
         git pull --rebase=true
         git push
