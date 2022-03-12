@@ -1,16 +1,36 @@
 ---
-title: nixpkgs:nixpkgs-unstable-aarch64-darwin 1748312
+title: nixpkgs:nixpkgs-unstable-aarch64-darwin 1748312 (succeeded)
 categories: nixpkgs:nixpkgs-unstable-aarch64-darwin
 ---
 # Evals report
 
-*Report built at 2022-03-12 09:12:31 UTC*
+*Report built at 2022-03-12 10:11:19 UTC*
 
 Built for evals:
 
   * [1748312](https://hydra.nixos.org/eval/1748312)
 
  * * * 
+
+### x86_64-linux
+
+
+ * 1 issues
+<details><summary>Failure table</summary>
+<table>
+<thead><tr>
+<th>job</th>
+<th>status</th>
+</tr></thead>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/169004124'>tarball</a></tt>
+</td>
+<td>Cancelled</td>
+</tr>
+</table>
+</details>
+
 
 ### aarch64-darwin
 
@@ -33196,28 +33216,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/167559100'>tecnoballz.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
- * 1 issues
-<details><summary>Failure table</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/169004124'>tarball</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
