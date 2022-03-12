@@ -4,7 +4,7 @@ categories: nixos:release-21.11
 ---
 # Evals report
 
-*Report built at 2022-03-12 07:31:16 UTC*
+*Report built at 2022-03-12 08:32:47 UTC*
 
 Built for evals:
 
@@ -14914,7 +14914,7 @@ Built for evals:
 ### Still queued
 
 
- * 1741 issues
+ * 1740 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -27059,13 +27059,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/169000871'>nixpkgs.qtcreator.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
