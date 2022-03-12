@@ -4,7 +4,7 @@ categories: nixos:release-21.11
 ---
 # Evals report
 
-*Report built at 2022-03-12 04:32:23 UTC*
+*Report built at 2022-03-12 05:28:25 UTC*
 
 Built for evals:
 
@@ -10414,7 +10414,7 @@ Built for evals:
 ### aarch64-linux
 
 
- * 505 issues
+ * 506 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -14867,6 +14867,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/169001582'>nixos.tests.iscsi-root.aarch64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/169000268'>nixos.tests.nats.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -14896,7 +14902,7 @@ Built for evals:
 ### Still queued
 
 
- * 1744 issues
+ * 1743 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -16723,13 +16729,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/169001582'>nixos.tests.iscsi-root.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
