@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-03-13 11:24:48 UTC*
+*Report built at 2022-03-13 12:32:08 UTC*
 
 Built for evals:
 
