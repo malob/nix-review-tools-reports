@@ -4,7 +4,7 @@ categories: nixos:release-21.11
 ---
 # Evals report
 
-*Report built at 2022-03-13 22:27:01 UTC*
+*Report built at 2022-03-13 23:27:29 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### i686-linux
 
 
- * 126 issues
+ * 128 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -408,6 +408,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>SHA-1.6.4.4</tt> <br /> <a href='https://hydra.nixos.org/build/169106794/nixlog/46'>log</a>, <a href='https://hydra.nixos.org/build/169106794/nixlog/46/raw'>raw</a>, <a href='https://hydra.nixos.org/build/169106794/nixlog/46/tail'>tail</a>, <a href='https://hydra.nixos.org/build/169112916'>build 169112916</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/169137309'>nixos.tests.sogo.i686-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>sope-5.4.0</tt> <br /> <a href='https://hydra.nixos.org/build/169137309/nixlog/22'>log</a>, <a href='https://hydra.nixos.org/build/169137309/nixlog/22/raw'>raw</a>, <a href='https://hydra.nixos.org/build/169137309/nixlog/22/tail'>tail</a>
 </li>
 </ul>
 </details>
@@ -1018,6 +1032,12 @@ Built for evals:
 </td>
 <td>Timed out</td>
 </tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/169151344'>nixos.tests.avahi.i686-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
 </table>
 </details>
 
@@ -1025,7 +1045,7 @@ Built for evals:
 ### x86_64-linux
 
 
- * 312 issues
+ * 313 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -3351,6 +3371,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/169101465'>nixos.tests.nats.x86_64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/169089588'>nixos.tests.quorum.x86_64-linux</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -7641,7 +7667,7 @@ Built for evals:
 ### Still queued
 
 
- * 53 issues
+ * 46 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -7652,13 +7678,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/169139036'>nixos.closures.ec2.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/169151344'>nixos.tests.avahi.i686-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>i686-linux</th>
@@ -7764,20 +7783,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/169153652'>nixos.tests.kafka.kafka_2_8.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/169090379'>nixos.tests.kernel-generic.linux_4_14.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/169093336'>nixos.tests.kernel-generic.linux_4_14_hardened.i686-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>i686-linux</th>
@@ -7903,20 +7908,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/169089588'>nixos.tests.quorum.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/169137309'>nixos.tests.sogo.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/169079151'>nixos.tests.solr.i686-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -7952,13 +7943,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/169093197'>nixpkgs.linux-rt.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/169154048'>nixpkgs.linux-rt_latest.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -7967,13 +7951,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/169126957'>nixpkgs.linuxKernel.kernels.linux_rt_5_10.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/169089255'>nixpkgs.linuxKernel.kernels.linux_rt_5_4.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -8681,6 +8658,16 @@ Built for evals:
 <details><summary>i686-linux <tt>gradle-6.9.1</tt></summary>
 <ul>
 <li>nixos.tests.mxisd.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary>i686-linux <tt>sope-5.4.0</tt></summary>
+<ul>
+<li>nixos.tests.sogo.i686-linux</li>
 </ul>
 </details>
 </td>
