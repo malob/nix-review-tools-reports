@@ -65,26 +65,33 @@ jobs:
     - name: Get jobset eval IDs
       id: get-jobset-ids
       run: |
-        echo "::set-output name=id::$(nix run .#jobset-latest-eval-id -- $PROJECT $JOBSET)"
-        echo "::set-output name=success-id::$(nix run .#jobset-latest-successful-eval-id -- $PROJECT $JOBSET)"
+        id=$(nix run .#jobset-latest-eval-id -- $PROJECT $JOBSET)
+        successid=$(nix run .#jobset-latest-successful-eval-id -- $PROJECT $JOBSET)
+        echo "::set-output name=id::$id"
+        echo "::set-output name=success-id::$successid"
+        if [ "$id" = "$successid" ]; then
+          echo "::set-output name=unique-id::success"
+        else
+          echo "::set-output name=unique-id::$(date '+%s')"
+        fi
 
     - name: Get cache
       uses: actions/cache@v2
       id: cache
       with:
         path: data
-        key: ${{ matrix.project }}:${{ matrix.jobset }}-${{ steps.get-jobset-ids.outputs.success-id }}-${{ steps.get-jobset-ids.outputs.id }}
+        key: ${{ matrix.project }}:${{ matrix.jobset }}-${{ steps.get-jobset-ids.outputs.id }}-${{ steps.get-jobset-ids.outputs.unique-id }}
         restore-keys: |
-          ${{ matrix.project }}:${{ matrix.jobset }}-${{ steps.get-jobset-ids.outputs.success-id }}-
+          ${{ matrix.project }}:${{ matrix.jobset }}-${{ steps.get-jobset-ids.outputs.id }}-
           ${{ matrix.project }}:${{ matrix.jobset }}-
 
     - name: Generate report
-      if: steps.get-jobset-ids.outputs.success-id != steps.get-jobset-ids.outputs.id || steps.cache.outputs.cache-hit != 'true'
+      if: steps.cache.outputs.cache-hit != 'true'
       run: |
         nix run . -- $PROJECT $JOBSET
 
     - name: Push new/updated report
-      if: steps.get-jobset-ids.outputs.success-id != steps.get-jobset-ids.outputs.id || steps.cache.outputs.cache-hit != 'true'
+      if: steps.cache.outputs.cache-hit != 'true'
       env:
         EVAL: ${{ steps.get-jobset-ids.outputs.id }}
       run: |
