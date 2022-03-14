@@ -53,6 +53,16 @@
             nix-shell ${nix-review-tools}/shell.nix --run "${nix-review-tools}/eval-report $id" >> $file
             rm eval_$id
           '';
+
+          rm-reports-older-than = pkgs.writeShellScriptBin "rm-reports-older-than" ''
+            date=$(${date} -Iseconds --date "-$1 $2")
+            git ls-files _posts | while read path
+            do
+              if [ "$(git log --since \"$date\" -- $path)" == "" ]; then
+                rm $path
+              fi
+            done
+          '';
         };
         defaultPackage = packages.gen-report;
         apps.gen-report = flake-utils.lib.mkApp { drv = packages.gen-report; };

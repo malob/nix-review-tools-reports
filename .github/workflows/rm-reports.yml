@@ -1,0 +1,47 @@
+name: Remove old reports
+
+on:
+  push:
+    branches:
+    - master
+    paths:
+    - flake.*
+    - .github/workflows/rm-reports.yml
+
+  schedule:
+   - cron: '0 0 */1 * *'
+
+jobs:
+  rm-reports:
+    name: Remove old reports
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      with:
+        ref: master
+
+    - name: Install Nix
+      uses: cachix/install-nix-action@v16
+      with:
+        extra_nix_config: |
+          access-tokens = github.com=${{ secrets.GITHUB_TOKEN }}
+
+    - name: Setup Cachix
+      uses: cachix/cachix-action@v10
+      with:
+        name: malo
+        signingKey: ${{ secrets.CACHIX_SIGNING_KEY }}
+
+    - name: Remove reports created over 2 weeks ago
+      run: |
+        nix run .#rm-reports-older-than -- 2 weeks
+
+    - name: Push changes
+      run: |
+        git config user.name github-actions
+        git config user.email github-actions@github.com
+        git add --all
+        git commit -m "Remove reports created over 2 weeks ago"
+        git pull --rebase=true
+        git push
