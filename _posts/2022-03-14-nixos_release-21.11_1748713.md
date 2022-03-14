@@ -1,10 +1,10 @@
 ---
-title: nixos:release-21.11 1748713
+title: nixos:release-21.11 1748713 (succeeded)
 categories: nixos:release-21.11
 ---
 # Evals report
 
-*Report built at 2022-03-14 15:46:47 UTC*
+*Report built at 2022-03-14 16:40:04 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### i686-linux
 
 
- * 139 issues
+ * 140 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -1240,6 +1240,12 @@ Built for evals:
 </td>
 <td>Timed out</td>
 </tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/169209854'>nixos.tests.quorum.i686-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
 </table>
 </details>
 
@@ -1247,7 +1253,7 @@ Built for evals:
 ### x86_64-linux
 
 
- * 317 issues
+ * 318 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -3596,6 +3602,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/169209549'>nixos.tests.kubernetes.rbac-multi-node</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/169209780'>nixos.tests.kubernetes.rbac-single-node</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -7896,35 +7908,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/169091662'>nixpkgs.wapiti.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
- * 2 issues
-<details><summary>Failure table</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/169209780'>nixos.tests.kubernetes.rbac-single-node</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/169209854'>nixos.tests.quorum.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
 </tr>
 </table>
 </details>
