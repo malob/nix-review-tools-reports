@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-03-15 05:17:41 UTC*
+*Report built at 2022-03-15 06:20:55 UTC*
 
 Built for evals:
 
@@ -9149,7 +9149,7 @@ Built for evals:
 ### x86_64-linux
 
 
- * 542 issues
+ * 543 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -11607,6 +11607,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/169226807'>nixos.tests.libresprite.x86_64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/169229682'>nixos.tests.libreswan.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -13838,7 +13844,7 @@ Built for evals:
 ### Still queued
 
 
- * 10 issues
+ * 9 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -13877,13 +13883,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/169229434'>nixos.tests.fcitx.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/169226807'>nixos.tests.libresprite.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
