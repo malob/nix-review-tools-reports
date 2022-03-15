@@ -1,10 +1,10 @@
 ---
-title: nixos:trunk-combined 1748954 (succeeded)
+title: nixos:trunk-combined 1748954
 categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-03-15 12:34:08 UTC*
+*Report built at 2022-03-15 21:17:25 UTC*
 
 Built for evals:
 
@@ -9149,7 +9149,7 @@ Built for evals:
 ### x86_64-linux
 
 
- * 547 issues
+ * 546 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -9501,20 +9501,6 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>pangomm-2.42.2</tt> <br /> <a href='https://hydra.nixos.org/build/168584423/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/168584423/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/168584423/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/168584427'>build 168584427</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/169229557'>nixpkgs.haskell-language-server.x86_64-linux</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Cached failure</b> <tt>hls-brittany-plugin-1.0.2.0</tt> <br /> <a href='https://hydra.nixos.org/build/169229557/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/169229557/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/169229557/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/169224715'>build 169224715</a>
 </li>
 </ul>
 </details>
@@ -13864,6 +13850,28 @@ Built for evals:
 </table>
 </details>
 
+
+### Still queued
+
+
+ * 1 issues
+<details><summary>Failure table</summary>
+<table>
+<thead><tr>
+<th>job</th>
+<th>status</th>
+<th>platform</th>
+</tr></thead>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/169229557'>nixpkgs.haskell-language-server.x86_64-linux</a></tt>
+</td>
+<td>Queued</td>
+<th>x86_64-linux</th>
+</tr>
+</table>
+</details>
+
 ## Problematic dependencies
 
 <table>
@@ -14893,17 +14901,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>hls-brittany-plugin-1.0.2.0</tt></summary>
-<ul>
-<li>nixpkgs.haskell-language-server.x86_64-linux</li>
-<li>nixpkgs.haskellPackages.haskell-language-server.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>2</td>
-</tr>
-<tr>
-<td>
 <details><summary>x86_64-linux <tt>nixos-amazon-image-22.05pre-git-x86_64-linux</tt></summary>
 <ul>
 <li>nixos.tests.ec2-config.x86_64-linux</li>
@@ -14987,6 +14984,16 @@ Built for evals:
 </details>
 </td>
 <td>2</td>
+</tr>
+<tr>
+<td>
+<details><summary>x86_64-linux <tt>hls-brittany-plugin-1.0.2.0</tt></summary>
+<ul>
+<li>nixpkgs.haskellPackages.haskell-language-server.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
 </tr>
 <tr>
 <td>
