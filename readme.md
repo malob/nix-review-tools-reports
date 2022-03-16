@@ -18,7 +18,7 @@ For those unfamiliar with Hydra jobsets, each jobset usually corresponds to a br
 
 Code for this project is on GitHub at [malob/nix-review-tools-reports](https://github.com/malob/nix-review-tools-reports). The site itself is hosted using [GitHub Pages](https://pages.github.com), which uses [Jekyll](https://jekyllrb.com) to automatically generate a static site based on the contents of the repository.
 
-Scripts used to generate the sites contents are located in [flake.nix](https://github.com/malob/nix-review-tools-reports/blob/master/flake.nix), which also includes a `devShell` output that creates a shell environment that contains said scripts along with `ruby` (including `bundler`, required for local development of the Jekyll site).
+Scripts used to generate/manage the sites contents are located in [flake.nix](https://github.com/malob/nix-review-tools-reports/blob/master/flake.nix), which also includes a `devShell` output that creates a shell environment that contains said scripts along with `ruby` (including `bundler`, required for local development of the Jekyll site).
 
 Run `nix develop` to load the shell environment.
 
@@ -47,7 +47,7 @@ The `gen-report` script downloads these files into a `data/` directory. Original
 
 #### Remove old reports
 
-The [`rm-reports.yml`](https://github.com/malob/nix-review-tools-reports/blob/master/.github/workflows/rm-reports.yml) workflow runs daily. This workflow removes all reports that were added to the site over 2 weeks ago using the `rm-reports-older-than` script.
+The [rm-reports.yml](https://github.com/malob/nix-review-tools-reports/blob/master/.github/workflows/rm-reports.yml) workflow runs daily. This workflow removes all reports that were added to the site over 2 weeks ago using the `rm-reports-older-than` script.
 
 Old reports are removed because they, aren't particularly valuable, clutter up the site, and increase the time it takes Jekyll to generate the site.
 
@@ -62,9 +62,71 @@ This site currently uses Jekyll's default theme, [Minima](https://github.com/jek
 
 Jekyll also expects the front matter block to include a `layout` key to indicate the layout the post should use, but this sites Jekyll configuration includes a plugin [`jekyll-default-layout`](https://github.com/benbalter/jekyll-default-layout) which automatically sets the appropriate layout for any pages/posts that don't include the `layout` key in their front matter blocks.
 
-Files in [_posts/](https://github.com/malob/nix-review-tools-reports/tree/master/_posts) must be of the form `[YYYY-MM-DD]-[title].MARKUP`, e.g., `2022-03-15-nixos_trunk-combined_1748954.md`. The `gen-report` script uses the date the jobset evaluation was started when naming the file for a given report. The date in the file name is used by Jekyll as meta data for the post.
+Files in [_posts/](https://github.com/malob/nix-review-tools-reports/tree/master/_posts) must be of the form `[YYYY-MM-DD]-[title].MARKUP`, e.g., `2022-03-15-nixos_trunk-combined_1748954.md`. The `gen-report` script uses the date the jobset evaluation was started when naming the file for a given report. The date in the file name is used by Jekyll as metadata for the post.
 
 By default the Minima theme's homepage lists all posts in reverse chronological order based on the date mentioned above. Seeing the list of reports for each evaluations of each jobset in this way isn't particularly helpful. As such, the homepage's layout is overridden by [_layouts/home.html](https://github.com/malob/nix-review-tools-reports/blob/master/_layouts/home.html) to group all posts (reports) by the category (jobset).
+
+### Scripts
+
+Scripts used to generate/manage the sites contents are located in [flake.nix](https://github.com/malob/nix-review-tools-reports/blob/master/flake.nix). To load a shell environment containing these scripts run `nix develop`. Scripts can also be run using `nix run`, .e.g.:
+
+```console
+❯ nix run .#jobset-latest-successful-eval-id -- nixpkgs trunk
+1749064
+```
+
+#### jobset-latest-successful-eval-id
+
+Outputs the ID of the latest successful/finished evaluation of a given jobset.
+
+**Usage:** `jobset-latest-successful-eval-id [project] [jobset]`
+
+```console
+❯ jobset-latest-successful-eval-id nixpkgs trunk
+1749064
+```
+
+#### jobset-latest-eval-id
+
+Outputs the ID of the latest evaluation of a given jobset.
+
+**Usage:** `jobset-latest-eval-id [project] [jobset]`
+
+```console
+❯ jobset-latest-eval-id nixpkgs trunk
+1749156
+```
+
+#### jobset-eval-date
+
+Outputs the date that a given jobset evaluation was started.
+
+**Usage:** `jobset-eval-date [eval id]`
+
+```console
+❯ jobset-eval-date 1749156
+2022-03-15
+```
+
+#### gen-report
+
+Uses `nix-review-tools` to generate a report for the latest evaluation of a given jobset. Hydra build reports and evaluation report downloaded by `nix-review-tools` are placed in a `data/` directory, and the report is output to a file in placed in a `_posts/` directory with a name of the follow form `[YYYY-MM-DD]-[project]_[jobset].md` (where the date is the date output by `jobset-eval-date` for the evaluation) prepended with the front matter metadata block as outline in the Jekyll section above. The Hydra evaluation report downloaded by `nix-review-tools` is then deleted.
+
+**Usage:** `gen-report [project] [jobset]`
+
+```console
+❯ gen-report nixpkgs trunk
+```
+
+#### rm-reports-older-than
+
+Removes all files in the `_posts/` directory that were committed to the repository before a certain time.
+
+**Usage:** `rm-reports-older-than [quantity] [unit of time]`
+
+```console
+❯ rm-reports-older-than 2 weeks
+```
 
 ## Contributing
 
