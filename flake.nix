@@ -40,6 +40,7 @@
 
           gen-report = pkgs.writeShellScriptBin "gen-report" ''
             mkdir -p data
+            mkdir -p _posts
             cd data
             id=$(${jobset-latest-eval-id}/bin/jobset-latest-eval-id $1 $2)
             successid=$(${jobset-latest-successful-eval-id}/bin/jobset-latest-successful-eval-id $1 $2)
