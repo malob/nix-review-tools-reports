@@ -1,6 +1,7 @@
 name: Remove old reports
 
 on:
+  # Run if files that could be relevant change.
   push:
     branches:
     - master
@@ -8,6 +9,7 @@ on:
     - flake.*
     - .github/workflows/rm-reports.yml
 
+  # Run daily
   schedule:
    - cron: '0 0 */1 * *'
 
@@ -27,6 +29,8 @@ jobs:
         extra_nix_config: |
           access-tokens = github.com=${{ secrets.GITHUB_TOKEN }}
 
+    # Use Cachix to cache builds of script etc. from this repo. This speeds up the runtime of this
+    # workflow a little bit.
     - name: Setup Cachix
       uses: cachix/cachix-action@v10
       with:
@@ -43,5 +47,7 @@ jobs:
         git config user.email github-actions@github.com
         git add --all
         git commit -m "Remove reports created over 2 weeks ago"
+        # We need to pull and rebase before we push since the `gen-reports` worflow could be running
+        # and one of it's jobs could have pushed after we checkedout out the repository.
         git pull --rebase=true
         git push
