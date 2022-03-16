@@ -13,16 +13,12 @@
 
       let
         pkgs = nixpkgs.legacyPackages.${system};
-        curl = "${pkgs.curl}/bin/curl";
-        date = "${pkgs.coreutils}/bin/date";
-        jq = "${pkgs.jq}/bin/jq";
-        xargs = "${pkgs.findutils}/bin/xargs";
+        inherit (pkgs) writeShellApplication;
       in
 
       rec {
-
         packages = rec {
-          jobset-latest-successful-eval-id = pkgs.writeShellApplication {
+          jobset-latest-successful-eval-id = writeShellApplication {
             name = "jobset-latest-successful-eval-id";
             runtimeInputs = with pkgs; [ curl jq ];
             text = ''
@@ -31,7 +27,7 @@
             '';
           };
 
-          jobset-latest-eval-id = pkgs.writeShellApplication {
+          jobset-latest-eval-id = writeShellApplication {
             name = "jobset-latest-eval-id";
             runtimeInputs = with pkgs; [ curl jq ];
             text = ''
@@ -40,7 +36,7 @@
             '';
           };
 
-          jobset-eval-date = pkgs.writeShellApplication {
+          jobset-eval-date = writeShellApplication {
             name = "jobset-eval-date";
             runtimeInputs = with pkgs; [ coreutils curl findutils jq ];
             text = ''
@@ -50,7 +46,7 @@
             '';
           };
 
-          gen-report = pkgs.writeShellApplication {
+          gen-report = writeShellApplication {
             name = "gen-report";
             runtimeInputs = [
               jobset-eval-date
@@ -79,7 +75,7 @@
             '';
           };
 
-          rm-reports-older-than = pkgs.writeShellApplication {
+          rm-reports-older-than = writeShellApplication {
             name = "rm-reports-older-than";
             runtimeInputs = with pkgs; [ coreutils git ];
             text = ''
@@ -92,15 +88,12 @@
               done
             '';
           };
+
+          default = gen-report;
         };
-        defaultPackage = packages.gen-report;
-        apps.gen-report = flake-utils.lib.mkApp { drv = packages.gen-report; };
-        defaultApp = apps.gen-report;
 
         devShell = devshell.legacyPackages.${system}.mkShell {
-          packages = with pkgs; [
-            ruby
-          ] ++ pkgs.lib.attrValues packages;
+          packages = [ pkgs.ruby ] ++ pkgs.lib.attrValues packages;
           commands = [
             {
               name = "serve";
