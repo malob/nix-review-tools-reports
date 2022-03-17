@@ -17,7 +17,7 @@ jobs:
   generante-reports:
 
     strategy:
-      # Don't stop other jobs of one job failes.
+      # Don't stop other jobs starting/finishing if a job fails.
       fail-fast: false
       max-parallel: 2
       # See: https://docs.github.com/en/actions/using-jobs/using-a-build-matrix-for-your-jobs
@@ -101,7 +101,7 @@ jobs:
     # workflow don't need to re-download Hydra build reports that were downloaded during previous
     # workflow runs for this jobset.
     #
-    # We should only ever get a exact hit on the key if a previous worflow generated a report for
+    # We should only ever get a exact hit on the key if a previous workflow generated a report for
     # this jobset evaluation after that evaluation finished/succeeded.
     #
     # When we don't get an exact hit we first try to restore the most recent cache for this jobset
@@ -123,15 +123,37 @@ jobs:
     # Generate the report only if we don't have an exact cache hit. If we do have an exact cache hit
     # that means that we already generated a report for the jobset evaluation after the evaluation
     # succeeded/finished, and so the report is already up-to-date.
+    #
+    # After generating the report, we check if there are actually any substantial changes to push.
+    # Example contents of `stats` array: `1 files changed, 230 insertions(+), 24628 deletions(-)`,
+    # where `stats[3]` is `230` and `stats[5]` is `24628`.
+    #
+    # If both are equal to 1, this indicates that this was an update to a report for a jobset
+    # evaluation that's still in progress, but that no additional queued builds completed since
+    # the report was last generated, and so the only update to the report is an update to the
+    # "Report built at ..." line. If that's the case, we don't commit and push that change.
     - name: Generate report
+      id: gen-report
       if: steps.cache.outputs.cache-hit != 'true'
       run: |
         nix run . -- $PROJECT $JOBSET
+        stats=($(git diff --shortstat))
+        if [ "${stats[3]}" -eq 1 ] && [ "${stats[5]}" -eq 1 ]; then
+          echo "::set-output name=push-changes::false"
+        else
+          echo "::set-output name=push-changes::true"
+        fi
+
 
     # Push new/updated report only if we don't have an exact cache hit for the same reasons as
-    # above.
+    # above, and if the report was updated and there were more changes then just an update to the
+    # "Report built at ..." line.
+    #
+    # We need to pull and rebase before we push if the matrix allows jobs to run in parallels, or
+    # other workflows like `rm-reports.yml` that push changes to the repo are setup, since
+    # another job could have pushed after we checked out out the repository.
     - name: Push new/updated report
-      if: steps.cache.outputs.cache-hit != 'true'
+      if: steps.cache.outputs.cache-hit != 'true' && steps.gen-report.outputs.push-changes == 'true'
       env:
         EVAL: ${{ steps.setup-cache-ids.outputs.eval-id }}
       run: |
@@ -139,8 +161,5 @@ jobs:
         git config user.email github-actions@github.com
         git add --all
         git commit -m "Add/update $PROJECT:$JOBSET report for eval $EVAL"
-        # We need to pull and rebase before we push if matrix allows jobs to run in parallels (or
-        # other workflows like `rm-reports` that push changes to the repo are setup) since
-        # another job could have pushed after we checkedout out the repository.
         git pull --rebase=true
         git push
