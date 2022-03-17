@@ -14,13 +14,14 @@
       let
         pkgs = nixpkgs.legacyPackages.${system};
         inherit (pkgs) writeShellApplication;
+        inherit (pkgs.lib) attrValues;
       in
 
       rec {
         packages = rec {
           jobset-latest-successful-eval-id = writeShellApplication {
             name = "jobset-latest-successful-eval-id";
-            runtimeInputs = with pkgs; [ curl jq ];
+            runtimeInputs = attrValues { inherit (pkgs) curl jq; };
             text = ''
               curl -s -L -H 'Accept: application/json' https://hydra.nixos.org/jobset/"$1"/"$2"/latest-eval \
               | jq .id
@@ -29,7 +30,7 @@
 
           jobset-latest-eval-id = writeShellApplication {
             name = "jobset-latest-eval-id";
-            runtimeInputs = with pkgs; [ curl jq ];
+            runtimeInputs = attrValues { inherit (pkgs) curl jq; };
             text = ''
               curl -s -H 'Accept: application/json' https://hydra.nixos.org/jobset/"$1"/"$2"/evals \
               | jq .evals[0].id
@@ -38,7 +39,7 @@
 
           jobset-eval-date = writeShellApplication {
             name = "jobset-eval-date";
-            runtimeInputs = with pkgs; [ coreutils curl findutils jq ];
+            runtimeInputs = attrValues { inherit (pkgs) coreutils curl findutils jq; };
             text = ''
               curl -s -H 'Accept: application/json' https://hydra.nixos.org/eval/"$1" \
               | jq .timestamp \
@@ -77,7 +78,7 @@
 
           rm-reports-older-than = writeShellApplication {
             name = "rm-reports-older-than";
-            runtimeInputs = with pkgs; [ coreutils git ];
+            runtimeInputs = attrValues { inherit (pkgs) coreutils git; };
             text = ''
               date=$(date -Iseconds --date "-$1 $2")
               git ls-files _posts | while read -r path
@@ -93,7 +94,7 @@
         };
 
         devShell = devshell.legacyPackages.${system}.mkShell {
-          packages = [ pkgs.ruby ] ++ pkgs.lib.attrValues packages;
+          packages = [ pkgs.ruby ] ++ attrValues packages;
           commands = [
             {
               name = "serve";
