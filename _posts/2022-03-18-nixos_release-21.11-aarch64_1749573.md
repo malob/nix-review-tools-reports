@@ -4,7 +4,7 @@ categories: nixos:release-21.11-aarch64
 ---
 # Evals report
 
-*Report built at 2022-03-18 14:41:17 UTC*
+*Report built at 2022-03-18 15:43:42 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### aarch64-linux
 
 
- * 540 issues
+ * 541 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -4386,6 +4386,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/169770355'>nixpkgs.paraview.aarch64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/169757743'>nixpkgs.passExtensions.pass-audit.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -4445,7 +4451,7 @@ Built for evals:
 ### Still queued
 
 
- * 16 issues
+ * 15 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -4543,13 +4549,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/169770355'>nixpkgs.paraview.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
