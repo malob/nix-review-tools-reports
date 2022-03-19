@@ -4,7 +4,7 @@ categories: nixos:release-21.11
 ---
 # Evals report
 
-*Report built at 2022-03-19 11:21:30 UTC*
+*Report built at 2022-03-19 13:29:04 UTC*
 
 Built for evals:
 
@@ -3696,7 +3696,7 @@ Built for evals:
 ### aarch64-linux
 
 
- * 511 issues
+ * 512 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -8174,6 +8174,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/170022796'>nixos.tests.installed-tests.flatpak.aarch64-linux</a></tt>
+</td>
+<td>Log limit exceeded</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/170022481'>nixos.tests.gitlab.aarch64-linux</a></tt>
 </td>
 <td>Output size limit exceeded</td>
@@ -8317,7 +8323,7 @@ Built for evals:
 ### Still queued
 
 
- * 12 issues
+ * 11 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -8325,13 +8331,6 @@ Built for evals:
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/170022796'>nixos.tests.installed-tests.flatpak.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/170021316'>nixos.tests.kubernetes.rbac-single-node</a></tt>
