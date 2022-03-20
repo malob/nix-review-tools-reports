@@ -4,7 +4,7 @@ categories: nixos:release-21.11
 ---
 # Evals report
 
-*Report built at 2022-03-19 16:27:02 UTC*
+*Report built at 2022-03-20 12:28:55 UTC*
 
 Built for evals:
 
@@ -3696,7 +3696,7 @@ Built for evals:
 ### aarch64-linux
 
 
- * 513 issues
+ * 514 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -6674,6 +6674,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/169694066'>nixpkgs.libretro.mame.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/169717037'>nixpkgs.libsForQt5.kdb.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -8329,7 +8335,7 @@ Built for evals:
 ### Still queued
 
 
- * 4 issues
+ * 3 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -8343,13 +8349,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/169694066'>nixpkgs.libretro.mame.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
