@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-unstable-aarch64-darwin
 ---
 # Evals report
 
-*Report built at 2022-03-21 21:15:23 UTC*
+*Report built at 2022-03-21 23:11:59 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### aarch64-darwin
 
 
- * 2425 issues
+ * 2426 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -21940,6 +21940,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/170425975'>opentelemetry-collector-contrib.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/169647828'>ophis.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -25455,7 +25461,7 @@ Built for evals:
 ### Still queued
 
 
- * 81 issues
+ * 80 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -25683,13 +25689,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/170430977'>openai.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/170425975'>opentelemetry-collector-contrib.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
