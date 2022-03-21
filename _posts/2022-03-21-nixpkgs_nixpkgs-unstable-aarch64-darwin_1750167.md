@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-unstable-aarch64-darwin
 ---
 # Evals report
 
-*Report built at 2022-03-21 18:18:12 UTC*
+*Report built at 2022-03-21 19:15:15 UTC*
 
 Built for evals:
 
@@ -25674,7 +25674,7 @@ Built for evals:
 ### Still queued
 
 
- * 10 issues
+ * 7 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -25720,27 +25720,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/170425961'>terraform-providers.aws.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/170425960'>terraform-providers.google-beta.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/170425965'>terraform-providers.google.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/170425966'>terraform-providers.ibm.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
