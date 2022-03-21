@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-unstable-aarch64-darwin
 ---
 # Evals report
 
-*Report built at 2022-03-21 09:16:04 UTC*
+*Report built at 2022-03-21 14:16:07 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### aarch64-darwin
 
 
- * 2443 issues
+ * 2444 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -10970,6 +10970,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>python3.10-miniaudio-1.46</tt> <br /> <a href='https://hydra.nixos.org/build/169654431/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/169654431/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/169654431/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/169643816'>build 169643816</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/170425945'>python310Packages.pyaussiebb.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.10-dnspython-2.2.0</tt> <br /> <a href='https://hydra.nixos.org/build/170425945/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/170425945/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/170425945/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/170335402'>build 170335402</a>
 </li>
 </ul>
 </details>
@@ -25646,7 +25660,7 @@ Built for evals:
 ### Still queued
 
 
- * 59 issues
+ * 58 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -25776,13 +25790,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/170425941'>python310Packages.gekitchen.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/170425945'>python310Packages.pyaussiebb.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -26279,6 +26286,7 @@ Built for evals:
 <li>python310Packages.oslo-utils.aarch64-darwin</li>
 <li>python310Packages.parsedmarc.aarch64-darwin</li>
 <li>python310Packages.pvo.aarch64-darwin</li>
+<li>python310Packages.pyaussiebb.aarch64-darwin</li>
 <li>python310Packages.pycfmodel.aarch64-darwin</li>
 <li>python310Packages.pydantic.aarch64-darwin</li>
 <li>python310Packages.pygls.aarch64-darwin</li>
@@ -26324,7 +26332,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>93</td>
+<td>94</td>
 </tr>
 <tr>
 <td>
