@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-21.11-darwin
 ---
 # Evals report
 
-*Report built at 2022-03-22 08:18:43 UTC*
+*Report built at 2022-03-22 10:21:29 UTC*
 
 Built for evals:
 
@@ -55125,7 +55125,7 @@ Built for evals:
 ### Still queued
 
 
- * 13 issues
+ * 12 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -55133,13 +55133,6 @@ Built for evals:
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/169417326'>haskell.compiler.ghcHEAD.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/169423582'>haskell.compiler.integer-simple.ghc901.x86_64-darwin</a></tt>
