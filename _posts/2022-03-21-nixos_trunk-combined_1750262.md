@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-03-22 07:20:13 UTC*
+*Report built at 2022-03-22 08:32:36 UTC*
 
 Built for evals:
 
@@ -9111,7 +9111,7 @@ Built for evals:
 ### x86_64-linux
 
 
- * 1026 issues
+ * 1028 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -14989,6 +14989,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/170428802'>nixpkgs.lumo.x86_64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/170354731'>nixpkgs.maelstrom.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -16549,6 +16555,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/170428989'>nixpkgs.iosevka.x86_64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/170338191'>nixpkgs.python39Packages.nilearn.x86_64-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -16560,7 +16572,7 @@ Built for evals:
 ### Still queued
 
 
- * 1759 issues
+ * 1756 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -22185,13 +22197,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/170430718'>nixpkgs.gl-gsync-demo.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/170428989'>nixpkgs.iosevka.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -28806,13 +28811,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/170428802'>nixpkgs.lumo.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/170428014'>nixpkgs.mangohud.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -28828,13 +28826,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/170428567'>nixpkgs.nvfancontrol.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/170428522'>nixpkgs.odoo.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
