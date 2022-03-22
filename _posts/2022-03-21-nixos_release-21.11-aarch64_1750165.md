@@ -4,7 +4,7 @@ categories: nixos:release-21.11-aarch64
 ---
 # Evals report
 
-*Report built at 2022-03-22 02:41:12 UTC*
+*Report built at 2022-03-22 03:36:20 UTC*
 
 Built for evals:
 
@@ -4542,7 +4542,7 @@ Built for evals:
 ### Still queued
 
 
- * 4 issues
+ * 2 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -4563,20 +4563,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/170425099'>nixpkgs.lumo.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/170425442'>tested</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
