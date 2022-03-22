@@ -4,7 +4,7 @@ categories: nixos:release-21.11
 ---
 # Evals report
 
-*Report built at 2022-03-22 03:36:38 UTC*
+*Report built at 2022-03-22 05:23:26 UTC*
 
 Built for evals:
 
@@ -8389,7 +8389,7 @@ Built for evals:
 ### Still queued
 
 
- * 8 issues
+ * 7 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -8438,13 +8438,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/170424146'>nixpkgs.freecad.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
