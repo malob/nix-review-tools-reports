@@ -4,7 +4,7 @@ categories: nixos:release-21.11-aarch64
 ---
 # Evals report
 
-*Report built at 2022-03-22 13:54:57 UTC*
+*Report built at 2022-03-22 14:46:52 UTC*
 
 Built for evals:
 
@@ -35,7 +35,7 @@ Built for evals:
 ### aarch64-linux
 
 
- * 554 issues
+ * 556 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -4431,7 +4431,19 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/170437758'>nixos.tests.avahi-with-resolved.aarch64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/170437524'>nixos.tests.avahi.aarch64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/170437781'>nixos.tests.cntr.docker.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -4586,7 +4598,7 @@ Built for evals:
 ### Still queued
 
 
- * 278 issues
+ * 273 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -4617,13 +4629,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/170437370'>nixos.containerTarball.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/170437576'>nixos.iso_minimal.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -4632,13 +4637,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/170437073'>nixos.iso_minimal_new_kernel.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/170437577'>nixos.lxdImage.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
@@ -4660,13 +4658,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/170437143'>nixos.sd_image_new_kernel.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/170437758'>nixos.tests.avahi-with-resolved.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
@@ -4695,13 +4686,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/170437303'>nixos.tests.boot.uefiUsb.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/170437781'>nixos.tests.cntr.docker.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
@@ -4782,13 +4766,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/170437499'>nixos.tests.shadowsocks.basic</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
