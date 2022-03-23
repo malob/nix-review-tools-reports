@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-21.11-darwin
 ---
 # Evals report
 
-*Report built at 2022-03-23 22:15:27 UTC*
+*Report built at 2022-03-23 22:32:50 UTC*
 
 Built for evals:
 
@@ -39144,7 +39144,7 @@ Built for evals:
 ### Still queued
 
 
- * 19 issues
+ * 17 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -39176,20 +39176,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/169377802'>python38Packages.ansible-lint.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/169425759'>python38Packages.clevercsv.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/169418375'>python38Packages.deepdiff.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
