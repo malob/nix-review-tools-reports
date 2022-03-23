@@ -19,7 +19,6 @@ jobs:
     strategy:
       # Don't stop other jobs starting/finishing if a job fails.
       fail-fast: false
-      max-parallel: 2
       # Docs: https://docs.github.com/en/actions/using-jobs/using-a-build-matrix-for-your-jobs
       matrix:
         # The jobsets we want to generate evaluation reports for.
