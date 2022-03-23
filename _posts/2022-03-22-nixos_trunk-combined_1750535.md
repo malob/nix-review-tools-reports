@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-03-23 07:20:22 UTC*
+*Report built at 2022-03-23 08:45:02 UTC*
 
 Built for evals:
 
@@ -17112,7 +17112,7 @@ Built for evals:
 ### Still queued
 
 
- * 3117 issues
+ * 3116 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -24193,13 +24193,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/170454759'>nixpkgs.cups-pk-helper.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/170457331'>nixpkgs.cvc4.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
