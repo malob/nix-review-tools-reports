@@ -55,7 +55,7 @@ The `gen-report` script downloads these files into a `data/` directory. Original
 
 #### Remove old reports
 
-The [rm-reports.yml](https://github.com/malob/nix-review-tools-reports/blob/master/.github/workflows/rm-reports.yml) workflow runs daily. This workflow removes all reports that were added to the site over 2 weeks ago using the `rm-reports-older-than` script.
+The [rm-reports.yml](https://github.com/malob/nix-review-tools-reports/blob/master/.github/workflows/rm-reports.yml) workflow runs daily. This workflow removes all reports that were added to the site over a week ago using the `rm-reports-older-than` script.
 
 Old reports are removed because they, aren't particularly valuable, clutter up the site, and increase the time it takes Jekyll to generate the site.
 
