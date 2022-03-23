@@ -164,5 +164,8 @@ jobs:
         git config user.email github-actions@github.com
         git add --all
         git commit -m "Add/update $PROJECT:$JOBSET report for eval $EVAL"
-        git pull --rebase=true
-        git push
+        until git push
+        do
+          git pull --rebase=true
+        done
+
