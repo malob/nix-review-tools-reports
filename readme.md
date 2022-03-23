@@ -20,7 +20,7 @@ I'd like this to be a useful resource to the Nix community, as such, contributio
 
 I'll do my best to fix bugs promptly, but can't guarantee I'll have the time to implement new features etc. However, I'd certainly be happy to review/merge PRs with new features and improvements.
 
-If there's a jobset think would be valuable to add to the site, let me know by opening and issue, or better yet, submit a PR with the jobset added to `jobs.generate-reports.strategy.matrix.include` in [gen-reports.yml](https://github.com/malob/nix-review-tools-reports/blob/master/.github/workflows/gen-reports.yml).
+If there's a jobset you think would be valuable to add to the site, let me know by opening and issue, or better yet, submit a PR with the jobset added to `jobs.generate-reports.strategy.matrix.include` in [gen-reports.yml](https://github.com/malob/nix-review-tools-reports/blob/master/.github/workflows/gen-reports.yml).
 
 ## Technical details
 
@@ -45,7 +45,7 @@ If a report for the latest evaluation of a jobset,
   * was still in progress the last time the report was generated, the report is updated;
   * had finished when the report was previously generated, the workflow does nothing, since the report is already up to date.
 
-When a report for an evaluation is add/updated, if that evaluation had finished prior to generating the report, "(succeeded)" is added to the end of the report title. Note that if a new evaluation for a jobset is started before the prior evaluation succeeds, the report for the prior evaluation won't be updated. As such, if a report on the site does not contain "(succeeded)" this does not necessarily mean that the evaluation didn't eventually succeed/finish.
+When a report for an evaluation is added/updated, if that evaluation had finished prior to generating the report, "(succeeded)" is added to the end of the report title. Note that if a new evaluation for a jobset is started before the prior evaluation succeeds, the report for the prior evaluation won't be updated. As such, if a report on the site does not contain "(succeeded)" this does not necessarily mean that the evaluation didn't eventually succeed/finish.
 
 When generating a report for a jobset evaluation, `nix-review-tools` downloads the Hydra report for each failed build. It's useful to keep a cache of these files since they take a while to download. If not cached, they would need to be re-downloaded whenever a report for a previously unfinished evaluation is updated (which can greatly increase report generation time, as well as increase the load on the Hydra servers unnecessarily). Failed builds also often carry over to new jobset evaluations, so maintaining a cache not only speeds up the process of updating existing reports, but also reports for new evaluations of a given jobset.
 
@@ -72,7 +72,7 @@ Jekyll also expects the front matter block to include a `layout` key to indicate
 
 Files in [_posts/](https://github.com/malob/nix-review-tools-reports/tree/master/_posts) must be of the form `[YYYY-MM-DD]-[title].[markup]`, e.g., `2022-03-15-nixos_trunk-combined_1748954.md`. The `gen-report` script uses the date the jobset evaluation was started when naming the file for a given report. The date in the file name is used by Jekyll as metadata for the post.
 
-By default the Minima theme's homepage lists all posts in reverse chronological order based on the date mentioned above. Seeing the list of reports for each evaluations of each jobset in this way isn't particularly helpful. As such, the homepage's layout is overridden by [_layouts/home.html](https://github.com/malob/nix-review-tools-reports/blob/master/_layouts/home.html) to group all posts (reports) by the category (jobset).
+By default the Minima theme's homepage lists all posts in reverse chronological order based on the date mentioned above. Seeing the list of reports for each evaluation of each jobset in this way isn't particularly helpful. As such, the homepage's layout is overridden by [_layouts/home.html](https://github.com/malob/nix-review-tools-reports/blob/master/_layouts/home.html) to group all posts (reports) by the category (jobset).
 
 ### Scripts
 
@@ -87,7 +87,7 @@ Scripts used to generate/manage the sites contents are located in [flake.nix](ht
 
 Outputs the ID of the latest successful/finished evaluation of a given jobset.
 
-**Usage:** `jobset-latest-successful-eval-id [project] [jobset]`
+**Usage:** `jobset-latest-successful-eval-id PROJECT JOBSET`
 
 ```console
 ❯ jobset-latest-successful-eval-id nixpkgs trunk
@@ -98,7 +98,7 @@ Outputs the ID of the latest successful/finished evaluation of a given jobset.
 
 Outputs the ID of the latest evaluation of a given jobset.
 
-**Usage:** `jobset-latest-eval-id [project] [jobset]`
+**Usage:** `jobset-latest-eval-id PROJECT JOBSET`
 
 ```console
 ❯ jobset-latest-eval-id nixpkgs trunk
@@ -109,7 +109,7 @@ Outputs the ID of the latest evaluation of a given jobset.
 
 Outputs the date that a given jobset evaluation was started.
 
-**Usage:** `jobset-eval-date [eval id]`
+**Usage:** `jobset-eval-date EVALUATION_ID`
 
 ```console
 ❯ jobset-eval-date 1749156
@@ -120,7 +120,7 @@ Outputs the date that a given jobset evaluation was started.
 
 Uses `nix-review-tools` to generate a report for the latest evaluation of a given jobset. The Hydra report for the evaluation and Hydra build reports (for failed builds during that evaluation) downloaded by `nix-review-tools` are placed in a `data/` directory, and the report is output to a file in placed in a `_posts/` directory with a name of the following form `[YYYY-MM-DD]-[project]_[jobset]_[evaluation id].md` (where the date is the date output by `jobset-eval-date` for the evaluation) prepended with the front matter metadata block as outline in the Jekyll section above. The Hydra evaluation report downloaded by `nix-review-tools` is then deleted.
 
-**Usage:** `gen-report [project] [jobset]`
+**Usage:** `gen-report PROJECT JOBSET`
 
 ```console
 ❯ gen-report nixpkgs trunk
@@ -130,7 +130,7 @@ Uses `nix-review-tools` to generate a report for the latest evaluation of a give
 
 Removes all files in the `_posts/` directory that were committed to the repository before a certain time.
 
-**Usage:** `rm-reports-older-than [quantity] [unit of time]`
+**Usage:** `rm-reports-older-than QUANTITY UNIT_OF_TIME`
 
 ```console
 ❯ rm-reports-older-than 2 weeks
