@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-21.11-darwin
 ---
 # Evals report
 
-*Report built at 2022-03-23 08:26:55 UTC*
+*Report built at 2022-03-23 09:26:34 UTC*
 
 Built for evals:
 
@@ -7676,7 +7676,7 @@ Built for evals:
 ### aarch64-darwin
 
 
- * 2833 issues
+ * 2834 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -38917,6 +38917,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/169423194'>python38Packages.nitime.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/169419961'>python38Packages.notify-py.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -39078,7 +39084,7 @@ Built for evals:
 ### Still queued
 
 
- * 32 issues
+ * 29 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -39086,13 +39092,6 @@ Built for evals:
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/170459297'>darwin-tested</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/169377238'>libtensorflow.x86_64-darwin</a></tt>
@@ -39148,13 +39147,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/169423194'>python38Packages.nitime.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -39302,13 +39294,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/170459317'>tarball</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
