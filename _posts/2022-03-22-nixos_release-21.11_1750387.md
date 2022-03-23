@@ -1,10 +1,10 @@
 ---
-title: nixos:release-21.11 1750387
+title: nixos:release-21.11 1750387 (succeeded)
 categories: nixos:release-21.11
 ---
 # Evals report
 
-*Report built at 2022-03-23 05:22:07 UTC*
+*Report built at 2022-03-23 08:55:16 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### i686-linux
 
 
- * 135 issues
+ * 136 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -1216,6 +1216,12 @@ Built for evals:
 </td>
 <td>Timed out</td>
 </tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/170436147'>nixos.tests.quorum.i686-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
 </table>
 </details>
 
@@ -1223,7 +1229,7 @@ Built for evals:
 ### x86_64-linux
 
 
- * 294 issues
+ * 296 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -3543,7 +3549,19 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/170434274'>nixos.tests.kubernetes.rbac-multi-node</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/170433637'>nixos.tests.nats.x86_64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/170433478'>nixos.tests.quorum.x86_64-linux</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -8419,42 +8437,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/169707336'>nixpkgs.wapiti.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
- * 3 issues
-<details><summary>Failure table</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/170434274'>nixos.tests.kubernetes.rbac-multi-node</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/170436147'>nixos.tests.quorum.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/170433478'>nixos.tests.quorum.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
