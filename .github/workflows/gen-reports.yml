@@ -20,7 +20,7 @@ jobs:
       # Don't stop other jobs starting/finishing if a job fails.
       fail-fast: false
       max-parallel: 2
-      # See: https://docs.github.com/en/actions/using-jobs/using-a-build-matrix-for-your-jobs
+      # Docs: https://docs.github.com/en/actions/using-jobs/using-a-build-matrix-for-your-jobs
       matrix:
         # The jobsets we want to generate evaluation reports for.
         include:
@@ -40,6 +40,10 @@ jobs:
           jobset: release-21.11
         - project: nixos
           jobset: release-21.11-aarch64
+
+    # Wait for jobs for same report from previous workflow runs to finish.
+    # Docs: https://docs.github.com/en/actions/using-jobs/using-concurrency
+    concurrency: ${{ matrix.project }}:${{ matrix.jobset }}
 
     name: Generate ${{ matrix.project }}:${{ matrix.jobset }} report
 
