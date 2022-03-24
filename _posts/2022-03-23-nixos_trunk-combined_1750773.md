@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-03-24 19:10:51 UTC*
+*Report built at 2022-03-24 20:17:18 UTC*
 
 Built for evals:
 
@@ -1621,7 +1621,7 @@ Built for evals:
 ### x86_64-linux
 
 
- * 743 issues
+ * 744 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -6223,6 +6223,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/170721813'>nixos.tests.wine.wineWowPackages-wayland.x86_64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/170374892'>nixpkgs._1oom.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -8478,7 +8484,7 @@ Built for evals:
 ### Still queued
 
 
- * 54 issues
+ * 51 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -8726,13 +8732,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/170723468'>nixos.tests.odoo.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/170723007'>nixos.tests.plausible.i686-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -8796,13 +8795,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/170721813'>nixos.tests.wine.wineWowPackages-wayland.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/170721847'>nixos.tests.wireguard.wireguard-basic-linux-5_4.i686-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -8856,13 +8848,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/170722014'>tested</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
