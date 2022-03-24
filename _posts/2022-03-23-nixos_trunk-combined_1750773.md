@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-03-24 02:22:23 UTC*
+*Report built at 2022-03-24 03:19:47 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
- * 1019 issues
+ * 1024 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -4007,6 +4007,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/170457561'>nixpkgs.paperwork.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.9-paperwork-backend-2.1.1</tt> <br /> <a href='https://hydra.nixos.org/build/170457561/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/170457561/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/170457561/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/170476372'>build 170476372</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/170373278'>nixpkgs.perl532Packages.CacheKyotoTycoon.x86_64-linux</a></tt>
 </summary>
 <ul>
@@ -4432,6 +4446,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>notmuch-0.35</tt> <br /> <a href='https://hydra.nixos.org/build/170456559/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/170456559/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/170456559/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/170474170'>build 170474170</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/170455708'>nixpkgs.python310Packages.paperwork-shell.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.10-paperwork-backend-2.1.1</tt> <br /> <a href='https://hydra.nixos.org/build/170455708/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/170455708/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/170455708/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/170457176'>build 170457176</a>
 </li>
 </ul>
 </details>
@@ -5130,6 +5158,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>notmuch-0.35</tt> <br /> <a href='https://hydra.nixos.org/build/170454932/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/170454932/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/170454932/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/170474170'>build 170474170</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/170457225'>nixpkgs.python39Packages.paperwork-shell.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.9-paperwork-backend-2.1.1</tt> <br /> <a href='https://hydra.nixos.org/build/170457225/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/170457225/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/170457225/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/170476372'>build 170476372</a>
 </li>
 </ul>
 </details>
@@ -6556,6 +6598,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/170457176'>nixpkgs.python310Packages.paperwork-backend.x86_64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/170404998'>nixpkgs.python310Packages.pdfx.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -7061,6 +7109,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/170365930'>nixpkgs.python39Packages.openapi-core.x86_64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/170458878'>nixpkgs.python39Packages.paperwork-backend.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -8115,7 +8169,7 @@ Built for evals:
 ### Still queued
 
 
- * 3423 issues
+ * 3409 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -8335,24 +8389,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/170722630'>nixos.manpages.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/170722823'>nixos.manual.i686-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/170722082'>nixos.manual.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -8374,13 +8414,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/170723202'>nixos.manualGeneratedSources.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -8406,13 +8439,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/170722766'>nixos.netboot.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/170724089'>nixos.options</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -24309,13 +24335,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/170456487'>nixpkgs.jpsxdec.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/170723358'>nixpkgs.jsduck.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -24449,28 +24468,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/170455803'>nixpkgs.libreoffice-fresh.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/170458368'>nixpkgs.libreoffice-qt.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/170458724'>nixpkgs.libreoffice-still.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/170457250'>nixpkgs.libreoffice.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -26857,13 +26855,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/170457561'>nixpkgs.paperwork.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/170721183'>nixpkgs.patroni.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -29069,20 +29060,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/170457176'>nixpkgs.python310Packages.paperwork-backend.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/170455708'>nixpkgs.python310Packages.paperwork-shell.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/170721654'>nixpkgs.python310Packages.parver.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -29539,20 +29516,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/170724349'>nixpkgs.python39Packages.osc.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/170458878'>nixpkgs.python39Packages.paperwork-backend.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/170457225'>nixpkgs.python39Packages.paperwork-shell.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -30687,13 +30650,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/170721558'>nixpkgs.unit.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/170457735'>nixpkgs.unoconv.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -32423,6 +32379,17 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary>x86_64-linux <tt>python3.9-paperwork-backend-2.1.1</tt></summary>
+<ul>
+<li>nixpkgs.paperwork.x86_64-linux</li>
+<li>nixpkgs.python39Packages.paperwork-shell.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
 <details><summary>x86_64-linux <tt>perl5.32.1-HTTP-CookieJar-0.010</tt></summary>
 <ul>
 <li>nixpkgs.perl532Packages.CacheKyotoTycoon.x86_64-linux</li>
@@ -32598,6 +32565,16 @@ Built for evals:
 <details><summary>x86_64-linux <tt>python3.10-wasm-1.2</tt></summary>
 <ul>
 <li>nixpkgs.python310Packages.manticore.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary>x86_64-linux <tt>python3.10-paperwork-backend-2.1.1</tt></summary>
+<ul>
+<li>nixpkgs.python310Packages.paperwork-shell.x86_64-linux</li>
 </ul>
 </details>
 </td>
