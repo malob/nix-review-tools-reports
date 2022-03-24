@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-03-24 18:15:08 UTC*
+*Report built at 2022-03-24 19:10:51 UTC*
 
 Built for evals:
 
@@ -8478,7 +8478,7 @@ Built for evals:
 ### Still queued
 
 
- * 55 issues
+ * 54 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -8486,13 +8486,6 @@ Built for evals:
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/170723445'>nixos.iso_gnome.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/170724155'>nixos.tests.agda.i686-linux</a></tt>
