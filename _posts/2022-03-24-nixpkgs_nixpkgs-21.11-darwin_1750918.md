@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-21.11-darwin
 ---
 # Evals report
 
-*Report built at 2022-03-24 18:16:44 UTC*
+*Report built at 2022-03-24 19:11:42 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
- * 1023 issues
+ * 1031 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -1361,6 +1361,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/169381616'>perl534Packages.BoostGeometryUtils.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>perl5.34.0-ExtUtils-CppGuess-0.21</tt> <br /> <a href='https://hydra.nixos.org/build/169381616/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/169381616/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/169381616/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/169374853'>build 169374853</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/169394987'>perl534Packages.CacheKyotoTycoon.x86_64-darwin</a></tt>
 </summary>
 <ul>
@@ -1478,6 +1492,34 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>perl5.34.0-Alien-LibGumbo-0.05</tt> <br /> <a href='https://hydra.nixos.org/build/169383617/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/169383617/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/169383617/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/169390341'>build 169390341</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/169379692'>perl534Packages.MathClipper.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>perl5.34.0-ExtUtils-CppGuess-0.21</tt> <br /> <a href='https://hydra.nixos.org/build/169379692/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/169379692/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/169379692/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/169374853'>build 169374853</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/169404768'>perl534Packages.ModuleBuildWithXSpp.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>perl5.34.0-ExtUtils-CppGuess-0.21</tt> <br /> <a href='https://hydra.nixos.org/build/169404768/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/169404768/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/169404768/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/169374853'>build 169374853</a>
 </li>
 </ul>
 </details>
@@ -4057,6 +4099,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/169419712'>mcrl2.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/169397484'>meilisearch.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -4538,6 +4586,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/169370958'>perl534Packages.DataUtil.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/169374853'>perl534Packages.ExtUtilsCppGuess.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -5107,6 +5161,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/169417970'>python38Packages.ipympl.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/169392424'>python38Packages.ircrobots.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -5222,6 +5282,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/169404326'>python38Packages.pillow-simd.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/169373781'>python38Packages.plugwise.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -5576,6 +5642,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/169422518'>python39Packages.chiapos.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/169373804'>python39Packages.chiavdf.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -38968,7 +39040,7 @@ Built for evals:
 ### Still queued
 
 
- * 21 issues
+ * 13 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -39006,13 +39078,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/169419712'>mcrl2.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/170858047'>metrics</a></tt>
 </td>
 <td>Queued</td>
@@ -39034,34 +39099,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/169381616'>perl534Packages.BoostGeometryUtils.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/169374853'>perl534Packages.ExtUtilsCppGuess.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/169379692'>perl534Packages.MathClipper.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/169404768'>perl534Packages.ModuleBuildWithXSpp.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/169371218'>python38Packages.block-io.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -39076,20 +39113,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/169417970'>python38Packages.ipympl.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/169373781'>python38Packages.plugwise.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/169419966'>python38Packages.pypass.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -39098,13 +39121,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/169373048'>python38Packages.recoll.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/169373804'>python39Packages.chiavdf.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -41218,6 +41234,21 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary>aarch64-darwin <tt>perl5.34.0-ExtUtils-CppGuess-0.21</tt></summary>
+<ul>
+<li>perl534Packages.BoostGeometryUtils.aarch64-darwin</li>
+<li>perl534Packages.BoostGeometryUtils.x86_64-darwin</li>
+<li>perl534Packages.MathClipper.aarch64-darwin</li>
+<li>perl534Packages.MathClipper.x86_64-darwin</li>
+<li>perl534Packages.ModuleBuildWithXSpp.aarch64-darwin</li>
+<li>perl534Packages.ModuleBuildWithXSpp.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>6</td>
+</tr>
+<tr>
+<td>
 <details><summary>aarch64-darwin <tt>R-4.1.2</tt></summary>
 <ul>
 <li>postgresql11Packages.plr.aarch64-darwin</li>
@@ -41861,18 +41892,6 @@ Built for evals:
 <li>perl532Packages.CursesUI.aarch64-darwin</li>
 <li>perl532Packages.CursesUIGrid.aarch64-darwin</li>
 <li>perl532Packages.TermAnimation.aarch64-darwin</li>
-</ul>
-</details>
-</td>
-<td>3</td>
-</tr>
-<tr>
-<td>
-<details><summary>aarch64-darwin <tt>perl5.34.0-ExtUtils-CppGuess-0.21</tt></summary>
-<ul>
-<li>perl534Packages.BoostGeometryUtils.aarch64-darwin</li>
-<li>perl534Packages.MathClipper.aarch64-darwin</li>
-<li>perl534Packages.ModuleBuildWithXSpp.aarch64-darwin</li>
 </ul>
 </details>
 </td>
