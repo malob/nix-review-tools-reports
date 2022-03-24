@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-03-23 23:12:07 UTC*
+*Report built at 2022-03-24 02:22:23 UTC*
 
 Built for evals:
 
@@ -8115,7 +8115,7 @@ Built for evals:
 ### Still queued
 
 
- * 3426 issues
+ * 3423 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -24449,13 +24449,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/170454771'>nixpkgs.libreoffice-fresh-unwrapped.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/170455803'>nixpkgs.libreoffice-fresh.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -24470,21 +24463,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/170455853'>nixpkgs.libreoffice-still-unwrapped.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/170458724'>nixpkgs.libreoffice-still.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/170455255'>nixpkgs.libreoffice-unwrapped.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
