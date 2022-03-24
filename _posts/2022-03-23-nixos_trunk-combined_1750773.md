@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-03-24 15:18:01 UTC*
+*Report built at 2022-03-24 16:16:01 UTC*
 
 Built for evals:
 
@@ -1621,7 +1621,7 @@ Built for evals:
 ### x86_64-linux
 
 
- * 743 issues
+ * 741 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -5761,20 +5761,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/170722014'>tested</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Failed</b> <tt>vm-test-run-boot-bios-usb</tt> <br /> <a href='https://hydra.nixos.org/build/170722014/nixlog/428'>log</a>, <a href='https://hydra.nixos.org/build/170722014/nixlog/428/raw'>raw</a>, <a href='https://hydra.nixos.org/build/170722014/nixlog/428/tail'>tail</a>, <a href='https://hydra.nixos.org/build/170723462'>build 170723462</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/170722619'>nixos.amazonImageZfs.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -5794,12 +5780,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/170721215'>nixos.tests.certmgr.systemd.x86_64-linux</a></tt>
-</td>
-<td>Failed</td>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/170721712'>nixos.tests.croc.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -8486,7 +8466,7 @@ Built for evals:
 ### Still queued
 
 
- * 59 issues
+ * 58 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -8504,13 +8484,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/170723445'>nixos.iso_gnome.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/170722781'>nixos.iso_plasma5.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -8539,13 +8512,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/170723814'>nixos.tests.custom-ca.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/170724304'>nixos.tests.discourse.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -8906,6 +8872,13 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>i686-linux</th>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/170722014'>tested</a></tt>
+</td>
+<td>Queued</td>
+<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
@@ -10329,16 +10302,6 @@ Built for evals:
 <details><summary>x86_64-linux <tt>jowi24-libnet++-20180628</tt></summary>
 <ul>
 <li>nixpkgs.vdrPlugins.fritzbox.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary>x86_64-linux <tt>vm-test-run-boot-bios-usb</tt></summary>
-<ul>
-<li>tested</li>
 </ul>
 </details>
 </td>
