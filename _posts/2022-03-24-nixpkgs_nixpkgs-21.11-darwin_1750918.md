@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-21.11-darwin
 ---
 # Evals report
 
-*Report built at 2022-03-24 21:14:01 UTC*
+*Report built at 2022-03-24 23:14:23 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
- * 1032 issues
+ * 1036 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -3373,6 +3373,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/169371296'>haskellPackages.highlight.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/169420338'>haskellPackages.hinotify-conduit.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -4165,6 +4171,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/169370367'>monotone.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/169397464'>mopidy-local.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -4286,6 +4298,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/169419605'>nvi.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/169373016'>octopus-caller.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -5000,6 +5018,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/170438182'>python38Packages.binwalk.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/169371218'>python38Packages.block-io.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -39046,7 +39070,7 @@ Built for evals:
 ### Still queued
 
 
- * 12 issues
+ * 8 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -39077,38 +39101,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/169371296'>haskellPackages.highlight.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/170858047'>metrics</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/169370367'>monotone.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/169373016'>octopus-caller.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/169371218'>python38Packages.block-io.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
