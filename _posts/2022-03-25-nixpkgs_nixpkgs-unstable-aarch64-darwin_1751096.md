@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-unstable-aarch64-darwin
 ---
 # Evals report
 
-*Report built at 2022-03-25 20:12:19 UTC*
+*Report built at 2022-03-25 23:11:50 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### aarch64-darwin
 
 
- * 2429 issues
+ * 2432 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -1702,6 +1702,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/170971150'>flexget.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.9-graphviz-0.19.1</tt> <br /> <a href='https://hydra.nixos.org/build/170971150/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/170971150/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/170971150/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/170335373'>build 170335373</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/169657377'>flight-of-the-amazon-queen.aarch64-darwin</a></tt>
 </summary>
 <ul>
@@ -2469,6 +2483,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>qt-4.8.7</tt> <br /> <a href='https://hydra.nixos.org/build/169633042/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/169633042/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/169633042/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/169658107'>build 169658107</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/170971178'>grass.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>netcdf-4.8.0</tt> <br /> <a href='https://hydra.nixos.org/build/170971178/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/170971178/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/170971178/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/170335345'>build 170335345</a>
 </li>
 </ul>
 </details>
@@ -19127,6 +19155,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/170971156'>cardinal.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/169642308'>cargo-deb.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -25456,7 +25490,7 @@ Built for evals:
 ### Still queued
 
 
- * 47 issues
+ * 36 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -25464,13 +25498,6 @@ Built for evals:
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/170971156'>cardinal.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/170971163'>comby.aarch64-darwin</a></tt>
@@ -25487,21 +25514,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/170971150'>flexget.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/170971160'>framac.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/170971178'>grass.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -25578,13 +25591,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/170868052'>llvmPackages_14.llvm-manpages.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/170867962'>llvmPackages_14.llvm.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -25648,28 +25654,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/170971151'>ocamlformat.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/170971155'>ocamlformat_0_19_0.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/170971177'>ocamlformat_0_20_0.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/170971170'>ocamlformat_0_20_1.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -25697,21 +25682,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/170971162'>popeye.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/170868364'>pulumi-bin.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/170971180'>python310Packages.asyncsleepiq.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -25733,13 +25704,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/170971176'>python310Packages.pikepdf.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/170971159'>python39Packages.asyncsleepiq.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -25778,13 +25742,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/170971161'>v2ray-domain-list-community.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -26061,6 +26018,7 @@ Built for evals:
 <li>awslimitchecker.aarch64-darwin</li>
 <li>commitizen.aarch64-darwin</li>
 <li>cwltool.aarch64-darwin</li>
+<li>flexget.aarch64-darwin</li>
 <li>ioccheck.aarch64-darwin</li>
 <li>napalm.aarch64-darwin</li>
 <li>poetry2conda.aarch64-darwin</li>
@@ -26123,7 +26081,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>63</td>
+<td>64</td>
 </tr>
 <tr>
 <td>
@@ -26138,6 +26096,7 @@ Built for evals:
 <li>gdal.aarch64-darwin</li>
 <li>gdal_2.aarch64-darwin</li>
 <li>gnudatalanguage.aarch64-darwin</li>
+<li>grass.aarch64-darwin</li>
 <li>inormalize.aarch64-darwin</li>
 <li>libLAS.aarch64-darwin</li>
 <li>libminc.aarch64-darwin</li>
@@ -26194,7 +26153,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>62</td>
+<td>63</td>
 </tr>
 <tr>
 <td>
