@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-21.11-darwin
 ---
 # Evals report
 
-*Report built at 2022-03-25 02:18:43 UTC*
+*Report built at 2022-03-25 11:17:13 UTC*
 
 Built for evals:
 
@@ -39014,7 +39014,7 @@ Built for evals:
 ### Still queued
 
 
- * 36 issues
+ * 34 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -39022,20 +39022,6 @@ Built for evals:
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/170858044'>alloy6.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/170858046'>alloy6.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/170868539'>darwin-tested</a></tt>
