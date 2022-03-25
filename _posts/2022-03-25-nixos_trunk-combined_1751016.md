@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-03-25 04:14:52 UTC*
+*Report built at 2022-03-25 08:16:13 UTC*
 
 Built for evals:
 
@@ -4356,6 +4356,13 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/170864356'>nixos.tests.ceph-multi-node.x86_64-linux</a></tt>
+</td>
+<td>Queued</td>
+<th>x86_64-linux</th>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/170863488'>nixos.tests.ceph-single-node-bluestore.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -5284,13 +5291,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/170866880'>nixos.tests.fcitx.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
