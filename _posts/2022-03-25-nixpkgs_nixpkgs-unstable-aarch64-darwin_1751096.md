@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-unstable-aarch64-darwin
 ---
 # Evals report
 
-*Report built at 2022-03-25 18:14:00 UTC*
+*Report built at 2022-03-25 20:12:19 UTC*
 
 Built for evals:
 
@@ -25456,7 +25456,7 @@ Built for evals:
 ### Still queued
 
 
- * 48 issues
+ * 47 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -25789,13 +25789,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/170971181'>v2ray.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/170868033'>werf.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
