@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-03-26 19:10:27 UTC*
+*Report built at 2022-03-26 20:12:36 UTC*
 
 Built for evals:
 
@@ -2209,7 +2209,7 @@ Built for evals:
 ### Still queued
 
 
- * 15160 issues
+ * 15159 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -21120,13 +21120,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/171086233'>nixpkgs.dialogbox.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/171036701'>nixpkgs.dictdDBs.wiktionary.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
