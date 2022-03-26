@@ -4,7 +4,7 @@ categories: nixos:release-21.11-aarch64
 ---
 # Evals report
 
-*Report built at 2022-03-26 03:18:22 UTC*
+*Report built at 2022-03-26 04:14:16 UTC*
 
 Built for evals:
 
@@ -4706,7 +4706,7 @@ Built for evals:
 ### Still queued
 
 
- * 29 issues
+ * 26 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -4856,20 +4856,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/170964410'>nixpkgs.element-desktop-wayland.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/170964421'>nixpkgs.element-desktop.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/170857960'>nixpkgs.firefox-esr-91-unwrapped.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -4885,13 +4871,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/170857839'>nixpkgs.firefoxPackages.firefox-esr-91.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/170964423'>nixpkgs.nextcloud22.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
