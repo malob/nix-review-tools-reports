@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-21.11-darwin
 ---
 # Evals report
 
-*Report built at 2022-03-27 17:13:00 UTC*
+*Report built at 2022-03-27 21:12:41 UTC*
 
 Built for evals:
 
@@ -38962,7 +38962,7 @@ Built for evals:
 ### Still queued
 
 
- * 25 issues
+ * 23 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -39042,13 +39042,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/171097228'>python38Packages.nbxmpp.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/171153030'>python38Packages.pyvips.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -39060,13 +39053,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/171097224'>python39Packages.nbxmpp.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
