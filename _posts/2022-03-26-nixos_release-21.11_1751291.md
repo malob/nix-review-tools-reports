@@ -4,7 +4,7 @@ categories: nixos:release-21.11
 ---
 # Evals report
 
-*Report built at 2022-03-27 02:22:00 UTC*
+*Report built at 2022-03-27 05:13:08 UTC*
 
 Built for evals:
 
@@ -26343,7 +26343,7 @@ Built for evals:
 ### Still queued
 
 
- * 8 issues
+ * 7 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -26351,13 +26351,6 @@ Built for evals:
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/170857474'>nixpkgs.chromium.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/170857519'>nixpkgs.fast-cli.x86_64-linux</a></tt>
