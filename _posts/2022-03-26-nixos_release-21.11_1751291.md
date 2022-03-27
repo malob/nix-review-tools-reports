@@ -4,7 +4,7 @@ categories: nixos:release-21.11
 ---
 # Evals report
 
-*Report built at 2022-03-27 06:16:44 UTC*
+*Report built at 2022-03-27 10:14:06 UTC*
 
 Built for evals:
 
@@ -26343,7 +26343,7 @@ Built for evals:
 ### Still queued
 
 
- * 3 issues
+ * 1 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -26351,20 +26351,6 @@ Built for evals:
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/170857589'>nixpkgs.thunderbird-unwrapped.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/170857717'>nixpkgs.thunderbirdPackages.thunderbird.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/170857617'>nixpkgs.ungoogled-chromium.x86_64-linux</a></tt>
