@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-21.11-darwin
 ---
 # Evals report
 
-*Report built at 2022-03-27 22:13:01 UTC*
+*Report built at 2022-03-27 23:13:01 UTC*
 
 Built for evals:
 
@@ -39088,7 +39088,7 @@ Built for evals:
 ### Still queued
 
 
- * 6 issues
+ * 4 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -39105,13 +39105,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/171153027'>imgproxy.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/171153026'>joplin.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -39123,13 +39116,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/171153022'>nip2.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
