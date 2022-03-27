@@ -4,7 +4,7 @@ categories: nixos:release-21.11-aarch64
 ---
 # Evals report
 
-*Report built at 2022-03-27 17:12:02 UTC*
+*Report built at 2022-03-27 18:12:54 UTC*
 
 Built for evals:
 
@@ -4502,7 +4502,7 @@ Built for evals:
 ### Still queued
 
 
- * 152 issues
+ * 151 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -4723,13 +4723,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/171152719'>nixos.tests.custom-ca.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/171094390'>nixos.tests.discourse.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
