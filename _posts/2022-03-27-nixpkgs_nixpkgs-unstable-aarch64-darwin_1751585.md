@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:nixpkgs-unstable-aarch64-darwin 1751585
+title: nixpkgs:nixpkgs-unstable-aarch64-darwin 1751585 (succeeded)
 categories: nixpkgs:nixpkgs-unstable-aarch64-darwin
 ---
 # Evals report
 
-*Report built at 2022-03-28 06:14:11 UTC*
+*Report built at 2022-03-28 08:19:13 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### aarch64-darwin
 
 
- * 2404 issues
+ * 2405 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -25013,6 +25013,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/171157718'>python310Packages.cirq-google.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/171095209'>python310Packages.cirq-ionq.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -25142,28 +25148,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/171095633'>tecnoballz.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
- * 1 issues
-<details><summary>Failure table</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/171157718'>python310Packages.cirq-google.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 </table>
 </details>
