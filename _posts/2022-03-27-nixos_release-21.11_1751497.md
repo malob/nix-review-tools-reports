@@ -4,7 +4,7 @@ categories: nixos:release-21.11
 ---
 # Evals report
 
-*Report built at 2022-03-28 05:13:25 UTC*
+*Report built at 2022-03-28 06:16:09 UTC*
 
 Built for evals:
 
@@ -2977,7 +2977,7 @@ Built for evals:
 ### aarch64-linux
 
 
- * 547 issues
+ * 548 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -7641,6 +7641,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/171091347'>nixos.tests.installed-tests.flatpak.aarch64-linux</a></tt>
+</td>
+<td>Log limit exceeded</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/171092433'>nixos.tests.gitlab.aarch64-linux</a></tt>
 </td>
 <td>Output size limit exceeded</td>
@@ -7766,7 +7772,7 @@ Built for evals:
 ### Still queued
 
 
- * 2046 issues
+ * 2044 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -10153,13 +10159,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/171091347'>nixos.tests.installed-tests.flatpak.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -22032,13 +22031,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/171091897'>nixpkgs.qtcreator.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
