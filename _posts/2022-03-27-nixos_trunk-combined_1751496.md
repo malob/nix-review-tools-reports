@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-03-28 10:17:40 UTC*
+*Report built at 2022-03-28 11:16:50 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### i686-linux
 
 
- * 206 issues
+ * 209 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -786,6 +786,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>linux-5.17</tt> <br /> <a href='https://hydra.nixos.org/build/171142487/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/171142487/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/171142487/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/171142042'>build 171142042</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/171142336'>nixos.tests.kernel-latest-ath-user-regd.i686-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>linux-5.17</tt> <br /> <a href='https://hydra.nixos.org/build/171142336/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/171142336/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/171142336/nixlog/3/tail'>tail</a>
 </li>
 </ul>
 </details>
@@ -2308,6 +2322,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/171142065'>nixos.tests.jitsi-meet.i686-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/171142023'>nixos.tests.matrix-synapse.i686-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -2351,6 +2371,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/171140988'>nixos.tests.prometheus-exporters.bird.i686-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/171142189'>nixos.tests.prometheus-exporters.jitsi.i686-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -2505,7 +2531,7 @@ Built for evals:
 ### x86_64-linux
 
 
- * 808 issues
+ * 809 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -10086,6 +10112,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/171139747'>nixos.tests.wine.wineWowPackages-wayland.x86_64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/171141218'>nixpkgs.cmake-language-server.x86_64-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -10181,7 +10213,7 @@ Built for evals:
 ### Still queued
 
 
- * 11 issues
+ * 7 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -10233,38 +10265,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/171142065'>nixos.tests.jitsi-meet.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/171142644'>nixos.tests.kernel-generic.linux_5_4_hardened.i686-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/171142336'>nixos.tests.kernel-latest-ath-user-regd.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/171142189'>nixos.tests.prometheus-exporters.jitsi.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/171139747'>nixos.tests.wine.wineWowPackages-wayland.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
@@ -10291,6 +10295,7 @@ Built for evals:
 <li>nixos.tests.initrd-secrets.zstd.i686-linux</li>
 <li>nixos.tests.kernel-generic.linux_5_17.i686-linux</li>
 <li>nixos.tests.kernel-generic.linux_testing.i686-linux</li>
+<li>nixos.tests.kernel-latest-ath-user-regd.i686-linux</li>
 <li>nixos.tests.latestKernel.login.i686-linux</li>
 <li>nixos.tests.wireguard.wireguard-basic-linux-latest.i686-linux</li>
 <li>nixos.tests.wireguard.wireguard-generated-linux-latest.i686-linux</li>
@@ -10418,7 +10423,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>136</td>
+<td>137</td>
 </tr>
 <tr>
 <td>
