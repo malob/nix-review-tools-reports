@@ -4,7 +4,7 @@ categories: nixos:release-21.11-aarch64
 ---
 # Evals report
 
-*Report built at 2022-03-28 05:11:33 UTC*
+*Report built at 2022-03-28 06:14:35 UTC*
 
 Built for evals:
 
@@ -4698,7 +4698,7 @@ Built for evals:
 ### Still queued
 
 
- * 16 issues
+ * 14 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -4706,13 +4706,6 @@ Built for evals:
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/171152671'>nixos.iso_minimal_new_kernel.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/171152622'>nixos.tests.boot.uefiCdrom.aarch64-linux</a></tt>
@@ -4810,13 +4803,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/171152658'>tested</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
