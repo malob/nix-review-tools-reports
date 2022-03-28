@@ -4,7 +4,7 @@ categories: nixos:release-21.11
 ---
 # Evals report
 
-*Report built at 2022-03-28 07:13:58 UTC*
+*Report built at 2022-03-28 08:21:10 UTC*
 
 Built for evals:
 
@@ -2977,7 +2977,7 @@ Built for evals:
 ### aarch64-linux
 
 
- * 551 issues
+ * 552 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -5421,6 +5421,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/171090242'>nixos.tests.libresprite.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/171092673'>nixos.tests.lorri.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -7790,7 +7796,7 @@ Built for evals:
 ### Still queued
 
 
- * 2041 issues
+ * 2040 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -11255,13 +11261,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/171090242'>nixos.tests.libresprite.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
