@@ -4,7 +4,7 @@ categories: nixos:release-21.11
 ---
 # Evals report
 
-*Report built at 2022-03-29 19:16:02 UTC*
+*Report built at 2022-03-29 20:13:28 UTC*
 
 Built for evals:
 
@@ -2780,7 +2780,7 @@ Built for evals:
 ### aarch64-linux
 
 
- * 533 issues
+ * 532 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -4797,12 +4797,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/171164853'>nixos.tests.mjolnir.aarch64-linux</a></tt>
-</td>
-<td>Failed</td>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/171163784'>nixos.tests.networking.scripted.virtual.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
