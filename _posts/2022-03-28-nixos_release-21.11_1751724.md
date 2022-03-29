@@ -4,7 +4,7 @@ categories: nixos:release-21.11
 ---
 # Evals report
 
-*Report built at 2022-03-29 07:17:19 UTC*
+*Report built at 2022-03-29 12:27:14 UTC*
 
 Built for evals:
 
@@ -1033,13 +1033,30 @@ Built for evals:
 ### x86_64-linux
 
 
- * 254 issues
+ * 255 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 </tr></thead>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/171164078'>nixos.tests.boot.biosCdrom.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>squashfs.img</tt> <br /> <a href='https://hydra.nixos.org/build/171164078/nixlog/19'>log</a>, <a href='https://hydra.nixos.org/build/171164078/nixlog/19/raw'>raw</a>, <a href='https://hydra.nixos.org/build/171164078/nixlog/19/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>squashfs.img</tt> <br /> 
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
 <tr>
 <td>
 <details><summary>
@@ -7191,7 +7208,7 @@ Built for evals:
 ### Still queued
 
 
- * 1398 issues
+ * 1397 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -7251,13 +7268,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/171165010'>nixos.iso_plasma5.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/171164121'>nixos.netboot.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -17202,6 +17212,20 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary>x86_64-linux <tt>squashfs.img</tt></summary>
+<ul>
+<li>nixos.tests.boot.biosCdrom.x86_64-linux</li>
+<li>nixos.tests.boot.biosUsb.x86_64-linux</li>
+<li>nixos.tests.boot.uefiCdrom.x86_64-linux</li>
+<li>nixos.tests.boot.uefiUsb.x86_64-linux</li>
+<li>tested</li>
+</ul>
+</details>
+</td>
+<td>6</td>
+</tr>
+<tr>
+<td>
 <details><summary>aarch64-linux <tt>ptr-poker-0.1.1.4</tt></summary>
 <ul>
 <li>nixpkgs.haskellPackages.jsonifier.aarch64-linux</li>
@@ -17250,19 +17274,6 @@ Built for evals:
 </details>
 </td>
 <td>5</td>
-</tr>
-<tr>
-<td>
-<details><summary>x86_64-linux <tt>squashfs.img</tt></summary>
-<ul>
-<li>nixos.tests.boot.biosUsb.x86_64-linux</li>
-<li>nixos.tests.boot.uefiCdrom.x86_64-linux</li>
-<li>nixos.tests.boot.uefiUsb.x86_64-linux</li>
-<li>tested</li>
-</ul>
-</details>
-</td>
-<td>4</td>
 </tr>
 <tr>
 <td>
