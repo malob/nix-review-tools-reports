@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-03-30 14:16:21 UTC*
+*Report built at 2022-03-30 15:17:20 UTC*
 
 Built for evals:
 
@@ -7255,7 +7255,7 @@ Built for evals:
 ### Still queued
 
 
- * 115 issues
+ * 114 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -7602,13 +7602,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/171190757'>nixos.tests.installer.simpleProvided.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/171195524'>nixos.tests.installer.simpleSpecialised.i686-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>i686-linux</th>
