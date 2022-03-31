@@ -4,7 +4,7 @@ categories: nixos:release-21.11-aarch64
 ---
 # Evals report
 
-*Report built at 2022-03-30 23:11:48 UTC*
+*Report built at 2022-03-31 00:43:11 UTC*
 
 Built for evals:
 
@@ -4128,7 +4128,7 @@ Built for evals:
 ### Still queued
 
 
- * 15 issues
+ * 14 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -4139,13 +4139,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/171198507'>nixpkgs.arrow-cpp.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/171198771'>nixpkgs.gnss-sdr.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
