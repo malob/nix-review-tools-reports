@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-03-31 21:12:39 UTC*
+*Report built at 2022-03-31 22:11:51 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### i686-linux
 
 
- * 218 issues
+ * 219 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -646,6 +646,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>python3.9-afdko-3.7.1</tt> <br /> <a href='https://hydra.nixos.org/build/171260623/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/171260623/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/171260623/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/171083832'>build 171083832</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/171261780'>nixos.tests.installed-tests.libgdata.i686-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>webkitgtk-2.34.6</tt> <br /> <a href='https://hydra.nixos.org/build/171261780/nixlog/243'>log</a>, <a href='https://hydra.nixos.org/build/171261780/nixlog/243/raw'>raw</a>, <a href='https://hydra.nixos.org/build/171261780/nixlog/243/tail'>tail</a>
 </li>
 </ul>
 </details>
@@ -7980,7 +7994,7 @@ Built for evals:
 ### Still queued
 
 
- * 4 issues
+ * 2 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -7994,20 +8008,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/171261780'>nixos.tests.installed-tests.libgdata.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/171261558'>nixos.tests.rstudio-server.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
 </tr>
 <tr>
 <td>
@@ -8781,6 +8781,16 @@ Built for evals:
 <details><summary>x86_64-linux <tt>hydra-2021-08-11</tt></summary>
 <ul>
 <li>nixos.tests.hydra.hydra-unstable.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary>i686-linux <tt>webkitgtk-2.34.6</tt></summary>
+<ul>
+<li>nixos.tests.installed-tests.libgdata.i686-linux</li>
 </ul>
 </details>
 </td>
