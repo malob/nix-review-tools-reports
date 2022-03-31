@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-03-31 13:28:45 UTC*
+*Report built at 2022-03-31 15:17:17 UTC*
 
 Built for evals:
 
@@ -2471,7 +2471,7 @@ Built for evals:
 ### x86_64-linux
 
 
- * 647 issues
+ * 648 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -5274,6 +5274,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/171256165'>nixos.tests.initrd-network-openvpn.x86_64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/171260415'>nixos.tests.installed-tests.colord.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -7877,7 +7883,7 @@ Built for evals:
 ### Still queued
 
 
- * 50 issues
+ * 49 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -7947,13 +7953,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/171256165'>nixos.tests.initrd-network-openvpn.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
