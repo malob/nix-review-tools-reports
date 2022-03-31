@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-03-31 02:30:18 UTC*
+*Report built at 2022-03-31 03:24:58 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### i686-linux
 
 
- * 206 issues
+ * 210 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -128,6 +128,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>rocksdb-6.23.3</tt> <br /> <a href='https://hydra.nixos.org/build/171191251/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/171191251/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/171191251/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/170723806'>build 170723806</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/171193487'>nixos.tests.clickhouse.i686-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>clickhouse-22.3.2.2</tt> <br /> <a href='https://hydra.nixos.org/build/171193487/nixlog/5'>log</a>, <a href='https://hydra.nixos.org/build/171193487/nixlog/5/raw'>raw</a>, <a href='https://hydra.nixos.org/build/171193487/nixlog/5/tail'>tail</a>
 </li>
 </ul>
 </details>
@@ -739,6 +753,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/171195056'>nixos.tests.kernel-generic.linux_5_16.i686-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>linux-5.16.18</tt> <br /> <a href='https://hydra.nixos.org/build/171195056/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/171195056/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/171195056/nixlog/2/tail'>tail</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/171191475'>nixos.tests.kernel-generic.linux_5_17.i686-linux</a></tt>
 </summary>
 <ul>
@@ -758,6 +786,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>linux-5.17.1</tt> <br /> <a href='https://hydra.nixos.org/build/171190989/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/171190989/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/171190989/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/171190583'>build 171190583</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/171194180'>nixos.tests.kernel-latest-ath-user-regd.i686-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>linux-5.17.1</tt> <br /> <a href='https://hydra.nixos.org/build/171194180/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/171194180/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/171194180/nixlog/2/tail'>tail</a>
 </li>
 </ul>
 </details>
@@ -1066,6 +1108,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>spidermonkey-91.7.0</tt> <br /> <a href='https://hydra.nixos.org/build/171192965/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/171192965/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/171192965/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/171083644'>build 171083644</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/171193871'>nixos.tests.plausible.i686-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>clickhouse-22.3.2.2</tt> <br /> <a href='https://hydra.nixos.org/build/171193871/nixlog/5'>log</a>, <a href='https://hydra.nixos.org/build/171193871/nixlog/5/raw'>raw</a>, <a href='https://hydra.nixos.org/build/171193871/nixlog/5/tail'>tail</a>, <a href='https://hydra.nixos.org/build/171193487'>build 171193487</a>
 </li>
 </ul>
 </details>
@@ -7567,7 +7623,7 @@ Built for evals:
 ### Still queued
 
 
- * 10 issues
+ * 1 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -7577,70 +7633,7 @@ Built for evals:
 </tr></thead>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/171193136'>nixos.closures.ec2.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/171193487'>nixos.tests.clickhouse.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/171191506'>nixos.tests.cloud-init.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/171194360'>nixos.tests.initrd-network-openvpn.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/171192279'>nixos.tests.kernel-generic.linux_4_14.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/171193771'>nixos.tests.kernel-generic.linux_4_9.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/171195056'>nixos.tests.kernel-generic.linux_5_16.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/171194180'>nixos.tests.kernel-latest-ath-user-regd.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/171193707'>nixos.tests.kernel-latest-ath-user-regd.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/171193871'>nixos.tests.plausible.i686-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>i686-linux</th>
@@ -7812,6 +7805,7 @@ Built for evals:
 <li>nixos.tests.initrd-secrets.zstd.i686-linux</li>
 <li>nixos.tests.kernel-generic.linux_5_17.i686-linux</li>
 <li>nixos.tests.kernel-generic.linux_testing.i686-linux</li>
+<li>nixos.tests.kernel-latest-ath-user-regd.i686-linux</li>
 <li>nixos.tests.latestKernel.login.i686-linux</li>
 <li>nixos.tests.wireguard.wireguard-basic-linux-latest.i686-linux</li>
 <li>nixos.tests.wireguard.wireguard-generated-linux-latest.i686-linux</li>
@@ -7821,7 +7815,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>18</td>
+<td>19</td>
 </tr>
 <tr>
 <td>
@@ -8058,6 +8052,17 @@ Built for evals:
 <ul>
 <li>nixos.tests.bittorrent.i686-linux</li>
 <li>nixos.tests.transmission.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
+<details><summary>i686-linux <tt>clickhouse-22.3.2.2</tt></summary>
+<ul>
+<li>nixos.tests.clickhouse.i686-linux</li>
+<li>nixos.tests.plausible.i686-linux</li>
 </ul>
 </details>
 </td>
@@ -8350,6 +8355,16 @@ Built for evals:
 <details><summary>i686-linux <tt>crystal-1.0.0</tt></summary>
 <ul>
 <li>nixos.tests.invidious.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary>i686-linux <tt>linux-5.16.18</tt></summary>
+<ul>
+<li>nixos.tests.kernel-generic.linux_5_16.i686-linux</li>
 </ul>
 </details>
 </td>
