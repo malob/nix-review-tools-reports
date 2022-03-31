@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-03-31 19:10:25 UTC*
+*Report built at 2022-03-31 20:14:44 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### i686-linux
 
 
- * 211 issues
+ * 212 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -366,6 +366,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>python3.9-afdko-3.7.1</tt> <br /> <a href='https://hydra.nixos.org/build/171260458/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/171260458/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/171260458/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/171083832'>build 171083832</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/171259823'>nixos.tests.hledger-web.i686-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>bsb-http-chunked-0.0.0.4</tt> <br /> <a href='https://hydra.nixos.org/build/171259823/nixlog/76'>log</a>, <a href='https://hydra.nixos.org/build/171259823/nixlog/76/raw'>raw</a>, <a href='https://hydra.nixos.org/build/171259823/nixlog/76/tail'>tail</a>
 </li>
 </ul>
 </details>
@@ -2471,7 +2485,7 @@ Built for evals:
 ### x86_64-linux
 
 
- * 648 issues
+ * 650 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -7794,7 +7808,19 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/171262074'>nixpkgs.haskellPackages.hpapi.x86_64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/171254828'>nixpkgs.haskellPackages.zeromq4-clone-pattern.x86_64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/171263405'>nixpkgs.haskellPackages.zeromq4-patterns.x86_64-linux</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -7883,7 +7909,7 @@ Built for evals:
 ### Still queued
 
 
- * 22 issues
+ * 12 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -7908,13 +7934,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/171258650'>nixos.tests.fenics.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/171259823'>nixos.tests.hledger-web.i686-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>i686-linux</th>
@@ -7949,13 +7968,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/171263471'>nixos.tests.installer.zfsroot.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/171257812'>nixos.tests.postgis.i686-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -7984,63 +7996,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/171260524'>nixos.tests.spacecookie.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/171261471'>nixos.tests.wine.wineWowPackages-wayland.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/171262074'>nixpkgs.haskellPackages.hpapi.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/171263405'>nixpkgs.haskellPackages.zeromq4-patterns.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/171256161'>nixpkgs.qemu_full.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/171254973'>nixpkgs.sage.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/171254605'>nixpkgs.sageWithDoc.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/171256709'>nixpkgs.samba4Full.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/171263172'>nixpkgs.sambaFull.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -8758,6 +8714,16 @@ Built for evals:
 <details><summary>x86_64-linux <tt>domination-1.2.4</tt></summary>
 <ul>
 <li>nixos.tests.domination.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary>i686-linux <tt>bsb-http-chunked-0.0.0.4</tt></summary>
+<ul>
+<li>nixos.tests.hledger-web.i686-linux</li>
 </ul>
 </details>
 </td>
