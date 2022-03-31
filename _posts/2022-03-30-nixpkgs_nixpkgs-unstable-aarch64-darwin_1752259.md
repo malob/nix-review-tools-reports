@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-unstable-aarch64-darwin
 ---
 # Evals report
 
-*Report built at 2022-03-31 02:29:38 UTC*
+*Report built at 2022-03-31 03:24:25 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### aarch64-darwin
 
 
- * 2063 issues
+ * 2064 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -2834,6 +2834,35 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>python3.9-graphviz-0.19.1</tt> <br /> <a href='https://hydra.nixos.org/build/171189692/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/171189692/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/171189692/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/171095166'>build 171095166</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/171250709'>jacinda.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>regex-rure-0.1.2.0</tt> <br /> <a href='https://hydra.nixos.org/build/171250709/nixlog/37'>log</a>, <a href='https://hydra.nixos.org/build/171250709/nixlog/37/raw'>raw</a>, <a href='https://hydra.nixos.org/build/171250709/nixlog/37/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>clock-0.8.3</tt> <br /> <a href='https://hydra.nixos.org/build/171250709/nixlog/12'>log</a>, <a href='https://hydra.nixos.org/build/171250709/nixlog/12/raw'>raw</a>, <a href='https://hydra.nixos.org/build/171250709/nixlog/12/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>unbounded-delays-0.1.1.1</tt> <br /> <a href='https://hydra.nixos.org/build/171250709/nixlog/7'>log</a>, <a href='https://hydra.nixos.org/build/171250709/nixlog/7/raw'>raw</a>, <a href='https://hydra.nixos.org/build/171250709/nixlog/7/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>nanospec-0.2.2</tt> <br /> <a href='https://hydra.nixos.org/build/171250709/nixlog/5'>log</a>, <a href='https://hydra.nixos.org/build/171250709/nixlog/5/raw'>raw</a>, <a href='https://hydra.nixos.org/build/171250709/nixlog/5/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>colour-2.3.6</tt> <br /> <a href='https://hydra.nixos.org/build/171250709/nixlog/4'>log</a>, <a href='https://hydra.nixos.org/build/171250709/nixlog/4/raw'>raw</a>, <a href='https://hydra.nixos.org/build/171250709/nixlog/4/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>jailbreak-cabal-1.3.5</tt> <br /> <a href='https://hydra.nixos.org/build/171250709/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/171250709/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/171250709/nixlog/2/tail'>tail</a>
 </li>
 </ul>
 </details>
@@ -21658,7 +21687,7 @@ Built for evals:
 ### Still queued
 
 
- * 6378 issues
+ * 6375 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -22019,20 +22048,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/171252418'>haskell-ci.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/171252741'>haskell.compiler.ghc922.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/171247756'>haskell.compiler.native-bignum.ghc922.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -65852,13 +65867,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/171250709'>jacinda.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/171248727'>jl.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -68645,6 +68653,66 @@ Built for evals:
 <details><summary>aarch64-darwin <tt>enchant-1.6.1</tt></summary>
 <ul>
 <li>gtkspell2.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary>aarch64-darwin <tt>regex-rure-0.1.2.0</tt></summary>
+<ul>
+<li>jacinda.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary>aarch64-darwin <tt>clock-0.8.3</tt></summary>
+<ul>
+<li>jacinda.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary>aarch64-darwin <tt>unbounded-delays-0.1.1.1</tt></summary>
+<ul>
+<li>jacinda.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary>aarch64-darwin <tt>nanospec-0.2.2</tt></summary>
+<ul>
+<li>jacinda.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary>aarch64-darwin <tt>colour-2.3.6</tt></summary>
+<ul>
+<li>jacinda.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary>aarch64-darwin <tt>jailbreak-cabal-1.3.5</tt></summary>
+<ul>
+<li>jacinda.aarch64-darwin</li>
 </ul>
 </details>
 </td>
