@@ -4,7 +4,7 @@ categories: nixos:release-21.11-aarch64
 ---
 # Evals report
 
-*Report built at 2022-04-03 02:27:57 UTC*
+*Report built at 2022-04-03 03:23:01 UTC*
 
 Built for evals:
 
@@ -47,7 +47,7 @@ Built for evals:
 ### aarch64-linux
 
 
- * 525 issues
+ * 526 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -1831,6 +1831,12 @@ Built for evals:
 </details>
 </td>
 <td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/171657865'>nixos.tests.bcachefs.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
 </tr>
 <tr>
 <td>
@@ -4227,7 +4233,7 @@ Built for evals:
 ### Still queued
 
 
- * 19 issues
+ * 18 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -4308,13 +4314,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/171673676'>nixos.tests.nats.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/171666242'>nixpkgs.haskellPackages.gogol-compute.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
