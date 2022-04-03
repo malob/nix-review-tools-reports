@@ -4,7 +4,7 @@ categories: nixos:release-21.11-aarch64
 ---
 # Evals report
 
-*Report built at 2022-04-03 10:12:16 UTC*
+*Report built at 2022-04-03 11:10:06 UTC*
 
 Built for evals:
 
@@ -67,7 +67,7 @@ Built for evals:
 ### aarch64-linux
 
 
- * 542 issues
+ * 543 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -4242,6 +4242,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/171843867'>nixos.tests.installed-tests.flatpak.aarch64-linux</a></tt>
+</td>
+<td>Log limit exceeded</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/171844323'>nixos.tests.gitlab.aarch64-linux</a></tt>
 </td>
 <td>Output size limit exceeded</td>
@@ -4349,7 +4355,7 @@ Built for evals:
 ### Still queued
 
 
- * 6 issues
+ * 4 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -4357,20 +4363,6 @@ Built for evals:
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/171844408'>nixos.netboot.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/171843867'>nixos.tests.installed-tests.flatpak.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/171844253'>nixos.tests.libresprite.aarch64-linux</a></tt>
