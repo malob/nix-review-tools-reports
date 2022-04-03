@@ -4,7 +4,7 @@ categories: nixos:release-21.11
 ---
 # Evals report
 
-*Report built at 2022-04-03 12:17:44 UTC*
+*Report built at 2022-04-03 13:18:59 UTC*
 
 Built for evals:
 
@@ -1253,7 +1253,7 @@ Built for evals:
 ### x86_64-linux
 
 
- * 320 issues
+ * 321 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -3405,6 +3405,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/171846307'>nixos.tests.avahi-with-resolved.x86_64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/171845547'>nixos.tests.avahi.x86_64-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -3506,7 +3512,7 @@ Built for evals:
 ### aarch64-linux
 
 
- * 529 issues
+ * 530 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -5624,6 +5630,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/171846069'>nixos.tests.kexec.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/171845033'>nixos.tests.libresprite.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -8046,7 +8058,7 @@ Built for evals:
 ### Still queued
 
 
- * 3 issues
+ * 1 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -8054,20 +8066,6 @@ Built for evals:
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/171846307'>nixos.tests.avahi-with-resolved.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/171845033'>nixos.tests.libresprite.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/171845230'>nixos.tests.quorum.x86_64-linux</a></tt>
