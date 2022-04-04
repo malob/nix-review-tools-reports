@@ -1,0 +1,152 @@
+name: Generate report
+
+on:
+  workflow_call:
+    inputs:
+      project:
+        required: true
+        type: string
+      jobset:
+        required: true
+        type: string
+      nuke-cache:
+        required: false
+        type: boolean
+        default: false
+
+jobs:
+  generante-report:
+    name: Generate ${{ inputs.project }}:${{ inputs.jobset }} report
+
+    # Wait for jobs for same report from previous workflow runs to finish.
+    # Docs: https://docs.github.com/en/actions/using-jobs/using-concurrency
+    concurrency: ${{ inputs.project }}:${{ inputs.jobset }}
+
+    # Values from the matrix we need to reference in shell commands
+    env:
+      PROJECT: ${{ inputs.project }}
+      JOBSET: ${{ inputs.jobset }}
+    runs-on: ubuntu-latest
+
+    steps:
+
+    # Always checkout the `master` branch so that we have the most up to date version of the repo,
+    # since other jobs in the matrix may have pushed before we run (regardless of whether jobs are
+    # run in parallel).
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      with:
+        ref: master
+
+    - name: Install Nix
+      uses: cachix/install-nix-action@v16
+      with:
+        extra_nix_config: |
+          access-tokens = github.com=${{ secrets.GITHUB_TOKEN }}
+
+    # Use Cachix to cache builds of script etc. from this repo. This speeds up the runtime of this
+    # workflow a little bit.
+    - name: Setup Cachix
+      uses: cachix/cachix-action@v10
+      with:
+        name: malo
+        signingKey: ${{ secrets.CACHIX_SIGNING_KEY }}
+
+    # This steps creates outputs that we reference when using the `cache` action in the next steps.
+    # Outputs:
+    # * eval-id: the ID of the jobset evaluation we are generating the report for.
+    # * success-eval-id: the ID of the last successful/finished evaluation of the jobset.
+    # * unique-id: an ID that will be unique if the evaluation of the jobset is still in progress.
+    - name: Setup cache IDs
+      id: setup-cache-ids
+      run: |
+        evalid=$(nix run .#jobset-latest-eval-id -- $PROJECT $JOBSET)
+        successevalid=$(nix run .#jobset-latest-successful-eval-id -- $PROJECT $JOBSET)
+        echo "::set-output name=eval-id::$evalid"
+        echo "::set-output name=success-eval-id::$successevalid"
+        if [ "$evalid" = "$successevalid" ]; then
+          echo "::set-output name=unique-id::success"
+        else
+          # Current Unix time.
+          echo "::set-output name=unique-id::$(date '+%s')"
+        fi
+
+    # Get the most up-to-date cache of the data/ directory containing Hydra build reports downloaded
+    # by `nix-review-reports` for the jobset.
+    #
+    # The cache will not be updated at the end of the workflow run if the cache key is an exact
+    # match. This means we want the key to always be unique if a jobset evaluation hasn't finished
+    # so that the cache will be updated at the end of the workflow, so that subsequent runs of the
+    # workflow don't need to re-download Hydra build reports that were downloaded during previous
+    # workflow runs for this jobset.
+    #
+    # We should only ever get a exact hit on the key if a previous workflow generated a report for
+    # this jobset evaluation after that evaluation finished/succeeded.
+    #
+    # When we don't get an exact hit we first try to restore the most recent cache for this jobset
+    # evaluation, if there isn't a cache for this evaluation we restore the most recent cache for a
+    # previous evaluation of this jobset.
+    #
+    # cache action docs:
+    # https://docs.github.com/en/actions/using-workflows/caching-dependencies-to-speed-up-workflows
+    - name: Get cache
+      uses: actions/cache@v3
+      id: cache
+      with:
+        path: data
+        key: ${{ inputs.project }}:${{ inputs.jobset }}-${{ steps.setup-cache-ids.outputs.eval-id }}-${{ steps.setup-cache-ids.outputs.unique-id }}
+        restore-keys: |
+          ${{ inputs.project }}:${{ inputs.jobset }}-${{ steps.setup-cache-ids.outputs.eval-id }}-
+          ${{ inputs.project }}:${{ inputs.jobset }}-
+
+    # Sometimes we may want to nuke the cache, like when builds were restarted on Hydra.
+    - name: Nuke cache
+      if: inputs.nuke-cache == true
+      run: |
+        rm -rf data
+
+    # Generate the report only if we don't have an exact cache hit. If we do have an exact cache hit
+    # that means that we already generated a report for the jobset evaluation after the evaluation
+    # succeeded/finished, and so the report is already up-to-date.
+    #
+    # After generating the report, we check if there are actually any substantial changes to push.
+    # Example contents of `stats` array: `1 files changed, 230 insertions(+), 24628 deletions(-)`,
+    # where `stats[3]` is `230` and `stats[5]` is `24628`.
+    #
+    # If both are equal to 1, this indicates that this was an update to a report for a jobset
+    # evaluation that's still in progress, but that no additional queued builds completed since
+    # the report was last generated, and so the only update to the report is an update to the
+    # "Report built at ..." line. If that's the case, we don't commit and push that change.
+    - name: Generate report
+      id: gen-report
+      if: steps.cache.outputs.cache-hit != 'true'
+      run: |
+        nix run . -- $PROJECT $JOBSET
+        stats=($(git diff --shortstat))
+        if [ "${stats[3]}" -eq 1 ] && [ "${stats[5]}" -eq 1 ]; then
+          echo "::set-output name=push-changes::false"
+        else
+          echo "::set-output name=push-changes::true"
+        fi
+
+
+    # Push new/updated report only if we don't have an exact cache hit for the same reasons as
+    # above, and if the report was updated and there were more changes then just an update to the
+    # "Report built at ..." line.
+    #
+    # We need to pull and rebase before we push if the matrix allows jobs to run in parallels, or
+    # other workflows like `rm-reports.yml` that push changes to the repo are setup, since
+    # another job could have pushed after we checked out out the repository.
+    - name: Push new/updated report
+      if: steps.cache.outputs.cache-hit != 'true' && steps.gen-report.outputs.push-changes == 'true'
+      env:
+        EVAL: ${{ steps.setup-cache-ids.outputs.eval-id }}
+      run: |
+        git config user.name github-actions
+        git config user.email github-actions@github.com
+        git add --all
+        git commit -m "Add/update $PROJECT:$JOBSET report for eval $EVAL"
+        until git push
+        do
+          git pull --rebase=true
+        done
