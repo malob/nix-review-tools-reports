@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-21.11-darwin
 ---
 # Evals report
 
-*Report built at 2022-04-04 06:15:17 UTC*
+*Report built at 2022-04-04 07:12:36 UTC*
 
 Built for evals:
 
@@ -55208,7 +55208,7 @@ Built for evals:
 ### Still queued
 
 
- * 5751 issues
+ * 5750 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -93092,13 +93092,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/171894061'>tarball</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
