@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-21.11-darwin
 ---
 # Evals report
 
-*Report built at 2022-04-04 18:16:16 UTC*
+*Report built at 2022-04-04 20:14:21 UTC*
 
 Built for evals:
 
@@ -19803,7 +19803,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>3295 issues</summary>
+<details><summary>3296 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -56749,6 +56749,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/171643568'>haskellPackages.interprocess.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/171616131'>lightning.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -57102,7 +57108,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>2 issues</summary>
+<details><summary>1 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -57115,13 +57121,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/171643568'>haskellPackages.interprocess.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 </table>
 </details>
