@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-21.11-darwin
 ---
 # Evals report
 
-*Report built at 2022-04-04 02:41:49 UTC*
+*Report built at 2022-04-04 03:33:32 UTC*
 
 Built for evals:
 
@@ -19581,7 +19581,7 @@ Built for evals:
 ### aarch64-darwin
 
 
- * 3042 issues
+ * 3044 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -54891,6 +54891,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/171624423'>nixUnstable.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/171628758'>perl534Packages.CGICompile.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -54898,6 +54904,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/171604103'>perl534Packages.TaskPlack.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/171623283'>public-inbox.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -55184,7 +55196,7 @@ Built for evals:
 ### Still queued
 
 
- * 5756 issues
+ * 5753 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -72988,13 +73000,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/171633020'>libgccjit.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/171636485'>libgpg-error-gen-posix-lock-obj.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -75194,13 +75199,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/171628433'>nix-zsh-completions.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/171624423'>nixUnstable.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -80136,13 +80134,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/171626592'>pstree.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/171623283'>public-inbox.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
