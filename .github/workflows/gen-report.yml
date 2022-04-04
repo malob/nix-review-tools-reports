@@ -11,7 +11,7 @@ on:
         type: string
       nuke-cache:
         required: false
-        type: boolean
+        type: string
         default: false
 
 jobs:
@@ -101,7 +101,7 @@ jobs:
 
     # Sometimes we may want to nuke the cache, like when builds were restarted on Hydra.
     - name: Nuke cache
-      if: inputs.nuke-cache == true
+      if: inputs.nuke-cache == 'true'
       run: |
         rm -rf data
 
