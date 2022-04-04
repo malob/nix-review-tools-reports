@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-unstable-aarch64-darwin
 ---
 # Evals report
 
-*Report built at 2022-04-04 06:14:03 UTC*
+*Report built at 2022-04-04 11:14:48 UTC*
 
 Built for evals:
 
@@ -26028,7 +26028,7 @@ Built for evals:
 ### Still queued
 
 
- * 49 issues
+ * 47 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -26074,20 +26074,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/171893975'>ettercap.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/171893995'>gradle.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/171893961'>gradle_7.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
