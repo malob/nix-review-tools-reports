@@ -114,7 +114,7 @@ jobs:
     # cache action docs:
     # https://docs.github.com/en/actions/using-workflows/caching-dependencies-to-speed-up-workflows
     - name: Get cache
-      uses: actions/cache@v2
+      uses: actions/cache@v3
       id: cache
       with:
         path: data
