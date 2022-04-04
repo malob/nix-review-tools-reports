@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-04-04 14:15:24 UTC*
+*Report built at 2022-04-04 14:34:03 UTC*
 
 Built for evals:
 
@@ -15,8 +15,7 @@ Built for evals:
 ### i686-linux
 
 
- * 209 issues
-<details><summary>Failure table</summary>
+<details><summary>209 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -2566,8 +2565,7 @@ Built for evals:
 ### x86_64-linux
 
 
- * 625 issues
-<details><summary>Failure table</summary>
+<details><summary>625 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -7812,8 +7810,7 @@ Built for evals:
 ### Still queued
 
 
- * 26 issues
-<details><summary>Failure table</summary>
+<details><summary>21 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -7885,21 +7882,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/171886837'>nixos.tests.metabase.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/171888826'>nixos.tests.minecraft-server.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/171890484'>nixos.tests.nzbhydra2.i686-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>i686-linux</th>
@@ -7917,27 +7900,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/171889254'>nixos.tests.systemd-binfmt.basic.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/171888420'>nixos.tests.systemd-binfmt.ldPreload.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/171888977'>nixos.tests.systemd-binfmt.preserveArgvZero.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -8013,7 +7975,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>i686-linux <tt>python3.9-afdko-3.7.1</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/171083832'>i686-linux python3.9-afdko-3.7.1</a></tt></summary>
 <ul>
 <li>nixos.tests.emacs-daemon.i686-linux</li>
 <li>nixos.tests.enlightenment.i686-linux</li>
@@ -8093,7 +8055,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>source</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/171118753'>x86_64-linux source</a></tt></summary>
 <ul>
 <li>nixpkgs.communi.x86_64-linux</li>
 <li>nixpkgs.coq_8_15.x86_64-linux</li>
@@ -8130,7 +8092,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>i686-linux <tt>linux-5.17.1</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/171190583'>i686-linux linux-5.17.1</a></tt></summary>
 <ul>
 <li>nixos.tests.containers-names.i686-linux</li>
 <li>nixos.tests.initrd-secrets.bzip2.i686-linux</li>
@@ -8158,7 +8120,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>i686-linux <tt>pandoc-2.17.1.1</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/171885898'>i686-linux pandoc-2.17.1.1</a></tt></summary>
 <ul>
 <li>nixos.tests.influxdb.i686-linux</li>
 <li>nixos.tests.installed-tests.fwupd.i686-linux</li>
@@ -8183,7 +8145,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>i686-linux <tt>spidermonkey-91.7.0</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/171083644'>i686-linux spidermonkey-91.7.0</a></tt></summary>
 <ul>
 <li>nixos.tests.maestral.i686-linux</li>
 <li>nixos.closures.gnome.i686-linux</li>
@@ -8202,7 +8164,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>glade-0.13.1</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/171202750'>x86_64-linux glade-0.13.1</a></tt></summary>
 <ul>
 <li>nixpkgs.haskellPackages.GuiHaskell.x86_64-linux</li>
 <li>nixpkgs.haskellPackages.HPlot.x86_64-linux</li>
@@ -8221,7 +8183,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>python3.9-georss-client-0.15</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/170721382'>x86_64-linux python3.9-georss-client-0.15</a></tt></summary>
 <ul>
 <li>nixpkgs.home-assistant-component-tests.geo_rss_events.x86_64-linux</li>
 <li>nixpkgs.home-assistant-component-tests.ign_sismologia.x86_64-linux</li>
@@ -8240,7 +8202,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>i686-linux <tt>rspamd-3.1</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/171085563'>i686-linux rspamd-3.1</a></tt></summary>
 <ul>
 <li>nixos.tests.opensmtpd-rspamd.i686-linux</li>
 <li>nixos.tests.prometheus-exporters.rspamd.i686-linux</li>
@@ -8257,7 +8219,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>python3.10-georss-client-0.15</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/170372939'>x86_64-linux python3.10-georss-client-0.15</a></tt></summary>
 <ul>
 <li>nixpkgs.python310Packages.georss-generic-client.x86_64-linux</li>
 <li>nixpkgs.python310Packages.georss-ign-sismologia-client.x86_64-linux</li>
@@ -8273,7 +8235,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>VirtualBox-GuestAdditions-6.1.30-5.10.109</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/171192870'>x86_64-linux VirtualBox-GuestAdditions-6.1.30-5.10.109</a></tt></summary>
 <ul>
 <li>nixos.tests.virtualbox.headless.x86_64-linux</li>
 <li>nixos.tests.virtualbox.host-usb-permissions.x86_64-linux</li>
@@ -8288,7 +8250,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>mucommander-deps-0.9.3-3</tt></summary>
+<details><summary><tt>x86_64-linux mucommander-deps-0.9.3-3</tt></summary>
 <ul>
 <li>nixpkgs.mucommander.x86_64-linux</li>
 </ul>
@@ -8298,7 +8260,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>psst-unstable-2022-01-25-vendor.tar.gz</tt></summary>
+<details><summary><tt>x86_64-linux psst-unstable-2022-01-25-vendor.tar.gz</tt></summary>
 <ul>
 <li>nixpkgs.psst.x86_64-linux</li>
 </ul>
@@ -8308,7 +8270,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>shiboken2-5.15.2</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/171108130'>x86_64-linux shiboken2-5.15.2</a></tt></summary>
 <ul>
 <li>nixpkgs.python310Packages.magicgui.x86_64-linux</li>
 <li>nixpkgs.python310Packages.napari.x86_64-linux</li>
@@ -8322,7 +8284,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>i686-linux <tt>python3.9-dnspython-1.16.0</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/170722048'>i686-linux python3.9-dnspython-1.16.0</a></tt></summary>
 <ul>
 <li>nixos.tests.powerdns-admin.mysql.i686-linux</li>
 <li>nixos.tests.powerdns-admin.postgresql.i686-linux</li>
@@ -8335,7 +8297,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>llvm-11.1.0</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/170378282'>x86_64-linux llvm-11.1.0</a></tt></summary>
 <ul>
 <li>nixpkgs.llvmPackages.clang-polly-unwrapped.x86_64-linux</li>
 <li>nixpkgs.llvmPackages_11.clang-polly-unwrapped.x86_64-linux</li>
@@ -8346,7 +8308,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>i686-linux <tt>cntr-1.5.1</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/170721269'>i686-linux cntr-1.5.1</a></tt></summary>
 <ul>
 <li>nixos.tests.cntr.docker.i686-linux</li>
 <li>nixos.tests.cntr.nixos-container.i686-linux</li>
@@ -8358,7 +8320,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>python3.9-bravado-core-5.17.0</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/171142077'>x86_64-linux python3.9-bravado-core-5.17.0</a></tt></summary>
 <ul>
 <li>nixos.tests.powerdns-admin.mysql.x86_64-linux</li>
 <li>nixos.tests.powerdns-admin.postgresql.x86_64-linux</li>
@@ -8370,7 +8332,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>openshadinglanguage-1.10.9</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/170629357'>x86_64-linux openshadinglanguage-1.10.9</a></tt></summary>
 <ul>
 <li>nixpkgs.appleseed.x86_64-linux</li>
 <li>nixpkgs.python310Packages.appleseed.x86_64-linux</li>
@@ -8382,7 +8344,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>aeson-2.0.3.0</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/171208094'>x86_64-linux aeson-2.0.3.0</a></tt></summary>
 <ul>
 <li>nixpkgs.elmPackages.elm-coverage.x86_64-linux</li>
 <li>nixpkgs.elmPackages.elm-verify-examples.x86_64-linux</li>
@@ -8394,7 +8356,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>Naproche-SAD-0.1.0.0</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/171212685'>x86_64-linux Naproche-SAD-0.1.0.0</a></tt></summary>
 <ul>
 <li>nixpkgs.isabelle-components.isabelle-linter.x86_64-linux</li>
 <li>nixpkgs.isabelle.x86_64-linux</li>
@@ -8406,7 +8368,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>python3.10-graphql-relay-3.1.0</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/170361077'>x86_64-linux python3.10-graphql-relay-3.1.0</a></tt></summary>
 <ul>
 <li>nixpkgs.python310Packages.django-graphiql-debug-toolbar.x86_64-linux</li>
 <li>nixpkgs.python310Packages.graphene-django.x86_64-linux</li>
@@ -8418,7 +8380,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>python3.10-scrapy-2.6.1</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/170870953'>x86_64-linux python3.10-scrapy-2.6.1</a></tt></summary>
 <ul>
 <li>nixpkgs.python310Packages.scrapy-deltafetch.x86_64-linux</li>
 <li>nixpkgs.python310Packages.scrapy-fake-useragent.x86_64-linux</li>
@@ -8430,7 +8392,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>python3.9-graphql-relay-3.1.0</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/170378933'>x86_64-linux python3.9-graphql-relay-3.1.0</a></tt></summary>
 <ul>
 <li>nixpkgs.python39Packages.django-graphiql-debug-toolbar.x86_64-linux</li>
 <li>nixpkgs.python39Packages.graphene-django.x86_64-linux</li>
@@ -8442,7 +8404,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>lua5.2-luv-1.43.0-0</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/171886502'>x86_64-linux lua5.2-luv-1.43.0-0</a></tt></summary>
 <ul>
 <li>nixpkgs.lua52Packages.nvim-client.x86_64-linux</li>
 <li>nixpkgs.luaPackages.nvim-client.x86_64-linux</li>
@@ -8453,7 +8415,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>bower-json-1.0.0.1</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/169735485'>x86_64-linux bower-json-1.0.0.1</a></tt></summary>
 <ul>
 <li>nixpkgs.haskellPackages.spago.x86_64-linux</li>
 <li>nixpkgs.spago.x86_64-linux</li>
@@ -8464,7 +8426,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>i686-linux <tt>libb64-2.0.0.1</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/170724156'>i686-linux libb64-2.0.0.1</a></tt></summary>
 <ul>
 <li>nixos.tests.bittorrent.i686-linux</li>
 <li>nixos.tests.transmission.i686-linux</li>
@@ -8475,7 +8437,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>i686-linux <tt>clickhouse-22.3.2.2</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/171193487'>i686-linux clickhouse-22.3.2.2</a></tt></summary>
 <ul>
 <li>nixos.tests.clickhouse.i686-linux</li>
 <li>nixos.tests.plausible.i686-linux</li>
@@ -8486,7 +8448,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>i686-linux <tt>resource-agents-4.10.0</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/171084148'>i686-linux resource-agents-4.10.0</a></tt></summary>
 <ul>
 <li>nixos.tests.drbd.i686-linux</li>
 <li>nixos.tests.pacemaker.i686-linux</li>
@@ -8497,7 +8459,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>nixos-amazon-image-22.05pre-git-x86_64-linux</tt></summary>
+<details><summary><tt>x86_64-linux nixos-amazon-image-22.05pre-git-x86_64-linux</tt></summary>
 <ul>
 <li>nixos.tests.ec2-config.x86_64-linux</li>
 <li>nixos.tests.ec2-nixops.x86_64-linux</li>
@@ -8508,7 +8470,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>dolfin-2019.1.0</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/171884711'>x86_64-linux dolfin-2019.1.0</a></tt></summary>
 <ul>
 <li>nixos.tests.fenics.x86_64-linux</li>
 <li>nixpkgs.python39Packages.fenics.x86_64-linux</li>
@@ -8519,7 +8481,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>i686-linux <tt>grafana-8.4.5</tt></summary>
+<details><summary><tt>i686-linux grafana-8.4.5</tt></summary>
 <ul>
 <li>nixos.tests.grafana.i686-linux</li>
 <li>nixos.tests.litestream.i686-linux</li>
@@ -8530,7 +8492,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>i686-linux <tt>python3.9-graphite-web-1.1.8</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/171141545'>i686-linux python3.9-graphite-web-1.1.8</a></tt></summary>
 <ul>
 <li>nixos.tests.graphite.i686-linux</li>
 <li>nixos.tests.graphite.x86_64-linux</li>
@@ -8541,7 +8503,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>i686-linux <tt>libdecor-0.1.0</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/171076558'>i686-linux libdecor-0.1.0</a></tt></summary>
 <ul>
 <li>nixos.tests.minidlna.i686-linux</li>
 <li>nixos.tests.minidlna.x86_64-linux</li>
@@ -8552,7 +8514,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>ekg-json-0.1.0.7</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/169747755'>x86_64-linux ekg-json-0.1.0.7</a></tt></summary>
 <ul>
 <li>nixpkgs.haskellPackages.graphql-engine.x86_64-linux</li>
 <li>nixpkgs.hasura-graphql-engine.x86_64-linux</li>
@@ -8563,7 +8525,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>webkitgtk3-0.14.2.1</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/171843596'>x86_64-linux webkitgtk3-0.14.2.1</a></tt></summary>
 <ul>
 <li>nixpkgs.haskellPackages.hbro-contrib.x86_64-linux</li>
 <li>nixpkgs.haskellPackages.hbro.x86_64-linux</li>
@@ -8574,7 +8536,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>python3.9-aio-georss-client-0.9</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/170721040'>x86_64-linux python3.9-aio-georss-client-0.9</a></tt></summary>
 <ul>
 <li>nixpkgs.home-assistant-component-tests.gdacs.x86_64-linux</li>
 <li>nixpkgs.python39Packages.aio-georss-gdacs.x86_64-linux</li>
@@ -8585,7 +8547,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>perl5.32.1-HTTP-CookieJar-0.010</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/170351848'>x86_64-linux perl5.32.1-HTTP-CookieJar-0.010</a></tt></summary>
 <ul>
 <li>nixpkgs.perl532Packages.CacheKyotoTycoon.x86_64-linux</li>
 <li>nixpkgs.perl532Packages.Furl.x86_64-linux</li>
@@ -8596,7 +8558,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>perl5.34.0-HTTP-CookieJar-0.010</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/170375703'>x86_64-linux perl5.34.0-HTTP-CookieJar-0.010</a></tt></summary>
 <ul>
 <li>nixpkgs.perl534Packages.CacheKyotoTycoon.x86_64-linux</li>
 <li>nixpkgs.perl534Packages.Furl.x86_64-linux</li>
@@ -8607,7 +8569,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>pulumi-v3.28.0-linux-x64.tar.gz</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/171846917'>x86_64-linux pulumi-v3.28.0-linux-x64.tar.gz</a></tt></summary>
 <ul>
 <li>nixpkgs.pulumi-bin.x86_64-linux</li>
 </ul>
@@ -8617,7 +8579,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>i686-linux <tt>initrd</tt></summary>
+<details><summary><tt>i686-linux initrd</tt></summary>
 <ul>
 <li>nixos.tests.systemd-initrd-simple.i686-linux</li>
 </ul>
@@ -8627,7 +8589,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>hyper-haskell-server-0.2.3.0</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/171852754'>x86_64-linux hyper-haskell-server-0.2.3.0</a></tt></summary>
 <ul>
 <li>nixpkgs.hyper-haskell-server-with-packages.x86_64-linux</li>
 </ul>
@@ -8637,7 +8599,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>i686-linux <tt>Agda-2.6.2.1</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/171257059'>i686-linux Agda-2.6.2.1</a></tt></summary>
 <ul>
 <li>nixos.tests.agda.i686-linux</li>
 </ul>
@@ -8647,7 +8609,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>i686-linux <tt>apfs-unstable-2021-09-21-5.10.109</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/171192829'>i686-linux apfs-unstable-2021-09-21-5.10.109</a></tt></summary>
 <ul>
 <li>nixos.tests.apfs.i686-linux</li>
 </ul>
@@ -8657,7 +8619,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>i686-linux <tt>beanstalkd-1.12</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/170724158'>i686-linux beanstalkd-1.12</a></tt></summary>
 <ul>
 <li>nixos.tests.beanstalkd.i686-linux</li>
 </ul>
@@ -8667,7 +8629,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>i686-linux <tt>rocksdb-6.23.3</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/170723806'>i686-linux rocksdb-6.23.3</a></tt></summary>
 <ul>
 <li>nixos.tests.blockbook-frontend.i686-linux</li>
 </ul>
@@ -8677,7 +8639,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>breitbandmessung-3.1.0</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/171140258'>x86_64-linux breitbandmessung-3.1.0</a></tt></summary>
 <ul>
 <li>nixos.tests.breitbandmessung.x86_64-linux</li>
 </ul>
@@ -8687,7 +8649,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>i686-linux <tt>perl5.34.0-Text-Markdown-Hoedown-1.03</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/170723458'>i686-linux perl5.34.0-Text-Markdown-Hoedown-1.03</a></tt></summary>
 <ul>
 <li>nixos.tests.convos.i686-linux</li>
 </ul>
@@ -8697,7 +8659,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>i686-linux <tt>dnsdist-1.7.0</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/171139585'>i686-linux dnsdist-1.7.0</a></tt></summary>
 <ul>
 <li>nixos.tests.dnsdist.i686-linux</li>
 </ul>
@@ -8707,7 +8669,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>domination-1.2.4</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/171893506'>x86_64-linux domination-1.2.4</a></tt></summary>
 <ul>
 <li>nixos.tests.domination.x86_64-linux</li>
 </ul>
@@ -8717,7 +8679,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>i686-linux <tt>bsb-http-chunked-0.0.0.4</tt></summary>
+<details><summary><tt>i686-linux bsb-http-chunked-0.0.0.4</tt></summary>
 <ul>
 <li>nixos.tests.hledger-web.i686-linux</li>
 </ul>
@@ -8727,7 +8689,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>i686-linux <tt>persistent-2.13.3.3</tt></summary>
+<details><summary><tt>i686-linux persistent-2.13.3.3</tt></summary>
 <ul>
 <li>nixos.tests.hledger-web.i686-linux</li>
 </ul>
@@ -8737,7 +8699,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>i686-linux <tt>perl5.34.0-Crypt-RandPasswd-0.06</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/170724145'>i686-linux perl5.34.0-Crypt-RandPasswd-0.06</a></tt></summary>
 <ul>
 <li>nixos.tests.hydra.hydra-unstable.i686-linux</li>
 </ul>
@@ -8747,7 +8709,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>hydra-2021-08-11</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/171885921'>x86_64-linux hydra-2021-08-11</a></tt></summary>
 <ul>
 <li>nixos.tests.hydra.hydra-unstable.x86_64-linux</li>
 </ul>
@@ -8757,7 +8719,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>i686-linux <tt>crystal-1.0.0</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/171077383'>i686-linux crystal-1.0.0</a></tt></summary>
 <ul>
 <li>nixos.tests.invidious.i686-linux</li>
 </ul>
@@ -8767,7 +8729,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>i686-linux <tt>linux-5.16.18</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/171195056'>i686-linux linux-5.16.18</a></tt></summary>
 <ul>
 <li>nixos.tests.kernel-generic.linux_5_16.i686-linux</li>
 </ul>
@@ -8777,7 +8739,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>i686-linux <tt>rocksdb-6.29.3</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/170722336'>i686-linux rocksdb-6.29.3</a></tt></summary>
 <ul>
 <li>nixos.tests.matrix-conduit.i686-linux</li>
 </ul>
@@ -8787,7 +8749,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>i686-linux <tt>flatty-0.2.3</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/170723645'>i686-linux flatty-0.2.3</a></tt></summary>
 <ul>
 <li>nixos.tests.nitter.i686-linux</li>
 </ul>
@@ -8797,7 +8759,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>i686-linux <tt>powerdns-4.6.1</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/171194482'>i686-linux powerdns-4.6.1</a></tt></summary>
 <ul>
 <li>nixos.tests.powerdns.i686-linux</li>
 </ul>
@@ -8807,7 +8769,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>i686-linux <tt>fastly-exporter-7.0.1</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/171079130'>i686-linux fastly-exporter-7.0.1</a></tt></summary>
 <ul>
 <li>nixos.tests.prometheus-exporters.fastly.i686-linux</li>
 </ul>
@@ -8817,7 +8779,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>i686-linux <tt>python3.9-cherrypy-18.6.1</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/171191760'>i686-linux python3.9-cherrypy-18.6.1</a></tt></summary>
 <ul>
 <li>nixos.tests.sabnzbd.i686-linux</li>
 </ul>
@@ -8827,7 +8789,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>i686-linux <tt>sope-5.5.1</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/171077540'>i686-linux sope-5.5.1</a></tt></summary>
 <ul>
 <li>nixos.tests.sogo.i686-linux</li>
 </ul>
@@ -8837,7 +8799,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>i686-linux <tt>python3.9-moto-3.0.2</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/171193938'>i686-linux python3.9-moto-3.0.2</a></tt></summary>
 <ul>
 <li>nixos.tests.sourcehut.i686-linux</li>
 </ul>
@@ -8847,7 +8809,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>i686-linux <tt>trafficserver-9.1.1</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/170722923'>i686-linux trafficserver-9.1.1</a></tt></summary>
 <ul>
 <li>nixos.tests.trafficserver.i686-linux</li>
 </ul>
@@ -8857,7 +8819,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>i686-linux <tt>vector-0.20.0</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/170724023'>i686-linux vector-0.20.0</a></tt></summary>
 <ul>
 <li>nixos.tests.vector.test1.i686-linux</li>
 </ul>
@@ -8867,7 +8829,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>xmonad</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/171263111'>x86_64-linux xmonad</a></tt></summary>
 <ul>
 <li>nixos.tests.xmonad.x86_64-linux</li>
 </ul>
@@ -8877,7 +8839,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>cryptomator-1.6.7-deps</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/171103772'>x86_64-linux cryptomator-1.6.7-deps</a></tt></summary>
 <ul>
 <li>nixpkgs.cryptomator.x86_64-linux</li>
 </ul>
@@ -8887,7 +8849,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>btrfs-progs-5.16.1</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/170093078'>x86_64-linux btrfs-progs-5.16.1</a></tt></summary>
 <ul>
 <li>nixpkgs.dduper.x86_64-linux</li>
 </ul>
@@ -8897,7 +8859,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>python3.9-black-22.1.0</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/171154746'>x86_64-linux python3.9-black-22.1.0</a></tt></summary>
 <ul>
 <li>nixpkgs.elasticsearch-curator.x86_64-linux</li>
 </ul>
@@ -8907,7 +8869,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>elm-format-test-lib-0.0.0.1</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/171885365'>x86_64-linux elm-format-test-lib-0.0.0.1</a></tt></summary>
 <ul>
 <li>nixpkgs.elmPackages.elm-format.x86_64-linux</li>
 </ul>
@@ -8917,7 +8879,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>frostwire-desktop-deps-6.6.7-build-529</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/171476125'>x86_64-linux frostwire-desktop-deps-6.6.7-build-529</a></tt></summary>
 <ul>
 <li>nixpkgs.frostwire.x86_64-linux</li>
 </ul>
@@ -8927,7 +8889,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>node-dependencies-fx_cast_bridge-0.1.2</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/170440766'>x86_64-linux node-dependencies-fx_cast_bridge-0.1.2</a></tt></summary>
 <ul>
 <li>nixpkgs.fx_cast_bridge.x86_64-linux</li>
 </ul>
@@ -8937,7 +8899,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>pangomm-2.42.2</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/170421547'>x86_64-linux pangomm-2.42.2</a></tt></summary>
 <ul>
 <li>nixpkgs.gigedit.x86_64-linux</li>
 </ul>
@@ -8947,7 +8909,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>python3.9-git-annex-adapter-0.2.2</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/171881958'>x86_64-linux python3.9-git-annex-adapter-0.2.2</a></tt></summary>
 <ul>
 <li>nixpkgs.git-annex-metadata-gui.x86_64-linux</li>
 </ul>
@@ -8957,7 +8919,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>pfstools-2.2.0</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/171107383'>x86_64-linux pfstools-2.2.0</a></tt></summary>
 <ul>
 <li>nixpkgs.haskellPackages.HDRUtils.x86_64-linux</li>
 </ul>
@@ -8967,7 +8929,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>python3.9-pyefergy-22.1.1</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/170721241'>x86_64-linux python3.9-pyefergy-22.1.1</a></tt></summary>
 <ul>
 <li>nixpkgs.home-assistant-component-tests.efergy.x86_64-linux</li>
 </ul>
@@ -8977,7 +8939,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>instead-3.3.2</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/171887186'>x86_64-linux instead-3.3.2</a></tt></summary>
 <ul>
 <li>nixpkgs.instead-launcher.x86_64-linux</li>
 </ul>
@@ -8987,7 +8949,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>python3.9-html-sanitizer-1.9.3</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/170337668'>x86_64-linux python3.9-html-sanitizer-1.9.3</a></tt></summary>
 <ul>
 <li>nixpkgs.mirage-im.x86_64-linux</li>
 </ul>
@@ -8997,7 +8959,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>ruby2.7.5-nokogiri-1.10.3</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/171121613'>x86_64-linux ruby2.7.5-nokogiri-1.10.3</a></tt></summary>
 <ul>
 <li>nixpkgs.mpdcron.x86_64-linux</li>
 </ul>
@@ -9007,7 +8969,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>openmw-tes3mp-unwrapped-unstable-2020-08-07</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/171840513'>x86_64-linux openmw-tes3mp-unwrapped-unstable-2020-08-07</a></tt></summary>
 <ul>
 <li>nixpkgs.openmw-tes3mp.x86_64-linux</li>
 </ul>
@@ -9017,7 +8979,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>ostinato.desktop</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/171101591'>x86_64-linux ostinato.desktop</a></tt></summary>
 <ul>
 <li>nixpkgs.ostinato.x86_64-linux</li>
 </ul>
@@ -9027,7 +8989,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>python3.9-pylint-django-2.5.0</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/170359133'>x86_64-linux python3.9-pylint-django-2.5.0</a></tt></summary>
 <ul>
 <li>nixpkgs.prospector.x86_64-linux</li>
 </ul>
@@ -9037,7 +8999,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>python3.10-aio-georss-client-0.9</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/170362547'>x86_64-linux python3.10-aio-georss-client-0.9</a></tt></summary>
 <ul>
 <li>nixpkgs.python310Packages.aio-georss-gdacs.x86_64-linux</li>
 </ul>
@@ -9047,7 +9009,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>python3.10-aiohttp-remotes-1.2.0</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/170336232'>x86_64-linux python3.10-aiohttp-remotes-1.2.0</a></tt></summary>
 <ul>
 <li>nixpkgs.python310Packages.connexion.x86_64-linux</li>
 </ul>
@@ -9057,7 +9019,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>python3.10-PIMS-0.5</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/171892563'>x86_64-linux python3.10-PIMS-0.5</a></tt></summary>
 <ul>
 <li>nixpkgs.python310Packages.dask-image.x86_64-linux</li>
 </ul>
@@ -9067,7 +9029,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>python3.10-django-hijack-2.1.10</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/169538880'>x86_64-linux python3.10-django-hijack-2.1.10</a></tt></summary>
 <ul>
 <li>nixpkgs.python310Packages.django_hijack_admin.x86_64-linux</li>
 </ul>
@@ -9077,7 +9039,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>python3.10-pytest-4.6.11</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/171109254'>x86_64-linux python3.10-pytest-4.6.11</a></tt></summary>
 <ul>
 <li>nixpkgs.python310Packages.fenics.x86_64-linux</li>
 </ul>
@@ -9087,7 +9049,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>python3.10-tornado-5.1.1</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/169533686'>x86_64-linux python3.10-tornado-5.1.1</a></tt></summary>
 <ul>
 <li>nixpkgs.python310Packages.graphite_beacon.x86_64-linux</li>
 </ul>
@@ -9097,7 +9059,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>python3.10-mailman-3.3.5</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/171142038'>x86_64-linux python3.10-mailman-3.3.5</a></tt></summary>
 <ul>
 <li>nixpkgs.python310Packages.mailman-hyperkitty.x86_64-linux</li>
 </ul>
@@ -9107,7 +9069,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>python3.10-HyperKitty-1.3.5</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/170082050'>x86_64-linux python3.10-HyperKitty-1.3.5</a></tt></summary>
 <ul>
 <li>nixpkgs.python310Packages.mailman-web.x86_64-linux</li>
 </ul>
@@ -9117,7 +9079,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>python3.10-wasm-1.2</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/170361029'>x86_64-linux python3.10-wasm-1.2</a></tt></summary>
 <ul>
 <li>nixpkgs.python310Packages.manticore.x86_64-linux</li>
 </ul>
@@ -9127,7 +9089,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>python3.10-pyuv-1.4.0</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/170351225'>x86_64-linux python3.10-pyuv-1.4.0</a></tt></summary>
 <ul>
 <li>nixpkgs.python310Packages.powerline.x86_64-linux</li>
 </ul>
@@ -9137,7 +9099,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>python3.10-jsonrpc-async-2.0.0</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/169508627'>x86_64-linux python3.10-jsonrpc-async-2.0.0</a></tt></summary>
 <ul>
 <li>nixpkgs.python310Packages.pykodi.x86_64-linux</li>
 </ul>
@@ -9147,7 +9109,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>python3.10-redis-2.10.6</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/170360449'>x86_64-linux python3.10-redis-2.10.6</a></tt></summary>
 <ul>
 <li>nixpkgs.python310Packages.pyres.x86_64-linux</li>
 </ul>
@@ -9157,7 +9119,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>python3.10-pep257-6.1.1</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/170364574'>x86_64-linux python3.10-pep257-6.1.1</a></tt></summary>
 <ul>
 <li>nixpkgs.python310Packages.pytest-pep257.x86_64-linux</li>
 </ul>
@@ -9167,7 +9129,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>python3.10-selectors2-2.0.2</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/169498562'>x86_64-linux python3.10-selectors2-2.0.2</a></tt></summary>
 <ul>
 <li>nixpkgs.python310Packages.rfc6555.x86_64-linux</li>
 </ul>
@@ -9177,7 +9139,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>python3.10-persim-0.3.1</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/170076845'>x86_64-linux python3.10-persim-0.3.1</a></tt></summary>
 <ul>
 <li>nixpkgs.python310Packages.ripser.x86_64-linux</li>
 </ul>
@@ -9187,7 +9149,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>python3.10-meshio-5.2.2</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/171882318'>x86_64-linux python3.10-meshio-5.2.2</a></tt></summary>
 <ul>
 <li>nixpkgs.python310Packages.sfepy.x86_64-linux</li>
 </ul>
@@ -9197,7 +9159,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>python3.10-aplpy-2.0.3</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/171841466'>x86_64-linux python3.10-aplpy-2.0.3</a></tt></summary>
 <ul>
 <li>nixpkgs.python310Packages.spectral-cube.x86_64-linux</li>
 </ul>
@@ -9207,7 +9169,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>python3.10-asdf-2.8.3</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/171841947'>x86_64-linux python3.10-asdf-2.8.3</a></tt></summary>
 <ul>
 <li>nixpkgs.python310Packages.sunpy.x86_64-linux</li>
 </ul>
@@ -9217,7 +9179,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>python3.10-tokenizers-unstable-2021-08-13</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/171184853'>x86_64-linux python3.10-tokenizers-unstable-2021-08-13</a></tt></summary>
 <ul>
 <li>nixpkgs.python310Packages.transformers.x86_64-linux</li>
 </ul>
@@ -9227,7 +9189,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>python3.10-matchpy-0.5.1</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/170373443'>x86_64-linux python3.10-matchpy-0.5.1</a></tt></summary>
 <ul>
 <li>nixpkgs.python310Packages.uarray.x86_64-linux</li>
 </ul>
@@ -9237,7 +9199,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>python3.10-datatable-0.11.0</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/170362590'>x86_64-linux python3.10-datatable-0.11.0</a></tt></summary>
 <ul>
 <li>nixpkgs.python310Packages.xgboost.x86_64-linux</li>
 </ul>
@@ -9247,7 +9209,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>python3.9-aiohttp-swagger-1.0.15</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/170342493'>x86_64-linux python3.9-aiohttp-swagger-1.0.15</a></tt></summary>
 <ul>
 <li>nixpkgs.python39Packages.connexion.x86_64-linux</li>
 </ul>
@@ -9257,7 +9219,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>python3.9-django-hijack-2.1.10</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/170337607'>x86_64-linux python3.9-django-hijack-2.1.10</a></tt></summary>
 <ul>
 <li>nixpkgs.python39Packages.django_hijack_admin.x86_64-linux</li>
 </ul>
@@ -9267,7 +9229,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>python3.9-graphite-api-1.1.3</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/170969401'>x86_64-linux python3.9-graphite-api-1.1.3</a></tt></summary>
 <ul>
 <li>nixpkgs.python39Packages.influxgraph.x86_64-linux</li>
 </ul>
@@ -9277,7 +9239,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>python3.9-jsonrpc-async-2.0.0</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/169520730'>x86_64-linux python3.9-jsonrpc-async-2.0.0</a></tt></summary>
 <ul>
 <li>nixpkgs.python39Packages.pykodi.x86_64-linux</li>
 </ul>
@@ -9287,7 +9249,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>python3.9-redis-2.10.6</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/170372689'>x86_64-linux python3.9-redis-2.10.6</a></tt></summary>
 <ul>
 <li>nixpkgs.python39Packages.pyres.x86_64-linux</li>
 </ul>
@@ -9297,7 +9259,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>python3.9-pep257-6.1.1</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/170371034'>x86_64-linux python3.9-pep257-6.1.1</a></tt></summary>
 <ul>
 <li>nixpkgs.python39Packages.pytest-pep257.x86_64-linux</li>
 </ul>
@@ -9307,7 +9269,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>python3.9-meshio-5.2.2</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/171882110'>x86_64-linux python3.9-meshio-5.2.2</a></tt></summary>
 <ul>
 <li>nixpkgs.python39Packages.sfepy.x86_64-linux</li>
 </ul>
@@ -9317,7 +9279,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>python3.9-aplpy-2.0.3</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/171887216'>x86_64-linux python3.9-aplpy-2.0.3</a></tt></summary>
 <ul>
 <li>nixpkgs.python39Packages.spectral-cube.x86_64-linux</li>
 </ul>
@@ -9327,7 +9289,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>python3.9-asdf-2.8.3</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/171839931'>x86_64-linux python3.9-asdf-2.8.3</a></tt></summary>
 <ul>
 <li>nixpkgs.python39Packages.sunpy.x86_64-linux</li>
 </ul>
@@ -9337,7 +9299,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>python3.9-johnnycanencrypt-0.6.0</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/171125318'>x86_64-linux python3.9-johnnycanencrypt-0.6.0</a></tt></summary>
 <ul>
 <li>nixpkgs.python39Packages.tumpa.x86_64-linux</li>
 </ul>
@@ -9347,7 +9309,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>python3.9-matchpy-0.5.1</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/169508975'>x86_64-linux python3.9-matchpy-0.5.1</a></tt></summary>
 <ul>
 <li>nixpkgs.python39Packages.uarray.x86_64-linux</li>
 </ul>
@@ -9357,7 +9319,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>npush-0.7</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/169478948'>x86_64-linux npush-0.7</a></tt></summary>
 <ul>
 <li>nixpkgs.run-npush.x86_64-linux</li>
 </ul>
@@ -9367,7 +9329,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>ruby2.7.5-nokogiri-1.10.1</tt></summary>
+<details><summary><tt>x86_64-linux ruby2.7.5-nokogiri-1.10.1</tt></summary>
 <ul>
 <li>nixpkgs.showoff.x86_64-linux</li>
 </ul>
@@ -9377,7 +9339,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>ploticus-2.42</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/171117772'>x86_64-linux ploticus-2.42</a></tt></summary>
 <ul>
 <li>nixpkgs.skribilo.x86_64-linux</li>
 </ul>
@@ -9387,7 +9349,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>python2.7-parsimonious-0.8.1</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/170721953'>x86_64-linux python2.7-parsimonious-0.8.1</a></tt></summary>
 <ul>
 <li>nixpkgs.styx.x86_64-linux</li>
 </ul>
@@ -9397,7 +9359,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>python3.9-SwSpotify-1.2.3</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/170077876'>x86_64-linux python3.9-SwSpotify-1.2.3</a></tt></summary>
 <ul>
 <li>nixpkgs.swaglyrics.x86_64-linux</li>
 </ul>
@@ -9407,7 +9369,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>taler-exchange-0.8.1</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/171837767'>x86_64-linux taler-exchange-0.8.1</a></tt></summary>
 <ul>
 <li>nixpkgs.taler-merchant.x86_64-linux</li>
 </ul>
@@ -9417,7 +9379,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>pypy3.8-bootstrapped-pip-21.3.1</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/171113851'>x86_64-linux pypy3.8-bootstrapped-pip-21.3.1</a></tt></summary>
 <ul>
 <li>nixpkgs.tests.writers.x86_64-linux</li>
 </ul>
@@ -9427,7 +9389,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>python3.8-xdis-6.0.3</tt></summary>
+<details><summary><tt>x86_64-linux python3.8-xdis-6.0.3</tt></summary>
 <ul>
 <li>nixpkgs.unrpa.x86_64-linux</li>
 </ul>
@@ -9437,7 +9399,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>jowi24-libnet++-20180628</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/170366478'>x86_64-linux jowi24-libnet++-20180628</a></tt></summary>
 <ul>
 <li>nixpkgs.vdrPlugins.fritzbox.x86_64-linux</li>
 </ul>
@@ -9447,7 +9409,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>maple</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/171171578'>x86_64-linux maple</a></tt></summary>
 <ul>
 <li>nixpkgs.vimPlugins.vim-clap.x86_64-linux</li>
 </ul>
@@ -9457,7 +9419,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>x86_64-linux <tt>nixos-ova-22.05pre366144.bc4b9eef3ce-x86_64-linux</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/171892423'>x86_64-linux nixos-ova-22.05pre366144.bc4b9eef3ce-x86_64-linux</a></tt></summary>
 <ul>
 <li>tested</li>
 </ul>
@@ -9467,5 +9429,5 @@ Built for evals:
 </tr>
 </table>
 
-<sup>Generated by [eval-report](https://github.com/samueldr/nix-review-tools/blob/master/eval-report)</sup>
+<sup>Generated by [eval-report](https://github.com/nix-community/nix-review-tools/blob/master/eval-report)</sup>
 
