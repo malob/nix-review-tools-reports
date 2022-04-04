@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-04-04 10:15:26 UTC*
+*Report built at 2022-04-04 11:15:05 UTC*
 
 Built for evals:
 
@@ -7602,7 +7602,7 @@ Built for evals:
 ### Still queued
 
 
- * 546 issues
+ * 545 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -11351,13 +11351,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/171890174'>nixpkgs.libreoffice.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/171891755'>nixpkgs.mame.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
