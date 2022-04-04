@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-21.11-darwin
 ---
 # Evals report
 
-*Report built at 2022-04-04 03:33:32 UTC*
+*Report built at 2022-04-04 04:13:55 UTC*
 
 Built for evals:
 
@@ -43,7 +43,7 @@ Built for evals:
 ### x86_64-darwin
 
 
- * 1846 issues
+ * 1848 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -19120,6 +19120,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/171640892'>python38Packages.graspologic.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/171602777'>python38Packages.green.x86_64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -19139,6 +19145,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/171594189'>python38Packages.hypothesmith.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/171641465'>python38Packages.hyppo.x86_64-darwin</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -55196,7 +55208,7 @@ Built for evals:
 ### Still queued
 
 
- * 5753 issues
+ * 5751 issues
 <details><summary>Failure table</summary>
 <table>
 <thead><tr>
@@ -81904,13 +81916,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/171640892'>python38Packages.graspologic.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/171627042'>python38Packages.greeclimate.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -82097,13 +82102,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/171641465'>python38Packages.hyppo.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
