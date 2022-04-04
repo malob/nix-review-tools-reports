@@ -1,0 +1,26 @@
+name: Manually generate report
+
+on:
+  workflow_dispatch:
+    inputs:
+      project:
+        description: Hydra project
+        required: true
+        type: string
+      jobset:
+        description: Hydra jobset for project
+        required: true
+        type: string
+      nuke-cache:
+        description: Delete the build report cache for the jobset before report generation
+        type: boolean
+        required: true
+        default: false
+
+jobs:
+  gen-report:
+    uses: ./.github/workflows/gen-report.yml
+    with:
+      project: ${{ github.event.inputs.project }}
+      jobset: ${{ github.event.inputs.jobset }}
+      nuke-cache: ${{ github.event.inputs.nuke-cache }}
