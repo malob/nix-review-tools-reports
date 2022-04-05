@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:nixpkgs-21.11-darwin 1753218
+title: nixpkgs:nixpkgs-21.11-darwin 1753218 (succeeded)
 categories: nixpkgs:nixpkgs-21.11-darwin
 ---
 # Evals report
 
-*Report built at 2022-04-04 20:14:21 UTC*
+*Report built at 2022-04-05 02:25:35 UTC*
 
 Built for evals:
 
@@ -57100,27 +57100,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/171591415'>wapiti.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/171629833'>haskell.compiler.integer-simple.ghc884.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 </table>
 </details>
