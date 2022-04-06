@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:nixpkgs-unstable-aarch64-darwin 1753672
+title: nixpkgs:nixpkgs-unstable-aarch64-darwin 1753672 (succeeded)
 categories: nixpkgs:nixpkgs-unstable-aarch64-darwin
 ---
 # Evals report
 
-*Report built at 2022-04-06 17:14:06 UTC*
+*Report built at 2022-04-06 18:13:54 UTC*
 
 Built for evals:
 
@@ -69,7 +69,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>2117 issues</summary>
+<details><summary>2119 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -9378,6 +9378,32 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/172546434'>python310Packages.toggl-cli.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>togglCli-3.tar.gz</tt> <br /> <a href='https://hydra.nixos.org/build/172546434/nixlog/6'>log</a>, <a href='https://hydra.nixos.org/build/172546434/nixlog/6/raw'>raw</a>, <a href='https://hydra.nixos.org/build/172546434/nixlog/6/tail'>tail</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>togglCli-3.tar.gz</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>togglCli-3.tar.gz</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>togglCli-3.tar.gz</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>togglCli-3.tar.gz</tt> <br /> 
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/172390814'>python310Packages.toonapi.aarch64-darwin</a></tt>
 </summary>
 <ul>
@@ -12953,6 +12979,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>gcc-8.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/172373143/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/172373143/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/172373143/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/171459797'>build 171459797</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/172546384'>python39Packages.toggl-cli.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>togglCli-3.tar.gz</tt> <br /> <a href='https://hydra.nixos.org/build/172546384/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/172546384/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/172546384/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/172546434'>build 172546434</a>
 </li>
 </ul>
 </details>
@@ -21302,55 +21342,6 @@ Built for evals:
 </table>
 </details>
 
-
-### Still queued
-
-
-<details><summary>5 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/172546361'>libbap.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/172546385'>python310Packages.bap.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/172546434'>python310Packages.toggl-cli.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/172546417'>python39Packages.bap.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/172546384'>python39Packages.toggl-cli.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-</table>
-</details>
-
 ## Problematic dependencies
 
 <table>
@@ -22456,6 +22447,17 @@ Built for evals:
 <li>ocamlformat_0_14_0.aarch64-darwin</li>
 <li>ocamlformat_0_14_1.aarch64-darwin</li>
 <li>ocamlformat_0_14_2.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>6</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>aarch64-darwin togglCli-3.tar.gz</tt></summary>
+<ul>
+<li>python310Packages.toggl-cli.aarch64-darwin</li>
+<li>python39Packages.toggl-cli.aarch64-darwin</li>
 </ul>
 </details>
 </td>
