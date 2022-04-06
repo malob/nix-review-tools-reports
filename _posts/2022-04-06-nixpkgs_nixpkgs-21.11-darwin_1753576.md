@@ -1,16 +1,43 @@
 ---
-title: nixpkgs:nixpkgs-21.11-darwin 1753576
+title: nixpkgs:nixpkgs-21.11-darwin 1753576 (succeeded)
 categories: nixpkgs:nixpkgs-21.11-darwin
 ---
 # Evals report
 
-*Report built at 2022-04-06 06:14:24 UTC*
+*Report built at 2022-04-06 07:12:56 UTC*
 
 Built for evals:
 
   * [1753576](https://hydra.nixos.org/eval/1753576)
 
  * * * 
+
+### x86_64-linux
+
+
+<details><summary>1 issues</summary>
+<table>
+<thead><tr>
+<th>job</th>
+<th>status</th>
+</tr></thead>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/172496717'>darwin-tested</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>qtbase-5.12.10</tt> <br /> <a href='https://hydra.nixos.org/build/172496717/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/172496717/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/172496717/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/171585941'>build 171585941</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+</table>
+</details>
+
 
 ### x86_64-darwin
 
@@ -57077,62 +57104,6 @@ Built for evals:
 </table>
 </details>
 
-
-### Still queued
-
-
-<details><summary>6 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/172496717'>darwin-tested</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/172496719'>lib-tests</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/172496721'>metrics</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/172496722'>stdenvBootstrapTools.i686-linux.dist</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/172496718'>stdenvBootstrapTools.i686-linux.test</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/172496720'>tarball</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-</table>
-</details>
-
 ## Problematic dependencies
 
 <table>
@@ -57652,6 +57623,7 @@ Built for evals:
 <li>coqPackages.interval.x86_64-darwin</li>
 <li>corrscope.x86_64-darwin</li>
 <li>cutemaze.x86_64-darwin</li>
+<li>darwin-tested</li>
 <li>dialogbox.x86_64-darwin</li>
 <li>djview.x86_64-darwin</li>
 <li>djview4.x86_64-darwin</li>
@@ -58108,7 +58080,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>475</td>
+<td>476</td>
 </tr>
 <tr>
 <td>
