@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-unstable-aarch64-darwin
 ---
 # Evals report
 
-*Report built at 2022-04-09 03:20:23 UTC*
+*Report built at 2022-04-09 05:10:23 UTC*
 
 Built for evals:
 
@@ -69,7 +69,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1899 issues</summary>
+<details><summary>1901 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -2678,6 +2678,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/172825713'>ldgallery.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>ldgallery-viewer-2.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/172825713/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/172825713/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/172825713/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/172398845'>build 172398845</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/172380329'>libLAS.aarch64-darwin</a></tt>
 </summary>
 <ul>
@@ -3608,6 +3622,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>python3.9-pycurl-7.45.1</tt> <br /> <a href='https://hydra.nixos.org/build/172379526/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/172379526/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/172379526/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/171913066'>build 171913066</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/172826059'>nvfetcher.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.9-pycurl-7.45.1</tt> <br /> <a href='https://hydra.nixos.org/build/172826059/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/172826059/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/172826059/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/172380030'>build 172380030</a>
 </li>
 </ul>
 </details>
@@ -19148,7 +19176,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>6416 issues</summary>
+<details><summary>6411 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -19396,13 +19424,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/172831342'>enchant2.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/172829805'>esbuild.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -63523,13 +63544,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/172825713'>ldgallery.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/172828862'>ledger-autosync.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -63548,13 +63562,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/172826276'>metrics</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -63657,13 +63664,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/172825749'>nuspell.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/172826059'>nvfetcher.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -64049,13 +64049,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/172827389'>vaultenv.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/172825869'>vscode-extensions.matklad.rust-analyzer.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -64861,6 +64854,24 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/171913066'>aarch64-darwin python3.9-pycurl-7.45.1</a></tt></summary>
+<ul>
+<li>nvchecker.aarch64-darwin</li>
+<li>nvfetcher.aarch64-darwin</li>
+<li>pyCA.aarch64-darwin</li>
+<li>python39Packages.bugwarrior.aarch64-darwin</li>
+<li>python39Packages.nvchecker.aarch64-darwin</li>
+<li>python39Packages.osc.aarch64-darwin</li>
+<li>python39Packages.urlgrabber.aarch64-darwin</li>
+<li>python39Packages.wfuzz.aarch64-darwin</li>
+<li>wfuzz.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>9</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/171446147'>aarch64-darwin python3.9-extension-helpers-0.1</a></tt></summary>
 <ul>
 <li>python39Packages.astropy-healpix.aarch64-darwin</li>
@@ -64906,23 +64917,6 @@ Built for evals:
 <li>haxe_4_1.aarch64-darwin</li>
 <li>haxe_4_2.aarch64-darwin</li>
 <li>hxcpp.aarch64-darwin</li>
-</ul>
-</details>
-</td>
-<td>8</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/171913066'>aarch64-darwin python3.9-pycurl-7.45.1</a></tt></summary>
-<ul>
-<li>nvchecker.aarch64-darwin</li>
-<li>pyCA.aarch64-darwin</li>
-<li>python39Packages.bugwarrior.aarch64-darwin</li>
-<li>python39Packages.nvchecker.aarch64-darwin</li>
-<li>python39Packages.osc.aarch64-darwin</li>
-<li>python39Packages.urlgrabber.aarch64-darwin</li>
-<li>python39Packages.wfuzz.aarch64-darwin</li>
-<li>wfuzz.aarch64-darwin</li>
 </ul>
 </details>
 </td>
@@ -66367,6 +66361,16 @@ Built for evals:
 <details><summary><tt>aarch64-darwin ocaml4.13.1-dns-client-5.0.1</tt></summary>
 <ul>
 <li>jackline.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/172398845'>aarch64-darwin ldgallery-viewer-2.0.0</a></tt></summary>
+<ul>
+<li>ldgallery.aarch64-darwin</li>
 </ul>
 </details>
 </td>
