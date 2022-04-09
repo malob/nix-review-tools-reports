@@ -1,10 +1,10 @@
 ---
-title: nixos:release-21.11 1754278
+title: nixos:release-21.11 1754278 (succeeded)
 categories: nixos:release-21.11
 ---
 # Evals report
 
-*Report built at 2022-04-09 15:12:15 UTC*
+*Report built at 2022-04-09 16:14:33 UTC*
 
 Built for evals:
 
@@ -8014,27 +8014,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/171502730'>nixpkgs.wapiti.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/172832387'>tested</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
