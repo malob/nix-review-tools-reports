@@ -4,7 +4,7 @@ categories: nixos:release-21.11
 ---
 # Evals report
 
-*Report built at 2022-04-10 05:11:38 UTC*
+*Report built at 2022-04-10 06:14:47 UTC*
 
 Built for evals:
 
@@ -2882,7 +2882,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>525 issues</summary>
+<details><summary>527 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -7008,6 +7008,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/172900727'>nixos.tests.cntr.podman.aarch64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/172892052'>nixos.tests.custom-ca.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -7030,6 +7036,12 @@ Built for evals:
 </td>
 <td>Timed out</td>
 </tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/172921973'>nixpkgs.iosevka.aarch64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
 </table>
 </details>
 
@@ -7037,7 +7049,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>668 issues</summary>
+<details><summary>661 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -7337,13 +7349,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/172900727'>nixos.tests.cntr.podman.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -10777,28 +10782,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/172886632'>nixpkgs.haskell.compiler.ghcHEAD.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/172902729'>nixpkgs.haskell.compiler.integer-simple.ghc8107.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/172921973'>nixpkgs.iosevka.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/172872322'>nixpkgs.libreoffice-qt.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -11232,13 +11216,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/172895488'>nixpkgs.linuxPackages_custom_tinyconfig_kernel.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/172850130'>nixpkgs.linuxPackages_testing_bcachefs.acpi_call.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -11666,13 +11643,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/172905159'>nixpkgs.llvmPackages.clang-polly-unwrapped.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/172851037'>nixpkgs.llvmPackages_5.libllvm-polly.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -11688,13 +11658,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/172898130'>nixpkgs.llvmPackages_6.llvm-manpages.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/172858090'>nixpkgs.llvmPackages_7.clang-polly-unwrapped.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
