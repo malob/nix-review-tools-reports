@@ -4,7 +4,7 @@ categories: nixos:release-21.11
 ---
 # Evals report
 
-*Report built at 2022-04-10 06:14:47 UTC*
+*Report built at 2022-04-10 07:12:05 UTC*
 
 Built for evals:
 
@@ -827,7 +827,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>299 issues</summary>
+<details><summary>297 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -1255,20 +1255,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/172910344'>tested</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Failed</b> <tt>vm-test-run-keymap-colemak</tt> <br /> <a href='https://hydra.nixos.org/build/172910344/nixlog/21'>log</a>, <a href='https://hydra.nixos.org/build/172910344/nixlog/21/raw'>raw</a>, <a href='https://hydra.nixos.org/build/172910344/nixlog/21/tail'>tail</a>, <a href='https://hydra.nixos.org/build/172883256'>build 172883256</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/172856293'>nixos.tests.airsonic.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -1413,12 +1399,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/172883256'>nixos.tests.keymap.colemak.x86_64-linux</a></tt>
-</td>
-<td>Failed</td>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/172856550'>nixos.tests.knot.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -1498,12 +1478,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/172911459'>nixos.tests.openstack-image-userdata.x86_64-linux</a></tt>
-</td>
-<td>Failed</td>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/172914512'>nixos.tests.pantheon.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -2842,6 +2816,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/172874673'>nixos.tests.cntr.podman.x86_64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/172891599'>nixos.tests.custom-ca.x86_64-linux</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -7049,7 +7029,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>661 issues</summary>
+<details><summary>658 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -7503,13 +7483,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/172891599'>nixos.tests.custom-ca.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -11643,20 +11616,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/172851037'>nixpkgs.llvmPackages_5.libllvm-polly.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/172915451'>nixpkgs.llvmPackages_5.llvm-polly.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/172898130'>nixpkgs.llvmPackages_6.llvm-manpages.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -11678,7 +11637,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/172903597'>nixpkgs.ungoogled-chromium.x86_64-linux</a></tt>
+<tt><a href='https://hydra.nixos.org/build/172910344'>tested</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -12178,16 +12137,6 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/172604656'>x86_64-linux python3.9-pywebview-3.4</a></tt></summary>
 <ul>
 <li>nixpkgs.jellyfin-mpv-shim.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/172883256'>x86_64-linux vm-test-run-keymap-colemak</a></tt></summary>
-<ul>
-<li>tested</li>
 </ul>
 </details>
 </td>
