@@ -1,10 +1,10 @@
 ---
-title: nixos:release-21.11-aarch64 1754713
+title: nixos:release-21.11-aarch64 1754713 (succeeded)
 categories: nixos:release-21.11-aarch64
 ---
 # Evals report
 
-*Report built at 2022-04-11 15:14:51 UTC*
+*Report built at 2022-04-11 16:19:35 UTC*
 
 Built for evals:
 
@@ -4207,41 +4207,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/172923489'>nixpkgs.iosevka.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>3 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/173320724'>nixpkgs.kicad-unstable-small.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/173320302'>nixpkgs.python38Packages.kicad.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/173321289'>nixpkgs.swift-im.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 </table>
 </details>
