@@ -1,10 +1,10 @@
 ---
-title: nixos:trunk-combined 1755026
+title: nixos:trunk-combined 1755026 (succeeded)
 categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-04-12 12:23:00 UTC*
+*Report built at 2022-04-12 13:28:39 UTC*
 
 Built for evals:
 
@@ -23840,27 +23840,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/173387762'>nixos.tests.systemd-cryptenroll.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/173368123'>nixpkgs.freecad.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
