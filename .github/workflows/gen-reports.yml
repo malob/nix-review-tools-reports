@@ -30,6 +30,11 @@ jobs:
     with:
       project: nixpkgs
       jobset: nixpkgs-21.11-darwin
+  nixpkgs-python-updates:
+    uses: ./.github/workflows/gen-report.yml
+    with:
+      project: nixpkgs
+      jobset: python-updates
   nixpkgs-staging-next:
     uses: ./.github/workflows/gen-report.yml
     with:
