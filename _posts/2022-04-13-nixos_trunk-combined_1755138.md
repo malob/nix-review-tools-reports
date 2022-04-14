@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-04-14 09:17:14 UTC*
+*Report built at 2022-04-14 10:14:59 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### i686-linux
 
 
-<details><summary>162 issues</summary>
+<details><summary>165 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -196,6 +196,23 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>http-parser-2.9.4</tt> <br /> <a href='https://hydra.nixos.org/build/173577106/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/173577106/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/173577106/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/173577023'>build 173577023</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/173577607'>nixos.tests.clickhouse.i686-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>clickhouse-22.3.2.2</tt> <br /> <a href='https://hydra.nixos.org/build/173577607/nixlog/11'>log</a>, <a href='https://hydra.nixos.org/build/173577607/nixlog/11/raw'>raw</a>, <a href='https://hydra.nixos.org/build/173577607/nixlog/11/tail'>tail</a>
+</li>
+<li>
+<b>=> Cancelled</b> <tt>llvm-12.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/173577607/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/173577607/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/173577607/nixlog/1/tail'>tail</a>
 </li>
 </ul>
 </details>
@@ -1766,6 +1783,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/173576090'>nixos.tests.zfs.expand-partitions.i686-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>zpool-auto-expand-partitions-0.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/173576090/nixlog/4'>log</a>, <a href='https://hydra.nixos.org/build/173576090/nixlog/4/raw'>raw</a>, <a href='https://hydra.nixos.org/build/173576090/nixlog/4/tail'>tail</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/173577938'>nixos.tests.zfs.unstable.i686-linux</a></tt>
 </summary>
 <ul>
@@ -1922,6 +1953,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/173575164'>nixos.tests.jirafeau.i686-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/173575352'>nixos.tests.libresprite.i686-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -10581,34 +10618,13 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>13 issues</summary>
+<details><summary>8 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/173576375'>nixos.closures.ec2.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/173577607'>nixos.tests.clickhouse.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/173574836'>nixos.tests.cloud-init.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/173576164'>nixos.tests.enlightenment.aarch64-linux</a></tt>
@@ -10660,24 +10676,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/173575352'>nixos.tests.libresprite.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/173575168'>nixos.tests.wine.wineWowPackages-wayland.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/173576090'>nixos.tests.zfs.expand-partitions.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
 </tr>
 </table>
 </details>
@@ -11787,6 +11789,26 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt>i686-linux clickhouse-22.3.2.2</tt></summary>
+<ul>
+<li>nixos.tests.clickhouse.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>i686-linux llvm-12.0.1</tt></summary>
+<ul>
+<li>nixos.tests.clickhouse.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/173572875'>i686-linux perl5.34.0-Unicode-UTF8-0.62</a></tt></summary>
 <ul>
 <li>nixos.tests.convos.i686-linux</li>
@@ -12010,6 +12032,16 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/173548848'>i686-linux vengi-tools-0.0.18</a></tt></summary>
 <ul>
 <li>nixos.tests.vengi-tools.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>i686-linux zpool-auto-expand-partitions-0.1.0</tt></summary>
+<ul>
+<li>nixos.tests.zfs.expand-partitions.i686-linux</li>
 </ul>
 </details>
 </td>
