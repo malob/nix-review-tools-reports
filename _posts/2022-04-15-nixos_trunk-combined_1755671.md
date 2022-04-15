@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-04-15 06:14:24 UTC*
+*Report built at 2022-04-15 07:11:39 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### i686-linux
 
 
-<details><summary>175 issues</summary>
+<details><summary>177 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -2005,6 +2005,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/173654168'>nixos.tests.initrd-network-openvpn.i686-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/173652660'>nixos.tests.installed-tests.glib-networking.i686-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -2173,6 +2179,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/173653076'>nixos.tests.kexec.i686-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/173653860'>nixos.tests.systemd-cryptenroll.i686-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -2184,7 +2196,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>909 issues</summary>
+<details><summary>912 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -6441,6 +6453,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/173654795'>nixos.tests.enlightenment.x86_64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/173650877'>nixos.tests.glusterfs.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -6538,6 +6556,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/173653179'>nixos.tests.jirafeau.x86_64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/173654468'>nixos.tests.libresprite.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -10065,6 +10089,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/173654829'>nixpkgs.openmoji-black.x86_64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/173650403'>nixpkgs.openmoji-color.x86_64-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -10897,7 +10927,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>42 issues</summary>
+<details><summary>24 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -10934,13 +10964,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/173654795'>nixos.tests.enlightenment.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/173653257'>nixos.tests.fcitx.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -10952,13 +10975,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/173654168'>nixos.tests.initrd-network-openvpn.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
 </tr>
 <tr>
 <td>
@@ -10997,13 +11013,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/173653076'>nixos.tests.kexec.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/173654972'>nixos.tests.libresprite.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -11015,13 +11024,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/173654468'>nixos.tests.libresprite.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -11046,21 +11048,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/173651322'>nixpkgs.clang_14.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/173654673'>nixpkgs.fast-cli.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/173653295'>nixpkgs.include-what-you-use.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -11074,62 +11062,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/173650654'>nixpkgs.llvmPackages_14.clang-unwrapped.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/173652243'>nixpkgs.llvmPackages_14.clang.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/173653409'>nixpkgs.llvmPackages_14.clangNoCompilerRt.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/173650807'>nixpkgs.llvmPackages_14.clangNoCompilerRtWithLibc.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/173651544'>nixpkgs.llvmPackages_14.clangNoLibc.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/173654542'>nixpkgs.llvmPackages_14.clangNoLibcxx.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/173655486'>nixpkgs.llvmPackages_14.libclang.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/173652646'>nixpkgs.llvmPackages_14.libstdcxxClang.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/173652600'>nixpkgs.llvmPackages_14.lldb.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -11137,35 +11069,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/173650626'>nixpkgs.llvmPackages_14.openmp.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/173655417'>nixpkgs.llvmPackages_14.stdenv.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/173654829'>nixpkgs.openmoji-black.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/173654434'>nixpkgs.puppeteer-cli.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/173655067'>nixpkgs.qtcreator.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
