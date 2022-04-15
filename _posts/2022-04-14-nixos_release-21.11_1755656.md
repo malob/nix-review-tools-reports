@@ -1,10 +1,10 @@
 ---
-title: nixos:release-21.11 1755656 (succeeded)
+title: nixos:release-21.11 1755656
 categories: nixos:release-21.11
 ---
 # Evals report
 
-*Report built at 2022-04-15 03:01:11 UTC*
+*Report built at 2022-04-15 07:12:41 UTC*
 
 Built for evals:
 
@@ -1246,7 +1246,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>308 issues</summary>
+<details><summary>306 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -1722,20 +1722,6 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>python3.8-xdis-6.0.2</tt> <br /> <a href='https://hydra.nixos.org/build/172844823/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/172844823/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/172844823/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/172615698'>build 172615698</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/173645824'>tested</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Failed</b> <tt>nixpkgs-tarball-21.11pre337053.2f06b87f64b</tt> <br /> <a href='https://hydra.nixos.org/build/173645824/nixlog/4'>log</a>, <a href='https://hydra.nixos.org/build/173645824/nixlog/4/raw'>raw</a>, <a href='https://hydra.nixos.org/build/173645824/nixlog/4/tail'>tail</a>, <a href='https://hydra.nixos.org/build/173645783'>build 173645783</a>
 </li>
 </ul>
 </details>
@@ -3203,12 +3189,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/172884952'>nixpkgs.svls.x86_64-linux</a></tt>
-</td>
-<td>Failed</td>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/173645783'>nixpkgs.tarball</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -7532,6 +7512,27 @@ Built for evals:
 </table>
 </details>
 
+
+### Still queued
+
+
+<details><summary>1 issues</summary>
+<table>
+<thead><tr>
+<th>job</th>
+<th>status</th>
+<th>platform</th>
+</tr></thead>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/173645824'>tested</a></tt>
+</td>
+<td>Queued</td>
+<th>x86_64-linux</th>
+</tr>
+</table>
+</details>
+
 ## Problematic dependencies
 
 <table>
@@ -8048,16 +8049,6 @@ Built for evals:
 </details>
 </td>
 <td>2</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/173645783'>x86_64-linux nixpkgs-tarball-21.11pre337053.2f06b87f64b</a></tt></summary>
-<ul>
-<li>tested</li>
-</ul>
-</details>
-</td>
-<td>1</td>
 </tr>
 <tr>
 <td>
