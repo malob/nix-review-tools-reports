@@ -1,10 +1,10 @@
 ---
-title: nixos:trunk-combined 1755823
+title: nixos:trunk-combined 1755823 (succeeded)
 categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-04-16 18:13:08 UTC*
+*Report built at 2022-04-16 19:09:57 UTC*
 
 Built for evals:
 
@@ -2130,7 +2130,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>916 issues</summary>
+<details><summary>917 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -6515,6 +6515,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/173652211'>nixos.tests.consul.x86_64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/173837690'>nixos.tests.custom-ca.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -11004,27 +11010,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/173652368'>nixos.tests.lvm2.lvm-raid-sd-stage-1-linux-4_19.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/173837690'>nixos.tests.custom-ca.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
