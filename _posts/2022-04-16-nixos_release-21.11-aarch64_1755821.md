@@ -1,10 +1,10 @@
 ---
-title: nixos:release-21.11-aarch64 1755821
+title: nixos:release-21.11-aarch64 1755821 (succeeded)
 categories: nixos:release-21.11-aarch64
 ---
 # Evals report
 
-*Report built at 2022-04-16 11:10:52 UTC*
+*Report built at 2022-04-16 12:17:06 UTC*
 
 Built for evals:
 
@@ -4253,27 +4253,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/172923489'>nixpkgs.iosevka.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/173834859'>nixpkgs.qtcreator.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 </table>
 </details>
