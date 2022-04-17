@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next
 ---
 # Evals report
 
-*Report built at 2022-04-17 16:16:10 UTC*
+*Report built at 2022-04-17 17:15:38 UTC*
 
 Built for evals:
 
@@ -18755,7 +18755,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>1056 issues</summary>
+<details><summary>1057 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -28118,6 +28118,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/173804042'>python39Packages.privacyidea-ldap-proxy.aarch64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/173829146'>qgis-ltr.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -47935,7 +47941,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>2971 issues</summary>
+<details><summary>2967 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -51392,13 +51398,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/173694960'>libint.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -66536,13 +66535,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/173829146'>qgis-ltr.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/173806440'>qmk.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -67691,13 +67683,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/173842697'>swift-im.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/173822062'>sword.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -68024,13 +68009,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/173851187'>ungoogled-chromium.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
