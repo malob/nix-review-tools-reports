@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next
 ---
 # Evals report
 
-*Report built at 2022-04-17 18:15:23 UTC*
+*Report built at 2022-04-17 19:13:03 UTC*
 
 Built for evals:
 
@@ -28134,7 +28134,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>2017 issues</summary>
+<details><summary>2019 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -47870,6 +47870,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/173813868'>python39Packages.ldaptor.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/173818474'>python39Packages.moto.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -47883,6 +47889,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/173709024'>python39Packages.notify-py.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/173829029'>python39Packages.privacyidea-ldap-proxy.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -47941,7 +47953,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>2966 issues</summary>
+<details><summary>2964 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -62748,13 +62760,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/173813868'>python39Packages.ldaptor.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/173803937'>python39Packages.ldaptor.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -63844,13 +63849,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/173829029'>python39Packages.privacyidea-ldap-proxy.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
