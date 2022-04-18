@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-04-18 11:10:41 UTC*
+*Report built at 2022-04-18 12:19:15 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### i686-linux
 
 
-<details><summary>188 issues</summary>
+<details><summary>189 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -2331,6 +2331,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>logict-0.7.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/173885474/nixlog/15'>log</a>, <a href='https://hydra.nixos.org/build/173885474/nixlog/15/raw'>raw</a>, <a href='https://hydra.nixos.org/build/173885474/nixlog/15/tail'>tail</a>, <a href='https://hydra.nixos.org/build/173893170'>build 173893170</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/173893467'>nixos.tests.zfs.expand-partitions.i686-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>zpool-auto-expand-partitions-0.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/173893467/nixlog/29'>log</a>, <a href='https://hydra.nixos.org/build/173893467/nixlog/29/raw'>raw</a>, <a href='https://hydra.nixos.org/build/173893467/nixlog/29/tail'>tail</a>
 </li>
 </ul>
 </details>
@@ -22149,27 +22163,13 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>7 issues</summary>
+<details><summary>4 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/173922058'>nixos.closures.ec2.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/173900250'>nixos.tests.cloud-init.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/173902268'>nixos.tests.initrd-network-openvpn.i686-linux</a></tt>
@@ -22197,13 +22197,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/173893467'>nixos.tests.zfs.expand-partitions.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
 </tr>
 </table>
 </details>
@@ -25547,6 +25540,16 @@ Built for evals:
 <details><summary><tt>i686-linux vengi-tools-0.0.18</tt></summary>
 <ul>
 <li>nixos.tests.vengi-tools.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>i686-linux zpool-auto-expand-partitions-0.1.0</tt></summary>
+<ul>
+<li>nixos.tests.zfs.expand-partitions.i686-linux</li>
 </ul>
 </details>
 </td>
