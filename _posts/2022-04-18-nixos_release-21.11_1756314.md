@@ -1,10 +1,10 @@
 ---
-title: nixos:release-21.11 1756314
+title: nixos:release-21.11 1756314 (succeeded)
 categories: nixos:release-21.11
 ---
 # Evals report
 
-*Report built at 2022-04-18 07:12:58 UTC*
+*Report built at 2022-04-18 08:15:10 UTC*
 
 Built for evals:
 
@@ -1272,7 +1272,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>315 issues</summary>
+<details><summary>313 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -1756,33 +1756,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/174039232'>tested</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Failed</b> <tt>vm-test-run-boot-bios-usb</tt> <br /> <a href='https://hydra.nixos.org/build/174039232/nixlog/209'>log</a>, <a href='https://hydra.nixos.org/build/174039232/nixlog/209/raw'>raw</a>, <a href='https://hydra.nixos.org/build/174039232/nixlog/209/tail'>tail</a>, <a href='https://hydra.nixos.org/build/174039268'>build 174039268</a>
-</li>
-<li>
-<b>=> Aborted</b> <tt>exec-path.patch</tt> <br /> <a href='https://hydra.nixos.org/build/174039232/nixlog/23'>log</a>, <a href='https://hydra.nixos.org/build/174039232/nixlog/23/raw'>raw</a>, <a href='https://hydra.nixos.org/build/174039232/nixlog/23/tail'>tail</a>
-</li>
-<li>
-<b>=> Aborted</b> <tt>unit-systemd-fsck-.service</tt> <br /> <a href='https://hydra.nixos.org/build/174039232/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/174039232/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/174039232/nixlog/2/tail'>tail</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/173833207'>nixos.tests.airsonic.x86_64-linux</a></tt>
-</td>
-<td>Failed</td>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/174039268'>nixos.tests.boot.biosUsb.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -7684,27 +7658,6 @@ Built for evals:
 </table>
 </details>
 
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/174039309'>nixpkgs.ungoogled-chromium.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-</table>
-</details>
-
 ## Problematic dependencies
 
 <table>
@@ -8222,36 +8175,6 @@ Built for evals:
 </details>
 </td>
 <td>2</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/174039268'>x86_64-linux vm-test-run-boot-bios-usb</a></tt></summary>
-<ul>
-<li>tested</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>x86_64-linux exec-path.patch</tt></summary>
-<ul>
-<li>tested</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>x86_64-linux unit-systemd-fsck-.service</tt></summary>
-<ul>
-<li>tested</li>
-</ul>
-</details>
-</td>
-<td>1</td>
 </tr>
 <tr>
 <td>
