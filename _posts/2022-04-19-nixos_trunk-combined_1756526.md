@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-04-19 15:12:36 UTC*
+*Report built at 2022-04-19 16:18:44 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### i686-linux
 
 
-<details><summary>187 issues</summary>
+<details><summary>188 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -2221,6 +2221,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/174157053'>nixos.tests.initrd-network-openvpn.i686-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/174156454'>nixos.tests.installed-tests.glib-networking.i686-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -2394,7 +2400,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>1744 issues</summary>
+<details><summary>1747 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -2870,6 +2876,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>trafficserver-9.1.1</tt> <br /> <a href='https://hydra.nixos.org/build/174152931/nixlog/7'>log</a>, <a href='https://hydra.nixos.org/build/174152931/nixlog/7/raw'>raw</a>, <a href='https://hydra.nixos.org/build/174152931/nixlog/7/tail'>tail</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/174167522'>nixos.tests.vector.test1.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>vector-0.21.0</tt> <br /> <a href='https://hydra.nixos.org/build/174167522/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/174167522/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/174167522/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/173949203'>build 173949203</a>
 </li>
 </ul>
 </details>
@@ -14385,6 +14405,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/174153409'>nixos.tests.custom-ca.x86_64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/174152480'>nixos.tests.ejabberd.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -19725,6 +19751,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/174164480'>nixpkgs.openmoji-black.x86_64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/174153451'>nixpkgs.openmoji-color.x86_64-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -19760,7 +19792,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>102 issues</summary>
+<details><summary>103 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -20449,6 +20481,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/174155722'>nixos.tests.custom-ca.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/174166657'>nixos.tests.ejabberd.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -20760,27 +20798,13 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>14 issues</summary>
+<details><summary>9 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/174155722'>nixos.tests.custom-ca.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/174153409'>nixos.tests.custom-ca.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/174164374'>nixos.tests.fcitx.aarch64-linux</a></tt>
@@ -20801,13 +20825,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/174157053'>nixos.tests.initrd-network-openvpn.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
 </tr>
 <tr>
 <td>
@@ -20846,21 +20863,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/174167522'>nixos.tests.vector.test1.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/174159609'>nixos.tests.wine.wineWowPackages-wayland.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/174164480'>nixpkgs.openmoji-black.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -22139,6 +22142,18 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt>aarch64-linux vector-0.21.0</tt></summary>
+<ul>
+<li>nixos.tests.vector.test1.aarch64-linux</li>
+<li>nixos.tests.vector.test1.i686-linux</li>
+<li>nixos.tests.vector.test1.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>3</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/173778606'>x86_64-linux itk-4.13.3</a></tt></summary>
 <ul>
 <li>nixpkgs.ants.x86_64-linux</li>
@@ -22422,17 +22437,6 @@ Built for evals:
 <ul>
 <li>nixos.tests.retroarch.aarch64-linux</li>
 <li>nixos.tests.retroarch.i686-linux</li>
-</ul>
-</details>
-</td>
-<td>2</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>aarch64-linux vector-0.21.0</tt></summary>
-<ul>
-<li>nixos.tests.vector.test1.aarch64-linux</li>
-<li>nixos.tests.vector.test1.i686-linux</li>
 </ul>
 </details>
 </td>
