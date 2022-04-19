@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-unstable-aarch64-darwin
 ---
 # Evals report
 
-*Report built at 2022-04-19 17:24:32 UTC*
+*Report built at 2022-04-19 19:11:41 UTC*
 
 Built for evals:
 
@@ -21,12 +21,6 @@ Built for evals:
 <th>job</th>
 <th>status</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/174053525'>nuclei.aarch64-darwin</a></tt>
-</td>
-<td>Aborted</td>
-</tr>
 <tr>
 <td>
 <details><summary>
@@ -4361,6 +4355,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/174053044'>eccodes.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/174050792'>ecl_16_1_2.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -8062,7 +8062,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>5279 issues</summary>
+<details><summary>5278 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -16283,13 +16283,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/174312609'>mnamer.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/174315520'>moc.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
