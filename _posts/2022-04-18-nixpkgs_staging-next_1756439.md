@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next
 ---
 # Evals report
 
-*Report built at 2022-04-19 05:22:35 UTC*
+*Report built at 2022-04-19 06:17:24 UTC*
 
 Built for evals:
 
@@ -49477,7 +49477,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>2025 issues</summary>
+<details><summary>2024 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -63339,12 +63339,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/174085931'>crystal.aarch64-darwin</a></tt>
-</td>
-<td>Failed</td>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/174101378'>crystal_1_2.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -69392,7 +69386,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>2 issues</summary>
+<details><summary>1 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -69402,13 +69396,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/174099523'>paraview.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/174106919'>wineWowPackages.unstableFull.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
