@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:staging-next 1756439
+title: nixpkgs:staging-next 1756439 (succeeded)
 categories: nixpkgs:staging-next
 ---
 # Evals report
 
-*Report built at 2022-04-19 06:17:24 UTC*
+*Report built at 2022-04-19 09:14:46 UTC*
 
 Built for evals:
 
@@ -69378,27 +69378,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/174095027'>soundtracker.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/174099523'>paraview.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
