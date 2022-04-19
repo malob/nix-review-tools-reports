@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next
 ---
 # Evals report
 
-*Report built at 2022-04-19 03:56:04 UTC*
+*Report built at 2022-04-19 04:28:33 UTC*
 
 Built for evals:
 
@@ -40643,7 +40643,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>1016 issues</summary>
+<details><summary>1017 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -49425,6 +49425,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/173680975'>haskellPackages.zeromq4-patterns.aarch64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/173684260'>nodejs-17_x.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -69380,7 +69386,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>4 issues</summary>
+<details><summary>3 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -69390,13 +69396,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/174094260'>libretro.mame.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/173684260'>nodejs-17_x.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
