@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-21.11-darwin
 ---
 # Evals report
 
-*Report built at 2022-04-19 21:11:29 UTC*
+*Report built at 2022-04-20 03:07:33 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1021 issues</summary>
+<details><summary>1023 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -1065,6 +1065,34 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>php-opcache-8.0.18</tt> <br /> <a href='https://hydra.nixos.org/build/173840590/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/173840590/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/173840590/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/173840609'>build 173840609</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/174317940'>matrix-synapse-plugins.matrix-synapse-mjolnir-antispam.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.9-frozendict-2.0.7</tt> <br /> <a href='https://hydra.nixos.org/build/174317940/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/174317940/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/174317940/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/172970759'>build 172970759</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/174317944'>matrix-synapse.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.9-frozendict-2.0.7</tt> <br /> <a href='https://hydra.nixos.org/build/174317944/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/174317944/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/174317944/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/172970759'>build 172970759</a>
 </li>
 </ul>
 </details>
@@ -7682,7 +7710,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>2468 issues</summary>
+<details><summary>2470 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -14228,6 +14256,34 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>php-curl-8.0.18</tt> <br /> <a href='https://hydra.nixos.org/build/173840599/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/173840599/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/173840599/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/173840574'>build 173840574</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/174317941'>matrix-synapse-plugins.matrix-synapse-mjolnir-antispam.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.9-frozendict-2.0.7</tt> <br /> <a href='https://hydra.nixos.org/build/174317941/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/174317941/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/174317941/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/173003342'>build 173003342</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/174317938'>matrix-synapse.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.9-frozendict-2.0.7</tt> <br /> <a href='https://hydra.nixos.org/build/174317938/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/174317938/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/174317938/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/173003342'>build 173003342</a>
 </li>
 </ul>
 </details>
@@ -33952,7 +34008,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>7 issues</summary>
+<details><summary>2 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -33962,41 +34018,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/174317939'>darwin-tested</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/174317941'>matrix-synapse-plugins.matrix-synapse-mjolnir-antispam.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/174317940'>matrix-synapse-plugins.matrix-synapse-mjolnir-antispam.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/174317938'>matrix-synapse.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/174317944'>matrix-synapse.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/174317942'>metrics</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -35136,6 +35157,27 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/172780228'>aarch64-darwin python3.9-frozendict-2.0.7</a></tt></summary>
+<ul>
+<li>markdown-anki-decks.aarch64-darwin</li>
+<li>markdown-anki-decks.x86_64-darwin</li>
+<li>matrix-synapse-plugins.matrix-synapse-mjolnir-antispam.aarch64-darwin</li>
+<li>matrix-synapse-plugins.matrix-synapse-mjolnir-antispam.x86_64-darwin</li>
+<li>matrix-synapse.aarch64-darwin</li>
+<li>matrix-synapse.x86_64-darwin</li>
+<li>python39Packages.canonicaljson.aarch64-darwin</li>
+<li>python39Packages.canonicaljson.x86_64-darwin</li>
+<li>python39Packages.genanki.aarch64-darwin</li>
+<li>python39Packages.genanki.x86_64-darwin</li>
+<li>python39Packages.signedjson.aarch64-darwin</li>
+<li>python39Packages.signedjson.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>12</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/172792099'>aarch64-darwin perl5.34.0-XML-LibXML-2.0206</a></tt></summary>
 <ul>
 <li>biber.aarch64-darwin</li>
@@ -35408,23 +35450,6 @@ Built for evals:
 <li>haskellPackages.nri-test-encoding.x86_64-darwin</li>
 <li>haskellPackages.pretty-diff.x86_64-darwin</li>
 <li>haskellPackages.tasty-test-reporter.x86_64-darwin</li>
-</ul>
-</details>
-</td>
-<td>8</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/172780228'>aarch64-darwin python3.9-frozendict-2.0.7</a></tt></summary>
-<ul>
-<li>markdown-anki-decks.aarch64-darwin</li>
-<li>markdown-anki-decks.x86_64-darwin</li>
-<li>python39Packages.canonicaljson.aarch64-darwin</li>
-<li>python39Packages.canonicaljson.x86_64-darwin</li>
-<li>python39Packages.genanki.aarch64-darwin</li>
-<li>python39Packages.genanki.x86_64-darwin</li>
-<li>python39Packages.signedjson.aarch64-darwin</li>
-<li>python39Packages.signedjson.x86_64-darwin</li>
 </ul>
 </details>
 </td>
