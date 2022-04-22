@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next-21.11
 ---
 # Evals report
 
-*Report built at 2022-04-22 13:38:28 UTC*
+*Report built at 2022-04-22 14:19:07 UTC*
 
 Built for evals:
 
@@ -12303,7 +12303,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>2538 issues</summary>
+<details><summary>2540 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -38692,6 +38692,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/174304593'>nixUnstable.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/174284979'>powermanga.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -38879,6 +38885,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/174272043'>python38Packages.libcst.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/174299201'>python38Packages.manticore.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -39213,20 +39225,13 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>14 issues</summary>
+<details><summary>12 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/174304593'>nixUnstable.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/174284753'>paraview.aarch64-linux</a></tt>
@@ -39247,13 +39252,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/174299201'>python38Packages.manticore.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
