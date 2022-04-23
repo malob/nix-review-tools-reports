@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:staging-next-21.11 1757484
+title: nixpkgs:staging-next-21.11 1757484 (succeeded)
 categories: nixpkgs:staging-next-21.11
 ---
 # Evals report
 
-*Report built at 2022-04-23 15:14:53 UTC*
+*Report built at 2022-04-23 17:16:13 UTC*
 
 Built for evals:
 
@@ -1608,7 +1608,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>989 issues</summary>
+<details><summary>990 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -8079,6 +8079,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/174287118'>python38Packages.cherrypy.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/174560932'>python38Packages.diagrams.x86_64-darwin</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -39291,27 +39297,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/174192192'>tecnoballz.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/174560932'>python38Packages.diagrams.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 </table>
 </details>
