@@ -1,10 +1,10 @@
 ---
-title: nixos:release-21.11 1758134
+title: nixos:release-21.11 1758134 (succeeded)
 categories: nixos:release-21.11
 ---
 # Evals report
 
-*Report built at 2022-04-26 13:34:52 UTC*
+*Report built at 2022-04-26 16:20:38 UTC*
 
 Built for evals:
 
@@ -7415,27 +7415,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/174411076'>nixos.tests.nats.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/174872402'>nixos.tests.odoo.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
 </tr>
 </table>
 </details>
