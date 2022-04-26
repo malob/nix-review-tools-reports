@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-04-26 02:58:51 UTC*
+*Report built at 2022-04-26 05:15:45 UTC*
 
 Built for evals:
 
@@ -17121,7 +17121,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>117 issues</summary>
+<details><summary>118 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -17894,6 +17894,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/174777024'>nixos.tests.custom-ca.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/174727424'>nixos.tests.ejabberd.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -18247,20 +18253,13 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>5 issues</summary>
+<details><summary>4 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/174777024'>nixos.tests.custom-ca.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/174777315'>nixos.tests.enlightenment.x86_64-linux</a></tt>
