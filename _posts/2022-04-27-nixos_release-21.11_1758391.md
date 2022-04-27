@@ -1,10 +1,10 @@
 ---
-title: nixos:release-21.11 1758391
+title: nixos:release-21.11 1758391 (succeeded)
 categories: nixos:release-21.11
 ---
 # Evals report
 
-*Report built at 2022-04-27 17:22:28 UTC*
+*Report built at 2022-04-27 23:12:57 UTC*
 
 Built for evals:
 
@@ -1291,7 +1291,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>311 issues</summary>
+<details><summary>312 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -3370,6 +3370,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/174869715'>nixos.tests.fcitx.x86_64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/174936143'>nixos.tests.gerrit.x86_64-linux</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -7445,27 +7451,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/174411076'>nixos.tests.nats.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/174936143'>nixos.tests.gerrit.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
