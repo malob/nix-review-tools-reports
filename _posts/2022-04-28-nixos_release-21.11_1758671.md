@@ -1,10 +1,10 @@
 ---
-title: nixos:release-21.11 1758671
+title: nixos:release-21.11 1758671 (succeeded)
 categories: nixos:release-21.11
 ---
 # Evals report
 
-*Report built at 2022-04-28 15:13:26 UTC*
+*Report built at 2022-04-28 16:17:42 UTC*
 
 Built for evals:
 
@@ -1276,7 +1276,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>308 issues</summary>
+<details><summary>309 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -1825,6 +1825,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/174968088'>nixos.tests.jirafeau.x86_64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/174968674'>nixos.tests.libresprite.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -3377,7 +3383,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>528 issues</summary>
+<details><summary>533 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -7442,6 +7448,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/174968547'>nixos.tests.installed-tests.flatpak.aarch64-linux</a></tt>
+</td>
+<td>Log limit exceeded</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/174968474'>nixos.tests.gitlab.aarch64-linux</a></tt>
 </td>
 <td>Output size limit exceeded</td>
@@ -7451,6 +7463,12 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/174418094'>nixpkgs.micropython.aarch64-linux</a></tt>
 </td>
 <td>Output size limit exceeded</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/174968110'>nixos.tests.avahi-with-resolved.aarch64-linux</a></tt>
+</td>
+<td>Timed out</td>
 </tr>
 <tr>
 <td>
@@ -7472,6 +7490,18 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/174967972'>nixos.tests.cntr.docker.aarch64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/174968134'>nixos.tests.cntr.podman.aarch64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/174966965'>nixos.tests.custom-ca.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -7482,61 +7512,11 @@ Built for evals:
 </td>
 <td>Timed out</td>
 </tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>6 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/174968110'>nixos.tests.avahi-with-resolved.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/174967972'>nixos.tests.cntr.docker.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/174968134'>nixos.tests.cntr.podman.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/174968547'>nixos.tests.installed-tests.flatpak.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/174968674'>nixos.tests.libresprite.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/174968019'>nixos.tests.nats.aarch64-linux</a></tt>
 </td>
-<td>Queued</td>
-<th>aarch64-linux</th>
+<td>Timed out</td>
 </tr>
 </table>
 </details>
