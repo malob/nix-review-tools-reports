@@ -1,10 +1,10 @@
 ---
-title: nixos:release-21.11-aarch64 1759278
+title: nixos:release-21.11-aarch64 1759278 (succeeded)
 categories: nixos:release-21.11-aarch64
 ---
 # Evals report
 
-*Report built at 2022-05-03 11:16:39 UTC*
+*Report built at 2022-05-03 12:22:05 UTC*
 
 Built for evals:
 
@@ -82,7 +82,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>1397 issues</summary>
+<details><summary>1399 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -9142,33 +9142,17 @@ Built for evals:
 </td>
 <td>Output size limit exceeded</td>
 </tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>2 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/175405765'>nixos.tests.boot.uefiCdrom.aarch64-linux</a></tt>
 </td>
-<td>Queued</td>
-<th>aarch64-linux</th>
+<td>Timed out</td>
 </tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/175405779'>nixos.tests.boot.uefiUsb.aarch64-linux</a></tt>
 </td>
-<td>Queued</td>
-<th>aarch64-linux</th>
+<td>Timed out</td>
 </tr>
 </table>
 </details>
