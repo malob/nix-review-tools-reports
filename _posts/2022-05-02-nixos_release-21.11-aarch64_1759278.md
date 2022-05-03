@@ -4,7 +4,7 @@ categories: nixos:release-21.11-aarch64
 ---
 # Evals report
 
-*Report built at 2022-05-03 07:12:05 UTC*
+*Report built at 2022-05-03 08:20:04 UTC*
 
 Built for evals:
 
@@ -82,7 +82,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>1394 issues</summary>
+<details><summary>1395 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -5815,6 +5815,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/175405785'>nixos.tests.paperless-ng.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>paperless-ng-1.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/175405785/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/175405785/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/175405785/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/175205427'>build 175205427</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/174495723'>nixpkgs.appleseed.aarch64-linux</a></tt>
 </summary>
 <ul>
@@ -9115,7 +9129,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>54 issues</summary>
+<details><summary>53 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -9411,13 +9425,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/175405785'>nixos.tests.paperless-ng.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/175405797'>nixos.tests.prometheus-exporters.redis.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -9687,6 +9694,16 @@ Built for evals:
 </details>
 </td>
 <td>2</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/175205427'>aarch64-linux paperless-ng-1.5.0</a></tt></summary>
+<ul>
+<li>nixos.tests.paperless-ng.aarch64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
 </tr>
 <tr>
 <td>
