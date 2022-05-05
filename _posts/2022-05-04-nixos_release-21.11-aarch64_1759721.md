@@ -4,7 +4,7 @@ categories: nixos:release-21.11-aarch64
 ---
 # Evals report
 
-*Report built at 2022-05-05 08:15:17 UTC*
+*Report built at 2022-05-05 09:17:04 UTC*
 
 Built for evals:
 
@@ -4613,20 +4613,13 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>4 issues</summary>
+<details><summary>3 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/175679236'>nixpkgs.gplates.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/175672067'>nixpkgs.libretro.mame.aarch64-linux</a></tt>
