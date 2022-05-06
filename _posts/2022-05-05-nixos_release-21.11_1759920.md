@@ -1,10 +1,10 @@
 ---
-title: nixos:release-21.11 1759920
+title: nixos:release-21.11 1759920 (succeeded)
 categories: nixos:release-21.11
 ---
 # Evals report
 
-*Report built at 2022-05-06 00:45:07 UTC*
+*Report built at 2022-05-06 02:41:11 UTC*
 
 Built for evals:
 
@@ -8238,27 +8238,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/175598201'>nixpkgs.simpleitk.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/175762795'>nixpkgs.qtcreator.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 </table>
 </details>
