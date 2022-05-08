@@ -1,10 +1,10 @@
 ---
-title: nixos:release-21.11-aarch64 1760435
+title: nixos:release-21.11-aarch64 1760435 (succeeded)
 categories: nixos:release-21.11-aarch64
 ---
 # Evals report
 
-*Report built at 2022-05-08 00:46:27 UTC*
+*Report built at 2022-05-08 02:49:53 UTC*
 
 Built for evals:
 
