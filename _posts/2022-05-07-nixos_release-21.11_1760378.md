@@ -1,10 +1,10 @@
 ---
-title: nixos:release-21.11 1760378
+title: nixos:release-21.11 1760378 (succeeded)
 categories: nixos:release-21.11
 ---
 # Evals report
 
-*Report built at 2022-05-07 23:12:42 UTC*
+*Report built at 2022-05-08 00:47:26 UTC*
 
 Built for evals:
 
@@ -1370,7 +1370,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>345 issues</summary>
+<details><summary>346 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -3677,6 +3677,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/175620419'>nixos.tests.cntr.podman.x86_64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/175990278'>nixos.tests.custom-ca.x86_64-linux</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -8090,27 +8096,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/175598201'>nixpkgs.simpleitk.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/175990278'>nixos.tests.custom-ca.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
