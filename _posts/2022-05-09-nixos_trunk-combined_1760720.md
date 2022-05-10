@@ -1,10 +1,10 @@
 ---
-title: nixos:trunk-combined 1760720
+title: nixos:trunk-combined 1760720 (succeeded)
 categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-05-10 02:18:55 UTC*
+*Report built at 2022-05-10 07:15:59 UTC*
 
 Built for evals:
 
@@ -15,12 +15,18 @@ Built for evals:
 ### i686-linux
 
 
-<details><summary>224 issues</summary>
+<details><summary>225 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 </tr></thead>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/176199319'>nixos.tests.gitolite.i686-linux</a></tt>
+</td>
+<td>Cancelled</td>
+</tr>
 <tr>
 <td>
 <details><summary>
@@ -2664,7 +2670,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>1008 issues</summary>
+<details><summary>1009 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -7102,6 +7108,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/176193197'>nixos.tests.vscodium.wayland.x86_64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/176178427'>nixos.tests.vscodium.xorg.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -10971,12 +10983,36 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>103 issues</summary>
+<details><summary>107 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 </tr></thead>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/176197909'>nixos.tests.fcitx.aarch64-linux</a></tt>
+</td>
+<td>Cancelled</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/176194179'>nixos.tests.iscsi-multipath-root.aarch64-linux</a></tt>
+</td>
+<td>Cancelled</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/176196855'>nixos.tests.iscsi-root.aarch64-linux</a></tt>
+</td>
+<td>Cancelled</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/176166111'>nixos.tests.systemd-initrd-luks-password.aarch64-linux</a></tt>
+</td>
+<td>Cancelled</td>
+</tr>
 <tr>
 <td>
 <details><summary>
@@ -11912,62 +11948,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/176163290'>nixos.tests.gitolite.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>6 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/176188062'>nixos.tests.cloud-init.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/176197909'>nixos.tests.fcitx.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/176199319'>nixos.tests.gitolite.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/176194179'>nixos.tests.iscsi-multipath-root.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/176196855'>nixos.tests.iscsi-root.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/176166111'>nixos.tests.systemd-initrd-luks-password.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 </table>
 </details>
