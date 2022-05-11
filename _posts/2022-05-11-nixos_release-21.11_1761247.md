@@ -1,10 +1,10 @@
 ---
-title: nixos:release-21.11 1761247
+title: nixos:release-21.11 1761247 (succeeded)
 categories: nixos:release-21.11
 ---
 # Evals report
 
-*Report built at 2022-05-11 22:12:45 UTC*
+*Report built at 2022-05-11 23:13:00 UTC*
 
 Built for evals:
 
@@ -7886,27 +7886,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/176292683'>nixpkgs.python39Packages.aiorun.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/176446840'>nixpkgs.qtcreator.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 </table>
 </details>
