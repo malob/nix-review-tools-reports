@@ -4,7 +4,7 @@ categories: nixos:release-21.11
 ---
 # Evals report
 
-*Report built at 2022-05-11 05:24:17 UTC*
+*Report built at 2022-05-11 06:17:38 UTC*
 
 Built for evals:
 
@@ -1339,7 +1339,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>328 issues</summary>
+<details><summary>327 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -3539,12 +3539,6 @@ Built for evals:
 </td>
 <td>Timed out</td>
 </tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/176244757'>tested</a></tt>
-</td>
-<td>Timed out</td>
-</tr>
 </table>
 </details>
 
@@ -3552,7 +3546,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>558 issues</summary>
+<details><summary>557 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -7829,12 +7823,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/176287291'>nixos.tests.fcitx.aarch64-linux</a></tt>
-</td>
-<td>Timed out</td>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/176277003'>nixos.tests.gnome.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
