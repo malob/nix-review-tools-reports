@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-05-12 04:21:12 UTC*
+*Report built at 2022-05-12 05:19:18 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### i686-linux
 
 
-<details><summary>216 issues</summary>
+<details><summary>217 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -1009,6 +1009,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>linux-5.17.6</tt> <br /> <a href='https://hydra.nixos.org/build/176457898/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/176457898/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/176457898/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/176455644'>build 176455644</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/176458777'>nixos.tests.kernel-latest-ath-user-regd.i686-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>linux-5.17.6</tt> <br /> <a href='https://hydra.nixos.org/build/176458777/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/176458777/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/176458777/nixlog/2/tail'>tail</a>
 </li>
 </ul>
 </details>
@@ -8961,7 +8975,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>96 issues</summary>
+<details><summary>97 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -9855,6 +9869,12 @@ Built for evals:
 </td>
 <td>Output size limit exceeded</td>
 </tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/176455745'>nixos.tests.iscsi-root.aarch64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
 </table>
 </details>
 
@@ -9862,7 +9882,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>12 issues</summary>
+<details><summary>9 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -9924,27 +9944,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/176455745'>nixos.tests.iscsi-root.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/176458777'>nixos.tests.kernel-latest-ath-user-regd.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/176459298'>nixos.tests.kernel-latest-ath-user-regd.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -10036,6 +10035,37 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/176455644'>i686-linux linux-5.17.6</a></tt></summary>
+<ul>
+<li>nixos.tests.containers-names.i686-linux</li>
+<li>nixos.tests.initrd-secrets.bzip2.i686-linux</li>
+<li>nixos.tests.initrd-secrets.cat.i686-linux</li>
+<li>nixos.tests.initrd-secrets.gzip.i686-linux</li>
+<li>nixos.tests.initrd-secrets.lzma.i686-linux</li>
+<li>nixos.tests.initrd-secrets.lzop.i686-linux</li>
+<li>nixos.tests.initrd-secrets.pigz.i686-linux</li>
+<li>nixos.tests.initrd-secrets.pixz.i686-linux</li>
+<li>nixos.tests.initrd-secrets.xz.i686-linux</li>
+<li>nixos.tests.initrd-secrets.zstd.i686-linux</li>
+<li>nixos.tests.kernel-generic.linux_5_17.i686-linux</li>
+<li>nixos.tests.kernel-generic.linux_testing.i686-linux</li>
+<li>nixos.tests.kernel-latest-ath-user-regd.i686-linux</li>
+<li>nixos.tests.latestKernel.login.i686-linux</li>
+<li>nixos.tests.lvm2.lvm-raid-sd-stage-1-linux-latest.i686-linux</li>
+<li>nixos.tests.lvm2.lvm-thinpool-linux-latest.i686-linux</li>
+<li>nixos.tests.lvm2.lvm-thinpool-sd-stage-1-linux-latest.i686-linux</li>
+<li>nixos.tests.wireguard.wireguard-basic-linux-latest.i686-linux</li>
+<li>nixos.tests.wireguard.wireguard-generated-linux-latest.i686-linux</li>
+<li>nixos.tests.wireguard.wireguard-namespaces-linux-latest.i686-linux</li>
+<li>nixos.tests.wireguard.wireguard-wg-quick-linux-latest.i686-linux</li>
+<li>nixos.tests.zfs.unstable.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>22</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/176455565'>i686-linux initrd-linux-5.10.114</a></tt></summary>
 <ul>
 <li>nixos.tests.installer-systemd-stage-1.separateBoot.i686-linux</li>
@@ -10059,36 +10089,6 @@ Built for evals:
 </details>
 </td>
 <td>22</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/176455644'>i686-linux linux-5.17.6</a></tt></summary>
-<ul>
-<li>nixos.tests.containers-names.i686-linux</li>
-<li>nixos.tests.initrd-secrets.bzip2.i686-linux</li>
-<li>nixos.tests.initrd-secrets.cat.i686-linux</li>
-<li>nixos.tests.initrd-secrets.gzip.i686-linux</li>
-<li>nixos.tests.initrd-secrets.lzma.i686-linux</li>
-<li>nixos.tests.initrd-secrets.lzop.i686-linux</li>
-<li>nixos.tests.initrd-secrets.pigz.i686-linux</li>
-<li>nixos.tests.initrd-secrets.pixz.i686-linux</li>
-<li>nixos.tests.initrd-secrets.xz.i686-linux</li>
-<li>nixos.tests.initrd-secrets.zstd.i686-linux</li>
-<li>nixos.tests.kernel-generic.linux_5_17.i686-linux</li>
-<li>nixos.tests.kernel-generic.linux_testing.i686-linux</li>
-<li>nixos.tests.latestKernel.login.i686-linux</li>
-<li>nixos.tests.lvm2.lvm-raid-sd-stage-1-linux-latest.i686-linux</li>
-<li>nixos.tests.lvm2.lvm-thinpool-linux-latest.i686-linux</li>
-<li>nixos.tests.lvm2.lvm-thinpool-sd-stage-1-linux-latest.i686-linux</li>
-<li>nixos.tests.wireguard.wireguard-basic-linux-latest.i686-linux</li>
-<li>nixos.tests.wireguard.wireguard-generated-linux-latest.i686-linux</li>
-<li>nixos.tests.wireguard.wireguard-namespaces-linux-latest.i686-linux</li>
-<li>nixos.tests.wireguard.wireguard-wg-quick-linux-latest.i686-linux</li>
-<li>nixos.tests.zfs.unstable.i686-linux</li>
-</ul>
-</details>
-</td>
-<td>21</td>
 </tr>
 <tr>
 <td>
