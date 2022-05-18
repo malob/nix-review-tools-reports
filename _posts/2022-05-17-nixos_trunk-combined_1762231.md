@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-05-18 07:12:07 UTC*
+*Report built at 2022-05-18 08:19:16 UTC*
 
 Built for evals:
 
@@ -1666,7 +1666,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>776 issues</summary>
+<details><summary>777 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -7954,6 +7954,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/177183522'>nixos.tests.wine.wineWowPackages-wayland.x86_64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/177177338'>nixpkgs.haskellPackages.bindings-common.x86_64-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -7995,7 +8001,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>8 issues</summary>
+<details><summary>10 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -8009,6 +8015,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>ipxe-unstable-2022-04-06</tt> <br /> <a href='https://hydra.nixos.org/build/177174677/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/177174677/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/177174677/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/176543465'>build 176543465</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/177166103'>nixos.tests.couchdb.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>couchdb-3.2.2</tt> <br /> <a href='https://hydra.nixos.org/build/177166103/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/177166103/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/177166103/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/177139882'>build 177139882</a>
 </li>
 </ul>
 </details>
@@ -8113,6 +8133,20 @@ Built for evals:
 </td>
 <td>Dependency failed</td>
 </tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/177149126'>nixos.tests.terminal-emulators.contour.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>contour-0.1.1</tt> <br /> <a href='https://hydra.nixos.org/build/177149126/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/177149126/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/177149126/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/177125133'>build 177125133</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
 </table>
 </details>
 
@@ -8120,7 +8154,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>1187 issues</summary>
+<details><summary>1180 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -9015,13 +9049,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/177166103'>nixos.tests.couchdb.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -15339,13 +15366,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/177149126'>nixos.tests.terminal-emulators.contour.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/177182755'>nixos.tests.terminal-emulators.cool-retro-term.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -16081,13 +16101,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/177183522'>nixos.tests.wine.wineWowPackages-wayland.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/177164649'>nixos.tests.wireguard.wireguard-basic-linux-5_4.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -16407,34 +16420,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/177179489'>nixpkgs.almanah.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/177149456'>nixpkgs.evolution-ews.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/177155007'>nixpkgs.evolution.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/177175600'>nixpkgs.evolutionWithPlugins.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
@@ -16870,6 +16855,18 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/177125133'>aarch64-linux contour-0.1.1</a></tt></summary>
+<ul>
+<li>nixos.tests.terminal-emulators.contour.aarch64-linux</li>
+<li>nixos.tests.terminal-emulators.contour.i686-linux</li>
+<li>nixos.tests.terminal-emulators.contour.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>3</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/176468664'>x86_64-linux itk-4.13.3</a></tt></summary>
 <ul>
 <li>nixpkgs.ants.x86_64-linux</li>
@@ -16964,17 +16961,6 @@ Built for evals:
 <ul>
 <li>nixos.tests.prometheus.i686-linux</li>
 <li>nixos.tests.trickster.i686-linux</li>
-</ul>
-</details>
-</td>
-<td>2</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>i686-linux contour-0.1.1</tt></summary>
-<ul>
-<li>nixos.tests.terminal-emulators.contour.i686-linux</li>
-<li>nixos.tests.terminal-emulators.contour.x86_64-linux</li>
 </ul>
 </details>
 </td>
@@ -17196,6 +17182,16 @@ Built for evals:
 <details><summary><tt>i686-linux perl5.34.1-Unicode-UTF8-0.62</tt></summary>
 <ul>
 <li>nixos.tests.convos.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/177139882'>aarch64-linux couchdb-3.2.2</a></tt></summary>
+<ul>
+<li>nixos.tests.couchdb.aarch64-linux</li>
 </ul>
 </details>
 </td>
