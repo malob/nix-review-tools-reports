@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-05-18 00:42:36 UTC*
+*Report built at 2022-05-18 02:51:38 UTC*
 
 Built for evals:
 
@@ -8102,7 +8102,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>1191 issues</summary>
+<details><summary>1190 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -10506,13 +10506,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/177170852'>nixos.tests.installer.swraid.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/177156257'>nixos.tests.installer.zfsroot.i686-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>i686-linux</th>
