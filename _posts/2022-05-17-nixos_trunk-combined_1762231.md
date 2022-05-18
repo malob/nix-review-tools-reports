@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-05-18 11:11:00 UTC*
+*Report built at 2022-05-18 12:24:23 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### i686-linux
 
 
-<details><summary>189 issues</summary>
+<details><summary>193 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -771,6 +771,48 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>initrd-linux-5.10.115</tt> <br /> <a href='https://hydra.nixos.org/build/177168503/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/177168503/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/177168503/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/177160926'>build 177160926</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/177161831'>nixos.tests.installer.bcachefsEncrypted.i686-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>linux-5.17.7-bcachefs-unstable-2022-04-25</tt> <br /> <a href='https://hydra.nixos.org/build/177161831/nixlog/19'>log</a>, <a href='https://hydra.nixos.org/build/177161831/nixlog/19/raw'>raw</a>, <a href='https://hydra.nixos.org/build/177161831/nixlog/19/tail'>tail</a>, <a href='https://hydra.nixos.org/build/177177922'>build 177177922</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/177161170'>nixos.tests.installer.bcachefsMulti.i686-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>linux-5.17.7-bcachefs-unstable-2022-04-25</tt> <br /> <a href='https://hydra.nixos.org/build/177161170/nixlog/8'>log</a>, <a href='https://hydra.nixos.org/build/177161170/nixlog/8/raw'>raw</a>, <a href='https://hydra.nixos.org/build/177161170/nixlog/8/tail'>tail</a>, <a href='https://hydra.nixos.org/build/177177922'>build 177177922</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/177177922'>nixos.tests.installer.bcachefsSimple.i686-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>linux-5.17.7-bcachefs-unstable-2022-04-25</tt> <br /> <a href='https://hydra.nixos.org/build/177177922/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/177177922/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/177177922/nixlog/3/tail'>tail</a>
 </li>
 </ul>
 </details>
@@ -1873,6 +1915,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/177165038'>nixos.tests.engelsystem.i686-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/177187512'>nixos.tests.enlightenment.i686-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -8590,7 +8638,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>10 issues</summary>
+<details><summary>11 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -8618,6 +8666,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>couchdb-3.2.2</tt> <br /> <a href='https://hydra.nixos.org/build/177166103/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/177166103/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/177166103/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/177139882'>build 177139882</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/177174524'>nixos.tests.domination.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>domination-1.2.4</tt> <br /> <a href='https://hydra.nixos.org/build/177174524/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/177174524/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/177174524/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/177080984'>build 177080984</a>
 </li>
 </ul>
 </details>
@@ -8743,7 +8805,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>779 issues</summary>
+<details><summary>769 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -9494,13 +9556,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/177174524'>nixos.tests.domination.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/177175805'>nixos.tests.dovecot.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -9547,13 +9602,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/177187512'>nixos.tests.enlightenment.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
 </tr>
 <tr>
 <td>
@@ -10355,27 +10403,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/177161831'>nixos.tests.installer.bcachefsEncrypted.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/177161170'>nixos.tests.installer.bcachefsMulti.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/177177922'>nixos.tests.installer.bcachefsSimple.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/177162039'>nixos.tests.installer.simpleUefiGrub.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -10586,24 +10613,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/177187682'>nixos.tests.kernel-generic.linux_4_14.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/177147385'>nixos.tests.kernel-generic.linux_4_14_hardened.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/177177411'>nixos.tests.kernel-generic.linux_4_14_hardened.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
 </tr>
 <tr>
 <td>
@@ -10621,13 +10634,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/177176658'>nixos.tests.kernel-generic.linux_4_19_hardened.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/177156418'>nixos.tests.kernel-generic.linux_5_10.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -10639,13 +10645,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/177181254'>nixos.tests.kernel-generic.linux_5_10_hardened.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
 </tr>
 <tr>
 <td>
@@ -11325,13 +11324,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/177153547'>nixos.tests.musescore.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
 </tr>
 <tr>
 <td>
@@ -14642,6 +14634,18 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/177177922'>i686-linux linux-5.17.7-bcachefs-unstable-2022-04-25</a></tt></summary>
+<ul>
+<li>nixos.tests.installer.bcachefsEncrypted.i686-linux</li>
+<li>nixos.tests.installer.bcachefsMulti.i686-linux</li>
+<li>nixos.tests.installer.bcachefsSimple.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>3</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/176960655'>aarch64-linux isso-0.12.6.1</a></tt></summary>
 <ul>
 <li>nixos.tests.isso.aarch64-linux</li>
@@ -14723,6 +14727,17 @@ Built for evals:
 </details>
 </td>
 <td>3</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/177080984'>aarch64-linux domination-1.2.4</a></tt></summary>
+<ul>
+<li>nixos.tests.domination.aarch64-linux</li>
+<li>nixos.tests.domination.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>2</td>
 </tr>
 <tr>
 <td>
@@ -15058,16 +15073,6 @@ Built for evals:
 <details><summary><tt>i686-linux dnsdist-1.7.0</tt></summary>
 <ul>
 <li>nixos.tests.dnsdist.i686-linux</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/177079939'>x86_64-linux domination-1.2.4</a></tt></summary>
-<ul>
-<li>nixos.tests.domination.x86_64-linux</li>
 </ul>
 </details>
 </td>
