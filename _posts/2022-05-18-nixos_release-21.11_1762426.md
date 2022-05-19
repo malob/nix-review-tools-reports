@@ -1,10 +1,10 @@
 ---
-title: nixos:release-21.11 1762426
+title: nixos:release-21.11 1762426 (succeeded)
 categories: nixos:release-21.11
 ---
 # Evals report
 
-*Report built at 2022-05-19 07:13:04 UTC*
+*Report built at 2022-05-19 08:16:26 UTC*
 
 Built for evals:
 
@@ -1388,7 +1388,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>327 issues</summary>
+<details><summary>325 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -1802,20 +1802,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/177435992'>tested</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Failed</b> <tt>vm-test-run-boot-bios-usb</tt> <br /> <a href='https://hydra.nixos.org/build/177435992/nixlog/50'>log</a>, <a href='https://hydra.nixos.org/build/177435992/nixlog/50/raw'>raw</a>, <a href='https://hydra.nixos.org/build/177435992/nixlog/50/tail'>tail</a>, <a href='https://hydra.nixos.org/build/177435831'>build 177435831</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/176957031'>nixos.tests.airsonic.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -1823,12 +1809,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/176956118'>nixos.tests.bittorrent.x86_64-linux</a></tt>
-</td>
-<td>Failed</td>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/177435831'>nixos.tests.boot.biosUsb.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -3603,7 +3583,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>556 issues</summary>
+<details><summary>557 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -7855,6 +7835,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/177435951'>nixos.tests.boot.uefiUsb.aarch64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/176956430'>nixos.tests.cntr.docker.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -7912,27 +7898,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/176292683'>nixpkgs.python39Packages.aiorun.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/177435951'>nixos.tests.boot.uefiUsb.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 </table>
 </details>
@@ -8759,16 +8724,6 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/175915223'>aarch64-linux cmrt-1.0.6</a></tt></summary>
 <ul>
 <li>nixpkgs.vaapi-intel-hybrid.aarch64-linux</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/177435831'>x86_64-linux vm-test-run-boot-bios-usb</a></tt></summary>
-<ul>
-<li>tested</li>
 </ul>
 </details>
 </td>
