@@ -1,10 +1,10 @@
 ---
-title: nixos:release-21.11 1762696 (succeeded)
+title: nixos:release-21.11 1762696
 categories: nixos:release-21.11
 ---
 # Evals report
 
-*Report built at 2022-05-20 17:20:02 UTC*
+*Report built at 2022-05-21 06:16:27 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### i686-linux
 
 
-<details><summary>156 issues</summary>
+<details><summary>155 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -519,20 +519,6 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>crystal-1.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/177508161/nixlog/27'>log</a>, <a href='https://hydra.nixos.org/build/177508161/nixlog/27/raw'>raw</a>, <a href='https://hydra.nixos.org/build/177508161/nixlog/27/tail'>tail</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/177510073'>nixos.tests.jenkins.i686-linux</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Cached failure</b> <tt>openjdk-headless-15.0.1-ga</tt> <br /> <a href='https://hydra.nixos.org/build/177510073/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/177510073/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/177510073/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/177439986'>build 177439986</a>
 </li>
 </ul>
 </details>
@@ -8320,6 +8306,27 @@ Built for evals:
 </table>
 </details>
 
+
+### Still queued
+
+
+<details><summary>1 issues</summary>
+<table>
+<thead><tr>
+<th>job</th>
+<th>status</th>
+<th>platform</th>
+</tr></thead>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/177510073'>nixos.tests.jenkins.i686-linux</a></tt>
+</td>
+<td>Queued</td>
+<th>i686-linux</th>
+</tr>
+</table>
+</details>
+
 ## Problematic dependencies
 
 <table>
@@ -8364,7 +8371,6 @@ Built for evals:
 <li>nixos.tests.gerrit.i686-linux</li>
 <li>nixos.tests.gocd-agent.i686-linux</li>
 <li>nixos.tests.gocd-server.i686-linux</li>
-<li>nixos.tests.jenkins.i686-linux</li>
 <li>nixos.tests.jitsi-meet.i686-linux</li>
 <li>nixos.tests.kafka.kafka_2_7.i686-linux</li>
 <li>nixos.tests.kafka.kafka_2_8.i686-linux</li>
@@ -8380,7 +8386,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>18</td>
+<td>17</td>
 </tr>
 <tr>
 <td>
