@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-21.11-darwin
 ---
 # Evals report
 
-*Report built at 2022-05-22 19:11:04 UTC*
+*Report built at 2022-05-22 20:12:56 UTC*
 
 Built for evals:
 
@@ -7506,7 +7506,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>2642 issues</summary>
+<details><summary>2646 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -36108,6 +36108,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/177847239'>python38Packages.ldaptor.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/177570183'>python38Packages.manticore.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -36127,6 +36133,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/177568467'>python38Packages.perfplot.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/177846678'>python38Packages.privacyidea-ldap-proxy.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -36186,6 +36198,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/177846852'>python39Packages.ldaptor.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/177539485'>python39Packages.manticore.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -36199,6 +36217,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/177550806'>python39Packages.perfplot.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/177846889'>python39Packages.privacyidea-ldap-proxy.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -36251,7 +36275,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>6 issues</summary>
+<details><summary>2 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -36260,38 +36284,10 @@ Built for evals:
 </tr></thead>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/177847239'>python38Packages.ldaptor.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/177846678'>python38Packages.privacyidea-ldap-proxy.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/177846852'>python39Packages.ldaptor.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/177846976'>python39Packages.ldaptor.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/177846889'>python39Packages.privacyidea-ldap-proxy.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
