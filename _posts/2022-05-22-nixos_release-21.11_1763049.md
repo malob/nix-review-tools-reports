@@ -1,10 +1,10 @@
 ---
-title: nixos:release-21.11 1763049
+title: nixos:release-21.11 1763049 (succeeded)
 categories: nixos:release-21.11
 ---
 # Evals report
 
-*Report built at 2022-05-22 14:12:33 UTC*
+*Report built at 2022-05-22 15:14:34 UTC*
 
 Built for evals:
 
@@ -3691,7 +3691,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>575 issues</summary>
+<details><summary>576 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -8155,6 +8155,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/177832499'>nixos.tests.custom-ca.aarch64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/177791000'>nixos.tests.fcitx.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -8194,27 +8200,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/177488479'>nixpkgs.paraview.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/177832499'>nixos.tests.custom-ca.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 </table>
 </details>
