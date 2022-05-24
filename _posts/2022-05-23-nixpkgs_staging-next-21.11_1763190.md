@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next-21.11
 ---
 # Evals report
 
-*Report built at 2022-05-24 05:21:39 UTC*
+*Report built at 2022-05-24 07:14:34 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>252 issues</summary>
+<details><summary>255 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -43,6 +43,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>hls-pragmas-plugin-1.0.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/176922143/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/176922143/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/176922143/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/176855853'>build 176855853</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/176884703'>llvmPackages_11.clang-polly-unwrapped.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>llvm-11.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/176884703/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/176884703/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/176884703/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/176919679'>build 176919679</a>
 </li>
 </ul>
 </details>
@@ -804,6 +818,18 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/177835674'>linuxPackages_testing_bcachefs.rtw89.x86_64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/176919679'>llvmPackages_11.libllvm-polly.x86_64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/176926753'>llvmPackages_11.llvm-polly.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -38176,7 +38202,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>95 issues</summary>
+<details><summary>91 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -38262,13 +38288,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/176871731'>haskell.compiler.integer-simple.ghc8107.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/177871777'>libceph.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -38340,27 +38359,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/177858936'>libtensorflow.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/176884703'>llvmPackages_11.clang-polly-unwrapped.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/176919679'>llvmPackages_11.libllvm-polly.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/176926753'>llvmPackages_11.llvm-polly.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -42731,6 +42729,16 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/176892337'>aarch64-darwin libprom-0.1.1</a></tt></summary>
 <ul>
 <li>libpromhttp.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/176919679'>x86_64-linux llvm-11.1.0</a></tt></summary>
+<ul>
+<li>llvmPackages_11.clang-polly-unwrapped.x86_64-linux</li>
 </ul>
 </details>
 </td>
