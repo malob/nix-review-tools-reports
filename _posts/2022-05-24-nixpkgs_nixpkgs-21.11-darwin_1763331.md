@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-21.11-darwin
 ---
 # Evals report
 
-*Report built at 2022-05-24 03:00:15 UTC*
+*Report built at 2022-05-24 13:35:32 UTC*
 
 Built for evals:
 
@@ -7518,7 +7518,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>2644 issues</summary>
+<details><summary>2646 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -9726,6 +9726,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>python2.7-scandir-1.10.0</tt> <br /> <a href='https://hydra.nixos.org/build/177545089/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/177545089/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/177545089/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/176906674'>build 176906674</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/178270963'>diesel-cli.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>mariadb-server-10.6.8</tt> <br /> <a href='https://hydra.nixos.org/build/178270963/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/178270963/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/178270963/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/178270972'>build 178270972</a>
 </li>
 </ul>
 </details>
@@ -32338,6 +32352,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/178270972'>mariadb.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/177574777'>marlin-calc.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -36267,7 +36287,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>21 issues</summary>
+<details><summary>7 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -36283,13 +36303,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/178270963'>diesel-cli.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/178270958'>diesel-cli.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -36297,80 +36310,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/178270962'>lua51Packages.luadbi-mysql.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/178270964'>lua51Packages.luadbi-mysql.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/178270971'>lua52Packages.luadbi-mysql.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/178270960'>lua52Packages.luadbi-mysql.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/178270970'>lua53Packages.luadbi-mysql.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/178270961'>lua53Packages.luadbi-mysql.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/178270957'>luaPackages.luadbi-mysql.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/178270965'>luaPackages.luadbi-mysql.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/178270953'>luajitPackages.luadbi-mysql.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/178270973'>luajitPackages.luadbi-mysql.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/178270972'>mariadb.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -36385,27 +36328,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/178270955'>perl532Packages.MySQLDiff.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/178270959'>perl532Packages.MySQLDiff.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/178270969'>perl534Packages.MySQLDiff.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -39843,6 +39765,16 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/176886422'>x86_64-darwin python3.9-pyzmq-22.3.0</a></tt></summary>
 <ul>
 <li>circus.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/178270972'>aarch64-darwin mariadb-server-10.6.8</a></tt></summary>
+<ul>
+<li>diesel-cli.aarch64-darwin</li>
 </ul>
 </details>
 </td>
