@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-21.11-darwin
 ---
 # Evals report
 
-*Report built at 2022-05-25 15:14:15 UTC*
+*Report built at 2022-05-25 17:21:54 UTC*
 
 Built for evals:
 
@@ -16729,7 +16729,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>7571 issues</summary>
+<details><summary>7569 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -31809,13 +31809,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/178270973'>luajitPackages.luadbi-mysql.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/178313914'>luigi.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -35905,13 +35898,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/178313453'>perl534Packages.LaTeXML.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/178270966'>perl534Packages.MySQLDiff.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
