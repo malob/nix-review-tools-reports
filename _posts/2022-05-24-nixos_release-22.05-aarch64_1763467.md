@@ -4,7 +4,7 @@ categories: nixos:release-22.05-aarch64
 ---
 # Evals report
 
-*Report built at 2022-05-25 17:20:20 UTC*
+*Report built at 2022-05-25 18:15:00 UTC*
 
 Built for evals:
 
@@ -4061,7 +4061,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>12428 issues</summary>
+<details><summary>12424 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -15187,13 +15187,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/177985285'>nixpkgs.erlangR21.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/177988908'>nixpkgs.erlangR23.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
@@ -51684,13 +51677,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/177996400'>nixpkgs.nixVersions.nix_2_5.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/177981244'>nixpkgs.nixVersions.unstable.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -79663,13 +79649,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/178001949'>nixpkgs.racket.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/177985143'>nixpkgs.racket_7_9.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -84515,13 +84494,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/177977068'>nixpkgs.stp.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/177988532'>nixpkgs.strawberry.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
