@@ -4,7 +4,7 @@ categories: nixos:release-21.11
 ---
 # Evals report
 
-*Report built at 2022-05-26 03:54:24 UTC*
+*Report built at 2022-05-26 04:26:59 UTC*
 
 Built for evals:
 
@@ -6327,7 +6327,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>9731 issues</summary>
+<details><summary>9730 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -63880,13 +63880,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/178303950'>nixpkgs.qemu_full.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
