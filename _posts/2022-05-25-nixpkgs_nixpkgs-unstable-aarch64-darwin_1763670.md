@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-unstable-aarch64-darwin
 ---
 # Evals report
 
-*Report built at 2022-05-26 03:00:58 UTC*
+*Report built at 2022-05-26 04:25:47 UTC*
 
 Built for evals:
 
@@ -13824,20 +13824,13 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>3 issues</summary>
+<details><summary>2 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/178340563'>manual</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/178340861'>metrics</a></tt>
