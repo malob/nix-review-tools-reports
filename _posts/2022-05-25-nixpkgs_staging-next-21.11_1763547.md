@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next-21.11
 ---
 # Evals report
 
-*Report built at 2022-05-25 23:16:35 UTC*
+*Report built at 2022-05-26 01:00:15 UTC*
 
 Built for evals:
 
@@ -9641,7 +9641,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>2638 issues</summary>
+<details><summary>2639 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -9680,6 +9680,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/176917042'>haskellPackages.ormolu.aarch64-darwin</a></tt>
+</td>
+<td>Aborted</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/178323061'>nextcloud24.aarch64-darwin</a></tt>
 </td>
 <td>Aborted</td>
 </tr>
@@ -38328,20 +38334,13 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>14 issues</summary>
+<details><summary>12 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/178323189'>calligra.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/177863354'>chromium.x86_64-linux</a></tt>
@@ -38376,13 +38375,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/178323061'>nextcloud24.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
