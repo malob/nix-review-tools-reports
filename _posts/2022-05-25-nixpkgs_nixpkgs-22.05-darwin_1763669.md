@@ -1,16 +1,49 @@
 ---
-title: nixpkgs:nixpkgs-22.05-darwin 1763669
+title: nixpkgs:nixpkgs-22.05-darwin 1763669 (succeeded)
 categories: nixpkgs:nixpkgs-22.05-darwin
 ---
 # Evals report
 
-*Report built at 2022-05-26 04:25:32 UTC*
+*Report built at 2022-05-26 05:17:37 UTC*
 
 Built for evals:
 
   * [1763669](https://hydra.nixos.org/eval/1763669)
 
  * * * 
+
+### x86_64-linux
+
+
+<details><summary>2 issues</summary>
+<table>
+<thead><tr>
+<th>job</th>
+<th>status</th>
+</tr></thead>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/178340073'>darwin-tested</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nixpkgs-tarball-22.05pre380030.d76be3882cd</tt> <br /> <a href='https://hydra.nixos.org/build/178340073/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/178340073/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/178340073/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/178340052'>build 178340052</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/178340052'>tarball</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+</table>
+</details>
+
 
 ### x86_64-darwin
 
@@ -20431,41 +20464,6 @@ Built for evals:
 </table>
 </details>
 
-
-### Still queued
-
-
-<details><summary>3 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/178340073'>darwin-tested</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/178340071'>metrics</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/178340052'>tarball</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-</table>
-</details>
-
 ## Problematic dependencies
 
 <table>
@@ -22560,6 +22558,16 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/177715131'>x86_64-darwin python3.9-questionary-1.10.0</a></tt></summary>
 <ul>
 <li>commitizen.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/178340052'>x86_64-linux nixpkgs-tarball-22.05pre380030.d76be3882cd</a></tt></summary>
+<ul>
+<li>darwin-tested</li>
 </ul>
 </details>
 </td>
