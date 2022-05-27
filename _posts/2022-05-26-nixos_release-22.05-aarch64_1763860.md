@@ -4,7 +4,7 @@ categories: nixos:release-22.05-aarch64
 ---
 # Evals report
 
-*Report built at 2022-05-27 09:12:05 UTC*
+*Report built at 2022-05-27 11:11:21 UTC*
 
 Built for evals:
 
@@ -6457,6 +6457,16 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/178348615'>aarch64-linux nixos-disk-image</a></tt></summary>
+<ul>
+<li>nixos.tests.image-contents.aarch64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt>aarch64-linux python3-3.9.12-env</tt></summary>
 <ul>
 <li>nixos.tests.magic-wormhole-mailbox-server.aarch64-linux</li>
@@ -6860,16 +6870,6 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/177909609'>aarch64-linux cmrt-1.0.6</a></tt></summary>
 <ul>
 <li>nixpkgs.vaapi-intel-hybrid.aarch64-linux</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/178348615'>aarch64-linux nixos-disk-image</a></tt></summary>
-<ul>
-<li>nixos.tests.image-contents.aarch64-linux</li>
 </ul>
 </details>
 </td>
