@@ -4,7 +4,7 @@ categories: nixos:release-22.05-aarch64
 ---
 # Evals report
 
-*Report built at 2022-05-27 08:14:20 UTC*
+*Report built at 2022-05-27 09:12:05 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>29 issues</summary>
+<details><summary>30 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -195,6 +195,12 @@ Built for evals:
 </td>
 <td>Failed</td>
 </tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/178349847'>tested</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
 </table>
 </details>
 
@@ -202,7 +208,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>691 issues</summary>
+<details><summary>692 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -636,6 +642,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>btrfs-progs-5.17</tt> <br /> <a href='https://hydra.nixos.org/build/177992382/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/177992382/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/177992382/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/177889999'>build 177889999</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/178350004'>nixpkgs.dyndnsc.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.9-sanic-22.3.2</tt> <br /> <a href='https://hydra.nixos.org/build/178350004/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/178350004/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/178350004/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/178349747'>build 178349747</a>
 </li>
 </ul>
 </details>
@@ -5961,20 +5981,13 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>4 issues</summary>
+<details><summary>2 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/178349745'>nixos.tests.gnome.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/177984481'>nixpkgs.communi.aarch64-linux</a></tt>
@@ -5988,13 +6001,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/178349847'>tested</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
@@ -6111,6 +6117,22 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/178349747'>aarch64-linux python3.9-sanic-22.3.2</a></tt></summary>
+<ul>
+<li>nixpkgs.dyndnsc.aarch64-linux</li>
+<li>nixpkgs.python39Packages.elastic-apm.aarch64-linux</li>
+<li>nixpkgs.python39Packages.entrance-with-router-features.aarch64-linux</li>
+<li>nixpkgs.python39Packages.entrance.aarch64-linux</li>
+<li>nixpkgs.python39Packages.json-logging.aarch64-linux</li>
+<li>nixpkgs.python39Packages.sanic-testing.aarch64-linux</li>
+<li>nixpkgs.python39Packages.sanic-auth.aarch64-linux</li>
+</ul>
+</details>
+</td>
+<td>7</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/177595956'>aarch64-linux python3.9-typer-0.4.1</a></tt></summary>
 <ul>
 <li>nixpkgs.markdown-anki-decks.aarch64-linux</li>
@@ -6156,21 +6178,6 @@ Built for evals:
 </details>
 </td>
 <td>7</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/178349747'>aarch64-linux python3.9-sanic-22.3.2</a></tt></summary>
-<ul>
-<li>nixpkgs.python39Packages.elastic-apm.aarch64-linux</li>
-<li>nixpkgs.python39Packages.entrance-with-router-features.aarch64-linux</li>
-<li>nixpkgs.python39Packages.entrance.aarch64-linux</li>
-<li>nixpkgs.python39Packages.json-logging.aarch64-linux</li>
-<li>nixpkgs.python39Packages.sanic-testing.aarch64-linux</li>
-<li>nixpkgs.python39Packages.sanic-auth.aarch64-linux</li>
-</ul>
-</details>
-</td>
-<td>6</td>
 </tr>
 <tr>
 <td>
