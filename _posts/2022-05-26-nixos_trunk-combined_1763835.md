@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-05-27 03:54:10 UTC*
+*Report built at 2022-05-27 04:27:03 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### i686-linux
 
 
-<details><summary>210 issues</summary>
+<details><summary>211 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -2367,6 +2367,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/178346961'>nixos.tests.cloud-init.i686-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/178347534'>nixos.tests.kexec.i686-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -2384,7 +2390,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>646 issues</summary>
+<details><summary>647 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -7488,6 +7494,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/178346858'>nixos.tests.wine.wineWowPackages-wayland.x86_64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/178119244'>nixpkgs.haskellPackages.bindings-common.x86_64-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -7598,7 +7610,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>795 issues</summary>
+<details><summary>793 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -8094,13 +8106,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/178346961'>nixos.tests.cloud-init.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
 </tr>
 <tr>
 <td>
@@ -12945,13 +12950,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/178346858'>nixos.tests.wine.wineWowPackages-wayland.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
