@@ -4,7 +4,7 @@ categories: nixos:release-21.11-aarch64
 ---
 # Evals report
 
-*Report built at 2022-05-28 09:11:49 UTC*
+*Report built at 2022-05-28 10:12:51 UTC*
 
 Built for evals:
 
@@ -15,26 +15,12 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>2 issues</summary>
+<details><summary>1 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 </tr></thead>
-<tr>
-<td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/178379929'>tested</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Cached failure</b> <tt>signond-8.60</tt> <br /> <a href='https://hydra.nixos.org/build/178379929/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/178379929/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/178379929/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/178293983'>build 178293983</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/178357805'>nixos.tests.shadowsocks.v2ray-plugin</a></tt>
@@ -48,7 +34,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>727 issues</summary>
+<details><summary>726 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -300,20 +286,6 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>signond-8.60</tt> <br /> <a href='https://hydra.nixos.org/build/178359569/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/178359569/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/178359569/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/178293983'>build 178293983</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/178358929'>nixos.tests.plasma5.aarch64-linux</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Cached failure</b> <tt>signond-8.60</tt> <br /> <a href='https://hydra.nixos.org/build/178358929/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/178358929/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/178358929/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/178293983'>build 178293983</a>
 </li>
 </ul>
 </details>
@@ -6583,7 +6555,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>5 issues</summary>
+<details><summary>4 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -6606,21 +6578,14 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/178379923'>nixos.tests.installer.simpleUefiSystemdBoot.aarch64-linux</a></tt>
+<tt><a href='https://hydra.nixos.org/build/178358929'>nixos.tests.plasma5.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/178379913'>nixos.tests.mastodon.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/178379920'>nixos.tests.zfs.installer.aarch64-linux</a></tt>
+<tt><a href='https://hydra.nixos.org/build/178379929'>tested</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -6640,7 +6605,6 @@ Built for evals:
 <ul>
 <li>nixos.closures.kde.aarch64-linux</li>
 <li>nixos.tests.plasma5-systemd-start.aarch64-linux</li>
-<li>nixos.tests.plasma5.aarch64-linux</li>
 <li>nixpkgs.calligra.aarch64-linux</li>
 <li>nixpkgs.digikam.aarch64-linux</li>
 <li>nixpkgs.kdev-php.aarch64-linux</li>
@@ -6790,11 +6754,10 @@ Built for evals:
 <li>nixpkgs.plasma5Packages.plasma-desktop.aarch64-linux</li>
 <li>nixpkgs.trojita.aarch64-linux</li>
 <li>nixpkgs.zanshin.aarch64-linux</li>
-<li>tested</li>
 </ul>
 </details>
 </td>
-<td>153</td>
+<td>151</td>
 </tr>
 <tr>
 <td>
