@@ -4,7 +4,7 @@ categories: nixos:release-22.05
 ---
 # Evals report
 
-*Report built at 2022-05-28 06:15:02 UTC*
+*Report built at 2022-05-28 07:11:44 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### i686-linux
 
 
-<details><summary>206 issues</summary>
+<details><summary>207 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -2401,6 +2401,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/178373643'>nixos.tests.kexec.i686-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/178371623'>nixos.tests.systemd-cryptenroll.i686-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -2412,7 +2418,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>659 issues</summary>
+<details><summary>662 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -4556,6 +4562,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/178374609'>nixos.tests.custom-ca.midori.x86_64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/178368850'>nixos.tests.dhparams.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -4713,6 +4725,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/178375467'>nixos.tests.jirafeau.x86_64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/178373384'>nixos.tests.libresprite.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -7493,6 +7511,12 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/177897391'>nixpkgs.yafaray-core.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/178375510'>nixos.tests.installed-tests.flatpak.x86_64-linux</a></tt>
+</td>
+<td>Log limit exceeded</td>
 </tr>
 <tr>
 <td>
@@ -13135,7 +13159,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>22 issues</summary>
+<details><summary>18 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -13152,13 +13176,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/178371192'>nixos.tests.cloud-init.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/178374609'>nixos.tests.custom-ca.midori.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -13207,13 +13224,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/178375510'>nixos.tests.installed-tests.flatpak.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/178372228'>nixos.tests.installed-tests.malcontent.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -13235,24 +13245,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/178373643'>nixos.tests.kexec.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/178374945'>nixos.tests.libresprite.i686-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/178373384'>nixos.tests.libresprite.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
