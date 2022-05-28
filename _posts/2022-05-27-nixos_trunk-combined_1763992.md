@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-05-28 04:15:50 UTC*
+*Report built at 2022-05-28 06:15:03 UTC*
 
 Built for evals:
 
@@ -2309,7 +2309,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>708 issues</summary>
+<details><summary>709 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -2769,6 +2769,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>xqilla-2.3.4</tt> <br /> <a href='https://hydra.nixos.org/build/178095198/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/178095198/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/178095198/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/177602564'>build 177602564</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/178366452'>nixpkgs.dduper.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>btrfs-progs-5.18</tt> <br /> <a href='https://hydra.nixos.org/build/178366452/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/178366452/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/178366452/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/178368628'>build 178368628</a>
 </li>
 </ul>
 </details>
@@ -9039,7 +9053,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>174 issues</summary>
+<details><summary>166 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -10203,63 +10217,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/178363737'>nixpkgs.almanah.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/178366540'>nixpkgs.concurrently.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/178366452'>nixpkgs.dduper.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/178366255'>nixpkgs.evolution-ews.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/178366733'>nixpkgs.evolution.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/178366152'>nixpkgs.evolutionWithPlugins.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/178366639'>nixpkgs.fishPlugins.grc.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/178365494'>nixpkgs.qemu_full.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/178366546'>nixpkgs.werf.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -11306,6 +11264,16 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/177602564'>x86_64-linux xqilla-2.3.4</a></tt></summary>
 <ul>
 <li>nixpkgs.dbxml.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/178368628'>x86_64-linux btrfs-progs-5.18</a></tt></summary>
+<ul>
+<li>nixpkgs.dduper.x86_64-linux</li>
 </ul>
 </details>
 </td>
