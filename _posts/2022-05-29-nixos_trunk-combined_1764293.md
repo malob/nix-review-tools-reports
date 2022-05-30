@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-05-30 13:38:38 UTC*
+*Report built at 2022-05-30 14:14:11 UTC*
 
 Built for evals:
 
@@ -8828,7 +8828,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>96 issues</summary>
+<details><summary>97 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -9662,6 +9662,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/178575808'>nixos.tests.iscsi-multipath-root.aarch64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/178573510'>nixos.tests.iscsi-root.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -9673,7 +9679,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>43 issues</summary>
+<details><summary>42 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -9819,13 +9825,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/178575808'>nixos.tests.iscsi-multipath-root.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
