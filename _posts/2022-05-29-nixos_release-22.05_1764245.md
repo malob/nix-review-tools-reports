@@ -1,10 +1,10 @@
 ---
-title: nixos:release-22.05 1764245 (succeeded)
+title: nixos:release-22.05 1764245
 categories: nixos:release-22.05
 ---
 # Evals report
 
-*Report built at 2022-05-30 04:33:28 UTC*
+*Report built at 2022-05-30 09:14:39 UTC*
 
 Built for evals:
 
@@ -2448,7 +2448,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>654 issues</summary>
+<details><summary>653 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -4400,20 +4400,6 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>gnat-6.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/177953101/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/177953101/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/177953101/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/177673344'>build 177673344</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/178561139'>tested</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Failed</b> <tt>vm-test-run-pantheon</tt> <br /> <a href='https://hydra.nixos.org/build/178561139/nixlog/1464'>log</a>, <a href='https://hydra.nixos.org/build/178561139/nixlog/1464/raw'>raw</a>, <a href='https://hydra.nixos.org/build/178561139/nixlog/1464/tail'>tail</a>, <a href='https://hydra.nixos.org/build/178562040'>build 178562040</a>
 </li>
 </ul>
 </details>
@@ -7529,7 +7515,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>678 issues</summary>
+<details><summary>677 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -10352,12 +10338,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/178562040'>nixos.tests.pantheon.aarch64-linux</a></tt>
-</td>
-<td>Failed</td>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/178561953'>nixos.tests.pgmanage.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -13077,6 +13057,27 @@ Built for evals:
 </table>
 </details>
 
+
+### Still queued
+
+
+<details><summary>1 issues</summary>
+<table>
+<thead><tr>
+<th>job</th>
+<th>status</th>
+<th>platform</th>
+</tr></thead>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/178561139'>tested</a></tt>
+</td>
+<td>Queued</td>
+<th>x86_64-linux</th>
+</tr>
+</table>
+</details>
+
 ## Problematic dependencies
 
 <table>
@@ -14228,16 +14229,6 @@ Built for evals:
 </details>
 </td>
 <td>2</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/178562040'>x86_64-linux vm-test-run-pantheon</a></tt></summary>
-<ul>
-<li>tested</li>
-</ul>
-</details>
-</td>
-<td>1</td>
 </tr>
 <tr>
 <td>
