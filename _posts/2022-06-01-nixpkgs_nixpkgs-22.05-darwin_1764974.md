@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-22.05-darwin
 ---
 # Evals report
 
-*Report built at 2022-06-01 16:46:50 UTC*
+*Report built at 2022-06-01 17:22:26 UTC*
 
 Built for evals:
 
@@ -2116,7 +2116,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>972 issues</summary>
+<details><summary>975 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -11424,6 +11424,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/178863539'>python310Packages.hyppo.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/178020510'>python310Packages.moto.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -11478,6 +11484,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/178863464'>python39Packages.datafusion.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/178057384'>python39Packages.debugpy.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -11497,6 +11509,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/178863518'>python39Packages.flower.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/178863609'>python39Packages.hyppo.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -11633,7 +11651,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>12 issues</summary>
+<details><summary>8 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -11656,13 +11674,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/178878500'>metrics</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/178863686'>noto-fonts-emoji.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -11671,13 +11682,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/178863745'>python310Packages.datafusion.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/178863539'>python310Packages.hyppo.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -11695,20 +11699,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/178863464'>python39Packages.datafusion.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/178863609'>python39Packages.hyppo.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
