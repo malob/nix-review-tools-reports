@@ -4,7 +4,7 @@ categories: nixos:release-21.11-aarch64
 ---
 # Evals report
 
-*Report built at 2022-06-01 09:15:05 UTC*
+*Report built at 2022-06-01 14:20:27 UTC*
 
 Built for evals:
 
@@ -15,12 +15,26 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>491 issues</summary>
+<details><summary>492 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 </tr></thead>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/178866164'>nixos.tests.clickhouse.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>clickhouse-21.8.15.7</tt> <br /> <a href='https://hydra.nixos.org/build/178866164/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/178866164/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/178866164/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/177454900'>build 177454900</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
 <tr>
 <td>
 <details><summary>
@@ -3670,7 +3684,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>2734 issues</summary>
+<details><summary>2732 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -3697,13 +3711,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/178866061'>nixos.channel</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -4093,13 +4100,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/178867648'>nixos.tests.cjdns.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/178866164'>nixos.tests.clickhouse.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
@@ -22996,6 +22996,16 @@ Built for evals:
 </details>
 </td>
 <td>2</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/177454900'>aarch64-linux clickhouse-21.8.15.7</a></tt></summary>
+<ul>
+<li>nixos.tests.clickhouse.aarch64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
 </tr>
 <tr>
 <td>
