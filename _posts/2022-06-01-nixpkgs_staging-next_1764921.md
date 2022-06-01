@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next
 ---
 # Evals report
 
-*Report built at 2022-06-01 19:13:07 UTC*
+*Report built at 2022-06-01 20:16:19 UTC*
 
 Built for evals:
 
@@ -4812,7 +4812,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>249 issues</summary>
+<details><summary>250 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -6990,6 +6990,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/178486277'>python310Packages.django-haystack.x86_64-darwin</a></tt>
+</td>
+<td>Log limit exceeded</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/178873172'>python39Packages.apache-beam.x86_64-darwin</a></tt>
 </td>
 <td>Log limit exceeded</td>
 </tr>
@@ -19883,7 +19889,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>5995 issues</summary>
+<details><summary>5992 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -44637,13 +44643,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/178873262'>python310Packages.graph-tool.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/178872595'>python310Packages.graph-tool.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -50384,13 +50383,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/178873172'>python39Packages.apache-beam.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/178871969'>python39Packages.apache-beam.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -53580,13 +53572,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/178869049'>python39Packages.graph-tool.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
