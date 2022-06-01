@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-22.05-darwin
 ---
 # Evals report
 
-*Report built at 2022-06-01 03:31:21 UTC*
+*Report built at 2022-06-01 08:19:07 UTC*
 
 Built for evals:
 
@@ -10993,7 +10993,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>370 issues</summary>
+<details><summary>369 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -11507,13 +11507,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/178863528'>libpst.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/178716582'>libtensorflow.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
