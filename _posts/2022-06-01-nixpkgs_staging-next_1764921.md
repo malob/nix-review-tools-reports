@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next
 ---
 # Evals report
 
-*Report built at 2022-06-01 20:16:19 UTC*
+*Report built at 2022-06-02 00:59:30 UTC*
 
 Built for evals:
 
@@ -19889,7 +19889,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>5992 issues</summary>
+<details><summary>5991 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -35530,13 +35530,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/178869362'>leocad.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/178874747'>lib-tests</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
