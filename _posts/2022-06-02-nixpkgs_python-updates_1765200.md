@@ -4,7 +4,7 @@ categories: nixpkgs:python-updates
 ---
 # Evals report
 
-*Report built at 2022-06-03 06:13:14 UTC*
+*Report built at 2022-06-03 08:13:00 UTC*
 
 Built for evals:
 
@@ -11255,7 +11255,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>7481 issues</summary>
+<details><summary>7480 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -45984,13 +45984,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/179139970'>python39Packages.enamlx.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/179138940'>python39Packages.enhancements.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -64333,6 +64326,7 @@ Built for evals:
 <li>python39Packages.slack-sdk.x86_64-linux</li>
 <li>python39Packages.smart-open.x86_64-linux</li>
 <li>python39Packages.smart_open.x86_64-linux</li>
+<li>python39Packages.tensorboardx.x86_64-linux</li>
 <li>python39Packages.buildbot-full.x86_64-linux</li>
 <li>python39Packages.buildbot-ui.x86_64-linux</li>
 <li>python39Packages.buildbot.x86_64-linux</li>
@@ -64343,7 +64337,6 @@ Built for evals:
 <li>python39Packages.hass-nabucasa.x86_64-linux</li>
 <li>python39Packages.spacy.x86_64-linux</li>
 <li>python39Packages.textacy.x86_64-linux</li>
-<li>python39Packages.tensorboardx.x86_64-linux</li>
 </ul>
 </details>
 </td>
