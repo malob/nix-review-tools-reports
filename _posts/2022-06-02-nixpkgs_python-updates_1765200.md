@@ -4,7 +4,7 @@ categories: nixpkgs:python-updates
 ---
 # Evals report
 
-*Report built at 2022-06-03 08:13:00 UTC*
+*Report built at 2022-06-03 09:12:02 UTC*
 
 Built for evals:
 
@@ -63641,6 +63641,7 @@ Built for evals:
 <li>python310Packages.slack-sdk.x86_64-linux</li>
 <li>python310Packages.smart-open.x86_64-linux</li>
 <li>python310Packages.smart_open.x86_64-linux</li>
+<li>python310Packages.tensorboardx.x86_64-linux</li>
 <li>snakemake.x86_64-linux</li>
 <li>buildbot-full.x86_64-linux</li>
 <li>buildbot-ui.x86_64-linux</li>
@@ -64271,7 +64272,6 @@ Built for evals:
 <li>python310Packages.hass-nabucasa.x86_64-linux</li>
 <li>python310Packages.spacy.x86_64-linux</li>
 <li>python310Packages.textacy.x86_64-linux</li>
-<li>python310Packages.tensorboardx.x86_64-linux</li>
 </ul>
 </details>
 </td>
