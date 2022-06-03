@@ -1,10 +1,10 @@
 ---
-title: nixos:release-22.05 1765227
+title: nixos:release-22.05 1765227 (succeeded)
 categories: nixos:release-22.05
 ---
 # Evals report
 
-*Report built at 2022-06-03 16:15:23 UTC*
+*Report built at 2022-06-03 17:15:13 UTC*
 
 Built for evals:
 
@@ -10278,27 +10278,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/177902027'>nixpkgs.wasm-bindgen-cli.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/179142909'>nixos.tests.installer-systemd-stage-1.simpleUefiSystemdBoot.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 </table>
 </details>
