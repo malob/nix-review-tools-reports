@@ -4,7 +4,7 @@ categories: nixpkgs:python-updates
 ---
 # Evals report
 
-*Report built at 2022-06-03 19:09:08 UTC*
+*Report built at 2022-06-03 20:11:55 UTC*
 
 Built for evals:
 
@@ -12110,7 +12110,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>6185 issues</summary>
+<details><summary>6184 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -13887,13 +13887,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/179142059'>grapejuice.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
