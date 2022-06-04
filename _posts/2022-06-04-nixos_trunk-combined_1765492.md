@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-06-04 09:11:51 UTC*
+*Report built at 2022-06-04 14:10:16 UTC*
 
 Built for evals:
 
@@ -2212,7 +2212,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>588 issues</summary>
+<details><summary>589 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -7703,6 +7703,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/179114340'>nixpkgs.retdec-full.x86_64-linux</a></tt>
+</td>
+<td>Output size limit exceeded</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/179288302'>nixpkgs.tts.x86_64-linux</a></tt>
 </td>
 <td>Output size limit exceeded</td>
 </tr>
@@ -18194,7 +18200,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>1593 issues</summary>
+<details><summary>1591 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -28766,13 +28772,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/179286432'>nixpkgs.haste-server.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/179285570'>nixpkgs.libtensorflow.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -29341,13 +29340,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/179288444'>nixpkgs.tarball</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/179288302'>nixpkgs.tts.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
