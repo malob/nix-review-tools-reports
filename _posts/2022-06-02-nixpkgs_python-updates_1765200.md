@@ -4,7 +4,7 @@ categories: nixpkgs:python-updates
 ---
 # Evals report
 
-*Report built at 2022-06-03 20:11:55 UTC*
+*Report built at 2022-06-04 00:46:51 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>937 issues</summary>
+<details><summary>935 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -9211,20 +9211,6 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
-<tt><a href='https://hydra.nixos.org/build/179134493'>printrun.x86_64-linux</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Failed</b> <tt>libsecret-0.20.5</tt> <br /> <a href='https://hydra.nixos.org/build/179134493/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/179134493/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/179134493/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/179133132'>build 179133132</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
-<details><summary>
 <tt><a href='https://hydra.nixos.org/build/179133160'>privacyidea.x86_64-linux</a></tt>
 </summary>
 <ul>
@@ -10807,20 +10793,6 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
-<tt><a href='https://hydra.nixos.org/build/179133132'>trezor_agent.x86_64-linux</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Failed</b> <tt>libsecret-0.20.5</tt> <br /> <a href='https://hydra.nixos.org/build/179133132/nixlog/10'>log</a>, <a href='https://hydra.nixos.org/build/179133132/nixlog/10/raw'>raw</a>, <a href='https://hydra.nixos.org/build/179133132/nixlog/10/tail'>tail</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
-<details><summary>
 <tt><a href='https://hydra.nixos.org/build/179140080'>turses.x86_64-linux</a></tt>
 </summary>
 <ul>
@@ -12110,7 +12082,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>6184 issues</summary>
+<details><summary>6185 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -20299,6 +20271,13 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/179134493'>printrun.x86_64-linux</a></tt>
+</td>
+<td>Queued</td>
+<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -56082,7 +56061,6 @@ Built for evals:
 <li>nautilus-open-any-terminal.x86_64-linux</li>
 <li>onboard.x86_64-linux</li>
 <li>pithos.x86_64-linux</li>
-<li>printrun.x86_64-linux</li>
 <li>protonvpn-gui.x86_64-linux</li>
 <li>python310Packages.gtimelog.x86_64-linux</li>
 <li>python310Packages.humblewx.x86_64-linux</li>
@@ -56099,7 +56077,6 @@ Built for evals:
 <li>setzer.x86_64-linux</li>
 <li>skytemple.x86_64-linux</li>
 <li>timeline.x86_64-linux</li>
-<li>trezor_agent.x86_64-linux</li>
 <li>ulauncher.x86_64-linux</li>
 <li>wike.x86_64-linux</li>
 <li>woeusb-ng.x86_64-linux</li>
@@ -56113,7 +56090,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>45</td>
+<td>43</td>
 </tr>
 <tr>
 <td>
