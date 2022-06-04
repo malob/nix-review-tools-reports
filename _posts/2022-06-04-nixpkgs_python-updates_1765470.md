@@ -4,7 +4,7 @@ categories: nixpkgs:python-updates
 ---
 # Evals report
 
-*Report built at 2022-06-04 21:11:20 UTC*
+*Report built at 2022-06-04 22:10:18 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>153 issues</summary>
+<details><summary>152 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -1305,12 +1305,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/179283065'>python310Packages.acoustics.aarch64-linux</a></tt>
-</td>
-<td>Failed</td>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/179273102'>python310Packages.aiosteamist.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -1694,7 +1688,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>11555 issues</summary>
+<details><summary>11554 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -2967,13 +2961,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/179282002'>cvise.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
