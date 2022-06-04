@@ -4,7 +4,7 @@ categories: nixpkgs:python-updates
 ---
 # Evals report
 
-*Report built at 2022-06-04 22:10:18 UTC*
+*Report built at 2022-06-04 23:10:11 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>152 issues</summary>
+<details><summary>148 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -1449,12 +1449,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/179263855'>python39Packages.aioswitcher.aarch64-linux</a></tt>
-</td>
-<td>Failed</td>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/179274847'>python39Packages.ansible-later.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -1662,24 +1656,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/179277989'>zulip-term.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/179277672'>python310Packages.pyquil.aarch64-linux</a></tt>
-</td>
-<td>Timed out</td>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/179261540'>python310Packages.rpcq.aarch64-linux</a></tt>
-</td>
-<td>Timed out</td>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/179269065'>python39Packages.bellows.aarch64-linux</a></tt>
-</td>
-<td>Timed out</td>
 </tr>
 </table>
 </details>
