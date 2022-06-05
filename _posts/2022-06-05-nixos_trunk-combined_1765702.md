@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-06-05 21:11:43 UTC*
+*Report built at 2022-06-05 22:11:20 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### i686-linux
 
 
-<details><summary>260 issues</summary>
+<details><summary>265 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -382,6 +382,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>spidermonkey-91.10.0</tt> <br /> <a href='https://hydra.nixos.org/build/179325542/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/179325542/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/179325542/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/179082773'>build 179082773</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/179330669'>nixos.tests.fenics.i686-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>ucx-1.12.1</tt> <br /> <a href='https://hydra.nixos.org/build/179330669/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/179330669/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/179330669/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/179330988'>build 179330988</a>
 </li>
 </ul>
 </details>
@@ -1721,6 +1735,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/179329880'>nixos.tests.postgis.i686-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>ucx-1.12.1</tt> <br /> <a href='https://hydra.nixos.org/build/179329880/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/179329880/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/179329880/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/179330988'>build 179330988</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/179328874'>nixos.tests.powerdns.i686-linux</a></tt>
 </summary>
 <ul>
@@ -1866,6 +1894,23 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>spidermonkey-91.10.0</tt> <br /> <a href='https://hydra.nixos.org/build/179328920/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/179328920/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/179328920/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/179082773'>build 179082773</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/179330988'>nixos.tests.slurm.i686-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>slurm-22.05.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/179330988/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/179330988/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/179330988/nixlog/3/tail'>tail</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>ucx-1.12.1</tt> <br /> <a href='https://hydra.nixos.org/build/179330988/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/179330988/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/179330988/nixlog/2/tail'>tail</a>
 </li>
 </ul>
 </details>
@@ -2384,6 +2429,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>nixos-test-driver-terminal-emulator-mate-terminal</tt> <br /> <a href='https://hydra.nixos.org/build/179325519/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/179325519/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/179325519/nixlog/1/tail'>tail</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/179333990'>nixos.tests.terminal-emulators.mlterm.i686-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nixos-test-driver-terminal-emulator-mlterm</tt> <br /> <a href='https://hydra.nixos.org/build/179333990/nixlog/17'>log</a>, <a href='https://hydra.nixos.org/build/179333990/nixlog/17/raw'>raw</a>, <a href='https://hydra.nixos.org/build/179333990/nixlog/17/tail'>tail</a>
 </li>
 </ul>
 </details>
@@ -3107,6 +3166,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/179332330'>nixos.tests.prometheus-exporters.openldap.i686-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/179328474'>nixos.tests.rxe.i686-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -19415,7 +19480,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>10 issues</summary>
+<details><summary>2 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -19425,62 +19490,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/179331658'>nixos.tests.cloud-init.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/179330669'>nixos.tests.fenics.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/179329624'>nixos.tests.influxdb.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/179330460'>nixos.tests.installed-tests.fwupd.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/179333526'>nixos.tests.noto-fonts.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/179329880'>nixos.tests.postgis.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/179328474'>nixos.tests.rxe.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/179330988'>nixos.tests.slurm.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/179333990'>nixos.tests.terminal-emulators.mlterm.i686-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>i686-linux</th>
@@ -20574,6 +20583,18 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/179330988'>i686-linux ucx-1.12.1</a></tt></summary>
+<ul>
+<li>nixos.tests.fenics.i686-linux</li>
+<li>nixos.tests.postgis.i686-linux</li>
+<li>nixos.tests.slurm.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>3</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/179177732'>i686-linux linux-5.17.11-bcachefs-unstable-2022-04-25</a></tt></summary>
 <ul>
 <li>nixos.tests.installer.bcachefsEncrypted.i686-linux</li>
@@ -21210,6 +21231,17 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt>i686-linux nixos-test-driver-terminal-emulator-mlterm</tt></summary>
+<ul>
+<li>nixos.tests.terminal-emulators.mlterm.i686-linux</li>
+<li>nixos.tests.terminal-emulators.mlterm.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt>i686-linux nixos-test-driver-terminal-emulator-qterminal</tt></summary>
 <ul>
 <li>nixos.tests.terminal-emulators.qterminal.i686-linux</li>
@@ -21794,6 +21826,16 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt>i686-linux slurm-22.05.0.1</tt></summary>
+<ul>
+<li>nixos.tests.slurm.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/179092415'>i686-linux sope-5.5.1</a></tt></summary>
 <ul>
 <li>nixos.tests.sogo.i686-linux</li>
@@ -21857,16 +21899,6 @@ Built for evals:
 <details><summary><tt>i686-linux nixos-test-driver-terminal-emulator-kitty</tt></summary>
 <ul>
 <li>nixos.tests.terminal-emulators.kitty.i686-linux</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>x86_64-linux nixos-test-driver-terminal-emulator-mlterm</tt></summary>
-<ul>
-<li>nixos.tests.terminal-emulators.mlterm.x86_64-linux</li>
 </ul>
 </details>
 </td>
