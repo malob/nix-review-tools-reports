@@ -4,7 +4,7 @@ categories: nixpkgs:python-updates
 ---
 # Evals report
 
-*Report built at 2022-06-05 06:12:24 UTC*
+*Report built at 2022-06-05 07:10:45 UTC*
 
 Built for evals:
 
@@ -1955,7 +1955,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>5942 issues</summary>
+<details><summary>5940 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -16756,13 +16756,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/179263107'>python310Packages.jarowinkler.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/179277015'>python310Packages.jax.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -32590,13 +32583,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/179260767'>python39Packages.jarowinkler.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/179274725'>python39Packages.jax.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
