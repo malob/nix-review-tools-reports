@@ -4,7 +4,7 @@ categories: nixpkgs:python-updates
 ---
 # Evals report
 
-*Report built at 2022-06-05 08:13:40 UTC*
+*Report built at 2022-06-05 09:09:51 UTC*
 
 Built for evals:
 
@@ -1989,7 +1989,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>5930 issues</summary>
+<details><summary>5927 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -21094,13 +21094,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/179267175'>python310Packages.pyqt5_with_qtwebkit.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/179275986'>python310Packages.pyqtgraph.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -36935,13 +36928,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/179265856'>python39Packages.pyqt5_with_qtwebkit.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/179261257'>python39Packages.pyqtgraph.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -42445,13 +42431,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/179268518'>screenkey.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/179274418'>scudcloud.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
