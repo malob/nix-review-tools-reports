@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-06-05 22:11:20 UTC*
+*Report built at 2022-06-06 07:12:12 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### i686-linux
 
 
-<details><summary>265 issues</summary>
+<details><summary>266 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -3210,6 +3210,12 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/179324011'>nixos.tests.wiki-js.i686-linux</a></tt>
 </td>
 <td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/179331658'>nixos.tests.cloud-init.i686-linux</a></tt>
+</td>
+<td>Timed out</td>
 </tr>
 <tr>
 <td>
@@ -19480,20 +19486,13 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>2 issues</summary>
+<details><summary>1 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/179331658'>nixos.tests.cloud-init.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/179327301'>nixpkgs.webkitgtk_4_1.x86_64-linux</a></tt>
