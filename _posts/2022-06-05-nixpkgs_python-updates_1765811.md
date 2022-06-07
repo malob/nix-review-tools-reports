@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:python-updates 1765811
+title: nixpkgs:python-updates 1765811 (succeeded)
 categories: nixpkgs:python-updates
 ---
 # Evals report
 
-*Report built at 2022-06-07 15:11:27 UTC*
+*Report built at 2022-06-07 16:13:56 UTC*
 
 Built for evals:
 
@@ -2802,27 +2802,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/179277989'>zulip-term.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/179584962'>python310Packages.graph-tool.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 </table>
 </details>
