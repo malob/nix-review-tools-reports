@@ -4,7 +4,7 @@ categories: nixpkgs:python-updates
 ---
 # Evals report
 
-*Report built at 2022-06-06 06:14:10 UTC*
+*Report built at 2022-06-07 04:20:26 UTC*
 
 Built for evals:
 
@@ -954,7 +954,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>68 issues</summary>
+<details><summary>69 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -1124,6 +1124,20 @@ Built for evals:
 </li>
 <li>
 <b>=> Failed</b> <tt>git-2.36.1</tt> <br /> <a href='https://hydra.nixos.org/build/179273150/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/179273150/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/179273150/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/179282545'>build 179282545</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/179582490'>python39Packages.pyarrow.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>thrift-0.16.0</tt> <br /> <a href='https://hydra.nixos.org/build/179582490/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/179582490/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/179582490/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/179279722'>build 179279722</a>
 </li>
 </ul>
 </details>
@@ -1548,7 +1562,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>2697 issues</summary>
+<details><summary>2695 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -13800,13 +13814,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/179584629'>python310Packages.msgpack.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/179582618'>python310Packages.napari-console.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -18322,13 +18329,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/179582490'>python39Packages.pyarrow.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/179584867'>python39Packages.pyarrow.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -20588,6 +20588,16 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/179264457'>x86_64-linux python3.9-paperwork-backend-2.1.1</a></tt></summary>
 <ul>
 <li>python39Packages.paperwork-shell.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/179279722'>aarch64-linux thrift-0.16.0</a></tt></summary>
+<ul>
+<li>python39Packages.pyarrow.aarch64-linux</li>
 </ul>
 </details>
 </td>
