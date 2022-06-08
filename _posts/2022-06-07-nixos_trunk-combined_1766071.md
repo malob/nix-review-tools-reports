@@ -1,10 +1,10 @@
 ---
-title: nixos:trunk-combined 1766071
+title: nixos:trunk-combined 1766071 (succeeded)
 categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-06-08 02:56:59 UTC*
+*Report built at 2022-06-08 03:52:37 UTC*
 
 Built for evals:
 
@@ -5212,7 +5212,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>764 issues</summary>
+<details><summary>766 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -11587,6 +11587,18 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/179729701'>nixos.tests.cloud-init.x86_64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/179735967'>nixos.tests.fcitx.x86_64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/179735493'>nixos.tests.installed-tests.malcontent.x86_64-linux</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -32588,34 +32600,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/179732234'>nixos.amazonImageZfs.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>2 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/179735967'>nixos.tests.fcitx.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/179735493'>nixos.tests.installed-tests.malcontent.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
