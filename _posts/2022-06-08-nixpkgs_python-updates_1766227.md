@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:python-updates 1766227
+title: nixpkgs:python-updates 1766227 (succeeded)
 categories: nixpkgs:python-updates
 ---
 # Evals report
 
-*Report built at 2022-06-08 17:13:01 UTC*
+*Report built at 2022-06-08 18:12:40 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>158 issues</summary>
+<details><summary>160 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -172,6 +172,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>python3.10-robotframework-seleniumlibrary-6.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/179754772/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/179754772/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/179754772/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/179760904'>build 179760904</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/179869496'>python39Packages.elegy.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.9-treex-0.6.10</tt> <br /> <a href='https://hydra.nixos.org/build/179869496/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/179869496/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/179869496/nixlog/3/tail'>tail</a>, <a href='https://hydra.nixos.org/build/179869497'>build 179869497</a>
 </li>
 </ul>
 </details>
@@ -849,6 +863,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/179869472'>python39Packages.sunpy.x86_64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/179869497'>python39Packages.treex.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -1728,55 +1748,6 @@ Built for evals:
 </table>
 </details>
 
-
-### Still queued
-
-
-<details><summary>5 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/179869496'>python39Packages.elegy.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/179869429'>python39Packages.flax.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/179869362'>python39Packages.optax.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/179869410'>python39Packages.tensorflow-datasets.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/179869497'>python39Packages.treex.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-</table>
-</details>
-
 ## Problematic dependencies
 
 <table>
@@ -1978,6 +1949,16 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/179760904'>x86_64-linux python3.10-robotframework-seleniumlibrary-6.0.0</a></tt></summary>
 <ul>
 <li>python310Packages.robotframework-selenium2library.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/179869497'>x86_64-linux python3.9-treex-0.6.10</a></tt></summary>
+<ul>
+<li>python39Packages.elegy.x86_64-linux</li>
 </ul>
 </details>
 </td>
