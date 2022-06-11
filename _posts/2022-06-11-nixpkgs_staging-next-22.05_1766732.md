@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:staging-next-22.05 1766732
+title: nixpkgs:staging-next-22.05 1766732 (succeeded)
 categories: nixpkgs:staging-next-22.05
 ---
 # Evals report
 
-*Report built at 2022-06-11 19:10:10 UTC*
+*Report built at 2022-06-11 21:10:16 UTC*
 
 Built for evals:
 
@@ -7646,7 +7646,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>5432 issues</summary>
+<details><summary>5434 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -43593,6 +43593,18 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/180236603'>coccinelle.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/180235864'>cvehound.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/179390574'>deltachat-cursed.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -43860,34 +43872,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/179443954'>sourcehut.todosrht.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>2 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/180236603'>coccinelle.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/180235864'>cvehound.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 </table>
 </details>
