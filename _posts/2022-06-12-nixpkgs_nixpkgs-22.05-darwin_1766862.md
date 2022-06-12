@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-22.05-darwin
 ---
 # Evals report
 
-*Report built at 2022-06-12 16:14:20 UTC*
+*Report built at 2022-06-12 19:10:14 UTC*
 
 Built for evals:
 
@@ -11059,7 +11059,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>20 issues</summary>
+<details><summary>19 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -11079,13 +11079,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/180307232'>distrobox.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
