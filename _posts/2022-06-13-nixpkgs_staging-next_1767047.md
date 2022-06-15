@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next
 ---
 # Evals report
 
-*Report built at 2022-06-15 11:17:52 UTC*
+*Report built at 2022-06-15 12:21:45 UTC*
 
 Built for evals:
 
@@ -5926,7 +5926,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>334 issues</summary>
+<details><summary>337 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -6694,6 +6694,32 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>ghc-9.0.2</tt> <br /> <a href='https://hydra.nixos.org/build/180396382/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/180396382/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/180396382/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/180370951'>build 180370951</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/180391475'>mucommander.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>mucommander-deps-0.9.3-3</tt> <br /> <a href='https://hydra.nixos.org/build/180391475/nixlog/5'>log</a>, <a href='https://hydra.nixos.org/build/180391475/nixlog/5/raw'>raw</a>, <a href='https://hydra.nixos.org/build/180391475/nixlog/5/tail'>tail</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>mucommander-deps-0.9.3-3</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>mucommander-deps-0.9.3-3</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>mucommander-deps-0.9.3-3</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>mucommander-deps-0.9.3-3</tt> <br /> 
 </li>
 </ul>
 </details>
@@ -8478,6 +8504,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/180376788'>haskellPackages.bindings-common.aarch64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/180370422'>haskellPackages.hpapi.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -8515,6 +8547,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/180390442'>haskellPackages.polysemy-process.aarch64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/180383779'>haskellPackages.zeromq4-clone-pattern.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -13659,55 +13697,13 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>14 issues</summary>
+<details><summary>7 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/180395196'>agdaPackages.agda-categories.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/180399136'>bespokesynth.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/180399690'>gnucash.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/180387088'>haskell-language-server.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/180376788'>haskellPackages.bindings-common.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/180383779'>haskellPackages.zeromq4-clone-pattern.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/180399049'>haskellPackages.zeromq4-patterns.aarch64-linux</a></tt>
@@ -13718,13 +13714,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/180360775'>kicad-small.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/180391475'>mucommander.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
@@ -13871,6 +13860,19 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt>aarch64-darwin mucommander-deps-0.9.3-3</tt></summary>
+<ul>
+<li>mucommander.aarch64-darwin</li>
+<li>mucommander.aarch64-linux</li>
+<li>mucommander.x86_64-darwin</li>
+<li>mucommander.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>20</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/180083143'>x86_64-darwin bazel-build-jaxlib-0.3.0</a></tt></summary>
 <ul>
 <li>python310Packages.augmax.x86_64-darwin</li>
@@ -13947,18 +13949,6 @@ Built for evals:
 </details>
 </td>
 <td>16</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>aarch64-darwin mucommander-deps-0.9.3-3</tt></summary>
-<ul>
-<li>mucommander.aarch64-darwin</li>
-<li>mucommander.x86_64-darwin</li>
-<li>mucommander.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>15</td>
 </tr>
 <tr>
 <td>
