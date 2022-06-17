@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next
 ---
 # Evals report
 
-*Report built at 2022-06-17 15:13:59 UTC*
+*Report built at 2022-06-17 16:20:00 UTC*
 
 Built for evals:
 
@@ -15199,7 +15199,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>13340 issues</summary>
+<details><summary>13337 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -99726,13 +99726,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/180611818'>qtcreator.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/180600234'>qtemu.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -106408,20 +106401,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/180612168'>wineWowPackages.unstableFull.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/180611641'>wineWowPackages.waylandFull.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
