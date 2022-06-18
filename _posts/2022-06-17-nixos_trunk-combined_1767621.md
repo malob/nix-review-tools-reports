@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-06-18 06:13:15 UTC*
+*Report built at 2022-06-18 07:10:34 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### i686-linux
 
 
-<details><summary>530 issues</summary>
+<details><summary>531 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -6456,6 +6456,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/180655391'>nixos.tests.bitcoind.i686-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/180657883'>nixos.tests.cage.i686-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -14400,7 +14406,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>1491 issues</summary>
+<details><summary>1490 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -19950,13 +19956,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/180657883'>nixos.tests.cage.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
 </tr>
 <tr>
 <td>
