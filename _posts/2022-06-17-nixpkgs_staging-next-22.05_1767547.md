@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next-22.05
 ---
 # Evals report
 
-*Report built at 2022-06-18 19:10:48 UTC*
+*Report built at 2022-06-18 20:12:57 UTC*
 
 Built for evals:
 
@@ -15709,7 +15709,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>313 issues</summary>
+<details><summary>317 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -16930,6 +16930,34 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/180627723'>qt6.qtwebview.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>qtwebengine-6.3.0</tt> <br /> <a href='https://hydra.nixos.org/build/180627723/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/180627723/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/180627723/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/180627505'>build 180627505</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/180628674'>qt6Packages.qtwebview.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>qtwebengine-6.3.0</tt> <br /> <a href='https://hydra.nixos.org/build/180628674/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/180628674/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/180628674/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/180627505'>build 180627505</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/180629013'>retroarchFull.aarch64-linux</a></tt>
 </summary>
 <ul>
@@ -18114,6 +18142,18 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/180504266'>python39Packages.xdis.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/180627505'>qt6.qtwebengine.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/180627699'>qt6Packages.qtwebengine.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -29924,34 +29964,13 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>16 issues</summary>
+<details><summary>4 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/180628825'>agdaPackages.agda-categories.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/180547007'>haskell.compiler.integer-simple.ghc884.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/180626903'>haskellPackages.blagda.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/180628579'>libretro.mame.aarch64-linux</a></tt>
@@ -29975,70 +29994,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/180627196'>qt6.qt3d.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/180627928'>qt6.qttranslations.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/180627505'>qt6.qtwebengine.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/180627723'>qt6.qtwebview.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/180627850'>qt6Packages.qt3d.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/180627198'>qt6Packages.qttranslations.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/180627699'>qt6Packages.qtwebengine.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/180628674'>qt6Packages.qtwebview.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/180546842'>simpleitk.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/180628924'>tdesktop.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
@@ -31963,6 +31919,19 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/180627505'>aarch64-linux qtwebengine-6.3.0</a></tt></summary>
+<ul>
+<li>qt6.qtwebview.aarch64-linux</li>
+<li>qt6.qtwebview.x86_64-linux</li>
+<li>qt6Packages.qtwebview.aarch64-linux</li>
+<li>qt6Packages.qtwebview.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>4</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt>aarch64-darwin python3.8-uncompyle6-3.8.0</tt></summary>
 <ul>
 <li>unrpa.aarch64-darwin</li>
@@ -32678,17 +32647,6 @@ Built for evals:
 <ul>
 <li>python39Packages.wsnsimpy.aarch64-darwin</li>
 <li>python39Packages.wsnsimpy.x86_64-darwin</li>
-</ul>
-</details>
-</td>
-<td>2</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/180626978'>x86_64-linux qtwebengine-6.3.0</a></tt></summary>
-<ul>
-<li>qt6.qtwebview.x86_64-linux</li>
-<li>qt6Packages.qtwebview.x86_64-linux</li>
 </ul>
 </details>
 </td>
