@@ -4,46 +4,13 @@ categories: nixpkgs:nixpkgs-22.05-darwin
 ---
 # Evals report
 
-*Report built at 2022-06-19 14:10:37 UTC*
+*Report built at 2022-06-19 18:13:08 UTC*
 
 Built for evals:
 
   * [1767873](https://hydra.nixos.org/eval/1767873)
 
  * * * 
-
-### x86_64-linux
-
-
-<details><summary>2 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-</tr></thead>
-<tr>
-<td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/180825555'>darwin-tested</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Failed</b> <tt>nixpkgs-tarball-22.05pre380995.57622cb8172</tt> <br /> <a href='https://hydra.nixos.org/build/180825555/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/180825555/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/180825555/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/180825504'>build 180825504</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/180825504'>tarball</a></tt>
-</td>
-<td>Failed</td>
-</tr>
-</table>
-</details>
-
 
 ### x86_64-darwin
 
@@ -11276,7 +11243,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>107 issues</summary>
+<details><summary>109 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -11331,6 +11298,13 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/180825555'>darwin-tested</a></tt>
+</td>
+<td>Queued</td>
+<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -11989,6 +11963,13 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/180825504'>tarball</a></tt>
+</td>
+<td>Queued</td>
+<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -13334,16 +13315,6 @@ Built for evals:
 </details>
 </td>
 <td>2</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/180825504'>x86_64-linux nixpkgs-tarball-22.05pre380995.57622cb8172</a></tt></summary>
-<ul>
-<li>darwin-tested</li>
-</ul>
-</details>
-</td>
-<td>1</td>
 </tr>
 <tr>
 <td>
