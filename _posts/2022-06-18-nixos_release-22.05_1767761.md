@@ -4,7 +4,7 @@ categories: nixos:release-22.05
 ---
 # Evals report
 
-*Report built at 2022-06-18 20:13:05 UTC*
+*Report built at 2022-06-19 00:54:21 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### i686-linux
 
 
-<details><summary>198 issues</summary>
+<details><summary>199 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -2228,6 +2228,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/180686625'>nixos.tests.custom-ca.qutebrowser.i686-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/180638991'>nixos.tests.gitolite.i686-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -2251,7 +2257,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>782 issues</summary>
+<details><summary>783 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -9461,6 +9467,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/180686252'>nixos.tests.fcitx.x86_64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/180635012'>nixos.tests.gitolite.x86_64-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -9508,7 +9520,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>532 issues</summary>
+<details><summary>533 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -14798,6 +14810,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/180686222'>nixos.tests.fcitx.aarch64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/180637911'>nixos.tests.gitolite.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -14837,41 +14855,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/179860845'>nixpkgs.haskellPackages.zeromq4-patterns.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>3 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/180686625'>nixos.tests.custom-ca.qutebrowser.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/180686222'>nixos.tests.fcitx.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/180686252'>nixos.tests.fcitx.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
