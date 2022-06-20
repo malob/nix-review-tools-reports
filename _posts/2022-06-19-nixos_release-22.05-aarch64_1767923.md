@@ -4,7 +4,7 @@ categories: nixos:release-22.05-aarch64
 ---
 # Evals report
 
-*Report built at 2022-06-20 05:11:40 UTC*
+*Report built at 2022-06-20 06:14:12 UTC*
 
 Built for evals:
 
@@ -216,7 +216,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>401 issues</summary>
+<details><summary>402 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -2766,6 +2766,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/180900763'>nixos.tests.hbase1.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/180901216'>nixos.tests.installed-tests.colord.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -4079,7 +4085,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>334 issues</summary>
+<details><summary>333 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -4593,13 +4599,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/180900508'>nixos.tests.haproxy.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/180900763'>nixos.tests.hbase1.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
