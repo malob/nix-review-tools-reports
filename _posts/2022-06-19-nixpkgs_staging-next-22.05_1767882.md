@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next-22.05
 ---
 # Evals report
 
-*Report built at 2022-06-20 02:53:34 UTC*
+*Report built at 2022-06-20 03:43:48 UTC*
 
 Built for evals:
 
@@ -19559,7 +19559,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>1337 issues</summary>
+<details><summary>1335 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -28574,20 +28574,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/180706614'>qgis-ltr.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/180705072'>qgis.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
