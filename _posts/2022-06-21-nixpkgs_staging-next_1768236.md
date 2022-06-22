@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next
 ---
 # Evals report
 
-*Report built at 2022-06-22 01:00:04 UTC*
+*Report built at 2022-06-22 03:06:13 UTC*
 
 Built for evals:
 
@@ -17066,7 +17066,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>571 issues</summary>
+<details><summary>573 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -23166,6 +23166,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/181052343'>powermanga.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/180601604'>pynac.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -23173,6 +23179,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/180125120'>python310Packages.notify-py.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/181052595'>python310Packages.pygls.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -23213,7 +23225,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>3204 issues</summary>
+<details><summary>3201 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -40610,13 +40622,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/181052343'>powermanga.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/181048739'>powermanga.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -41706,13 +41711,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/181052595'>python310Packages.pygls.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -44457,13 +44455,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/181052357'>tdesktop.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
