@@ -4,7 +4,7 @@ categories: nixos:release-22.05
 ---
 # Evals report
 
-*Report built at 2022-06-22 04:31:08 UTC*
+*Report built at 2022-06-22 13:33:39 UTC*
 
 Built for evals:
 
@@ -9588,12 +9588,36 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>615 issues</summary>
+<details><summary>619 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 </tr></thead>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/181029032'>nixos.tests.gitolite.aarch64-linux</a></tt>
+</td>
+<td>Aborted</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/181029505'>nixos.tests.iscsi-multipath-root.aarch64-linux</a></tt>
+</td>
+<td>Aborted</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/181028720'>nixos.tests.iscsi-root.aarch64-linux</a></tt>
+</td>
+<td>Aborted</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/181018438'>nixpkgs.enlightenment.econnman.aarch64-linux</a></tt>
+</td>
+<td>Aborted</td>
+</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/181017926'>nixpkgs.enlightenment.ecrire.aarch64-linux</a></tt>
@@ -15415,7 +15439,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>5 issues</summary>
+<details><summary>1 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -15428,34 +15452,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/181030942'>nixos.tests.fcitx.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/181029032'>nixos.tests.gitolite.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/181029505'>nixos.tests.iscsi-multipath-root.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/181028720'>nixos.tests.iscsi-root.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 </table>
 </details>
