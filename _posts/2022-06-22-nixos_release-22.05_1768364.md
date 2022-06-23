@@ -1,10 +1,10 @@
 ---
-title: nixos:release-22.05 1768364
+title: nixos:release-22.05 1768364 (succeeded)
 categories: nixos:release-22.05
 ---
 # Evals report
 
-*Report built at 2022-06-23 15:15:14 UTC*
+*Report built at 2022-06-23 16:17:46 UTC*
 
 Built for evals:
 
@@ -2366,7 +2366,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>689 issues</summary>
+<details><summary>691 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -8395,7 +8395,19 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/181142505'>nixos.tests.cloud-init.x86_64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/181107394'>nixos.tests.fcitx.x86_64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/181146248'>nixos.tests.gitolite.x86_64-linux</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -8442,7 +8454,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>438 issues</summary>
+<details><summary>439 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -12494,6 +12506,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/181096980'>nixos.tests.iscsi-multipath-root.aarch64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/181089388'>nixos.tests.iscsi-root.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -12521,41 +12539,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/181115051'>nixpkgs.haskellPackages.zeromq4-patterns.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>3 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/181142505'>nixos.tests.cloud-init.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/181146248'>nixos.tests.gitolite.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/181096980'>nixos.tests.iscsi-multipath-root.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 </table>
 </details>
