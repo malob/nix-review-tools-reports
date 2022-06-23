@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next-22.05
 ---
 # Evals report
 
-*Report built at 2022-06-22 13:34:25 UTC*
+*Report built at 2022-06-23 07:12:42 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>589 issues</summary>
+<details><summary>588 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -4159,12 +4159,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/180496114'>llvmPackages_11.llvm-polly.x86_64-linux</a></tt>
-</td>
-<td>Failed</td>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/181010052'>lutris-unwrapped.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
