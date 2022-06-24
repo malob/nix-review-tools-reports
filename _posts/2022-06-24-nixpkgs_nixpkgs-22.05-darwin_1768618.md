@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-22.05-darwin
 ---
 # Evals report
 
-*Report built at 2022-06-24 15:13:51 UTC*
+*Report built at 2022-06-24 16:15:30 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>280 issues</summary>
+<details><summary>281 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -2362,6 +2362,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/181193088'>deltachat-cursed.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/181206381'>dgen-sdl.x86_64-darwin</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -13502,7 +13508,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>30 issues</summary>
+<details><summary>29 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -13519,13 +13525,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/181545216'>chafa.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/181206381'>dgen-sdl.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
