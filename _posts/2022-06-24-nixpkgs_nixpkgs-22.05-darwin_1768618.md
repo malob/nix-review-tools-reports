@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-22.05-darwin
 ---
 # Evals report
 
-*Report built at 2022-06-24 18:15:40 UTC*
+*Report built at 2022-06-24 19:10:54 UTC*
 
 Built for evals:
 
@@ -2546,7 +2546,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1074 issues</summary>
+<details><summary>1075 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -3358,6 +3358,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>gfortran-12.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/181195538/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/181195538/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/181195538/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/180472124'>build 180472124</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/181526304'>gfortran49.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>gfortran-4.9.4</tt> <br /> <a href='https://hydra.nixos.org/build/181526304/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/181526304/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/181526304/nixlog/1/tail'>tail</a>
 </li>
 </ul>
 </details>
@@ -13550,7 +13564,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>26 issues</summary>
+<details><summary>24 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -13573,13 +13587,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/181526306'>discord-sh.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/181526309'>discord-sh.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -13598,13 +13605,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/181526304'>gfortran49.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -15296,6 +15296,16 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/180472124'>aarch64-darwin gfortran-12.1.0</a></tt></summary>
 <ul>
 <li>gfortran12.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>aarch64-darwin gfortran-4.9.4</tt></summary>
+<ul>
+<li>gfortran49.aarch64-darwin</li>
 </ul>
 </details>
 </td>
