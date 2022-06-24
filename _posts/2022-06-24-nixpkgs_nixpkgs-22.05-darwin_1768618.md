@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-22.05-darwin
 ---
 # Evals report
 
-*Report built at 2022-06-24 16:15:30 UTC*
+*Report built at 2022-06-24 18:15:40 UTC*
 
 Built for evals:
 
@@ -2546,7 +2546,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1071 issues</summary>
+<details><summary>1074 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -3274,6 +3274,34 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>gcc-12.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/181204403/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/181204403/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/181204403/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/180540621'>build 180540621</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/181526299'>gcc49.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>gcc-4.9.4</tt> <br /> <a href='https://hydra.nixos.org/build/181526299/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/181526299/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/181526299/nixlog/1/tail'>tail</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/181526302'>gcc49Stdenv.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>gcc-4.9.4</tt> <br /> <a href='https://hydra.nixos.org/build/181526302/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/181526302/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/181526302/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/181526299'>build 181526299</a>
 </li>
 </ul>
 </details>
@@ -10142,6 +10170,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/181526300'>tinystatus.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>xnu-3789.70.16</tt> <br /> <a href='https://hydra.nixos.org/build/181526300/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/181526300/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/181526300/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/180504368'>build 180504368</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/181168860'>trytond.aarch64-darwin</a></tt>
 </summary>
 <ul>
@@ -13508,7 +13550,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>29 issues</summary>
+<details><summary>26 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -13545,24 +13587,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/181526299'>gcc49.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/181526310'>gcc49.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/181526302'>gcc49Stdenv.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -13689,13 +13717,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/181526300'>tinystatus.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -14043,11 +14064,12 @@ Built for evals:
 <li>openconnect.aarch64-darwin</li>
 <li>openconnect_openssl.aarch64-darwin</li>
 <li>openconnect_unstable.aarch64-darwin</li>
+<li>tinystatus.aarch64-darwin</li>
 <li>vpnc-scripts.aarch64-darwin</li>
 </ul>
 </details>
 </td>
-<td>12</td>
+<td>13</td>
 </tr>
 <tr>
 <td>
@@ -14831,6 +14853,17 @@ Built for evals:
 <ul>
 <li>elfcat.aarch64-darwin</li>
 <li>elfcat.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>aarch64-darwin gcc-4.9.4</tt></summary>
+<ul>
+<li>gcc49.aarch64-darwin</li>
+<li>gcc49Stdenv.aarch64-darwin</li>
 </ul>
 </details>
 </td>
