@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-06-24 19:10:21 UTC*
+*Report built at 2022-06-24 20:12:53 UTC*
 
 Built for evals:
 
@@ -2966,7 +2966,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>12542 issues</summary>
+<details><summary>12541 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -19996,13 +19996,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/181554268'>nixos.tests.allDrivers.xmonad-xdg-autostart.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
