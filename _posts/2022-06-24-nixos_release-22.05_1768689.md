@@ -4,7 +4,7 @@ categories: nixos:release-22.05
 ---
 # Evals report
 
-*Report built at 2022-06-24 21:12:04 UTC*
+*Report built at 2022-06-25 04:24:11 UTC*
 
 Built for evals:
 
@@ -2776,7 +2776,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>206 issues</summary>
+<details><summary>207 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -4019,6 +4019,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/181152833'>nixpkgs._389-ds-base.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/181147960'>nixpkgs.convimg.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -4840,7 +4846,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>5822 issues</summary>
+<details><summary>5812 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -12221,13 +12227,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/181570596'>nixos.tests.man.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/181567438'>nixos.tests.mariadb-galera.mariadb_104</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -22160,13 +22159,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/181567440'>nixpkgs.gnonograms.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/181568308'>nixpkgs.gnonograms.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -27823,13 +27815,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/181567402'>nixpkgs.linuxKernel.packages.linux_5_10_hardened.perf.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/181568279'>nixpkgs.linuxKernel.packages.linux_5_10_hardened.ply.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -29314,13 +29299,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/181567428'>nixpkgs.linuxKernel.packages.linux_5_15_hardened.cpupower.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/181569299'>nixpkgs.linuxKernel.packages.linux_5_15_hardened.cpupower.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -29857,13 +29835,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/181567415'>nixpkgs.linuxKernel.packages.linux_5_15_hardened.tmon.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -33581,13 +33552,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/181567424'>nixpkgs.linuxKernel.packages.linux_hardened.hyperv-daemons.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -37525,13 +37489,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/181567413'>nixpkgs.linuxPackages.systemtap.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/181569213'>nixpkgs.linuxPackages.tmon.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -37554,13 +37511,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/181569439'>nixpkgs.linuxPackages.turbostat.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/181567409'>nixpkgs.linuxPackages.tuxedo-keyboard.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -38064,13 +38014,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/181567455'>nixpkgs.linuxPackages_4_14_hardened.jool.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/181572532'>nixpkgs.linuxPackages_4_14_hardened.jool.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -38551,13 +38494,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/181567457'>nixpkgs.linuxPackages_4_14_hardened.zfsStable.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
