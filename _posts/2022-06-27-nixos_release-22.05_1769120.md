@@ -4,7 +4,7 @@ categories: nixos:release-22.05
 ---
 # Evals report
 
-*Report built at 2022-06-28 03:09:47 UTC*
+*Report built at 2022-06-28 04:37:16 UTC*
 
 Built for evals:
 
@@ -6053,7 +6053,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>2985 issues</summary>
+<details><summary>2983 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -6426,13 +6426,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/181846206'>nixos.manpages.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/181846273'>nixos.manual.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -6486,13 +6479,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/181846457'>nixos.manualGeneratedSources.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
