@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-06-30 10:15:55 UTC*
+*Report built at 2022-06-30 15:12:37 UTC*
 
 Built for evals:
 
@@ -3890,7 +3890,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>647 issues</summary>
+<details><summary>649 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -9066,6 +9066,18 @@ Built for evals:
 </td>
 <td>Timed out</td>
 </tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/182170817'>nixos.tests.terminal-emulators.contour.x86_64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/182170928'>nixos.tests.wine.wineWowPackages-wayland.x86_64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
 </table>
 </details>
 
@@ -9310,7 +9322,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>1511 issues</summary>
+<details><summary>1509 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -19203,13 +19215,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/182170817'>nixos.tests.terminal-emulators.contour.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/182170491'>nixos.tests.terminal-emulators.cool-retro-term.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -19662,13 +19667,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/182170928'>nixos.tests.wine.wineWowPackages-wayland.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
