@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-unstable-aarch64-darwin
 ---
 # Evals report
 
-*Report built at 2022-07-04 21:10:28 UTC*
+*Report built at 2022-07-04 22:10:51 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>801 issues</summary>
+<details><summary>809 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -3450,6 +3450,46 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/182770544'>python310Packages.jax.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>bazel-build-jaxlib-0.3.0-deps.tar.gz</tt> <br /> <a href='https://hydra.nixos.org/build/182770544/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/182770544/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/182770544/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/182770560'>build 182770560</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/182770560'>python310Packages.jmp.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>bazel-build-jaxlib-0.3.0-deps.tar.gz</tt> <br /> <a href='https://hydra.nixos.org/build/182770560/nixlog/6'>log</a>, <a href='https://hydra.nixos.org/build/182770560/nixlog/6/raw'>raw</a>, <a href='https://hydra.nixos.org/build/182770560/nixlog/6/tail'>tail</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>bazel-build-jaxlib-0.3.0-deps.tar.gz</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>bazel-build-jaxlib-0.3.0-deps.tar.gz</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>bazel-build-jaxlib-0.3.0-deps.tar.gz</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>bazel-build-jaxlib-0.3.0-deps.tar.gz</tt> <br /> 
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/182107295'>python310Packages.junos-eznc.aarch64-darwin</a></tt>
 </summary>
 <ul>
@@ -3497,6 +3537,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>apfel-3.0.6</tt> <br /> <a href='https://hydra.nixos.org/build/182103635/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/182103635/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/182103635/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/181444398'>build 181444398</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/182770548'>python310Packages.numpyro.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>bazel-build-jaxlib-0.3.0-deps.tar.gz</tt> <br /> <a href='https://hydra.nixos.org/build/182770548/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/182770548/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/182770548/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/182770560'>build 182770560</a>
 </li>
 </ul>
 </details>
@@ -3623,6 +3677,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>symengine-0.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/182106307/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/182106307/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/182106307/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/181800498'>build 181800498</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/182770542'>python310Packages.treeo.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>bazel-build-jaxlib-0.3.0-deps.tar.gz</tt> <br /> <a href='https://hydra.nixos.org/build/182770542/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/182770542/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/182770542/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/182770560'>build 182770560</a>
 </li>
 </ul>
 </details>
@@ -3954,6 +4022,34 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/182770570'>python39Packages.jax.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>bazel-build-jaxlib-0.3.0-deps.tar.gz</tt> <br /> <a href='https://hydra.nixos.org/build/182770570/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/182770570/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/182770570/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/182770571'>build 182770571</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/182770580'>python39Packages.jmp.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>bazel-build-jaxlib-0.3.0-deps.tar.gz</tt> <br /> <a href='https://hydra.nixos.org/build/182770580/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/182770580/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/182770580/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/182770571'>build 182770571</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/182106064'>python39Packages.junos-eznc.aarch64-darwin</a></tt>
 </summary>
 <ul>
@@ -3987,6 +4083,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>apfel-3.0.6</tt> <br /> <a href='https://hydra.nixos.org/build/182089773/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/182089773/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/182089773/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/181444398'>build 181444398</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/182770568'>python39Packages.numpyro.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>bazel-build-jaxlib-0.3.0-deps.tar.gz</tt> <br /> <a href='https://hydra.nixos.org/build/182770568/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/182770568/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/182770568/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/182770571'>build 182770571</a>
 </li>
 </ul>
 </details>
@@ -4113,6 +4223,32 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>symengine-0.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/182105548/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/182105548/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/182105548/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/181800498'>build 181800498</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/182770571'>python39Packages.treeo.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>bazel-build-jaxlib-0.3.0-deps.tar.gz</tt> <br /> <a href='https://hydra.nixos.org/build/182770571/nixlog/11'>log</a>, <a href='https://hydra.nixos.org/build/182770571/nixlog/11/raw'>raw</a>, <a href='https://hydra.nixos.org/build/182770571/nixlog/11/tail'>tail</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>bazel-build-jaxlib-0.3.0-deps.tar.gz</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>bazel-build-jaxlib-0.3.0-deps.tar.gz</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>bazel-build-jaxlib-0.3.0-deps.tar.gz</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>bazel-build-jaxlib-0.3.0-deps.tar.gz</tt> <br /> 
 </li>
 </ul>
 </details>
@@ -7608,7 +7744,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>28 issues</summary>
+<details><summary>20 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -7701,35 +7837,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/182770544'>python310Packages.jax.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/182770560'>python310Packages.jmp.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/182770548'>python310Packages.numpyro.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/182829654'>python310Packages.peaqevcore.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/182770542'>python310Packages.treeo.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -7743,35 +7851,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/182770570'>python39Packages.jax.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/182770580'>python39Packages.jmp.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/182770568'>python39Packages.numpyro.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/182829646'>python39Packages.peaqevcore.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/182770571'>python39Packages.treeo.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -7885,6 +7965,23 @@ Built for evals:
 </details>
 </td>
 <td>17</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/182770560'>aarch64-darwin bazel-build-jaxlib-0.3.0-deps.tar.gz</a></tt></summary>
+<ul>
+<li>python310Packages.jax.aarch64-darwin</li>
+<li>python310Packages.jmp.aarch64-darwin</li>
+<li>python310Packages.numpyro.aarch64-darwin</li>
+<li>python310Packages.treeo.aarch64-darwin</li>
+<li>python39Packages.jax.aarch64-darwin</li>
+<li>python39Packages.jmp.aarch64-darwin</li>
+<li>python39Packages.numpyro.aarch64-darwin</li>
+<li>python39Packages.treeo.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>16</td>
 </tr>
 <tr>
 <td>
