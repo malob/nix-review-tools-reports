@@ -1,10 +1,10 @@
 ---
-title: nixos:release-22.05 1770150
+title: nixos:release-22.05 1770150 (succeeded)
 categories: nixos:release-22.05
 ---
 # Evals report
 
-*Report built at 2022-07-05 20:13:47 UTC*
+*Report built at 2022-07-05 22:12:17 UTC*
 
 Built for evals:
 
@@ -2130,12 +2130,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/182846997'>nixos.tests.installer.simpleProvided.i686-linux</a></tt>
-</td>
-<td>Failed</td>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/182846988'>nixos.tests.installer.simpleSpecialised.i686-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -2161,6 +2155,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/182846887'>nixos.tests.installer.swraid.i686-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/182846815'>nixos.tests.installer.zfsroot.i686-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -2345,7 +2345,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>609 issues</summary>
+<details><summary>608 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -3773,20 +3773,6 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>vimplugin-lens.vim-2021-05-30</tt> <br /> <a href='https://hydra.nixos.org/build/182536151/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/182536151/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/182536151/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/181636533'>build 181636533</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/182847036'>tested</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Failed</b> <tt>vm-test-run-gnome-xorg</tt> <br /> <a href='https://hydra.nixos.org/build/182847036/nixlog/238'>log</a>, <a href='https://hydra.nixos.org/build/182847036/nixlog/238/raw'>raw</a>, <a href='https://hydra.nixos.org/build/182847036/nixlog/238/tail'>tail</a>, <a href='https://hydra.nixos.org/build/182846896'>build 182846896</a>
 </li>
 </ul>
 </details>
@@ -9925,27 +9911,6 @@ Built for evals:
 </table>
 </details>
 
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/182846815'>nixos.tests.installer.zfsroot.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-</table>
-</details>
-
 ## Problematic dependencies
 
 <table>
@@ -10790,16 +10755,6 @@ Built for evals:
 </details>
 </td>
 <td>2</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/182846896'>x86_64-linux vm-test-run-gnome-xorg</a></tt></summary>
-<ul>
-<li>tested</li>
-</ul>
-</details>
-</td>
-<td>1</td>
 </tr>
 <tr>
 <td>
