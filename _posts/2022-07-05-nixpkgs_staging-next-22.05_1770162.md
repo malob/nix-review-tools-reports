@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:staging-next-22.05 1770162
+title: nixpkgs:staging-next-22.05 1770162 (succeeded)
 categories: nixpkgs:staging-next-22.05
 ---
 # Evals report
 
-*Report built at 2022-07-05 18:16:25 UTC*
+*Report built at 2022-07-05 20:17:38 UTC*
 
 Built for evals:
 
@@ -3639,7 +3639,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>292 issues</summary>
+<details><summary>295 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -6205,6 +6205,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/182851501'>cmake-language-server.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/181670326'>deltachat-cursed.x86_64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -6271,6 +6277,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/182847770'>python310Packages.jedi-language-server.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/181728977'>python310Packages.nitime.x86_64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -6308,6 +6320,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/181750307'>python39Packages.hyppo.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/182851461'>python39Packages.jedi-language-server.x86_64-darwin</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -18519,41 +18537,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/181702421'>tecnoballz.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>3 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/182851501'>cmake-language-server.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/182847770'>python310Packages.jedi-language-server.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/182851461'>python39Packages.jedi-language-server.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 </table>
 </details>
