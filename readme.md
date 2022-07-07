@@ -26,7 +26,7 @@ If there's a jobset you think would be valuable to add to the site, let me know 
 
 Code for this project is on GitHub at [malob/nix-review-tools-reports](https://github.com/malob/nix-review-tools-reports). The site itself is hosted using [GitHub Pages](https://pages.github.com), which uses [Jekyll](https://jekyllrb.com) to automatically generate a static site based on the contents of the repository.
 
-Scripts used to generate/manage the site contents are located in [flake.nix](https://github.com/malob/nix-review-tools-reports/blob/master/flake.nix), which also includes a `devShell` output that creates a shell environment that contains said scripts, along with `ruby` (which includes `bundler`) required for local development of the Jekyll site.
+Scripts used to generate/manage the site's contents are located in [flake.nix](https://github.com/malob/nix-review-tools-reports/blob/master/flake.nix), which also includes a `devShell` output that creates a shell environment that contains said scripts, along with `ruby` (which includes `bundler`) required for local development of the Jekyll site.
 
 Run `nix develop` to load the shell environment.
 
