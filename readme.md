@@ -40,7 +40,7 @@ The [gen-reports.yml](https://github.com/malob/nix-review-tools-reports/blob/mas
 
 If a report for the latest evaluation of a jobset,
 
-* hasn't been generated yet, it's created and added to the site by pushing a new commit and adding the new report to the [_posts/](https://github.com/malob/nix-review-tools-reports/tree/master/_posts) directory;
+* hasn't been generated yet, it's created and added to the site by pushing a new commit which adds the new report to the [_posts/](https://github.com/malob/nix-review-tools-reports/tree/master/_posts) directory;
 * has already been generated and the evaluation,
   * was still in progress the last time the report was generated, the report is updated;
   * had finished when the report was previously generated, the workflow does nothing since the report is already up to date.
