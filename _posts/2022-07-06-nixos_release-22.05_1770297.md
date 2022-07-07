@@ -4,7 +4,7 @@ categories: nixos:release-22.05
 ---
 # Evals report
 
-*Report built at 2022-07-07 04:43:14 UTC*
+*Report built at 2022-07-07 05:23:07 UTC*
 
 Built for evals:
 
@@ -2351,7 +2351,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>567 issues</summary>
+<details><summary>569 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -6533,7 +6533,19 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/182889612'>nixos.tests.gitolite.x86_64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/182888941'>nixos.tests.systemd-cryptenroll.x86_64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/182890002'>nixos.tests.wine.wineWowPackages-wayland.x86_64-linux</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -6568,7 +6580,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>379 issues</summary>
+<details><summary>380 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -9634,6 +9646,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/182890482'>nixos.tests.systemd-initrd-luks-password.aarch64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/182556946'>nixpkgs.haskellPackages.bindings-common.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -9663,7 +9681,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>6 issues</summary>
+<details><summary>3 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -9687,27 +9705,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/182891724'>nixos.tests.fcitx.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/182889612'>nixos.tests.gitolite.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/182890482'>nixos.tests.systemd-initrd-luks-password.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/182890002'>nixos.tests.wine.wineWowPackages-wayland.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
