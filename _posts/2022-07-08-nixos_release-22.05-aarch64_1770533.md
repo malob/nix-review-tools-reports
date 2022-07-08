@@ -4,7 +4,7 @@ categories: nixos:release-22.05-aarch64
 ---
 # Evals report
 
-*Report built at 2022-07-08 05:19:48 UTC*
+*Report built at 2022-07-08 06:15:33 UTC*
 
 Built for evals:
 
@@ -202,7 +202,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>372 issues</summary>
+<details><summary>374 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -1698,6 +1698,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/183000828'>nixos.tests.hbase1.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/183000068'>nixos.tests.ihatemoney.ihatemoney-postgresql.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -1783,6 +1789,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/183000112'>nixos.tests.keepassxc.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/183000929'>nixos.tests.libresprite.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -3263,7 +3275,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>7 issues</summary>
+<details><summary>5 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -3293,13 +3305,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/183000828'>nixos.tests.hbase1.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/183000487'>nixos.tests.iscsi-multipath-root.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -3308,13 +3313,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/183000490'>nixos.tests.iscsi-root.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/183000929'>nixos.tests.libresprite.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
