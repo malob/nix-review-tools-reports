@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:nixpkgs-22.05-darwin 1771018
+title: nixpkgs:nixpkgs-22.05-darwin 1771018 (succeeded)
 categories: nixpkgs:nixpkgs-22.05-darwin
 ---
 # Evals report
 
-*Report built at 2022-07-11 04:32:55 UTC*
+*Report built at 2022-07-11 06:15:34 UTC*
 
 Built for evals:
 
@@ -12,10 +12,43 @@ Built for evals:
 
  * * * 
 
+### x86_64-linux
+
+
+<details><summary>2 issues</summary>
+<table>
+<thead><tr>
+<th>job</th>
+<th>status</th>
+</tr></thead>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/183490739'>darwin-tested</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nixpkgs-tarball-22.05pre381567.1b69bbdd35d</tt> <br /> <a href='https://hydra.nixos.org/build/183490739/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/183490739/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/183490739/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/183490747'>build 183490747</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/183490747'>tarball</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+</table>
+</details>
+
+
 ### x86_64-darwin
 
 
-<details><summary>297 issues</summary>
+<details><summary>301 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -29,6 +62,24 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/183490742'>boofuzz.x86_64-darwin</a></tt>
+</td>
+<td>Aborted</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/183490740'>coan.x86_64-darwin</a></tt>
+</td>
+<td>Aborted</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/183490741'>dotenv-linter.x86_64-darwin</a></tt>
+</td>
+<td>Aborted</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/183469514'>dpkg.x86_64-darwin</a></tt>
 </td>
 <td>Aborted</td>
@@ -36,6 +87,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/182388544'>mucommander.x86_64-darwin</a></tt>
+</td>
+<td>Aborted</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/183490745'>roundcube.x86_64-darwin</a></tt>
 </td>
 <td>Aborted</td>
 </tr>
@@ -12511,62 +12568,6 @@ Built for evals:
 </table>
 </details>
 
-
-### Still queued
-
-
-<details><summary>6 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/183490742'>boofuzz.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/183490740'>coan.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/183490739'>darwin-tested</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/183490741'>dotenv-linter.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/183490745'>roundcube.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/183490747'>tarball</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-</table>
-</details>
-
 ## Problematic dependencies
 
 <table>
@@ -13996,6 +13997,16 @@ Built for evals:
 </details>
 </td>
 <td>2</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/183490747'>x86_64-linux nixpkgs-tarball-22.05pre381567.1b69bbdd35d</a></tt></summary>
+<ul>
+<li>darwin-tested</li>
+</ul>
+</details>
+</td>
+<td>1</td>
 </tr>
 <tr>
 <td>
