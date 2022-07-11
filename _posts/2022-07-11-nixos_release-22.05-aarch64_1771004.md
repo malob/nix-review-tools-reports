@@ -4,7 +4,7 @@ categories: nixos:release-22.05-aarch64
 ---
 # Evals report
 
-*Report built at 2022-07-11 05:20:28 UTC*
+*Report built at 2022-07-11 07:11:00 UTC*
 
 Built for evals:
 
@@ -15,26 +15,12 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>31 issues</summary>
+<details><summary>29 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 </tr></thead>
-<tr>
-<td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/183490018'>tested</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Failed</b> <tt>nixpkgs-tarball-22.05pre381567.1b69bbdd35d</tt> <br /> <a href='https://hydra.nixos.org/build/183490018/nixlog/25'>log</a>, <a href='https://hydra.nixos.org/build/183490018/nixlog/25/raw'>raw</a>, <a href='https://hydra.nixos.org/build/183490018/nixlog/25/tail'>tail</a>, <a href='https://hydra.nixos.org/build/183490530'>build 183490530</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/183490239'>nixos.tests.mariadb-galera.mariadb_104</a></tt>
@@ -206,12 +192,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/183489849'>nixos.tests.shadowsocks.v2ray-plugin</a></tt>
-</td>
-<td>Failed</td>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/183490530'>nixpkgs.tarball</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -3261,7 +3241,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>6 issues</summary>
+<details><summary>8 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -3309,6 +3289,20 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/183490530'>nixpkgs.tarball</a></tt>
+</td>
+<td>Queued</td>
+<th>x86_64-linux</th>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/183490018'>tested</a></tt>
+</td>
+<td>Queued</td>
+<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
@@ -3825,16 +3819,6 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/181704397'>aarch64-linux python3.8-uncompyle6-3.8.0</a></tt></summary>
 <ul>
 <li>nixpkgs.unrpa.aarch64-linux</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/183490530'>x86_64-linux nixpkgs-tarball-22.05pre381567.1b69bbdd35d</a></tt></summary>
-<ul>
-<li>tested</li>
 </ul>
 </details>
 </td>
