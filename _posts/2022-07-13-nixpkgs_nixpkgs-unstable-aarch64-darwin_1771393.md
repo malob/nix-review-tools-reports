@@ -4,13 +4,40 @@ categories: nixpkgs:nixpkgs-unstable-aarch64-darwin
 ---
 # Evals report
 
-*Report built at 2022-07-13 21:11:34 UTC*
+*Report built at 2022-07-13 22:11:05 UTC*
 
 Built for evals:
 
   * [1771393](https://hydra.nixos.org/eval/1771393)
 
  * * * 
+
+### x86_64-linux
+
+
+<details><summary>1 issues</summary>
+<table>
+<thead><tr>
+<th>job</th>
+<th>status</th>
+</tr></thead>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/183832974'>tarball</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nixpkgs-release-checks</tt> <br /> <a href='https://hydra.nixos.org/build/183832974/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/183832974/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/183832974/nixlog/1/tail'>tail</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+</table>
+</details>
+
 
 ### aarch64-darwin
 
@@ -8609,7 +8636,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>685 issues</summary>
+<details><summary>682 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -12699,24 +12726,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/183833035'>manual</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/183763668'>matterhorn.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/183833024'>metrics</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -13312,13 +13325,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/183832974'>tarball</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -14849,6 +14855,16 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/182469779'>aarch64-darwin angelscript-2.35.1</a></tt></summary>
 <ul>
 <li>superTuxKart.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>x86_64-linux nixpkgs-release-checks</tt></summary>
+<ul>
+<li>tarball</li>
 </ul>
 </details>
 </td>
