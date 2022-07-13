@@ -4,13 +4,32 @@ categories: nixpkgs:nixpkgs-22.05-darwin
 ---
 # Evals report
 
-*Report built at 2022-07-13 06:16:17 UTC*
+*Report built at 2022-07-13 07:12:03 UTC*
 
 Built for evals:
 
   * [1771304](https://hydra.nixos.org/eval/1771304)
 
  * * * 
+
+### x86_64-linux
+
+
+<details><summary>1 issues</summary>
+<table>
+<thead><tr>
+<th>job</th>
+<th>status</th>
+</tr></thead>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/183646479'>tarball</a></tt>
+</td>
+<td>Cancelled</td>
+</tr>
+</table>
+</details>
+
 
 ### x86_64-darwin
 
@@ -13151,7 +13170,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>2 issues</summary>
+<details><summary>1 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -13161,13 +13180,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/183646497'>darwin-tested</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/183646479'>tarball</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
