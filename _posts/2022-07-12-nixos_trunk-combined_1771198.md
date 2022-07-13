@@ -1,10 +1,10 @@
 ---
-title: nixos:trunk-combined 1771198
+title: nixos:trunk-combined 1771198 (succeeded)
 categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-07-13 05:17:11 UTC*
+*Report built at 2022-07-13 07:11:42 UTC*
 
 Built for evals:
 
@@ -3923,12 +3923,18 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>547 issues</summary>
+<details><summary>548 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 </tr></thead>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/183167841'>nixpkgs.colorpanes.x86_64-linux</a></tt>
+</td>
+<td>Aborted</td>
+</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/183155064'>nixpkgs.mucommander.x86_64-linux</a></tt>
@@ -9284,27 +9290,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/183497321'>nixos.tests.iscsi-root.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/183622799'>nixos.tests.fcitx.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 </table>
 </details>
