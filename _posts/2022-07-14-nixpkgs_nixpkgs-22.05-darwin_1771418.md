@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-22.05-darwin
 ---
 # Evals report
 
-*Report built at 2022-07-14 06:15:42 UTC*
+*Report built at 2022-07-14 07:11:51 UTC*
 
 Built for evals:
 
@@ -12069,20 +12069,13 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>2 issues</summary>
+<details><summary>1 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/183773198'>gcc_debug.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/183808000'>haskell.compiler.native-bignum.ghc922.x86_64-darwin</a></tt>
