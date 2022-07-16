@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next
 ---
 # Evals report
 
-*Report built at 2022-07-16 05:15:27 UTC*
+*Report built at 2022-07-16 06:17:29 UTC*
 
 Built for evals:
 
@@ -3998,7 +3998,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1086 issues</summary>
+<details><summary>1087 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -15993,6 +15993,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/183735794'>binwalk.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/183756826'>bitcoind-knots.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -29925,7 +29931,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>6718 issues</summary>
+<details><summary>6717 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -30705,13 +30711,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/183760642'>bitcoin.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/183756826'>bitcoind-knots.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
