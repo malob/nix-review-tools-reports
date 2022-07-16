@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-07-16 16:14:04 UTC*
+*Report built at 2022-07-16 18:14:23 UTC*
 
 Built for evals:
 
@@ -2078,7 +2078,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>10215 issues</summary>
+<details><summary>10213 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -2465,13 +2465,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/184028408'>nixos.manpages.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/184023700'>nixos.manpages.i686-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -2525,13 +2518,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/184026112'>nixos.manualGeneratedSources.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
