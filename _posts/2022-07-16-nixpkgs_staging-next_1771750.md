@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next
 ---
 # Evals report
 
-*Report built at 2022-07-17 04:30:43 UTC*
+*Report built at 2022-07-17 06:16:32 UTC*
 
 Built for evals:
 
@@ -3360,7 +3360,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>745 issues</summary>
+<details><summary>744 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -9317,12 +9317,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/183942859'>libsForQt515.qtbase.x86_64-darwin</a></tt>
-</td>
-<td>Failed</td>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/183988276'>lifecycled.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -12934,7 +12928,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1056 issues</summary>
+<details><summary>1055 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -22290,12 +22284,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/183573263'>perl534Packages.CGICompile.aarch64-darwin</a></tt>
-</td>
-<td>Timed out</td>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/183600598'>perl534Packages.TaskPlack.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -22451,7 +22439,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>2621 issues</summary>
+<details><summary>2623 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -25985,6 +25973,13 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/183942859'>libsForQt515.qtbase.x86_64-darwin</a></tt>
+</td>
+<td>Queued</td>
+<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -37353,6 +37348,13 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/183573263'>perl534Packages.CGICompile.aarch64-darwin</a></tt>
+</td>
+<td>Queued</td>
+<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
