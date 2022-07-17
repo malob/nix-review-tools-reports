@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:python-updates 1771793
+title: nixpkgs:python-updates 1771793 (succeeded)
 categories: nixpkgs:python-updates
 ---
 # Evals report
 
-*Report built at 2022-07-17 16:13:31 UTC*
+*Report built at 2022-07-17 18:12:53 UTC*
 
 Built for evals:
 
@@ -63491,27 +63491,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/184007478'>xonsh.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/184017795'>cvise.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 </table>
 </details>
