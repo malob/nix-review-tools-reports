@@ -4,7 +4,7 @@ categories: nixpkgs:python-updates
 ---
 # Evals report
 
-*Report built at 2022-07-18 09:16:15 UTC*
+*Report built at 2022-07-18 10:17:06 UTC*
 
 Built for evals:
 
@@ -28387,7 +28387,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>2095 issues</summary>
+<details><summary>2099 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -39013,6 +39013,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>rasqal-0.9.33</tt> <br /> <a href='https://hydra.nixos.org/build/184080446/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/184080446/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184080446/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/184095858'>build 184095858</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/184081210'>openshot-qt.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.10-PyQt5-5.15.4</tt> <br /> <a href='https://hydra.nixos.org/build/184081210/nixlog/5'>log</a>, <a href='https://hydra.nixos.org/build/184081210/nixlog/5/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184081210/nixlog/5/tail'>tail</a>, <a href='https://hydra.nixos.org/build/184095112'>build 184095112</a>
 </li>
 </ul>
 </details>
@@ -51999,6 +52013,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/184075922'>scudcloud.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.10-PyQt5-5.15.4</tt> <br /> <a href='https://hydra.nixos.org/build/184075922/nixlog/4'>log</a>, <a href='https://hydra.nixos.org/build/184075922/nixlog/4/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184075922/nixlog/4/tail'>tail</a>, <a href='https://hydra.nixos.org/build/184095112'>build 184095112</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/184076997'>searxng.aarch64-linux</a></tt>
 </summary>
 <ul>
@@ -53434,6 +53462,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/184095112'>python310Packages.pyqt5_with_qtwebkit.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/184080657'>python310Packages.pysaml2.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -54830,6 +54864,12 @@ Built for evals:
 </td>
 <td>Timed out</td>
 </tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/184077736'>python39Packages.pyqt5_with_qtwebkit.aarch64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
 </table>
 </details>
 
@@ -54837,7 +54877,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>119 issues</summary>
+<details><summary>115 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -54945,13 +54985,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/184082460'>mavproxy.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/184081210'>openshot-qt.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
@@ -55190,13 +55223,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/184096815'>python310Packages.pyprosegur.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/184095112'>python310Packages.pyqt5_with_qtwebkit.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
@@ -55532,13 +55558,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/184077736'>python39Packages.pyqt5_with_qtwebkit.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/184093021'>python39Packages.python-mapnik.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -55645,13 +55664,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/184072400'>quisk.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/184075922'>scudcloud.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
@@ -58305,6 +58317,7 @@ Built for evals:
 <li>mnemosyne.aarch64-linux</li>
 <li>nanovna-saver.aarch64-linux</li>
 <li>onionshare-gui.aarch64-linux</li>
+<li>openshot-qt.aarch64-linux</li>
 <li>openshot-qt.x86_64-linux</li>
 <li>opensnitch-ui.aarch64-linux</li>
 <li>persepolis.aarch64-linux</li>
@@ -58341,6 +58354,7 @@ Built for evals:
 <li>rare.aarch64-linux</li>
 <li>retext.aarch64-linux</li>
 <li>rmview.aarch64-linux</li>
+<li>scudcloud.aarch64-linux</li>
 <li>scudcloud.x86_64-linux</li>
 <li>tortoisehg.aarch64-linux</li>
 <li>trackma-qt.aarch64-linux</li>
@@ -58353,7 +58367,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>68</td>
+<td>70</td>
 </tr>
 <tr>
 <td>
