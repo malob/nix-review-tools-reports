@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next
 ---
 # Evals report
 
-*Report built at 2022-07-18 15:21:43 UTC*
+*Report built at 2022-07-18 16:20:12 UTC*
 
 Built for evals:
 
@@ -15305,7 +15305,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1016 issues</summary>
+<details><summary>1018 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -26425,6 +26425,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/184036521'>python310Packages.pygls.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/183933826'>python310Packages.tensorboardx.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -26479,6 +26485,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/184037147'>python39Packages.pygls.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/183932650'>python39Packages.tensorboardx.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -26508,7 +26520,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>1917 issues</summary>
+<details><summary>1915 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -35967,13 +35979,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/184036521'>python310Packages.pygls.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/184214698'>python310Packages.pygtrie.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -37266,13 +37271,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/184037147'>python39Packages.pygls.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
