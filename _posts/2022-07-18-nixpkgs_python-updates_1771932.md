@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:python-updates 1771932 (succeeded)
+title: nixpkgs:python-updates 1771932
 categories: nixpkgs:python-updates
 ---
 # Evals report
 
-*Report built at 2022-07-18 15:17:16 UTC*
+*Report built at 2022-07-18 16:16:25 UTC*
 
 Built for evals:
 
@@ -28387,7 +28387,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>2139 issues</summary>
+<details><summary>2138 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -53788,12 +53788,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/184081443'>python310Packages.lz4.aarch64-linux</a></tt>
-</td>
-<td>Failed</td>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/184083484'>python310Packages.mailsuite.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -55405,6 +55399,27 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/184077736'>python39Packages.pyqt5_with_qtwebkit.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
+</tr>
+</table>
+</details>
+
+
+### Still queued
+
+
+<details><summary>1 issues</summary>
+<table>
+<thead><tr>
+<th>job</th>
+<th>status</th>
+<th>platform</th>
+</tr></thead>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/184081443'>python310Packages.lz4.aarch64-linux</a></tt>
+</td>
+<td>Queued</td>
+<th>aarch64-linux</th>
 </tr>
 </table>
 </details>
