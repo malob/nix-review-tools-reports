@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:python-updates 1771932
+title: nixpkgs:python-updates 1771932 (succeeded)
 categories: nixpkgs:python-updates
 ---
 # Evals report
 
-*Report built at 2022-07-18 13:39:32 UTC*
+*Report built at 2022-07-18 15:17:16 UTC*
 
 Built for evals:
 
@@ -55405,27 +55405,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/184077736'>python39Packages.pyqt5_with_qtwebkit.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/184087089'>python310Packages.graph-tool.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 </table>
 </details>
