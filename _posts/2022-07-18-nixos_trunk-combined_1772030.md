@@ -1,10 +1,10 @@
 ---
-title: nixos:trunk-combined 1772030 (succeeded)
+title: nixos:trunk-combined 1772030
 categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-07-19 03:27:45 UTC*
+*Report built at 2022-07-19 11:11:00 UTC*
 
 Built for evals:
 
@@ -3816,7 +3816,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>584 issues</summary>
+<details><summary>582 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -8141,12 +8141,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/184221258'>nixos.ova.x86_64-linux</a></tt>
-</td>
-<td>Timed out</td>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/184099704'>nixos.tests.fcitx.x86_64-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -8172,12 +8166,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/184098094'>nixos.tests.wine.wineWowPackages-wayland.x86_64-linux</a></tt>
-</td>
-<td>Timed out</td>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/184221270'>tested</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -9559,6 +9547,34 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/184101241'>nixos.tests.iscsi-root.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
+</tr>
+</table>
+</details>
+
+
+### Still queued
+
+
+<details><summary>2 issues</summary>
+<table>
+<thead><tr>
+<th>job</th>
+<th>status</th>
+<th>platform</th>
+</tr></thead>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/184221258'>nixos.ova.x86_64-linux</a></tt>
+</td>
+<td>Queued</td>
+<th>x86_64-linux</th>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/184221270'>tested</a></tt>
+</td>
+<td>Queued</td>
+<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
