@@ -4,7 +4,7 @@ categories: nixos:release-22.05
 ---
 # Evals report
 
-*Report built at 2022-07-19 07:12:24 UTC*
+*Report built at 2022-07-19 09:18:18 UTC*
 
 Built for evals:
 
@@ -2194,7 +2194,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>561 issues</summary>
+<details><summary>559 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -3694,20 +3694,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/184217257'>tested</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Failed</b> <tt>vm-test-run-keymap-dvorak</tt> <br /> <a href='https://hydra.nixos.org/build/184217257/nixlog/809'>log</a>, <a href='https://hydra.nixos.org/build/184217257/nixlog/809/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184217257/nixlog/809/tail'>tail</a>, <a href='https://hydra.nixos.org/build/184219554'>build 184219554</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/184216913'>nixos.amazonImageZfs.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -3937,12 +3923,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/184218770'>nixos.tests.keepassxc.x86_64-linux</a></tt>
-</td>
-<td>Failed</td>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/184219554'>nixos.tests.keymap.dvorak.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -10699,16 +10679,6 @@ Built for evals:
 </details>
 </td>
 <td>2</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/184219554'>x86_64-linux vm-test-run-keymap-dvorak</a></tt></summary>
-<ul>
-<li>tested</li>
-</ul>
-</details>
-</td>
-<td>1</td>
 </tr>
 <tr>
 <td>
