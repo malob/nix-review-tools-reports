@@ -4,7 +4,7 @@ categories: nixpkgs:python-updates
 ---
 # Evals report
 
-*Report built at 2022-07-19 06:15:45 UTC*
+*Report built at 2022-07-19 07:10:49 UTC*
 
 Built for evals:
 
@@ -15,12 +15,54 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>8 issues</summary>
+<details><summary>25 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 </tr></thead>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/184294927'>flexget.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>source</tt> <br /> <a href='https://hydra.nixos.org/build/184294927/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/184294927/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184294927/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/184058421'>build 184058421</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/184295113'>moz-phab.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>glean-sdk-50.1.2.tar.gz</tt> <br /> <a href='https://hydra.nixos.org/build/184295113/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/184295113/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184295113/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/184008598'>build 184008598</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/184299219'>napari.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>source</tt> <br /> <a href='https://hydra.nixos.org/build/184299219/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/184299219/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184299219/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/184009964'>build 184009964</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
 <tr>
 <td>
 <details><summary>
@@ -52,11 +94,81 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/184298778'>python310Packages.flask-appbuilder.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>flask-appbuilder-wtf3.patch</tt> <br /> <a href='https://hydra.nixos.org/build/184298778/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/184298778/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184298778/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/184079064'>build 184079064</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/184279657'>python310Packages.glean-sdk.x86_64-linux</a></tt>
 </summary>
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>glean-sdk-50.1.2.tar.gz</tt> <br /> <a href='https://hydra.nixos.org/build/184279657/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/184279657/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184279657/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/184008598'>build 184008598</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/184300552'>python310Packages.napari-npe2.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>source</tt> <br /> <a href='https://hydra.nixos.org/build/184300552/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/184300552/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184300552/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/184009964'>build 184009964</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/184297401'>python310Packages.napari.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>source</tt> <br /> <a href='https://hydra.nixos.org/build/184297401/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/184297401/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184297401/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/184009964'>build 184009964</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/184297769'>python310Packages.pelican.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>source</tt> <br /> <a href='https://hydra.nixos.org/build/184297769/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/184297769/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184297769/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/184009964'>build 184009964</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/184287179'>python310Packages.pyquil.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>switch-to-poetry-core.patch</tt> <br /> <a href='https://hydra.nixos.org/build/184287179/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/184287179/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184287179/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/184002588'>build 184002588</a>
 </li>
 </ul>
 </details>
@@ -94,6 +206,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/184283746'>python310Packages.watchfiles.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>watchfiles-0.15.0-vendor.tar.gz</tt> <br /> <a href='https://hydra.nixos.org/build/184283746/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/184283746/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184283746/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/184008904'>build 184008904</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/184280008'>python39Packages.cirq-rigetti.x86_64-linux</a></tt>
 </summary>
 <ul>
@@ -108,11 +234,123 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/184299125'>python39Packages.cirq.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>switch-to-poetry-core.patch</tt> <br /> <a href='https://hydra.nixos.org/build/184299125/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/184299125/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184299125/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/184002588'>build 184002588</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/184293264'>python39Packages.flask-appbuilder.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>flask-appbuilder-wtf3.patch</tt> <br /> <a href='https://hydra.nixos.org/build/184293264/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/184293264/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184293264/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/184079064'>build 184079064</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/184286361'>python39Packages.glean-sdk.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>glean-sdk-50.1.2.tar.gz</tt> <br /> <a href='https://hydra.nixos.org/build/184286361/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/184286361/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184286361/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/184008598'>build 184008598</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/184293857'>python39Packages.napari-npe2.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>source</tt> <br /> <a href='https://hydra.nixos.org/build/184293857/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/184293857/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184293857/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/184009964'>build 184009964</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/184288604'>python39Packages.napari.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>source</tt> <br /> <a href='https://hydra.nixos.org/build/184288604/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/184288604/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184288604/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/184009964'>build 184009964</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/184283069'>python39Packages.pelican.x86_64-linux</a></tt>
 </summary>
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>source</tt> <br /> <a href='https://hydra.nixos.org/build/184283069/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/184283069/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184283069/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/184009964'>build 184009964</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/184293370'>python39Packages.pyquil.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>switch-to-poetry-core.patch</tt> <br /> <a href='https://hydra.nixos.org/build/184293370/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/184293370/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184293370/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/184002588'>build 184002588</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/184298716'>python39Packages.pytomlpp.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>source</tt> <br /> <a href='https://hydra.nixos.org/build/184298716/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/184298716/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184298716/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/184009964'>build 184009964</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/184296405'>python39Packages.qcs-api-client.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>switch-to-poetry-core.patch</tt> <br /> <a href='https://hydra.nixos.org/build/184296405/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/184296405/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184296405/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/184002588'>build 184002588</a>
 </li>
 </ul>
 </details>
@@ -140,7 +378,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>2 issues</summary>
+<details><summary>16 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -149,11 +387,165 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/184295563'>flexget.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>source</tt> <br /> <a href='https://hydra.nixos.org/build/184295563/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/184295563/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184295563/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/184058421'>build 184058421</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/184286803'>moz-phab.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>glean-sdk-50.1.2.tar.gz</tt> <br /> <a href='https://hydra.nixos.org/build/184286803/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/184286803/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184286803/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/184008598'>build 184008598</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/184296219'>python310Packages.flask-appbuilder.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>flask-appbuilder-wtf3.patch</tt> <br /> <a href='https://hydra.nixos.org/build/184296219/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/184296219/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184296219/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/184079064'>build 184079064</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/184284810'>python310Packages.glean-sdk.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>glean-sdk-50.1.2.tar.gz</tt> <br /> <a href='https://hydra.nixos.org/build/184284810/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/184284810/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184284810/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/184008598'>build 184008598</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/184300629'>python310Packages.pelican.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>source</tt> <br /> <a href='https://hydra.nixos.org/build/184300629/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/184300629/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184300629/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/184009964'>build 184009964</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/184288528'>python310Packages.pyquil.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>switch-to-poetry-core.patch</tt> <br /> <a href='https://hydra.nixos.org/build/184288528/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/184288528/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184288528/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/184002588'>build 184002588</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/184279552'>python310Packages.pytomlpp.aarch64-linux</a></tt>
 </summary>
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>source</tt> <br /> <a href='https://hydra.nixos.org/build/184279552/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/184279552/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184279552/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/184009964'>build 184009964</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/184285994'>python310Packages.qcs-api-client.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>switch-to-poetry-core.patch</tt> <br /> <a href='https://hydra.nixos.org/build/184285994/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/184285994/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184285994/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/184002588'>build 184002588</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/184283846'>python310Packages.watchfiles.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>watchfiles-0.15.0-vendor.tar.gz</tt> <br /> <a href='https://hydra.nixos.org/build/184283846/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/184283846/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184283846/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/184008904'>build 184008904</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/184288064'>python39Packages.flask-appbuilder.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>flask-appbuilder-wtf3.patch</tt> <br /> <a href='https://hydra.nixos.org/build/184288064/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/184288064/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184288064/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/184079064'>build 184079064</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/184300140'>python39Packages.glean-sdk.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>glean-sdk-50.1.2.tar.gz</tt> <br /> <a href='https://hydra.nixos.org/build/184300140/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/184300140/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184300140/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/184008598'>build 184008598</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/184291286'>python39Packages.pelican.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>source</tt> <br /> <a href='https://hydra.nixos.org/build/184291286/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/184291286/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184291286/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/184009964'>build 184009964</a>
 </li>
 </ul>
 </details>
@@ -174,6 +566,48 @@ Built for evals:
 </td>
 <td>Dependency failed</td>
 </tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/184290437'>python39Packages.pytomlpp.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>source</tt> <br /> <a href='https://hydra.nixos.org/build/184290437/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/184290437/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184290437/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/184009964'>build 184009964</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/184285762'>python39Packages.qcs-api-client.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>switch-to-poetry-core.patch</tt> <br /> <a href='https://hydra.nixos.org/build/184285762/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/184285762/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184285762/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/184002588'>build 184002588</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/184298427'>python39Packages.watchfiles.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>watchfiles-0.15.0-vendor.tar.gz</tt> <br /> <a href='https://hydra.nixos.org/build/184298427/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/184298427/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184298427/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/184008904'>build 184008904</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
 </table>
 </details>
 
@@ -181,7 +615,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>24502 issues</summary>
+<details><summary>24471 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -4139,20 +4573,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/184297883'>flent.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/184295563'>flexget.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/184294927'>flexget.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -17956,20 +18376,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/184286803'>moz-phab.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/184295113'>moz-phab.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/184277938'>mpdevil.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -18174,13 +18580,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/184283050'>napalm.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/184299219'>napari.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -41042,20 +41441,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/184296219'>python310Packages.flask-appbuilder.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/184298778'>python310Packages.flask-appbuilder.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/184289215'>python310Packages.flask-autoindex.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -43797,13 +44182,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/184284810'>python310Packages.glean-sdk.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -56652,13 +57030,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/184300552'>python310Packages.napari-npe2.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/184280092'>python310Packages.napari-plugin-engine.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -56681,13 +57052,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/184289270'>python310Packages.napari-svg.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/184297401'>python310Packages.napari.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -60972,20 +61336,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/184300256'>python310Packages.pefile.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/184300629'>python310Packages.pelican.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/184297769'>python310Packages.pelican.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -70211,20 +70561,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/184288528'>python310Packages.pyquil.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/184287179'>python310Packages.pyquil.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/184299689'>python310Packages.pyqvrpro.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -76795,13 +77131,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/184285994'>python310Packages.qcs-api-client.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -90742,20 +91071,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/184283846'>python310Packages.watchfiles.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/184283746'>python310Packages.watchfiles.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/184299435'>python310Packages.watchgod.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -104623,13 +104938,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/184299125'>python39Packages.cirq.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/184281665'>python39Packages.ciscoconfparse.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -114129,20 +114437,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/184288064'>python39Packages.flask-appbuilder.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/184293264'>python39Packages.flask-appbuilder.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/184286166'>python39Packages.flask-autoindex.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -116881,20 +117175,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/184298771'>python39Packages.glean-parser.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/184300140'>python39Packages.glean-sdk.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/184286361'>python39Packages.glean-sdk.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -129732,13 +130012,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/184293857'>python39Packages.napari-npe2.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/184287023'>python39Packages.napari-plugin-engine.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -129761,13 +130034,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/184291897'>python39Packages.napari-svg.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/184288604'>python39Packages.napari.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -134069,13 +134335,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/184291286'>python39Packages.pelican.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -143326,13 +143585,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/184293370'>python39Packages.pyquil.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/184288986'>python39Packages.pyqvrpro.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -148744,20 +148996,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/184290437'>python39Packages.pytomlpp.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/184298716'>python39Packages.pytomlpp.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/184288998'>python39Packages.pytomorrowio.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -149928,20 +150166,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/184286344'>python39Packages.qcengine.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/184285762'>python39Packages.qcs-api-client.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/184296405'>python39Packages.qcs-api-client.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -163941,13 +164165,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/184298427'>python39Packages.watchfiles.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/184296777'>python39Packages.watchgod.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -171713,49 +171930,89 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/184058421'>aarch64-linux source</a></tt></summary>
+<ul>
+<li>flexget.aarch64-linux</li>
+<li>flexget.x86_64-linux</li>
+<li>napari.x86_64-linux</li>
+<li>python310Packages.napari-npe2.x86_64-linux</li>
+<li>python310Packages.napari.x86_64-linux</li>
+<li>python310Packages.pelican.aarch64-linux</li>
+<li>python310Packages.pelican.x86_64-linux</li>
+<li>python310Packages.pytomlpp.aarch64-linux</li>
+<li>python310Packages.pytomlpp.x86_64-linux</li>
+<li>python39Packages.napari-npe2.x86_64-linux</li>
+<li>python39Packages.napari.x86_64-linux</li>
+<li>python39Packages.pelican.aarch64-linux</li>
+<li>python39Packages.pelican.x86_64-linux</li>
+<li>python39Packages.pytomlpp.aarch64-linux</li>
+<li>python39Packages.pytomlpp.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>15</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/184002588'>x86_64-linux switch-to-poetry-core.patch</a></tt></summary>
 <ul>
 <li>python310Packages.cirq-rigetti.x86_64-linux</li>
 <li>python310Packages.cirq.x86_64-linux</li>
+<li>python310Packages.pyquil.aarch64-linux</li>
+<li>python310Packages.pyquil.x86_64-linux</li>
+<li>python310Packages.qcs-api-client.aarch64-linux</li>
 <li>python310Packages.qcs-api-client.x86_64-linux</li>
 <li>python39Packages.cirq-rigetti.x86_64-linux</li>
+<li>python39Packages.cirq.x86_64-linux</li>
 <li>python39Packages.pyquil.aarch64-linux</li>
+<li>python39Packages.pyquil.x86_64-linux</li>
+<li>python39Packages.qcs-api-client.aarch64-linux</li>
+<li>python39Packages.qcs-api-client.x86_64-linux</li>
 </ul>
 </details>
 </td>
-<td>5</td>
+<td>12</td>
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/184009964'>aarch64-linux source</a></tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/184008598'>aarch64-linux glean-sdk-50.1.2.tar.gz</a></tt></summary>
 <ul>
-<li>python310Packages.pytomlpp.aarch64-linux</li>
-<li>python310Packages.pytomlpp.x86_64-linux</li>
-<li>python39Packages.pelican.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>3</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/184008598'>x86_64-linux glean-sdk-50.1.2.tar.gz</a></tt></summary>
-<ul>
+<li>moz-phab.aarch64-linux</li>
+<li>moz-phab.x86_64-linux</li>
+<li>python310Packages.glean-sdk.aarch64-linux</li>
 <li>python310Packages.glean-sdk.x86_64-linux</li>
+<li>python39Packages.glean-sdk.aarch64-linux</li>
+<li>python39Packages.glean-sdk.x86_64-linux</li>
 </ul>
 </details>
 </td>
-<td>1</td>
+<td>6</td>
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/184008904'>x86_64-linux watchfiles-0.15.0-vendor.tar.gz</a></tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/184079064'>aarch64-linux flask-appbuilder-wtf3.patch</a></tt></summary>
 <ul>
+<li>python310Packages.flask-appbuilder.aarch64-linux</li>
+<li>python310Packages.flask-appbuilder.x86_64-linux</li>
+<li>python39Packages.flask-appbuilder.aarch64-linux</li>
+<li>python39Packages.flask-appbuilder.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>4</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/184008904'>aarch64-linux watchfiles-0.15.0-vendor.tar.gz</a></tt></summary>
+<ul>
+<li>python310Packages.watchfiles.aarch64-linux</li>
+<li>python310Packages.watchfiles.x86_64-linux</li>
+<li>python39Packages.watchfiles.aarch64-linux</li>
 <li>python39Packages.watchfiles.x86_64-linux</li>
 </ul>
 </details>
 </td>
-<td>1</td>
+<td>4</td>
 </tr>
 </table>
 
