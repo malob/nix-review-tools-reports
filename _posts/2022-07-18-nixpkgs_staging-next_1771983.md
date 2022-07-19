@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next
 ---
 # Evals report
 
-*Report built at 2022-07-19 07:13:50 UTC*
+*Report built at 2022-07-19 08:17:57 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>422 issues</summary>
+<details><summary>421 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -1429,23 +1429,6 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>sage-tests-9.6</tt> <br /> <a href='https://hydra.nixos.org/build/184214633/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/184214633/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184214633/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/184215038'>build 184215038</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/184215038'>sageWithDoc.x86_64-linux</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Failed</b> <tt>sage-tests-9.6</tt> <br /> <a href='https://hydra.nixos.org/build/184215038/nixlog/9'>log</a>, <a href='https://hydra.nixos.org/build/184215038/nixlog/9/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184215038/nixlog/9/tail'>tail</a>
-</li>
-<li>
-<b>=> Aborted</b> <tt>python3-3.10.5-env</tt> <br /> <a href='https://hydra.nixos.org/build/184215038/nixlog/4'>log</a>, <a href='https://hydra.nixos.org/build/184215038/nixlog/4/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184215038/nixlog/4/tail'>tail</a>
 </li>
 </ul>
 </details>
@@ -27386,10 +27369,10 @@ Built for evals:
 </tr></thead>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/184214844'>freecad.aarch64-linux</a></tt>
+<tt><a href='https://hydra.nixos.org/build/184215038'>sageWithDoc.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
-<th>aarch64-linux</th>
+<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
@@ -29966,28 +29949,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/184215038'>x86_64-linux sage-tests-9.6</a></tt></summary>
-<ul>
-<li>sage.x86_64-linux</li>
-<li>sageWithDoc.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>2</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>x86_64-linux python3-3.10.5-env</tt></summary>
-<ul>
-<li>sageWithDoc.x86_64-linux</li>
-<li>qt6.qtwebview.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>2</td>
-</tr>
-<tr>
-<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/183613776'>aarch64-darwin superlu-5.2.1</a></tt></summary>
 <ul>
 <li>armadillo.aarch64-darwin</li>
@@ -30160,6 +30121,16 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/184215038'>x86_64-linux sage-tests-9.6</a></tt></summary>
+<ul>
+<li>sage.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/184215257'>x86_64-darwin dotnet-sdk-3.1.420</a></tt></summary>
 <ul>
 <li>baget.x86_64-darwin</li>
@@ -30273,6 +30244,16 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/183935581'>x86_64-linux python3.9-johnnycanencrypt-0.6.0</a></tt></summary>
 <ul>
 <li>python39Packages.tumpa.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>x86_64-linux python3-3.10.5-env</tt></summary>
+<ul>
+<li>qt6.qtwebview.x86_64-linux</li>
 </ul>
 </details>
 </td>
