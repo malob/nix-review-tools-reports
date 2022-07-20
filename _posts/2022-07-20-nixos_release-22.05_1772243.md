@@ -1,10 +1,10 @@
 ---
-title: nixos:release-22.05 1772243
+title: nixos:release-22.05 1772243 (succeeded)
 categories: nixos:release-22.05
 ---
 # Evals report
 
-*Report built at 2022-07-20 21:11:27 UTC*
+*Report built at 2022-07-20 23:13:34 UTC*
 
 Built for evals:
 
@@ -9667,27 +9667,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/183651792'>nixpkgs.haskellPackages.zeromq4-patterns.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/184541883'>nixos.tests.installer.zfsroot.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
 </tr>
 </table>
 </details>
