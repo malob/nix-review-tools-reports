@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:staging-next 1772106
+title: nixpkgs:staging-next 1772106 (succeeded)
 categories: nixpkgs:staging-next
 ---
 # Evals report
 
-*Report built at 2022-07-19 23:14:36 UTC*
+*Report built at 2022-07-20 00:56:09 UTC*
 
 Built for evals:
 
@@ -24063,27 +24063,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/183525858'>tecnoballz.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/184314539'>freecad.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 </table>
 </details>
