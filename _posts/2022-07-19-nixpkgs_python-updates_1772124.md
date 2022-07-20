@@ -4,7 +4,7 @@ categories: nixpkgs:python-updates
 ---
 # Evals report
 
-*Report built at 2022-07-20 06:14:18 UTC*
+*Report built at 2022-07-20 07:10:27 UTC*
 
 Built for evals:
 
@@ -15714,7 +15714,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>946 issues</summary>
+<details><summary>948 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -15924,6 +15924,26 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>umockdev-0.17.9</tt> <br /> <a href='https://hydra.nixos.org/build/184290882/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/184290882/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184290882/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/184283664'>build 184283664</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/184287000'>gns3-gui.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.10-PyQt5-5.15.4</tt> <br /> <a href='https://hydra.nixos.org/build/184287000/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/184287000/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184287000/nixlog/3/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>python3.10-PyQt5-5.15.4</tt> <br /> 
+</li>
+<li>
+<b>=> Aborted</b> <tt>python3.10-PyQt5-5.15.4</tt> <br /> 
 </li>
 </ul>
 </details>
@@ -25488,6 +25508,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/184285061'>python310Packages.rdkit.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/184281855'>python310Packages.renault-api.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -26663,7 +26689,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>4024 issues</summary>
+<details><summary>4022 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -27730,13 +27756,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/184298407'>gnome2.gnomedocutils.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/184287000'>gns3-gui.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
@@ -40323,13 +40342,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/184299019'>python310Packages.ratelim.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/184285061'>python310Packages.rdkit.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
@@ -55662,6 +55674,7 @@ Built for evals:
 <li>frescobaldi.x86_64-linux</li>
 <li>git-annex-metadata-gui.x86_64-linux</li>
 <li>git-cola.x86_64-linux</li>
+<li>gns3-gui.aarch64-linux</li>
 <li>gns3-gui.x86_64-linux</li>
 <li>hplip.x86_64-linux</li>
 <li>inkcut.x86_64-linux</li>
@@ -55726,7 +55739,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>74</td>
+<td>77</td>
 </tr>
 <tr>
 <td>
