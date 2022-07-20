@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-07-20 03:09:58 UTC*
+*Report built at 2022-07-20 04:34:59 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### i686-linux
 
 
-<details><summary>1301 issues</summary>
+<details><summary>1304 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -337,6 +337,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>nix-2.10.3</tt> <br /> <a href='https://hydra.nixos.org/build/184467278/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/184467278/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184467278/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/184455662'>build 184455662</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/184487482'>nixos.tests.allDrivers.agda.i686-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>Agda-2.6.2.2</tt> <br /> <a href='https://hydra.nixos.org/build/184487482/nixlog/22'>log</a>, <a href='https://hydra.nixos.org/build/184487482/nixlog/22/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184487482/nixlog/22/tail'>tail</a>
 </li>
 </ul>
 </details>
@@ -14896,6 +14910,92 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/184478965'>nixos.tests.postgis.i686-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>ucx-1.12.1</tt> <br /> <a href='https://hydra.nixos.org/build/184478965/nixlog/277'>log</a>, <a href='https://hydra.nixos.org/build/184478965/nixlog/277/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184478965/nixlog/277/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>unbounded-delays-0.1.1.1</tt> <br /> <a href='https://hydra.nixos.org/build/184478965/nixlog/70'>log</a>, <a href='https://hydra.nixos.org/build/184478965/nixlog/70/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184478965/nixlog/70/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>mime-types-0.1.0.9</tt> <br /> <a href='https://hydra.nixos.org/build/184478965/nixlog/69'>log</a>, <a href='https://hydra.nixos.org/build/184478965/nixlog/69/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184478965/nixlog/69/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>reflection-2.1.6</tt> <br /> <a href='https://hydra.nixos.org/build/184478965/nixlog/68'>log</a>, <a href='https://hydra.nixos.org/build/184478965/nixlog/68/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184478965/nixlog/68/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>xml-types-0.3.8</tt> <br /> <a href='https://hydra.nixos.org/build/184478965/nixlog/67'>log</a>, <a href='https://hydra.nixos.org/build/184478965/nixlog/67/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184478965/nixlog/67/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>simple-reflect-0.3.3</tt> <br /> <a href='https://hydra.nixos.org/build/184478965/nixlog/66'>log</a>, <a href='https://hydra.nixos.org/build/184478965/nixlog/66/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184478965/nixlog/66/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>nanospec-0.2.2</tt> <br /> <a href='https://hydra.nixos.org/build/184478965/nixlog/65'>log</a>, <a href='https://hydra.nixos.org/build/184478965/nixlog/65/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184478965/nixlog/65/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>old-locale-1.0.0.7</tt> <br /> <a href='https://hydra.nixos.org/build/184478965/nixlog/64'>log</a>, <a href='https://hydra.nixos.org/build/184478965/nixlog/64/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184478965/nixlog/64/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>data-default-instances-dlist-0.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/184478965/nixlog/63'>log</a>, <a href='https://hydra.nixos.org/build/184478965/nixlog/63/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184478965/nixlog/63/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>regex-base-0.94.0.2</tt> <br /> <a href='https://hydra.nixos.org/build/184478965/nixlog/62'>log</a>, <a href='https://hydra.nixos.org/build/184478965/nixlog/62/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184478965/nixlog/62/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>prettyprinter-1.7.1</tt> <br /> <a href='https://hydra.nixos.org/build/184478965/nixlog/61'>log</a>, <a href='https://hydra.nixos.org/build/184478965/nixlog/61/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184478965/nixlog/61/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>Cabal-syntax-3.6.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/184478965/nixlog/60'>log</a>, <a href='https://hydra.nixos.org/build/184478965/nixlog/60/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184478965/nixlog/60/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>splitmix-0.1.0.4</tt> <br /> <a href='https://hydra.nixos.org/build/184478965/nixlog/59'>log</a>, <a href='https://hydra.nixos.org/build/184478965/nixlog/59/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184478965/nixlog/59/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>extensible-exceptions-0.1.1.4</tt> <br /> <a href='https://hydra.nixos.org/build/184478965/nixlog/58'>log</a>, <a href='https://hydra.nixos.org/build/184478965/nixlog/58/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184478965/nixlog/58/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>microlens-0.4.12.0</tt> <br /> <a href='https://hydra.nixos.org/build/184478965/nixlog/57'>log</a>, <a href='https://hydra.nixos.org/build/184478965/nixlog/57/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184478965/nixlog/57/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>ghc-byteorder-4.11.0.0.10</tt> <br /> <a href='https://hydra.nixos.org/build/184478965/nixlog/56'>log</a>, <a href='https://hydra.nixos.org/build/184478965/nixlog/56/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184478965/nixlog/56/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>cmdargs-0.10.21</tt> <br /> <a href='https://hydra.nixos.org/build/184478965/nixlog/55'>log</a>, <a href='https://hydra.nixos.org/build/184478965/nixlog/55/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184478965/nixlog/55/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>data-default-instances-containers-0.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/184478965/nixlog/54'>log</a>, <a href='https://hydra.nixos.org/build/184478965/nixlog/54/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184478965/nixlog/54/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>transformers-compat-0.6.6</tt> <br /> <a href='https://hydra.nixos.org/build/184478965/nixlog/53'>log</a>, <a href='https://hydra.nixos.org/build/184478965/nixlog/53/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184478965/nixlog/53/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>void-0.7.3</tt> <br /> <a href='https://hydra.nixos.org/build/184478965/nixlog/52'>log</a>, <a href='https://hydra.nixos.org/build/184478965/nixlog/52/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184478965/nixlog/52/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>cabal-doctest-1.0.9</tt> <br /> <a href='https://hydra.nixos.org/build/184478965/nixlog/51'>log</a>, <a href='https://hydra.nixos.org/build/184478965/nixlog/51/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184478965/nixlog/51/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>appar-0.1.8</tt> <br /> <a href='https://hydra.nixos.org/build/184478965/nixlog/50'>log</a>, <a href='https://hydra.nixos.org/build/184478965/nixlog/50/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184478965/nixlog/50/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>bytestring-builder-0.10.8.2.0</tt> <br /> <a href='https://hydra.nixos.org/build/184478965/nixlog/49'>log</a>, <a href='https://hydra.nixos.org/build/184478965/nixlog/49/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184478965/nixlog/49/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>colour-2.3.6</tt> <br /> <a href='https://hydra.nixos.org/build/184478965/nixlog/48'>log</a>, <a href='https://hydra.nixos.org/build/184478965/nixlog/48/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184478965/nixlog/48/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>contravariant-1.5.5</tt> <br /> <a href='https://hydra.nixos.org/build/184478965/nixlog/47'>log</a>, <a href='https://hydra.nixos.org/build/184478965/nixlog/47/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184478965/nixlog/47/tail'>tail</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/184459414'>nixos.tests.postgresql-wal-receiver.postgresql_10.i686-linux</a></tt>
 </summary>
 <ul>
@@ -18290,6 +18390,12 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/184486811'>nixos.tests.uwsgi.i686-linux</a></tt>
 </td>
 <td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/184481206'>nixos.tests.kexec.i686-linux</a></tt>
+</td>
+<td>Timed out</td>
 </tr>
 </table>
 </details>
@@ -23006,7 +23112,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>1551 issues</summary>
+<details><summary>1545 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -23148,13 +23254,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/184486743'>nixos.netboot.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/184453281'>nixos.sd_image_new_kernel.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -23236,13 +23335,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/184487482'>nixos.tests.allDrivers.agda.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
 </tr>
 <tr>
 <td>
@@ -25633,13 +25725,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/184486665'>nixos.tests.allDrivers.musescore.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/184482099'>nixos.tests.allDrivers.mutableUsers.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -26239,13 +26324,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/184480919'>nixos.tests.allDrivers.noto-fonts.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
 </tr>
 <tr>
 <td>
@@ -30351,13 +30429,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/184481206'>nixos.tests.kexec.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/184447653'>nixos.tests.keymap.azerty.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -31958,13 +32029,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/184478965'>nixos.tests.postgis.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
 </tr>
 <tr>
 <td>
@@ -35736,6 +35800,16 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt>i686-linux Agda-2.6.2.2</tt></summary>
+<ul>
+<li>nixos.tests.allDrivers.agda.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt>i686-linux kanidm-1.1.0-alpha.8</tt></summary>
 <ul>
 <li>nixos.tests.allDrivers.kanidm.i686-linux</li>
@@ -35919,6 +35993,256 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/184468229'>x86_64-linux nixos-test-driver-polaris</a></tt></summary>
 <ul>
 <li>nixos.tests.polaris.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>i686-linux ucx-1.12.1</tt></summary>
+<ul>
+<li>nixos.tests.postgis.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>i686-linux unbounded-delays-0.1.1.1</tt></summary>
+<ul>
+<li>nixos.tests.postgis.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>i686-linux mime-types-0.1.0.9</tt></summary>
+<ul>
+<li>nixos.tests.postgis.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>i686-linux reflection-2.1.6</tt></summary>
+<ul>
+<li>nixos.tests.postgis.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>i686-linux xml-types-0.3.8</tt></summary>
+<ul>
+<li>nixos.tests.postgis.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>i686-linux simple-reflect-0.3.3</tt></summary>
+<ul>
+<li>nixos.tests.postgis.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>i686-linux nanospec-0.2.2</tt></summary>
+<ul>
+<li>nixos.tests.postgis.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>i686-linux old-locale-1.0.0.7</tt></summary>
+<ul>
+<li>nixos.tests.postgis.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>i686-linux data-default-instances-dlist-0.0.1</tt></summary>
+<ul>
+<li>nixos.tests.postgis.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>i686-linux regex-base-0.94.0.2</tt></summary>
+<ul>
+<li>nixos.tests.postgis.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>i686-linux prettyprinter-1.7.1</tt></summary>
+<ul>
+<li>nixos.tests.postgis.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>i686-linux Cabal-syntax-3.6.0.0</tt></summary>
+<ul>
+<li>nixos.tests.postgis.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>i686-linux splitmix-0.1.0.4</tt></summary>
+<ul>
+<li>nixos.tests.postgis.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>i686-linux extensible-exceptions-0.1.1.4</tt></summary>
+<ul>
+<li>nixos.tests.postgis.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>i686-linux microlens-0.4.12.0</tt></summary>
+<ul>
+<li>nixos.tests.postgis.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>i686-linux ghc-byteorder-4.11.0.0.10</tt></summary>
+<ul>
+<li>nixos.tests.postgis.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>i686-linux cmdargs-0.10.21</tt></summary>
+<ul>
+<li>nixos.tests.postgis.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>i686-linux data-default-instances-containers-0.0.1</tt></summary>
+<ul>
+<li>nixos.tests.postgis.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>i686-linux transformers-compat-0.6.6</tt></summary>
+<ul>
+<li>nixos.tests.postgis.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>i686-linux void-0.7.3</tt></summary>
+<ul>
+<li>nixos.tests.postgis.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>i686-linux cabal-doctest-1.0.9</tt></summary>
+<ul>
+<li>nixos.tests.postgis.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>i686-linux appar-0.1.8</tt></summary>
+<ul>
+<li>nixos.tests.postgis.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>i686-linux bytestring-builder-0.10.8.2.0</tt></summary>
+<ul>
+<li>nixos.tests.postgis.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>i686-linux colour-2.3.6</tt></summary>
+<ul>
+<li>nixos.tests.postgis.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>i686-linux contravariant-1.5.5</tt></summary>
+<ul>
+<li>nixos.tests.postgis.i686-linux</li>
 </ul>
 </details>
 </td>
