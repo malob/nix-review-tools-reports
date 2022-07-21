@@ -4,7 +4,7 @@ categories: nixpkgs:python-updates
 ---
 # Evals report
 
-*Report built at 2022-07-21 16:16:13 UTC*
+*Report built at 2022-07-21 17:15:56 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>748 issues</summary>
+<details><summary>746 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -6803,12 +6803,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/184617133'>python310Packages.tifffile.x86_64-linux</a></tt>
-</td>
-<td>Failed</td>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/184602489'>python310Packages.timetagger.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -7590,12 +7584,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/184606567'>python39Packages.tesla-wall-connector.x86_64-linux</a></tt>
-</td>
-<td>Failed</td>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/184616124'>python39Packages.tifffile.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
