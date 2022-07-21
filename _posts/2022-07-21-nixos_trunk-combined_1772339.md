@@ -1,10 +1,10 @@
 ---
-title: nixos:trunk-combined 1772339
+title: nixos:trunk-combined 1772339 (succeeded)
 categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-07-21 12:20:49 UTC*
+*Report built at 2022-07-21 17:17:00 UTC*
 
 Built for evals:
 
@@ -4150,7 +4150,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>563 issues</summary>
+<details><summary>564 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -8278,6 +8278,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/184611470'>nixos.tests.fcitx.x86_64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/184453016'>nixos.tests.systemd-cryptenroll.x86_64-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -8289,7 +8295,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>141 issues</summary>
+<details><summary>142 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -9591,33 +9597,11 @@ Built for evals:
 </td>
 <td>Output size limit exceeded</td>
 </tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>2 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/184611563'>nixos.tests.fcitx.aarch64-linux</a></tt>
 </td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/184611470'>nixos.tests.fcitx.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
+<td>Timed out</td>
 </tr>
 </table>
 </details>
