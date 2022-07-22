@@ -1,10 +1,10 @@
 ---
-title: nixos:release-22.05 1772429
+title: nixos:release-22.05 1772429 (succeeded)
 categories: nixos:release-22.05
 ---
 # Evals report
 
-*Report built at 2022-07-22 11:12:41 UTC*
+*Report built at 2022-07-22 12:22:19 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### i686-linux
 
 
-<details><summary>193 issues</summary>
+<details><summary>194 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -127,6 +127,23 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>rocksdb-6.23.3</tt> <br /> <a href='https://hydra.nixos.org/build/184691138/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/184691138/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184691138/nixlog/1/tail'>tail</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/184708723'>nixos.tests.botamusique.i686-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>zeroc-ice-3.7.7</tt> <br /> <a href='https://hydra.nixos.org/build/184708723/nixlog/17'>log</a>, <a href='https://hydra.nixos.org/build/184708723/nixlog/17/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184708723/nixlog/17/tail'>tail</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>zeroc-ice-3.7.7</tt> <br /> <a href='https://hydra.nixos.org/build/184706893'>build 184706893</a>
 </li>
 </ul>
 </details>
@@ -9189,27 +9206,6 @@ Built for evals:
 </table>
 </details>
 
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/184691492'>nixos.tests.libresprite.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-</table>
-</details>
-
 ## Problematic dependencies
 
 <table>
@@ -9597,6 +9593,17 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt>i686-linux zeroc-ice-3.7.7</tt></summary>
+<ul>
+<li>nixos.tests.botamusique.i686-linux</li>
+<li>nixos.tests.mumble.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>3</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/184674227'>i686-linux cntr-1.5.1</a></tt></summary>
 <ul>
 <li>nixos.tests.cntr.docker.i686-linux</li>
@@ -9981,16 +9988,6 @@ Built for evals:
 </details>
 </td>
 <td>2</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>i686-linux zeroc-ice-3.7.7</tt></summary>
-<ul>
-<li>nixos.tests.mumble.i686-linux</li>
-</ul>
-</details>
-</td>
-<td>1</td>
 </tr>
 <tr>
 <td>
