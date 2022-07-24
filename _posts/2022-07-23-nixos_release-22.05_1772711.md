@@ -1,10 +1,10 @@
 ---
-title: nixos:release-22.05 1772711
+title: nixos:release-22.05 1772711 (succeeded)
 categories: nixos:release-22.05
 ---
 # Evals report
 
-*Report built at 2022-07-24 08:16:27 UTC*
+*Report built at 2022-07-24 09:13:55 UTC*
 
 Built for evals:
 
@@ -2286,7 +2286,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>554 issues</summary>
+<details><summary>556 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -6566,7 +6566,19 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/184946457'>nixos.tests.cloud-init.x86_64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/184943407'>nixos.tests.fcitx.x86_64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/184946172'>nixos.tests.gitolite.x86_64-linux</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -6613,7 +6625,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>360 issues</summary>
+<details><summary>362 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -9662,6 +9674,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/184946309'>nixos.tests.cloud-init.aarch64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/184943884'>nixos.tests.fcitx.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -9681,6 +9699,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/184943028'>nixos.tests.iscsi-root.aarch64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/184945768'>nixos.tests.systemd-initrd-luks-password.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -9713,48 +9737,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/184702791'>nixpkgs.oatpp.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>4 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/184946309'>nixos.tests.cloud-init.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/184946457'>nixos.tests.cloud-init.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/184946172'>nixos.tests.gitolite.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/184945768'>nixos.tests.systemd-initrd-luks-password.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 </table>
 </details>
