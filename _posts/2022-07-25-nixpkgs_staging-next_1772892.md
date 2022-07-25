@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next
 ---
 # Evals report
 
-*Report built at 2022-07-25 17:22:23 UTC*
+*Report built at 2022-07-25 18:16:11 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>852 issues</summary>
+<details><summary>853 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -3878,6 +3878,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>python3.9-biliass-1.3.5</tt> <br /> <a href='https://hydra.nixos.org/build/185036619/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/185036619/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/185036619/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/184750130'>build 184750130</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/185114075'>qgis.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>qgis-unwrapped-3.26.1</tt> <br /> <a href='https://hydra.nixos.org/build/185114075/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/185114075/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/185114075/nixlog/1/tail'>tail</a>
 </li>
 </ul>
 </details>
@@ -14479,7 +14493,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>737 issues</summary>
+<details><summary>739 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -17305,6 +17319,34 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>python3.9-biliass-1.3.5</tt> <br /> <a href='https://hydra.nixos.org/build/185040444/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/185040444/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/185040444/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/184789305'>build 184789305</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/185113065'>qgis-ltr.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>qgis-ltr-unwrapped-3.22.9</tt> <br /> <a href='https://hydra.nixos.org/build/185113065/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/185113065/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/185113065/nixlog/1/tail'>tail</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/185112678'>qgis.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>qgis-unwrapped-3.26.1</tt> <br /> <a href='https://hydra.nixos.org/build/185112678/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/185112678/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/185112678/nixlog/1/tail'>tail</a>
 </li>
 </ul>
 </details>
@@ -31332,7 +31374,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>16 issues</summary>
+<details><summary>11 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -31341,24 +31383,10 @@ Built for evals:
 </tr></thead>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/185113044'>kicad-unstable-small.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/185062934'>libtensorflow.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/185061452'>paraview.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -31425,28 +31453,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/185113065'>qgis-ltr.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/185113923'>qgis-ltr.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/185112678'>qgis.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/185114075'>qgis.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -34243,6 +34250,17 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt>aarch64-linux qgis-unwrapped-3.26.1</tt></summary>
+<ul>
+<li>qgis.aarch64-linux</li>
+<li>qgis.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt>aarch64-linux ruby2.7.6-nokogiri-1.10.1</tt></summary>
 <ul>
 <li>showoff.aarch64-linux</li>
@@ -35052,6 +35070,16 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/184832121'>aarch64-darwin python3.9-awkward-1.8.0</a></tt></summary>
 <ul>
 <li>python39Packages.uproot.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>aarch64-linux qgis-ltr-unwrapped-3.22.9</tt></summary>
+<ul>
+<li>qgis-ltr.aarch64-linux</li>
 </ul>
 </details>
 </td>
