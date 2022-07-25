@@ -1,10 +1,10 @@
 ---
-title: nixos:release-22.05 1772822 (succeeded)
+title: nixos:release-22.05 1772822
 categories: nixos:release-22.05
 ---
 # Evals report
 
-*Report built at 2022-07-25 03:13:33 UTC*
+*Report built at 2022-07-25 10:15:00 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### i686-linux
 
 
-<details><summary>201 issues</summary>
+<details><summary>200 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -2077,12 +2077,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/185060700'>nixos.tests.installer.simpleProvided.i686-linux</a></tt>
-</td>
-<td>Failed</td>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/185060694'>nixos.tests.installer.simpleSpecialised.i686-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -2298,7 +2292,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>559 issues</summary>
+<details><summary>558 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -3778,20 +3772,6 @@ Built for evals:
 </li>
 <li>
 <b>=> Cached failure</b> <tt>vimplugin-lens.vim-2021-05-30</tt> <br /> <a href='https://hydra.nixos.org/build/184128928'>build 184128928</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/185060788'>tested</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Cached failure</b> <tt>vm-test-run-keymap-azerty</tt> <br /> <a href='https://hydra.nixos.org/build/185060788/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/185060788/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/185060788/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/184942442'>build 184942442</a>
 </li>
 </ul>
 </details>
@@ -9777,6 +9757,34 @@ Built for evals:
 </table>
 </details>
 
+
+### Still queued
+
+
+<details><summary>2 issues</summary>
+<table>
+<thead><tr>
+<th>job</th>
+<th>status</th>
+<th>platform</th>
+</tr></thead>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/185060776'>nixos.ova.x86_64-linux</a></tt>
+</td>
+<td>Queued</td>
+<th>x86_64-linux</th>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/185060788'>tested</a></tt>
+</td>
+<td>Queued</td>
+<th>x86_64-linux</th>
+</tr>
+</table>
+</details>
+
 ## Problematic dependencies
 
 <table>
@@ -11054,16 +11062,6 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/184709122'>aarch64-linux libretro-blastem-unstable-2022-04-21</a></tt></summary>
 <ul>
 <li>nixpkgs.retroarchFull.aarch64-linux</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/184942442'>x86_64-linux vm-test-run-keymap-azerty</a></tt></summary>
-<ul>
-<li>tested</li>
 </ul>
 </details>
 </td>
