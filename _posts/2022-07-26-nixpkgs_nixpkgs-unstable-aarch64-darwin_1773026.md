@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-unstable-aarch64-darwin
 ---
 # Evals report
 
-*Report built at 2022-07-26 07:11:02 UTC*
+*Report built at 2022-07-26 08:14:25 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1024 issues</summary>
+<details><summary>1023 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -435,20 +435,6 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>python3.10-pyshark-0.4.6</tt> <br /> <a href='https://hydra.nixos.org/build/184497164/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/184497164/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184497164/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/183505544'>build 183505544</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/184948442'>cvehound.aarch64-darwin</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Failed</b> <tt>source</tt> <br /> <a href='https://hydra.nixos.org/build/184948442/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/184948442/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184948442/nixlog/3/tail'>tail</a>
 </li>
 </ul>
 </details>
@@ -9551,19 +9537,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/184948442'>aarch64-darwin source</a></tt></summary>
-<ul>
-<li>coccinelle.aarch64-darwin</li>
-<li>colloid-icon-theme.aarch64-darwin</li>
-<li>cvehound.aarch64-darwin</li>
-<li>miller.aarch64-darwin</li>
-</ul>
-</details>
-</td>
-<td>4</td>
-</tr>
-<tr>
-<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/183614478'>aarch64-darwin ocaml-4.09.1</a></tt></summary>
 <ul>
 <li>coq_8_10.aarch64-darwin</li>
@@ -9619,6 +9592,18 @@ Built for evals:
 <li>chickenPackages.egg2nix.aarch64-darwin</li>
 <li>chickenPackages_5.egg2nix.aarch64-darwin</li>
 <li>egg2nix.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>3</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/184948442'>aarch64-darwin source</a></tt></summary>
+<ul>
+<li>coccinelle.aarch64-darwin</li>
+<li>colloid-icon-theme.aarch64-darwin</li>
+<li>miller.aarch64-darwin</li>
 </ul>
 </details>
 </td>
