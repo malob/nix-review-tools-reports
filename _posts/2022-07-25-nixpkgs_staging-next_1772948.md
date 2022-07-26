@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next
 ---
 # Evals report
 
-*Report built at 2022-07-26 05:06:30 UTC*
+*Report built at 2022-07-26 06:17:42 UTC*
 
 Built for evals:
 
@@ -12617,7 +12617,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>670 issues</summary>
+<details><summary>671 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -14645,6 +14645,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>qgis-ltr-unwrapped-3.22.9</tt> <br /> <a href='https://hydra.nixos.org/build/185227624/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/185227624/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/185227624/nixlog/1/tail'>tail</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/185227139'>qgis.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>qgis-unwrapped-3.26.1</tt> <br /> <a href='https://hydra.nixos.org/build/185227139/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/185227139/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/185227139/nixlog/1/tail'>tail</a>
 </li>
 </ul>
 </details>
@@ -28508,7 +28522,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>3713 issues</summary>
+<details><summary>3712 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -50539,13 +50553,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/185227139'>qgis.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/185229008'>qgis.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -57857,6 +57864,16 @@ Built for evals:
 <details><summary><tt>aarch64-linux qgis-ltr-unwrapped-3.22.9</tt></summary>
 <ul>
 <li>qgis-ltr.aarch64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>aarch64-linux qgis-unwrapped-3.26.1</tt></summary>
+<ul>
+<li>qgis.aarch64-linux</li>
 </ul>
 </details>
 </td>
