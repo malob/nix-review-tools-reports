@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:staging-next-22.05 1773051
+title: nixpkgs:staging-next-22.05 1773051 (succeeded)
 categories: nixpkgs:staging-next-22.05
 ---
 # Evals report
 
-*Report built at 2022-07-26 19:12:38 UTC*
+*Report built at 2022-07-26 21:14:10 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>447 issues</summary>
+<details><summary>449 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -3326,6 +3326,18 @@ Built for evals:
 </td>
 <td>Timed out</td>
 </tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/185244013'>tarball</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/185243985'>unstable</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
 </table>
 </details>
 
@@ -3333,7 +3345,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>292 issues</summary>
+<details><summary>293 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -4549,6 +4561,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>python3.9-mock-2.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/184142908/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/184142908/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184142908/nixlog/1/tail'>tail</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/185243986'>python39Packages.scrapy-deltafetch.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.9-scrapy-2.6.2</tt> <br /> <a href='https://hydra.nixos.org/build/185243986/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/185243986/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/185243986/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/185243883'>build 185243883</a>
 </li>
 </ul>
 </details>
@@ -17879,41 +17905,6 @@ Built for evals:
 </table>
 </details>
 
-
-### Still queued
-
-
-<details><summary>3 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/185243955'>darwin-tested</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/185244013'>tarball</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/185243985'>unstable</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-</table>
-</details>
-
 ## Problematic dependencies
 
 <table>
@@ -18981,6 +18972,18 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/185243883'>x86_64-darwin python3.9-scrapy-2.6.2</a></tt></summary>
+<ul>
+<li>python39Packages.scrapy-deltafetch.x86_64-darwin</li>
+<li>python39Packages.scrapy-fake-useragent.x86_64-darwin</li>
+<li>python39Packages.scrapy-splash.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>3</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/183330997'>x86_64-linux boost-1.65.1</a></tt></summary>
 <ul>
 <li>appleseed.x86_64-linux</li>
@@ -19182,17 +19185,6 @@ Built for evals:
 </details>
 </td>
 <td>3</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/185243883'>x86_64-darwin python3.9-scrapy-2.6.2</a></tt></summary>
-<ul>
-<li>python39Packages.scrapy-fake-useragent.x86_64-darwin</li>
-<li>python39Packages.scrapy-splash.x86_64-darwin</li>
-</ul>
-</details>
-</td>
-<td>2</td>
 </tr>
 <tr>
 <td>
