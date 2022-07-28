@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:nixpkgs-22.05-darwin 1773270
+title: nixpkgs:nixpkgs-22.05-darwin 1773270 (succeeded)
 categories: nixpkgs:nixpkgs-22.05-darwin
 ---
 # Evals report
 
-*Report built at 2022-07-28 04:37:46 UTC*
+*Report built at 2022-07-28 07:11:33 UTC*
 
 Built for evals:
 
@@ -12,88 +12,15 @@ Built for evals:
 
  * * * 
 
-### x86_64-linux
-
-
-<details><summary>2 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/185552346'>darwin-tested</a></tt>
-</td>
-<td>Timed out</td>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/185552343'>tarball</a></tt>
-</td>
-<td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
 ### x86_64-darwin
 
 
-<details><summary>291 issues</summary>
+<details><summary>283 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/184632198'>python310Packages.edward.x86_64-darwin</a></tt>
-</td>
-<td>Aborted</td>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/184635835'>python310Packages.gpt-2-simple.x86_64-darwin</a></tt>
-</td>
-<td>Aborted</td>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/184643773'>python310Packages.pot.x86_64-darwin</a></tt>
-</td>
-<td>Aborted</td>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/184658797'>python310Packages.tensorflow-build.x86_64-darwin</a></tt>
-</td>
-<td>Aborted</td>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/184653618'>python310Packages.tensorflow.x86_64-darwin</a></tt>
-</td>
-<td>Aborted</td>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/184630704'>python310Packages.tensorflowWithoutCuda.x86_64-darwin</a></tt>
-</td>
-<td>Aborted</td>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/184627557'>python310Packages.tflearn.x86_64-darwin</a></tt>
-</td>
-<td>Aborted</td>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/184644794'>python310Packages.umap-learn.x86_64-darwin</a></tt>
-</td>
-<td>Aborted</td>
-</tr>
 <tr>
 <td>
 <details><summary>
@@ -11780,34 +11707,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/184643760'>tecnoballz.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>2 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/185552341'>benthos.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/185552345'>sentry-cli.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 </table>
 </details>
