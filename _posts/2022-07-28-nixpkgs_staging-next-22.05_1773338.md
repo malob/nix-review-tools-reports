@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next-22.05
 ---
 # Evals report
 
-*Report built at 2022-07-28 22:14:27 UTC*
+*Report built at 2022-07-28 23:17:13 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>451 issues</summary>
+<details><summary>453 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -113,6 +113,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>btrfs-progs-5.17</tt> <br /> <a href='https://hydra.nixos.org/build/184203023/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/184203023/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184203023/nixlog/2/tail'>tail</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/185658565'>frostwire.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>frostwire-desktop-deps-6.6.7-build-529</tt> <br /> <a href='https://hydra.nixos.org/build/185658565/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/185658565/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/185658565/nixlog/1/tail'>tail</a>
 </li>
 </ul>
 </details>
@@ -561,6 +575,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>qtwebengine-5.14.2</tt> <br /> <a href='https://hydra.nixos.org/build/185658959/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/185658959/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/185658959/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/185282593'>build 185282593</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/185659413'>mmex.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>source</tt> <br /> <a href='https://hydra.nixos.org/build/185659413/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/185659413/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/185659413/nixlog/1/tail'>tail</a>
 </li>
 </ul>
 </details>
@@ -17983,7 +18011,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>6 issues</summary>
+<details><summary>4 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -17993,20 +18021,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/185661043'>darwin-tested</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/185658565'>frostwire.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/185659413'>mmex.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -18356,6 +18370,22 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/183669184'>aarch64-linux source</a></tt></summary>
+<ul>
+<li>mid2key.aarch64-linux</li>
+<li>mid2key.x86_64-linux</li>
+<li>mmex.aarch64-linux</li>
+<li>mmex.x86_64-linux</li>
+<li>opendylan.x86_64-linux</li>
+<li>telegram-purple.aarch64-linux</li>
+<li>telegram-purple.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>11</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/183355420'>aarch64-darwin mucommander-deps-0.9.3-3</a></tt></summary>
 <ul>
 <li>mucommander.aarch64-darwin</li>
@@ -18399,21 +18429,6 @@ Built for evals:
 <li>haskellPackages.BiobaseXNA.aarch64-linux</li>
 <li>haskellPackages.PrimitiveArray.aarch64-darwin</li>
 <li>haskellPackages.PrimitiveArray.aarch64-linux</li>
-</ul>
-</details>
-</td>
-<td>10</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/183669184'>aarch64-linux source</a></tt></summary>
-<ul>
-<li>mid2key.aarch64-linux</li>
-<li>mid2key.x86_64-linux</li>
-<li>mmex.aarch64-linux</li>
-<li>opendylan.x86_64-linux</li>
-<li>telegram-purple.aarch64-linux</li>
-<li>telegram-purple.x86_64-linux</li>
 </ul>
 </details>
 </td>
@@ -19425,6 +19440,17 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/183745416'>x86_64-darwin frostwire-desktop-deps-6.6.7-build-529</a></tt></summary>
+<ul>
+<li>frostwire.x86_64-darwin</li>
+<li>frostwire.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/183356971'>aarch64-darwin gcc-4.9.4</a></tt></summary>
 <ul>
 <li>gcc49.aarch64-darwin</li>
@@ -19883,16 +19909,6 @@ Built for evals:
 <details><summary><tt>aarch64-darwin hardcode-gsettings.patch</tt></summary>
 <ul>
 <li>darktable.aarch64-darwin</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/183745416'>x86_64-darwin frostwire-desktop-deps-6.6.7-build-529</a></tt></summary>
-<ul>
-<li>frostwire.x86_64-darwin</li>
 </ul>
 </details>
 </td>
