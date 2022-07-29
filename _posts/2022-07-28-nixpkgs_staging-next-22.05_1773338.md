@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:staging-next-22.05 1773338
+title: nixpkgs:staging-next-22.05 1773338 (succeeded)
 categories: nixpkgs:staging-next-22.05
 ---
 # Evals report
 
-*Report built at 2022-07-28 23:17:13 UTC*
+*Report built at 2022-07-29 01:00:24 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>453 issues</summary>
+<details><summary>454 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -603,6 +603,32 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>ruby2.7.6-nokogiri-1.10.3</tt> <br /> <a href='https://hydra.nixos.org/build/184106015/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/184106015/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/184106015/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/183647610'>build 183647610</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/185658544'>mucommander.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>mucommander-deps-0.9.3-3</tt> <br /> <a href='https://hydra.nixos.org/build/185658544/nixlog/5'>log</a>, <a href='https://hydra.nixos.org/build/185658544/nixlog/5/raw'>raw</a>, <a href='https://hydra.nixos.org/build/185658544/nixlog/5/tail'>tail</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>mucommander-deps-0.9.3-3</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>mucommander-deps-0.9.3-3</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>mucommander-deps-0.9.3-3</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>mucommander-deps-0.9.3-3</tt> <br /> 
 </li>
 </ul>
 </details>
@@ -18007,48 +18033,6 @@ Built for evals:
 </table>
 </details>
 
-
-### Still queued
-
-
-<details><summary>4 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/185661043'>darwin-tested</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/185658544'>mucommander.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/185661135'>tarball</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/185658742'>unstable</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-</table>
-</details>
-
 ## Problematic dependencies
 
 <table>
@@ -18244,6 +18228,19 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/183355420'>aarch64-darwin mucommander-deps-0.9.3-3</a></tt></summary>
+<ul>
+<li>mucommander.aarch64-darwin</li>
+<li>mucommander.aarch64-linux</li>
+<li>mucommander.x86_64-darwin</li>
+<li>mucommander.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>16</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/184208607'>aarch64-darwin libpulseaudio-15.0</a></tt></summary>
 <ul>
 <li>castty.aarch64-darwin</li>
@@ -18379,18 +18376,6 @@ Built for evals:
 <li>opendylan.x86_64-linux</li>
 <li>telegram-purple.aarch64-linux</li>
 <li>telegram-purple.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>11</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/183355420'>aarch64-darwin mucommander-deps-0.9.3-3</a></tt></summary>
-<ul>
-<li>mucommander.aarch64-darwin</li>
-<li>mucommander.aarch64-linux</li>
-<li>mucommander.x86_64-darwin</li>
 </ul>
 </details>
 </td>
