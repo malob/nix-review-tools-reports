@@ -1,10 +1,10 @@
 ---
-title: nixos:trunk-combined 1773483
+title: nixos:trunk-combined 1773483 (succeeded)
 categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-07-29 13:35:09 UTC*
+*Report built at 2022-07-29 15:14:21 UTC*
 
 Built for evals:
 
@@ -15,12 +15,18 @@ Built for evals:
 ### i686-linux
 
 
-<details><summary>341 issues</summary>
+<details><summary>343 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 </tr></thead>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/185726620'>nixos.tests.installer.bcache.i686-linux</a></tt>
+</td>
+<td>Cancelled</td>
+</tr>
 <tr>
 <td>
 <details><summary>
@@ -1178,6 +1184,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>openjdk-headless-11.0.15+10</tt> <br /> <a href='https://hydra.nixos.org/build/185583282/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/185583282/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/185583282/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/185573320'>build 185573320</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/185726698'>nixos.tests.allDrivers.mimir.i686-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>mimir-2.2.0</tt> <br /> <a href='https://hydra.nixos.org/build/185726698/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/185726698/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/185726698/nixlog/1/tail'>tail</a>
 </li>
 </ul>
 </details>
@@ -4183,12 +4203,18 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>937 issues</summary>
+<details><summary>938 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 </tr></thead>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/185726344'>nixos.tests.fcitx.x86_64-linux</a></tt>
+</td>
+<td>Cancelled</td>
+</tr>
 <tr>
 <td>
 <details><summary>
@@ -13754,41 +13780,6 @@ Built for evals:
 </table>
 </details>
 
-
-### Still queued
-
-
-<details><summary>3 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/185726308'>nixos.tests.fcitx.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/185726344'>nixos.tests.fcitx.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/185726620'>nixos.tests.installer.bcache.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-</table>
-</details>
-
 ## Problematic dependencies
 
 <table>
@@ -14708,6 +14699,17 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt>i686-linux mimir-2.2.0</tt></summary>
+<ul>
+<li>nixos.tests.allDrivers.mimir.i686-linux</li>
+<li>nixos.tests.mimir.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/185724404'>x86_64-linux wasabibackend-1.1.13.1</a></tt></summary>
 <ul>
 <li>nixos.tests.allDrivers.wasabibackend.x86_64-linux</li>
@@ -15258,16 +15260,6 @@ Built for evals:
 <details><summary><tt>i686-linux kvdo-8.2.0.2</tt></summary>
 <ul>
 <li>nixos.tests.lvm2.lvm-vdo-linux-5_15.i686-linux</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/185726698'>i686-linux mimir-2.2.0</a></tt></summary>
-<ul>
-<li>nixos.tests.mimir.i686-linux</li>
 </ul>
 </details>
 </td>
