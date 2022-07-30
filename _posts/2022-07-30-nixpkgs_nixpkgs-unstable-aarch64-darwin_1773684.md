@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:nixpkgs-unstable-aarch64-darwin 1773684
+title: nixpkgs:nixpkgs-unstable-aarch64-darwin 1773684 (succeeded)
 categories: nixpkgs:nixpkgs-unstable-aarch64-darwin
 ---
 # Evals report
 
-*Report built at 2022-07-30 11:10:39 UTC*
+*Report built at 2022-07-30 12:17:06 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1229 issues</summary>
+<details><summary>1235 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -10632,6 +10632,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/185877511'>cmake-language-server.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/185546367'>deltachat-cursed.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -10740,6 +10746,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/185877423'>python310Packages.jedi-language-server.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/185538169'>python310Packages.moto.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -10771,6 +10783,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/185549125'>python310Packages.pyfxa.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/185877477'>python310Packages.pygls.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -10836,6 +10854,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/185877528'>python39Packages.jedi-language-server.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/185551947'>python39Packages.moto.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -10867,6 +10891,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/185529019'>python39Packages.pyfxa.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/185877464'>python39Packages.pygls.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -10942,61 +10972,11 @@ Built for evals:
 </td>
 <td>Timed out</td>
 </tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>6 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/185877511'>cmake-language-server.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/185877423'>python310Packages.jedi-language-server.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/185877477'>python310Packages.pygls.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/185877528'>python39Packages.jedi-language-server.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/185877464'>python39Packages.pygls.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/185877485'>vscode-extensions.ms-python.python.aarch64-darwin</a></tt>
 </td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
+<td>Timed out</td>
 </tr>
 </table>
 </details>
