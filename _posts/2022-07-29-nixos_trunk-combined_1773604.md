@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-07-30 09:11:38 UTC*
+*Report built at 2022-07-30 10:12:28 UTC*
 
 Built for evals:
 
@@ -3925,7 +3925,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>915 issues</summary>
+<details><summary>917 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -7122,6 +7122,34 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/185726569'>nixpkgs.qgis-ltr.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>qgis-ltr-unwrapped-3.22.9</tt> <br /> <a href='https://hydra.nixos.org/build/185726569/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/185726569/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/185726569/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/185726246'>build 185726246</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/185727405'>nixpkgs.qgis.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>qgis-unwrapped-3.26.1</tt> <br /> <a href='https://hydra.nixos.org/build/185727405/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/185727405/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/185727405/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/185726167'>build 185726167</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/185591932'>nixpkgs.qt514.full.x86_64-linux</a></tt>
 </summary>
 <ul>
@@ -7427,47 +7455,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/185886323'>tested</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Failed</b> <tt>vm-test-run-keymap-azerty</tt> <br /> <a href='https://hydra.nixos.org/build/185886323/nixlog/541'>log</a>, <a href='https://hydra.nixos.org/build/185886323/nixlog/541/raw'>raw</a>, <a href='https://hydra.nixos.org/build/185886323/nixlog/541/tail'>tail</a>, <a href='https://hydra.nixos.org/build/185886170'>build 185886170</a>
-</li>
-<li>
-<b>=> Aborted</b> <tt>closure-info</tt> <br /> <a href='https://hydra.nixos.org/build/185886323/nixlog/524'>log</a>, <a href='https://hydra.nixos.org/build/185886323/nixlog/524/raw'>raw</a>, <a href='https://hydra.nixos.org/build/185886323/nixlog/524/tail'>tail</a>
-</li>
-<li>
-<b>=> Aborted</b> <tt>nixos-vm</tt> <br /> <a href='https://hydra.nixos.org/build/185886323/nixlog/496'>log</a>, <a href='https://hydra.nixos.org/build/185886323/nixlog/496/raw'>raw</a>, <a href='https://hydra.nixos.org/build/185886323/nixlog/496/tail'>tail</a>
-</li>
-<li>
-<b>=> Aborted</b> <tt>unit-dbus.service</tt> <br /> <a href='https://hydra.nixos.org/build/185886323/nixlog/491'>log</a>, <a href='https://hydra.nixos.org/build/185886323/nixlog/491/raw'>raw</a>, <a href='https://hydra.nixos.org/build/185886323/nixlog/491/tail'>tail</a>
-</li>
-<li>
-<b>=> Aborted</b> <tt>nixos-vm</tt> <br /> <a href='https://hydra.nixos.org/build/185886323/nixlog/490'>log</a>, <a href='https://hydra.nixos.org/build/185886323/nixlog/490/raw'>raw</a>, <a href='https://hydra.nixos.org/build/185886323/nixlog/490/tail'>tail</a>
-</li>
-<li>
-<b>=> Aborted</b> <tt>unit-dbus.service</tt> <br /> <a href='https://hydra.nixos.org/build/185886323/nixlog/489'>log</a>, <a href='https://hydra.nixos.org/build/185886323/nixlog/489/raw'>raw</a>, <a href='https://hydra.nixos.org/build/185886323/nixlog/489/tail'>tail</a>
-</li>
-<li>
-<b>=> Aborted</b> <tt>nixos-vm</tt> <br /> <a href='https://hydra.nixos.org/build/185886323/nixlog/488'>log</a>, <a href='https://hydra.nixos.org/build/185886323/nixlog/488/raw'>raw</a>, <a href='https://hydra.nixos.org/build/185886323/nixlog/488/tail'>tail</a>
-</li>
-<li>
-<b>=> Aborted</b> <tt>squashfs.img</tt> <br /> <a href='https://hydra.nixos.org/build/185886323/nixlog/121'>log</a>, <a href='https://hydra.nixos.org/build/185886323/nixlog/121/raw'>raw</a>, <a href='https://hydra.nixos.org/build/185886323/nixlog/121/tail'>tail</a>
-</li>
-<li>
-<b>=> Aborted</b> <tt>nixos-system-client-22.11pre-git</tt> <br /> <a href='https://hydra.nixos.org/build/185886323/nixlog/114'>log</a>, <a href='https://hydra.nixos.org/build/185886323/nixlog/114/raw'>raw</a>, <a href='https://hydra.nixos.org/build/185886323/nixlog/114/tail'>tail</a>
-</li>
-<li>
-<b>=> Aborted</b> <tt>stage-1-init.sh</tt> <br /> <a href='https://hydra.nixos.org/build/185886323/nixlog/24'>log</a>, <a href='https://hydra.nixos.org/build/185886323/nixlog/24/raw'>raw</a>, <a href='https://hydra.nixos.org/build/185886323/nixlog/24/tail'>tail</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/185885959'>nixos.amazonImageZfs.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -7726,6 +7713,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/185884088'>nixos.tests.custom-ca.midori.x86_64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/185887254'>nixos.tests.dhparams.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -7811,6 +7804,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/185883984'>nixos.tests.image-contents.x86_64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/185884963'>nixos.tests.initrd-network-openvpn.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -7907,12 +7906,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/185886080'>nixos.tests.keepassxc.x86_64-linux</a></tt>
-</td>
-<td>Failed</td>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/185888779'>nixos.tests.keymap.dvorak-programmer.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -11475,7 +11468,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>164 issues</summary>
+<details><summary>165 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -13029,6 +13022,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/185885906'>nixos.tests.hbase1.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/185883043'>nixos.tests.hub.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -13280,7 +13279,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>12 issues</summary>
+<details><summary>7 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -13303,13 +13302,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/185884088'>nixos.tests.custom-ca.midori.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/185889707'>nixos.tests.fcitx.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -13318,20 +13310,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/185884394'>nixos.tests.fcitx.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/185885906'>nixos.tests.hbase1.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/185884963'>nixos.tests.initrd-network-openvpn.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -13353,20 +13331,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/185884559'>nixos.tests.wine.wineWowPackages-wayland.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/185726569'>nixpkgs.qgis-ltr.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/185727405'>nixpkgs.qgis.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -14143,16 +14107,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt>x86_64-linux nixos-vm</tt></summary>
-<ul>
-<li>tested</li>
-</ul>
-</details>
-</td>
-<td>3</td>
-</tr>
-<tr>
-<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/185886033'>aarch64-linux nixos-test-driver-isso</a></tt></summary>
 <ul>
 <li>nixos.tests.isso.aarch64-linux</li>
@@ -14270,16 +14224,6 @@ Built for evals:
 </details>
 </td>
 <td>3</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>x86_64-linux unit-dbus.service</tt></summary>
-<ul>
-<li>tested</li>
-</ul>
-</details>
-</td>
-<td>2</td>
 </tr>
 <tr>
 <td>
@@ -14814,56 +14758,6 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/185886834'>x86_64-linux python3.10-glean-sdk-50.1.2</a></tt></summary>
 <ul>
 <li>nixpkgs.moz-phab.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/185886170'>x86_64-linux vm-test-run-keymap-azerty</a></tt></summary>
-<ul>
-<li>tested</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>x86_64-linux closure-info</tt></summary>
-<ul>
-<li>tested</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>x86_64-linux squashfs.img</tt></summary>
-<ul>
-<li>tested</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>x86_64-linux nixos-system-client-22.11pre-git</tt></summary>
-<ul>
-<li>tested</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>x86_64-linux stage-1-init.sh</tt></summary>
-<ul>
-<li>tested</li>
 </ul>
 </details>
 </td>
@@ -15484,6 +15378,26 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/184750130'>x86_64-linux python3.9-biliass-1.3.5</a></tt></summary>
 <ul>
 <li>nixpkgs.python39Packages.yutto.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/185726246'>x86_64-linux qgis-ltr-unwrapped-3.22.9</a></tt></summary>
+<ul>
+<li>nixpkgs.qgis-ltr.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/185726167'>x86_64-linux qgis-unwrapped-3.26.1</a></tt></summary>
+<ul>
+<li>nixpkgs.qgis.x86_64-linux</li>
 </ul>
 </details>
 </td>
