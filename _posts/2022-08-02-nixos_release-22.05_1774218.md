@@ -4,7 +4,7 @@ categories: nixos:release-22.05
 ---
 # Evals report
 
-*Report built at 2022-08-02 17:24:02 UTC*
+*Report built at 2022-08-02 18:16:10 UTC*
 
 Built for evals:
 
@@ -2274,7 +2274,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>567 issues</summary>
+<details><summary>568 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -6582,6 +6582,12 @@ Built for evals:
 </td>
 <td>Timed out</td>
 </tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/186106277'>nixpkgs.paperwork.x86_64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
 </table>
 </details>
 
@@ -9706,7 +9712,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>4 issues</summary>
+<details><summary>3 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -9730,13 +9736,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/186106647'>nixos.tests.wine.wineWowPackages-wayland.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/186106277'>nixpkgs.paperwork.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
