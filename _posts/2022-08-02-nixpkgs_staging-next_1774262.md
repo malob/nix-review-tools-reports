@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next
 ---
 # Evals report
 
-*Report built at 2022-08-02 20:16:33 UTC*
+*Report built at 2022-08-02 21:13:57 UTC*
 
 Built for evals:
 
@@ -10580,7 +10580,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>877 issues</summary>
+<details><summary>878 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -19367,6 +19367,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/185824829'>lite-xl.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/186107192'>ltris.x86_64-darwin</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -38144,7 +38150,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>1809 issues</summary>
+<details><summary>1805 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -42052,13 +42058,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/186107518'>libxc.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/186103763'>libzapojit.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -44520,13 +44519,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/186107192'>ltris.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -49322,20 +49314,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/186107260'>suitesparse-graphblas.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/186107598'>suitesparse-graphblas.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
