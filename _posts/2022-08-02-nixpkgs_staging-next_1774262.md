@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next
 ---
 # Evals report
 
-*Report built at 2022-08-03 10:15:59 UTC*
+*Report built at 2022-08-03 11:14:20 UTC*
 
 Built for evals:
 
@@ -19551,7 +19551,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>762 issues</summary>
+<details><summary>763 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -23853,6 +23853,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>arrow-cpp-8.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/185908228/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/185908228/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/185908228/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/185912506'>build 185912506</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/186104665'>taler-merchant.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>merchant-60dcacf</tt> <br /> <a href='https://hydra.nixos.org/build/186104665/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/186104665/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/186104665/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/186210995'>build 186210995</a>
 </li>
 </ul>
 </details>
@@ -39382,7 +39396,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>105 issues</summary>
+<details><summary>98 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -39650,13 +39664,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/186105081'>gnss-sdr.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/186105171'>gnuradio3_9.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -39721,20 +39728,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/186104634'>k40-whisperer.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/186102935'>libreoffice-fresh.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/186100658'>libreoffice-qt.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
@@ -39847,13 +39840,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/186107686'>pipework.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/186103772'>polkadot.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
@@ -40049,21 +40035,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/186107722'>suitesparse-graphblas.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/186104854'>t-rec.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/186104665'>taler-merchant.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
@@ -40078,13 +40050,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/186105198'>toppler.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/186104196'>trafficserver.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
@@ -42488,6 +42453,17 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/186210995'>aarch64-linux merchant-60dcacf</a></tt></summary>
+<ul>
+<li>taler-merchant.aarch64-linux</li>
+<li>taler-merchant.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>6</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt>x86_64-linux nifi-1.16.3-bin.tar.gz</tt></summary>
 <ul>
 <li>nifi.x86_64-linux</li>
@@ -42628,16 +42604,6 @@ Built for evals:
 <ul>
 <li>python39Packages.pysideTools.aarch64-linux</li>
 <li>python39Packages.pysideTools.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>5</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>x86_64-linux merchant-60dcacf</tt></summary>
-<ul>
-<li>taler-merchant.x86_64-linux</li>
 </ul>
 </details>
 </td>
