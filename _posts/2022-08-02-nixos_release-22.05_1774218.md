@@ -1,10 +1,10 @@
 ---
-title: nixos:release-22.05 1774218 (succeeded)
+title: nixos:release-22.05 1774218
 categories: nixos:release-22.05
 ---
 # Evals report
 
-*Report built at 2022-08-03 03:23:21 UTC*
+*Report built at 2022-08-03 12:22:39 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### i686-linux
 
 
-<details><summary>201 issues</summary>
+<details><summary>200 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -1975,12 +1975,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/186106639'>nixos.tests.installer.btrfsSubvols.i686-linux</a></tt>
-</td>
-<td>Failed</td>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/186106761'>nixos.tests.installer.encryptedFSWithKeyfile.i686-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -2274,7 +2268,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>569 issues</summary>
+<details><summary>568 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -3664,20 +3658,6 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>vimplugin-lens.vim-2021-05-30</tt> <br /> <a href='https://hydra.nixos.org/build/185261902/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/185261902/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/185261902/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/184727865'>build 184727865</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/186106275'>tested</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Failed</b> <tt>nixos-ova-22.05.2167.a9f66ae6401-x86_64-linux</tt> <br /> <a href='https://hydra.nixos.org/build/186106275/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/186106275/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/186106275/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/186106308'>build 186106308</a>
 </li>
 </ul>
 </details>
@@ -9714,6 +9694,34 @@ Built for evals:
 </table>
 </details>
 
+
+### Still queued
+
+
+<details><summary>2 issues</summary>
+<table>
+<thead><tr>
+<th>job</th>
+<th>status</th>
+<th>platform</th>
+</tr></thead>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/186106308'>nixos.ova.x86_64-linux</a></tt>
+</td>
+<td>Queued</td>
+<th>x86_64-linux</th>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/186106275'>tested</a></tt>
+</td>
+<td>Queued</td>
+<th>x86_64-linux</th>
+</tr>
+</table>
+</details>
+
 ## Problematic dependencies
 
 <table>
@@ -10655,16 +10663,6 @@ Built for evals:
 </details>
 </td>
 <td>2</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/186106308'>x86_64-linux nixos-ova-22.05.2167.a9f66ae6401-x86_64-linux</a></tt></summary>
-<ul>
-<li>tested</li>
-</ul>
-</details>
-</td>
-<td>1</td>
 </tr>
 <tr>
 <td>
