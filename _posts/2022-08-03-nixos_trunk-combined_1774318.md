@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-08-03 10:13:01 UTC*
+*Report built at 2022-08-03 11:11:25 UTC*
 
 Built for evals:
 
@@ -3890,7 +3890,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>1114 issues</summary>
+<details><summary>1115 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -10895,6 +10895,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/186114095'>nixos.tests.flannel.x86_64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/186109037'>nixos.tests.geth.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -14422,7 +14428,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>159 issues</summary>
+<details><summary>160 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -15826,6 +15832,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/186113689'>nixos.tests.hbase1.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/186112411'>nixos.tests.hub.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -16101,7 +16113,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>10 issues</summary>
+<details><summary>8 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -16135,20 +16147,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/186114095'>nixos.tests.flannel.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/186113689'>nixos.tests.hbase1.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
