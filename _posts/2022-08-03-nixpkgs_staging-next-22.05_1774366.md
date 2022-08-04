@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next-22.05
 ---
 # Evals report
 
-*Report built at 2022-08-04 03:04:50 UTC*
+*Report built at 2022-08-04 04:02:52 UTC*
 
 Built for evals:
 
@@ -36550,7 +36550,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>7684 issues</summary>
+<details><summary>7683 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -62887,13 +62887,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/185976189'>paprefs.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/185947508'>paraview.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
