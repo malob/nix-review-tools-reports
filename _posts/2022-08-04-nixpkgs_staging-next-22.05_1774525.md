@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next-22.05
 ---
 # Evals report
 
-*Report built at 2022-08-04 18:17:28 UTC*
+*Report built at 2022-08-04 19:13:00 UTC*
 
 Built for evals:
 
@@ -9063,7 +9063,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>945 issues</summary>
+<details><summary>947 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -18113,6 +18113,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/185962481'>python310Packages.pygls.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/185954788'>python310Packages.splinter.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -18150,6 +18156,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/185965986'>python39Packages.moto.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/185967313'>python39Packages.nitime.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -18262,7 +18274,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>6771 issues</summary>
+<details><summary>6767 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -47797,13 +47809,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/185964377'>python310Packages.graph-tool.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/185959569'>python310Packages.graph-tool.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -49705,13 +49710,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/185962481'>python310Packages.pygls.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -54706,13 +54704,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/185967313'>python39Packages.nitime.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/185981812'>python39Packages.nix-kernel.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -57703,13 +57694,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/185982287'>racket-minimal.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/185957373'>racket_7_9.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
