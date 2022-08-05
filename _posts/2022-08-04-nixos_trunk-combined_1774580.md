@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-08-05 10:13:04 UTC*
+*Report built at 2022-08-05 12:21:28 UTC*
 
 Built for evals:
 
@@ -3234,7 +3234,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>1197 issues</summary>
+<details><summary>1195 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -15284,12 +15284,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/186383478'>nixos.ova.x86_64-linux</a></tt>
-</td>
-<td>Timed out</td>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/186362278'>nixos.tests.cloud-init.x86_64-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -15321,12 +15315,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/186248995'>nixpkgs.prusa-slicer.x86_64-linux</a></tt>
-</td>
-<td>Timed out</td>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/186381022'>tested</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -15602,7 +15590,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>1536 issues</summary>
+<details><summary>1537 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -15773,6 +15761,13 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/186380411'>nixos.netboot.aarch64-linux</a></tt>
+</td>
+<td>Queued</td>
+<th>x86_64-linux</th>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/186383478'>nixos.ova.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -22569,13 +22564,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/186380355'>nixos.tests.installer-systemd-stage-1.zfsroot.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/186382426'>nixos.tests.installer.simpleUefiGrub.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -26360,6 +26348,13 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/186381022'>tested</a></tt>
+</td>
+<td>Queued</td>
+<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
