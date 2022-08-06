@@ -13,6 +13,7 @@ plugins:
   - jekyll-feed
   - jekyll-default-layout
   - jekill-remote-theme
+  - jekyll-sitemap
 
 remote_theme: jekyll/minima
 
