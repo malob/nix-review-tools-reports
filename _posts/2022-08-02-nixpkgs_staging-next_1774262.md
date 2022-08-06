@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:staging-next 1774262
+title: nixpkgs:staging-next 1774262 (succeeded)
 categories: nixpkgs:staging-next
 ---
 # Evals report
 
-*Report built at 2022-08-06 14:12:32 UTC*
+*Report built at 2022-08-06 15:13:39 UTC*
 
 Built for evals:
 
@@ -19551,7 +19551,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>767 issues</summary>
+<details><summary>768 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -23743,6 +23743,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>qgis-ltr-unwrapped-3.22.9</tt> <br /> <a href='https://hydra.nixos.org/build/186099611/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/186099611/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/186099611/nixlog/1/tail'>tail</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/186105161'>qgis.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>qgis-unwrapped-3.26.1</tt> <br /> <a href='https://hydra.nixos.org/build/186105161/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/186105161/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/186105161/nixlog/1/tail'>tail</a>
 </li>
 </ul>
 </details>
@@ -39424,27 +39438,6 @@ Built for evals:
 </table>
 </details>
 
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/186105161'>qgis.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-</table>
-</details>
-
 ## Problematic dependencies
 
 <table>
@@ -43236,6 +43229,17 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt>aarch64-linux qgis-unwrapped-3.26.1</tt></summary>
+<ul>
+<li>qgis.aarch64-linux</li>
+<li>qgis.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/185746866'>aarch64-linux libretro-citra-unstable-2022-04-21</a></tt></summary>
 <ul>
 <li>retroarchFull.aarch64-linux</li>
@@ -43572,16 +43576,6 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/186101197'>x86_64-linux python3.9-paperwork-backend-2.1.1</a></tt></summary>
 <ul>
 <li>python39Packages.paperwork-shell.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>x86_64-linux qgis-unwrapped-3.26.1</tt></summary>
-<ul>
-<li>qgis.x86_64-linux</li>
 </ul>
 </details>
 </td>
