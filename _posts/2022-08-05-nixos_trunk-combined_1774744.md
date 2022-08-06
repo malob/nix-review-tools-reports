@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-08-06 12:17:34 UTC*
+*Report built at 2022-08-06 13:22:30 UTC*
 
 Built for evals:
 
@@ -3220,7 +3220,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>1182 issues</summary>
+<details><summary>1184 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -3229,6 +3229,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/186499685'>nixos.tests.nifi.x86_64-linux</a></tt>
+</td>
+<td>Aborted</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/186285458'>nixpkgs.opendylan.x86_64-linux</a></tt>
 </td>
 <td>Aborted</td>
 </tr>
@@ -8026,6 +8032,32 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>netcdf-cxx4-4.3.1</tt> <br /> <a href='https://hydra.nixos.org/build/186379177/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/186379177/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/186379177/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/186379799'>build 186379799</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/186265605'>nixpkgs.nifi.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nifi-1.16.3-bin.tar.gz</tt> <br /> <a href='https://hydra.nixos.org/build/186265605/nixlog/5'>log</a>, <a href='https://hydra.nixos.org/build/186265605/nixlog/5/raw'>raw</a>, <a href='https://hydra.nixos.org/build/186265605/nixlog/5/tail'>tail</a>, <a href='https://hydra.nixos.org/build/186274291'>build 186274291</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>nifi-1.16.3-bin.tar.gz</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>nifi-1.16.3-bin.tar.gz</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>nifi-1.16.3-bin.tar.gz</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>nifi-1.16.3-bin.tar.gz</tt> <br /> 
 </li>
 </ul>
 </details>
@@ -16858,7 +16890,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>11 issues</summary>
+<details><summary>9 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -16924,20 +16956,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/186501201'>nixos.tests.wine.wineWowPackages-wayland.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/186265605'>nixpkgs.nifi.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/186285458'>nixpkgs.opendylan.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -17831,6 +17849,16 @@ Built for evals:
 <details><summary><tt>x86_64-linux mucommander-deps-0.9.3-3</tt></summary>
 <ul>
 <li>nixpkgs.mucommander.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>5</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/186274291'>x86_64-linux nifi-1.16.3-bin.tar.gz</a></tt></summary>
+<ul>
+<li>nixpkgs.nifi.x86_64-linux</li>
 </ul>
 </details>
 </td>
