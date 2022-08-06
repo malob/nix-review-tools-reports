@@ -7,11 +7,14 @@ url: https://malob.github.io
 github_username: malob
 
 markdown: kramdown
-theme: minima
+# theme: minima
 permalink: none
 plugins:
   - jekyll-feed
   - jekyll-default-layout
+  - jekill-remote-theme
+
+remote_theme: jekyll/minima
 
 exclude:
   - Gemfile
