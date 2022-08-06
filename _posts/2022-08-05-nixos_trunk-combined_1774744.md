@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-08-06 13:22:30 UTC*
+*Report built at 2022-08-06 14:10:26 UTC*
 
 Built for evals:
 
@@ -3229,12 +3229,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/186499685'>nixos.tests.nifi.x86_64-linux</a></tt>
-</td>
-<td>Aborted</td>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/186285458'>nixpkgs.opendylan.x86_64-linux</a></tt>
 </td>
 <td>Aborted</td>
 </tr>
@@ -12560,6 +12554,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/186503195'>nixos.tests.vengi-tools.x86_64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/186499583'>nixos.tests.vscodium.wayland.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -16948,14 +16948,14 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/186503195'>nixos.tests.vengi-tools.x86_64-linux</a></tt>
+<tt><a href='https://hydra.nixos.org/build/186501201'>nixos.tests.wine.wineWowPackages-wayland.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/186501201'>nixos.tests.wine.wineWowPackages-wayland.x86_64-linux</a></tt>
+<tt><a href='https://hydra.nixos.org/build/186285458'>nixpkgs.opendylan.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
