@@ -1,10 +1,10 @@
 ---
-title: nixos:release-22.05 1775013
+title: nixos:release-22.05 1775013 (succeeded)
 categories: nixos:release-22.05
 ---
 # Evals report
 
-*Report built at 2022-08-07 12:19:19 UTC*
+*Report built at 2022-08-07 13:24:15 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### i686-linux
 
 
-<details><summary>186 issues</summary>
+<details><summary>187 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -2141,6 +2141,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/186443168'>nixos.tests.gitolite.i686-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/186668965'>nixos.tests.kexec.i686-linux</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -13423,27 +13429,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/184702791'>nixpkgs.oatpp.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/186668965'>nixos.tests.kexec.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
 </tr>
 </table>
 </details>
