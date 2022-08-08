@@ -1,10 +1,10 @@
 ---
-title: nixos:trunk-combined 1775067
+title: nixos:trunk-combined 1775067 (succeeded)
 categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-08-08 07:11:35 UTC*
+*Report built at 2022-08-08 08:16:27 UTC*
 
 Built for evals:
 
@@ -16973,27 +16973,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/186663041'>nixos.tests.fcitx.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/186669903'>nixpkgs.qgis-ltr.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
