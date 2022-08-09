@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:staging-next 1775176
+title: nixpkgs:staging-next 1775176 (succeeded)
 categories: nixpkgs:staging-next
 ---
 # Evals report
 
-*Report built at 2022-08-09 01:03:58 UTC*
+*Report built at 2022-08-09 03:20:23 UTC*
 
 Built for evals:
 
@@ -80238,7 +80238,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1665 issues</summary>
+<details><summary>1666 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -97346,6 +97346,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/186770372'>haskellPackages.snowchecked.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/186641632'>haskellPackages.spacecookie.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -97493,34 +97499,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/186549952'>tecnoballz.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>2 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/186770372'>haskellPackages.snowchecked.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/186775414'>paraview.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 </table>
 </details>
