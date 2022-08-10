@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next
 ---
 # Evals report
 
-*Report built at 2022-08-09 23:14:45 UTC*
+*Report built at 2022-08-10 00:59:59 UTC*
 
 Built for evals:
 
@@ -15080,7 +15080,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>564 issues</summary>
+<details><summary>567 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -16803,6 +16803,62 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/186621229'>mucommander.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>mucommander-deps-0.9.3-3</tt> <br /> <a href='https://hydra.nixos.org/build/186621229/nixlog/15'>log</a>, <a href='https://hydra.nixos.org/build/186621229/nixlog/15/raw'>raw</a>, <a href='https://hydra.nixos.org/build/186621229/nixlog/15/tail'>tail</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>mucommander-deps-0.9.3-3</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>mucommander-deps-0.9.3-3</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>mucommander-deps-0.9.3-3</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>mucommander-deps-0.9.3-3</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>mucommander-deps-0.9.3-3</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>mucommander-deps-0.9.3-3</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>mucommander-deps-0.9.3-3</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>mucommander-deps-0.9.3-3</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>mucommander-deps-0.9.3-3</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>mucommander-deps-0.9.3-3</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>mucommander-deps-0.9.3-3</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>mucommander-deps-0.9.3-3</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>mucommander-deps-0.9.3-3</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>mucommander-deps-0.9.3-3</tt> <br /> 
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/186629587'>napalm.aarch64-linux</a></tt>
 </summary>
 <ul>
@@ -18004,6 +18060,47 @@ Built for evals:
 </li>
 <li>
 <b>=> Cached failure</b> <tt>python3.9-biliass-1.3.5</tt> <br /> <a href='https://hydra.nixos.org/build/186614424'>build 186614424</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/186765071'>remind.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>remind-04.00.01.tar.gz</tt> <br /> <a href='https://hydra.nixos.org/build/186765071/nixlog/10'>log</a>, <a href='https://hydra.nixos.org/build/186765071/nixlog/10/raw'>raw</a>, <a href='https://hydra.nixos.org/build/186765071/nixlog/10/tail'>tail</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>remind-04.00.01.tar.gz</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>remind-04.00.01.tar.gz</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>remind-04.00.01.tar.gz</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>remind-04.00.01.tar.gz</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>remind-04.00.01.tar.gz</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>remind-04.00.01.tar.gz</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>remind-04.00.01.tar.gz</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>remind-04.00.01.tar.gz</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>remind-04.00.01.tar.gz</tt> <br /> 
 </li>
 </ul>
 </details>
@@ -20872,6 +20969,12 @@ Built for evals:
 </td>
 <td>Output size limit exceeded</td>
 </tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/186620780'>oatpp.aarch64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
 </table>
 </details>
 
@@ -20879,7 +20982,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1084 issues</summary>
+<details><summary>1085 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -32427,6 +32530,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/186660617'>python39Packages.nitime.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/186525120'>python39Packages.pybrowserid.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -32468,7 +32577,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>9406 issues</summary>
+<details><summary>9402 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -56788,13 +56897,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/186621229'>mucommander.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/187049425'>n3.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -57247,13 +57349,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/186620780'>oatpp.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -89548,13 +89643,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/186660617'>python39Packages.nitime.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/187055864'>python39Packages.nix-kernel.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -95666,13 +95754,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/186765071'>remind.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/187046645'>routersploit.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -98873,6 +98954,19 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt>aarch64-darwin mucommander-deps-0.9.3-3</tt></summary>
+<ul>
+<li>mucommander.aarch64-darwin</li>
+<li>mucommander.aarch64-linux</li>
+<li>mucommander.x86_64-darwin</li>
+<li>mucommander.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>55</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/186545197'>aarch64-darwin qt-4.8.7</a></tt></summary>
 <ul>
 <li>avogadro.aarch64-darwin</li>
@@ -98927,6 +99021,20 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt>aarch64-darwin remind-04.00.01.tar.gz</tt></summary>
+<ul>
+<li>remind.aarch64-darwin</li>
+<li>remind.aarch64-linux</li>
+<li>remind.x86_64-darwin</li>
+<li>remind.x86_64-linux</li>
+<li>wyrd.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>42</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/186536586'>aarch64-darwin perl5.36.0-biber-2.17</a></tt></summary>
 <ul>
 <li>blahtexml.aarch64-darwin</li>
@@ -98967,18 +99075,6 @@ Built for evals:
 <li>moc.aarch64-darwin</li>
 <li>pulsemixer.aarch64-darwin</li>
 <li>roc-toolkit.aarch64-darwin</li>
-</ul>
-</details>
-</td>
-<td>40</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>aarch64-darwin mucommander-deps-0.9.3-3</tt></summary>
-<ul>
-<li>mucommander.aarch64-darwin</li>
-<li>mucommander.x86_64-darwin</li>
-<li>mucommander.x86_64-linux</li>
 </ul>
 </details>
 </td>
@@ -99093,19 +99189,6 @@ Built for evals:
 </details>
 </td>
 <td>33</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>aarch64-darwin remind-04.00.01.tar.gz</tt></summary>
-<ul>
-<li>remind.aarch64-darwin</li>
-<li>remind.x86_64-darwin</li>
-<li>remind.x86_64-linux</li>
-<li>wyrd.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>32</td>
 </tr>
 <tr>
 <td>
