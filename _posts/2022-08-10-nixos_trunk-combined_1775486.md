@@ -1,10 +1,10 @@
 ---
-title: nixos:trunk-combined 1775486
+title: nixos:trunk-combined 1775486 (succeeded)
 categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-08-11 00:54:33 UTC*
+*Report built at 2022-08-11 02:55:43 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### i686-linux
 
 
-<details><summary>286 issues</summary>
+<details><summary>288 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -3118,6 +3118,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/187071525'>nixos.tests.installer.zfsroot.i686-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/186933458'>nixos.tests.invoiceplane.i686-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -3304,6 +3310,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/187071321'>nixos.tests.kexec.i686-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/186934642'>nixos.tests.systemd-cryptenroll.i686-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -3315,7 +3327,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>1170 issues</summary>
+<details><summary>1173 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -4127,6 +4139,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>gnat-9.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/186671720/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/186671720/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/186671720/nixlog/1/tail'>tail</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/187072076'>nixpkgs.gnome-keysign.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.10-magic-wormhole-0.12.0</tt> <br /> <a href='https://hydra.nixos.org/build/187072076/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/187072076/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/187072076/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/187070712'>build 187070712</a>
 </li>
 </ul>
 </details>
@@ -11931,6 +11957,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/187072168'>nixos.tests.enlightenment.x86_64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/186928663'>nixos.tests.etesync-dav.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -15109,6 +15141,12 @@ Built for evals:
 </td>
 <td>Timed out</td>
 </tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/187071536'>tested</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
 </table>
 </details>
 
@@ -15116,7 +15154,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>156 issues</summary>
+<details><summary>157 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -16442,6 +16480,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/187071482'>nixos.tests.enlightenment.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/186929420'>nixos.tests.etesync-dav.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -16751,62 +16795,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/186931033'>nixos.tests.vengi-tools.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>6 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/187071998'>nixos.ova.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/187071482'>nixos.tests.enlightenment.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/187072168'>nixos.tests.enlightenment.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/187071525'>nixos.tests.installer.zfsroot.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/187071321'>nixos.tests.kexec.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/187071536'>tested</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
@@ -17687,6 +17675,19 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/187070712'>x86_64-linux python3.10-magic-wormhole-0.12.0</a></tt></summary>
+<ul>
+<li>nixpkgs.gnome-keysign.x86_64-linux</li>
+<li>nixpkgs.tahoe-lafs.x86_64-linux</li>
+<li>nixos.tests.magic-wormhole-mailbox-server.aarch64-linux</li>
+<li>nixos.tests.magic-wormhole-mailbox-server.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>4</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/186503166'>i686-linux clickhouse-22.3.2.2</a></tt></summary>
 <ul>
 <li>nixos.tests.allDrivers.clickhouse.i686-linux</li>
@@ -17788,18 +17789,6 @@ Built for evals:
 </details>
 </td>
 <td>4</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/187070712'>x86_64-linux python3.10-magic-wormhole-0.12.0</a></tt></summary>
-<ul>
-<li>nixpkgs.tahoe-lafs.x86_64-linux</li>
-<li>nixos.tests.magic-wormhole-mailbox-server.aarch64-linux</li>
-<li>nixos.tests.magic-wormhole-mailbox-server.i686-linux</li>
-</ul>
-</details>
-</td>
-<td>3</td>
 </tr>
 <tr>
 <td>
