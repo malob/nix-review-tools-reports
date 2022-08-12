@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:staging-next 1775625 (succeeded)
+title: nixpkgs:staging-next 1775625
 categories: nixpkgs:staging-next
 ---
 # Evals report
 
-*Report built at 2022-08-12 03:05:23 UTC*
+*Report built at 2022-08-12 11:13:21 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>1057 issues</summary>
+<details><summary>1056 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -1551,20 +1551,6 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>mailcommon-22.04.3</tt> <br /> <a href='https://hydra.nixos.org/build/187081982/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/187081982/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/187081982/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/187085585'>build 187085585</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/187084076'>libtensorflow.x86_64-linux</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Cached failure</b> <tt>tensorflow-2.10.0-rc0-deps.tar.gz</tt> <br /> <a href='https://hydra.nixos.org/build/187084076/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/187084076/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/187084076/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/187068875'>build 187068875</a>
 </li>
 </ul>
 </details>
@@ -41133,6 +41119,27 @@ Built for evals:
 </table>
 </details>
 
+
+### Still queued
+
+
+<details><summary>1 issues</summary>
+<table>
+<thead><tr>
+<th>job</th>
+<th>status</th>
+<th>platform</th>
+</tr></thead>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/187084076'>libtensorflow.x86_64-linux</a></tt>
+</td>
+<td>Queued</td>
+<th>x86_64-linux</th>
+</tr>
+</table>
+</details>
+
 ## Problematic dependencies
 
 <table>
@@ -41764,7 +41771,6 @@ Built for evals:
 <ul>
 <li>libtensorflow.aarch64-linux</li>
 <li>libtensorflow.x86_64-darwin</li>
-<li>libtensorflow.x86_64-linux</li>
 <li>python310Packages.dalle-mini.x86_64-linux</li>
 <li>python310Packages.distrax.x86_64-linux</li>
 <li>python310Packages.dm-sonnet.x86_64-linux</li>
@@ -41852,7 +41858,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>95</td>
+<td>94</td>
 </tr>
 <tr>
 <td>
