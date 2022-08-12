@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:nixpkgs-unstable-aarch64-darwin 1775723
+title: nixpkgs:nixpkgs-unstable-aarch64-darwin 1775723 (succeeded)
 categories: nixpkgs:nixpkgs-unstable-aarch64-darwin
 ---
 # Evals report
 
-*Report built at 2022-08-12 13:37:17 UTC*
+*Report built at 2022-08-12 15:13:01 UTC*
 
 Built for evals:
 
@@ -34,7 +34,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1139 issues</summary>
+<details><summary>1141 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -9909,7 +9909,19 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/187092397'>python39Packages.apache-beam.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/186297868'>python39Packages.debugpy.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/187092686'>python39Packages.hyppo.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -9990,34 +10002,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/187092073'>vscode-extensions.ms-python.python.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>2 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/187092397'>python39Packages.apache-beam.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/187092686'>python39Packages.hyppo.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 </table>
 </details>
