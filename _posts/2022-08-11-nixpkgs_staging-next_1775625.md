@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:staging-next 1775625
+title: nixpkgs:staging-next 1775625 (succeeded)
 categories: nixpkgs:staging-next
 ---
 # Evals report
 
-*Report built at 2022-08-12 00:55:52 UTC*
+*Report built at 2022-08-12 03:05:23 UTC*
 
 Built for evals:
 
@@ -20512,7 +20512,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>774 issues</summary>
+<details><summary>775 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -28525,6 +28525,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/187051859'>python310Packages.bellows.aarch64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/187080794'>python39Packages.apache-beam.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -41123,34 +41129,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/187055617'>vscode-extensions.ms-python.python.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>2 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/187080794'>python39Packages.apache-beam.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/187081518'>qgis.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 </table>
 </details>
