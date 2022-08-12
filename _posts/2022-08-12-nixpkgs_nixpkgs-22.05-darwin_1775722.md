@@ -1,16 +1,35 @@
 ---
-title: nixpkgs:nixpkgs-22.05-darwin 1775722
+title: nixpkgs:nixpkgs-22.05-darwin 1775722 (succeeded)
 categories: nixpkgs:nixpkgs-22.05-darwin
 ---
 # Evals report
 
-*Report built at 2022-08-12 10:13:41 UTC*
+*Report built at 2022-08-12 11:11:07 UTC*
 
 Built for evals:
 
   * [1775722](https://hydra.nixos.org/eval/1775722)
 
  * * * 
+
+### x86_64-linux
+
+
+<details><summary>1 issues</summary>
+<table>
+<thead><tr>
+<th>job</th>
+<th>status</th>
+</tr></thead>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/187091801'>metrics</a></tt>
+</td>
+<td>Aborted</td>
+</tr>
+</table>
+</details>
+
 
 ### x86_64-darwin
 
@@ -10087,41 +10106,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/186488099'>tecnoballz.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>3 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/187091800'>darwin-tested</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/187091801'>metrics</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/187091802'>tarball</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
