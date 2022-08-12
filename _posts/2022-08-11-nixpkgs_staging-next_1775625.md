@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next
 ---
 # Evals report
 
-*Report built at 2022-08-12 11:13:21 UTC*
+*Report built at 2022-08-12 21:14:10 UTC*
 
 Built for evals:
 
@@ -15,18 +15,12 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>1056 issues</summary>
+<details><summary>1054 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/187082968'>unstable</a></tt>
-</td>
-<td>Aborted</td>
-</tr>
 <tr>
 <td>
 <details><summary>
@@ -545,20 +539,6 @@ Built for evals:
 </li>
 <li>
 <b>=> Cached failure</b> <tt>gnat-11.3.0</tt> <br /> <a href='https://hydra.nixos.org/build/186772814'>build 186772814</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/187083319'>cryptomator.x86_64-linux</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Cached failure</b> <tt>cryptomator-1.6.13-deps</tt> <br /> <a href='https://hydra.nixos.org/build/187083319/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/187083319/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/187083319/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/187079158'>build 187079158</a>
 </li>
 </ul>
 </details>
@@ -41132,7 +41112,7 @@ Built for evals:
 </tr></thead>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/187084076'>libtensorflow.x86_64-linux</a></tt>
+<tt><a href='https://hydra.nixos.org/build/187082968'>unstable</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -44706,17 +44686,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/187079158'>x86_64-linux cryptomator-1.6.13-deps</a></tt></summary>
-<ul>
-<li>cryptomator.x86_64-linux</li>
-<li>cryptomator.aarch64-linux</li>
-</ul>
-</details>
-</td>
-<td>2</td>
-</tr>
-<tr>
-<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/187084903'>x86_64-linux python3.10-paperwork-backend-2.1.1</a></tt></summary>
 <ul>
 <li>paperwork.x86_64-linux</li>
@@ -45193,6 +45162,16 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/186629409'>x86_64-darwin python3.10-pycurl-7.45.1</a></tt></summary>
 <ul>
 <li>commitizen.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/187079158'>aarch64-linux cryptomator-1.6.13-deps</a></tt></summary>
+<ul>
+<li>cryptomator.aarch64-linux</li>
 </ul>
 </details>
 </td>
