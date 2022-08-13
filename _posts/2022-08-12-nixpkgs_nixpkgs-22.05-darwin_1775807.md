@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:nixpkgs-22.05-darwin 1775807
+title: nixpkgs:nixpkgs-22.05-darwin 1775807 (succeeded)
 categories: nixpkgs:nixpkgs-22.05-darwin
 ---
 # Evals report
 
-*Report built at 2022-08-13 03:44:14 UTC*
+*Report built at 2022-08-13 04:19:12 UTC*
 
 Built for evals:
 
@@ -11707,41 +11707,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/186488099'>tecnoballz.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>3 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/187111163'>nodejs-18_x.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/187110828'>nodejs_latest.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/187110921'>wasm-bindgen-cli.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 </table>
 </details>
