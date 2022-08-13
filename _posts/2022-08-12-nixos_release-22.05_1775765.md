@@ -1,10 +1,10 @@
 ---
-title: nixos:release-22.05 1775765
+title: nixos:release-22.05 1775765 (succeeded)
 categories: nixos:release-22.05
 ---
 # Evals report
 
-*Report built at 2022-08-13 00:48:48 UTC*
+*Report built at 2022-08-13 02:55:27 UTC*
 
 Built for evals:
 
@@ -9603,7 +9603,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>426 issues</summary>
+<details><summary>427 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -13378,6 +13378,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/187096762'>nixos.tests.cloud-init.aarch64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/186441939'>nixos.tests.fcitx.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -13435,27 +13441,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/184702791'>nixpkgs.oatpp.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/187096762'>nixos.tests.cloud-init.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 </table>
 </details>
