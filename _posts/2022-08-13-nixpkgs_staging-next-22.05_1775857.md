@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next-22.05
 ---
 # Evals report
 
-*Report built at 2022-08-14 00:59:33 UTC*
+*Report built at 2022-08-14 03:11:02 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>674 issues</summary>
+<details><summary>675 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -4702,6 +4702,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/186807329'>linuxKernel.kernels.linux_4_14_hardened.x86_64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/186864544'>linuxKernel.kernels.linux_latest_libre.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -8952,7 +8958,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>336 issues</summary>
+<details><summary>337 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -10380,6 +10386,32 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>ruby2.7.6-nokogiri-1.10.3</tt> <br /> <a href='https://hydra.nixos.org/build/187117093/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/187117093/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/187117093/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/186783756'>build 186783756</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/186905977'>mucommander.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>mucommander-deps-0.9.3-3</tt> <br /> <a href='https://hydra.nixos.org/build/186905977/nixlog/5'>log</a>, <a href='https://hydra.nixos.org/build/186905977/nixlog/5/raw'>raw</a>, <a href='https://hydra.nixos.org/build/186905977/nixlog/5/tail'>tail</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>mucommander-deps-0.9.3-3</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>mucommander-deps-0.9.3-3</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>mucommander-deps-0.9.3-3</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>mucommander-deps-0.9.3-3</tt> <br /> 
 </li>
 </ul>
 </details>
@@ -20948,27 +20980,13 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>11 issues</summary>
+<details><summary>9 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/186807329'>linuxKernel.kernels.linux_4_14_hardened.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/186905977'>mucommander.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/187122429'>python310Packages.baselines.x86_64-darwin</a></tt>
@@ -21577,14 +21595,15 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt>x86_64-darwin mucommander-deps-0.9.3-3</tt></summary>
+<details><summary><tt>aarch64-linux mucommander-deps-0.9.3-3</tt></summary>
 <ul>
+<li>mucommander.aarch64-linux</li>
 <li>mucommander.x86_64-darwin</li>
 <li>mucommander.x86_64-linux</li>
 </ul>
 </details>
 </td>
-<td>15</td>
+<td>20</td>
 </tr>
 <tr>
 <td>
