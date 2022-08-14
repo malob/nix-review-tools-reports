@@ -1,10 +1,10 @@
 ---
-title: nixos:release-22.05-aarch64 1775912
+title: nixos:release-22.05-aarch64 1775912 (succeeded)
 categories: nixos:release-22.05-aarch64
 ---
 # Evals report
 
-*Report built at 2022-08-14 00:56:17 UTC*
+*Report built at 2022-08-14 05:12:26 UTC*
 
 Built for evals:
 
@@ -3943,27 +3943,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/184917114'>nixpkgs.oatpp.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/187134517'>nixpkgs.qgis.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 </table>
 </details>
