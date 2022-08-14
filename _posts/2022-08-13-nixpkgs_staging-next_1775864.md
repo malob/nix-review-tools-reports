@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next
 ---
 # Evals report
 
-*Report built at 2022-08-14 16:16:38 UTC*
+*Report built at 2022-08-14 17:16:49 UTC*
 
 Built for evals:
 
@@ -10850,7 +10850,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>797 issues</summary>
+<details><summary>803 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -12414,6 +12414,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/187132480'>python310Packages.dask-ml.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.10-dask-glm-0.2.0</tt> <br /> <a href='https://hydra.nixos.org/build/187132480/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/187132480/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/187132480/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/187129272'>build 187129272</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/187131864'>python310Packages.diff-cover.x86_64-darwin</a></tt>
 </summary>
 <ul>
@@ -13717,6 +13731,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>python3.9-tensorboardx-2.5</tt> <br /> <a href='https://hydra.nixos.org/build/187124300/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/187124300/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/187124300/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/187123825'>build 187123825</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/187125281'>python39Packages.dask-ml.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.9-dask-glm-0.2.0</tt> <br /> <a href='https://hydra.nixos.org/build/187125281/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/187125281/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/187125281/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/187126226'>build 187126226</a>
 </li>
 </ul>
 </details>
@@ -16907,6 +16935,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/187129272'>python310Packages.dask-glm.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/186618992'>python310Packages.django-maintenance-mode.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -17424,6 +17458,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/187131456'>python39Packages.dash.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/187126226'>python39Packages.dask-glm.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -18317,6 +18357,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/187129063'>paperless-ngx.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/186582748'>powermanga.x86_64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -18330,6 +18376,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/187125284'>python310Packages.hyppo.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/187131428'>python310Packages.nitime.x86_64-darwin</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -37590,41 +37642,13 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>10 issues</summary>
+<details><summary>3 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/187132065'>deltachat-desktop.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/187129063'>paperless-ngx.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/187129272'>python310Packages.dask-glm.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/187132480'>python310Packages.dask-ml.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/187131136'>python310Packages.graph-tool.x86_64-darwin</a></tt>
@@ -37634,28 +37658,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/187131428'>python310Packages.nitime.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/187131569'>python39Packages.apache-beam.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/187126226'>python39Packages.dask-glm.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/187125281'>python39Packages.dask-ml.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -41045,6 +41048,17 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/187129272'>x86_64-darwin python3.10-dask-glm-0.2.0</a></tt></summary>
+<ul>
+<li>python310Packages.dask-ml.x86_64-darwin</li>
+<li>python310Packages.dask-ml.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/186549606'>aarch64-linux Flask-AppBuilder-4.1.3.tar.gz</a></tt></summary>
 <ul>
 <li>python310Packages.flask-appbuilder.aarch64-linux</li>
@@ -41092,6 +41106,17 @@ Built for evals:
 <ul>
 <li>python39Packages.aeppl.x86_64-linux</li>
 <li>python39Packages.aesara.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/187126226'>x86_64-darwin python3.9-dask-glm-0.2.0</a></tt></summary>
+<ul>
+<li>python39Packages.dask-ml.x86_64-darwin</li>
+<li>python39Packages.dask-ml.x86_64-linux</li>
 </ul>
 </details>
 </td>
@@ -41388,16 +41413,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/187132359'>x86_64-linux python3.10-dask-glm-0.2.0</a></tt></summary>
-<ul>
-<li>python310Packages.dask-ml.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/186576273'>aarch64-darwin python3.10-primer3-0.6.1</a></tt></summary>
 <ul>
 <li>python310Packages.dnachisel.aarch64-darwin</li>
@@ -41501,16 +41516,6 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/187123825'>x86_64-darwin python3.9-tensorboardx-2.5</a></tt></summary>
 <ul>
 <li>python39Packages.coqui-trainer.x86_64-darwin</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/187127781'>x86_64-linux python3.9-dask-glm-0.2.0</a></tt></summary>
-<ul>
-<li>python39Packages.dask-ml.x86_64-linux</li>
 </ul>
 </details>
 </td>
