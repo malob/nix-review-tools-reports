@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-08-14 23:11:43 UTC*
+*Report built at 2022-08-15 00:57:08 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### i686-linux
 
 
-<details><summary>290 issues</summary>
+<details><summary>292 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -393,6 +393,92 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>ucx-1.13.0</tt> <br /> <a href='https://hydra.nixos.org/build/187352271/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/187352271/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/187352271/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/186499174'>build 186499174</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/187353068'>nixos.tests.allDrivers.gitlab.i686-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>v8-9.7.106.18</tt> <br /> <a href='https://hydra.nixos.org/build/187353068/nixlog/159'>log</a>, <a href='https://hydra.nixos.org/build/187353068/nixlog/159/raw'>raw</a>, <a href='https://hydra.nixos.org/build/187353068/nixlog/159/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>ruby2.7.6-mini_mime-1.1.2</tt> <br /> <a href='https://hydra.nixos.org/build/187353068/nixlog/136'>log</a>, <a href='https://hydra.nixos.org/build/187353068/nixlog/136/raw'>raw</a>, <a href='https://hydra.nixos.org/build/187353068/nixlog/136/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>ruby2.7.6-rbtree-0.4.4</tt> <br /> <a href='https://hydra.nixos.org/build/187353068/nixlog/134'>log</a>, <a href='https://hydra.nixos.org/build/187353068/nixlog/134/raw'>raw</a>, <a href='https://hydra.nixos.org/build/187353068/nixlog/134/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>ruby2.7.6-ssrf_filter-1.0.7</tt> <br /> <a href='https://hydra.nixos.org/build/187353068/nixlog/114'>log</a>, <a href='https://hydra.nixos.org/build/187353068/nixlog/114/raw'>raw</a>, <a href='https://hydra.nixos.org/build/187353068/nixlog/114/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>ruby2.7.6-dead_end-3.1.1</tt> <br /> <a href='https://hydra.nixos.org/build/187353068/nixlog/100'>log</a>, <a href='https://hydra.nixos.org/build/187353068/nixlog/100/raw'>raw</a>, <a href='https://hydra.nixos.org/build/187353068/nixlog/100/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>ruby2.7.6-faraday-net_http-1.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/187353068/nixlog/98'>log</a>, <a href='https://hydra.nixos.org/build/187353068/nixlog/98/raw'>raw</a>, <a href='https://hydra.nixos.org/build/187353068/nixlog/98/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>ruby2.7.6-rchardet-1.8.0</tt> <br /> <a href='https://hydra.nixos.org/build/187353068/nixlog/92'>log</a>, <a href='https://hydra.nixos.org/build/187353068/nixlog/92/raw'>raw</a>, <a href='https://hydra.nixos.org/build/187353068/nixlog/92/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>ruby2.7.6-slack-messenger-2.3.4</tt> <br /> <a href='https://hydra.nixos.org/build/187353068/nixlog/87'>log</a>, <a href='https://hydra.nixos.org/build/187353068/nixlog/87/raw'>raw</a>, <a href='https://hydra.nixos.org/build/187353068/nixlog/87/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>ruby2.7.6-sigdump-0.2.4</tt> <br /> <a href='https://hydra.nixos.org/build/187353068/nixlog/81'>log</a>, <a href='https://hydra.nixos.org/build/187353068/nixlog/81/raw'>raw</a>, <a href='https://hydra.nixos.org/build/187353068/nixlog/81/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>ruby2.7.6-aes_key_wrap-1.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/187353068/nixlog/78'>log</a>, <a href='https://hydra.nixos.org/build/187353068/nixlog/78/raw'>raw</a>, <a href='https://hydra.nixos.org/build/187353068/nixlog/78/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>unit-gitlab-registry-cert.service</tt> <br /> <a href='https://hydra.nixos.org/build/187353068/nixlog/72'>log</a>, <a href='https://hydra.nixos.org/build/187353068/nixlog/72/raw'>raw</a>, <a href='https://hydra.nixos.org/build/187353068/nixlog/72/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>alice-add-ssh-key.json</tt> <br /> <a href='https://hydra.nixos.org/build/187353068/nixlog/71'>log</a>, <a href='https://hydra.nixos.org/build/187353068/nixlog/71/raw'>raw</a>, <a href='https://hydra.nixos.org/build/187353068/nixlog/71/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>ruby2.7.6-elasticsearch-rails-7.2.1</tt> <br /> <a href='https://hydra.nixos.org/build/187353068/nixlog/64'>log</a>, <a href='https://hydra.nixos.org/build/187353068/nixlog/64/raw'>raw</a>, <a href='https://hydra.nixos.org/build/187353068/nixlog/64/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>ruby2.7.6-msgpack-1.3.3</tt> <br /> <a href='https://hydra.nixos.org/build/187353068/nixlog/62'>log</a>, <a href='https://hydra.nixos.org/build/187353068/nixlog/62/raw'>raw</a>, <a href='https://hydra.nixos.org/build/187353068/nixlog/62/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>ruby2.7.6-oj-3.13.19</tt> <br /> <a href='https://hydra.nixos.org/build/187353068/nixlog/51'>log</a>, <a href='https://hydra.nixos.org/build/187353068/nixlog/51/raw'>raw</a>, <a href='https://hydra.nixos.org/build/187353068/nixlog/51/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>create-project-alice.json</tt> <br /> <a href='https://hydra.nixos.org/build/187353068/nixlog/47'>log</a>, <a href='https://hydra.nixos.org/build/187353068/nixlog/47/raw'>raw</a>, <a href='https://hydra.nixos.org/build/187353068/nixlog/47/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>ruby2.7.6-open4-1.3.4</tt> <br /> <a href='https://hydra.nixos.org/build/187353068/nixlog/46'>log</a>, <a href='https://hydra.nixos.org/build/187353068/nixlog/46/raw'>raw</a>, <a href='https://hydra.nixos.org/build/187353068/nixlog/46/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>ruby2.7.6-bindata-2.4.10</tt> <br /> <a href='https://hydra.nixos.org/build/187353068/nixlog/45'>log</a>, <a href='https://hydra.nixos.org/build/187353068/nixlog/45/raw'>raw</a>, <a href='https://hydra.nixos.org/build/187353068/nixlog/45/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>ruby2.7.6-i18n_data-0.8.0</tt> <br /> <a href='https://hydra.nixos.org/build/187353068/nixlog/39'>log</a>, <a href='https://hydra.nixos.org/build/187353068/nixlog/39/raw'>raw</a>, <a href='https://hydra.nixos.org/build/187353068/nixlog/39/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>ruby2.7.6-abstract_type-0.0.7</tt> <br /> <a href='https://hydra.nixos.org/build/187353068/nixlog/31'>log</a>, <a href='https://hydra.nixos.org/build/187353068/nixlog/31/raw'>raw</a>, <a href='https://hydra.nixos.org/build/187353068/nixlog/31/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>ruby2.7.6-faraday-em_http-1.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/187353068/nixlog/27'>log</a>, <a href='https://hydra.nixos.org/build/187353068/nixlog/27/raw'>raw</a>, <a href='https://hydra.nixos.org/build/187353068/nixlog/27/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>ruby2.7.6-sd_notify-0.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/187353068/nixlog/20'>log</a>, <a href='https://hydra.nixos.org/build/187353068/nixlog/20/raw'>raw</a>, <a href='https://hydra.nixos.org/build/187353068/nixlog/20/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>ruby2.7.6-recursive-open-struct-1.1.3</tt> <br /> <a href='https://hydra.nixos.org/build/187353068/nixlog/15'>log</a>, <a href='https://hydra.nixos.org/build/187353068/nixlog/15/raw'>raw</a>, <a href='https://hydra.nixos.org/build/187353068/nixlog/15/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>ruby2.7.6-mini_histogram-0.3.1</tt> <br /> <a href='https://hydra.nixos.org/build/187353068/nixlog/11'>log</a>, <a href='https://hydra.nixos.org/build/187353068/nixlog/11/raw'>raw</a>, <a href='https://hydra.nixos.org/build/187353068/nixlog/11/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>ruby2.7.6-sqlite3-1.4.2</tt> <br /> <a href='https://hydra.nixos.org/build/187353068/nixlog/9'>log</a>, <a href='https://hydra.nixos.org/build/187353068/nixlog/9/raw'>raw</a>, <a href='https://hydra.nixos.org/build/187353068/nixlog/9/tail'>tail</a>
 </li>
 </ul>
 </details>
@@ -1737,6 +1823,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>ucx-1.13.0</tt> <br /> <a href='https://hydra.nixos.org/build/187356316/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/187356316/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/187356316/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/186499174'>build 186499174</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/187354905'>nixos.tests.gitlab.i686-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>v8-9.7.106.18</tt> <br /> <a href='https://hydra.nixos.org/build/187354905/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/187354905/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/187354905/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/187353068'>build 187353068</a>
 </li>
 </ul>
 </details>
@@ -14636,20 +14736,13 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>9 issues</summary>
+<details><summary>7 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/187353068'>nixos.tests.allDrivers.gitlab.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/187355948'>nixos.tests.cloud-init.i686-linux</a></tt>
@@ -14677,13 +14770,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/187354905'>nixos.tests.gitlab.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
 </tr>
 <tr>
 <td>
@@ -15623,6 +15709,17 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt>i686-linux v8-9.7.106.18</tt></summary>
+<ul>
+<li>nixos.tests.allDrivers.gitlab.i686-linux</li>
+<li>nixos.tests.gitlab.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/186504499'>i686-linux pebble-2.4.0</a></tt></summary>
 <ul>
 <li>nixos.tests.acme.i686-linux</li>
@@ -16148,6 +16245,246 @@ Built for evals:
 </details>
 </td>
 <td>2</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>i686-linux ruby2.7.6-mini_mime-1.1.2</tt></summary>
+<ul>
+<li>nixos.tests.allDrivers.gitlab.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>i686-linux ruby2.7.6-rbtree-0.4.4</tt></summary>
+<ul>
+<li>nixos.tests.allDrivers.gitlab.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>i686-linux ruby2.7.6-ssrf_filter-1.0.7</tt></summary>
+<ul>
+<li>nixos.tests.allDrivers.gitlab.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>i686-linux ruby2.7.6-dead_end-3.1.1</tt></summary>
+<ul>
+<li>nixos.tests.allDrivers.gitlab.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>i686-linux ruby2.7.6-faraday-net_http-1.0.1</tt></summary>
+<ul>
+<li>nixos.tests.allDrivers.gitlab.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>i686-linux ruby2.7.6-rchardet-1.8.0</tt></summary>
+<ul>
+<li>nixos.tests.allDrivers.gitlab.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>i686-linux ruby2.7.6-slack-messenger-2.3.4</tt></summary>
+<ul>
+<li>nixos.tests.allDrivers.gitlab.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>i686-linux ruby2.7.6-sigdump-0.2.4</tt></summary>
+<ul>
+<li>nixos.tests.allDrivers.gitlab.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>i686-linux ruby2.7.6-aes_key_wrap-1.1.0</tt></summary>
+<ul>
+<li>nixos.tests.allDrivers.gitlab.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>i686-linux unit-gitlab-registry-cert.service</tt></summary>
+<ul>
+<li>nixos.tests.allDrivers.gitlab.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>i686-linux alice-add-ssh-key.json</tt></summary>
+<ul>
+<li>nixos.tests.allDrivers.gitlab.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>i686-linux ruby2.7.6-elasticsearch-rails-7.2.1</tt></summary>
+<ul>
+<li>nixos.tests.allDrivers.gitlab.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>i686-linux ruby2.7.6-msgpack-1.3.3</tt></summary>
+<ul>
+<li>nixos.tests.allDrivers.gitlab.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>i686-linux ruby2.7.6-oj-3.13.19</tt></summary>
+<ul>
+<li>nixos.tests.allDrivers.gitlab.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>i686-linux create-project-alice.json</tt></summary>
+<ul>
+<li>nixos.tests.allDrivers.gitlab.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>i686-linux ruby2.7.6-open4-1.3.4</tt></summary>
+<ul>
+<li>nixos.tests.allDrivers.gitlab.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>i686-linux ruby2.7.6-bindata-2.4.10</tt></summary>
+<ul>
+<li>nixos.tests.allDrivers.gitlab.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>i686-linux ruby2.7.6-i18n_data-0.8.0</tt></summary>
+<ul>
+<li>nixos.tests.allDrivers.gitlab.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>i686-linux ruby2.7.6-abstract_type-0.0.7</tt></summary>
+<ul>
+<li>nixos.tests.allDrivers.gitlab.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>i686-linux ruby2.7.6-faraday-em_http-1.0.0</tt></summary>
+<ul>
+<li>nixos.tests.allDrivers.gitlab.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>i686-linux ruby2.7.6-sd_notify-0.1.0</tt></summary>
+<ul>
+<li>nixos.tests.allDrivers.gitlab.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>i686-linux ruby2.7.6-recursive-open-struct-1.1.3</tt></summary>
+<ul>
+<li>nixos.tests.allDrivers.gitlab.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>i686-linux ruby2.7.6-mini_histogram-0.3.1</tt></summary>
+<ul>
+<li>nixos.tests.allDrivers.gitlab.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>i686-linux ruby2.7.6-sqlite3-1.4.2</tt></summary>
+<ul>
+<li>nixos.tests.allDrivers.gitlab.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
 </tr>
 <tr>
 <td>
