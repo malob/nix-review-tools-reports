@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next
 ---
 # Evals report
 
-*Report built at 2022-08-15 11:13:01 UTC*
+*Report built at 2022-08-15 12:23:37 UTC*
 
 Built for evals:
 
@@ -23557,7 +23557,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>897 issues</summary>
+<details><summary>898 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -33001,6 +33001,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/186636035'>powermanga.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/186611123'>pynac.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -33078,7 +33084,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>289 issues</summary>
+<details><summary>287 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -34095,13 +34101,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/186636035'>powermanga.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/186658112'>prometheus-keylight-exporter.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -34883,13 +34882,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/187371033'>qgis.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
