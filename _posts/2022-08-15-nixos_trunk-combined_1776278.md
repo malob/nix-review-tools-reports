@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-08-16 03:19:56 UTC*
+*Report built at 2022-08-16 07:10:05 UTC*
 
 Built for evals:
 
@@ -3427,7 +3427,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>1131 issues</summary>
+<details><summary>1129 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -11169,20 +11169,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/187380888'>tested</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Cached failure</b> <tt>vm-test-run-keymap-qwertz</tt> <br /> <a href='https://hydra.nixos.org/build/187380888/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/187380888/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/187380888/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/187376450'>build 187376450</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/187378161'>nixos.amazonImageZfs.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -11664,12 +11650,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/187377810'>nixos.tests.keepassxc.x86_64-linux</a></tt>
-</td>
-<td>Failed</td>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/187376450'>nixos.tests.keymap.qwertz.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -18031,16 +18011,6 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/187371248'>x86_64-linux firmware-updater-unstable-deps-flutter-v3.0.4-x86_64-linux.tar.gz</a></tt></summary>
 <ul>
 <li>nixpkgs.firmware-updater.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/187376450'>x86_64-linux vm-test-run-keymap-qwertz</a></tt></summary>
-<ul>
-<li>tested</li>
 </ul>
 </details>
 </td>
