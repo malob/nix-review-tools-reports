@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-08-16 22:12:01 UTC*
+*Report built at 2022-08-16 23:11:30 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### i686-linux
 
 
-<details><summary>314 issues</summary>
+<details><summary>316 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -282,6 +282,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>spidermonkey-91.12.0</tt> <br /> <a href='https://hydra.nixos.org/build/187552397/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/187552397/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/187552397/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/187509784'>build 187509784</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/187543534'>nixos.tests.allDrivers.custom-ca.chromium.i686-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>chromium-unwrapped-104.0.5112.79</tt> <br /> <a href='https://hydra.nixos.org/build/187543534/nixlog/20'>log</a>, <a href='https://hydra.nixos.org/build/187543534/nixlog/20/raw'>raw</a>, <a href='https://hydra.nixos.org/build/187543534/nixlog/20/tail'>tail</a>, <a href='https://hydra.nixos.org/build/187548718'>build 187548718</a>
 </li>
 </ul>
 </details>
@@ -1884,6 +1898,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>spidermonkey-91.12.0</tt> <br /> <a href='https://hydra.nixos.org/build/187519046/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/187519046/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/187519046/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/187509784'>build 187509784</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/187548718'>nixos.tests.custom-ca.chromium.i686-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>chromium-unwrapped-104.0.5112.79</tt> <br /> <a href='https://hydra.nixos.org/build/187548718/nixlog/7'>log</a>, <a href='https://hydra.nixos.org/build/187548718/nixlog/7/raw'>raw</a>, <a href='https://hydra.nixos.org/build/187548718/nixlog/7/tail'>tail</a>
 </li>
 </ul>
 </details>
@@ -3851,7 +3879,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>1143 issues</summary>
+<details><summary>1145 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -11969,6 +11997,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/187559862'>nixos.tests.cage.x86_64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/187557717'>nixos.tests.cagebreak.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -15233,6 +15267,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/187553082'>nixos.tests.systemd-cryptenroll.x86_64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/187528330'>nixpkgs.prusa-slicer.x86_64-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -16915,27 +16955,13 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>12 issues</summary>
+<details><summary>8 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/187543534'>nixos.tests.allDrivers.custom-ca.chromium.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/187559862'>nixos.tests.cage.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/187537970'>nixos.tests.cloud-init.i686-linux</a></tt>
@@ -16952,13 +16978,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/187548718'>nixos.tests.custom-ca.chromium.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/187547741'>nixos.tests.fcitx.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -16967,13 +16986,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/187516257'>nixos.tests.fcitx.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/187553082'>nixos.tests.systemd-cryptenroll.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -18216,6 +18228,17 @@ Built for evals:
 <ul>
 <li>nixos.tests.allDrivers.couchdb.aarch64-linux</li>
 <li>nixos.tests.couchdb.aarch64-linux</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/187548718'>i686-linux chromium-unwrapped-104.0.5112.79</a></tt></summary>
+<ul>
+<li>nixos.tests.allDrivers.custom-ca.chromium.i686-linux</li>
+<li>nixos.tests.custom-ca.chromium.i686-linux</li>
 </ul>
 </details>
 </td>
