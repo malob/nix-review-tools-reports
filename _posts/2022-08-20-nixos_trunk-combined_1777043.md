@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-08-20 14:11:51 UTC*
+*Report built at 2022-08-20 16:14:31 UTC*
 
 Built for evals:
 
@@ -12157,7 +12157,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>145 issues</summary>
+<details><summary>146 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -13756,6 +13756,12 @@ Built for evals:
 </td>
 <td>Failed</td>
 </tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/187879781'>nixos.tests.vengi-tools.aarch64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
 </table>
 </details>
 
@@ -13763,7 +13769,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>4207 issues</summary>
+<details><summary>4206 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -18326,13 +18332,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/187879781'>nixos.tests.vengi-tools.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
