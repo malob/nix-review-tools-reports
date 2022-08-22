@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next
 ---
 # Evals report
 
-*Report built at 2022-08-22 03:25:46 UTC*
+*Report built at 2022-08-22 05:07:42 UTC*
 
 Built for evals:
 
@@ -21154,7 +21154,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>685 issues</summary>
+<details><summary>702 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -21399,6 +21399,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/188057993'>emscripten.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>binaryen-109</tt> <br /> <a href='https://hydra.nixos.org/build/188057993/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/188057993/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/188057993/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/188052876'>build 188052876</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/188052363'>envoy.aarch64-linux</a></tt>
 </summary>
 <ul>
@@ -21421,6 +21435,174 @@ Built for evals:
 </li>
 <li>
 <b>=> Cached failure</b> <tt>python3.10-bitstring-3.1.9</tt> <br /> <a href='https://hydra.nixos.org/build/187649780'>build 187649780</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/188047395'>faust.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>binaryen-109</tt> <br /> <a href='https://hydra.nixos.org/build/188047395/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/188047395/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/188047395/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/188052876'>build 188052876</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/188053375'>faust2.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>binaryen-109</tt> <br /> <a href='https://hydra.nixos.org/build/188053375/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/188053375/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/188053375/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/188052876'>build 188052876</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/188047189'>faust2alqt.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>binaryen-109</tt> <br /> <a href='https://hydra.nixos.org/build/188047189/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/188047189/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/188047189/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/188052876'>build 188052876</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/188057860'>faust2alsa.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>binaryen-109</tt> <br /> <a href='https://hydra.nixos.org/build/188057860/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/188057860/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/188057860/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/188052876'>build 188052876</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/188044508'>faust2csound.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>binaryen-109</tt> <br /> <a href='https://hydra.nixos.org/build/188044508/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/188044508/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/188044508/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/188052876'>build 188052876</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/188044163'>faust2firefox.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>binaryen-109</tt> <br /> <a href='https://hydra.nixos.org/build/188044163/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/188044163/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/188044163/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/188052876'>build 188052876</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/188051690'>faust2jack.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>binaryen-109</tt> <br /> <a href='https://hydra.nixos.org/build/188051690/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/188051690/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/188051690/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/188052876'>build 188052876</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/188056132'>faust2jackrust.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>binaryen-109</tt> <br /> <a href='https://hydra.nixos.org/build/188056132/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/188056132/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/188056132/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/188052876'>build 188052876</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/188051879'>faust2jaqt.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>binaryen-109</tt> <br /> <a href='https://hydra.nixos.org/build/188051879/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/188051879/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/188051879/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/188052876'>build 188052876</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/188053416'>faust2ladspa.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>binaryen-109</tt> <br /> <a href='https://hydra.nixos.org/build/188053416/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/188053416/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/188053416/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/188052876'>build 188052876</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/188051383'>faust2lv2.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>binaryen-109</tt> <br /> <a href='https://hydra.nixos.org/build/188051383/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/188051383/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/188051383/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/188052876'>build 188052876</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/188046754'>faustPhysicalModeling.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>binaryen-109</tt> <br /> <a href='https://hydra.nixos.org/build/188046754/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/188046754/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/188046754/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/188052876'>build 188052876</a>
 </li>
 </ul>
 </details>
@@ -21931,6 +22113,20 @@ Built for evals:
 </li>
 <li>
 <b>=> Failed</b> <tt>nanodbc-2.13.0</tt> <br /> 
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/188043680'>kapitonov-plugins-pack.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>binaryen-109</tt> <br /> <a href='https://hydra.nixos.org/build/188043680/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/188043680/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/188043680/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/188052876'>build 188052876</a>
 </li>
 </ul>
 </details>
@@ -24149,6 +24345,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/188054069'>open-music-kontrollers.mephisto.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>binaryen-109</tt> <br /> <a href='https://hydra.nixos.org/build/188054069/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/188054069/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/188054069/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/188052876'>build 188052876</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/187854298'>openstackclient.aarch64-linux</a></tt>
 </summary>
 <ul>
@@ -25712,6 +25922,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/188056910'>tinygo.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>binaryen-109</tt> <br /> <a href='https://hydra.nixos.org/build/188056910/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/188056910/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/188056910/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/188052876'>build 188052876</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/187594881'>tinyprog.aarch64-linux</a></tt>
 </summary>
 <ul>
@@ -25849,6 +26073,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/187686863'>biliass.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/188052876'>binaryen.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -40604,7 +40834,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>2056 issues</summary>
+<details><summary>2026 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -41145,13 +41375,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/188044554'>auctex.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/188059434'>authenticator.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -41209,13 +41432,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/188050865'>bfg-repo-cleaner.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/188052876'>binaryen.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
@@ -41943,13 +42159,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/188043308'>easycrypt.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/188053036'>eksctl.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -42007,13 +42216,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/188055899'>empathy.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/188057993'>emscripten.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
@@ -42119,90 +42321,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/188056936'>fastnlo_toolkit.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/188047395'>faust.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/188053375'>faust2.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/188047189'>faust2alqt.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/188057860'>faust2alsa.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/188044508'>faust2csound.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/188044163'>faust2firefox.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/188051690'>faust2jack.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/188056132'>faust2jackrust.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/188051879'>faust2jaqt.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/188053416'>faust2ladspa.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/188051383'>faust2lv2.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/188046754'>faustPhysicalModeling.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
@@ -44015,13 +44133,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/188043680'>kapitonov-plugins-pack.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/188057039'>kapow.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -44330,21 +44441,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/188046877'>libreoffice-still-unwrapped.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/188045042'>libreoffice-still.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/188053044'>libreoffice-unwrapped.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
@@ -44687,13 +44784,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/188049359'>libsForQt514.qt5.qtwebview.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/188052520'>libsForQt514.qtkeychain.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -44702,13 +44792,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/188053411'>libsForQt514.qtpbfimageplugin.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/188044575'>libsForQt514.qtwebview.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
@@ -49783,13 +49866,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/188043641'>muchsync.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/188057467'>mucommander.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -50098,13 +50174,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/188047720'>notmuch.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/188057508'>numix-cursor-theme.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -50239,13 +50308,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/188050294'>open-ecard.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/188054069'>open-music-kontrollers.mephisto.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
@@ -50533,13 +50595,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/188054120'>paperwork.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/188045969'>paraview.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
@@ -51694,13 +51749,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/188045102'>python310Packages.notmuch.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/188057633'>python310Packages.notmuch2.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -52822,13 +52870,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/188058463'>qt512.qtwebview.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/188046902'>qt514.qtwebview.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
@@ -54032,13 +54073,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/188056910'>tinygo.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/188055541'>tiscamera.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -54194,13 +54228,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/188054736'>umlet.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/188044084'>ungoogled-chromium.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
@@ -54544,13 +54571,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/188052500'>whitesur-gtk-theme.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/188052912'>why3.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
@@ -55888,6 +55908,61 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/188052876'>aarch64-linux binaryen-109</a></tt></summary>
+<ul>
+<li>emscripten.aarch64-linux</li>
+<li>emscripten.x86_64-linux</li>
+<li>faust.aarch64-linux</li>
+<li>faust.x86_64-linux</li>
+<li>faust2.aarch64-linux</li>
+<li>faust2.x86_64-linux</li>
+<li>faust2alqt.aarch64-linux</li>
+<li>faust2alqt.x86_64-linux</li>
+<li>faust2alsa.aarch64-linux</li>
+<li>faust2alsa.x86_64-linux</li>
+<li>faust2csound.aarch64-linux</li>
+<li>faust2csound.x86_64-linux</li>
+<li>faust2firefox.aarch64-linux</li>
+<li>faust2firefox.x86_64-linux</li>
+<li>faust2jack.aarch64-linux</li>
+<li>faust2jack.x86_64-linux</li>
+<li>faust2jackrust.aarch64-linux</li>
+<li>faust2jackrust.x86_64-linux</li>
+<li>faust2jaqt.aarch64-linux</li>
+<li>faust2jaqt.x86_64-linux</li>
+<li>faust2ladspa.aarch64-linux</li>
+<li>faust2ladspa.x86_64-linux</li>
+<li>faust2lv2.aarch64-linux</li>
+<li>faust2lv2.x86_64-linux</li>
+<li>faustPhysicalModeling.aarch64-linux</li>
+<li>faustPhysicalModeling.x86_64-linux</li>
+<li>faustStk.x86_64-linux</li>
+<li>faustlive.x86_64-linux</li>
+<li>kapitonov-plugins-pack.aarch64-linux</li>
+<li>kapitonov-plugins-pack.x86_64-linux</li>
+<li>magnetophonDSP.CharacterCompressor.x86_64-linux</li>
+<li>magnetophonDSP.CompBus.x86_64-linux</li>
+<li>magnetophonDSP.ConstantDetuneChorus.x86_64-linux</li>
+<li>magnetophonDSP.LazyLimiter.x86_64-linux</li>
+<li>magnetophonDSP.MBdistortion.x86_64-linux</li>
+<li>magnetophonDSP.RhythmDelay.x86_64-linux</li>
+<li>magnetophonDSP.VoiceOfFaust.x86_64-linux</li>
+<li>magnetophonDSP.faustCompressors.x86_64-linux</li>
+<li>magnetophonDSP.pluginUtils.x86_64-linux</li>
+<li>magnetophonDSP.shelfMultiBand.x86_64-linux</li>
+<li>mooSpace.x86_64-linux</li>
+<li>open-music-kontrollers.mephisto.aarch64-linux</li>
+<li>open-music-kontrollers.mephisto.x86_64-linux</li>
+<li>tambura.x86_64-linux</li>
+<li>tinygo.aarch64-linux</li>
+<li>tinygo.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>46</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/187565567'>aarch64-darwin qt-4.8.7</a></tt></summary>
 <ul>
 <li>avogadro.aarch64-darwin</li>
@@ -55997,45 +56072,6 @@ Built for evals:
 <li>libodb.aarch64-linux</li>
 <li>libodb.x86_64-darwin</li>
 <li>libodb.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>30</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/188048121'>x86_64-linux binaryen-109</a></tt></summary>
-<ul>
-<li>emscripten.x86_64-linux</li>
-<li>faust.x86_64-linux</li>
-<li>faust2.x86_64-linux</li>
-<li>faust2alqt.x86_64-linux</li>
-<li>faust2alsa.x86_64-linux</li>
-<li>faust2csound.x86_64-linux</li>
-<li>faust2firefox.x86_64-linux</li>
-<li>faust2jack.x86_64-linux</li>
-<li>faust2jackrust.x86_64-linux</li>
-<li>faust2jaqt.x86_64-linux</li>
-<li>faust2ladspa.x86_64-linux</li>
-<li>faust2lv2.x86_64-linux</li>
-<li>faustPhysicalModeling.x86_64-linux</li>
-<li>faustStk.x86_64-linux</li>
-<li>faustlive.x86_64-linux</li>
-<li>kapitonov-plugins-pack.x86_64-linux</li>
-<li>magnetophonDSP.CharacterCompressor.x86_64-linux</li>
-<li>magnetophonDSP.CompBus.x86_64-linux</li>
-<li>magnetophonDSP.ConstantDetuneChorus.x86_64-linux</li>
-<li>magnetophonDSP.LazyLimiter.x86_64-linux</li>
-<li>magnetophonDSP.MBdistortion.x86_64-linux</li>
-<li>magnetophonDSP.RhythmDelay.x86_64-linux</li>
-<li>magnetophonDSP.VoiceOfFaust.x86_64-linux</li>
-<li>magnetophonDSP.faustCompressors.x86_64-linux</li>
-<li>magnetophonDSP.pluginUtils.x86_64-linux</li>
-<li>magnetophonDSP.shelfMultiBand.x86_64-linux</li>
-<li>mooSpace.x86_64-linux</li>
-<li>open-music-kontrollers.mephisto.x86_64-linux</li>
-<li>tambura.x86_64-linux</li>
-<li>tinygo.x86_64-linux</li>
 </ul>
 </details>
 </td>
