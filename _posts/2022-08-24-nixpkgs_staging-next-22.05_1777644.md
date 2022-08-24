@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next-22.05
 ---
 # Evals report
 
-*Report built at 2022-08-24 08:18:41 UTC*
+*Report built at 2022-08-24 09:14:30 UTC*
 
 Built for evals:
 
@@ -6738,7 +6738,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>296 issues</summary>
+<details><summary>298 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -6909,6 +6909,18 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/188077391'>gtk-pipe-viewer.x86_64-darwin</a></tt>
+</td>
+<td>Aborted</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/188288719'>haskell-language-server.x86_64-darwin</a></tt>
+</td>
+<td>Aborted</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/188288401'>haskell.compiler.ghc924.x86_64-darwin</a></tt>
 </td>
 <td>Aborted</td>
 </tr>
@@ -8535,7 +8547,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>342 issues</summary>
+<details><summary>344 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -10787,6 +10799,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/188288466'>linuxKernel.packages.linux_5_19.rtl8821cu.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/188288094'>linuxKernel.packages.linux_5_19.rtlwifi_new.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -11058,6 +11076,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/188288199'>linuxPackages_latest-libre.kernel.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/188288427'>linuxPackages_latest.rtl8821cu.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -20736,7 +20760,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>158 issues</summary>
+<details><summary>154 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -21018,20 +21042,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/188288719'>haskell-language-server.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/188288401'>haskell.compiler.ghc924.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/188288190'>haskell.compiler.native-bignum.ghc924.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -21088,13 +21098,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/188288466'>linuxKernel.packages.linux_5_19.rtl8821cu.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/188288463'>linuxKernel.packages.linux_5_19.rtl88x2bu.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -21110,13 +21113,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/188288123'>linuxPackages_latest.can-isotp.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/188288427'>linuxPackages_latest.rtl8821cu.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
