@@ -4,7 +4,7 @@ categories: nixos:release-22.05-aarch64
 ---
 # Evals report
 
-*Report built at 2022-08-24 06:16:43 UTC*
+*Report built at 2022-08-24 07:11:27 UTC*
 
 Built for evals:
 
@@ -214,7 +214,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>428 issues</summary>
+<details><summary>429 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -3898,6 +3898,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/188233380'>nixos.tests.systemd-initrd-luks-password.aarch64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/188234246'>nixos.tests.vengi-tools.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -3939,7 +3945,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>9 issues</summary>
+<details><summary>8 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -3984,13 +3990,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/188236376'>nixos.tests.kexec.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/188233380'>nixos.tests.systemd-initrd-luks-password.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
