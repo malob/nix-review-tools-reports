@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-unstable-aarch64-darwin
 ---
 # Evals report
 
-*Report built at 2022-08-25 18:13:29 UTC*
+*Report built at 2022-08-25 19:10:41 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1228 issues</summary>
+<details><summary>1230 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -966,11 +966,63 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/188537743'>emacsPackages.kaleidoscope-evil-state-flash.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>source</tt> <br /> <a href='https://hydra.nixos.org/build/188537743/nixlog/6'>log</a>, <a href='https://hydra.nixos.org/build/188537743/nixlog/6/raw'>raw</a>, <a href='https://hydra.nixos.org/build/188537743/nixlog/6/tail'>tail</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>source</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>source</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>source</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>source</tt> <br /> 
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/188536241'>emacsPackages.ncl-mode.aarch64-darwin</a></tt>
 </summary>
 <ul>
 <li>
 <b>=> Failed</b> <tt>source</tt> <br /> <a href='https://hydra.nixos.org/build/188536241/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/188536241/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/188536241/nixlog/1/tail'>tail</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/188537850'>emacsPackages.slow-keys.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>source</tt> <br /> <a href='https://hydra.nixos.org/build/188537850/nixlog/6'>log</a>, <a href='https://hydra.nixos.org/build/188537850/nixlog/6/raw'>raw</a>, <a href='https://hydra.nixos.org/build/188537850/nixlog/6/tail'>tail</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>source</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>source</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>source</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>source</tt> <br /> 
 </li>
 </ul>
 </details>
@@ -10968,27 +11020,13 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>4 issues</summary>
+<details><summary>2 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/188537743'>emacsPackages.kaleidoscope-evil-state-flash.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/188537850'>emacsPackages.slow-keys.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/188537704'>python39Packages.django-raster.aarch64-darwin</a></tt>
@@ -11055,6 +11093,25 @@ Built for evals:
 </details>
 </td>
 <td>35</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/188531994'>aarch64-darwin source</a></tt></summary>
+<ul>
+<li>emacsPackages.company-stan.aarch64-darwin</li>
+<li>emacsPackages.eldoc-stan.aarch64-darwin</li>
+<li>emacsPackages.eping.aarch64-darwin</li>
+<li>emacsPackages.flycheck-stan.aarch64-darwin</li>
+<li>emacsPackages.goto-last-point.aarch64-darwin</li>
+<li>emacsPackages.kaleidoscope-evil-state-flash.aarch64-darwin</li>
+<li>emacsPackages.ncl-mode.aarch64-darwin</li>
+<li>emacsPackages.slow-keys.aarch64-darwin</li>
+<li>emacsPackages.stan-mode.aarch64-darwin</li>
+<li>emacsPackages.stan-snippets.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>22</td>
 </tr>
 <tr>
 <td>
@@ -11239,23 +11296,6 @@ Built for evals:
 </details>
 </td>
 <td>13</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/188531994'>aarch64-darwin source</a></tt></summary>
-<ul>
-<li>emacsPackages.company-stan.aarch64-darwin</li>
-<li>emacsPackages.eldoc-stan.aarch64-darwin</li>
-<li>emacsPackages.eping.aarch64-darwin</li>
-<li>emacsPackages.flycheck-stan.aarch64-darwin</li>
-<li>emacsPackages.goto-last-point.aarch64-darwin</li>
-<li>emacsPackages.ncl-mode.aarch64-darwin</li>
-<li>emacsPackages.stan-mode.aarch64-darwin</li>
-<li>emacsPackages.stan-snippets.aarch64-darwin</li>
-</ul>
-</details>
-</td>
-<td>12</td>
 </tr>
 <tr>
 <td>
