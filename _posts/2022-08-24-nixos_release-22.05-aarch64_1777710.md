@@ -1,10 +1,10 @@
 ---
-title: nixos:release-22.05-aarch64 1777710
+title: nixos:release-22.05-aarch64 1777710 (succeeded)
 categories: nixos:release-22.05-aarch64
 ---
 # Evals report
 
-*Report built at 2022-08-25 16:15:34 UTC*
+*Report built at 2022-08-25 17:16:23 UTC*
 
 Built for evals:
 
