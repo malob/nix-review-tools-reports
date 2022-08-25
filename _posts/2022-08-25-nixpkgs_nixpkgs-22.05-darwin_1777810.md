@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-22.05-darwin
 ---
 # Evals report
 
-*Report built at 2022-08-25 07:18:37 UTC*
+*Report built at 2022-08-25 13:37:25 UTC*
 
 Built for evals:
 
@@ -2572,7 +2572,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>938 issues</summary>
+<details><summary>939 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -2892,6 +2892,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>boost-build-boost-1.65.1</tt> <br /> <a href='https://hydra.nixos.org/build/187297941/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/187297941/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/187297941/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/186920767'>build 186920767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/188538247'>botamusique.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.9-opuslib-3.0.3</tt> <br /> <a href='https://hydra.nixos.org/build/188538247/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/188538247/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/188538247/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/187972129'>build 187972129</a>
 </li>
 </ul>
 </details>
@@ -11645,7 +11659,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>323 issues</summary>
+<details><summary>319 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -11724,13 +11738,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/188538247'>botamusique.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/188537986'>botamusique.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -11798,13 +11805,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/188538025'>darwin-tested</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -12235,13 +12235,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/188538180'>metrics</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/188538163'>mx-puppet-discord.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -12526,13 +12519,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/188538052'>tarball</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -14705,6 +14691,17 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/187972129'>aarch64-darwin python3.9-opuslib-3.0.3</a></tt></summary>
+<ul>
+<li>botamusique.aarch64-darwin</li>
+<li>python39Packages.pymumble.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/186855627'>x86_64-darwin smlnj-110.95</a></tt></summary>
 <ul>
 <li>celf.x86_64-darwin</li>
@@ -15341,16 +15338,6 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/187974675'>aarch64-darwin python3.9-mock-2.0.0</a></tt></summary>
 <ul>
 <li>python39Packages.pylink-square.aarch64-darwin</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/187972129'>aarch64-darwin python3.9-opuslib-3.0.3</a></tt></summary>
-<ul>
-<li>python39Packages.pymumble.aarch64-darwin</li>
 </ul>
 </details>
 </td>
