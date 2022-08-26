@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-08-26 22:12:38 UTC*
+*Report built at 2022-08-26 23:12:56 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>525 issues</summary>
+<details><summary>527 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -335,6 +335,58 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>source</tt> <br /> <a href='https://hydra.nixos.org/build/188740321/nixlog/5'>log</a>, <a href='https://hydra.nixos.org/build/188740321/nixlog/5/raw'>raw</a>, <a href='https://hydra.nixos.org/build/188740321/nixlog/5/tail'>tail</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>source</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>source</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>source</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>source</tt> <br /> 
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/188743882'>nixpkgs.emacsPackages.kaleidoscope-evil-state-flash.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>source</tt> <br /> <a href='https://hydra.nixos.org/build/188743882/nixlog/5'>log</a>, <a href='https://hydra.nixos.org/build/188743882/nixlog/5/raw'>raw</a>, <a href='https://hydra.nixos.org/build/188743882/nixlog/5/tail'>tail</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>source</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>source</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>source</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>source</tt> <br /> 
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/188745829'>nixpkgs.emacsPackages.slow-keys.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>source</tt> <br /> <a href='https://hydra.nixos.org/build/188745829/nixlog/5'>log</a>, <a href='https://hydra.nixos.org/build/188745829/nixlog/5/raw'>raw</a>, <a href='https://hydra.nixos.org/build/188745829/nixlog/5/tail'>tail</a>
 </li>
 <li>
 <b>=> Failed</b> <tt>source</tt> <br /> 
@@ -4463,7 +4515,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>8546 issues</summary>
+<details><summary>8544 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -40382,20 +40434,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/188743882'>nixpkgs.emacsPackages.kaleidoscope-evil-state-flash.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/188745829'>nixpkgs.emacsPackages.slow-keys.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/188797585'>nixpkgs.empathy.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -64307,6 +64345,8 @@ Built for evals:
 <ul>
 <li>nixpkgs.emacsPackages.doneburn-theme.x86_64-linux</li>
 <li>nixpkgs.emacsPackages.goto-last-point.x86_64-linux</li>
+<li>nixpkgs.emacsPackages.kaleidoscope-evil-state-flash.x86_64-linux</li>
+<li>nixpkgs.emacsPackages.slow-keys.x86_64-linux</li>
 <li>nixpkgs.mmex.x86_64-linux</li>
 <li>nixpkgs.opendylan.x86_64-linux</li>
 <li>nixpkgs.python310Packages.hahomematic.x86_64-linux</li>
@@ -64316,7 +64356,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>24</td>
+<td>34</td>
 </tr>
 <tr>
 <td>
