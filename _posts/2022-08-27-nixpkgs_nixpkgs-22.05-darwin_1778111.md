@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-22.05-darwin
 ---
 # Evals report
 
-*Report built at 2022-08-27 09:12:15 UTC*
+*Report built at 2022-08-27 10:12:55 UTC*
 
 Built for evals:
 
@@ -11697,7 +11697,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>142 issues</summary>
+<details><summary>139 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -11780,13 +11780,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/188814394'>darwin-tested</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -11972,13 +11965,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/188814396'>metrics</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/188538231'>mx-puppet-discord.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -12123,13 +12109,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/188814395'>tarball</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
