@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-08-28 12:19:06 UTC*
+*Report built at 2022-08-28 13:25:15 UTC*
 
 Built for evals:
 
@@ -3608,7 +3608,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>766 issues</summary>
+<details><summary>764 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -6476,32 +6476,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/188897209'>tested</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Failed</b> <tt>vm-test-run-keymap-qwertz</tt> <br /> <a href='https://hydra.nixos.org/build/188897209/nixlog/223'>log</a>, <a href='https://hydra.nixos.org/build/188897209/nixlog/223/raw'>raw</a>, <a href='https://hydra.nixos.org/build/188897209/nixlog/223/tail'>tail</a>, <a href='https://hydra.nixos.org/build/188893398'>build 188893398</a>
-</li>
-<li>
-<b>=> Aborted</b> <tt>version</tt> <br /> <a href='https://hydra.nixos.org/build/188897209/nixlog/32'>log</a>, <a href='https://hydra.nixos.org/build/188897209/nixlog/32/raw'>raw</a>, <a href='https://hydra.nixos.org/build/188897209/nixlog/32/tail'>tail</a>
-</li>
-<li>
-<b>=> Aborted</b> <tt>local-cmds</tt> <br /> <a href='https://hydra.nixos.org/build/188897209/nixlog/29'>log</a>, <a href='https://hydra.nixos.org/build/188897209/nixlog/29/raw'>raw</a>, <a href='https://hydra.nixos.org/build/188897209/nixlog/29/tail'>tail</a>
-</li>
-<li>
-<b>=> Aborted</b> <tt>unit-systemd-fsck-.service</tt> <br /> <a href='https://hydra.nixos.org/build/188897209/nixlog/17'>log</a>, <a href='https://hydra.nixos.org/build/188897209/nixlog/17/raw'>raw</a>, <a href='https://hydra.nixos.org/build/188897209/nixlog/17/tail'>tail</a>
-</li>
-<li>
-<b>=> Aborted</b> <tt>dbus-1</tt> <br /> <a href='https://hydra.nixos.org/build/188897209/nixlog/16'>log</a>, <a href='https://hydra.nixos.org/build/188897209/nixlog/16/raw'>raw</a>, <a href='https://hydra.nixos.org/build/188897209/nixlog/16/tail'>tail</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/188897211'>nixos.amazonImageZfs.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -6989,12 +6963,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/188895886'>nixos.tests.keepassxc.x86_64-linux</a></tt>
-</td>
-<td>Failed</td>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/188893398'>nixos.tests.keymap.qwertz.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -9915,7 +9883,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>156 issues</summary>
+<details><summary>157 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -11309,6 +11277,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/188896630'>nixos.tests.domination.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/188893522'>nixos.tests.engelsystem.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -11614,7 +11588,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>15 issues</summary>
+<details><summary>13 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -11623,24 +11597,10 @@ Built for evals:
 </tr></thead>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/188898502'>nixos.kexec.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/188895062'>nixos.tests.cloud-init.i686-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/188896630'>nixos.tests.domination.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -13042,56 +13002,6 @@ Built for evals:
 </details>
 </td>
 <td>2</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/188893398'>x86_64-linux vm-test-run-keymap-qwertz</a></tt></summary>
-<ul>
-<li>tested</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>x86_64-linux version</tt></summary>
-<ul>
-<li>tested</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>x86_64-linux local-cmds</tt></summary>
-<ul>
-<li>tested</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>x86_64-linux unit-systemd-fsck-.service</tt></summary>
-<ul>
-<li>tested</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>x86_64-linux dbus-1</tt></summary>
-<ul>
-<li>tested</li>
-</ul>
-</details>
-</td>
-<td>1</td>
 </tr>
 <tr>
 <td>
