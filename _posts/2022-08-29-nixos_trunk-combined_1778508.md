@@ -1,10 +1,10 @@
 ---
-title: nixos:trunk-combined 1778508
+title: nixos:trunk-combined 1778508 (succeeded)
 categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-08-30 19:11:15 UTC*
+*Report built at 2022-08-30 20:14:22 UTC*
 
 Built for evals:
 
@@ -27018,7 +27018,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>164 issues</summary>
+<details><summary>167 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -28742,6 +28742,18 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/189044062'>nixos.tests.fcitx.aarch64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/189042670'>nixos.tests.iscsi-multipath-root.aarch64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/189038957'>nixos.tests.iscsi-root.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -28754,44 +28766,15 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/189039874'>nixos.tests.vengi-tools.aarch64-linux</a></tt>
+<tt><a href='https://hydra.nixos.org/build/189041993'>nixos.tests.patroni.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>3 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/189044062'>nixos.tests.fcitx.aarch64-linux</a></tt>
+<tt><a href='https://hydra.nixos.org/build/189039874'>nixos.tests.vengi-tools.aarch64-linux</a></tt>
 </td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/189042670'>nixos.tests.iscsi-multipath-root.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/189041993'>nixos.tests.patroni.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
+<td>Timed out</td>
 </tr>
 </table>
 </details>
