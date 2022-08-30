@@ -4,7 +4,7 @@ categories: nixos:release-22.05
 ---
 # Evals report
 
-*Report built at 2022-08-30 07:23:12 UTC*
+*Report built at 2022-08-30 08:17:40 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### i686-linux
 
 
-<details><summary>195 issues</summary>
+<details><summary>196 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -2204,6 +2204,12 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/189031947'>nixos.tests.wiki-js.i686-linux</a></tt>
 </td>
 <td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/189032057'>nixos.tests.cloud-init.i686-linux</a></tt>
+</td>
+<td>Timed out</td>
 </tr>
 <tr>
 <td>
@@ -14542,20 +14548,13 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>11 issues</summary>
+<details><summary>10 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/189032057'>nixos.tests.cloud-init.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/189034694'>nixos.tests.cloud-init.x86_64-linux</a></tt>
