@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-22.05-darwin
 ---
 # Evals report
 
-*Report built at 2022-09-01 15:14:29 UTC*
+*Report built at 2022-09-01 16:16:35 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>264 issues</summary>
+<details><summary>265 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -757,6 +757,35 @@ Built for evals:
 </li>
 <li>
 <b>=> Aborted</b> <tt>ruby2.7.6-eventmachine-1.0.9.1</tt> <br /> 
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/188282097'>mucommander.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>mucommander-deps-0.9.3-3</tt> <br /> <a href='https://hydra.nixos.org/build/188282097/nixlog/6'>log</a>, <a href='https://hydra.nixos.org/build/188282097/nixlog/6/raw'>raw</a>, <a href='https://hydra.nixos.org/build/188282097/nixlog/6/tail'>tail</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>mucommander-deps-0.9.3-3</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>mucommander-deps-0.9.3-3</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>mucommander-deps-0.9.3-3</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>mucommander-deps-0.9.3-3</tt> <br /> 
+</li>
+<li>
+<b>=> Aborted</b> <tt>mucommander-deps-0.9.3-3</tt> <br /> <a href='https://hydra.nixos.org/build/187944685'>build 187944685</a>
 </li>
 </ul>
 </details>
@@ -11955,7 +11984,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>135 issues</summary>
+<details><summary>133 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -12063,13 +12092,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/188287884'>getdns.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/188287878'>gfortran12.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -12322,13 +12344,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/189359756'>matrix-synapse.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/188282097'>mucommander.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -13038,6 +13053,17 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt>aarch64-darwin mucommander-deps-0.9.3-3</tt></summary>
+<ul>
+<li>mucommander.aarch64-darwin</li>
+<li>mucommander.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>16</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/187965845'>aarch64-darwin perl5.34.1-Gtk3-0.037</a></tt></summary>
 <ul>
 <li>auto-multiple-choice.aarch64-darwin</li>
@@ -13264,16 +13290,6 @@ Built for evals:
 <li>mailcatcher.x86_64-darwin</li>
 <li>vpsfree-client.aarch64-darwin</li>
 <li>vpsfree-client.x86_64-darwin</li>
-</ul>
-</details>
-</td>
-<td>10</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>aarch64-darwin mucommander-deps-0.9.3-3</tt></summary>
-<ul>
-<li>mucommander.aarch64-darwin</li>
 </ul>
 </details>
 </td>
