@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-22.05-darwin
 ---
 # Evals report
 
-*Report built at 2022-09-01 09:13:25 UTC*
+*Report built at 2022-09-01 10:14:05 UTC*
 
 Built for evals:
 
@@ -11711,7 +11711,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>75 issues</summary>
+<details><summary>74 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -11728,13 +11728,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/188278481'>baget.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/188273570'>btcpayserver.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
