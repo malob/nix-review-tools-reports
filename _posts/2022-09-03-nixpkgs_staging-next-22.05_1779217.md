@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next-22.05
 ---
 # Evals report
 
-*Report built at 2022-09-03 17:17:03 UTC*
+*Report built at 2022-09-03 19:12:26 UTC*
 
 Built for evals:
 
@@ -16906,7 +16906,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>59 issues</summary>
+<details><summary>54 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -17034,27 +17034,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/189667098'>python310Packages.aio-georss-client.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/189667158'>python310Packages.aio-georss-gdacs.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/189667124'>python310Packages.flask-common.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/189667167'>python310Packages.georss-ign-sismologia-client.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -17104,13 +17083,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/189667118'>python310Packages.maya.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/189667144'>python310Packages.parsedmarc.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -17147,13 +17119,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/189667042'>python39Packages.flask-common.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/189667133'>python39Packages.georss-generic-client.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
