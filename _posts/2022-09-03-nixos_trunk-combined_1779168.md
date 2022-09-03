@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-09-03 19:11:07 UTC*
+*Report built at 2022-09-03 20:13:06 UTC*
 
 Built for evals:
 
@@ -3128,7 +3128,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>952 issues</summary>
+<details><summary>955 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -4438,6 +4438,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/189654983'>nixpkgs.openstackclient.x86_64-linux</a></tt>
+</td>
+<td>Aborted</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/189512120'>nixpkgs.out-of-tree.x86_64-linux</a></tt>
 </td>
 <td>Aborted</td>
@@ -4775,6 +4781,18 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/189653897'>nixpkgs.python310Packages.pytest-astropy.x86_64-linux</a></tt>
+</td>
+<td>Aborted</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/189653861'>nixpkgs.python310Packages.python-novaclient.x86_64-linux</a></tt>
+</td>
+<td>Aborted</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/189654172'>nixpkgs.python310Packages.python-openstackclient.x86_64-linux</a></tt>
 </td>
 <td>Aborted</td>
 </tr>
@@ -10560,7 +10578,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>4264 issues</summary>
+<details><summary>4261 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -36413,13 +36431,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/189654983'>nixpkgs.openstackclient.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/189654857'>nixpkgs.opsdroid.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -37891,20 +37902,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/189653958'>nixpkgs.python310Packages.pyro-ppl.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/189653861'>nixpkgs.python310Packages.python-novaclient.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/189654172'>nixpkgs.python310Packages.python-openstackclient.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
