@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-09-03 15:12:50 UTC*
+*Report built at 2022-09-03 16:15:01 UTC*
 
 Built for evals:
 
@@ -3128,7 +3128,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>895 issues</summary>
+<details><summary>916 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -3562,6 +3562,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/189653662'>nixos.tests.allDrivers.magic-wormhole-mailbox-server.x86_64-linux</a></tt>
+</td>
+<td>Aborted</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/189655102'>nixos.tests.allDrivers.man.x86_64-linux</a></tt>
 </td>
 <td>Aborted</td>
@@ -3928,6 +3934,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/189654150'>nixos.tests.magic-wormhole-mailbox-server.x86_64-linux</a></tt>
+</td>
+<td>Aborted</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/189654045'>nixos.tests.man.x86_64-linux</a></tt>
 </td>
 <td>Aborted</td>
@@ -4024,7 +4036,19 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/189654807'>nixpkgs.baresip.x86_64-linux</a></tt>
+</td>
+<td>Aborted</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/189654425'>nixpkgs.buf-language-server.x86_64-linux</a></tt>
+</td>
+<td>Aborted</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/189654498'>nixpkgs.chromedriver.x86_64-linux</a></tt>
 </td>
 <td>Aborted</td>
 </tr>
@@ -4042,7 +4066,43 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/189654100'>nixpkgs.easyeffects.x86_64-linux</a></tt>
+</td>
+<td>Aborted</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/189653838'>nixpkgs.eksctl.x86_64-linux</a></tt>
+</td>
+<td>Aborted</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/189654405'>nixpkgs.fast-cli.x86_64-linux</a></tt>
+</td>
+<td>Aborted</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/189654595'>nixpkgs.fmt_9.x86_64-linux</a></tt>
+</td>
+<td>Aborted</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/189654029'>nixpkgs.fmt_latest.x86_64-linux</a></tt>
+</td>
+<td>Aborted</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/189654650'>nixpkgs.gnome-keysign.x86_64-linux</a></tt>
+</td>
+<td>Aborted</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/189654341'>nixpkgs.go-swagger.x86_64-linux</a></tt>
 </td>
 <td>Aborted</td>
 </tr>
@@ -4061,6 +4121,24 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/189654272'>nixpkgs.infracost.x86_64-linux</a></tt>
+</td>
+<td>Aborted</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/189653864'>nixpkgs.leo-editor.x86_64-linux</a></tt>
+</td>
+<td>Aborted</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/189654672'>nixpkgs.libre.x86_64-linux</a></tt>
+</td>
+<td>Aborted</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/189654457'>nixpkgs.librem.x86_64-linux</a></tt>
 </td>
 <td>Aborted</td>
 </tr>
@@ -4144,6 +4222,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/189654185'>nixpkgs.magic-wormhole.x86_64-linux</a></tt>
+</td>
+<td>Aborted</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/189653825'>nixpkgs.manual</a></tt>
 </td>
 <td>Aborted</td>
@@ -4169,6 +4253,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/189653672'>nixpkgs.nixos-install-tools.x86_64-linux</a></tt>
+</td>
+<td>Aborted</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/189654169'>nixpkgs.oh-my-posh.x86_64-linux</a></tt>
 </td>
 <td>Aborted</td>
 </tr>
@@ -4427,6 +4517,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/189653799'>nixpkgs.python310Packages.intake.x86_64-linux</a></tt>
+</td>
+<td>Aborted</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/189654237'>nixpkgs.python310Packages.magic-wormhole.x86_64-linux</a></tt>
 </td>
 <td>Aborted</td>
 </tr>
@@ -4858,6 +4954,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/189654283'>nixpkgs.python39Packages.magic-wormhole.x86_64-linux</a></tt>
+</td>
+<td>Aborted</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/189654289'>nixpkgs.python39Packages.moviepy.x86_64-linux</a></tt>
 </td>
 <td>Aborted</td>
@@ -5068,6 +5170,18 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/189654946'>nixpkgs.selendroid.x86_64-linux</a></tt>
+</td>
+<td>Aborted</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/189654562'>nixpkgs.selenium-server-standalone.x86_64-linux</a></tt>
+</td>
+<td>Aborted</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/189654965'>nixpkgs.sharedown.x86_64-linux</a></tt>
 </td>
 <td>Aborted</td>
@@ -5080,6 +5194,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/189654262'>nixpkgs.sile.x86_64-linux</a></tt>
+</td>
+<td>Aborted</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/189510980'>nixpkgs.solo5.x86_64-linux</a></tt>
 </td>
 <td>Aborted</td>
@@ -5087,6 +5207,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/189654086'>nixpkgs.streamlit.x86_64-linux</a></tt>
+</td>
+<td>Aborted</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/189654686'>nixpkgs.tahoe-lafs.x86_64-linux</a></tt>
 </td>
 <td>Aborted</td>
 </tr>
@@ -10218,7 +10344,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>4321 issues</summary>
+<details><summary>4300 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -15285,13 +15411,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/189653662'>nixos.tests.allDrivers.magic-wormhole-mailbox-server.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -27244,13 +27363,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/189654150'>nixos.tests.magic-wormhole-mailbox-server.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/189509955'>nixos.tests.magnetico.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -34930,13 +35042,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/189654807'>nixpkgs.baresip.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/189653772'>nixpkgs.barman.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -35001,13 +35106,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/189654736'>nixpkgs.chrome-gnome-shell.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/189654498'>nixpkgs.chromedriver.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -35175,20 +35273,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/189654100'>nixpkgs.easyeffects.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/189653838'>nixpkgs.eksctl.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/189654230'>nixpkgs.electrs.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -35259,20 +35343,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/189654595'>nixpkgs.fmt_9.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/189654029'>nixpkgs.fmt_latest.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/189654418'>nixpkgs.folly.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -35337,13 +35407,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/189654598'>nixpkgs.gnome-firmware.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/189654650'>nixpkgs.gnome-keysign.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -35470,13 +35533,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/189654356'>nixpkgs.gnomeExtensions.system-monitor.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/189654341'>nixpkgs.go-swagger.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -35714,13 +35770,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/189653864'>nixpkgs.leo-editor.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/189653687'>nixpkgs.libinsane.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -35736,20 +35785,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/189654937'>nixpkgs.libmusicbrainz3.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/189654672'>nixpkgs.libre.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/189654457'>nixpkgs.librem.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -36267,13 +36302,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/189654185'>nixpkgs.magic-wormhole.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/189653903'>nixpkgs.maigret.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -36352,13 +36380,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/189653937'>nixpkgs.ocrfeeder.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/189654169'>nixpkgs.oh-my-posh.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -37626,13 +37647,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/189654019'>nixpkgs.python310Packages.livelossplot.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/189654237'>nixpkgs.python310Packages.magic-wormhole.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -39172,13 +39186,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/189654283'>nixpkgs.python39Packages.magic-wormhole.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/189653839'>nixpkgs.python39Packages.modeled.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -39942,27 +39949,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/189654946'>nixpkgs.selendroid.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/189654562'>nixpkgs.selenium-server-standalone.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/189654262'>nixpkgs.sile.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/189654053'>nixpkgs.simple-scan.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -40013,13 +39999,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/189654022'>nixpkgs.sysdig.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/189654686'>nixpkgs.tahoe-lafs.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
