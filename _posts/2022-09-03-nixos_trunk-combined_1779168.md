@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-09-03 23:12:22 UTC*
+*Report built at 2022-09-04 00:59:12 UTC*
 
 Built for evals:
 
@@ -3128,7 +3128,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>962 issues</summary>
+<details><summary>966 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -4108,6 +4108,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/189654592'>nixpkgs.bazel_6.x86_64-linux</a></tt>
+</td>
+<td>Aborted</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/189654425'>nixpkgs.buf-language-server.x86_64-linux</a></tt>
 </td>
 <td>Aborted</td>
@@ -4493,6 +4499,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/189653962'>nixpkgs.pocketbase.x86_64-linux</a></tt>
+</td>
+<td>Aborted</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/189654271'>nixpkgs.ptcollab.x86_64-linux</a></tt>
 </td>
 <td>Aborted</td>
 </tr>
@@ -5416,6 +5428,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/189654969'>nixpkgs.ryujinx.x86_64-linux</a></tt>
+</td>
+<td>Aborted</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/189512313'>nixpkgs.sameboy.x86_64-linux</a></tt>
 </td>
 <td>Aborted</td>
@@ -5471,6 +5489,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/189654686'>nixpkgs.tahoe-lafs.x86_64-linux</a></tt>
+</td>
+<td>Aborted</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/189653682'>nixpkgs.talosctl.x86_64-linux</a></tt>
 </td>
 <td>Aborted</td>
 </tr>
@@ -10620,7 +10644,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>4254 issues</summary>
+<details><summary>4250 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -35255,13 +35279,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/189654592'>nixpkgs.bazel_6.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/189654354'>nixpkgs.beancount.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -36775,13 +36792,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/189513129'>nixpkgs.praat.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/189654271'>nixpkgs.ptcollab.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -39868,13 +39878,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/189654969'>nixpkgs.ryujinx.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/189654174'>nixpkgs.s3ql.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -39974,13 +39977,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/189654022'>nixpkgs.sysdig.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/189653682'>nixpkgs.talosctl.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
