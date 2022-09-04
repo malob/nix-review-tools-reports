@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-09-04 16:15:35 UTC*
+*Report built at 2022-09-04 17:15:49 UTC*
 
 Built for evals:
 
@@ -3226,7 +3226,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>3366 issues</summary>
+<details><summary>3367 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -20286,6 +20286,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/189696068'>nixpkgs.terraform-providers.wavefront.x86_64-linux</a></tt>
+</td>
+<td>Aborted</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/189695359'>nixpkgs.tests.nixos-functions.nixos-test.x86_64-linux</a></tt>
 </td>
 <td>Aborted</td>
@@ -24972,7 +24978,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>8820 issues</summary>
+<details><summary>8819 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -86274,13 +86280,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/189690681'>nixpkgs.terraform-providers.tls.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/189696068'>nixpkgs.terraform-providers.wavefront.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
