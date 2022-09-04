@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-09-04 03:36:26 UTC*
+*Report built at 2022-09-04 05:00:55 UTC*
 
 Built for evals:
 
@@ -3128,7 +3128,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>972 issues</summary>
+<details><summary>974 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -4084,6 +4084,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/189655101'>nixpkgs.aerc.x86_64-linux</a></tt>
+</td>
+<td>Aborted</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/189654454'>nixpkgs.agi.x86_64-linux</a></tt>
 </td>
 <td>Aborted</td>
@@ -4511,6 +4517,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/189654123'>nixpkgs.p2pool.x86_64-linux</a></tt>
+</td>
+<td>Aborted</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/189654942'>nixpkgs.p4c.x86_64-linux</a></tt>
 </td>
 <td>Aborted</td>
 </tr>
@@ -10680,7 +10692,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>4244 issues</summary>
+<details><summary>4242 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -35280,13 +35292,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/189655101'>nixpkgs.aerc.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/189653772'>nixpkgs.barman.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -36478,13 +36483,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/189654877'>nixpkgs.ovmfvartool.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/189654942'>nixpkgs.p4c.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
