@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-22.05-darwin
 ---
 # Evals report
 
-*Report built at 2022-09-06 10:14:03 UTC*
+*Report built at 2022-09-06 12:23:58 UTC*
 
 Built for evals:
 
@@ -88366,7 +88366,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>942 issues</summary>
+<details><summary>943 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -94476,6 +94476,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/189556702'>EBTKS.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/187266655'>a52dec.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -97523,7 +97529,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>5 issues</summary>
+<details><summary>2 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -97532,28 +97538,7 @@ Built for evals:
 </tr></thead>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/189824664'>json-schema-for-humans.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/189824656'>pyspread.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/189824648'>python39Packages.json-schema-for-humans.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/189824665'>python39Packages.ramlfications.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
