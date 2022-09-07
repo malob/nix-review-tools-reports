@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-09-07 16:16:03 UTC*
+*Report built at 2022-09-07 17:27:22 UTC*
 
 Built for evals:
 
@@ -32228,7 +32228,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>10480 issues</summary>
+<details><summary>10479 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -32273,13 +32273,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/189859426'>nixos.amazonImageZfs.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/189860298'>nixos.channel</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
