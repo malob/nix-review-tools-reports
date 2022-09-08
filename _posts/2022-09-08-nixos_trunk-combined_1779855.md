@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-09-08 15:14:44 UTC*
+*Report built at 2022-09-08 19:12:47 UTC*
 
 Built for evals:
 
@@ -9314,7 +9314,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>7528 issues</summary>
+<details><summary>7530 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -52055,6 +52055,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/189892095'>nixpkgs.frostwire.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>frostwire-desktop-deps-6.6.7-build-529</tt> <br /> <a href='https://hydra.nixos.org/build/189892095/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/189892095/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/189892095/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/188347289'>build 188347289</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/189796369'>nixpkgs.gawk-with-extensions.x86_64-linux</a></tt>
 </summary>
 <ul>
@@ -52469,6 +52483,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>mirakurun-3.8.0</tt> <br /> <a href='https://hydra.nixos.org/build/188746222/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/188746222/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/188746222/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/188556507'>build 188556507</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/189892841'>nixpkgs.mmex.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>source</tt> <br /> <a href='https://hydra.nixos.org/build/189892841/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/189892841/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/189892841/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/189412302'>build 189412302</a>
 </li>
 </ul>
 </details>
@@ -64642,7 +64670,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>901 issues</summary>
+<details><summary>896 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -68711,13 +68739,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/189892095'>nixpkgs.frostwire.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/189892683'>nixpkgs.gamehub.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -69026,13 +69047,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/189892377'>nixpkgs.gnome2.gvfs.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/189892314'>nixpkgs.gnomeExtensions.dash-to-dock.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -69146,13 +69160,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/189892271'>nixpkgs.gthumb.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/189892751'>nixpkgs.gvfs.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -69523,13 +69530,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/189892948'>nixpkgs.libbluray.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/189892981'>nixpkgs.libceph.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -69825,13 +69825,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/189893054'>nixpkgs.minitube.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/189892841'>nixpkgs.mmex.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -71029,6 +71022,7 @@ Built for evals:
 <ul>
 <li>nixpkgs.emacsPackages.slow-keys.x86_64-linux</li>
 <li>nixpkgs.kanboard.x86_64-linux</li>
+<li>nixpkgs.mmex.x86_64-linux</li>
 <li>nixpkgs.opendylan.x86_64-linux</li>
 <li>nixpkgs.python310Packages.hahomematic.x86_64-linux</li>
 <li>nixpkgs.python39Packages.hahomematic.x86_64-linux</li>
@@ -71040,7 +71034,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>18</td>
+<td>19</td>
 </tr>
 <tr>
 <td>
@@ -72077,6 +72071,16 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/188339700'>x86_64-linux boost-1.69.0</a></tt></summary>
 <ul>
 <li>nixpkgs.freeorion.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/188347289'>x86_64-linux frostwire-desktop-deps-6.6.7-build-529</a></tt></summary>
+<ul>
+<li>nixpkgs.frostwire.x86_64-linux</li>
 </ul>
 </details>
 </td>
