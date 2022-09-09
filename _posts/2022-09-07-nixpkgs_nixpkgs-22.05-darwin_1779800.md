@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-22.05-darwin
 ---
 # Evals report
 
-*Report built at 2022-09-09 06:30:20 UTC*
+*Report built at 2022-09-09 08:18:28 UTC*
 
 Built for evals:
 
@@ -42,7 +42,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1050 issues</summary>
+<details><summary>1051 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -12094,6 +12094,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/189553134'>python310Packages.hyppo.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/189538870'>python310Packages.jedi-language-server.x86_64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -21206,7 +21212,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>776 issues</summary>
+<details><summary>774 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -21489,13 +21495,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/189556214'>coq_8_12.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/189554769'>coq_8_14.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -23309,13 +23308,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/189554811'>python310Packages.hypchat.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/189553134'>python310Packages.hyppo.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
