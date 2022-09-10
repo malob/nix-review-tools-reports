@@ -4,7 +4,7 @@ categories: nixos:release-22.05
 ---
 # Evals report
 
-*Report built at 2022-09-10 05:12:52 UTC*
+*Report built at 2022-09-10 07:14:51 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### i686-linux
 
 
-<details><summary>192 issues</summary>
+<details><summary>193 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -231,6 +231,83 @@ Built for evals:
 </li>
 <li>
 <b>=> Aborted</b> <tt>couchdb-extra.ini</tt> <br /> <a href='https://hydra.nixos.org/build/189444714/nixlog/6'>log</a>, <a href='https://hydra.nixos.org/build/189444714/nixlog/6/raw'>raw</a>, <a href='https://hydra.nixos.org/build/189444714/nixlog/6/tail'>tail</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/189689927'>nixos.tests.custom-ca.chromium.i686-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>chromium-unwrapped-105.0.5195.102</tt> <br /> <a href='https://hydra.nixos.org/build/189689927/nixlog/25'>log</a>, <a href='https://hydra.nixos.org/build/189689927/nixlog/25/raw'>raw</a>, <a href='https://hydra.nixos.org/build/189689927/nixlog/25/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>clang-wrapper-14.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/189689927/nixlog/21'>log</a>, <a href='https://hydra.nixos.org/build/189689927/nixlog/21/raw'>raw</a>, <a href='https://hydra.nixos.org/build/189689927/nixlog/21/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>gn-unstable-2022-07-11</tt> <br /> <a href='https://hydra.nixos.org/build/189689927/nixlog/20'>log</a>, <a href='https://hydra.nixos.org/build/189689927/nixlog/20/raw'>raw</a>, <a href='https://hydra.nixos.org/build/189689927/nixlog/20/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>chromium-105.0.5195.102.tar.xz</tt> <br /> <a href='https://hydra.nixos.org/build/189689927/nixlog/19'>log</a>, <a href='https://hydra.nixos.org/build/189689927/nixlog/19/raw'>raw</a>, <a href='https://hydra.nixos.org/build/189689927/nixlog/19/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>gn-9ef3217</tt> <br /> <a href='https://hydra.nixos.org/build/189689927/nixlog/18'>log</a>, <a href='https://hydra.nixos.org/build/189689927/nixlog/18/raw'>raw</a>, <a href='https://hydra.nixos.org/build/189689927/nixlog/18/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>clang-wrapper-14.0.1</tt> <br /> 
+</li>
+<li>
+<b>=> Aborted</b> <tt>chromium-105.0.5195.102.tar.xz</tt> <br /> 
+</li>
+<li>
+<b>=> Aborted</b> <tt>gn-9ef3217</tt> <br /> 
+</li>
+<li>
+<b>=> Aborted</b> <tt>clang-wrapper-14.0.1</tt> <br /> 
+</li>
+<li>
+<b>=> Aborted</b> <tt>chromium-105.0.5195.102.tar.xz</tt> <br /> 
+</li>
+<li>
+<b>=> Aborted</b> <tt>clang-wrapper-14.0.1</tt> <br /> 
+</li>
+<li>
+<b>=> Aborted</b> <tt>gn-9ef3217</tt> <br /> 
+</li>
+<li>
+<b>=> Aborted</b> <tt>gn-9ef3217</tt> <br /> 
+</li>
+<li>
+<b>=> Aborted</b> <tt>gn-9ef3217</tt> <br /> 
+</li>
+<li>
+<b>=> Aborted</b> <tt>clang-wrapper-14.0.1</tt> <br /> 
+</li>
+<li>
+<b>=> Aborted</b> <tt>chromium-105.0.5195.102.tar.xz</tt> <br /> 
+</li>
+<li>
+<b>=> Aborted</b> <tt>clang-wrapper-14.0.1</tt> <br /> 
+</li>
+<li>
+<b>=> Aborted</b> <tt>chromium-105.0.5195.102.tar.xz</tt> <br /> 
+</li>
+<li>
+<b>=> Aborted</b> <tt>gn-9ef3217</tt> <br /> 
+</li>
+<li>
+<b>=> Aborted</b> <tt>chromium-105.0.5195.102.tar.xz</tt> <br /> 
+</li>
+<li>
+<b>=> Aborted</b> <tt>clang-wrapper-14.0.1</tt> <br /> 
+</li>
+<li>
+<b>=> Aborted</b> <tt>gn-9ef3217</tt> <br /> 
 </li>
 </ul>
 </details>
@@ -11514,48 +11591,13 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>6 issues</summary>
+<details><summary>1 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/189689927'>nixos.tests.custom-ca.chromium.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/189689937'>nixpkgs.thunderbird-102-unwrapped.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/189891724'>nixpkgs.thunderbird-unwrapped.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/189689783'>nixpkgs.thunderbirdPackages.thunderbird-102.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/189891796'>nixpkgs.thunderbirdPackages.thunderbird.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/189689965'>nixpkgs.ungoogled-chromium.x86_64-linux</a></tt>
@@ -11955,6 +11997,36 @@ Built for evals:
 </details>
 </td>
 <td>8</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>i686-linux clang-wrapper-14.0.1</tt></summary>
+<ul>
+<li>nixos.tests.custom-ca.chromium.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>7</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>i686-linux gn-9ef3217</tt></summary>
+<ul>
+<li>nixos.tests.custom-ca.chromium.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>7</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>i686-linux chromium-105.0.5195.102.tar.xz</tt></summary>
+<ul>
+<li>nixos.tests.custom-ca.chromium.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>6</td>
 </tr>
 <tr>
 <td>
@@ -12545,6 +12617,26 @@ Built for evals:
 <details><summary><tt>i686-linux couchdb-extra.ini</tt></summary>
 <ul>
 <li>nixos.tests.couchdb.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>i686-linux chromium-unwrapped-105.0.5195.102</tt></summary>
+<ul>
+<li>nixos.tests.custom-ca.chromium.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>i686-linux gn-unstable-2022-07-11</tt></summary>
+<ul>
+<li>nixos.tests.custom-ca.chromium.i686-linux</li>
 </ul>
 </details>
 </td>
