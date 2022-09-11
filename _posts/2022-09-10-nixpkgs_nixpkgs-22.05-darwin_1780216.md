@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:nixpkgs-22.05-darwin 1780216
+title: nixpkgs:nixpkgs-22.05-darwin 1780216 (succeeded)
 categories: nixpkgs:nixpkgs-22.05-darwin
 ---
 # Evals report
 
-*Report built at 2022-09-11 01:02:37 UTC*
+*Report built at 2022-09-11 03:39:21 UTC*
 
 Built for evals:
 
@@ -12,10 +12,37 @@ Built for evals:
 
  * * * 
 
+### x86_64-linux
+
+
+<details><summary>1 issues</summary>
+<table>
+<thead><tr>
+<th>job</th>
+<th>status</th>
+</tr></thead>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/190078418'>darwin-tested</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>liblqr-1-0.4.2</tt> <br /> <a href='https://hydra.nixos.org/build/190078418/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/190078418/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/190078418/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/189867358'>build 189867358</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+</table>
+</details>
+
+
 ### x86_64-darwin
 
 
-<details><summary>1115 issues</summary>
+<details><summary>1116 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -3126,6 +3153,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>rustc-1.60.0</tt> <br /> <a href='https://hydra.nixos.org/build/189533919/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/189533919/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/189533919/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/189651378'>build 189651378</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/190078420'>onionshare.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>snowflake-2.2.0</tt> <br /> <a href='https://hydra.nixos.org/build/190078420/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/190078420/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/190078420/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/189550005'>build 189550005</a>
 </li>
 </ul>
 </details>
@@ -12876,7 +12917,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>937 issues</summary>
+<details><summary>938 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -15666,6 +15707,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>arpack-3.8.0</tt> <br /> <a href='https://hydra.nixos.org/build/189562199/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/189562199/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/189562199/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/189531513'>build 189531513</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/190078417'>onionshare.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>snowflake-2.2.0</tt> <br /> <a href='https://hydra.nixos.org/build/190078417/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/190078417/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/190078417/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/189549589'>build 189549589</a>
 </li>
 </ul>
 </details>
@@ -21923,76 +21978,6 @@ Built for evals:
 </table>
 </details>
 
-
-### Still queued
-
-
-<details><summary>8 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/190078418'>darwin-tested</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/190078416'>fava.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/190078422'>metrics</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/190078417'>onionshare.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/190078420'>onionshare.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/190078421'>tarball</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/190078419'>tor.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/190078415'>tor.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-</table>
-</details>
-
 ## Problematic dependencies
 
 <table>
@@ -23953,6 +23938,17 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/189549589'>aarch64-darwin snowflake-2.2.0</a></tt></summary>
+<ul>
+<li>onionshare.aarch64-darwin</li>
+<li>onionshare.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/189543409'>aarch64-darwin perl5.34.1-mod_perl-2.0.11</a></tt></summary>
 <ul>
 <li>perl534Packages.GoferTransporthttp.aarch64-darwin</li>
@@ -24201,6 +24197,16 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/186858094'>aarch64-darwin chicken-sendfile-1.8.3</a></tt></summary>
 <ul>
 <li>chickenPackages_4.egg2nix.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/189867358'>x86_64-linux liblqr-1-0.4.2</a></tt></summary>
+<ul>
+<li>darwin-tested</li>
 </ul>
 </details>
 </td>
