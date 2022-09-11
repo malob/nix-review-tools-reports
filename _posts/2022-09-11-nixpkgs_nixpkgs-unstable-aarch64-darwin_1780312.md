@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:nixpkgs-unstable-aarch64-darwin 1780312
+title: nixpkgs:nixpkgs-unstable-aarch64-darwin 1780312 (succeeded)
 categories: nixpkgs:nixpkgs-unstable-aarch64-darwin
 ---
 # Evals report
 
-*Report built at 2022-09-11 18:14:38 UTC*
+*Report built at 2022-09-11 19:10:19 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1392 issues</summary>
+<details><summary>1393 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -855,6 +855,32 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>control-lock.el</tt> <br /> <a href='https://hydra.nixos.org/build/188534937/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/188534937/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/188534937/nixlog/1/tail'>tail</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/190103632'>emacsPackages.doneburn-theme.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>source</tt> <br /> <a href='https://hydra.nixos.org/build/190103632/nixlog/5'>log</a>, <a href='https://hydra.nixos.org/build/190103632/nixlog/5/raw'>raw</a>, <a href='https://hydra.nixos.org/build/190103632/nixlog/5/tail'>tail</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>source</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>source</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>source</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>source</tt> <br /> 
 </li>
 </ul>
 </details>
@@ -13114,27 +13140,6 @@ Built for evals:
 </table>
 </details>
 
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/190103632'>emacsPackages.doneburn-theme.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-</table>
-</details>
-
 ## Problematic dependencies
 
 <table>
@@ -13629,6 +13634,18 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt>aarch64-darwin source</tt></summary>
+<ul>
+<li>emacsPackages.doneburn-theme.aarch64-darwin</li>
+<li>emacsPackages.eping.aarch64-darwin</li>
+<li>emacsPackages.ncl-mode.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>7</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/187636836'>aarch64-darwin scummvm-2.5.1</a></tt></summary>
 <ul>
 <li>beneath-a-steel-sky.aarch64-darwin</li>
@@ -14094,17 +14111,6 @@ Built for evals:
 <ul>
 <li>checkov.aarch64-darwin</li>
 <li>pip-audit.aarch64-darwin</li>
-</ul>
-</details>
-</td>
-<td>2</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/188536190'>aarch64-darwin source</a></tt></summary>
-<ul>
-<li>emacsPackages.eping.aarch64-darwin</li>
-<li>emacsPackages.ncl-mode.aarch64-darwin</li>
 </ul>
 </details>
 </td>
