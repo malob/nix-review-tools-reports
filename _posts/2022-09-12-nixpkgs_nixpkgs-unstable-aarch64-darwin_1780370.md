@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:nixpkgs-unstable-aarch64-darwin 1780370
+title: nixpkgs:nixpkgs-unstable-aarch64-darwin 1780370 (succeeded)
 categories: nixpkgs:nixpkgs-unstable-aarch64-darwin
 ---
 # Evals report
 
-*Report built at 2022-09-12 09:17:57 UTC*
+*Report built at 2022-09-12 10:14:15 UTC*
 
 Built for evals:
 
