@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-unstable-aarch64-darwin
 ---
 # Evals report
 
-*Report built at 2022-09-12 05:28:00 UTC*
+*Report built at 2022-09-12 06:52:15 UTC*
 
 Built for evals:
 
@@ -13378,7 +13378,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>7 issues</summary>
+<details><summary>4 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -13408,28 +13408,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/190111647'>noto-fonts-emoji.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/190111682'>numix-cursor-theme.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/190111469'>pict-rs.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/190111744'>trafficserver.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
