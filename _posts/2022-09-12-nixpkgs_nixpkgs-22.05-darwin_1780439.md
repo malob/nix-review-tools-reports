@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-22.05-darwin
 ---
 # Evals report
 
-*Report built at 2022-09-12 20:15:12 UTC*
+*Report built at 2022-09-12 21:13:11 UTC*
 
 Built for evals:
 
@@ -5485,7 +5485,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>866 issues</summary>
+<details><summary>867 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -13921,6 +13921,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/189552343'>soundtracker.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/189558036'>sourcehut.buildsrht.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -13986,7 +13992,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>262 issues</summary>
+<details><summary>261 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -15725,13 +15731,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/189556747'>rustscan.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/189552343'>soundtracker.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
