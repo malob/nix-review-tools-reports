@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-unstable-aarch64-darwin
 ---
 # Evals report
 
-*Report built at 2022-09-12 08:18:05 UTC*
+*Report built at 2022-09-12 09:17:57 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1412 issues</summary>
+<details><summary>1414 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -1763,6 +1763,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>select-0.4.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/188368975/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/188368975/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/188368975/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/187602534'>build 187602534</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/190111718'>haskellPackages.zbar.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>imagemagick-7.1.0-47</tt> <br /> <a href='https://hydra.nixos.org/build/190111718/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/190111718/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/190111718/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/190111560'>build 190111560</a>
 </li>
 </ul>
 </details>
@@ -8939,6 +8953,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/190111551'>deltachat-desktop.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/188380203'>demoit.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -13374,41 +13394,6 @@ Built for evals:
 </table>
 </details>
 
-
-### Still queued
-
-
-<details><summary>3 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/190111551'>deltachat-desktop.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/190111460'>libwmf.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/190111469'>pict-rs.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-</table>
-</details>
-
 ## Problematic dependencies
 
 <table>
@@ -13734,6 +13719,28 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/190111560'>aarch64-darwin imagemagick-7.1.0-47</a></tt></summary>
+<ul>
+<li>haskellPackages.zbar.aarch64-darwin</li>
+<li>healthchecks.aarch64-darwin</li>
+<li>perl534Packages.BarcodeZBar.aarch64-darwin</li>
+<li>perl536Packages.BarcodeZBar.aarch64-darwin</li>
+<li>python310Packages.Wand.aarch64-darwin</li>
+<li>python310Packages.python-zbar.aarch64-darwin</li>
+<li>python310Packages.pyzbar.aarch64-darwin</li>
+<li>python310Packages.segno.aarch64-darwin</li>
+<li>python39Packages.Wand.aarch64-darwin</li>
+<li>python39Packages.python-zbar.aarch64-darwin</li>
+<li>python39Packages.pyzbar.aarch64-darwin</li>
+<li>python39Packages.segno.aarch64-darwin</li>
+<li>zbar.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>13</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/188783771'>aarch64-darwin neko-2.3.0</a></tt></summary>
 <ul>
 <li>haxe.aarch64-darwin</li>
@@ -13753,27 +13760,6 @@ Built for evals:
 </details>
 </td>
 <td>13</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/190111560'>aarch64-darwin imagemagick-7.1.0-47</a></tt></summary>
-<ul>
-<li>healthchecks.aarch64-darwin</li>
-<li>perl534Packages.BarcodeZBar.aarch64-darwin</li>
-<li>perl536Packages.BarcodeZBar.aarch64-darwin</li>
-<li>python310Packages.Wand.aarch64-darwin</li>
-<li>python310Packages.python-zbar.aarch64-darwin</li>
-<li>python310Packages.pyzbar.aarch64-darwin</li>
-<li>python310Packages.segno.aarch64-darwin</li>
-<li>python39Packages.Wand.aarch64-darwin</li>
-<li>python39Packages.python-zbar.aarch64-darwin</li>
-<li>python39Packages.pyzbar.aarch64-darwin</li>
-<li>python39Packages.segno.aarch64-darwin</li>
-<li>zbar.aarch64-darwin</li>
-</ul>
-</details>
-</td>
-<td>12</td>
 </tr>
 <tr>
 <td>
