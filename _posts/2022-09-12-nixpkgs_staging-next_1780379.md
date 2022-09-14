@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next
 ---
 # Evals report
 
-*Report built at 2022-09-14 06:51:01 UTC*
+*Report built at 2022-09-14 07:32:06 UTC*
 
 Built for evals:
 
@@ -5022,7 +5022,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>997 issues</summary>
+<details><summary>998 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -5404,6 +5404,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>control-lock.el</tt> <br /> <a href='https://hydra.nixos.org/build/189775181/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/189775181/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/189775181/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/188733775'>build 188733775</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/190133768'>emacsPackages.doneburn-theme.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>source</tt> <br /> <a href='https://hydra.nixos.org/build/190133768/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/190133768/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/190133768/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/190338853'>build 190338853</a>
 </li>
 </ul>
 </details>
@@ -36623,7 +36637,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>275 issues</summary>
+<details><summary>273 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -37056,13 +37070,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/190133768'>emacsPackages.doneburn-theme.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -38522,13 +38529,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/190128228'>wine64Packages.unstableFull.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/188697917'>witness.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -39503,6 +39503,23 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/190274461'>aarch64-darwin source</a></tt></summary>
+<ul>
+<li>emacsPackages.doneburn-theme.aarch64-darwin</li>
+<li>emacsPackages.doneburn-theme.aarch64-linux</li>
+<li>emacsPackages.doneburn-theme.x86_64-darwin</li>
+<li>emacsPackages.doneburn-theme.x86_64-linux</li>
+<li>kanboard.x86_64-linux</li>
+<li>mmex.aarch64-linux</li>
+<li>mmex.x86_64-linux</li>
+<li>opendylan.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>21</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/190134048'>x86_64-darwin v8-9.7.106.18</a></tt></summary>
 <ul>
 <li>gollum.x86_64-darwin</li>
@@ -39555,22 +39572,6 @@ Built for evals:
 <li>libodb.aarch64-linux</li>
 <li>libodb.x86_64-darwin</li>
 <li>libodb.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>20</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/190274461'>aarch64-darwin source</a></tt></summary>
-<ul>
-<li>emacsPackages.doneburn-theme.aarch64-darwin</li>
-<li>emacsPackages.doneburn-theme.aarch64-linux</li>
-<li>emacsPackages.doneburn-theme.x86_64-linux</li>
-<li>kanboard.x86_64-linux</li>
-<li>mmex.aarch64-linux</li>
-<li>mmex.x86_64-linux</li>
-<li>opendylan.x86_64-linux</li>
 </ul>
 </details>
 </td>
