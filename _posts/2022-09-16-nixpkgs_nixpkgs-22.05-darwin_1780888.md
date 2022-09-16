@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-22.05-darwin
 ---
 # Evals report
 
-*Report built at 2022-09-16 09:14:39 UTC*
+*Report built at 2022-09-16 16:17:19 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>564 issues</summary>
+<details><summary>570 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -881,6 +881,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/190749899'>img2pdf.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.9-pikepdf-5.1.3</tt> <br /> <a href='https://hydra.nixos.org/build/190749899/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/190749899/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/190749899/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/190501870'>build 190501870</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/189549518'>jellyfin.x86_64-darwin</a></tt>
 </summary>
 <ul>
@@ -1156,6 +1170,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>smpeg2-unstable-2017-10-18</tt> <br /> <a href='https://hydra.nixos.org/build/189528958/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/189528958/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/189528958/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/189529783'>build 189529783</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/190749910'>ocrmypdf.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.9-pikepdf-5.1.3</tt> <br /> <a href='https://hydra.nixos.org/build/190749910/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/190749910/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/190749910/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/190501870'>build 190501870</a>
 </li>
 </ul>
 </details>
@@ -1832,6 +1860,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/190749912'>python310Packages.img2pdf.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.10-pikepdf-5.1.3</tt> <br /> <a href='https://hydra.nixos.org/build/190749912/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/190749912/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/190749912/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/190501893'>build 190501893</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/189524136'>python310Packages.intake-parquet.x86_64-darwin</a></tt>
 </summary>
 <ul>
@@ -2103,6 +2145,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>rustc-1.60.0</tt> <br /> <a href='https://hydra.nixos.org/build/189529558/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/189529558/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/189529558/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/189540013'>build 189540013</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/190749900'>python310Packages.ocrmypdf.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.10-pikepdf-5.1.3</tt> <br /> <a href='https://hydra.nixos.org/build/190749900/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/190749900/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/190749900/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/190501893'>build 190501893</a>
 </li>
 </ul>
 </details>
@@ -3330,6 +3386,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/190749908'>python39Packages.img2pdf.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.9-pikepdf-5.1.3</tt> <br /> <a href='https://hydra.nixos.org/build/190749908/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/190749908/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/190749908/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/190501870'>build 190501870</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/189539296'>python39Packages.intake-parquet.x86_64-darwin</a></tt>
 </summary>
 <ul>
@@ -3596,6 +3666,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>rustc-1.60.0</tt> <br /> <a href='https://hydra.nixos.org/build/189535190/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/189535190/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/189535190/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/189651378'>build 189651378</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/190749902'>python39Packages.ocrmypdf.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.9-pikepdf-5.1.3</tt> <br /> <a href='https://hydra.nixos.org/build/190749902/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/190749902/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/190749902/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/190501870'>build 190501870</a>
 </li>
 </ul>
 </details>
@@ -5871,7 +5955,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>927 issues</summary>
+<details><summary>933 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -7728,6 +7812,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/190749898'>img2pdf.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.9-pikepdf-5.1.3</tt> <br /> <a href='https://hydra.nixos.org/build/190749898/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/190749898/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/190749898/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/190501906'>build 190501906</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/189555975'>inormalize.aarch64-darwin</a></tt>
 </summary>
 <ul>
@@ -8501,6 +8599,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>ocaml-4.07.1</tt> <br /> <a href='https://hydra.nixos.org/build/189558761/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/189558761/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/189558761/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/189327920'>build 189327920</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/190749901'>ocrmypdf.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.9-pikepdf-5.1.3</tt> <br /> <a href='https://hydra.nixos.org/build/190749901/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/190749901/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/190749901/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/190501906'>build 190501906</a>
 </li>
 </ul>
 </details>
@@ -9406,6 +9518,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/190749903'>python310Packages.img2pdf.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.10-pikepdf-5.1.3</tt> <br /> <a href='https://hydra.nixos.org/build/190749903/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/190749903/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/190749903/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/190501866'>build 190501866</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/189561499'>python310Packages.intake-parquet.aarch64-darwin</a></tt>
 </summary>
 <ul>
@@ -9579,6 +9705,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>bazel-build-jaxlib-0.3.0</tt> <br /> <a href='https://hydra.nixos.org/build/189557047/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/189557047/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/189557047/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/189344498'>build 189344498</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/190749907'>python310Packages.ocrmypdf.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.10-pikepdf-5.1.3</tt> <br /> <a href='https://hydra.nixos.org/build/190749907/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/190749907/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/190749907/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/190501866'>build 190501866</a>
 </li>
 </ul>
 </details>
@@ -10490,6 +10630,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/190749905'>python39Packages.img2pdf.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.9-pikepdf-5.1.3</tt> <br /> <a href='https://hydra.nixos.org/build/190749905/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/190749905/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/190749905/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/190501906'>build 190501906</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/189555739'>python39Packages.intake-parquet.aarch64-darwin</a></tt>
 </summary>
 <ul>
@@ -10649,6 +10803,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>bazel-build-jaxlib-0.3.0</tt> <br /> <a href='https://hydra.nixos.org/build/189527465/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/189527465/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/189527465/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/189323261'>build 189323261</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/190749911'>python39Packages.ocrmypdf.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.9-pikepdf-5.1.3</tt> <br /> <a href='https://hydra.nixos.org/build/190749911/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/190749911/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/190749911/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/190501906'>build 190501906</a>
 </li>
 </ul>
 </details>
@@ -14878,7 +15046,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>15 issues</summary>
+<details><summary>2 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -14891,97 +15059,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/190749898'>img2pdf.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/190749899'>img2pdf.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/190749909'>metrics</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/190749901'>ocrmypdf.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/190749910'>ocrmypdf.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/190749903'>python310Packages.img2pdf.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/190749912'>python310Packages.img2pdf.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/190749907'>python310Packages.ocrmypdf.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/190749900'>python310Packages.ocrmypdf.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/190749905'>python39Packages.img2pdf.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/190749908'>python39Packages.img2pdf.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/190749911'>python39Packages.ocrmypdf.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/190749902'>python39Packages.ocrmypdf.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -15729,6 +15806,23 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/190501906'>aarch64-darwin python3.9-pikepdf-5.1.3</a></tt></summary>
+<ul>
+<li>img2pdf.aarch64-darwin</li>
+<li>img2pdf.x86_64-darwin</li>
+<li>ocrmypdf.aarch64-darwin</li>
+<li>ocrmypdf.x86_64-darwin</li>
+<li>python39Packages.img2pdf.aarch64-darwin</li>
+<li>python39Packages.img2pdf.x86_64-darwin</li>
+<li>python39Packages.ocrmypdf.aarch64-darwin</li>
+<li>python39Packages.ocrmypdf.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>8</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/189540739'>aarch64-darwin python3.10-cairocffi-1.3.0</a></tt></summary>
 <ul>
 <li>python310Packages.cairosvg.aarch64-darwin</li>
@@ -15967,6 +16061,19 @@ Built for evals:
 <li>python310Packages.cirq-ionq.aarch64-darwin</li>
 <li>python310Packages.cirq-pasqal.aarch64-darwin</li>
 <li>python310Packages.cirq-web.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>4</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/190501866'>aarch64-darwin python3.10-pikepdf-5.1.3</a></tt></summary>
+<ul>
+<li>python310Packages.img2pdf.aarch64-darwin</li>
+<li>python310Packages.img2pdf.x86_64-darwin</li>
+<li>python310Packages.ocrmypdf.aarch64-darwin</li>
+<li>python310Packages.ocrmypdf.x86_64-darwin</li>
 </ul>
 </details>
 </td>
