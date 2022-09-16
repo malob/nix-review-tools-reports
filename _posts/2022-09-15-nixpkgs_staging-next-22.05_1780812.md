@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next-22.05
 ---
 # Evals report
 
-*Report built at 2022-09-16 06:54:43 UTC*
+*Report built at 2022-09-16 07:26:40 UTC*
 
 Built for evals:
 
@@ -4889,7 +4889,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>487 issues</summary>
+<details><summary>488 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -9478,6 +9478,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/190203973'>python39Packages.django-haystack.x86_64-darwin</a></tt>
+</td>
+<td>Log limit exceeded</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/190222615'>qmk.x86_64-darwin</a></tt>
 </td>
 <td>Log limit exceeded</td>
 </tr>
@@ -25847,7 +25853,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>12 issues</summary>
+<details><summary>10 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -25906,20 +25912,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/190509448'>noto-fonts-emoji.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/190509460'>numix-cursor-theme.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/190222615'>qmk.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
