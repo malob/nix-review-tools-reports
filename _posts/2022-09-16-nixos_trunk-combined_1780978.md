@@ -1,10 +1,10 @@
 ---
-title: nixos:trunk-combined 1780978
+title: nixos:trunk-combined 1780978 (succeeded)
 categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-09-17 18:16:12 UTC*
+*Report built at 2022-09-17 20:14:27 UTC*
 
 Built for evals:
 
@@ -4092,7 +4092,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>766 issues</summary>
+<details><summary>767 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -10428,6 +10428,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/190856823'>nixos.tests.fcitx.x86_64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/190746692'>nixos.tests.mjolnir.x86_64-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -12465,27 +12471,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/190747021'>nixos.tests.vengi-tools.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/190856823'>nixos.tests.fcitx.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
