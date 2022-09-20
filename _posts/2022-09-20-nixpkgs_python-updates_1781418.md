@@ -4,7 +4,7 @@ categories: nixpkgs:python-updates
 ---
 # Evals report
 
-*Report built at 2022-09-20 09:18:27 UTC*
+*Report built at 2022-09-20 12:26:38 UTC*
 
 Built for evals:
 
@@ -2804,7 +2804,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>268 issues</summary>
+<details><summary>269 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -3003,6 +3003,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>python3.10-grpcio-tools-1.48.1</tt> <br /> <a href='https://hydra.nixos.org/build/190945296/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/190945296/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/190945296/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/190955670'>build 190955670</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/191748274'>mopidy.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>opencv-4.5.4</tt> <br /> <a href='https://hydra.nixos.org/build/191748274/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/191748274/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/191748274/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/191670130'>build 191670130</a>
 </li>
 </ul>
 </details>
@@ -5132,7 +5146,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>4596 issues</summary>
+<details><summary>4595 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -17311,13 +17325,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/191748274'>mopidy.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -37755,6 +37762,16 @@ Built for evals:
 <details><summary><tt>aarch64-linux python3.10-toml-0.10.2</tt></summary>
 <ul>
 <li>beancount-ing-diba.aarch64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/191670130'>aarch64-linux opencv-4.5.4</a></tt></summary>
+<ul>
+<li>mopidy.aarch64-linux</li>
 </ul>
 </details>
 </td>
