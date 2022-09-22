@@ -1,10 +1,10 @@
 ---
-title: nixos:release-22.05-aarch64 1781642
+title: nixos:release-22.05-aarch64 1781642 (succeeded)
 categories: nixos:release-22.05-aarch64
 ---
 # Evals report
 
-*Report built at 2022-09-22 03:42:16 UTC*
+*Report built at 2022-09-22 05:20:29 UTC*
 
 Built for evals:
 
@@ -3929,27 +3929,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/190861354'>nixpkgs.haskellPackages.zeromq4-patterns.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/191904224'>nixos.tests.kexec.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 </table>
 </details>
