@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-09-23 04:15:45 UTC*
+*Report built at 2022-09-23 05:59:01 UTC*
 
 Built for evals:
 
@@ -4126,7 +4126,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>1078 issues</summary>
+<details><summary>1076 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -7112,23 +7112,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/191926837'>tested</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Failed</b> <tt>vm-test-run-keymap-azerty</tt> <br /> <a href='https://hydra.nixos.org/build/191926837/nixlog/222'>log</a>, <a href='https://hydra.nixos.org/build/191926837/nixlog/222/raw'>raw</a>, <a href='https://hydra.nixos.org/build/191926837/nixlog/222/tail'>tail</a>, <a href='https://hydra.nixos.org/build/191925560'>build 191925560</a>
-</li>
-<li>
-<b>=> Aborted</b> <tt>nixos-system-machine-22.11pre-git</tt> <br /> <a href='https://hydra.nixos.org/build/191926837/nixlog/136'>log</a>, <a href='https://hydra.nixos.org/build/191926837/nixlog/136/raw'>raw</a>, <a href='https://hydra.nixos.org/build/191926837/nixlog/136/tail'>tail</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/191917727'>nixos.amazonImageZfs.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -7622,12 +7605,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/191924214'>nixos.tests.kerberos.heimdal.x86_64-linux</a></tt>
-</td>
-<td>Failed</td>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/191925560'>nixos.tests.keymap.azerty.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -14259,7 +14236,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>11 issues</summary>
+<details><summary>13 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -14303,6 +14280,13 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/191925560'>nixos.tests.keymap.azerty.x86_64-linux</a></tt>
+</td>
+<td>Queued</td>
+<th>x86_64-linux</th>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/191921321'>nixos.tests.mjolnir.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -14339,6 +14323,13 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/191927138'>nixos.tests.vengi-tools.x86_64-linux</a></tt>
+</td>
+<td>Queued</td>
+<th>x86_64-linux</th>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/191926837'>tested</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -15743,26 +15734,6 @@ Built for evals:
 </details>
 </td>
 <td>2</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/191925560'>x86_64-linux vm-test-run-keymap-azerty</a></tt></summary>
-<ul>
-<li>tested</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>x86_64-linux nixos-system-machine-22.11pre-git</tt></summary>
-<ul>
-<li>tested</li>
-</ul>
-</details>
-</td>
-<td>1</td>
 </tr>
 <tr>
 <td>
