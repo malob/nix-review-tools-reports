@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-09-24 10:14:12 UTC*
+*Report built at 2022-09-24 11:12:18 UTC*
 
 Built for evals:
 
@@ -4074,7 +4074,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>1068 issues</summary>
+<details><summary>1069 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -7887,6 +7887,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/192100783'>nixos.tests.uwsgi.x86_64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/192103141'>nixos.tests.vengi-tools.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -14064,7 +14070,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>16 issues</summary>
+<details><summary>15 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -14168,13 +14174,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/192103141'>nixos.tests.vengi-tools.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
