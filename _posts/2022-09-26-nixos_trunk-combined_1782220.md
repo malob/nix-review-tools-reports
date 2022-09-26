@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-09-26 13:48:36 UTC*
+*Report built at 2022-09-26 19:15:38 UTC*
 
 Built for evals:
 
@@ -10179,7 +10179,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>3374 issues</summary>
+<details><summary>3371 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -10545,13 +10545,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/192348574'>nixos.manpages.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/192349209'>nixos.manual.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -10605,13 +10598,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/192349458'>nixos.manualGeneratedSources.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -11942,13 +11928,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/192347420'>nixos.tests.allDrivers.misc.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
