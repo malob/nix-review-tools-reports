@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-unstable-aarch64-darwin
 ---
 # Evals report
 
-*Report built at 2022-09-27 05:57:29 UTC*
+*Report built at 2022-09-27 06:45:23 UTC*
 
 Built for evals:
 
@@ -34,7 +34,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>4430 issues</summary>
+<details><summary>4431 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -21203,6 +21203,32 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/192393376'>prometheus-node-exporter.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>node_exporter-1.4.0-go-modules</tt> <br /> <a href='https://hydra.nixos.org/build/192393376/nixlog/6'>log</a>, <a href='https://hydra.nixos.org/build/192393376/nixlog/6/raw'>raw</a>, <a href='https://hydra.nixos.org/build/192393376/nixlog/6/tail'>tail</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>node_exporter-1.4.0-go-modules</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>node_exporter-1.4.0-go-modules</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>node_exporter-1.4.0-go-modules</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>node_exporter-1.4.0-go-modules</tt> <br /> 
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/190988504'>pyocd.aarch64-darwin</a></tt>
 </summary>
 <ul>
@@ -29644,7 +29670,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>5 issues</summary>
+<details><summary>1 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -29653,35 +29679,7 @@ Built for evals:
 </tr></thead>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/192393413'>deltachat-desktop.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/192393443'>hackneyed.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/192393432'>noto-fonts-emoji.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/192393410'>numix-cursor-theme.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/192393376'>prometheus-node-exporter.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -29947,6 +29945,16 @@ Built for evals:
 </details>
 </td>
 <td>6</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>aarch64-darwin node_exporter-1.4.0-go-modules</tt></summary>
+<ul>
+<li>prometheus-node-exporter.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>5</td>
 </tr>
 <tr>
 <td>
