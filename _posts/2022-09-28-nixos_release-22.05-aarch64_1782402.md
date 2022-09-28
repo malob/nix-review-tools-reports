@@ -1,10 +1,10 @@
 ---
-title: nixos:release-22.05-aarch64 1782402
+title: nixos:release-22.05-aarch64 1782402 (succeeded)
 categories: nixos:release-22.05-aarch64
 ---
 # Evals report
 
-*Report built at 2022-09-28 11:13:06 UTC*
+*Report built at 2022-09-28 22:13:59 UTC*
 
 Built for evals:
 
@@ -214,7 +214,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>428 issues</summary>
+<details><summary>430 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -3916,6 +3916,18 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/192415039'>nixos.tests.gitolite.aarch64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/192414607'>nixos.tests.iscsi-multipath-root.aarch64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/192414166'>nixos.tests.iscsi-root.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -3955,34 +3967,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/192369468'>nixpkgs.haskellPackages.zeromq4-patterns.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>2 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/192415039'>nixos.tests.gitolite.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/192414607'>nixos.tests.iscsi-multipath-root.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 </table>
 </details>
