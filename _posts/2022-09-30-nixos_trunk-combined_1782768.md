@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-09-30 22:16:43 UTC*
+*Report built at 2022-09-30 23:15:49 UTC*
 
 Built for evals:
 
@@ -40,7 +40,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>686 issues</summary>
+<details><summary>689 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -950,6 +950,32 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>ruby2.7.6-nokogiri-1.10.3</tt> <br /> <a href='https://hydra.nixos.org/build/192954826/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/192954826/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/192954826/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/192187451'>build 192187451</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/192967222'>nixpkgs.mucommander.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>mucommander-deps-0.9.3-3</tt> <br /> <a href='https://hydra.nixos.org/build/192967222/nixlog/5'>log</a>, <a href='https://hydra.nixos.org/build/192967222/nixlog/5/raw'>raw</a>, <a href='https://hydra.nixos.org/build/192967222/nixlog/5/tail'>tail</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>mucommander-deps-0.9.3-3</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>mucommander-deps-0.9.3-3</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>mucommander-deps-0.9.3-3</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>mucommander-deps-0.9.3-3</tt> <br /> 
 </li>
 </ul>
 </details>
@@ -3280,47 +3306,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/193052711'>tested</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Failed</b> <tt>nixos-ova-22.11pre413420.10ecda252ce-x86_64-linux</tt> <br /> <a href='https://hydra.nixos.org/build/193052711/nixlog/499'>log</a>, <a href='https://hydra.nixos.org/build/193052711/nixlog/499/raw'>raw</a>, <a href='https://hydra.nixos.org/build/193052711/nixlog/499/tail'>tail</a>, <a href='https://hydra.nixos.org/build/193052795'>build 193052795</a>
-</li>
-<li>
-<b>=> Failed</b> <tt>nixos-ova-22.11pre413420.10ecda252ce-x86_64-linux</tt> <br /> <a href='https://hydra.nixos.org/build/193052795'>build 193052795</a>
-</li>
-<li>
-<b>=> Aborted</b> <tt>unit-dbus.service</tt> <br /> <a href='https://hydra.nixos.org/build/193052711/nixlog/273'>log</a>, <a href='https://hydra.nixos.org/build/193052711/nixlog/273/raw'>raw</a>, <a href='https://hydra.nixos.org/build/193052711/nixlog/273/tail'>tail</a>
-</li>
-<li>
-<b>=> Aborted</b> <tt>closure-info</tt> <br /> <a href='https://hydra.nixos.org/build/193052711/nixlog/262'>log</a>, <a href='https://hydra.nixos.org/build/193052711/nixlog/262/raw'>raw</a>, <a href='https://hydra.nixos.org/build/193052711/nixlog/262/tail'>tail</a>
-</li>
-<li>
-<b>=> Aborted</b> <tt>nixos-system-machine-22.11pre-git</tt> <br /> <a href='https://hydra.nixos.org/build/193052711/nixlog/261'>log</a>, <a href='https://hydra.nixos.org/build/193052711/nixlog/261/raw'>raw</a>, <a href='https://hydra.nixos.org/build/193052711/nixlog/261/tail'>tail</a>
-</li>
-<li>
-<b>=> Aborted</b> <tt>nixos-system-foo-22.11pre-git</tt> <br /> <a href='https://hydra.nixos.org/build/193052711/nixlog/260'>log</a>, <a href='https://hydra.nixos.org/build/193052711/nixlog/260/raw'>raw</a>, <a href='https://hydra.nixos.org/build/193052711/nixlog/260/tail'>tail</a>
-</li>
-<li>
-<b>=> Aborted</b> <tt>unit-dbus.service</tt> <br /> <a href='https://hydra.nixos.org/build/193052711/nixlog/208'>log</a>, <a href='https://hydra.nixos.org/build/193052711/nixlog/208/raw'>raw</a>, <a href='https://hydra.nixos.org/build/193052711/nixlog/208/tail'>tail</a>
-</li>
-<li>
-<b>=> Aborted</b> <tt>etc</tt> <br /> <a href='https://hydra.nixos.org/build/193052711/nixlog/196'>log</a>, <a href='https://hydra.nixos.org/build/193052711/nixlog/196/raw'>raw</a>, <a href='https://hydra.nixos.org/build/193052711/nixlog/196/tail'>tail</a>
-</li>
-<li>
-<b>=> Aborted</b> <tt>unit-systemd-fsck-.service</tt> <br /> <a href='https://hydra.nixos.org/build/193052711/nixlog/185'>log</a>, <a href='https://hydra.nixos.org/build/193052711/nixlog/185/raw'>raw</a>, <a href='https://hydra.nixos.org/build/193052711/nixlog/185/tail'>tail</a>
-</li>
-<li>
-<b>=> Aborted</b> <tt>unit-systemd-fsck-.service</tt> <br /> <a href='https://hydra.nixos.org/build/193052711/nixlog/175'>log</a>, <a href='https://hydra.nixos.org/build/193052711/nixlog/175/raw'>raw</a>, <a href='https://hydra.nixos.org/build/193052711/nixlog/175/tail'>tail</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/192968974'>nixpkgs._389-ds-base.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -4114,6 +4099,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/192925912'>nixpkgs.octavePackages.sparsersb.x86_64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/192968287'>nixpkgs.octopus-caller.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -5175,6 +5166,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/192933934'>nixpkgs.python39Packages.functorch.x86_64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/192936831'>nixpkgs.python39Packages.gb-io.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -6033,6 +6030,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/192959253'>nixpkgs.python310Packages.tempest.x86_64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/192949300'>nixpkgs.python39Packages.oslo-concurrency.x86_64-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -6056,7 +6059,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>7774 issues</summary>
+<details><summary>7771 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -6423,6 +6426,13 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/193054006'>nixos.options</a></tt>
+</td>
+<td>Queued</td>
+<th>x86_64-linux</th>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/193052795'>nixos.ova.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -48338,13 +48348,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/192967222'>nixpkgs.mucommander.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/193054051'>nixpkgs.multimarkdown.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -48535,13 +48538,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/193048587'>nixpkgs.ocrmypdf.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/192968287'>nixpkgs.octopus-caller.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -50564,13 +50560,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/192959253'>nixpkgs.python310Packages.tempest.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/193048827'>nixpkgs.python310Packages.ttp.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -50719,13 +50708,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/193047423'>nixpkgs.python39Packages.flask-security-too.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/192933934'>nixpkgs.python39Packages.functorch.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -60662,6 +60644,16 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt>x86_64-linux mucommander-deps-0.9.3-3</tt></summary>
+<ul>
+<li>nixpkgs.mucommander.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>5</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/192941002'>x86_64-linux python3.10-wandb-0.12.21</a></tt></summary>
 <ul>
 <li>nixpkgs.openai.x86_64-linux</li>
@@ -60887,36 +60879,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/193052795'>x86_64-linux nixos-ova-22.11pre413420.10ecda252ce-x86_64-linux</a></tt></summary>
-<ul>
-<li>tested</li>
-</ul>
-</details>
-</td>
-<td>2</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>x86_64-linux unit-dbus.service</tt></summary>
-<ul>
-<li>tested</li>
-</ul>
-</details>
-</td>
-<td>2</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>x86_64-linux unit-systemd-fsck-.service</tt></summary>
-<ul>
-<li>tested</li>
-</ul>
-</details>
-</td>
-<td>2</td>
-</tr>
-<tr>
-<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/192205707'>x86_64-linux python3.10-jsonmerge-1.8.0</a></tt></summary>
 <ul>
 <li>nixpkgs.apio.x86_64-linux</li>
@@ -61068,46 +61030,6 @@ Built for evals:
 </details>
 </td>
 <td>2</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>x86_64-linux closure-info</tt></summary>
-<ul>
-<li>tested</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>x86_64-linux nixos-system-machine-22.11pre-git</tt></summary>
-<ul>
-<li>tested</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>x86_64-linux nixos-system-foo-22.11pre-git</tt></summary>
-<ul>
-<li>tested</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>x86_64-linux etc</tt></summary>
-<ul>
-<li>tested</li>
-</ul>
-</details>
-</td>
-<td>1</td>
 </tr>
 <tr>
 <td>
