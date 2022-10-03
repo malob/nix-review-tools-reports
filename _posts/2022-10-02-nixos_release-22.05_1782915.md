@@ -1,10 +1,10 @@
 ---
-title: nixos:release-22.05 1782915
+title: nixos:release-22.05 1782915 (succeeded)
 categories: nixos:release-22.05
 ---
 # Evals report
 
-*Report built at 2022-10-03 04:47:14 UTC*
+*Report built at 2022-10-03 05:40:56 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### i686-linux
 
 
-<details><summary>188 issues</summary>
+<details><summary>189 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -2186,6 +2186,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/193184517'>nixos.tests.cloud-init.i686-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/193183401'>nixos.tests.gitolite.i686-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -2209,7 +2215,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>719 issues</summary>
+<details><summary>720 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -8772,6 +8778,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/193185138'>nixos.tests.cloud-init.x86_64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/193181054'>nixos.tests.gitolite.x86_64-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -8819,7 +8831,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>470 issues</summary>
+<details><summary>472 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -13346,7 +13358,19 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/193184718'>nixos.tests.gitolite.aarch64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/193181532'>nixos.tests.iscsi-multipath-root.aarch64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/193185027'>nixos.tests.iscsi-root.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -13385,48 +13409,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/192267315'>nixpkgs.oatpp.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>4 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/193184517'>nixos.tests.cloud-init.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/193185138'>nixos.tests.cloud-init.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/193184718'>nixos.tests.gitolite.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/193185027'>nixos.tests.iscsi-root.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 </table>
 </details>
