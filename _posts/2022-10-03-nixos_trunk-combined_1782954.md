@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-10-03 18:23:39 UTC*
+*Report built at 2022-10-03 19:18:56 UTC*
 
 Built for evals:
 
@@ -21844,7 +21844,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>1568 issues</summary>
+<details><summary>1565 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -32740,20 +32740,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/193317433'>tested</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Cached failure</b> <tt>vm-test-run-pantheon</tt> <br /> <a href='https://hydra.nixos.org/build/193317433/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/193317433/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/193317433/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/193316378'>build 193316378</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/193319537'>nixos.amazonImageZfs.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -33066,12 +33052,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/193319416'>nixos.tests.networking.networkd.routes.x86_64-linux</a></tt>
-</td>
-<td>Failed</td>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/193317741'>nixos.tests.openstack-image-metadata.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -33079,12 +33059,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/193317982'>nixos.tests.openstack-image-userdata.x86_64-linux</a></tt>
-</td>
-<td>Failed</td>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/193316378'>nixos.tests.pantheon.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -39450,20 +39424,13 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>12 issues</summary>
+<details><summary>11 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/193320140'>nixos.iso_plasma5.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/193317563'>nixos.tests.cloud-init.x86_64-linux</a></tt>
@@ -43071,16 +43038,6 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/193189398'>x86_64-linux webkitgtk-2.38.0+abi=5.0</a></tt></summary>
 <ul>
 <li>nixpkgs.newsflash.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/193316378'>x86_64-linux vm-test-run-pantheon</a></tt></summary>
-<ul>
-<li>tested</li>
 </ul>
 </details>
 </td>
