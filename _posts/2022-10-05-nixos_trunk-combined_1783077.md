@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-10-06 09:21:15 UTC*
+*Report built at 2022-10-06 10:18:51 UTC*
 
 Built for evals:
 
@@ -35608,7 +35608,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>8033 issues</summary>
+<details><summary>8032 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -39177,13 +39177,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/193779838'>nixos.tests.installer.simpleUefiSystemdBoot.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
