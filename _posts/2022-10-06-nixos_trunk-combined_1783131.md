@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-10-06 22:15:26 UTC*
+*Report built at 2022-10-06 23:17:30 UTC*
 
 Built for evals:
 
@@ -14281,7 +14281,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>8326 issues</summary>
+<details><summary>8314 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -14560,13 +14560,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/193824199'>nixos.initialRamdisk.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -17370,13 +17363,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/193819025'>nixos.tests.allDrivers.firewall.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/193821044'>nixos.tests.allDrivers.fish.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -20048,13 +20034,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/193824207'>nixos.tests.allDrivers.ipv6.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -23376,13 +23355,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/193818141'>nixos.tests.allDrivers.nat.firewall-conntrack.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/193821170'>nixos.tests.allDrivers.nat.firewall.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -23394,13 +23366,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/193816895'>nixos.tests.allDrivers.nat.firewall.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -25861,13 +25826,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/193819962'>nixos.tests.allDrivers.php.fpm.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/193816678'>nixos.tests.allDrivers.php.httpd.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -25900,13 +25858,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/193821802'>nixos.tests.allDrivers.php.pcre.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -26005,13 +25956,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/193819988'>nixos.tests.allDrivers.php81.httpd.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -26736,13 +26680,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/193816619'>nixos.tests.allDrivers.predictable-interface-names.unpredictable.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/193817902'>nixos.tests.allDrivers.predictable-interface-names.unpredictableNetworkd.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -26754,13 +26691,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/193817378'>nixos.tests.allDrivers.predictable-interface-names.unpredictableNetworkd.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -27919,13 +27849,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/193822903'>nixos.tests.allDrivers.proxy.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/193816558'>nixos.tests.allDrivers.pt2-clone.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -28910,13 +28833,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/193818697'>nixos.tests.allDrivers.simple.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
