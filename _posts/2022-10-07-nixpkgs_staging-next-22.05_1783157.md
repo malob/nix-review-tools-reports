@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next-22.05
 ---
 # Evals report
 
-*Report built at 2022-10-07 17:35:35 UTC*
+*Report built at 2022-10-07 18:24:23 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>319 issues</summary>
+<details><summary>321 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -2399,6 +2399,18 @@ Built for evals:
 </td>
 <td>Timed out</td>
 </tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/193810138'>python39Packages.datafusion.x86_64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/193795367'>python39Packages.ibis-framework.x86_64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
 </table>
 </details>
 
@@ -4729,7 +4741,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>14570 issues</summary>
+<details><summary>14568 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -82641,13 +82653,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/193810138'>python39Packages.datafusion.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/193556848'>python39Packages.datapoint.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -86908,13 +86913,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/193795367'>python39Packages.ibis-framework.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
