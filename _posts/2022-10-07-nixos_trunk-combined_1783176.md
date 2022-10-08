@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-10-08 11:12:22 UTC*
+*Report built at 2022-10-08 12:22:59 UTC*
 
 Built for evals:
 
@@ -22054,7 +22054,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>1526 issues</summary>
+<details><summary>1523 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -22063,6 +22063,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/193818075'>nixos.tests.mjolnir.x86_64-linux</a></tt>
+</td>
+<td>Cancelled</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/193877078'>nixos.tests.terminal-emulators.contour.x86_64-linux</a></tt>
 </td>
 <td>Cancelled</td>
 </tr>
@@ -32179,20 +32185,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/193877837'>tested</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Cached failure</b> <tt>vm-test-run-plasma5</tt> <br /> <a href='https://hydra.nixos.org/build/193877837/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/193877837/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/193877837/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/193819256'>build 193819256</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/193877538'>nixos.amazonImageZfs.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -32277,7 +32269,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/193876256'>nixos.tests.chromium.x86_64-linux</a></tt>
+<tt><a href='https://hydra.nixos.org/build/193876639'>nixos.tests.custom-ca.midori.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -32338,12 +32330,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/193877749'>nixos.tests.firefox-esr-102.x86_64-linux</a></tt>
-</td>
-<td>Failed</td>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/193876201'>nixos.tests.firefox-esr.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -32470,12 +32456,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/193876656'>nixos.tests.installer-systemd-stage-1.zfsroot.x86_64-linux</a></tt>
-</td>
-<td>Failed</td>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/193876692'>nixos.tests.installer.btrfsSubvolDefault.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -36957,12 +36937,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/193877965'>nixos.ova.x86_64-linux</a></tt>
-</td>
-<td>Timed out</td>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/193817479'>nixos.tests.cloud-init.x86_64-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -37022,12 +36996,18 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>176 issues</summary>
+<details><summary>177 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 </tr></thead>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/193877208'>nixos.tests.terminal-emulators.wezterm.aarch64-linux</a></tt>
+</td>
+<td>Cancelled</td>
+</tr>
 <tr>
 <td>
 <details><summary>
@@ -38921,7 +38901,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>3 issues</summary>
+<details><summary>1 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -38930,24 +38910,10 @@ Built for evals:
 </tr></thead>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/193876639'>nixos.tests.custom-ca.midori.x86_64-linux</a></tt>
+<tt><a href='https://hydra.nixos.org/build/193877837'>tested</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/193877078'>nixos.tests.terminal-emulators.contour.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/193877208'>nixos.tests.terminal-emulators.wezterm.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 </table>
 </details>
@@ -42370,16 +42336,6 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/193878129'>x86_64-linux nixos-test-driver-installer-luksroot-format1</a></tt></summary>
 <ul>
 <li>nixos.tests.installer.luksroot-format1.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/193819256'>x86_64-linux vm-test-run-plasma5</a></tt></summary>
-<ul>
-<li>tested</li>
 </ul>
 </details>
 </td>
