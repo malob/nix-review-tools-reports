@@ -1,10 +1,10 @@
 ---
-title: nixos:trunk-combined 1783176
+title: nixos:trunk-combined 1783176 (succeeded)
 categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-10-08 12:22:59 UTC*
+*Report built at 2022-10-08 13:38:13 UTC*
 
 Built for evals:
 
@@ -38893,27 +38893,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/193817345'>nixos.tests.systemd-oomd.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/193877837'>tested</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
