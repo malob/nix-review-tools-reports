@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next-22.05
 ---
 # Evals report
 
-*Report built at 2022-10-09 20:17:14 UTC*
+*Report built at 2022-10-09 21:16:02 UTC*
 
 Built for evals:
 
@@ -4787,7 +4787,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>432 issues</summary>
+<details><summary>433 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -5843,6 +5843,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>monero-cli-0.18.1.2</tt> <br /> <a href='https://hydra.nixos.org/build/193800994/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/193800994/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/193800994/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/193799173'>build 193799173</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/193432065'>mucommander.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>glib-2.72.3</tt> <br /> <a href='https://hydra.nixos.org/build/193432065/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/193432065/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/193432065/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/193448114'>build 193448114</a>
 </li>
 </ul>
 </details>
@@ -12559,7 +12573,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>679 issues</summary>
+<details><summary>680 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -14707,6 +14721,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>glib-2.72.3</tt> <br /> <a href='https://hydra.nixos.org/build/193789240/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/193789240/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/193789240/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/193506599'>build 193506599</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/193451750'>mucommander.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>glib-2.72.3</tt> <br /> <a href='https://hydra.nixos.org/build/193451750/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/193451750/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/193451750/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/193506599'>build 193506599</a>
 </li>
 </ul>
 </details>
@@ -19663,7 +19691,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>403 issues</summary>
+<details><summary>394 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -20099,13 +20127,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/193478891'>git-annex.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/193435028'>gitaly.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -20156,13 +20177,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/193434338'>haskell.compiler.native-bignum.ghcHEAD.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/193503946'>haskellPackages.ConClusion.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -20302,13 +20316,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/193491568'>haskellPackages.git-annex.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/193431647'>haskellPackages.gotyno-hs.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -20404,13 +20411,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/193552750'>haskellPackages.hledger-web.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -21233,20 +21233,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/193451750'>mucommander.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/193432065'>mucommander.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/193450418'>mxnet.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -21919,13 +21905,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/193523604'>python39Packages.git-annex-adapter.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/193867784'>python39Packages.gpt-2-simple.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -22297,21 +22276,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/193528009'>spago.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/193537909'>stack.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/193466874'>step-ca.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -22616,6 +22581,8 @@ Built for evals:
 <li>mopidy-tunein.aarch64-darwin</li>
 <li>mopidy-youtube.aarch64-darwin</li>
 <li>mopidy-ytmusic.aarch64-darwin</li>
+<li>mucommander.aarch64-darwin</li>
+<li>mucommander.x86_64-darwin</li>
 <li>napalm.aarch64-darwin</li>
 <li>netease-cloud-music-gtk.aarch64-darwin</li>
 <li>nextcloud-news-updater.aarch64-darwin</li>
@@ -22780,7 +22747,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>273</td>
+<td>275</td>
 </tr>
 <tr>
 <td>
