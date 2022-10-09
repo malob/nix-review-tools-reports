@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-10-09 08:18:26 UTC*
+*Report built at 2022-10-09 09:17:12 UTC*
 
 Built for evals:
 
@@ -38468,7 +38468,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>42 issues</summary>
+<details><summary>38 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -38701,20 +38701,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/193908150'>nixpkgs.python39Packages.paperwork-backend.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/193906763'>nixpkgs.python39Packages.paperwork-shell.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/193906857'>nixpkgs.qemu_full.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -38723,20 +38709,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/193909639'>nixpkgs.reveal-md.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/193907612'>nixpkgs.samba4Full.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/193909214'>nixpkgs.sambaFull.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
