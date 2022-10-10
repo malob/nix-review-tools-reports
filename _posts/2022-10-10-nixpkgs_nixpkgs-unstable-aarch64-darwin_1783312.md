@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-unstable-aarch64-darwin
 ---
 # Evals report
 
-*Report built at 2022-10-10 18:22:36 UTC*
+*Report built at 2022-10-10 19:21:51 UTC*
 
 Built for evals:
 
@@ -9768,7 +9768,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>94 issues</summary>
+<details><summary>93 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -10376,13 +10376,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/194565608'>tektoncd-cli.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
