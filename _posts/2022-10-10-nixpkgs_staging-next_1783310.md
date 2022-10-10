@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next
 ---
 # Evals report
 
-*Report built at 2022-10-10 20:20:45 UTC*
+*Report built at 2022-10-10 23:20:27 UTC*
 
 Built for evals:
 
@@ -18698,7 +18698,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>924 issues</summary>
+<details><summary>925 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -22885,6 +22885,50 @@ Built for evals:
 </li>
 <li>
 <b>=> Cached failure</b> <tt>python3.10-blis-0.9.1</tt> <br /> <a href='https://hydra.nixos.org/build/193069507'>build 193069507</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/193774055'>python310Packages.tensorflowWithoutCuda.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>tensorflow-2.10.0-deps.tar.gz</tt> <br /> <a href='https://hydra.nixos.org/build/193774055/nixlog/11'>log</a>, <a href='https://hydra.nixos.org/build/193774055/nixlog/11/raw'>raw</a>, <a href='https://hydra.nixos.org/build/193774055/nixlog/11/tail'>tail</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>tensorflow-2.10.0-deps.tar.gz</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>tensorflow-2.10.0-deps.tar.gz</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>tensorflow-2.10.0-deps.tar.gz</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>tensorflow-2.10.0-deps.tar.gz</tt> <br /> 
+</li>
+<li>
+<b>=> Aborted</b> <tt>tensorflow-2.10.0-deps.tar.gz</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>tensorflow-2.10.0-deps.tar.gz</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>tensorflow-2.10.0-deps.tar.gz</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>tensorflow-2.10.0-deps.tar.gz</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>tensorflow-2.10.0-deps.tar.gz</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>tensorflow-2.10.0-deps.tar.gz</tt> <br /> <a href='https://hydra.nixos.org/build/193753096'>build 193753096</a>
 </li>
 </ul>
 </details>
@@ -48912,7 +48956,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>3064 issues</summary>
+<details><summary>3063 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -64363,13 +64407,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/193774055'>python310Packages.tensorflowWithoutCuda.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/194569698'>python310Packages.tensorly.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -71173,6 +71210,24 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt>x86_64-darwin tensorflow-2.10.0-deps.tar.gz</tt></summary>
+<ul>
+<li>python310Packages.tensorflowWithoutCuda.x86_64-darwin</li>
+<li>python39Packages.baselines.x86_64-darwin</li>
+<li>python39Packages.edward.x86_64-darwin</li>
+<li>python39Packages.gpt-2-simple.x86_64-darwin</li>
+<li>python39Packages.pymanopt.x86_64-darwin</li>
+<li>python39Packages.tensorflow-build.x86_64-darwin</li>
+<li>python39Packages.tensorflow.x86_64-darwin</li>
+<li>python39Packages.tensorflowWithoutCuda.x86_64-darwin</li>
+<li>python39Packages.tflearn.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>50</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/192797967'>aarch64-darwin OrderedBits-0.0.2.0</a></tt></summary>
 <ul>
 <li>haskellPackages.BiobaseENA.aarch64-darwin</li>
@@ -71410,23 +71465,6 @@ Built for evals:
 </details>
 </td>
 <td>40</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/193746739'>x86_64-darwin tensorflow-2.10.0-deps.tar.gz</a></tt></summary>
-<ul>
-<li>python39Packages.baselines.x86_64-darwin</li>
-<li>python39Packages.edward.x86_64-darwin</li>
-<li>python39Packages.gpt-2-simple.x86_64-darwin</li>
-<li>python39Packages.pymanopt.x86_64-darwin</li>
-<li>python39Packages.tensorflow-build.x86_64-darwin</li>
-<li>python39Packages.tensorflow.x86_64-darwin</li>
-<li>python39Packages.tensorflowWithoutCuda.x86_64-darwin</li>
-<li>python39Packages.tflearn.x86_64-darwin</li>
-</ul>
-</details>
-</td>
-<td>39</td>
 </tr>
 <tr>
 <td>
