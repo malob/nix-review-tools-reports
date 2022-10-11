@@ -1,10 +1,10 @@
 ---
-title: nixos:release-22.05 1783318 (succeeded)
+title: nixos:release-22.05 1783318
 categories: nixos:release-22.05
 ---
 # Evals report
 
-*Report built at 2022-10-11 12:28:06 UTC*
+*Report built at 2022-10-11 16:22:22 UTC*
 
 Built for evals:
 
@@ -2073,7 +2073,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>667 issues</summary>
+<details><summary>665 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -4655,20 +4655,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/194574134'>tested</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Failed</b> <tt>vm-test-run-login</tt> <br /> <a href='https://hydra.nixos.org/build/194574134/nixlog/84'>log</a>, <a href='https://hydra.nixos.org/build/194574134/nixlog/84/raw'>raw</a>, <a href='https://hydra.nixos.org/build/194574134/nixlog/84/tail'>tail</a>, <a href='https://hydra.nixos.org/build/194574446'>build 194574446</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/194574237'>nixos.amazonImageZfs.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -4880,12 +4866,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/194362080'>nixos.tests.keepassxc.x86_64-linux</a></tt>
-</td>
-<td>Failed</td>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/194574446'>nixos.tests.latestKernel.login.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -11469,6 +11449,27 @@ Built for evals:
 </table>
 </details>
 
+
+### Still queued
+
+
+<details><summary>1 issues</summary>
+<table>
+<thead><tr>
+<th>job</th>
+<th>status</th>
+<th>platform</th>
+</tr></thead>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/194574134'>tested</a></tt>
+</td>
+<td>Queued</td>
+<th>x86_64-linux</th>
+</tr>
+</table>
+</details>
+
 ## Problematic dependencies
 
 <table>
@@ -12373,16 +12374,6 @@ Built for evals:
 </details>
 </td>
 <td>2</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/194574446'>x86_64-linux vm-test-run-login</a></tt></summary>
-<ul>
-<li>tested</li>
-</ul>
-</details>
-</td>
-<td>1</td>
 </tr>
 <tr>
 <td>
