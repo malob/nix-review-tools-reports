@@ -4,7 +4,7 @@ categories: nixos:release-22.05
 ---
 # Evals report
 
-*Report built at 2022-10-11 01:03:59 UTC*
+*Report built at 2022-10-11 03:40:11 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### i686-linux
 
 
-<details><summary>143 issues</summary>
+<details><summary>144 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -1475,6 +1475,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/194441158'>nixos.tests.custom-ca.qutebrowser.i686-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/194377260'>nixos.tests.engelsystem.i686-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -1726,7 +1732,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>531 issues</summary>
+<details><summary>532 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -5604,6 +5610,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/194383264'>nixos.tests.installed-tests.malcontent.x86_64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/194407824'>nixpkgs.haskellPackages.bindings-common.x86_64-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -8494,7 +8506,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>697 issues</summary>
+<details><summary>693 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -9042,13 +9054,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/194441158'>nixos.tests.custom-ca.qutebrowser.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/194574025'>nixos.tests.ec2-config.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -9316,13 +9321,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/194574437'>nixos.tests.initrd-secrets.zstd.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/194383264'>nixos.tests.installed-tests.malcontent.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -10036,13 +10034,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/194444600'>nixos.tests.odoo.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/194574338'>nixos.tests.openstack-image-metadata.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -10082,13 +10073,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/194434223'>nixos.tests.wine.winePackages-staging.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
 </tr>
 <tr>
 <td>
