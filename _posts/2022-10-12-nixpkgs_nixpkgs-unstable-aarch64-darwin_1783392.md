@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-unstable-aarch64-darwin
 ---
 # Evals report
 
-*Report built at 2022-10-12 01:16:40 UTC*
+*Report built at 2022-10-12 09:19:53 UTC*
 
 Built for evals:
 
@@ -42,7 +42,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1091 issues</summary>
+<details><summary>1092 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -532,6 +532,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>rpm-4.18.0</tt> <br /> <a href='https://hydra.nixos.org/build/194593353/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/194593353/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/194593353/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/193011879'>build 193011879</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/195086331'>dogecoin.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>boost-build-boost-1.65.1</tt> <br /> <a href='https://hydra.nixos.org/build/195086331/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/195086331/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/195086331/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/192827034'>build 192827034</a>
 </li>
 </ul>
 </details>
@@ -9509,7 +9523,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>263 issues</summary>
+<details><summary>260 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -9659,13 +9673,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/195086238'>dnstwist.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/195086331'>dogecoin.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -10113,13 +10120,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/195031543'>manual</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/195031587'>mbqn.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -10138,13 +10138,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/195086230'>metrics</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -11883,6 +11876,18 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/192827034'>aarch64-darwin boost-build-boost-1.65.1</a></tt></summary>
+<ul>
+<li>boost165.aarch64-darwin</li>
+<li>dogecoin.aarch64-darwin</li>
+<li>starspace.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>3</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/192833047'>aarch64-darwin chicken-srfi-14-0.2.1</a></tt></summary>
 <ul>
 <li>chickenPackages.egg2nix.aarch64-darwin</li>
@@ -12019,17 +12024,6 @@ Built for evals:
 <ul>
 <li>apio.aarch64-darwin</li>
 <li>tinyprog.aarch64-darwin</li>
-</ul>
-</details>
-</td>
-<td>2</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/192827034'>aarch64-darwin boost-build-boost-1.65.1</a></tt></summary>
-<ul>
-<li>boost165.aarch64-darwin</li>
-<li>starspace.aarch64-darwin</li>
 </ul>
 </details>
 </td>
