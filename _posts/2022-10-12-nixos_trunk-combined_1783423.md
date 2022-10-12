@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-10-12 22:14:59 UTC*
+*Report built at 2022-10-12 23:15:51 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### i686-linux
 
 
-<details><summary>172 issues</summary>
+<details><summary>171 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -1954,20 +1954,6 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>python3.10-orjson-3.8.0</tt> <br /> <a href='https://hydra.nixos.org/build/195142480/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/195142480/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/195142480/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/195137684'>build 195137684</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/195139295'>nixos.tests.mpv.i686-linux</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Failed</b> <tt>python3.10-mutagen-1.45.1</tt> <br /> <a href='https://hydra.nixos.org/build/195139295/nixlog/4'>log</a>, <a href='https://hydra.nixos.org/build/195139295/nixlog/4/raw'>raw</a>, <a href='https://hydra.nixos.org/build/195139295/nixlog/4/tail'>tail</a>
 </li>
 </ul>
 </details>
@@ -26177,7 +26163,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>1422 issues</summary>
+<details><summary>1423 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -33221,6 +33207,13 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/195139295'>nixos.tests.mpv.i686-linux</a></tt>
+</td>
+<td>Queued</td>
+<th>i686-linux</th>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/195140570'>nixos.tests.mtp.i686-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -37525,19 +37518,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/195139295'>i686-linux python3.10-mutagen-1.45.1</a></tt></summary>
-<ul>
-<li>nixos.tests.allDrivers.botamusique.i686-linux</li>
-<li>nixos.tests.allDrivers.mpv.i686-linux</li>
-<li>nixos.tests.botamusique.i686-linux</li>
-<li>nixos.tests.mpv.i686-linux</li>
-</ul>
-</details>
-</td>
-<td>4</td>
-</tr>
-<tr>
-<td>
 <details><summary><tt>i686-linux dhparams-foo2.pem</tt></summary>
 <ul>
 <li>nixos.tests.allDrivers.dhparams.i686-linux</li>
@@ -37795,6 +37775,18 @@ Built for evals:
 </details>
 </td>
 <td>4</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/195139295'>i686-linux python3.10-mutagen-1.45.1</a></tt></summary>
+<ul>
+<li>nixos.tests.allDrivers.botamusique.i686-linux</li>
+<li>nixos.tests.allDrivers.mpv.i686-linux</li>
+<li>nixos.tests.botamusique.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>3</td>
 </tr>
 <tr>
 <td>
