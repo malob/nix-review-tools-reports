@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:nixpkgs-22.05-darwin 1783413
+title: nixpkgs:nixpkgs-22.05-darwin 1783413 (succeeded)
 categories: nixpkgs:nixpkgs-22.05-darwin
 ---
 # Evals report
 
-*Report built at 2022-10-12 08:17:43 UTC*
+*Report built at 2022-10-12 12:26:25 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>522 issues</summary>
+<details><summary>523 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -3527,6 +3527,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>tesseract-5.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/194003371/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/194003371/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/194003371/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/193807480'>build 193807480</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/195136411'>tests.writers.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>pypy3-7.3.7</tt> <br /> <a href='https://hydra.nixos.org/build/195136411/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/195136411/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/195136411/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/193532595'>build 193532595</a>
 </li>
 </ul>
 </details>
@@ -14527,48 +14541,6 @@ Built for evals:
 </table>
 </details>
 
-
-### Still queued
-
-
-<details><summary>4 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/195136410'>darwin-tested</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/195136413'>metrics</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/195136412'>tarball</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/195136411'>tests.writers.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-</table>
-</details>
-
 ## Problematic dependencies
 
 <table>
@@ -16570,6 +16542,16 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/193504168'>aarch64-darwin good-final-asdf</a></tt></summary>
 <ul>
 <li>tests.macOSSierraShared.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/193532595'>x86_64-darwin pypy3-7.3.7</a></tt></summary>
+<ul>
+<li>tests.writers.x86_64-darwin</li>
 </ul>
 </details>
 </td>
