@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-unstable-aarch64-darwin
 ---
 # Evals report
 
-*Report built at 2022-10-12 10:17:13 UTC*
+*Report built at 2022-10-12 12:25:27 UTC*
 
 Built for evals:
 
@@ -42,7 +42,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1092 issues</summary>
+<details><summary>1093 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -2556,6 +2556,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>apfel-3.0.6</tt> <br /> <a href='https://hydra.nixos.org/build/194595946/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/194595946/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/194595946/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/192909926'>build 192909926</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/195031593'>onionshare.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>snowflake-2.3.1</tt> <br /> <a href='https://hydra.nixos.org/build/195031593/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/195031593/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/195031593/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/194995887'>build 194995887</a>
 </li>
 </ul>
 </details>
@@ -9523,7 +9537,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>259 issues</summary>
+<details><summary>258 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -10310,13 +10324,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/195086234'>oh-my-posh.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/195031593'>onionshare.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -12517,6 +12524,16 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/192842288'>aarch64-darwin esbuild-0.13.6</a></tt></summary>
 <ul>
 <li>netlify-cli.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/194995887'>aarch64-darwin snowflake-2.3.1</a></tt></summary>
+<ul>
+<li>onionshare.aarch64-darwin</li>
 </ul>
 </details>
 </td>
