@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-10-13 18:24:20 UTC*
+*Report built at 2022-10-13 19:22:05 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### i686-linux
 
 
-<details><summary>273 issues</summary>
+<details><summary>275 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -239,6 +239,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>chromium-unwrapped-106.0.5249.119</tt> <br /> <a href='https://hydra.nixos.org/build/195161039/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/195161039/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/195161039/nixlog/1/tail'>tail</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/195185925'>nixos.tests.allDrivers.custom-ca.midori.i686-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>webkitgtk-2.38.0+abi=4.0</tt> <br /> <a href='https://hydra.nixos.org/build/195185925/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/195185925/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/195185925/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/195180774'>build 195180774</a>
 </li>
 </ul>
 </details>
@@ -1657,6 +1671,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>chromium-unwrapped-106.0.5249.119</tt> <br /> <a href='https://hydra.nixos.org/build/195188081/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/195188081/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/195188081/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/195161039'>build 195161039</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/195180774'>nixos.tests.custom-ca.midori.i686-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>webkitgtk-2.38.0+abi=4.0</tt> <br /> <a href='https://hydra.nixos.org/build/195180774/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/195180774/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/195180774/nixlog/2/tail'>tail</a>
 </li>
 </ul>
 </details>
@@ -17952,7 +17980,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>982 issues</summary>
+<details><summary>983 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -23448,6 +23476,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/195181137'>nixos.tests.hbase1.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/195184479'>nixos.tests.hub.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -26951,20 +26985,13 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>15 issues</summary>
+<details><summary>12 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/195185925'>nixos.tests.allDrivers.custom-ca.midori.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/195179943'>nixos.tests.cloud-init.i686-linux</a></tt>
@@ -26981,24 +27008,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/195180774'>nixos.tests.custom-ca.midori.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/195180362'>nixos.tests.enlightenment.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/195181137'>nixos.tests.hbase1.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -28766,6 +28779,18 @@ Built for evals:
 </details>
 </td>
 <td>4</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/195180774'>i686-linux webkitgtk-2.38.0+abi=4.0</a></tt></summary>
+<ul>
+<li>nixos.tests.allDrivers.custom-ca.midori.i686-linux</li>
+<li>nixos.tests.custom-ca.midori.i686-linux</li>
+<li>nixpkgs.qgis.aarch64-linux</li>
+</ul>
+</details>
+</td>
+<td>3</td>
 </tr>
 <tr>
 <td>
@@ -30906,16 +30931,6 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/195039025'>x86_64-linux python3.9-johnnycanencrypt-0.6.0</a></tt></summary>
 <ul>
 <li>nixpkgs.python39Packages.tumpa.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/195154687'>aarch64-linux webkitgtk-2.38.0+abi=4.0</a></tt></summary>
-<ul>
-<li>nixpkgs.qgis.aarch64-linux</li>
 </ul>
 </details>
 </td>
