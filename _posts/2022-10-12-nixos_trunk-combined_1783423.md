@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-10-13 04:12:35 UTC*
+*Report built at 2022-10-13 05:58:53 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### i686-linux
 
 
-<details><summary>274 issues</summary>
+<details><summary>276 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -685,6 +685,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>webkitgtk-2.38.0+abi=4.0</tt> <br /> <a href='https://hydra.nixos.org/build/195141939/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/195141939/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/195141939/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/195139767'>build 195139767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/195141504'>nixos.tests.allDrivers.invidious.i686-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>crystal-1.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/195141504/nixlog/47'>log</a>, <a href='https://hydra.nixos.org/build/195141504/nixlog/47/raw'>raw</a>, <a href='https://hydra.nixos.org/build/195141504/nixlog/47/tail'>tail</a>
 </li>
 </ul>
 </details>
@@ -2136,6 +2150,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>webkitgtk-2.38.0+abi=4.0</tt> <br /> <a href='https://hydra.nixos.org/build/195139563/nixlog/9'>log</a>, <a href='https://hydra.nixos.org/build/195139563/nixlog/9/raw'>raw</a>, <a href='https://hydra.nixos.org/build/195139563/nixlog/9/tail'>tail</a>, <a href='https://hydra.nixos.org/build/195139767'>build 195139767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/195139870'>nixos.tests.invidious.i686-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>crystal-1.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/195139870/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/195139870/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/195139870/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/195141504'>build 195141504</a>
 </li>
 </ul>
 </details>
@@ -17962,7 +17990,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>1000 issues</summary>
+<details><summary>1001 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -27109,6 +27137,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/195138032'>nixos.tests.terminal-emulators.wezterm.aarch64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/195098278'>nixpkgs.kile-wl.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -27168,7 +27202,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>4 issues</summary>
+<details><summary>1 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -27177,31 +27211,10 @@ Built for evals:
 </tr></thead>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/195141504'>nixos.tests.allDrivers.invidious.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/195137452'>nixos.tests.cloud-init.i686-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/195139870'>nixos.tests.invidious.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/195138032'>nixos.tests.terminal-emulators.wezterm.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 </table>
 </details>
@@ -29353,6 +29366,17 @@ Built for evals:
 <ul>
 <li>nixos.tests.allDrivers.image-contents.i686-linux</li>
 <li>nixos.tests.image-contents.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>i686-linux crystal-1.0.0</tt></summary>
+<ul>
+<li>nixos.tests.allDrivers.invidious.i686-linux</li>
+<li>nixos.tests.invidious.i686-linux</li>
 </ul>
 </details>
 </td>
