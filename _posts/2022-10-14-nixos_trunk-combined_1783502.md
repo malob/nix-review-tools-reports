@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-10-14 16:22:07 UTC*
+*Report built at 2022-10-14 17:29:25 UTC*
 
 Built for evals:
 
@@ -124,7 +124,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>1389 issues</summary>
+<details><summary>1390 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -13302,6 +13302,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/195149438'>nixpkgs.qt6.qtwebengine.x86_64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/195168289'>nixpkgs.qt6Packages.qtwebengine.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -21086,7 +21092,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>7914 issues</summary>
+<details><summary>7913 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -75535,13 +75541,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/195430250'>nixpkgs.qstopmotion.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/195149438'>nixpkgs.qt6.qtwebengine.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
