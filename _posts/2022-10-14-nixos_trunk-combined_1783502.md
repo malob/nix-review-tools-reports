@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-10-15 08:18:34 UTC*
+*Report built at 2022-10-15 09:19:13 UTC*
 
 Built for evals:
 
@@ -3398,7 +3398,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>1510 issues</summary>
+<details><summary>1509 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -4431,20 +4431,6 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>libreoffice-7.2.6.2</tt> <br /> <a href='https://hydra.nixos.org/build/195182826/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/195182826/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/195182826/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/195155728'>build 195155728</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/195426325'>nixpkgs.libsForQt5.kmail.x86_64-linux</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Cached failure</b> <tt>libksieve-22.08.1</tt> <br /> <a href='https://hydra.nixos.org/build/195426325/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/195426325/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/195426325/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/195223325'>build 195223325</a>
 </li>
 </ul>
 </details>
@@ -27168,7 +27154,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>5 issues</summary>
+<details><summary>1 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -27177,35 +27163,7 @@ Built for evals:
 </tr></thead>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/195431792'>nixpkgs.gobby.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/195427424'>nixpkgs.krita.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/195432167'>nixpkgs.libsForQt5.kdepim-addons.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/195426702'>nixpkgs.libsForQt515.kmail.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/195432292'>nixpkgs.plasma5Packages.kmail.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -28338,21 +28296,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/195223325'>x86_64-linux libksieve-22.08.1</a></tt></summary>
-<ul>
-<li>nixpkgs.libsForQt5.kmail.x86_64-linux</li>
-<li>nixpkgs.libsForQt5.pim-sieve-editor.x86_64-linux</li>
-<li>nixpkgs.libsForQt515.kdepim-addons.x86_64-linux</li>
-<li>nixpkgs.libsForQt515.pim-sieve-editor.x86_64-linux</li>
-<li>nixpkgs.plasma5Packages.kdepim-addons.x86_64-linux</li>
-<li>nixpkgs.plasma5Packages.pim-sieve-editor.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>6</td>
-</tr>
-<tr>
-<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/195168239'>aarch64-linux cjdns-21.1</a></tt></summary>
 <ul>
 <li>nixos.tests.allDrivers.cjdns.aarch64-linux</li>
@@ -28575,6 +28518,20 @@ Built for evals:
 </details>
 </td>
 <td>6</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/195223325'>x86_64-linux libksieve-22.08.1</a></tt></summary>
+<ul>
+<li>nixpkgs.libsForQt5.pim-sieve-editor.x86_64-linux</li>
+<li>nixpkgs.libsForQt515.kdepim-addons.x86_64-linux</li>
+<li>nixpkgs.libsForQt515.pim-sieve-editor.x86_64-linux</li>
+<li>nixpkgs.plasma5Packages.kdepim-addons.x86_64-linux</li>
+<li>nixpkgs.plasma5Packages.pim-sieve-editor.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>5</td>
 </tr>
 <tr>
 <td>
