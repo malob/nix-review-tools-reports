@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:staging-next-22.05 1783508
+title: nixpkgs:staging-next-22.05 1783508 (succeeded)
 categories: nixpkgs:staging-next-22.05
 ---
 # Evals report
 
-*Report built at 2022-10-15 07:23:21 UTC*
+*Report built at 2022-10-15 08:19:39 UTC*
 
 Built for evals:
 
@@ -21685,27 +21685,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/193800639'>tecnoballz.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/195508537'>qemu_full.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
