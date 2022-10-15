@@ -62,13 +62,13 @@ jobs:
       run: |
         evalid=$(nix run .#jobset-latest-eval-id -- $PROJECT $JOBSET)
         successevalid=$(nix run .#jobset-latest-successful-eval-id -- $PROJECT $JOBSET)
-        echo "::set-output name=eval-id::$evalid"
-        echo "::set-output name=success-eval-id::$successevalid"
+        echo "eval-id=$evalid" >> $GITHUB_OUTPUT
+        echo "success-eval-id=$successevalid" >> $GITHUB_OUTPUT
         if [ "$evalid" = "$successevalid" ]; then
-          echo "::set-output name=unique-id::success"
+          echo "unique-id=success" >> $GITHUB_OUTPUT
         else
           # Current Unix time.
-          echo "::set-output name=unique-id::$(date '+%s')"
+          echo "unique-id=$(date '+%s')" >> $GITHUB_OUTPUT
         fi
 
     # Get the most up-to-date cache of the data/ directory containing Hydra build reports downloaded
@@ -124,9 +124,9 @@ jobs:
         nix run . -- $PROJECT $JOBSET
         stats=($(git diff --shortstat))
         if [ "${stats[3]}" -eq 1 ] && [ "${stats[5]}" -eq 1 ]; then
-          echo "::set-output name=push-changes::false"
+          echo "push-changes=false" >> $GITHUB_OUTPUT
         else
-          echo "::set-output name=push-changes::true"
+          echo "push-changes=true" >> $GITHUB_OUTPUT
         fi
 
 
