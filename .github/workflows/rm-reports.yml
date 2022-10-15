@@ -26,7 +26,7 @@ jobs:
         fetch-depth: 0
 
     - name: Install Nix
-      uses: cachix/install-nix-action@v16
+      uses: cachix/install-nix-action@v18
       with:
         extra_nix_config: |
           access-tokens = github.com=${{ secrets.GITHUB_TOKEN }}
@@ -34,7 +34,7 @@ jobs:
     # Use Cachix to cache builds of script etc. from this repo. This speeds up the runtime of this
     # workflow a little bit.
     - name: Setup Cachix
-      uses: cachix/cachix-action@v10
+      uses: cachix/cachix-action@v11
       with:
         name: malo
         signingKey: ${{ secrets.CACHIX_SIGNING_KEY }}
