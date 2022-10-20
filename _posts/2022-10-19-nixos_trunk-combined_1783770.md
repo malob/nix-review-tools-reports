@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-10-20 05:04:17 UTC*
+*Report built at 2022-10-20 06:25:48 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### i686-linux
 
 
-<details><summary>257 issues</summary>
+<details><summary>258 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -3091,6 +3091,12 @@ Built for evals:
 </td>
 <td>Timed out</td>
 </tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/195913414'>nixos.tests.patroni.i686-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
 </table>
 </details>
 
@@ -3098,7 +3104,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>1458 issues</summary>
+<details><summary>1456 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -12668,20 +12674,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/195914771'>tested</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Cached failure</b> <tt>vm-test-run-pantheon</tt> <br /> <a href='https://hydra.nixos.org/build/195914771/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/195914771/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/195914771/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/195912793'>build 195912793</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/195914155'>nixos.amazonImageZfs.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -12923,12 +12915,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/195915057'>nixos.tests.keymap.bone.x86_64-linux</a></tt>
-</td>
-<td>Failed</td>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/195911758'>nixos.tests.keymap.colemak.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -17349,7 +17335,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>975 issues</summary>
+<details><summary>974 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -22943,12 +22929,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/195912793'>nixos.tests.pantheon.aarch64-linux</a></tt>
-</td>
-<td>Failed</td>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/195911337'>nixos.tests.pgjwt.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -26254,7 +26234,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>1 issues</summary>
+<details><summary>2 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -26263,10 +26243,17 @@ Built for evals:
 </tr></thead>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/195913414'>nixos.tests.patroni.i686-linux</a></tt>
+<tt><a href='https://hydra.nixos.org/build/195911758'>nixos.tests.keymap.colemak.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
-<th>i686-linux</th>
+<th>x86_64-linux</th>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/195914771'>tested</a></tt>
+</td>
+<td>Queued</td>
+<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
@@ -29171,16 +29158,6 @@ Built for evals:
 </details>
 </td>
 <td>2</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/195912793'>x86_64-linux vm-test-run-pantheon</a></tt></summary>
-<ul>
-<li>tested</li>
-</ul>
-</details>
-</td>
-<td>1</td>
 </tr>
 <tr>
 <td>
