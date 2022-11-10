@@ -14,7 +14,7 @@ layout: default
       {%- for category in categories -%}
       <li>
         <details>
-          <summary>{{ category[0] }}</summary>
+        <summary><a href="{{ category[1][0].url | relative_url }}">{{ category[0] }}</a></summary>
           <ul class="post-list">
             {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
             {%- for post in category[1] -%}
