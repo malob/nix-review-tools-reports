@@ -30,6 +30,11 @@ jobs:
     with:
       project: nixpkgs
       jobset: nixpkgs-22.05-darwin
+  nixpkgs-nixpkgs-22_11-darwin:
+    uses: ./.github/workflows/gen-report.yml
+    with:
+      project: nixpkgs
+      jobset: nixpkgs-22.11-darwin
   nixpkgs-python-updates:
     uses: ./.github/workflows/gen-report.yml
     with:
@@ -45,6 +50,11 @@ jobs:
     with:
       project: nixpkgs
       jobset: staging-next-22.05
+  nixpkgs-staging-next-22_11:
+    uses: ./.github/workflows/gen-report.yml
+    with:
+      project: nixpkgs
+      jobset: staging-next-22.11
   nixos-trunk-combined:
     uses: ./.github/workflows/gen-report.yml
     with:
@@ -55,8 +65,18 @@ jobs:
     with:
       project: nixos
       jobset: release-22.05
+  nixos-release-22_11:
+    uses: ./.github/workflows/gen-report.yml
+    with:
+      project: nixos
+      jobset: release-22.11
   nixos-release-22_05-aarch64:
     uses: ./.github/workflows/gen-report.yml
     with:
       project: nixos
       jobset: release-22.05-aarch64
+  nixos-release-22_11-aarch64:
+    uses: ./.github/workflows/gen-report.yml
+    with:
+      project: nixos
+      jobset: release-22.11-aarch64
