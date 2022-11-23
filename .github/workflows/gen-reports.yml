@@ -75,8 +75,3 @@ jobs:
     with:
       project: nixos
       jobset: release-22.05-aarch64
-  nixos-release-22_11-aarch64:
-    uses: ./.github/workflows/gen-report.yml
-    with:
-      project: nixos
-      jobset: release-22.11-aarch64
