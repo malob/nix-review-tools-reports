@@ -14,25 +14,67 @@ on:
         type: string
         default: false
 
+env:
+  project: ${{ inputs.project }}
+  jobset: ${{ inputs.jobset }}
+
 jobs:
-  generante-report:
-    name: Generate ${{ inputs.project }}:${{ inputs.jobset }} report
+  get-cache-ids:
+    name: Get cache IDs
+    runs-on: ubuntu-latest
 
     # Wait for jobs for same report from previous workflow runs to finish.
     # Docs: https://docs.github.com/en/actions/using-jobs/using-concurrency
     concurrency: ${{ inputs.project }}:${{ inputs.jobset }}
 
-    # Values from the matrix we need to reference in shell commands
-    env:
-      PROJECT: ${{ inputs.project }}
-      JOBSET: ${{ inputs.jobset }}
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Install Nix
+      uses: cachix/install-nix-action@v18
+      with:
+        extra_nix_config: |
+          access-tokens = github.com=${{ secrets.GITHUB_TOKEN }}
+
+    # This steps gets/creates the IDs we reference when using the `cache` action in the next job:
+    # * eval_id: the ID of the jobset evaluation we are generating the report for.
+    # * success_eval_id: the ID of the last successful/finished evaluation of the jobset.
+    # * unique_id: an ID that will be unique if the evaluation of the jobset is still in progress.
+    - name: Get cache IDs
+      run: |
+        evalid=$(nix run .#jobset-latest-eval-id -- $project $jobset)
+        successevalid=$(nix run .#jobset-latest-successful-eval-id -- $project $jobset)
+        echo "eval_id=$evalid" >> $GITHUB_ENV
+        echo "success_eval_id=$successevalid" >> $GITHUB_ENV
+        if [ "$evalid" = 'null' ]; then
+        echo "::warning::Could not retrieve evaluation ID for $project:$jobset jobset"
+        elif [ "$evalid" = "$successevalid" ]; then
+          echo "unique_id=success" >> $GITHUB_ENV
+        else
+          # Current Unix time.
+          echo "unique_id=$(date '+%s')" >> $GITHUB_ENV
+        fi
+
+    outputs:
+      eval-id: ${{ env.eval_id }}
+      unique-id: ${{ env.unique_id }}
+
+  generante-report:
+    name: Generate report
     runs-on: ubuntu-latest
+    needs: get-cache-ids
+    env:
+      eval_id: ${{ needs.get-cache-ids.outputs.eval-id }}
+      unique_id: ${{ needs.get-cache-ids.outputs.unique-id }}
+
+    # Don't run if we weren't able to get an ID for the latest evaluation of the jobset. This
+    # usually happens if the jobset has never been evaluated.
+    if: ${{ needs.get-cache-ids.outputs.eval-id != 'null' }}
 
     steps:
-
-    # Always checkout the `master` branch so that we have the most up to date version of the repo,
-    # since other jobs in the matrix may have pushed before we run (regardless of whether jobs are
-    # run in parallel).
+    # Always checkout the `master` branch so that we have the most up to date version of the repo
+    # since other runs of this workflow might have pushed before we run.
     - name: Checkout repository
       uses: actions/checkout@v3
       with:
@@ -43,33 +85,6 @@ jobs:
       with:
         extra_nix_config: |
           access-tokens = github.com=${{ secrets.GITHUB_TOKEN }}
-
-    # Use Cachix to cache builds of script etc. from this repo. This speeds up the runtime of this
-    # workflow a little bit.
-    - name: Setup Cachix
-      uses: cachix/cachix-action@v11
-      with:
-        name: malo
-        signingKey: ${{ secrets.CACHIX_SIGNING_KEY }}
-
-    # This steps creates outputs that we reference when using the `cache` action in the next steps.
-    # Outputs:
-    # * eval-id: the ID of the jobset evaluation we are generating the report for.
-    # * success-eval-id: the ID of the last successful/finished evaluation of the jobset.
-    # * unique-id: an ID that will be unique if the evaluation of the jobset is still in progress.
-    - name: Setup cache IDs
-      id: setup-cache-ids
-      run: |
-        evalid=$(nix run .#jobset-latest-eval-id -- $PROJECT $JOBSET)
-        successevalid=$(nix run .#jobset-latest-successful-eval-id -- $PROJECT $JOBSET)
-        echo "eval-id=$evalid" >> $GITHUB_OUTPUT
-        echo "success-eval-id=$successevalid" >> $GITHUB_OUTPUT
-        if [ "$evalid" = "$successevalid" ]; then
-          echo "unique-id=success" >> $GITHUB_OUTPUT
-        else
-          # Current Unix time.
-          echo "unique-id=$(date '+%s')" >> $GITHUB_OUTPUT
-        fi
 
     # Get the most up-to-date cache of the data/ directory containing Hydra build reports downloaded
     # by `nix-review-reports` for the jobset.
@@ -94,10 +109,10 @@ jobs:
       id: cache
       with:
         path: data
-        key: ${{ inputs.project }}:${{ inputs.jobset }}-${{ steps.setup-cache-ids.outputs.eval-id }}-${{ steps.setup-cache-ids.outputs.unique-id }}
+        key: ${{ env.project }}:${{ env.jobset }}-${{ env.eval_id }}-${{ env.unique_id }}
         restore-keys: |
-          ${{ inputs.project }}:${{ inputs.jobset }}-${{ steps.setup-cache-ids.outputs.eval-id }}-
-          ${{ inputs.project }}:${{ inputs.jobset }}-
+          ${{ env.project }}:${{ env.jobset }}-${{ env.eval_id }}-
+          ${{ env.project }}:${{ env.jobset }}-
 
     # Sometimes we may want to nuke the cache, like when builds were restarted on Hydra.
     - name: Nuke cache
@@ -121,31 +136,27 @@ jobs:
       id: gen-report
       if: steps.cache.outputs.cache-hit != 'true'
       run: |
-        nix run . -- $PROJECT $JOBSET
+        nix run . -- $project $jobset }}
         stats=($(git diff --shortstat))
         if [ "${stats[3]}" -eq 1 ] && [ "${stats[5]}" -eq 1 ]; then
-          echo "push-changes=false" >> $GITHUB_OUTPUT
+          echo "push_changes=false" >> $GITHUB_ENV
         else
-          echo "push-changes=true" >> $GITHUB_OUTPUT
+          echo "push_changes=true" >> $GITHUB_ENV
         fi
-
 
     # Push new/updated report only if we don't have an exact cache hit for the same reasons as
     # above, and if the report was updated and there were more changes then just an update to the
     # "Report built at ..." line.
     #
-    # We need to pull and rebase before we push if the matrix allows jobs to run in parallels, or
-    # other workflows like `rm-reports.yml` that push changes to the repo are setup, since
-    # another job could have pushed after we checked out out the repository.
+    # We need to pull and rebase before we push since another run of this workflow (or other
+    # workflows like `./rm-reports.yml`) maybe have pushed changes since we cloned the repo.
     - name: Push new/updated report
-      if: steps.cache.outputs.cache-hit != 'true' && steps.gen-report.outputs.push-changes == 'true'
-      env:
-        EVAL: ${{ steps.setup-cache-ids.outputs.eval-id }}
+      if: steps.cache.outputs.cache-hit != 'true' && env.push_changes == 'true'
       run: |
         git config user.name github-actions
         git config user.email github-actions@github.com
         git add --all
-        git commit -m "Add/update $PROJECT:$JOBSET report for eval $EVAL"
+        git commit -m "Add/update $project:$jobset report for eval $eval_id"
         until git push
         do
           git pull --rebase=true

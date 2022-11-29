@@ -19,6 +19,7 @@ on:
 
 jobs:
   gen-report:
+    name: ${{ github.event.inputs.project }}:${{ github.event.inputs.jobset }}
     uses: ./.github/workflows/gen-report.yml
     with:
       project: ${{ github.event.inputs.project }}

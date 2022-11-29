@@ -16,26 +16,31 @@ on:
 
 jobs:
   nixpkgs-trunk:
+    name: nixpkgs-trunk
     uses: ./.github/workflows/gen-report.yml
     with:
       project: nixpkgs
       jobset: trunk
   nixpkgs-nixpkgs-unstable-aarch64-darwin:
+    name: nixpkgs-unstable-aarch64-darwin
     uses: ./.github/workflows/gen-report.yml
     with:
       project: nixpkgs
       jobset: nixpkgs-unstable-aarch64-darwin
   nixpkgs-nixpkgs-22_05-darwin:
+    name: nixpkgs-22.05-darwin
     uses: ./.github/workflows/gen-report.yml
     with:
       project: nixpkgs
       jobset: nixpkgs-22.05-darwin
   nixpkgs-nixpkgs-22_11-darwin:
+    name: nixpkgs-22.11-darwin
     uses: ./.github/workflows/gen-report.yml
     with:
       project: nixpkgs
       jobset: nixpkgs-22.11-darwin
   nixpkgs-python-updates:
+    name: python-updates
     uses: ./.github/workflows/gen-report.yml
     with:
       project: nixpkgs
@@ -46,32 +51,39 @@ jobs:
       project: nixpkgs
       jobset: staging-next
   nixpkgs-staging-next-22_05:
+    name: staging-next-22.05
     uses: ./.github/workflows/gen-report.yml
     with:
       project: nixpkgs
       jobset: staging-next-22.05
   nixpkgs-staging-next-22_11:
+    name: staging-next-22.11
     uses: ./.github/workflows/gen-report.yml
     with:
       project: nixpkgs
       jobset: staging-next-22.11
+
   nixos-trunk-combined:
+    name: nixos-trunk-combined
     uses: ./.github/workflows/gen-report.yml
     with:
       project: nixos
       jobset: trunk-combined
   nixos-release-22_05:
+    name: release-22.05
     uses: ./.github/workflows/gen-report.yml
     with:
       project: nixos
       jobset: release-22.05
-  nixos-release-22_11:
-    uses: ./.github/workflows/gen-report.yml
-    with:
-      project: nixos
-      jobset: release-22.11
   nixos-release-22_05-aarch64:
+    name: release-22.05-aarch64
     uses: ./.github/workflows/gen-report.yml
     with:
       project: nixos
       jobset: release-22.05-aarch64
+  nixos-release-22_11:
+    name: release-22.11
+    uses: ./.github/workflows/gen-report.yml
+    with:
+      project: nixos
+      jobset: release-22.11
