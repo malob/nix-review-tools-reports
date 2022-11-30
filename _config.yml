@@ -17,6 +17,12 @@ plugins:
 
 remote_theme: jekyll/minima
 
+defaults:
+  - scope:
+      path: "_posts/**/*.md"
+    values:
+      sitemap:         false
+
 exclude:
   - Gemfile
   - Gemfile.lock
