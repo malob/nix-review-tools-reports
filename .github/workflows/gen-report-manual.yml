@@ -17,6 +17,9 @@ on:
         required: true
         default: false
 
+# Don't run until the `./rm-reports.yml` workflow is finished running.
+concurrency: rm-reports
+
 jobs:
   gen-report:
     name: ${{ github.event.inputs.project }}:${{ github.event.inputs.jobset }}

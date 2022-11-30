@@ -74,15 +74,20 @@
 
         rm-reports-older-than = writeShellApplication {
           name = "rm-reports-older-than";
-          runtimeInputs = attrValues { inherit (pkgs) coreutils git; };
+          runtimeInputs = attrValues { inherit (pkgs) coreutils git git-filter-repo gnused; };
           text = ''
             date=$(date -Iseconds --date "-$1 $2")
-            git ls-files _posts | while read -r path
+            paths_file=$(mktemp --suffix ".txt")
+            git log --pretty=format: --name-only --diff-filter=A -- _posts \
+              | sed '/^$/d' \
+              | sort -u  \
+              | while read -r path
             do
-              if [ "$(git log --since "$date" -- "$path")" == "" ]; then
-                rm "$path"
+              if [ "$(git log --since "$date" --diff-filter=A -- "$path")" == "" ]; then
+                echo "$path" >> "$paths_file"
               fi
             done
+            git-filter-repo --force --partial --invert-paths --paths-from-file "$paths_file"
           '';
         };
 

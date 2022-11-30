@@ -67,9 +67,9 @@ Sometimes the cache of Hydra build reports restored by GitHub's cache action mig
 
 #### Remove old reports
 
-The [rm-reports.yml](https://github.com/malob/nix-review-tools-reports/blob/master/.github/workflows/rm-reports.yml) workflow runs daily. This workflow removes all reports that were added to the site over a week ago using the `rm-reports-older-than` script.
+The [rm-reports.yml](https://github.com/malob/nix-review-tools-reports/blob/master/.github/workflows/rm-reports.yml) workflow runs daily. This edits the Git history to remove all traces of reports generated over a week ago using the `rm-reports-older-than` script.
 
-Old reports are removed because they, aren't particularly valuable, clutter up the site, and increase the time it takes Jekyll to generate the site.
+Old reports are removed because they, aren't particularly valuable, clutter up the site, and increase the time it takes Jekyll to generate the site. The Git history is edited rather than just deleting the files since otherwise the size of the repository grows very large over time.
 
 ### Jekyll
 
@@ -140,7 +140,7 @@ Uses `nix-review-tools` to generate a report for the latest evaluation of a give
 
 #### rm-reports-older-than
 
-Removes all files in the `_posts/` directory that were committed to the repository before a certain time.
+Edits the Git history to remove all traces of files in the `_posts/` directory that were first added to the repository before a certain time.
 
 **Usage:** `rm-reports-older-than QUANTITY UNIT_OF_TIME`
 

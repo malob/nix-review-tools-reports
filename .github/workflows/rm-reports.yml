@@ -13,6 +13,9 @@ on:
   schedule:
    - cron: '0 0 */1 * *'
 
+# Don't run until any workflows that generate reports are running.
+concurrency: rm-reports
+
 jobs:
   rm-reports:
     name: Remove old reports
@@ -31,27 +34,13 @@ jobs:
         extra_nix_config: |
           access-tokens = github.com=${{ secrets.GITHUB_TOKEN }}
 
-    # Use Cachix to cache builds of script etc. from this repo. This speeds up the runtime of this
-    # workflow a little bit.
-    - name: Setup Cachix
-      uses: cachix/cachix-action@v11
-      with:
-        name: malo
-        signingKey: ${{ secrets.CACHIX_SIGNING_KEY }}
-
     - name: Remove reports created over a week ago
       run: |
         nix run .#rm-reports-older-than -- 1 weeks
 
-    # We need to pull and rebase before we push since the `gen-reports` worflow could be running
-    # and one of it's jobs could have pushed after we checkedout out the repository.
+    # We need to force push since this changes the repository history.
     - name: Push changes
       run: |
         git config user.name github-actions
         git config user.email github-actions@github.com
-        git add --all
-        git commit -m "Remove reports created over a weeks ago"
-        until git push
-        do
-          git pull --rebase=true
-        done
+        git push --force

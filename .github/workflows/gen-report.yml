@@ -148,8 +148,8 @@ jobs:
     # above, and if the report was updated and there were more changes then just an update to the
     # "Report built at ..." line.
     #
-    # We need to pull and rebase before we push since another run of this workflow (or other
-    # workflows like `./rm-reports.yml`) maybe have pushed changes since we cloned the repo.
+    # We need to pull and rebase before we push since another run of this workflow maybe have pushed
+    # changes since we cloned the repo.
     - name: Push new/updated report
       if: steps.cache.outputs.cache-hit != 'true' && env.push_changes == 'true'
       run: |
