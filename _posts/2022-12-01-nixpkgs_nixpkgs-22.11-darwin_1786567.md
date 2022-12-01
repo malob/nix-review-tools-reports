@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:nixpkgs-22.11-darwin 1786567
+title: nixpkgs:nixpkgs-22.11-darwin 1786567 (succeeded)
 categories: nixpkgs:nixpkgs-22.11-darwin
 ---
 # Evals report
 
-*Report built at 2022-12-01 09:06:46 UTC*
+*Report built at 2022-12-01 10:06:29 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>631 issues</summary>
+<details><summary>634 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -5077,6 +5077,24 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/200352085'>emacsPackages.annotate-depth.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/200358331'>emacsPackages.assess.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/200358366'>emacsPackages.csgo-conf-mode.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/200352244'>emacsPackages.eri.x86_64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -5250,7 +5268,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>812 issues</summary>
+<details><summary>813 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -11994,6 +12012,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/200358262'>emacsPackages.theme-changer.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/200355416'>emacsPackages.vhdl-tools.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -12123,48 +12147,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/199555786'>tecnoballz.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>4 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/200359156'>emacsPackages.ace-isearch.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/200358331'>emacsPackages.assess.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/200358366'>emacsPackages.csgo-conf-mode.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/200358262'>emacsPackages.theme-changer.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 </table>
 </details>
