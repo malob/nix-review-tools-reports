@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:nixpkgs-unstable-aarch64-darwin 1786671
+title: nixpkgs:nixpkgs-unstable-aarch64-darwin 1786671 (succeeded)
 categories: nixpkgs:nixpkgs-unstable-aarch64-darwin
 ---
 # Evals report
 
-*Report built at 2022-12-03 01:31:53 UTC*
+*Report built at 2022-12-03 02:22:30 UTC*
 
 Built for evals:
 
@@ -42,7 +42,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>765 issues</summary>
+<details><summary>771 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -1932,6 +1932,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>python3.10-rapidfuzz-2.13.2</tt> <br /> <a href='https://hydra.nixos.org/build/200325377/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/200325377/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/200325377/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/199557723'>build 199557723</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/200499948'>python310Packages.dnachisel.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.10-pyphen-0.13.2</tt> <br /> <a href='https://hydra.nixos.org/build/200499948/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/200499948/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/200499948/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/200500091'>build 200500091</a>
 </li>
 </ul>
 </details>
@@ -6200,6 +6214,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/200500030'>python310Packages.bap.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/200401086'>python310Packages.google-cloud-resource-manager.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -6260,6 +6280,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/200500077'>python39Packages.bap.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/200346132'>python39Packages.bimmer-connected.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -6291,6 +6317,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/199764908'>python39Packages.nitime.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/200500050'>python39Packages.nix-kernel.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -6366,61 +6398,17 @@ Built for evals:
 </td>
 <td>Timed out</td>
 </tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>6 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/200500074'>libbap.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/200500030'>python310Packages.bap.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/200500077'>python39Packages.bap.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/200500050'>python39Packages.nix-kernel.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/200500051'>terraform-providers.hcloud.aarch64-darwin</a></tt>
 </td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
+<td>Timed out</td>
 </tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/200500054'>terraform-providers.ucloud.aarch64-darwin</a></tt>
 </td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
+<td>Timed out</td>
 </tr>
 </table>
 </details>
@@ -6519,6 +6507,23 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/200500091'>aarch64-darwin python3.10-pyphen-0.13.2</a></tt></summary>
+<ul>
+<li>python310Packages.dnachisel.aarch64-darwin</li>
+<li>python310Packages.flametree.aarch64-darwin</li>
+<li>python310Packages.trytond.aarch64-darwin</li>
+<li>python310Packages.weasyprint.aarch64-darwin</li>
+<li>python310Packages.xml2rfc.aarch64-darwin</li>
+<li>sourcehut.metasrht.aarch64-darwin</li>
+<li>trytond.aarch64-darwin</li>
+<li>xml2rfc.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>8</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/200356862'>aarch64-darwin Agda-2.6.2.2</a></tt></summary>
 <ul>
 <li>agdaPackages.agda-categories.aarch64-darwin</li>
@@ -6550,22 +6555,6 @@ Built for evals:
 </details>
 </td>
 <td>8</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/200500091'>aarch64-darwin python3.10-pyphen-0.13.2</a></tt></summary>
-<ul>
-<li>python310Packages.flametree.aarch64-darwin</li>
-<li>python310Packages.trytond.aarch64-darwin</li>
-<li>python310Packages.weasyprint.aarch64-darwin</li>
-<li>python310Packages.xml2rfc.aarch64-darwin</li>
-<li>sourcehut.metasrht.aarch64-darwin</li>
-<li>trytond.aarch64-darwin</li>
-<li>xml2rfc.aarch64-darwin</li>
-</ul>
-</details>
-</td>
-<td>7</td>
 </tr>
 <tr>
 <td>
