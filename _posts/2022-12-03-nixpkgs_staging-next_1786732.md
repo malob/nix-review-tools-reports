@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next
 ---
 # Evals report
 
-*Report built at 2022-12-04 06:10:22 UTC*
+*Report built at 2022-12-04 07:09:36 UTC*
 
 Built for evals:
 
@@ -7891,7 +7891,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1225 issues</summary>
+<details><summary>1229 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -20615,6 +20615,18 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/200531110'>nimPackages.zippy.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/200535609'>nitter.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/200191322'>opensaml-cpp.x86_64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -20682,6 +20694,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/200410703'>python310Packages.check-manifest.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/200530367'>python310Packages.django-postgresql-netfields.x86_64-darwin</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -20928,6 +20946,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/200280634'>terraform-providers.ns1.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/200530628'>vsce.x86_64-darwin</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -24308,7 +24332,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1684 issues</summary>
+<details><summary>1686 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -43262,6 +43286,18 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/200530759'>rxvt-unicode-emoji.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/200536668'>rxvt-unicode.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/200282999'>shen-sbcl.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -43303,7 +43339,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>2411 issues</summary>
+<details><summary>2405 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -59139,20 +59175,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/200531110'>nimPackages.zippy.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/200535609'>nitter.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/200533633'>nvfancontrol.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -59234,13 +59256,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/200530367'>python310Packages.django-postgresql-netfields.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -60154,20 +60169,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/200530759'>rxvt-unicode-emoji.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/200536668'>rxvt-unicode.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/200526254'>ungoogled-chromium.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -60179,13 +60180,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/200530628'>vsce.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 </table>
 </details>
