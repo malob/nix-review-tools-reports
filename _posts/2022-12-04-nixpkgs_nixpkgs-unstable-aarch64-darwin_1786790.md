@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-unstable-aarch64-darwin
 ---
 # Evals report
 
-*Report built at 2022-12-04 07:04:38 UTC*
+*Report built at 2022-12-04 08:05:52 UTC*
 
 Built for evals:
 
@@ -42,7 +42,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>732 issues</summary>
+<details><summary>734 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -1367,6 +1367,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/200555833'>libtomcrypt.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>libtommath-1.2.0</tt> <br /> <a href='https://hydra.nixos.org/build/200555833/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/200555833/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/200555833/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/199294208'>build 199294208</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/199311621'>listmonk.aarch64-darwin</a></tt>
 </summary>
 <ul>
@@ -2534,6 +2548,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>xml-tooling-c-3.0.4</tt> <br /> <a href='https://hydra.nixos.org/build/199292106/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/199292106/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/199292106/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/198516388'>build 198516388</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/200555774'>smpq.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>libtommath-1.2.0</tt> <br /> <a href='https://hydra.nixos.org/build/200555774/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/200555774/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/200555774/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/199294208'>build 199294208</a>
 </li>
 </ul>
 </details>
@@ -5959,7 +5987,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>96 issues</summary>
+<details><summary>89 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -6087,13 +6115,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/200555849'>git-repo.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/200555851'>include-what-you-use.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -6129,24 +6150,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/200555833'>libtomcrypt.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/200555853'>liquibase.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/200555848'>manual</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -6269,13 +6276,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/200555857'>python310Packages.fasteners.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/200555791'>python310Packages.geant4.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -6305,13 +6305,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/200555837'>python310Packages.levenshtein.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/200555773'>python310Packages.lupupy.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -6417,13 +6410,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/200555775'>python39Packages.executor.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/200555814'>python39Packages.fasteners.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -6564,13 +6550,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/200555829'>sequoia.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/200555774'>smpq.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -6872,6 +6851,17 @@ Built for evals:
 </details>
 </td>
 <td>3</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/199294208'>aarch64-darwin libtommath-1.2.0</a></tt></summary>
+<ul>
+<li>libtomcrypt.aarch64-darwin</li>
+<li>smpq.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>2</td>
 </tr>
 <tr>
 <td>
