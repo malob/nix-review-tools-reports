@@ -1,10 +1,10 @@
 ---
-title: nixos:release-22.11 1786761
+title: nixos:release-22.11 1786761 (succeeded)
 categories: nixos:release-22.11
 ---
 # Evals report
 
-*Report built at 2022-12-04 16:06:56 UTC*
+*Report built at 2022-12-04 17:07:32 UTC*
 
 Built for evals:
 
@@ -9835,7 +9835,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>531 issues</summary>
+<details><summary>532 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -14258,6 +14258,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/200552202'>nixos.tests.iscsi-root.aarch64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/200550070'>nixos.tests.pulseaudio.system.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -14297,27 +14303,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/199683389'>nixpkgs.shen-sbcl.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/200552202'>nixos.tests.iscsi-root.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 </table>
 </details>
