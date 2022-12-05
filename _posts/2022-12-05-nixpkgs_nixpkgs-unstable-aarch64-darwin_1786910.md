@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-unstable-aarch64-darwin
 ---
 # Evals report
 
-*Report built at 2022-12-05 20:05:36 UTC*
+*Report built at 2022-12-05 21:08:16 UTC*
 
 Built for evals:
 
@@ -5641,7 +5641,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>840 issues</summary>
+<details><summary>838 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -8051,13 +8051,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/200759657'>python310Packages.geant4.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/200782372'>python310Packages.gensim.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -10026,13 +10019,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/200782140'>python39Packages.gcsfs.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/200759680'>python39Packages.geant4.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
