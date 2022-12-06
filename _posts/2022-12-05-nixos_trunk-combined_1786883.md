@@ -1,10 +1,10 @@
 ---
-title: nixos:trunk-combined 1786883
+title: nixos:trunk-combined 1786883 (succeeded)
 categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-12-06 08:07:57 UTC*
+*Report built at 2022-12-06 09:06:51 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### i686-linux
 
 
-<details><summary>165 issues</summary>
+<details><summary>173 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -99,6 +99,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>blockbook-0.3.6</tt> <br /> <a href='https://hydra.nixos.org/build/200752175/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/200752175/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/200752175/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/200460833'>build 200460833</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/200768120'>nixos.tests.allDrivers.calibre-web.i686-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>qtwebengine-6.4.1</tt> <br /> <a href='https://hydra.nixos.org/build/200768120/nixlog/14'>log</a>, <a href='https://hydra.nixos.org/build/200768120/nixlog/14/raw'>raw</a>, <a href='https://hydra.nixos.org/build/200768120/nixlog/14/tail'>tail</a>
 </li>
 </ul>
 </details>
@@ -337,6 +351,48 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>lkl-2022-05-18</tt> <br /> <a href='https://hydra.nixos.org/build/200767393/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/200767393/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/200767393/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/200475491'>build 200475491</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/200770500'>nixos.tests.allDrivers.installer.bcachefsEncrypted.i686-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>linux-6.0.11-bcachefs-unstable-2022-10-31</tt> <br /> <a href='https://hydra.nixos.org/build/200770500/nixlog/12'>log</a>, <a href='https://hydra.nixos.org/build/200770500/nixlog/12/raw'>raw</a>, <a href='https://hydra.nixos.org/build/200770500/nixlog/12/tail'>tail</a>, <a href='https://hydra.nixos.org/build/200768897'>build 200768897</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/200768211'>nixos.tests.allDrivers.installer.bcachefsMulti.i686-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>linux-6.0.11-bcachefs-unstable-2022-10-31</tt> <br /> <a href='https://hydra.nixos.org/build/200768211/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/200768211/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/200768211/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/200768897'>build 200768897</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/200768333'>nixos.tests.allDrivers.installer.bcachefsSimple.i686-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>linux-6.0.11-bcachefs-unstable-2022-10-31</tt> <br /> <a href='https://hydra.nixos.org/build/200768333/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/200768333/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/200768333/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/200768897'>build 200768897</a>
 </li>
 </ul>
 </details>
@@ -794,6 +850,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/200769826'>nixos.tests.calibre-web.i686-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>qtwebengine-6.4.1</tt> <br /> <a href='https://hydra.nixos.org/build/200769826/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/200769826/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/200769826/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/200768120'>build 200768120</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/200748339'>nixos.tests.cinnamon.i686-linux</a></tt>
 </summary>
 <ul>
@@ -1023,6 +1093,48 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>lkl-2022-05-18</tt> <br /> <a href='https://hydra.nixos.org/build/200768635/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/200768635/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/200768635/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/200475491'>build 200475491</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/200768929'>nixos.tests.installer.bcachefsEncrypted.i686-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>linux-6.0.11-bcachefs-unstable-2022-10-31</tt> <br /> <a href='https://hydra.nixos.org/build/200768929/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/200768929/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/200768929/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/200768897'>build 200768897</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/200770028'>nixos.tests.installer.bcachefsMulti.i686-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>linux-6.0.11-bcachefs-unstable-2022-10-31</tt> <br /> <a href='https://hydra.nixos.org/build/200770028/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/200770028/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/200770028/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/200768897'>build 200768897</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/200768897'>nixos.tests.installer.bcachefsSimple.i686-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>linux-6.0.11-bcachefs-unstable-2022-10-31</tt> <br /> <a href='https://hydra.nixos.org/build/200768897/nixlog/15'>log</a>, <a href='https://hydra.nixos.org/build/200768897/nixlog/15/raw'>raw</a>, <a href='https://hydra.nixos.org/build/200768897/nixlog/15/tail'>tail</a>
 </li>
 </ul>
 </details>
@@ -12746,111 +12858,6 @@ Built for evals:
 </table>
 </details>
 
-
-### Still queued
-
-
-<details><summary>13 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/200769903'>nixos.iso_gnome.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/200768120'>nixos.tests.allDrivers.calibre-web.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/200769665'>nixos.tests.allDrivers.calibre-web.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/200770500'>nixos.tests.allDrivers.installer.bcachefsEncrypted.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/200768211'>nixos.tests.allDrivers.installer.bcachefsMulti.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/200768333'>nixos.tests.allDrivers.installer.bcachefsSimple.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/200769826'>nixos.tests.calibre-web.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/200769009'>nixos.tests.calibre-web.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/200768929'>nixos.tests.installer.bcachefsEncrypted.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/200770028'>nixos.tests.installer.bcachefsMulti.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/200768897'>nixos.tests.installer.bcachefsSimple.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/200767955'>nixpkgs.stellarium.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/200770225'>tested</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-</table>
-</details>
-
 ## Problematic dependencies
 
 <table>
@@ -12972,6 +12979,21 @@ Built for evals:
 </details>
 </td>
 <td>8</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/200768897'>i686-linux linux-6.0.11-bcachefs-unstable-2022-10-31</a></tt></summary>
+<ul>
+<li>nixos.tests.allDrivers.installer.bcachefsEncrypted.i686-linux</li>
+<li>nixos.tests.allDrivers.installer.bcachefsMulti.i686-linux</li>
+<li>nixos.tests.allDrivers.installer.bcachefsSimple.i686-linux</li>
+<li>nixos.tests.installer.bcachefsEncrypted.i686-linux</li>
+<li>nixos.tests.installer.bcachefsMulti.i686-linux</li>
+<li>nixos.tests.installer.bcachefsSimple.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>6</td>
 </tr>
 <tr>
 <td>
@@ -13526,6 +13548,17 @@ Built for evals:
 <ul>
 <li>nixos.tests.allDrivers.blockbook-frontend.i686-linux</li>
 <li>nixos.tests.blockbook-frontend.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>i686-linux qtwebengine-6.4.1</tt></summary>
+<ul>
+<li>nixos.tests.allDrivers.calibre-web.i686-linux</li>
+<li>nixos.tests.calibre-web.i686-linux</li>
 </ul>
 </details>
 </td>
