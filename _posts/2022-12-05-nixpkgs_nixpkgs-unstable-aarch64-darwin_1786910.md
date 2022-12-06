@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:nixpkgs-unstable-aarch64-darwin 1786910
+title: nixpkgs:nixpkgs-unstable-aarch64-darwin 1786910 (succeeded)
 categories: nixpkgs:nixpkgs-unstable-aarch64-darwin
 ---
 # Evals report
 
-*Report built at 2022-12-06 01:32:36 UTC*
+*Report built at 2022-12-06 02:27:08 UTC*
 
 Built for evals:
 
@@ -42,7 +42,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>745 issues</summary>
+<details><summary>748 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -5934,7 +5934,19 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/200782252'>python310Packages.apache-beam.aarch64-darwin</a></tt>
+</td>
+<td>Log limit exceeded</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/199296307'>python310Packages.django-haystack.aarch64-darwin</a></tt>
+</td>
+<td>Log limit exceeded</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/200782431'>python39Packages.apache-beam.aarch64-darwin</a></tt>
 </td>
 <td>Log limit exceeded</td>
 </tr>
@@ -6054,6 +6066,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/200782301'>python310Packages.slack-sdk.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/199297890'>python310Packages.toggl-cli.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -6165,41 +6183,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/200500054'>terraform-providers.ucloud.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>3 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/200782252'>python310Packages.apache-beam.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/200782301'>python310Packages.slack-sdk.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/200782431'>python39Packages.apache-beam.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 </table>
 </details>
