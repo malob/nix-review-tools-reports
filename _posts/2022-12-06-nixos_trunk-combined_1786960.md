@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2022-12-07 06:07:58 UTC*
+*Report built at 2022-12-07 12:08:18 UTC*
 
 Built for evals:
 
@@ -5188,7 +5188,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>891 issues</summary>
+<details><summary>892 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -12608,6 +12608,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/200969862'>nixos.tests.installed-tests.malcontent.x86_64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/200943331'>nixpkgs.shen-sbcl.x86_64-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -16813,7 +16819,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>1052 issues</summary>
+<details><summary>1051 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -20284,13 +20290,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/200969862'>nixos.tests.installed-tests.malcontent.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
