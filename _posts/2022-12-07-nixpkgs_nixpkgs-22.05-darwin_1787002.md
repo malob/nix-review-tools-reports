@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-22.05-darwin
 ---
 # Evals report
 
-*Report built at 2022-12-07 03:10:46 UTC*
+*Report built at 2022-12-07 07:05:59 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>452 issues</summary>
+<details><summary>453 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -113,6 +113,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>applgrid-1.4.70</tt> <br /> <a href='https://hydra.nixos.org/build/199969936/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/199969936/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/199969936/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/199226552'>build 199226552</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/201089072'>auto-multiple-choice.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>perl5.34.1-Gtk3-0.037</tt> <br /> <a href='https://hydra.nixos.org/build/201089072/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/201089072/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/201089072/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/199963940'>build 199963940</a>
 </li>
 </ul>
 </details>
@@ -4360,7 +4374,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>919 issues</summary>
+<details><summary>923 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -4570,6 +4584,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>superlu-5.2.1</tt> <br /> <a href='https://hydra.nixos.org/build/199914056/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/199914056/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/199914056/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/199200411'>build 199200411</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/201089050'>auto-multiple-choice.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>perl5.34.1-Gtk3-0.037</tt> <br /> <a href='https://hydra.nixos.org/build/201089050/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/201089050/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/201089050/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/199963848'>build 199963848</a>
 </li>
 </ul>
 </details>
@@ -5153,11 +5181,53 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/201088958'>gimpPlugins.gimp.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python2.7-scandir-1.10.0</tt> <br /> <a href='https://hydra.nixos.org/build/201088958/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/201088958/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/201088958/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/199932478'>build 199932478</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/199955286'>gitolite.aarch64-darwin</a></tt>
 </summary>
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>xnu-3789.70.16</tt> <br /> <a href='https://hydra.nixos.org/build/199955286/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/199955286/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/199955286/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/199224724'>build 199224724</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/201089057'>glimpse.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python2.7-scandir-1.10.0</tt> <br /> <a href='https://hydra.nixos.org/build/201089057/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/201089057/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/201089057/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/199932478'>build 199932478</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/201089012'>glimpsePlugins.gimp.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python2.7-scandir-1.10.0</tt> <br /> <a href='https://hydra.nixos.org/build/201089012/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/201089012/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/201089012/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/199932478'>build 199932478</a>
 </li>
 </ul>
 </details>
@@ -13467,7 +13537,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>199 issues</summary>
+<details><summary>194 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -13512,20 +13582,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/201088949'>asciidoc-full.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/201089050'>auto-multiple-choice.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/201089072'>auto-multiple-choice.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -13700,13 +13756,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/201088958'>gimpPlugins.gimp.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/201088931'>gimpPlugins.gimp.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -13721,24 +13770,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/201089057'>glimpse.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/201089065'>glimpse.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/201089012'>glimpsePlugins.gimp.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -15342,6 +15377,25 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/199963848'>aarch64-darwin perl5.34.1-Gtk3-0.037</a></tt></summary>
+<ul>
+<li>auto-multiple-choice.aarch64-darwin</li>
+<li>auto-multiple-choice.x86_64-darwin</li>
+<li>gtk-pipe-viewer.aarch64-darwin</li>
+<li>gtk-pipe-viewer.x86_64-darwin</li>
+<li>perl534Packages.GooCanvas2.aarch64-darwin</li>
+<li>perl534Packages.GooCanvas2.x86_64-darwin</li>
+<li>perl534Packages.GooCanvas2CairoTypes.aarch64-darwin</li>
+<li>perl534Packages.GooCanvas2CairoTypes.x86_64-darwin</li>
+<li>perl534Packages.Gtk3SimpleList.aarch64-darwin</li>
+<li>perl534Packages.Gtk3SimpleList.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>10</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/199168425'>aarch64-darwin build2-0.14.0</a></tt></summary>
 <ul>
 <li>bdep.aarch64-darwin</li>
@@ -15426,23 +15480,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/199213888'>aarch64-darwin perl5.34.1-Gtk3-0.037</a></tt></summary>
-<ul>
-<li>gtk-pipe-viewer.aarch64-darwin</li>
-<li>gtk-pipe-viewer.x86_64-darwin</li>
-<li>perl534Packages.GooCanvas2.aarch64-darwin</li>
-<li>perl534Packages.GooCanvas2.x86_64-darwin</li>
-<li>perl534Packages.GooCanvas2CairoTypes.aarch64-darwin</li>
-<li>perl534Packages.GooCanvas2CairoTypes.x86_64-darwin</li>
-<li>perl534Packages.Gtk3SimpleList.aarch64-darwin</li>
-<li>perl534Packages.Gtk3SimpleList.x86_64-darwin</li>
-</ul>
-</details>
-</td>
-<td>8</td>
-</tr>
-<tr>
-<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/200553109'>aarch64-darwin neko-2.3.0</a></tt></summary>
 <ul>
 <li>haxe.aarch64-darwin</li>
@@ -15515,6 +15552,21 @@ Built for evals:
 <li>chickenPackages_5.chicken.x86_64-darwin</li>
 <li>chickenPackages_5.egg2nix.x86_64-darwin</li>
 <li>egg2nix.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>6</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/199932478'>aarch64-darwin python2.7-scandir-1.10.0</a></tt></summary>
+<ul>
+<li>gimpPlugins.gimp.aarch64-darwin</li>
+<li>glimpse.aarch64-darwin</li>
+<li>glimpsePlugins.gimp.aarch64-darwin</li>
+<li>mongodb-3_4.aarch64-darwin</li>
+<li>mongodb.aarch64-darwin</li>
+<li>zfp.aarch64-darwin</li>
 </ul>
 </details>
 </td>
@@ -15877,18 +15929,6 @@ Built for evals:
 <li>libsForQt512.qt5.qtwebview.x86_64-darwin</li>
 <li>libsForQt512.qtwebview.x86_64-darwin</li>
 <li>qt512.qtwebview.x86_64-darwin</li>
-</ul>
-</details>
-</td>
-<td>3</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/199161530'>aarch64-darwin python2.7-scandir-1.10.0</a></tt></summary>
-<ul>
-<li>mongodb-3_4.aarch64-darwin</li>
-<li>mongodb.aarch64-darwin</li>
-<li>zfp.aarch64-darwin</li>
 </ul>
 </details>
 </td>
