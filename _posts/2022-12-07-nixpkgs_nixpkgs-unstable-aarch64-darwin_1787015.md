@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-unstable-aarch64-darwin
 ---
 # Evals report
 
-*Report built at 2022-12-07 13:09:28 UTC*
+*Report built at 2022-12-07 14:05:24 UTC*
 
 Built for evals:
 
@@ -42,7 +42,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>736 issues</summary>
+<details><summary>737 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -2380,6 +2380,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>php-opcache-8.1.13</tt> <br /> <a href='https://hydra.nixos.org/build/201070492/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/201070492/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/201070492/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/200770894'>build 200770894</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/201111256'>zinc.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>zinc-ui-0.3.5-npm-deps</tt> <br /> <a href='https://hydra.nixos.org/build/201111256/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/201111256/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/201111256/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/201110129'>build 201110129</a>
 </li>
 </ul>
 </details>
@@ -5807,7 +5821,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>131 issues</summary>
+<details><summary>129 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -6191,13 +6205,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/201111276'>metrics</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -6724,13 +6731,6 @@ Built for evals:
 <td>Queued</td>
 <th>aarch64-darwin</th>
 </tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/201111256'>zinc.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
 </table>
 </details>
 
@@ -7165,6 +7165,16 @@ Built for evals:
 </details>
 </td>
 <td>2</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/201110129'>aarch64-darwin zinc-ui-0.3.5-npm-deps</a></tt></summary>
+<ul>
+<li>zinc.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
 </tr>
 <tr>
 <td>
