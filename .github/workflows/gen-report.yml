@@ -109,8 +109,10 @@ jobs:
       id: cache
       with:
         path: data
-        key: ${{ env.project }}:${{ env.jobset }}-${{ env.eval_id }}-${{ env.unique_id }}
+        key: "${{ env.project }}:${{ env.jobset }}-eval:${{ env.eval_id }}-${{ env.unique_id }}"
         restore-keys: |
+          ${{ env.project }}:${{ env.jobset }}-eval:${{ env.eval_id }}-
+          ${{ env.project }}:${{ env.jobset }}-eval
           ${{ env.project }}:${{ env.jobset }}-${{ env.eval_id }}-
           ${{ env.project }}:${{ env.jobset }}-
 
