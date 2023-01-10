@@ -113,7 +113,6 @@ jobs:
         restore-keys: |
           ${{ env.project }}:${{ env.jobset }}-eval:${{ env.eval_id }}-
           ${{ env.project }}:${{ env.jobset }}-eval
-          ${{ env.project }}:${{ env.jobset }}-${{ env.eval_id }}-
           ${{ env.project }}:${{ env.jobset }}-
 
     # Sometimes we may want to nuke the cache, like when builds were restarted on Hydra.
