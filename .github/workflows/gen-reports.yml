@@ -36,6 +36,12 @@ jobs:
     with:
       project: nixpkgs
       jobset: nixpkgs-22.11-darwin
+  nixpkgs-haskell-updates:
+    name: python-updates
+    uses: ./.github/workflows/gen-report.yml
+    with:
+      project: nixpkgs
+      jobset: haskell-updates
   nixpkgs-python-updates:
     name: python-updates
     uses: ./.github/workflows/gen-report.yml
