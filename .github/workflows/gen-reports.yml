@@ -24,12 +24,6 @@ jobs:
     with:
       project: nixpkgs
       jobset: trunk
-  nixpkgs-nixpkgs-unstable-aarch64-darwin:
-    name: nixpkgs-unstable-aarch64-darwin
-    uses: ./.github/workflows/gen-report.yml
-    with:
-      project: nixpkgs
-      jobset: nixpkgs-unstable-aarch64-darwin
   nixpkgs-nixpkgs-22_11-darwin:
     name: nixpkgs-22.11-darwin
     uses: ./.github/workflows/gen-report.yml
