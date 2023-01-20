@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2023-01-20 22:15:50 UTC*
+*Report built at 2023-01-20 23:15:41 UTC*
 
 Built for evals:
 
@@ -24261,7 +24261,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>1743 issues</summary>
+<details><summary>1744 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -42155,6 +42155,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/206149729'>nixos.tests.pulseaudio.system.aarch64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/206139532'>nixos.tests.pulseaudio.systemFull.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -42226,7 +42232,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>1976 issues</summary>
+<details><summary>1973 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -53470,13 +53476,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/206149729'>nixos.tests.pulseaudio.system.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/206142524'>nixos.tests.pulseaudio.system.i686-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -56047,20 +56046,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/206144674'>nixpkgs.rocthrust.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/206148246'>nixpkgs.sage.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/206139105'>nixpkgs.sageWithDoc.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
