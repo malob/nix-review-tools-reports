@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:haskell-updates 1789443
+title: nixpkgs:haskell-updates 1789443 (succeeded)
 categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2023-01-20 15:06:57 UTC*
+*Report built at 2023-01-20 16:07:03 UTC*
 
 Built for evals:
 
@@ -7153,27 +7153,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/205680022'>haskellPackages.yaml2owl.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/206133478'>haskellPackages.hgdal.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 </table>
 </details>
