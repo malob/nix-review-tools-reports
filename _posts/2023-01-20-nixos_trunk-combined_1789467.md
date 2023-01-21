@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2023-01-20 23:15:41 UTC*
+*Report built at 2023-01-21 00:17:34 UTC*
 
 Built for evals:
 
@@ -1912,7 +1912,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>2236 issues</summary>
+<details><summary>2238 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -24058,6 +24058,18 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/206141558'>nixos.tests.allDrivers.herbstluftwm.x86_64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/206143048'>nixos.tests.herbstluftwm.x86_64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/206137656'>nixpkgs.blender-hip.x86_64-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -42232,7 +42244,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>1973 issues</summary>
+<details><summary>1970 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -43530,13 +43542,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/206146185'>nixos.tests.allDrivers.hedgedoc.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/206141558'>nixos.tests.allDrivers.herbstluftwm.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -49326,13 +49331,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/206146978'>nixos.tests.hedgedoc.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/206143048'>nixos.tests.herbstluftwm.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -55916,13 +55914,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/206144230'>nixpkgs.qgis.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
