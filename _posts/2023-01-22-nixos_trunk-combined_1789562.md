@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2023-01-23 02:27:18 UTC*
+*Report built at 2023-01-23 03:07:24 UTC*
 
 Built for evals:
 
@@ -25262,7 +25262,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>16724 issues</summary>
+<details><summary>16723 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -142326,13 +142326,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/206671138'>nixpkgs.zynaddsubfx.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/206672098'>tested</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
