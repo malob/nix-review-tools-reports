@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:staging-next-22.11 1789572
+title: nixpkgs:staging-next-22.11 1789572 (succeeded)
 categories: nixpkgs:staging-next-22.11
 ---
 # Evals report
 
-*Report built at 2023-01-23 16:24:09 UTC*
+*Report built at 2023-01-23 23:10:48 UTC*
 
 Built for evals:
 
@@ -23986,27 +23986,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/205705929'>tecnoballz.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/206705307'>darwin-tested</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
