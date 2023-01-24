@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2023-01-24 04:04:59 UTC*
+*Report built at 2023-01-24 05:04:25 UTC*
 
 Built for evals:
 
@@ -174,7 +174,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>61 issues</summary>
+<details><summary>63 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -272,6 +272,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>select-0.4.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/205675637/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/205675637/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/205675637/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/204563990'>build 204563990</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/206759816'>pkgsCross.ghcjs.haskellPackages.hello.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>js-unknown-ghcjs-ghc-native-bignum-9.7.20221224</tt> <br /> <a href='https://hydra.nixos.org/build/206759816/nixlog/22'>log</a>, <a href='https://hydra.nixos.org/build/206759816/nixlog/22/raw'>raw</a>, <a href='https://hydra.nixos.org/build/206759816/nixlog/22/tail'>tail</a>, <a href='https://hydra.nixos.org/build/206759813'>build 206759813</a>
 </li>
 </ul>
 </details>
@@ -602,6 +616,12 @@ Built for evals:
 </td>
 <td>Failed</td>
 </tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/206759813'>pkgsCross.ghcjs.haskellPackages.ghc.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
 </table>
 </details>
 
@@ -609,7 +629,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>31 issues</summary>
+<details><summary>33 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -879,6 +899,18 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/206759811'>pkgsCross.ghcjs.haskellPackages.ghc.aarch64-linux</a></tt>
+</td>
+<td>Output size limit exceeded</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/206759832'>pkgsCross.ghcjs.haskellPackages.hello.aarch64-linux</a></tt>
+</td>
+<td>Output size limit exceeded</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/205668037'>haskellPackages.swish.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -896,7 +928,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>218 issues</summary>
+<details><summary>214 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -2326,38 +2358,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/206759811'>pkgsCross.ghcjs.haskellPackages.ghc.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/206759813'>pkgsCross.ghcjs.haskellPackages.ghc.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/206759827'>pkgsCross.ghcjs.haskellPackages.ghc.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/206759832'>pkgsCross.ghcjs.haskellPackages.hello.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/206759816'>pkgsCross.ghcjs.haskellPackages.hello.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -2566,6 +2570,16 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/204563990'>x86_64-darwin select-0.4.0.1</a></tt></summary>
 <ul>
 <li>haskellPackages.xbattbar.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/206759813'>x86_64-darwin js-unknown-ghcjs-ghc-native-bignum-9.7.20221224</a></tt></summary>
+<ul>
+<li>pkgsCross.ghcjs.haskellPackages.hello.x86_64-darwin</li>
 </ul>
 </details>
 </td>
