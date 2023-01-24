@@ -23,9 +23,16 @@ env:
 concurrency: ${{ inputs.project }}:${{ inputs.jobset }}
 
 jobs:
+  wait-for-rm-reports:
+    name: Wait for rm-reports
+    uses: ./.github/workflows/wait-for-workflow.yml
+    with:
+      workflow-id: rm-reports.yml
+
   get-eval-info:
     name: Get eval info
     runs-on: ubuntu-latest
+    needs: wait-for-rm-reports
 
     steps:
     - name: Checkout repository

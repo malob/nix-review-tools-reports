@@ -1,0 +1,37 @@
+name: Wait for workflow
+
+on:
+  workflow_call:
+    inputs:
+      workflow-id:
+        required: true
+        type: string
+
+jobs:
+  wait-for-workflow:
+    name: Wait for ${{ inputs.workflow-id }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v6
+        with:
+          script: |
+            function sleep(s) {
+              return new Promise(resolve => setTimeout(resolve, s * 1000))
+            }
+
+            async function waitUntilWorkflowInactive(id) {
+              const runs = await github.rest.actions.listWorkflowRuns({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                workflow_id: id,
+                status: 'in_progress',
+              })
+
+              if (runs.data.total_count != 0) {
+                console.log('${{ inputs.workflow-id }} in progress, waiting 60 seconds')
+                await sleep(60)
+                await waitUntilWorkflowInactive(id)
+              }
+            }
+
+            await waitUntilWorkflowInactive('${{ inputs.workflow-id }}')
