@@ -13,13 +13,18 @@ on:
   schedule:
    - cron: '0 0 */1 * *'
 
-# Don't run until any workflows that generate reports are running.
-concurrency: rm-reports
-
 jobs:
+  wait-for-gen-reports:
+    name: Wait for gen-reports
+    uses: ./.github/workflows/wait-for-workflow.yml
+    with:
+      workflow-id: gen-reports.yml
+
   rm-reports:
     name: Remove old reports
     runs-on: ubuntu-latest
+    needs: wait-for-gen-reports
+
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
