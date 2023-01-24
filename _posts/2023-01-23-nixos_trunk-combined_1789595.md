@@ -1,10 +1,10 @@
 ---
-title: nixos:trunk-combined 1789595
+title: nixos:trunk-combined 1789595 (succeeded)
 categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2023-01-24 03:08:13 UTC*
+*Report built at 2023-01-24 05:07:36 UTC*
 
 Built for evals:
 
@@ -36382,27 +36382,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/205416288'>nixpkgs.trace-cmd.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/206744158'>nixpkgs.stellar-core.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
