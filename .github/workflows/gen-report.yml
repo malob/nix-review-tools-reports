@@ -46,7 +46,7 @@ jobs:
 
     # This steps gets the following values:
     # * eval_id: the ID of the jobset evaluation we are generating the report for.
-    # * eval-status: `sucesses` or `unfinished`.
+    # * eval-status: `sucesses` or a unique id (this is used in creating cache ids)
     - name: Get eval info
       run: |
         eval_id=$(nix run .#jobset-latest-eval-id -- $project $jobset)
@@ -57,7 +57,7 @@ jobs:
         elif [ "$eval_id" = "$success_eval_id" ]; then
           echo "eval_status=success" >> $GITHUB_ENV
         else
-          echo "eval_status=unfinished" >> $GITHUB_ENV
+          echo "eval_status=${{ github.run_id }}-${{ github.run_attempt }}" >> $GITHUB_ENV
         fi
 
     outputs:
