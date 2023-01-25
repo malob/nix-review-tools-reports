@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2023-01-25 14:05:03 UTC*
+*Report built at 2023-01-25 15:05:00 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>15 issues</summary>
+<details><summary>14 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -113,20 +113,6 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>shake-cabal-0.2.2.3</tt> <br /> <a href='https://hydra.nixos.org/build/205665745/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/205665745/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/205665745/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/205681584'>build 205681584</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/206774842'>maintained</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Cached failure</b> <tt>pg-client-0.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/206774842/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/206774842/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/206774842/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/206555559'>build 206555559</a>
 </li>
 </ul>
 </details>
@@ -988,7 +974,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>12 issues</summary>
+<details><summary>13 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -1047,6 +1033,13 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/206858802'>haskellPackages.cabal2nix-unstable.x86_64-linux</a></tt>
+</td>
+<td>Queued</td>
+<th>x86_64-linux</th>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/206774842'>maintained</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -1227,16 +1220,6 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/204563990'>x86_64-darwin select-0.4.0.1</a></tt></summary>
 <ul>
 <li>haskellPackages.xbattbar.x86_64-darwin</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/206555559'>x86_64-linux pg-client-0.1.0</a></tt></summary>
-<ul>
-<li>maintained</li>
 </ul>
 </details>
 </td>
