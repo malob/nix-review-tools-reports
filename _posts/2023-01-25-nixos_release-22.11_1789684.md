@@ -4,7 +4,7 @@ categories: nixos:release-22.11
 ---
 # Evals report
 
-*Report built at 2023-01-25 04:08:12 UTC*
+*Report built at 2023-01-25 06:09:24 UTC*
 
 Built for evals:
 
@@ -1992,7 +1992,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>905 issues</summary>
+<details><summary>904 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -5536,12 +5536,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/206771552'>nixos.tests.enlightenment.x86_64-linux</a></tt>
-</td>
-<td>Failed</td>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/206770347'>nixos.tests.firefox.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -9428,7 +9422,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>555 issues</summary>
+<details><summary>554 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -11835,12 +11829,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/206770767'>nixos.tests.pantheon.aarch64-linux</a></tt>
-</td>
-<td>Failed</td>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/206774102'>nixos.tests.pgjwt.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -13982,7 +13970,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>1147 issues</summary>
+<details><summary>1149 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -15839,6 +15827,13 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/206770347'>nixos.tests.firefox.x86_64-linux</a></tt>
+</td>
+<td>Queued</td>
+<th>x86_64-linux</th>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/206854672'>nixos.tests.hibernate-systemd-stage-1.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -16571,6 +16566,13 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/206770767'>nixos.tests.pantheon.aarch64-linux</a></tt>
+</td>
+<td>Queued</td>
+<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
