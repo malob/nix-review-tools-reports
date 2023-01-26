@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:nixpkgs-22.11-darwin 1789715
+title: nixpkgs:nixpkgs-22.11-darwin 1789715 (succeeded)
 categories: nixpkgs:nixpkgs-22.11-darwin
 ---
 # Evals report
 
-*Report built at 2023-01-26 00:10:52 UTC*
+*Report built at 2023-01-26 01:33:53 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>529 issues</summary>
+<details><summary>530 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -519,6 +519,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>select-0.4.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/206584360/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/206584360/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/206584360/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/206041863'>build 206041863</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/206908738'>haxe.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>neko-2.3.0</tt> <br /> <a href='https://hydra.nixos.org/build/206908738/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/206908738/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/206908738/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/206908759'>build 206908759</a>
 </li>
 </ul>
 </details>
@@ -9581,27 +9595,6 @@ Built for evals:
 </table>
 </details>
 
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/206908790'>metrics</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-</table>
-</details>
-
 ## Problematic dependencies
 
 <table>
@@ -9707,6 +9700,7 @@ Built for evals:
 <td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/206908759'>x86_64-darwin neko-2.3.0</a></tt></summary>
 <ul>
+<li>haxe.x86_64-darwin</li>
 <li>haxePackages.format.x86_64-darwin</li>
 <li>haxePackages.heaps.x86_64-darwin</li>
 <li>haxePackages.hlopenal.x86_64-darwin</li>
@@ -9724,7 +9718,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>14</td>
+<td>15</td>
 </tr>
 <tr>
 <td>
