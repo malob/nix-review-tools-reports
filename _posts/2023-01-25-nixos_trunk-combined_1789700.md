@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2023-01-26 11:13:17 UTC*
+*Report built at 2023-01-26 12:15:23 UTC*
 
 Built for evals:
 
@@ -20283,7 +20283,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>1440 issues</summary>
+<details><summary>1441 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -34145,6 +34145,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/206905730'>nixos.tests.iscsi-root.aarch64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/206902796'>nixos.tests.pulseaudio.system.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -34216,7 +34222,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>1621 issues</summary>
+<details><summary>1620 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -40473,13 +40479,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/206905730'>nixos.tests.iscsi-root.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
