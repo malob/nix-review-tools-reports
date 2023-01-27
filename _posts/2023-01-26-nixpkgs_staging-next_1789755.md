@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next
 ---
 # Evals report
 
-*Report built at 2023-01-27 03:09:31 UTC*
+*Report built at 2023-01-27 04:10:39 UTC*
 
 Built for evals:
 
@@ -43707,7 +43707,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>3309 issues</summary>
+<details><summary>3307 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -63807,20 +63807,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/206996282'>nmapsi4.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207000802'>nodejs-slim-19_x.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207001136'>nodejs-slim_latest.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
