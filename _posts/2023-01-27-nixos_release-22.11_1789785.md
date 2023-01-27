@@ -1,10 +1,10 @@
 ---
-title: nixos:release-22.11 1789785
+title: nixos:release-22.11 1789785 (succeeded)
 categories: nixos:release-22.11
 ---
 # Evals report
 
-*Report built at 2023-01-27 11:07:59 UTC*
+*Report built at 2023-01-27 12:06:57 UTC*
 
 Built for evals:
 
@@ -14707,27 +14707,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/207063514'>nixpkgs.virt-viewer.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207063509'>tested</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
