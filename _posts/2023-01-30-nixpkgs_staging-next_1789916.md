@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next
 ---
 # Evals report
 
-*Report built at 2023-01-30 19:15:04 UTC*
+*Report built at 2023-01-30 20:20:27 UTC*
 
 Built for evals:
 
@@ -34,7 +34,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>1452 issues</summary>
+<details><summary>1455 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -14579,6 +14579,24 @@ Built for evals:
 </td>
 <td>Output size limit exceeded</td>
 </tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207195164'>gawkextlib.select.x86_64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/206232983'>python311Packages.pymodbus.x86_64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/206317817'>shen-sbcl.x86_64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
 </table>
 </details>
 
@@ -14586,7 +14604,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>692 issues</summary>
+<details><summary>870 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -14597,6 +14615,26 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/206746778'>radicle-cli.x86_64-darwin</a></tt>
 </td>
 <td>Aborted</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207258909'>arsenal.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.10-libtmux-0.18.1</tt> <br /> <a href='https://hydra.nixos.org/build/207258909/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/207258909/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207258909/nixlog/3/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207218245'>build 207218245</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.10-libtmux-0.18.1</tt> <br /> <a href='https://hydra.nixos.org/build/207218245'>build 207218245</a>
+</li>
+<li>
+<b>=> Cached failure</b> <tt>python3.10-libtmux-0.18.1</tt> <br /> <a href='https://hydra.nixos.org/build/207218245'>build 207218245</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
 </tr>
 <tr>
 <td>
@@ -14640,6 +14678,23 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>python3.10-pygls-1.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/207183023/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/207183023/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207183023/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207218571'>build 207218571</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207252323'>coccinelle.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>ocaml4.14.0-pyml-20220905</tt> <br /> <a href='https://hydra.nixos.org/build/207252323/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/207252323/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207252323/nixlog/2/tail'>tail</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>ocaml4.14.0-pyml-20220905</tt> <br /> <a href='https://hydra.nixos.org/build/207223223'>build 207223223</a>
 </li>
 </ul>
 </details>
@@ -14705,6 +14760,29 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>python3.10-pyshark-0.5.3</tt> <br /> <a href='https://hydra.nixos.org/build/207194608/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/207194608/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207194608/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/206749433'>build 206749433</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207223223'>cvehound.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>ocaml4.14.0-pyml-20220905</tt> <br /> <a href='https://hydra.nixos.org/build/207223223/nixlog/7'>log</a>, <a href='https://hydra.nixos.org/build/207223223/nixlog/7/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207223223/nixlog/7/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207252323'>build 207252323</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>ocaml4.14.0-pyml-20220905</tt> <br /> 
+</li>
+<li>
+<b>=> Aborted</b> <tt>ocaml4.14.0-pyml-20220905</tt> <br /> 
+</li>
+<li>
+<b>=> Aborted</b> <tt>ocaml4.14.0-stdcompat-19</tt> <br /> <a href='https://hydra.nixos.org/build/207223223/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/207223223/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207223223/nixlog/2/tail'>tail</a>
 </li>
 </ul>
 </details>
@@ -15069,6 +15147,63 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/207203503'>haskellPackages.H.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>inline-r-1.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/207203503/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/207203503/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207203503/nixlog/3/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207246207'>build 207246207</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>inline-r-1.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/207246207'>build 207246207</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>inline-r-1.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/207246207'>build 207246207</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207219807'>haskellPackages.fastparser.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>thyme-0.3.5.5</tt> <br /> <a href='https://hydra.nixos.org/build/207219807/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/207219807/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207219807/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207219111'>build 207219111</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>thyme-0.3.5.5</tt> <br /> <a href='https://hydra.nixos.org/build/207219111'>build 207219111</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207258387'>haskellPackages.ihaskell-inline-r.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>inline-r-1.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/207258387/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/207258387/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207258387/nixlog/3/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207246207'>build 207246207</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>inline-r-1.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/207246207'>build 207246207</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>inline-r-1.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/207246207'>build 207246207</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/207237993'>haskellPackages.network-dns.x86_64-darwin</a></tt>
 </summary>
 <ul>
@@ -15111,6 +15246,23 @@ Built for evals:
 </li>
 <li>
 <b>=> Cached failure</b> <tt>jellyfin-web-10.8.9</tt> <br /> <a href='https://hydra.nixos.org/build/206803683'>build 206803683</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207250401'>libsForQt5.qoauth.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>qca-qt5-2.3.5</tt> <br /> <a href='https://hydra.nixos.org/build/207250401/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/207250401/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207250401/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207233203'>build 207233203</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>qca-qt5-2.3.5</tt> <br /> <a href='https://hydra.nixos.org/build/207259983'>build 207259983</a>
 </li>
 </ul>
 </details>
@@ -15238,6 +15390,44 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/207204217'>nixops_unstable.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.10-libvirt-python-8.10.0</tt> <br /> <a href='https://hydra.nixos.org/build/207204217/nixlog/29'>log</a>, <a href='https://hydra.nixos.org/build/207204217/nixlog/29/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207204217/nixlog/29/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>python3.10-scikit-build-0.16.4</tt> <br /> <a href='https://hydra.nixos.org/build/207204217/nixlog/20'>log</a>, <a href='https://hydra.nixos.org/build/207204217/nixlog/20/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207204217/nixlog/20/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>python3.10-setuptools-scm-7.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/207204217/nixlog/19'>log</a>, <a href='https://hydra.nixos.org/build/207204217/nixlog/19/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207204217/nixlog/19/tail'>tail</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.10-libvirt-python-8.10.0</tt> <br /> 
+</li>
+<li>
+<b>=> Aborted</b> <tt>python3.10-distro-1.8.0</tt> <br /> <a href='https://hydra.nixos.org/build/207204217/nixlog/6'>log</a>, <a href='https://hydra.nixos.org/build/207204217/nixlog/6/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207204217/nixlog/6/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>python3.10-requests-2.28.1</tt> <br /> <a href='https://hydra.nixos.org/build/207204217/nixlog/5'>log</a>, <a href='https://hydra.nixos.org/build/207204217/nixlog/5/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207204217/nixlog/5/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>python3.10-pyparsing-3.0.9</tt> <br /> <a href='https://hydra.nixos.org/build/207204217/nixlog/4'>log</a>, <a href='https://hydra.nixos.org/build/207204217/nixlog/4/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207204217/nixlog/4/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>python3.10-tomli-2.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/207204217/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/207204217/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207204217/nixlog/3/tail'>tail</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.10-libvirt-python-8.10.0</tt> <br /> 
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/207339114'>octaveFull.x86_64-darwin</a></tt>
 </summary>
 <ul>
@@ -15274,6 +15464,100 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>qscintilla-qt5-2.13.2</tt> <br /> <a href='https://hydra.nixos.org/build/207209251/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/207209251/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207209251/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207223736'>build 207223736</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207223144'>owncloud-client.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>qtkeychain-0.12.0</tt> <br /> <a href='https://hydra.nixos.org/build/207223144/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/207223144/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207223144/nixlog/3/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207198780'>build 207198780</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>qtkeychain-0.12.0</tt> <br /> <a href='https://hydra.nixos.org/build/207198780'>build 207198780</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>qtkeychain-0.12.0</tt> <br /> <a href='https://hydra.nixos.org/build/207232404'>build 207232404</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207243145'>passage.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>age-1.1.1</tt> <br /> <a href='https://hydra.nixos.org/build/207243145/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/207243145/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207243145/nixlog/3/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207205182'>build 207205182</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>age-1.1.1</tt> <br /> <a href='https://hydra.nixos.org/build/207205182'>build 207205182</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>age-1.1.1</tt> <br /> <a href='https://hydra.nixos.org/build/207205182'>build 207205182</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207242843'>plasma5Packages.qoauth.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>qca-qt5-2.3.5</tt> <br /> <a href='https://hydra.nixos.org/build/207242843/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/207242843/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207242843/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207233203'>build 207233203</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>qca-qt5-2.3.5</tt> <br /> <a href='https://hydra.nixos.org/build/207259983'>build 207259983</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207224584'>pyocd.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>cmsis-pack-manager-0.5.1-native</tt> <br /> <a href='https://hydra.nixos.org/build/207224584/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/207224584/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207224584/nixlog/3/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207245488'>build 207245488</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>cmsis-pack-manager-0.5.1-native</tt> <br /> <a href='https://hydra.nixos.org/build/207227386'>build 207227386</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>cmsis-pack-manager-0.5.1-native</tt> <br /> <a href='https://hydra.nixos.org/build/207208142'>build 207208142</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207211506'>python310Packages.ansible-kernel.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.10-ansible-runner-2.3.1</tt> <br /> <a href='https://hydra.nixos.org/build/207211506/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/207211506/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207211506/nixlog/3/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207211526'>build 207211526</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.10-ansible-runner-2.3.1</tt> <br /> <a href='https://hydra.nixos.org/build/207211526'>build 207211526</a>
 </li>
 </ul>
 </details>
@@ -15328,6 +15612,37 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/207231378'>python310Packages.bokeh.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.10-xyzservices-2022.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/207231378/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/207231378/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207231378/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207233386'>build 207233386</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207210849'>python310Packages.canopen.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.10-can-4.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/207210849/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/207210849/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207210849/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207231464'>build 207231464</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.10-can-4.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/207231464'>build 207231464</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/207254904'>python310Packages.chalice.x86_64-darwin</a></tt>
 </summary>
 <ul>
@@ -15353,6 +15668,46 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>python3.10-clvm-tools-rs-0.1.25</tt> <br /> <a href='https://hydra.nixos.org/build/206206846/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/206206846/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/206206846/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/206193986'>build 206193986</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207208142'>python310Packages.cmsis-pack-manager.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>cmsis-pack-manager-0.5.1-native</tt> <br /> <a href='https://hydra.nixos.org/build/207208142/nixlog/85'>log</a>, <a href='https://hydra.nixos.org/build/207208142/nixlog/85/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207208142/nixlog/85/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207245488'>build 207245488</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>cmsis-pack-manager-0.5.1-native</tt> <br /> <a href='https://hydra.nixos.org/build/207227386'>build 207227386</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>cmsis-pack-manager-0.5.1-native</tt> <br /> 
+</li>
+<li>
+<b>=> Aborted</b> <tt>tokio-sync-0.1.8</tt> <br /> <a href='https://hydra.nixos.org/build/207208142/nixlog/53'>log</a>, <a href='https://hydra.nixos.org/build/207208142/nixlog/53/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207208142/nixlog/53/tail'>tail</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207332850'>python310Packages.datashader.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.10-xyzservices-2022.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/207332850/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/207332850/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207332850/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207233386'>build 207233386</a>
+</li>
+<li>
+<b>=> Cached failure</b> <tt>python3.10-xyzservices-2022.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/207233386'>build 207233386</a>
 </li>
 </ul>
 </details>
@@ -15429,6 +15784,68 @@ Built for evals:
 </li>
 <li>
 <b>=> Cached failure</b> <tt>python3.10-coincurve-18.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/206331579'>build 206331579</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207335484'>python310Packages.folium.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.10-xyzservices-2022.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/207335484/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/207335484/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207335484/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207233386'>build 207233386</a>
+</li>
+<li>
+<b>=> Cached failure</b> <tt>python3.10-xyzservices-2022.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/207233386'>build 207233386</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207197385'>python310Packages.holoviews.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.10-xyzservices-2022.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/207197385/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/207197385/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207197385/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207233386'>build 207233386</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207202416'>python310Packages.hvplot.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.10-xyzservices-2022.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/207202416/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/207202416/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207202416/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207233386'>build 207233386</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207276326'>python310Packages.hyppo.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.10-seaborn-0.12.1</tt> <br /> <a href='https://hydra.nixos.org/build/207276326/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/207276326/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207276326/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207259515'>build 207259515</a>
+</li>
+<li>
+<b>=> Cached failure</b> <tt>python3.10-seaborn-0.12.1</tt> <br /> <a href='https://hydra.nixos.org/build/207259515'>build 207259515</a>
 </li>
 </ul>
 </details>
@@ -15562,6 +15979,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/207211386'>python310Packages.livelossplot.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.10-xyzservices-2022.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/207211386/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/207211386/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207211386/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207233386'>build 207233386</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/207205851'>python310Packages.mitmproxy.x86_64-darwin</a></tt>
 </summary>
 <ul>
@@ -15581,6 +16012,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>python3.10-jupyter-server-mathjax-0.2.6</tt> <br /> <a href='https://hydra.nixos.org/build/207181258/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/207181258/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207181258/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207178910'>build 207178910</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207216443'>python310Packages.nbsmoke.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.10-xyzservices-2022.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/207216443/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/207216443/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207216443/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207233386'>build 207233386</a>
 </li>
 </ul>
 </details>
@@ -15638,6 +16083,83 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/207336968'>python310Packages.osmnx.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.10-xyzservices-2022.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/207336968/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/207336968/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207336968/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207233386'>build 207233386</a>
+</li>
+<li>
+<b>=> Cached failure</b> <tt>python3.10-xyzservices-2022.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/207233386'>build 207233386</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207233723'>python310Packages.panel.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.10-xyzservices-2022.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/207233723/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/207233723/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207233723/nixlog/3/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207233386'>build 207233386</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.10-xyzservices-2022.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/207233386'>build 207233386</a>
+</li>
+<li>
+<b>=> Cached failure</b> <tt>python3.10-xyzservices-2022.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/207233386'>build 207233386</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207252309'>python310Packages.pycm.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.10-seaborn-0.12.1</tt> <br /> <a href='https://hydra.nixos.org/build/207252309/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/207252309/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207252309/nixlog/3/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207259515'>build 207259515</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.10-seaborn-0.12.1</tt> <br /> <a href='https://hydra.nixos.org/build/207259515'>build 207259515</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.10-seaborn-0.12.1</tt> <br /> <a href='https://hydra.nixos.org/build/207259515'>build 207259515</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207206152'>python310Packages.pyocd.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>cmsis-pack-manager-0.5.1-native</tt> <br /> <a href='https://hydra.nixos.org/build/207206152/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/207206152/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207206152/nixlog/3/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207245488'>build 207245488</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>cmsis-pack-manager-0.5.1-native</tt> <br /> <a href='https://hydra.nixos.org/build/207227386'>build 207227386</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>cmsis-pack-manager-0.5.1-native</tt> <br /> <a href='https://hydra.nixos.org/build/207208142'>build 207208142</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/207248843'>python310Packages.pyscf.x86_64-darwin</a></tt>
 </summary>
 <ul>
@@ -15663,6 +16185,23 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>playwright-browsers-base</tt> <br /> <a href='https://hydra.nixos.org/build/206241781/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/206241781/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/206241781/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/205091131'>build 205091131</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207275494'>python310Packages.pytorch-lightning.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.10-tensorboardx-2.5.1</tt> <br /> <a href='https://hydra.nixos.org/build/207275494/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/207275494/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207275494/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207212471'>build 207212471</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.10-tensorboardx-2.5.1</tt> <br /> <a href='https://hydra.nixos.org/build/207212471'>build 207212471</a>
 </li>
 </ul>
 </details>
@@ -15752,6 +16291,23 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/207276564'>python310Packages.spacy-loggers.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.10-xyzservices-2022.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/207276564/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/207276564/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207276564/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207233386'>build 207233386</a>
+</li>
+<li>
+<b>=> Cached failure</b> <tt>python3.10-xyzservices-2022.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/207233386'>build 207233386</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/207339582'>python310Packages.spacy-transformers.x86_64-darwin</a></tt>
 </summary>
 <ul>
@@ -15823,6 +16379,23 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/207243580'>python310Packages.trainer.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.10-tensorboardx-2.5.1</tt> <br /> <a href='https://hydra.nixos.org/build/207243580/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/207243580/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207243580/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207212471'>build 207212471</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.10-tensorboardx-2.5.1</tt> <br /> <a href='https://hydra.nixos.org/build/207212471'>build 207212471</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/206301365'>python310Packages.translatepy.x86_64-darwin</a></tt>
 </summary>
 <ul>
@@ -15842,6 +16415,43 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>bazel-build-jaxlib-0.3.22</tt> <br /> <a href='https://hydra.nixos.org/build/206192226/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/206192226/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/206192226/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/206217089'>build 206217089</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207206446'>python310Packages.validphys2.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.10-seaborn-0.12.1</tt> <br /> <a href='https://hydra.nixos.org/build/207206446/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/207206446/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207206446/nixlog/3/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207259515'>build 207259515</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.10-seaborn-0.12.1</tt> <br /> <a href='https://hydra.nixos.org/build/207259515'>build 207259515</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.10-seaborn-0.12.1</tt> <br /> <a href='https://hydra.nixos.org/build/207259515'>build 207259515</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207279118'>python310Packages.wandb.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.10-xyzservices-2022.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/207279118/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/207279118/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207279118/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207233386'>build 207233386</a>
+</li>
+<li>
+<b>=> Cached failure</b> <tt>python3.10-xyzservices-2022.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/207233386'>build 207233386</a>
 </li>
 </ul>
 </details>
@@ -16099,6 +16709,40 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>python3.11-fastapi-0.88.0</tt> <br /> <a href='https://hydra.nixos.org/build/207178564/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/207178564/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207178564/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207243969'>build 207243969</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207260231'>python311Packages.astroquery.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.11-pyvo-1.4</tt> <br /> <a href='https://hydra.nixos.org/build/207260231/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/207260231/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207260231/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207215560'>build 207215560</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-pyvo-1.4</tt> <br /> <a href='https://hydra.nixos.org/build/207215560'>build 207215560</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207243447'>python311Packages.asyncwhois.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.11-whodap-0.1.7</tt> <br /> <a href='https://hydra.nixos.org/build/207243447/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/207243447/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207243447/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207233017'>build 207233017</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-whodap-0.1.7</tt> <br /> <a href='https://hydra.nixos.org/build/207233017'>build 207233017</a>
 </li>
 </ul>
 </details>
@@ -16498,6 +17142,26 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>python3.11-clvm-tools-rs-0.1.25</tt> <br /> <a href='https://hydra.nixos.org/build/206268530/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/206268530/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/206268530/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/206256122'>build 206256122</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207245488'>python311Packages.cmsis-pack-manager.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>cmsis-pack-manager-0.5.1-native</tt> <br /> <a href='https://hydra.nixos.org/build/207245488/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/207245488/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207245488/nixlog/3/tail'>tail</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>cmsis-pack-manager-0.5.1-native</tt> <br /> <a href='https://hydra.nixos.org/build/207227386'>build 207227386</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>cmsis-pack-manager-0.5.1-native</tt> <br /> <a href='https://hydra.nixos.org/build/207208142'>build 207208142</a>
 </li>
 </ul>
 </details>
@@ -17203,6 +17867,46 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/207222734'>python311Packages.gradient.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.11-datadog-0.44.0</tt> <br /> <a href='https://hydra.nixos.org/build/207222734/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/207222734/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207222734/nixlog/3/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207205661'>build 207205661</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-datadog-0.44.0</tt> <br /> <a href='https://hydra.nixos.org/build/207205661'>build 207205661</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-datadog-0.44.0</tt> <br /> <a href='https://hydra.nixos.org/build/207205661'>build 207205661</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207204631'>python311Packages.gradient_statsd.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.11-datadog-0.44.0</tt> <br /> <a href='https://hydra.nixos.org/build/207204631/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/207204631/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207204631/nixlog/3/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207205661'>build 207205661</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-datadog-0.44.0</tt> <br /> <a href='https://hydra.nixos.org/build/207205661'>build 207205661</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-datadog-0.44.0</tt> <br /> <a href='https://hydra.nixos.org/build/207205661'>build 207205661</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/207259881'>python311Packages.hexbytes.x86_64-darwin</a></tt>
 </summary>
 <ul>
@@ -17459,6 +18163,26 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/207195191'>python311Packages.jedi-language-server.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.11-pygls-1.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/207195191/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/207195191/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207195191/nixlog/3/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207219116'>build 207219116</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-pygls-1.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/207219116'>build 207219116</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-pygls-1.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/207219116'>build 207219116</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/206307552'>python311Packages.jinja2_pluralize.x86_64-darwin</a></tt>
 </summary>
 <ul>
@@ -17492,6 +18216,26 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>python3.11-typish-1.9.3</tt> <br /> <a href='https://hydra.nixos.org/build/206183981/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/206183981/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/206183981/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/206224452'>build 206224452</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207202815'>python311Packages.jupyterlab-git.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.11-jupyter-server-mathjax-0.2.6</tt> <br /> <a href='https://hydra.nixos.org/build/207202815/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/207202815/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207202815/nixlog/3/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207237997'>build 207237997</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-jupyter-server-mathjax-0.2.6</tt> <br /> <a href='https://hydra.nixos.org/build/207237997'>build 207237997</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-jupyter-server-mathjax-0.2.6</tt> <br /> <a href='https://hydra.nixos.org/build/207237997'>build 207237997</a>
 </li>
 </ul>
 </details>
@@ -17729,6 +18473,26 @@ Built for evals:
 </li>
 <li>
 <b>=> Timed out</b> <tt>apple-framework-SecurityFoundation-11.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/207230455/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/207230455/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207230455/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207173988'>build 207173988</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207230441'>python311Packages.nbdime.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.11-jupyter-server-mathjax-0.2.6</tt> <br /> <a href='https://hydra.nixos.org/build/207230441/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/207230441/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207230441/nixlog/3/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207237997'>build 207237997</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-jupyter-server-mathjax-0.2.6</tt> <br /> <a href='https://hydra.nixos.org/build/207237997'>build 207237997</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-jupyter-server-mathjax-0.2.6</tt> <br /> <a href='https://hydra.nixos.org/build/207237997'>build 207237997</a>
 </li>
 </ul>
 </details>
@@ -18231,6 +18995,46 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/207207343'>python311Packages.pygame-gui.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.11-pygame-2.1.2</tt> <br /> <a href='https://hydra.nixos.org/build/207207343/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/207207343/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207207343/nixlog/3/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207254743'>build 207254743</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-pygame-2.1.2</tt> <br /> <a href='https://hydra.nixos.org/build/207254743'>build 207254743</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-pygame-2.1.2</tt> <br /> <a href='https://hydra.nixos.org/build/207254743'>build 207254743</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207240901'>python311Packages.pygetwindow.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.11-pygame-2.1.2</tt> <br /> <a href='https://hydra.nixos.org/build/207240901/nixlog/4'>log</a>, <a href='https://hydra.nixos.org/build/207240901/nixlog/4/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207240901/nixlog/4/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207254743'>build 207254743</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-pygame-2.1.2</tt> <br /> <a href='https://hydra.nixos.org/build/207254743'>build 207254743</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-pygame-2.1.2</tt> <br /> <a href='https://hydra.nixos.org/build/207254743'>build 207254743</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/206266169'>python311Packages.pygogo.x86_64-darwin</a></tt>
 </summary>
 <ul>
@@ -18304,6 +19108,26 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/207227386'>python311Packages.pyocd.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>cmsis-pack-manager-0.5.1-native</tt> <br /> <a href='https://hydra.nixos.org/build/207227386/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/207227386/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207227386/nixlog/3/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207245488'>build 207245488</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>cmsis-pack-manager-0.5.1-native</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>cmsis-pack-manager-0.5.1-native</tt> <br /> <a href='https://hydra.nixos.org/build/207208142'>build 207208142</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/206751132'>python311Packages.pypugjs.x86_64-darwin</a></tt>
 </summary>
 <ul>
@@ -18351,6 +19175,26 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>python3.11-pyramid-2.0</tt> <br /> <a href='https://hydra.nixos.org/build/206749032/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/206749032/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/206749032/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/206755314'>build 206755314</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207199305'>python311Packages.pyrect.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.11-pygame-2.1.2</tt> <br /> <a href='https://hydra.nixos.org/build/207199305/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/207199305/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207199305/nixlog/3/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207254743'>build 207254743</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-pygame-2.1.2</tt> <br /> <a href='https://hydra.nixos.org/build/207254743'>build 207254743</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-pygame-2.1.2</tt> <br /> <a href='https://hydra.nixos.org/build/207254743'>build 207254743</a>
 </li>
 </ul>
 </details>
@@ -19215,6 +20059,43 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/207244956'>quasselDaemon.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>qca-qt5-2.3.5</tt> <br /> <a href='https://hydra.nixos.org/build/207244956/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/207244956/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207244956/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207233203'>build 207233203</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>qca-qt5-2.3.5</tt> <br /> <a href='https://hydra.nixos.org/build/207259983'>build 207259983</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207233659'>quaternion.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>qtkeychain-0.12.0</tt> <br /> <a href='https://hydra.nixos.org/build/207233659/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/207233659/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207233659/nixlog/3/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207198780'>build 207198780</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>qtkeychain-0.12.0</tt> <br /> <a href='https://hydra.nixos.org/build/207198780'>build 207198780</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>qtkeychain-0.12.0</tt> <br /> <a href='https://hydra.nixos.org/build/207232404'>build 207232404</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/206217985'>shibboleth-sp.x86_64-darwin</a></tt>
 </summary>
 <ul>
@@ -19263,11 +20144,77 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/207200459'>stdenvBootstrapTools.aarch64-darwin.dist</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3-aarch64-apple-darwin-3.10.9</tt> <br /> <a href='https://hydra.nixos.org/build/207200459/nixlog/9'>log</a>, <a href='https://hydra.nixos.org/build/207200459/nixlog/9/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207200459/nixlog/9/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>python3-aarch64-apple-darwin-3.10.9</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>python3-aarch64-apple-darwin-3.10.9</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>python3-aarch64-apple-darwin-3.10.9</tt> <br /> 
+</li>
+<li>
+<b>=> Aborted</b> <tt>python3-aarch64-apple-darwin-3.10.9</tt> <br /> 
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207202289'>tmuxp.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.10-libtmux-0.18.1</tt> <br /> <a href='https://hydra.nixos.org/build/207202289/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/207202289/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207202289/nixlog/3/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207218245'>build 207218245</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.10-libtmux-0.18.1</tt> <br /> <a href='https://hydra.nixos.org/build/207218245'>build 207218245</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.10-libtmux-0.18.1</tt> <br /> <a href='https://hydra.nixos.org/build/207218245'>build 207218245</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/206209110'>translatepy.x86_64-darwin</a></tt>
 </summary>
 <ul>
 <li>
 <b>=> Failed</b> <tt>python3.10-readchar-4.0.3</tt> <br /> <a href='https://hydra.nixos.org/build/206209110/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/206209110/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/206209110/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/206343974'>build 206343974</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207212469'>validphys2.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.10-seaborn-0.12.1</tt> <br /> <a href='https://hydra.nixos.org/build/207212469/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/207212469/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207212469/nixlog/3/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207259515'>build 207259515</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.10-seaborn-0.12.1</tt> <br /> <a href='https://hydra.nixos.org/build/207259515'>build 207259515</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.10-seaborn-0.12.1</tt> <br /> <a href='https://hydra.nixos.org/build/207259515'>build 207259515</a>
 </li>
 </ul>
 </details>
@@ -19356,13 +20303,55 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207205182'>age.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207232862'>arrayfire.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207218782'>auctex.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207185761'>beancount-black.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207195182'>bitcoin.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/206193348'>bs-platform.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207227043'>calico-cni-plugin.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207223333'>calico-pod2daemon.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207206461'>calico-typha.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -19386,13 +20375,31 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207212824'>checkov.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207195412'>clickable.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207232365'>cobra-cli.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/206249391'>coercer.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207242535'>communi.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -19422,7 +20429,19 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207232121'>docker-machine-xhyve.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207176285'>dogecoin.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207220875'>dwarf-fortress-packages.dwarf-therapist-original.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -19524,7 +20543,19 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207237388'>gotop.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207185480'>groestlcoin.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207230423'>guardian-agent.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -19548,6 +20579,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207201732'>haskellPackages.epub-tools.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/206290954'>haskellPackages.float128.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -19560,7 +20597,61 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207229693'>haskellPackages.gerrit.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207231642'>haskellPackages.gi-gdkx11.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207220175'>haskellPackages.gi-gtkosxapplication.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207237288'>haskellPackages.gtk-mac-integration.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207199458'>haskellPackages.gtk-traymanager.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207213108'>haskellPackages.gtk3-mac-integration.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207210745'>haskellPackages.h-raylib.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/206284940'>haskellPackages.hamid.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207209027'>haskellPackages.hinotify-conduit.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207202172'>haskellPackages.hmatrix-morpheus.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -19584,6 +20675,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207212991'>haskellPackages.http-client-overrides.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/206322411'>haskellPackages.huckleberry.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -19597,6 +20694,30 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/207189824'>haskellPackages.inline-asm.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207246207'>haskellPackages.inline-r.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207240099'>haskellPackages.interprocess.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207223788'>haskellPackages.intricacy.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207220584'>haskellPackages.ipcvar.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -19620,6 +20741,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207217321'>haskellPackages.memfd.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/206311974'>haskellPackages.openal-ffi.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -19627,6 +20754,24 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/207194744'>haskellPackages.persistent-pagination.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207222617'>haskellPackages.phatsort.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207241489'>haskellPackages.ping-wrapper.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207209703'>haskellPackages.pipes-zlib.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -19674,6 +20819,18 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207216470'>haskellPackages.tailfile-hinotify.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207219111'>haskellPackages.thyme.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/206324937'>haskellPackages.xmonad-utils.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -19710,13 +20867,43 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207213922'>idrisPackages.eternal.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207201721'>idrisPackages.pacman.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/206336311'>inputplug.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207218718'>ioccheck.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/206803683'>jellyfin-web.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207225333'>keepassxc.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207218115'>keybase.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -19734,7 +20921,25 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207221733'>libportal-qt5.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/206998069'>librepo.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207249691'>libsForQt5.liblastfm.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207233203'>libsForQt5.qca-qt5.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -19747,6 +20952,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/207217783'>libsForQt5.qtinstaller.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207232404'>libsForQt5.qtkeychain.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -19854,13 +21065,31 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207227107'>metricbeat7.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/206283287'>minixml.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207215674'>mkvtoolnix-cli.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/206268136'>mx-puppet-discord.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207196112'>neovide.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -19884,7 +21113,19 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207231472'>open-policy-agent.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/206187824'>perl534Packages.BoostGeometryUtils.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207233859'>perl534Packages.ImageSane.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -19914,6 +21155,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207235018'>perl536Packages.ImageSane.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/206274224'>perl536Packages.MathCalcParser.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -19932,6 +21179,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207226755'>persepolis.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/206272752'>pgpool.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -19944,6 +21197,18 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207228624'>plasma5Packages.liblastfm.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207259983'>plasma5Packages.qca-qt5.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207258253'>plasma5Packages.qscintilla.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -19951,6 +21216,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/207184858'>plasma5Packages.qtinstaller.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207198780'>plasma5Packages.qtkeychain.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -19980,6 +21251,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207211526'>python310Packages.ansible-runner.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/206253123'>python310Packages.approvaltests.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -19987,6 +21264,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/207210217'>python310Packages.beancount-black.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207231464'>python310Packages.can.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -20100,6 +21383,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207209578'>python310Packages.ipydatawidgets.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207178910'>python310Packages.jupyter-server-mathjax.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -20113,6 +21402,18 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/206994301'>python310Packages.librepo.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207199677'>python310Packages.libsixel.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207218245'>python310Packages.libtmux.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -20226,7 +21527,19 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207218070'>python310Packages.raincloudy.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/206343974'>python310Packages.readchar.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207239231'>python310Packages.reolink-aio.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -20238,7 +21551,25 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207211548'>python310Packages.retworkx.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207228528'>python310Packages.sagemaker.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/206176905'>python310Packages.scim2-filter-parser.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207259515'>python310Packages.seaborn.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -20262,7 +21593,19 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207212471'>python310Packages.tensorboardx.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207186845'>python310Packages.thinc.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207233439'>python310Packages.tikzplotlib.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -20281,6 +21624,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/207180212'>python310Packages.wordfreq.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207233386'>python310Packages.xyzservices.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -20340,6 +21689,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207228713'>python311Packages.alpha-vantage.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/206299838'>python311Packages.amaranth.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -20353,6 +21708,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/207184163'>python311Packages.apptools.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207228088'>python311Packages.aprslib.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -20413,6 +21774,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/206688863'>python311Packages.breezy.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207221580'>python311Packages.canopen.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -20484,6 +21851,18 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207222941'>python311Packages.coinmetrics-api-client.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207218733'>python311Packages.collections-extended.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/206276461'>python311Packages.conda.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -20508,6 +21887,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207228523'>python311Packages.cot.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/206318226'>python311Packages.crownstone-cloud.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -20521,6 +21906,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/206243184'>python311Packages.dash.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207205661'>python311Packages.datadog.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -20652,6 +22043,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207238443'>python311Packages.gensim.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/206284485'>python311Packages.gentools.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -20689,6 +22086,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/206266764'>python311Packages.guppy3.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207241019'>python311Packages.hangups.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -20742,7 +22145,25 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207224607'>python311Packages.intellifire4py.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207229425'>python311Packages.ismartgate.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207241552'>python311Packages.junos-eznc.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207237997'>python311Packages.jupyter-server-mathjax.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -20773,6 +22194,18 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/206998049'>python311Packages.librepo.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207216129'>python311Packages.libsixel.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207226340'>python311Packages.libtmux.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -20868,6 +22301,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207230244'>python311Packages.nitime.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/206240540'>python311Packages.nose-randomly.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -20911,6 +22350,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/206183945'>python311Packages.paste.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207235898'>python311Packages.pathy.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -20982,6 +22427,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207206366'>python311Packages.pycfmodel.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/206227149'>python311Packages.pyct.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -21030,6 +22481,18 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207254743'>python311Packages.pygame.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207219116'>python311Packages.pygls.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/206165889'>python311Packages.pyhaversion.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -21055,6 +22518,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/206228024'>python311Packages.pylibjpeg-libjpeg.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207227616'>python311Packages.pymedio.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -21174,7 +22643,19 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207215560'>python311Packages.pyvo.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/206304797'>python311Packages.pyvoro.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207208906'>python311Packages.quamash.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -21187,6 +22668,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/206315476'>python311Packages.radios.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207232982'>python311Packages.raincloudy.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -21210,7 +22697,19 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207201501'>python311Packages.reolink-aio.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/206307669'>python311Packages.repoze_sphinx_autointerface.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207237207'>python311Packages.retworkx.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -21223,6 +22722,18 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/207183465'>python311Packages.rivet.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207207988'>python311Packages.sagemaker.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207216770'>python311Packages.samplerate.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -21271,6 +22782,18 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/206217200'>python311Packages.snapcast.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207228288'>python311Packages.softlayer.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207199770'>python311Packages.sphinx-automodapi.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -21330,6 +22853,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207224981'>python311Packages.tikzplotlib.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/206189288'>python311Packages.timelib.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -21361,6 +22890,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/206169153'>python311Packages.unittest-xml-reporting.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207241212'>python311Packages.validobj.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -21402,7 +22937,25 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207233017'>python311Packages.whodap.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207202202'>python311Packages.withings-api.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/206301053'>python311Packages.wordcloud.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207233529'>python311Packages.wordfreq.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -21444,6 +22997,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207230742'>python311Packages.yalexs.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/206238119'>python311Packages.zeek.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -21468,7 +23027,25 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207230854'>qownnotes.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207189794'>qscintilla.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207213845'>quakespasm.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207210138'>ratman.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -21558,6 +23135,18 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207214247'>skeema.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207229016'>slint-lsp.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/206173193'>snapraid.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -21565,6 +23154,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/206330062'>snarkos.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207221691'>snd.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -21588,6 +23183,24 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207197557'>synergy.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207227642'>synergyWithoutGUI.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207217769'>threatest.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/206293593'>tickrs.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -21600,6 +23213,18 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207237640'>topydo.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207202481'>tracy.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/206997413'>trashy.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -21607,6 +23232,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/206213994'>trealla.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207215660'>ttfautohint.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -21678,9 +23309,75 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207206484'>qmk.x86_64-darwin</a></tt>
+</td>
+<td>Log limit exceeded</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/206243488'>micropython.x86_64-darwin</a></tt>
 </td>
 <td>Output size limit exceeded</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/206228079'>agg.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/206332385'>dgen-sdl.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/206235890'>gawkextlib.select.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207224348'>lite-xl.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207179709'>powermanga.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/206266880'>python310Packages.pybrowserid.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/206277273'>python310Packages.pyfxa.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/206704517'>python311Packages.django-redis.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/206284632'>python311Packages.maxcube-api.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/206341440'>python311Packages.nvchecker.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
 </tr>
 <tr>
 <td>
@@ -21694,6 +23391,30 @@ Built for evals:
 </td>
 <td>Timed out</td>
 </tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/206281987'>sbcl_2_1_10.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/206271713'>sbcl_2_1_11.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/206211071'>sbcl_2_2_4.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/206337049'>shen-sbcl.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
 </table>
 </details>
 
@@ -21701,7 +23422,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>1110 issues</summary>
+<details><summary>1114 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -32957,6 +34678,30 @@ Built for evals:
 </td>
 <td>Output size limit exceeded</td>
 </tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207239274'>gawkextlib.select.aarch64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/206256288'>oatpp.aarch64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/206303837'>python311Packages.pymodbus.aarch64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/206294814'>shen-sbcl.aarch64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
 </table>
 </details>
 
@@ -32964,7 +34709,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>570 issues</summary>
+<details><summary>969 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -33014,6 +34759,46 @@ Built for evals:
 </li>
 <li>
 <b>=> Cached failure</b> <tt>libtomcrypt-1.18.2</tt> <br /> <a href='https://hydra.nixos.org/build/206194273'>build 206194273</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207256178'>arsenal.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.10-libtmux-0.18.1</tt> <br /> <a href='https://hydra.nixos.org/build/207256178/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/207256178/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207256178/nixlog/3/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207207556'>build 207207556</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.10-libtmux-0.18.1</tt> <br /> <a href='https://hydra.nixos.org/build/207207556'>build 207207556</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.10-libtmux-0.18.1</tt> <br /> <a href='https://hydra.nixos.org/build/207207556'>build 207207556</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207221852'>audible-cli.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.10-questionary-unstable-2022-07-27</tt> <br /> <a href='https://hydra.nixos.org/build/207221852/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/207221852/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207221852/nixlog/3/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207234860'>build 207234860</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.10-questionary-unstable-2022-07-27</tt> <br /> <a href='https://hydra.nixos.org/build/207234860'>build 207234860</a>
+</li>
+<li>
+<b>=> Cached failure</b> <tt>python3.10-questionary-unstable-2022-07-27</tt> <br /> <a href='https://hydra.nixos.org/build/207234860'>build 207234860</a>
 </li>
 </ul>
 </details>
@@ -33108,6 +34893,74 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/207232593'>cargo-lambda.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>cargo-watch-8.3.0</tt> <br /> <a href='https://hydra.nixos.org/build/207232593/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/207232593/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207232593/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207229856'>build 207229856</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>cargo-watch-8.3.0</tt> <br /> <a href='https://hydra.nixos.org/build/207229856'>build 207229856</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207214160'>cmake-language-server.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.10-orjson-3.8.4</tt> <br /> <a href='https://hydra.nixos.org/build/207214160/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/207214160/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207214160/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207247081'>build 207247081</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207334757'>commitizen.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.10-questionary-unstable-2022-07-27</tt> <br /> <a href='https://hydra.nixos.org/build/207334757/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/207334757/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207334757/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207234860'>build 207234860</a>
+</li>
+<li>
+<b>=> Cached failure</b> <tt>python3.10-questionary-unstable-2022-07-27</tt> <br /> <a href='https://hydra.nixos.org/build/207234860'>build 207234860</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207221296'>copier.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.10-questionary-unstable-2022-07-27</tt> <br /> <a href='https://hydra.nixos.org/build/207221296/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/207221296/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207221296/nixlog/3/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207234860'>build 207234860</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.10-questionary-unstable-2022-07-27</tt> <br /> <a href='https://hydra.nixos.org/build/207234860'>build 207234860</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.10-questionary-unstable-2022-07-27</tt> <br /> <a href='https://hydra.nixos.org/build/207234860'>build 207234860</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/207255932'>crackmapexec.aarch64-darwin</a></tt>
 </summary>
 <ul>
@@ -33139,6 +34992,26 @@ Built for evals:
 </li>
 <li>
 <b>=> Failed</b> <tt>python3.10-pyshark-0.5.3</tt> <br /> <a href='https://hydra.nixos.org/build/207193449'>build 207193449</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207209340'>darcs-to-git.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>darcs-2.16.5</tt> <br /> <a href='https://hydra.nixos.org/build/207209340/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/207209340/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207209340/nixlog/3/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207259042'>build 207259042</a>
+</li>
+<li>
+<b>=> Timed out</b> <tt>http-client-0.7.13.1</tt> <br /> <a href='https://hydra.nixos.org/build/207209340/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/207209340/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207209340/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207256014'>build 207256014</a>
+</li>
+<li>
+<b>=> Timed out</b> <tt>cookie-0.4.6</tt> <br /> <a href='https://hydra.nixos.org/build/207209340/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/207209340/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207209340/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207196023'>build 207196023</a>
 </li>
 </ul>
 </details>
@@ -33384,6 +35257,43 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/207205773'>epgstation.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>epgstation-client-2.6.20</tt> <br /> <a href='https://hydra.nixos.org/build/207205773/nixlog/5'>log</a>, <a href='https://hydra.nixos.org/build/207205773/nixlog/5/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207205773/nixlog/5/tail'>tail</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>epgstation-client-2.6.20</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>epgstation-client-2.6.20</tt> <br /> 
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207333495'>flare-floss.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.10-python-flirt-0.7.0</tt> <br /> <a href='https://hydra.nixos.org/build/207333495/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/207333495/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207333495/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207213389'>build 207213389</a>
+</li>
+<li>
+<b>=> Cached failure</b> <tt>python3.10-python-flirt-0.7.0</tt> <br /> <a href='https://hydra.nixos.org/build/207213389'>build 207213389</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/206284913'>gforth.aarch64-darwin</a></tt>
 </summary>
 <ul>
@@ -33423,6 +35333,23 @@ Built for evals:
 </li>
 <li>
 <b>=> Timed out</b> <tt>cookie-0.4.6</tt> <br /> <a href='https://hydra.nixos.org/build/207196832/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/207196832/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207196832/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207196023'>build 207196023</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207230471'>haskellPackages.H.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>inline-r-1.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/207230471/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/207230471/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207230471/nixlog/3/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207223546'>build 207223546</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>inline-r-1.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/207223546'>build 207223546</a>
 </li>
 </ul>
 </details>
@@ -33762,6 +35689,40 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/207258548'>haskellPackages.fedora-dists.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>cached-json-file-0.1.1</tt> <br /> <a href='https://hydra.nixos.org/build/207258548/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/207258548/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207258548/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207226630'>build 207226630</a>
+</li>
+<li>
+<b>=> Timed out</b> <tt>http-client-0.7.13.1</tt> <br /> <a href='https://hydra.nixos.org/build/207258548/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/207258548/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207258548/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207256014'>build 207256014</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207250249'>haskellPackages.fedora-haskell-tools.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>cached-json-file-0.1.1</tt> <br /> <a href='https://hydra.nixos.org/build/207250249/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/207250249/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207250249/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207226630'>build 207226630</a>
+</li>
+<li>
+<b>=> Timed out</b> <tt>http-client-0.7.13.1</tt> <br /> <a href='https://hydra.nixos.org/build/207250249/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/207250249/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207250249/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207256014'>build 207256014</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/207199303'>haskellPackages.git-annex.aarch64-darwin</a></tt>
 </summary>
 <ul>
@@ -33773,6 +35734,26 @@ Built for evals:
 </li>
 <li>
 <b>=> Timed out</b> <tt>cookie-0.4.6</tt> <br /> <a href='https://hydra.nixos.org/build/207199303/nixlog/4'>log</a>, <a href='https://hydra.nixos.org/build/207199303/nixlog/4/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207199303/nixlog/4/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207196023'>build 207196023</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207199216'>haskellPackages.hS3.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>Crypto-4.2.5.1</tt> <br /> <a href='https://hydra.nixos.org/build/207199216/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/207199216/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207199216/nixlog/3/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207198055'>build 207198055</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>Crypto-4.2.5.1</tt> <br /> <a href='https://hydra.nixos.org/build/207198055'>build 207198055</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>Crypto-4.2.5.1</tt> <br /> <a href='https://hydra.nixos.org/build/207198055'>build 207198055</a>
 </li>
 </ul>
 </details>
@@ -33876,6 +35857,26 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/207256514'>haskellPackages.hw-dsv.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>hw-simd-0.1.2.2</tt> <br /> <a href='https://hydra.nixos.org/build/207256514/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/207256514/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207256514/nixlog/3/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207229896'>build 207229896</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>hw-simd-0.1.2.2</tt> <br /> <a href='https://hydra.nixos.org/build/207229896'>build 207229896</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>hw-simd-0.1.2.2</tt> <br /> <a href='https://hydra.nixos.org/build/207229896'>build 207229896</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/207241060'>haskellPackages.hw-json-simple-cursor.aarch64-darwin</a></tt>
 </summary>
 <ul>
@@ -33944,6 +35945,23 @@ Built for evals:
 </li>
 <li>
 <b>=> Timed out</b> <tt>http-client-0.7.13.1</tt> <br /> <a href='https://hydra.nixos.org/build/207225012/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/207225012/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207225012/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207256014'>build 207256014</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207255372'>haskellPackages.jacinda.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>regex-rure-0.1.2.0</tt> <br /> <a href='https://hydra.nixos.org/build/207255372/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/207255372/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207255372/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207255139'>build 207255139</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>regex-rure-0.1.2.0</tt> <br /> <a href='https://hydra.nixos.org/build/207255139'>build 207255139</a>
 </li>
 </ul>
 </details>
@@ -34044,6 +36062,40 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/207253053'>haskellPackages.piped.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>gauge-0.2.5</tt> <br /> <a href='https://hydra.nixos.org/build/207253053/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/207253053/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207253053/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207234892'>build 207234892</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>gauge-0.2.5</tt> <br /> <a href='https://hydra.nixos.org/build/207234892'>build 207234892</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207253320'>haskellPackages.ratel-wai.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>ratel-2.0.0.4</tt> <br /> <a href='https://hydra.nixos.org/build/207253320/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/207253320/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207253320/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207199848'>build 207199848</a>
+</li>
+<li>
+<b>=> Timed out</b> <tt>http-client-0.7.13.1</tt> <br /> <a href='https://hydra.nixos.org/build/207253320/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/207253320/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207253320/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207256014'>build 207256014</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/207190235'>haskellPackages.reddit-scrape.aarch64-darwin</a></tt>
 </summary>
 <ul>
@@ -34126,6 +36178,26 @@ Built for evals:
 </li>
 <li>
 <b>=> Timed out</b> <tt>pip-install-hook</tt> <br /> <a href='https://hydra.nixos.org/build/207176710/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/207176710/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207176710/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207254114'>build 207254114</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207200127'>haskellPackages.stack-all.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>cached-json-file-0.1.1</tt> <br /> <a href='https://hydra.nixos.org/build/207200127/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/207200127/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207200127/nixlog/3/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207226630'>build 207226630</a>
+</li>
+<li>
+<b>=> Timed out</b> <tt>http-client-0.7.13.1</tt> <br /> <a href='https://hydra.nixos.org/build/207200127/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/207200127/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207200127/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207256014'>build 207256014</a>
+</li>
+<li>
+<b>=> Timed out</b> <tt>simple-cmd-args-0.1.8</tt> <br /> <a href='https://hydra.nixos.org/build/207200127/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/207200127/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207200127/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207204675'>build 207204675</a>
 </li>
 </ul>
 </details>
@@ -34277,11 +36349,51 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/207198002'>haskellPackages.wai-handler-hal.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>hal-1.0.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/207198002/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/207198002/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207198002/nixlog/3/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207222432'>build 207222432</a>
+</li>
+<li>
+<b>=> Timed out</b> <tt>http-client-0.7.13.1</tt> <br /> <a href='https://hydra.nixos.org/build/207198002/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/207198002/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207198002/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207256014'>build 207256014</a>
+</li>
+<li>
+<b>=> Timed out</b> <tt>cookie-0.4.6</tt> <br /> <a href='https://hydra.nixos.org/build/207198002/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/207198002/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207198002/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207196023'>build 207196023</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/207196879'>haskellPackages.warp-quic.aarch64-darwin</a></tt>
 </summary>
 <ul>
 <li>
 <b>=> Failed</b> <tt>quic-0.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/207196879/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/207196879/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207196879/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207186770'>build 207186770</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207239981'>haskellPackages.xbattbar.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>select-0.4.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/207239981/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/207239981/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207239981/nixlog/3/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207209826'>build 207209826</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>select-0.4.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/207209826'>build 207209826</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>select-0.4.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/207209826'>build 207209826</a>
 </li>
 </ul>
 </details>
@@ -34302,6 +36414,23 @@ Built for evals:
 </li>
 <li>
 <b>=> Timed out</b> <tt>cookie-0.4.6</tt> <br /> <a href='https://hydra.nixos.org/build/207196627/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/207196627/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207196627/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207196023'>build 207196023</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207231758'>hledger-check-fancyassertions.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>hledger-check-fancyassertions</tt> <br /> <a href='https://hydra.nixos.org/build/207231758/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/207231758/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207231758/nixlog/3/tail'>tail</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>hledger-check-fancyassertions</tt> <br /> 
 </li>
 </ul>
 </details>
@@ -34339,6 +36468,40 @@ Built for evals:
 </li>
 <li>
 <b>=> Timed out</b> <tt>http-client-0.7.13.1</tt> <br /> <a href='https://hydra.nixos.org/build/207241016/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/207241016/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207241016/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207256014'>build 207256014</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207234427'>jacinda.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>regex-rure-0.1.2.0</tt> <br /> <a href='https://hydra.nixos.org/build/207234427/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/207234427/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207234427/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207255139'>build 207255139</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>regex-rure-0.1.2.0</tt> <br /> <a href='https://hydra.nixos.org/build/207255139'>build 207255139</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207334227'>jellyfin.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>jellyfin-web-10.8.9</tt> <br /> <a href='https://hydra.nixos.org/build/207334227/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/207334227/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207334227/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207216130'>build 207216130</a>
+</li>
+<li>
+<b>=> Cached failure</b> <tt>jellyfin-web-10.8.9</tt> <br /> <a href='https://hydra.nixos.org/build/207216130'>build 207216130</a>
 </li>
 </ul>
 </details>
@@ -34390,6 +36553,23 @@ Built for evals:
 </li>
 <li>
 <b>=> Timed out</b> <tt>agg-2.5</tt> <br /> <a href='https://hydra.nixos.org/build/207203742'>build 207203742</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207229386'>mailcatcher.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>ruby2.7.6-eventmachine-1.0.9.1</tt> <br /> <a href='https://hydra.nixos.org/build/207229386/nixlog/4'>log</a>, <a href='https://hydra.nixos.org/build/207229386/nixlog/4/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207229386/nixlog/4/tail'>tail</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>ruby2.7.6-eventmachine-1.0.9.1</tt> <br /> 
 </li>
 </ul>
 </details>
@@ -34493,6 +36673,46 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/207238184'>netcoredbg.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>netcoredbg-2.0.0-895</tt> <br /> <a href='https://hydra.nixos.org/build/207238184/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/207238184/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207238184/nixlog/3/tail'>tail</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>netcoredbg-2.0.0-895</tt> <br /> 
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207242290'>nixops_unstable.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.10-libvirt-python-8.10.0</tt> <br /> <a href='https://hydra.nixos.org/build/207242290/nixlog/44'>log</a>, <a href='https://hydra.nixos.org/build/207242290/nixlog/44/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207242290/nixlog/44/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>python3.10-docutils-0.19</tt> <br /> <a href='https://hydra.nixos.org/build/207242290/nixlog/19'>log</a>, <a href='https://hydra.nixos.org/build/207242290/nixlog/19/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207242290/nixlog/19/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>python3.10-pyrsistent-0.19.2</tt> <br /> <a href='https://hydra.nixos.org/build/207242290/nixlog/15'>log</a>, <a href='https://hydra.nixos.org/build/207242290/nixlog/15/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207242290/nixlog/15/tail'>tail</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.10-libvirt-python-8.10.0</tt> <br /> 
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/207183798'>nsz.aarch64-darwin</a></tt>
 </summary>
 <ul>
@@ -34504,6 +36724,41 @@ Built for evals:
 </li>
 <li>
 <b>=> Timed out</b> <tt>pip-install-hook</tt> <br /> <a href='https://hydra.nixos.org/build/207183798/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/207183798/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207183798/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207254114'>build 207254114</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207207648'>ntfy.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.9-slack-sdk-3.19.5</tt> <br /> <a href='https://hydra.nixos.org/build/207207648/nixlog/83'>log</a>, <a href='https://hydra.nixos.org/build/207207648/nixlog/83/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207207648/nixlog/83/tail'>tail</a>
+</li>
+<li>
+<b>=> Timed out</b> <tt>python3.9-invoke-1.7.3</tt> <br /> <a href='https://hydra.nixos.org/build/207207648/nixlog/79'>log</a>, <a href='https://hydra.nixos.org/build/207207648/nixlog/79/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207207648/nixlog/79/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207236040'>build 207236040</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>python3.9-aws-sam-translator-1.55.0</tt> <br /> <a href='https://hydra.nixos.org/build/207207648/nixlog/76'>log</a>, <a href='https://hydra.nixos.org/build/207207648/nixlog/76/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207207648/nixlog/76/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>python3.9-flask-2.2.2</tt> <br /> <a href='https://hydra.nixos.org/build/207207648/nixlog/60'>log</a>, <a href='https://hydra.nixos.org/build/207207648/nixlog/60/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207207648/nixlog/60/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>python3.9-flask-2.2.2</tt> <br /> 
+</li>
+<li>
+<b>=> Aborted</b> <tt>python3.9-flake8-6.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/207207648/nixlog/34'>log</a>, <a href='https://hydra.nixos.org/build/207207648/nixlog/34/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207207648/nixlog/34/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>python3.9-graphql-core-3.2.3</tt> <br /> <a href='https://hydra.nixos.org/build/207207648/nixlog/33'>log</a>, <a href='https://hydra.nixos.org/build/207207648/nixlog/33/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207207648/nixlog/33/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>python3.9-sarif-om-1.0.4</tt> <br /> <a href='https://hydra.nixos.org/build/207207648/nixlog/25'>log</a>, <a href='https://hydra.nixos.org/build/207207648/nixlog/25/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207207648/nixlog/25/tail'>tail</a>
 </li>
 </ul>
 </details>
@@ -34598,6 +36853,40 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/207218374'>python310Packages.Theano.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.10-libgpuarray-0.7.6</tt> <br /> <a href='https://hydra.nixos.org/build/207218374/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/207218374/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207218374/nixlog/3/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207241836'>build 207241836</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.10-libgpuarray-0.7.6</tt> <br /> <a href='https://hydra.nixos.org/build/207241836'>build 207241836</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207241133'>python310Packages.TheanoWithoutCuda.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.10-libgpuarray-0.7.6</tt> <br /> <a href='https://hydra.nixos.org/build/207241133/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/207241133/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207241133/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207241836'>build 207241836</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.10-libgpuarray-0.7.6</tt> <br /> <a href='https://hydra.nixos.org/build/207241836'>build 207241836</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/207209610'>python310Packages.ansible-kernel.aarch64-darwin</a></tt>
 </summary>
 <ul>
@@ -34643,6 +36932,23 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/207244876'>python310Packages.canopen.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.10-can-4.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/207244876/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/207244876/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207244876/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207242700'>build 207242700</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.10-can-4.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/207242700'>build 207242700</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/207242228'>python310Packages.chalice.aarch64-darwin</a></tt>
 </summary>
 <ul>
@@ -34654,6 +36960,26 @@ Built for evals:
 </li>
 <li>
 <b>=> Failed</b> <tt>python3.10-readchar-4.0.3</tt> <br /> <a href='https://hydra.nixos.org/build/207256100'>build 207256100</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207198426'>python310Packages.clvm-tools.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.10-clvm-tools-rs-0.1.25</tt> <br /> <a href='https://hydra.nixos.org/build/207198426/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/207198426/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207198426/nixlog/3/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207245579'>build 207245579</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.10-clvm-tools-rs-0.1.25</tt> <br /> <a href='https://hydra.nixos.org/build/207245579'>build 207245579</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.10-clvm-tools-rs-0.1.25</tt> <br /> <a href='https://hydra.nixos.org/build/207245579'>build 207245579</a>
 </li>
 </ul>
 </details>
@@ -34905,6 +37231,26 @@ Built for evals:
 </li>
 <li>
 <b>=> Timed out</b> <tt>pip-install-hook</tt> <br /> <a href='https://hydra.nixos.org/build/207254294/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/207254294/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207254294/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207254114'>build 207254114</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207223577'>python310Packages.jedi-language-server.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.10-pygls-1.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/207223577/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/207223577/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207223577/nixlog/3/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207237691'>build 207237691</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.10-pygls-1.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/207237691'>build 207237691</a>
+</li>
+<li>
+<b>=> Cached failure</b> <tt>python3.10-orjson-3.8.4</tt> <br /> <a href='https://hydra.nixos.org/build/207223577/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/207223577/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207223577/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207247081'>build 207247081</a>
 </li>
 </ul>
 </details>
@@ -35178,6 +37524,23 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/207276172'>python310Packages.pytorch-lightning.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.10-tensorboardx-2.5.1</tt> <br /> <a href='https://hydra.nixos.org/build/207276172/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/207276172/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207276172/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207206287'>build 207206287</a>
+</li>
+<li>
+<b>=> Cached failure</b> <tt>python3.10-tensorboardx-2.5.1</tt> <br /> <a href='https://hydra.nixos.org/build/207206287'>build 207206287</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/207250027'>python310Packages.robotframework-selenium2library.aarch64-darwin</a></tt>
 </summary>
 <ul>
@@ -35203,6 +37566,66 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>python3.10-approvaltests-5.4.2</tt> <br /> <a href='https://hydra.nixos.org/build/207190942/nixlog/4'>log</a>, <a href='https://hydra.nixos.org/build/207190942/nixlog/4/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207190942/nixlog/4/tail'>tail</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207235856'>python310Packages.scrapy-deltafetch.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.10-scrapy-2.7.1</tt> <br /> <a href='https://hydra.nixos.org/build/207235856/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/207235856/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207235856/nixlog/3/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207196439'>build 207196439</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.10-scrapy-2.7.1</tt> <br /> <a href='https://hydra.nixos.org/build/207196439'>build 207196439</a>
+</li>
+<li>
+<b>=> Cached failure</b> <tt>python3.10-scrapy-2.7.1</tt> <br /> <a href='https://hydra.nixos.org/build/207196439'>build 207196439</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207234080'>python310Packages.scrapy-fake-useragent.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.10-scrapy-2.7.1</tt> <br /> <a href='https://hydra.nixos.org/build/207234080/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/207234080/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207234080/nixlog/3/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207196439'>build 207196439</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.10-scrapy-2.7.1</tt> <br /> <a href='https://hydra.nixos.org/build/207196439'>build 207196439</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.10-scrapy-2.7.1</tt> <br /> <a href='https://hydra.nixos.org/build/207196439'>build 207196439</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207230169'>python310Packages.scrapy-splash.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.10-scrapy-2.7.1</tt> <br /> <a href='https://hydra.nixos.org/build/207230169/nixlog/4'>log</a>, <a href='https://hydra.nixos.org/build/207230169/nixlog/4/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207230169/nixlog/4/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207196439'>build 207196439</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.10-scrapy-2.7.1</tt> <br /> <a href='https://hydra.nixos.org/build/207196439'>build 207196439</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.10-scrapy-2.7.1</tt> <br /> <a href='https://hydra.nixos.org/build/207196439'>build 207196439</a>
 </li>
 </ul>
 </details>
@@ -35254,6 +37677,26 @@ Built for evals:
 </li>
 <li>
 <b>=> Failed</b> <tt>python3.10-readchar-4.0.3</tt> <br /> <a href='https://hydra.nixos.org/build/207256100'>build 207256100</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207258883'>python310Packages.trainer.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.10-tensorboardx-2.5.1</tt> <br /> <a href='https://hydra.nixos.org/build/207258883/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/207258883/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207258883/nixlog/3/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207206287'>build 207206287</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.10-tensorboardx-2.5.1</tt> <br /> <a href='https://hydra.nixos.org/build/207206287'>build 207206287</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.10-tensorboardx-2.5.1</tt> <br /> <a href='https://hydra.nixos.org/build/207206287'>build 207206287</a>
 </li>
 </ul>
 </details>
@@ -35320,6 +37763,23 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/207248907'>python310Packages.wsnsimpy.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.10-simpy-4.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/207248907/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/207248907/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207248907/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207226782'>build 207226782</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.10-simpy-4.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/207226782'>build 207226782</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/207196485'>python310Packages.xarray-einstats.aarch64-darwin</a></tt>
 </summary>
 <ul>
@@ -35354,11 +37814,82 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/207240010'>python311Packages.HTSeq.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.11-pysam-0.20.0</tt> <br /> <a href='https://hydra.nixos.org/build/207240010/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/207240010/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207240010/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207220311'>build 207220311</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-pysam-0.20.0</tt> <br /> <a href='https://hydra.nixos.org/build/207220311'>build 207220311</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207234772'>python311Packages.Theano.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.11-libgpuarray-0.7.6</tt> <br /> <a href='https://hydra.nixos.org/build/207234772/nixlog/4'>log</a>, <a href='https://hydra.nixos.org/build/207234772/nixlog/4/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207234772/nixlog/4/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207237251'>build 207237251</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-libgpuarray-0.7.6</tt> <br /> <a href='https://hydra.nixos.org/build/207237251'>build 207237251</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>clblas-2.12</tt> <br /> <a href='https://hydra.nixos.org/build/207234772/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/207234772/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207234772/nixlog/1/tail'>tail</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207244715'>python311Packages.TheanoWithoutCuda.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.11-libgpuarray-0.7.6</tt> <br /> <a href='https://hydra.nixos.org/build/207244715/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/207244715/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207244715/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207237251'>build 207237251</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-libgpuarray-0.7.6</tt> <br /> <a href='https://hydra.nixos.org/build/207237251'>build 207237251</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/207181029'>python311Packages.acquire.aarch64-darwin</a></tt>
 </summary>
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>python3.11-dissect-thumbcache-1.1</tt> <br /> <a href='https://hydra.nixos.org/build/207181029/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/207181029/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207181029/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207179377'>build 207179377</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207339695'>python311Packages.aiohttp-apispec.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.11-pyramid-2.0</tt> <br /> <a href='https://hydra.nixos.org/build/207339695/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/207339695/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207339695/nixlog/3/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207217555'>build 207217555</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-pyramid-2.0</tt> <br /> 
 </li>
 </ul>
 </details>
@@ -35379,6 +37910,46 @@ Built for evals:
 </li>
 <li>
 <b>=> Timed out</b> <tt>pip-install-hook</tt> <br /> <a href='https://hydra.nixos.org/build/207183953/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/207183953/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207183953/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207254114'>build 207254114</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207214284'>python311Packages.amaranth-boards.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.11-amaranth-0.3</tt> <br /> <a href='https://hydra.nixos.org/build/207214284/nixlog/5'>log</a>, <a href='https://hydra.nixos.org/build/207214284/nixlog/5/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207214284/nixlog/5/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207232157'>build 207232157</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-amaranth-0.3</tt> <br /> <a href='https://hydra.nixos.org/build/207232157'>build 207232157</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-amaranth-0.3</tt> <br /> <a href='https://hydra.nixos.org/build/207232157'>build 207232157</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207246711'>python311Packages.amaranth-soc.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.11-amaranth-0.3</tt> <br /> <a href='https://hydra.nixos.org/build/207246711/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/207246711/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207246711/nixlog/3/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207232157'>build 207232157</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-amaranth-0.3</tt> <br /> <a href='https://hydra.nixos.org/build/207232157'>build 207232157</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-amaranth-0.3</tt> <br /> <a href='https://hydra.nixos.org/build/207232157'>build 207232157</a>
 </li>
 </ul>
 </details>
@@ -35542,6 +38113,23 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/207247455'>python311Packages.astroquery.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.11-pyvo-1.4</tt> <br /> <a href='https://hydra.nixos.org/build/207247455/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/207247455/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207247455/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207229622'>build 207229622</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-pyvo-1.4</tt> <br /> <a href='https://hydra.nixos.org/build/207229622'>build 207229622</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/207188581'>python311Packages.asyncwhois.aarch64-darwin</a></tt>
 </summary>
 <ul>
@@ -35556,11 +38144,42 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/207197214'>python311Packages.atsim_potentials.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.11-deepdiff-6.2.1</tt> <br /> <a href='https://hydra.nixos.org/build/207197214/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/207197214/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207197214/nixlog/3/tail'>tail</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/207178952'>python311Packages.autobahn.aarch64-darwin</a></tt>
 </summary>
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>python3.11-pysha3-1.0.2</tt> <br /> <a href='https://hydra.nixos.org/build/207178952/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/207178952/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207178952/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207213781'>build 207213781</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207340343'>python311Packages.autofaiss.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.11-fire-0.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/207340343/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/207340343/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207340343/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207244924'>build 207244924</a>
+</li>
+<li>
+<b>=> Cached failure</b> <tt>s2n-tls-1.3.34</tt> <br /> <a href='https://hydra.nixos.org/build/207340343/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/207340343/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207340343/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207335569'>build 207335569</a>
 </li>
 </ul>
 </details>
@@ -35672,6 +38291,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/207202969'>python311Packages.chalice.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.11-readchar-4.0.3</tt> <br /> <a href='https://hydra.nixos.org/build/207202969/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/207202969/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207202969/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207206420'>build 207206420</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/207191944'>python311Packages.channels-redis.aarch64-darwin</a></tt>
 </summary>
 <ul>
@@ -35697,6 +38330,23 @@ Built for evals:
 </li>
 <li>
 <b>=> Cached failure</b> <tt>python3.11-pysha3-1.0.2</tt> <br /> <a href='https://hydra.nixos.org/build/207213781'>build 207213781</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207225679'>python311Packages.check-manifest.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.11-breezy-3.2.2</tt> <br /> <a href='https://hydra.nixos.org/build/207225679/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/207225679/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207225679/nixlog/3/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207259456'>build 207259456</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-breezy-3.2.2</tt> <br /> <a href='https://hydra.nixos.org/build/207259456'>build 207259456</a>
 </li>
 </ul>
 </details>
@@ -35894,6 +38544,26 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/207244775'>python311Packages.clvm-tools.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.11-clvm-tools-rs-0.1.25</tt> <br /> <a href='https://hydra.nixos.org/build/207244775/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/207244775/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207244775/nixlog/3/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207205935'>build 207205935</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-clvm-tools-rs-0.1.25</tt> <br /> <a href='https://hydra.nixos.org/build/207205935'>build 207205935</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-clvm-tools-rs-0.1.25</tt> <br /> <a href='https://hydra.nixos.org/build/207205935'>build 207205935</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/207255459'>python311Packages.cmsis-pack-manager.aarch64-darwin</a></tt>
 </summary>
 <ul>
@@ -35905,6 +38575,40 @@ Built for evals:
 </li>
 <li>
 <b>=> Cached failure</b> <tt>cmsis-pack-manager-0.5.1-native</tt> <br /> <a href='https://hydra.nixos.org/build/207255368'>build 207255368</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207242140'>python311Packages.colorcet.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.11-pyct-0.4.8</tt> <br /> <a href='https://hydra.nixos.org/build/207242140/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/207242140/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207242140/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207225421'>build 207225421</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-pyct-0.4.8</tt> <br /> <a href='https://hydra.nixos.org/build/207225421'>build 207225421</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207231666'>python311Packages.cornice.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.11-pyramid-2.0</tt> <br /> <a href='https://hydra.nixos.org/build/207231666/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/207231666/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207231666/nixlog/3/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207217555'>build 207217555</a>
+</li>
+<li>
+<b>=> Timed out</b> <tt>python3.11-venusian-3.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/207231666/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/207231666/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207231666/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207249652'>build 207249652</a>
 </li>
 </ul>
 </details>
@@ -35973,6 +38677,43 @@ Built for evals:
 </li>
 <li>
 <b>=> Cached failure</b> <tt>python3.11-pysha3-1.0.2</tt> <br /> <a href='https://hydra.nixos.org/build/207213781'>build 207213781</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207200443'>python311Packages.dcmstack.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.11-pylibjpeg-libjpeg-1.3.3</tt> <br /> <a href='https://hydra.nixos.org/build/207200443/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/207200443/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207200443/nixlog/3/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207201922'>build 207201922</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-pylibjpeg-libjpeg-1.3.3</tt> <br /> <a href='https://hydra.nixos.org/build/207201922'>build 207201922</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-pylibjpeg-libjpeg-1.3.3</tt> <br /> <a href='https://hydra.nixos.org/build/207201922'>build 207201922</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207207397'>python311Packages.deform.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.11-pyramid-2.0</tt> <br /> <a href='https://hydra.nixos.org/build/207207397/nixlog/4'>log</a>, <a href='https://hydra.nixos.org/build/207207397/nixlog/4/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207207397/nixlog/4/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207217555'>build 207217555</a>
+</li>
+<li>
+<b>=> Timed out</b> <tt>python3.11-venusian-3.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/207207397/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/207207397/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207207397/nixlog/3/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207249652'>build 207249652</a>
 </li>
 </ul>
 </details>
@@ -36067,6 +38808,23 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/207241969'>python311Packages.dj-rest-auth.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.11-unittest-xml-reporting-3.2.0</tt> <br /> <a href='https://hydra.nixos.org/build/207241969/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/207241969/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207241969/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207246084'>build 207246084</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-unittest-xml-reporting-3.2.0</tt> <br /> <a href='https://hydra.nixos.org/build/207246084'>build 207246084</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/207230591'>python311Packages.django_silk.aarch64-darwin</a></tt>
 </summary>
 <ul>
@@ -36078,6 +38836,23 @@ Built for evals:
 </li>
 <li>
 <b>=> Cached failure</b> <tt>python3.11-contextlib2-21.6.0</tt> <br /> <a href='https://hydra.nixos.org/build/207235571'>build 207235571</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207228358'>python311Packages.drf-spectacular.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.11-unittest-xml-reporting-3.2.0</tt> <br /> <a href='https://hydra.nixos.org/build/207228358/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/207228358/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207228358/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207246084'>build 207246084</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-unittest-xml-reporting-3.2.0</tt> <br /> <a href='https://hydra.nixos.org/build/207246084'>build 207246084</a>
 </li>
 </ul>
 </details>
@@ -36146,6 +38921,23 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>python3.11-contextlib2-21.6.0</tt> <br /> <a href='https://hydra.nixos.org/build/207186046/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/207186046/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207186046/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207235571'>build 207235571</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207238929'>python311Packages.enaml.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.11-sip-4.19.25</tt> <br /> <a href='https://hydra.nixos.org/build/207238929/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/207238929/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207238929/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207245004'>build 207245004</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-sip-4.19.25</tt> <br /> <a href='https://hydra.nixos.org/build/207245004'>build 207245004</a>
 </li>
 </ul>
 </details>
@@ -36308,6 +39100,26 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/207247202'>python311Packages.face-recognition.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.11-dlib-19.24</tt> <br /> <a href='https://hydra.nixos.org/build/207247202/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/207247202/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207247202/nixlog/3/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207209722'>build 207209722</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-dlib-19.24</tt> <br /> <a href='https://hydra.nixos.org/build/207209722'>build 207209722</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-dlib-19.24</tt> <br /> <a href='https://hydra.nixos.org/build/207209722'>build 207209722</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/207244530'>python311Packages.face.aarch64-darwin</a></tt>
 </summary>
 <ul>
@@ -36374,6 +39186,23 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/207333320'>python311Packages.flask-security-too.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.11-pony-0.7.16</tt> <br /> <a href='https://hydra.nixos.org/build/207333320/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/207333320/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207333320/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207196874'>build 207196874</a>
+</li>
+<li>
+<b>=> Cached failure</b> <tt>python3.11-pony-0.7.16</tt> <br /> <a href='https://hydra.nixos.org/build/207196874'>build 207196874</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/207335724'>python311Packages.folium.aarch64-darwin</a></tt>
 </summary>
 <ul>
@@ -36382,6 +39211,43 @@ Built for evals:
 </li>
 <li>
 <b>=> Cached failure</b> <tt>python3.11-trio-websocket-0.9.2</tt> <br /> <a href='https://hydra.nixos.org/build/207335724/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/207335724/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207335724/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207186670'>build 207186670</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207240111'>python311Packages.gcal-sync.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.11-ical-4.2.9</tt> <br /> <a href='https://hydra.nixos.org/build/207240111/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/207240111/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207240111/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207214479'>build 207214479</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-ical-4.2.9</tt> <br /> <a href='https://hydra.nixos.org/build/207214479'>build 207214479</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207214548'>python311Packages.gcs-oauth2-boto-plugin.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.11-boto-2.49.0</tt> <br /> <a href='https://hydra.nixos.org/build/207214548/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/207214548/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207214548/nixlog/3/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207257255'>build 207257255</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-boto-2.49.0</tt> <br /> <a href='https://hydra.nixos.org/build/207257255'>build 207257255</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-boto-2.49.0</tt> <br /> <a href='https://hydra.nixos.org/build/207257255'>build 207257255</a>
 </li>
 </ul>
 </details>
@@ -36436,6 +39302,26 @@ Built for evals:
 </li>
 <li>
 <b>=> Timed out</b> <tt>cookie-0.4.6</tt> <br /> <a href='https://hydra.nixos.org/build/207195020/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/207195020/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207195020/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207196023'>build 207196023</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207208949'>python311Packages.glasgow.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.11-amaranth-0.3</tt> <br /> <a href='https://hydra.nixos.org/build/207208949/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/207208949/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207208949/nixlog/3/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207232157'>build 207232157</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-amaranth-0.3</tt> <br /> <a href='https://hydra.nixos.org/build/207232157'>build 207232157</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-amaranth-0.3</tt> <br /> <a href='https://hydra.nixos.org/build/207232157'>build 207232157</a>
 </li>
 </ul>
 </details>
@@ -36595,6 +39481,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/207248092'>python311Packages.inquirer.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.11-readchar-4.0.3</tt> <br /> <a href='https://hydra.nixos.org/build/207248092/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/207248092/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207248092/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207206420'>build 207206420</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/207193396'>python311Packages.internetarchive.aarch64-darwin</a></tt>
 </summary>
 <ul>
@@ -36718,6 +39618,23 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>python3.11-inflect-6.0.2</tt> <br /> <a href='https://hydra.nixos.org/build/207210962/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/207210962/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207210962/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207201796'>build 207201796</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207230101'>python311Packages.jsons.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.11-typish-1.9.3</tt> <br /> <a href='https://hydra.nixos.org/build/207230101/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/207230101/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207230101/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207231997'>build 207231997</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-typish-1.9.3</tt> <br /> <a href='https://hydra.nixos.org/build/207231997'>build 207231997</a>
 </li>
 </ul>
 </details>
@@ -36906,6 +39823,23 @@ Built for evals:
 </li>
 <li>
 <b>=> Timed out</b> <tt>pip-install-hook</tt> <br /> <a href='https://hydra.nixos.org/build/207246149/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/207246149/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207246149/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207254114'>build 207254114</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207237980'>python311Packages.libsavitar.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.11-sip-4.19.25</tt> <br /> <a href='https://hydra.nixos.org/build/207237980/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/207237980/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207237980/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207245004'>build 207245004</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-sip-4.19.25</tt> <br /> <a href='https://hydra.nixos.org/build/207245004'>build 207245004</a>
 </li>
 </ul>
 </details>
@@ -37218,6 +40152,23 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/207236862'>python311Packages.nkdfu.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.11-fire-0.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/207236862/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/207236862/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207236862/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207244924'>build 207244924</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-fire-0.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/207244924'>build 207244924</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/207259952'>python311Packages.notebook-shim.aarch64-darwin</a></tt>
 </summary>
 <ul>
@@ -37266,6 +40217,26 @@ Built for evals:
 </li>
 <li>
 <b>=> Timed out</b> <tt>http-client-0.7.13.1</tt> <br /> <a href='https://hydra.nixos.org/build/207217495/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/207217495/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207217495/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207256014'>build 207256014</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207209545'>python311Packages.nsz.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.11-Kivy-2.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/207209545/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/207209545/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207209545/nixlog/3/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207230933'>build 207230933</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-Kivy-2.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/207230933'>build 207230933</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-Kivy-2.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/207230933'>build 207230933</a>
 </li>
 </ul>
 </details>
@@ -37608,11 +40579,48 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/207338820'>python311Packages.plotnine.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.11-scikit-misc-0.1.4</tt> <br /> <a href='https://hydra.nixos.org/build/207338820/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/207338820/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207338820/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207212212'>build 207212212</a>
+</li>
+<li>
+<b>=> Cached failure</b> <tt>python3.11-scikit-misc-0.1.4</tt> <br /> <a href='https://hydra.nixos.org/build/207212212'>build 207212212</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/207195869'>python311Packages.policy-sentry.aarch64-darwin</a></tt>
 </summary>
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>python3.11-contextlib2-21.6.0</tt> <br /> <a href='https://hydra.nixos.org/build/207195869/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/207195869/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207195869/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207235571'>build 207235571</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207226718'>python311Packages.ponywhoosh.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.11-pony-0.7.16</tt> <br /> <a href='https://hydra.nixos.org/build/207226718/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/207226718/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207226718/nixlog/3/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207196874'>build 207196874</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-pony-0.7.16</tt> <br /> <a href='https://hydra.nixos.org/build/207196874'>build 207196874</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-pony-0.7.16</tt> <br /> <a href='https://hydra.nixos.org/build/207196874'>build 207196874</a>
 </li>
 </ul>
 </details>
@@ -37715,6 +40723,83 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/207201722'>python311Packages.pygame-gui.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.11-pygame-2.1.2</tt> <br /> <a href='https://hydra.nixos.org/build/207201722/nixlog/4'>log</a>, <a href='https://hydra.nixos.org/build/207201722/nixlog/4/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207201722/nixlog/4/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207252593'>build 207252593</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-pygame-2.1.2</tt> <br /> <a href='https://hydra.nixos.org/build/207252593'>build 207252593</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-pygame-2.1.2</tt> <br /> <a href='https://hydra.nixos.org/build/207252593'>build 207252593</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207211742'>python311Packages.pygetwindow.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.11-pygame-2.1.2</tt> <br /> <a href='https://hydra.nixos.org/build/207211742/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/207211742/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207211742/nixlog/3/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207252593'>build 207252593</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-pygame-2.1.2</tt> <br /> <a href='https://hydra.nixos.org/build/207252593'>build 207252593</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-pygame-2.1.2</tt> <br /> <a href='https://hydra.nixos.org/build/207252593'>build 207252593</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207206044'>python311Packages.pygogo.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.11-pkutils-3.0.2</tt> <br /> <a href='https://hydra.nixos.org/build/207206044/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/207206044/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207206044/nixlog/3/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207197314'>build 207197314</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-pkutils-3.0.2</tt> <br /> <a href='https://hydra.nixos.org/build/207197314'>build 207197314</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-pkutils-3.0.2</tt> <br /> <a href='https://hydra.nixos.org/build/207197314'>build 207197314</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207260261'>python311Packages.pygpgme.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>gpgme-1.18.0</tt> <br /> <a href='https://hydra.nixos.org/build/207260261/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/207260261/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207260261/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207237448'>build 207237448</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>gpgme-1.18.0</tt> <br /> <a href='https://hydra.nixos.org/build/207237448'>build 207237448</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/207220704'>python311Packages.pyhanko.aarch64-darwin</a></tt>
 </summary>
 <ul>
@@ -37766,6 +40851,111 @@ Built for evals:
 </li>
 <li>
 <b>=> Cached failure</b> <tt>cmsis-pack-manager-0.5.1-native</tt> <br /> <a href='https://hydra.nixos.org/build/207255368'>build 207255368</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207209601'>python311Packages.pypugjs.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.11-pyramid-2.0</tt> <br /> <a href='https://hydra.nixos.org/build/207209601/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/207209601/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207209601/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207217555'>build 207217555</a>
+</li>
+<li>
+<b>=> Timed out</b> <tt>python3.11-venusian-3.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/207209601/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/207209601/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207209601/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207249652'>build 207249652</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207233734'>python311Packages.pyramid_exclog.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.11-pyramid-2.0</tt> <br /> <a href='https://hydra.nixos.org/build/207233734/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/207233734/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207233734/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207217555'>build 207217555</a>
+</li>
+<li>
+<b>=> Timed out</b> <tt>python3.11-venusian-3.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/207233734/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/207233734/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207233734/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207249652'>build 207249652</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207209268'>python311Packages.pyramid_mako.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.11-pyramid-2.0</tt> <br /> <a href='https://hydra.nixos.org/build/207209268/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/207209268/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207209268/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207217555'>build 207217555</a>
+</li>
+<li>
+<b>=> Timed out</b> <tt>python3.11-venusian-3.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/207209268/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/207209268/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207209268/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207249652'>build 207249652</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207217104'>python311Packages.pyramid_multiauth.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.11-pyramid-2.0</tt> <br /> <a href='https://hydra.nixos.org/build/207217104/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/207217104/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207217104/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207217555'>build 207217555</a>
+</li>
+<li>
+<b>=> Timed out</b> <tt>python3.11-venusian-3.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/207217104/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/207217104/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207217104/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207249652'>build 207249652</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207242107'>python311Packages.pyrect.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.11-pygame-2.1.2</tt> <br /> <a href='https://hydra.nixos.org/build/207242107/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/207242107/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207242107/nixlog/3/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207252593'>build 207252593</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-pygame-2.1.2</tt> <br /> <a href='https://hydra.nixos.org/build/207252593'>build 207252593</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-pygame-2.1.2</tt> <br /> <a href='https://hydra.nixos.org/build/207252593'>build 207252593</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207222708'>python311Packages.pytest-aio.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.11-trio-asyncio-0.12.0</tt> <br /> <a href='https://hydra.nixos.org/build/207222708/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/207222708/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207222708/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207260272'>build 207260272</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-trio-asyncio-0.12.0</tt> <br /> <a href='https://hydra.nixos.org/build/207260272'>build 207260272</a>
 </li>
 </ul>
 </details>
@@ -37946,6 +41136,26 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>python3.11-pydsdl-1.12.1</tt> <br /> <a href='https://hydra.nixos.org/build/207191470/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/207191470/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207191470/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207235572'>build 207235572</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207208455'>python311Packages.qds_sdk.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.11-boto-2.49.0</tt> <br /> <a href='https://hydra.nixos.org/build/207208455/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/207208455/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207208455/nixlog/3/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207257255'>build 207257255</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-boto-2.49.0</tt> <br /> <a href='https://hydra.nixos.org/build/207257255'>build 207257255</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-boto-2.49.0</tt> <br /> <a href='https://hydra.nixos.org/build/207257255'>build 207257255</a>
 </li>
 </ul>
 </details>
@@ -38256,6 +41466,85 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/207189212'>python311Packages.toggl-cli.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.11-readchar-4.0.3</tt> <br /> <a href='https://hydra.nixos.org/build/207189212/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/207189212/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207189212/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207206420'>build 207206420</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207230530'>python311Packages.torrequest.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.11-stem-1.8.1</tt> <br /> <a href='https://hydra.nixos.org/build/207230530/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/207230530/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207230530/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207253769'>build 207253769</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-stem-1.8.1</tt> <br /> <a href='https://hydra.nixos.org/build/207253769'>build 207253769</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207189853'>python311Packages.translatepy.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.11-readchar-4.0.3</tt> <br /> <a href='https://hydra.nixos.org/build/207189853/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/207189853/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207189853/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207206420'>build 207206420</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207224233'>python311Packages.trezor.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.11-pyblake2-1.1.2</tt> <br /> <a href='https://hydra.nixos.org/build/207224233/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/207224233/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207224233/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207225670'>build 207225670</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-pyblake2-1.1.2</tt> <br /> <a href='https://hydra.nixos.org/build/207225670'>build 207225670</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207234549'>python311Packages.trezor_agent.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.11-pyblake2-1.1.2</tt> <br /> <a href='https://hydra.nixos.org/build/207234549/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/207234549/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207234549/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207225670'>build 207225670</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-pyblake2-1.1.2</tt> <br /> <a href='https://hydra.nixos.org/build/207225670'>build 207225670</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/207227296'>python311Packages.ttp.aarch64-darwin</a></tt>
 </summary>
 <ul>
@@ -38307,6 +41596,23 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/207251109'>python311Packages.virtualenvwrapper.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.11-virtualenv-clone-0.5.7</tt> <br /> <a href='https://hydra.nixos.org/build/207251109/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/207251109/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207251109/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207220757'>build 207220757</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-virtualenv-clone-0.5.7</tt> <br /> <a href='https://hydra.nixos.org/build/207220757'>build 207220757</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/207227854'>python311Packages.web.aarch64-darwin</a></tt>
 </summary>
 <ul>
@@ -38318,6 +41624,23 @@ Built for evals:
 </li>
 <li>
 <b>=> Cached failure</b> <tt>python3.11-inflect-6.0.2</tt> <br /> <a href='https://hydra.nixos.org/build/207201796'>build 207201796</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207339167'>python311Packages.webargs.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.11-pyramid-2.0</tt> <br /> <a href='https://hydra.nixos.org/build/207339167/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/207339167/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207339167/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207217555'>build 207217555</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.11-pyramid-2.0</tt> <br /> <a href='https://hydra.nixos.org/build/207339695'>build 207339695</a>
 </li>
 </ul>
 </details>
@@ -38550,11 +41873,77 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/207251361'>tests.haskell.writers.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>test-writers-haskell</tt> <br /> <a href='https://hydra.nixos.org/build/207251361/nixlog/5'>log</a>, <a href='https://hydra.nixos.org/build/207251361/nixlog/5/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207251361/nixlog/5/tail'>tail</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>test-writers-haskell-path</tt> <br /> <a href='https://hydra.nixos.org/build/207251361/nixlog/4'>log</a>, <a href='https://hydra.nixos.org/build/207251361/nixlog/4/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207251361/nixlog/4/tail'>tail</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>test-writers-haskell-bin</tt> <br /> <a href='https://hydra.nixos.org/build/207251361/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/207251361/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207251361/nixlog/3/tail'>tail</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>test-writers-haskell</tt> <br /> 
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/206216462'>tests.macOSSierraShared.aarch64-darwin</a></tt>
 </summary>
 <ul>
 <li>
 <b>=> Failed</b> <tt>good-final-asdf</tt> <br /> <a href='https://hydra.nixos.org/build/206216462/nixlog/642'>log</a>, <a href='https://hydra.nixos.org/build/206216462/nixlog/642/raw'>raw</a>, <a href='https://hydra.nixos.org/build/206216462/nixlog/642/tail'>tail</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207213504'>tests.writers.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>test-writers-haskell</tt> <br /> <a href='https://hydra.nixos.org/build/207213504/nixlog/19'>log</a>, <a href='https://hydra.nixos.org/build/207213504/nixlog/19/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207213504/nixlog/19/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207251361'>build 207251361</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>run-test-writers-python3</tt> <br /> <a href='https://hydra.nixos.org/build/207213504/nixlog/15'>log</a>, <a href='https://hydra.nixos.org/build/207213504/nixlog/15/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207213504/nixlog/15/tail'>tail</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>test-writers-rust-bin</tt> <br /> <a href='https://hydra.nixos.org/build/207213504/nixlog/14'>log</a>, <a href='https://hydra.nixos.org/build/207213504/nixlog/14/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207213504/nixlog/14/tail'>tail</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>test-writers-rust-bin</tt> <br /> 
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207215795'>tmuxp.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.10-libtmux-0.18.1</tt> <br /> <a href='https://hydra.nixos.org/build/207215795/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/207215795/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207215795/nixlog/3/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207207556'>build 207207556</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.10-libtmux-0.18.1</tt> <br /> <a href='https://hydra.nixos.org/build/207207556'>build 207207556</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.10-libtmux-0.18.1</tt> <br /> <a href='https://hydra.nixos.org/build/207207556'>build 207207556</a>
 </li>
 </ul>
 </details>
@@ -38621,6 +42010,58 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/207223449'>vimPlugins.YouCompleteMe.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.10-pygls-1.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/207223449/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/207223449/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207223449/nixlog/3/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207237691'>build 207237691</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.10-pygls-1.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/207237691'>build 207237691</a>
+</li>
+<li>
+<b>=> Cached failure</b> <tt>python3.10-orjson-3.8.4</tt> <br /> <a href='https://hydra.nixos.org/build/207223449/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/207223449/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207223449/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207247081'>build 207247081</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207219482'>vpsfree-client.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Aborted</b> <tt>ruby2.7.6-i18n-1.8.2</tt> <br /> <a href='https://hydra.nixos.org/build/207219482/nixlog/9'>log</a>, <a href='https://hydra.nixos.org/build/207219482/nixlog/9/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207219482/nixlog/9/tail'>tail</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>gemfile-and-lockfile</tt> <br /> <a href='https://hydra.nixos.org/build/207219482/nixlog/8'>log</a>, <a href='https://hydra.nixos.org/build/207219482/nixlog/8/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207219482/nixlog/8/tail'>tail</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>ruby2.7.6-zeitwerk-2.3.0</tt> <br /> <a href='https://hydra.nixos.org/build/207219482/nixlog/7'>log</a>, <a href='https://hydra.nixos.org/build/207219482/nixlog/7/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207219482/nixlog/7/tail'>tail</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>ruby2.7.6-eventmachine-1.0.9.1</tt> <br /> <a href='https://hydra.nixos.org/build/207219482/nixlog/6'>log</a>, <a href='https://hydra.nixos.org/build/207219482/nixlog/6/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207219482/nixlog/6/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207229386'>build 207229386</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>ruby2.7.6-ruby-progressbar-1.7.5</tt> <br /> <a href='https://hydra.nixos.org/build/207219482/nixlog/5'>log</a>, <a href='https://hydra.nixos.org/build/207219482/nixlog/5/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207219482/nixlog/5/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>ruby2.7.6-i18n-1.8.2</tt> <br /> 
+</li>
+<li>
+<b>=> Aborted</b> <tt>ruby2.7.6-minitest-5.14.0</tt> <br /> <a href='https://hydra.nixos.org/build/207219482/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/207219482/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207219482/nixlog/2/tail'>tail</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/207195167'>wayback-machine-archiver.aarch64-darwin</a></tt>
 </summary>
 <ul>
@@ -38643,6 +42084,20 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207198249'>ycmd.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.10-orjson-3.8.4</tt> <br /> <a href='https://hydra.nixos.org/build/207198249/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/207198249/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207198249/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/207247081'>build 207247081</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207176343'>PageEdit.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -38655,7 +42110,31 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207219512'>auctex.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207222646'>base16-builder.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207188991'>beancount-black.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207197029'>bigloo.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207248868'>blocksat-cli.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -38667,7 +42146,49 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207215359'>bzflag.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207209277'>calico-cni-plugin.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207218960'>calico-typha.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207213646'>cargo-raze.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207229856'>cargo-watch.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207240275'>clickable.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/206203233'>cln.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207203308'>cobra-cli.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -38685,7 +42206,31 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207205463'>cvc4.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207259042'>darcs.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207222301'>darwin.PowerManagement.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207212958'>darwin.adv_cmds.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207219532'>darwin.ios-deploy.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -38697,13 +42242,67 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207198263'>dhall-json.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207237009'>dhall.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207203764'>dia.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207215297'>docker-machine-hyperkit.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207235677'>dogecoin.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207233417'>eduke32.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207186487'>elm2nix.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207247251'>emacsPackages.elisp-ffi.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207223923'>emacsPackages.ghc-mod.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207173980'>emacsPackages.php-runtime.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207242563'>emborg.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -38721,7 +42320,61 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207217348'>gawkextlib.haru.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207230577'>ghcid.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207199822'>gmic-qt.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207215602'>gotop.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207201583'>guardian-agent.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207198055'>haskellPackages.Crypto.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207213070'>haskellPackages.LibZip.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207206303'>haskellPackages.al.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207221633'>haskellPackages.atmos-dimensional.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207209529'>haskellPackages.aws-sns-verify.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -38739,7 +42392,37 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207226630'>haskellPackages.cached-json-file.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207193720'>haskellPackages.casa-client.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207228941'>haskellPackages.chesshs.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207224759'>haskellPackages.cudd.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207221320'>haskellPackages.daemons.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207218432'>haskellPackages.dhall-text-shell.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -38757,13 +42440,43 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207211829'>haskellPackages.ekg-prometheus-adapter.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207194664'>haskellPackages.elm2nix.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207228261'>haskellPackages.executable-hash.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207176642'>haskellPackages.fb.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207234271'>haskellPackages.float128.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207234892'>haskellPackages.gauge.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207207114'>haskellPackages.gerrit.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -38781,13 +42494,49 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207216231'>haskellPackages.gi-gtkosxapplication.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207208112'>haskellPackages.gmail-simple.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207220027'>haskellPackages.google-oauth2-for-cli.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207180547'>haskellPackages.gtk-mac-integration.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207227566'>haskellPackages.gtk-traymanager.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207186220'>haskellPackages.gtk3-mac-integration.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207235117'>haskellPackages.h-raylib.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207226636'>haskellPackages.hakyll-alectryon.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -38800,6 +42549,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/207184392'>haskellPackages.hakyll-process.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207222432'>haskellPackages.hal.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -38829,7 +42584,25 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207224895'>haskellPackages.heystone.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207225180'>haskellPackages.highlight.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207183992'>haskellPackages.hinotify-conduit.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207239758'>haskellPackages.hmidi.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -38841,7 +42614,19 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207217785'>haskellPackages.honeycomb.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207231944'>haskellPackages.hpack.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207227301'>haskellPackages.hpuz.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -38853,7 +42638,31 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207227740'>haskellPackages.hsshellscript.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207244256'>haskellPackages.hssourceinfo.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207184720'>haskellPackages.http-client-conduit.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207213169'>haskellPackages.http-client-multipart.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207218294'>haskellPackages.http-mock.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -38871,7 +42680,37 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207229896'>haskellPackages.hw-simd.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207196059'>haskellPackages.idringen.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207182676'>haskellPackages.ihaskell-blaze.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207198610'>haskellPackages.ihaskell-display.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207221746'>haskellPackages.ihaskell-hatex.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207223546'>haskellPackages.inline-r.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -38889,13 +42728,49 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207204117'>haskellPackages.jpl-horizons-api.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207176432'>haskellPackages.keter.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207202970'>haskellPackages.kqueue.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207226427'>haskellPackages.leveldb-haskell-fork.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207199882'>haskellPackages.libsecp256k1.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207235818'>haskellPackages.libsodium.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207174047'>haskellPackages.linear-tests.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207232926'>haskellPackages.linux-framebuffer.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -38931,7 +42806,31 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207215970'>haskellPackages.notmuch.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207186752'>haskellPackages.openai-servant.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207215332'>haskellPackages.openal-ffi.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207226663'>haskellPackages.opentracing-zipkin-v2.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207203621'>haskellPackages.perceptual-hash.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -38955,7 +42854,25 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207221570'>haskellPackages.pipes-zlib.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207202959'>haskellPackages.posix-socket.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207229381'>haskellPackages.procex.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207207866'>haskellPackages.pthread.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -38967,7 +42884,37 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207199848'>haskellPackages.ratel.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207223992'>haskellPackages.raven-haskell.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207255139'>haskellPackages.regex-rure.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207234656'>haskellPackages.sandwich-webdriver.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207204799'>haskellPackages.scalpel.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207209826'>haskellPackages.select.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -38991,7 +42938,19 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207215474'>haskellPackages.svm.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207227736'>haskellPackages.swisstable.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207212804'>haskellPackages.sysinfo.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -39021,6 +42980,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207206725'>haskellPackages.wai-make-assets.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207182105'>haskellPackages.wiringPi.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -39039,7 +43004,19 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207198231'>haskellPackages.yesod-markdown.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207191625'>haskellPackages.zot.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207203685'>haskellPackages.zxcvbn-c.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -39057,7 +43034,49 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207207269'>idrisPackages.eternal.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207236247'>idrisPackages.mhd.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207234138'>idrisPackages.pacman.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207201421'>ioccheck.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207216130'>jellyfin-web.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207174237'>jobber.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207231351'>libaosd.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207230026'>libportal-qt5.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -39081,6 +43100,24 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207202754'>lighthouse.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207229759'>linuxkit.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207202254'>llvmPackages_5.openmp.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207180157'>llvmPackages_6.openmp.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -39093,13 +43130,79 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207208490'>llvmPackages_8.openmp.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207184836'>lua53Packages.sqlite.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207240941'>lua54Packages.bit32.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207233180'>lua54Packages.lgi.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207240938'>lua54Packages.lpty.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207206064'>lua54Packages.lua-subprocess.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207197066'>lua54Packages.vstruct.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207180902'>maigret.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207206000'>mariadb-galera.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207201407'>mate.libmatekbd.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207245568'>mcstatus.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207222656'>mellowplayer.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207242255'>metricbeat7.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -39117,13 +43220,49 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207227275'>neovide.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207192005'>niv.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207215116'>nodejs-slim-19_x.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207211056'>nodejs-slim_latest.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207221731'>norwester-font.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207176297'>open-policy-agent.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207203237'>openimagedenoise.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207231397'>openimagedenoise_1_2_x.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -39148,6 +43287,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/206200640'>perl534Packages.MathPari.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207235371'>perl534Packages.WWWCurl.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -39189,6 +43334,24 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207231732'>perl536Packages.WWWCurl.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207206543'>persepolis.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207227521'>pgpool.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207189733'>pkg.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -39201,7 +43364,31 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207212113'>plausible.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207221663'>py-spy.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207227330'>python310Packages.MDP.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207191724'>python310Packages.aardwolf.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207220854'>python310Packages.ansible-runner.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -39219,7 +43406,43 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207238927'>python310Packages.blocksat-cli.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207242700'>python310Packages.can.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207201000'>python310Packages.chia-rs.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207245579'>python310Packages.clvm-tools-rs.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207231594'>python310Packages.cocotb.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207177335'>python310Packages.coincurve.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207215636'>python310Packages.coinmetrics-api-client.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -39255,7 +43478,43 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207213596'>python310Packages.effect.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207255466'>python310Packages.emborg.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207181548'>python310Packages.fastnlo_toolkit.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207213357'>python310Packages.filterpy.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207207499'>python310Packages.flake8-future-import.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207218461'>python310Packages.flake8-length.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207231923'>python310Packages.flask-autoindex.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -39267,7 +43526,31 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207215361'>python310Packages.gensim.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207208212'>python310Packages.gpaw.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207196671'>python310Packages.gudhi.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207222613'>python310Packages.httpie.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207192628'>python310Packages.ipydatawidgets.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -39303,6 +43586,18 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207238481'>python310Packages.lazy_import.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207241836'>python310Packages.libgpuarray.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207228230'>python310Packages.librepo.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -39315,7 +43610,37 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207207556'>python310Packages.libtmux.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207216605'>python310Packages.mcstatus.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207198670'>python310Packages.mip.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207233453'>python310Packages.mitmproxy-wireguard.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207198771'>python310Packages.nghttp2.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207217729'>python310Packages.nose-timer.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -39345,7 +43670,37 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207228809'>python310Packages.pygame-gui.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207237691'>python310Packages.pygls.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207202769'>python310Packages.pylibdmtx.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207235661'>python310Packages.pyliblo.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207236979'>python310Packages.pypandoc.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207230828'>python310Packages.pypcap.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -39358,6 +43713,18 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/207193449'>python310Packages.pyshark.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207213389'>python310Packages.python-flirt.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207223785'>python310Packages.python-keycloak.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -39381,7 +43748,25 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207234860'>python310Packages.questionary.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207231104'>python310Packages.readchar.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207215317'>python310Packages.reolink-aio.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207240752'>python310Packages.retworkx.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -39393,7 +43778,25 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207204544'>python310Packages.scim2-filter-parser.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207196439'>python310Packages.scrapy.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207182188'>python310Packages.seaborn.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207226782'>python310Packages.simpy.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -39405,7 +43808,19 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207243664'>python310Packages.ssdp.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207195347'>python310Packages.stravalib.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207206287'>python310Packages.tensorboardx.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -39423,13 +43838,37 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207215427'>python310Packages.trackpy.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207199309'>python310Packages.unifi-discovery.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207186901'>python310Packages.wordfreq.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207219326'>python310Packages.xapian.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207182568'>python310Packages.xyzservices.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207239722'>python311Packages.Kajiki.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -39447,7 +43886,37 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207198514'>python311Packages.aioimaplib.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207193607'>python311Packages.aiopurpleair.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207217346'>python311Packages.aiortm.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207218359'>python311Packages.allure-pytest.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207201310'>python311Packages.alpha-vantage.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207232157'>python311Packages.amaranth.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -39471,6 +43940,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207219500'>python311Packages.arcam-fmj.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207243266'>python311Packages.assay.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -39478,6 +43953,18 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/207187145'>python311Packages.asyncua.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207199713'>python311Packages.automate-home.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207217571'>python311Packages.avro.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -39501,6 +43988,18 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207257255'>python311Packages.boto.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207259456'>python311Packages.breezy.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207222982'>python311Packages.can.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -39513,7 +44012,25 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207220349'>python311Packages.cepa.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207185442'>python311Packages.certomancer.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207247410'>python311Packages.cexprtk.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207243756'>python311Packages.chia-rs.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -39525,13 +44042,37 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207234779'>python311Packages.clickhouse-driver.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207192133'>python311Packages.clldutils.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207205935'>python311Packages.clvm-tools-rs.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207239164'>python311Packages.coconut.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207190321'>python311Packages.cocotb.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207256099'>python311Packages.coincurve.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -39549,7 +44090,19 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207224831'>python311Packages.conda.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207235571'>python311Packages.contextlib2.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207217811'>python311Packages.cookies.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -39585,6 +44138,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207219521'>python311Packages.demetriek.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207175944'>python311Packages.dictpath.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -39592,6 +44151,30 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/207179377'>python311Packages.dissect-thumbcache.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207241167'>python311Packages.django-haystack.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207208355'>python311Packages.django-maintenance-mode.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207207959'>python311Packages.django-redis.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207209722'>python311Packages.dlib.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -39609,6 +44192,18 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207223460'>python311Packages.effect.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207196558'>python311Packages.exrex.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207257298'>python311Packages.fastapi.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -39616,6 +44211,30 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/207190764'>python311Packages.filterpy.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207244924'>python311Packages.fire.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207213539'>python311Packages.flake8-length.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207210679'>python311Packages.flask-autoindex.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207233897'>python311Packages.fn.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -39639,13 +44258,61 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207229653'>python311Packages.gmpy.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207186258'>python311Packages.google-apitools.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207203290'>python311Packages.gpaw.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207237448'>python311Packages.gpgme.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207242760'>python311Packages.gudhi.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207211870'>python311Packages.guppy3.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207202013'>python311Packages.hangups.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207177731'>python311Packages.heatshrink2.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207202318'>python311Packages.hglib.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207202464'>python311Packages.hickle.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -39658,6 +44325,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/207188317'>python311Packages.httpie.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207214479'>python311Packages.ical.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -39681,6 +44354,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207231847'>python311Packages.ismartgate.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207247935'>python311Packages.junos-eznc.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -39699,7 +44378,31 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207230933'>python311Packages.kivy.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207187794'>python311Packages.latexify-py.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207209921'>python311Packages.lazy_import.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207237251'>python311Packages.libgpuarray.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207202070'>python311Packages.librepo.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -39711,7 +44414,25 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207212369'>python311Packages.libtmux.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207201611'>python311Packages.lightning.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207255702'>python311Packages.livestreamer.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207215145'>python311Packages.llvmlite.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -39729,13 +44450,43 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207240130'>python311Packages.maxcube-api.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207204792'>python311Packages.mip.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207209849'>python311Packages.mitmproxy-wireguard.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207237560'>python311Packages.monosat.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207221660'>python311Packages.mox.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207251141'>python311Packages.multimethod.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207209431'>python311Packages.nessclient.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -39748,6 +44499,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/207174111'>python311Packages.nose-randomly.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207236996'>python311Packages.omnikinverter.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -39777,13 +44534,85 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207216556'>python311Packages.pdoc.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207229895'>python311Packages.picobox.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207197314'>python311Packages.pkutils.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207218057'>python311Packages.podcastparser.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207196874'>python311Packages.pony.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207184686'>python311Packages.py-sr25519-bindings.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207214162'>python311Packages.py_stringmatching.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207243534'>python311Packages.pyathena.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207225670'>python311Packages.pyblake2.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207235120'>python311Packages.pycoin.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207225421'>python311Packages.pyct.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207212285'>python311Packages.pydash.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207227093'>python311Packages.pydbus.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207225586'>python311Packages.pydeconz.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -39807,6 +44636,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207252593'>python311Packages.pygame.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207225300'>python311Packages.pygls.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -39819,7 +44654,25 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207196961'>python311Packages.pyinstrument.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207197912'>python311Packages.pykdl.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207187114'>python311Packages.pylibdmtx.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207201922'>python311Packages.pylibjpeg-libjpeg.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -39831,13 +44684,73 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207231246'>python311Packages.pymelcloud.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207188879'>python311Packages.pyomo.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207210357'>python311Packages.pyp.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207205408'>python311Packages.pyprecice.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207217555'>python311Packages.pyramid.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207220311'>python311Packages.pysam.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207213781'>python311Packages.pysha3.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207219793'>python311Packages.pyshark.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207201866'>python311Packages.pysimplegui.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207207823'>python311Packages.pytaglib.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207231133'>python311Packages.python-crfsuite.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207233192'>python311Packages.python-ctags3.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -39861,7 +44774,31 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207217739'>python311Packages.pyunifiprotect.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207185974'>python311Packages.pyversasense.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207229622'>python311Packages.pyvo.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207207933'>python311Packages.pyvoro.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207227880'>python311Packages.quamash.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -39873,7 +44810,43 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207214484'>python311Packages.radios.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207219763'>python311Packages.raincloudy.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207228432'>python311Packages.rangehttpserver.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207179987'>python311Packages.ratelimiter.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207206420'>python311Packages.readchar.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207221742'>python311Packages.recoll.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207207626'>python311Packages.reolink-aio.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -39897,7 +44870,19 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207216937'>python311Packages.rivet.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207190153'>python311Packages.sagemaker.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207229410'>python311Packages.samplerate.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -39909,13 +44894,43 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207212212'>python311Packages.scikit-misc.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207212098'>python311Packages.scim2-filter-parser.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207234503'>python311Packages.seaborn.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207238313'>python311Packages.sfrbox-api.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207230860'>python311Packages.signalslot.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207189644'>python311Packages.simpy.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207245004'>python311Packages.sip_4.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -39933,7 +44948,31 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207224018'>python311Packages.sparklines.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207179893'>python311Packages.staticjinja.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207253769'>python311Packages.stem.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207219105'>python311Packages.streaming-form-data.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207219685'>python311Packages.stups-fullstop.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -39945,7 +44984,43 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207204054'>python311Packages.tailscale.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207187326'>python311Packages.tikzplotlib.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207217575'>python311Packages.timelib.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207260272'>python311Packages.trio-asyncio.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207200602'>python311Packages.tweedledum.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207207542'>python311Packages.typical.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207231997'>python311Packages.typish.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -39957,13 +45032,55 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207246084'>python311Packages.unittest-xml-reporting.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207212886'>python311Packages.validobj.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207186700'>python311Packages.vallox-websocket-api.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207220757'>python311Packages.virtualenv-clone.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207234201'>python311Packages.vyper.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207223345'>python311Packages.waqiasync.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207210299'>python311Packages.webauthn.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207175090'>python311Packages.whodap.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207219028'>python311Packages.wordfreq.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -39976,6 +45093,18 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/207185689'>python311Packages.wxPython_4_1.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207216333'>python311Packages.xapian.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207207682'>python311Packages.xbox-webapi.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -40005,6 +45134,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207198952'>python311Packages.zeek.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207178697'>python311Packages.zope-testbrowser.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -40017,6 +45152,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207230167'>qbittorrent-nox.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207181972'>qnotero.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -40024,6 +45165,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/207186853'>quartz-wm.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207223322'>quasselDaemon.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -40059,6 +45206,18 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207228632'>rubyPackages_3_1.scrypt.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207201781'>rustypaste.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/206338885'>sbcl_2_0_8.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -40077,6 +45236,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207196643'>scid.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207177237'>snarkos.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -40089,7 +45254,25 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207216910'>stabber.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207222378'>stog.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207207140'>symengine.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207203007'>tab-rs.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -40107,13 +45290,61 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207244497'>timeline.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207220619'>todoman.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207196120'>topydo.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/207220694'>tracy.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207222341'>trashy.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/207181251'>ttfautohint.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207207554'>vscode-extensions.vadimcn.vscode-lldb.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207241417'>welle-io.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207247392'>wesnoth-dev.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207217239'>wesnoth.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -40129,6 +45360,66 @@ Built for evals:
 </td>
 <td>Log limit exceeded</td>
 </tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207195433'>micropython.aarch64-darwin</a></tt>
+</td>
+<td>Output size limit exceeded</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207173955'>barrage.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207179059'>fac-build.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/206280315'>gawkextlib.select.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207177118'>powermanga.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207206284'>python311Packages.deepdiff.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207180720'>python311Packages.mobly.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207183844'>python311Packages.pyatv.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207194455'>python311Packages.pylitterbot.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/206347270'>shen-sbcl.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
 </table>
 </details>
 
@@ -40136,7 +45427,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>4601 issues</summary>
+<details><summary>3789 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -40271,13 +45562,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207207376'>actionlint.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207332325'>adapta-gtk-theme.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -40334,27 +45618,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207221298'>age.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207205182'>age.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/206228079'>agg.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207339074'>agi.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -40401,13 +45664,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207228260'>alerta-server.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -40831,13 +46087,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207232862'>arrayfire.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207338173'>arrayfire.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -40884,20 +46133,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207256178'>arsenal.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207258909'>arsenal.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -40971,13 +46206,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207227764'>atlantis.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207339885'>atom.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -40992,31 +46220,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207219512'>auctex.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207218782'>auctex.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207340263'>audacity.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207221852'>audible-cli.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -41188,24 +46395,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207173955'>barrage.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207221841'>barrage.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207222646'>base16-builder.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -41370,13 +46563,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207197029'>bigloo.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207339913'>bino3d.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -41409,13 +46595,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207195182'>bitcoin.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -41486,13 +46665,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207248868'>blocksat-cli.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -41727,24 +46899,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207215359'>bzflag.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207338269'>c3d.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207215640'>cabal-install.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -41853,45 +47011,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207209277'>calico-cni-plugin.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207227043'>calico-cni-plugin.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207255082'>calico-pod2daemon.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207223333'>calico-pod2daemon.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207218960'>calico-typha.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207206461'>calico-typha.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -41965,20 +47088,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207232593'>cargo-lambda.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207213646'>cargo-raze.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207337047'>cargo-tarpaulin.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -41990,13 +47099,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207229856'>cargo-watch.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -42102,13 +47204,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207212824'>checkov.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -42315,13 +47410,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207240275'>clickable.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207334979'>clickhouse.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -42371,13 +47459,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207214160'>cmake-language-server.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207340135'>cmark.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -42399,31 +47480,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207203308'>cobra-cli.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207232365'>cobra-cli.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207251697'>coccinelle.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207252323'>coccinelle.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -42504,31 +47564,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207334757'>commitizen.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207340192'>common-updater-scripts.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207242535'>communi.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207221296'>copier.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -42585,13 +47624,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207234669'>coursera-dl.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -42777,13 +47809,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207205463'>cvc4.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207334347'>cvc4.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -42795,13 +47820,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207223223'>cvehound.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -42826,27 +47844,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207209340'>darcs-to-git.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207259042'>darcs.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207222301'>darwin.PowerManagement.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207332800'>darwin.builder.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -42858,13 +47855,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207219532'>darwin.ios-deploy.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -43050,13 +48040,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/206332385'>dgen-sdl.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207337668'>dgoss.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -43071,38 +48054,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207225016'>dhall-docs.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207198263'>dhall-json.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207237009'>dhall.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207339361'>dhewm3.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207203764'>dia.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -43232,45 +48187,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207215297'>docker-machine-hyperkit.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207232121'>docker-machine-xhyve.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207198286'>dogdns.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207235677'>dogecoin.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207333597'>dogecoin.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207233187'>doing.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -43386,13 +48306,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207220875'>dwarf-fortress-packages.dwarf-therapist-original.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207335647'>dwl.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -43463,13 +48376,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207226535'>eclint.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207334476'>eclipse-mat.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -43537,13 +48443,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207233417'>eduke32.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -43631,13 +48530,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207228243'>elvis-erlang.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207336389'>emacsPackages.ac-mozc.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -43652,28 +48544,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207228348'>emacsPackages.buttercup-junit.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207254209'>emacsPackages.buttercup.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207249401'>emacsPackages.ctl-mode.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207247251'>emacsPackages.elisp-ffi.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -43701,13 +48572,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207223923'>emacsPackages.ghc-mod.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207245176'>emacsPackages.good-scroll.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -43715,21 +48579,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207234070'>emacsPackages.grab-mac-link.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207246351'>emacsPackages.helm-css-scss.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207216292'>emacsPackages.isearch-plus.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -43848,13 +48698,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207242563'>emborg.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207340028'>emojione.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -43950,13 +48793,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207205773'>epgstation.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -44058,13 +48894,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207231515'>exa.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207335588'>exhibitor.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -44114,24 +48943,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207179059'>fac-build.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207337081'>facedetect.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207232041'>faraday-agent-dispatcher.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -44230,13 +49045,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207219094'>fend.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -44374,13 +49182,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/207250039'>fish-irssi.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207333495'>flare-floss.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -44716,41 +49517,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207217348'>gawkextlib.haru.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/206280315'>gawkextlib.select.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207239274'>gawkextlib.select.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/206235890'>gawkextlib.select.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207195164'>gawkextlib.select.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207337759'>gcompris.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -44811,13 +49577,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207208860'>gg-scm.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -44933,13 +49692,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207239655'>git-open.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207339635'>git-repo.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -45035,13 +49787,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207199822'>gmic-qt.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -45724,13 +50469,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207239281'>gopls.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207336590'>gopro.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -45749,20 +50487,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207215602'>gotop.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207237388'>gotop.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -45997,20 +50721,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207201583'>guardian-agent.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207230423'>guardian-agent.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207338888'>guestfs-tools.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -46116,27 +50826,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207198055'>haskellPackages.Crypto.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207230471'>haskellPackages.H.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207203503'>haskellPackages.H.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207337671'>haskellPackages.HDBC-odbc.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -46148,20 +50837,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207201228'>haskellPackages.Hastodon.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207213070'>haskellPackages.LibZip.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -46186,62 +50861,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207215971'>haskellPackages.advent-of-code-api.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207206303'>haskellPackages.al.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207228970'>haskellPackages.api-maker.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207243262'>haskellPackages.apioiaf-client.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207234823'>haskellPackages.arch-web.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207210153'>haskellPackages.archive-libarchive.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207228914'>haskellPackages.asana.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207218574'>haskellPackages.ascii-art-to-unicode.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207259058'>haskellPackages.ascii-th.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -46256,35 +50875,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207221633'>haskellPackages.atmos-dimensional.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207209529'>haskellPackages.aws-sns-verify.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207211043'>haskellPackages.bhoogle.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207258520'>haskellPackages.binance-exports.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207239945'>haskellPackages.bittrex.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -46298,35 +50889,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207238099'>haskellPackages.blockfrost-api.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207243658'>haskellPackages.blockfrost-pretty.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207258326'>haskellPackages.bloodhound.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207205509'>haskellPackages.bluemix-sdk.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207197466'>haskellPackages.bodhi.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -46337,48 +50900,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207254363'>haskellPackages.bugsnag-hs.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207210289'>haskellPackages.bugsnag-wai.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207226496'>haskellPackages.bugsnag-yesod.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207224934'>haskellPackages.bugsnag.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207199010'>haskellPackages.bugzilla-redhat.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207223310'>haskellPackages.cabal-install.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -46393,13 +50914,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207226630'>haskellPackages.cached-json-file.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -46424,20 +50938,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207216791'>haskellPackages.chessIO.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207228941'>haskellPackages.chesshs.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207249848'>haskellPackages.cicero-api.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -46459,66 +50959,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207231116'>haskellPackages.compdoc-dhall-decoder.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207207039'>haskellPackages.composite-dhall.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207231785'>haskellPackages.composite-ix.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207217992'>haskellPackages.context-wai-middleware.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207248554'>haskellPackages.cubicspline.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207224759'>haskellPackages.cudd.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207199684'>haskellPackages.curl-cookiejar.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207221320'>haskellPackages.daemons.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207233838'>haskellPackages.darcs.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -46529,49 +50973,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207207961'>haskellPackages.desert.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207258565'>haskellPackages.dhall-bash.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207237536'>haskellPackages.dhall-docs.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207202237'>haskellPackages.dhall-lsp-server.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207218432'>haskellPackages.dhall-text-shell.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207232680'>haskellPackages.dhall-toml.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207238525'>haskellPackages.dhall-yaml.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -46599,56 +51001,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207224586'>haskellPackages.docker.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207213677'>haskellPackages.docusign-base.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207242376'>haskellPackages.dyre.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207217105'>haskellPackages.ecstasy.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207254229'>haskellPackages.ecta.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207211829'>haskellPackages.ekg-prometheus-adapter.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207232018'>haskellPackages.ema-extra.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207228179'>haskellPackages.empty.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -46662,24 +51015,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207238589'>haskellPackages.envy-extensible.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207198407'>haskellPackages.epub-tools.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207201732'>haskellPackages.epub-tools.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -46690,66 +51029,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207228261'>haskellPackages.executable-hash.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207254988'>haskellPackages.executable-path.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207228471'>haskellPackages.extralife.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207219807'>haskellPackages.fastparser.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207258548'>haskellPackages.fedora-dists.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207250249'>haskellPackages.fedora-haskell-tools.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207337476'>haskellPackages.ffmpeg-light.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207217439'>haskellPackages.filepather.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207234271'>haskellPackages.float128.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -46764,55 +51047,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207234892'>haskellPackages.gauge.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207207114'>haskellPackages.gerrit.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207229693'>haskellPackages.gerrit.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207212450'>haskellPackages.gh-pocket-knife.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207231642'>haskellPackages.gi-gdkx11.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207216231'>haskellPackages.gi-gtkosxapplication.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207220175'>haskellPackages.gi-gtkosxapplication.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -46872,136 +51106,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207218017'>haskellPackages.github-rest.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207238531'>haskellPackages.github.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207207354'>haskellPackages.gitit.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207208112'>haskellPackages.gmail-simple.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207336413'>haskellPackages.gnome-keyring.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207228175'>haskellPackages.google-isbn.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207220027'>haskellPackages.google-oauth2-for-cli.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207218792'>haskellPackages.grafdhall.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207237288'>haskellPackages.gtk-mac-integration.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207227566'>haskellPackages.gtk-traymanager.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207199458'>haskellPackages.gtk-traymanager.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207213108'>haskellPackages.gtk3-mac-integration.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207235117'>haskellPackages.h-raylib.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207210745'>haskellPackages.h-raylib.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207199216'>haskellPackages.hS3.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207226636'>haskellPackages.hakyll-alectryon.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207241474'>haskellPackages.hakyll-contrib-hyphenation.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207220121'>haskellPackages.hakyll-images.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207222432'>haskellPackages.hal.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -47019,27 +51127,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207248328'>haskellPackages.haskell-fake-user-agent.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207242135'>haskellPackages.haskell-google-trends.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207243183'>haskellPackages.haskell-proxy-list.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207252741'>haskellPackages.haskoin-node.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -47051,13 +51138,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207239323'>haskellPackages.hasql-pipes.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -47117,24 +51197,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207224895'>haskellPackages.heystone.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207335753'>haskellPackages.hgdal.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207225180'>haskellPackages.highlight.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -47145,84 +51211,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207209027'>haskellPackages.hinotify-conduit.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207230771'>haskellPackages.hledger-stockquotes.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207253291'>haskellPackages.hledger-web.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207202172'>haskellPackages.hmatrix-morpheus.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207239758'>haskellPackages.hmidi.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207246507'>haskellPackages.hoauth2.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207217785'>haskellPackages.honeycomb.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207254901'>haskellPackages.hoogle.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207213902'>haskellPackages.hpc-lcov.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207227301'>haskellPackages.hpuz.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207237609'>haskellPackages.hs-aws-lambda.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207244282'>haskellPackages.hs-opentelemetry-instrumentation-http-client.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -47243,91 +51232,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207227740'>haskellPackages.hsshellscript.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207244256'>haskellPackages.hssourceinfo.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207237490'>haskellPackages.htaut.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207203437'>haskellPackages.html-validator-cli.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207216511'>haskellPackages.html2hamlet.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207259051'>haskellPackages.http-api-data-qq.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207217963'>haskellPackages.http-client-brread-timeout.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207208913'>haskellPackages.http-client-extra.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207213169'>haskellPackages.http-client-multipart.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207212991'>haskellPackages.http-client-overrides.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207206516'>haskellPackages.http-client-websockets.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207218294'>haskellPackages.http-mock.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207198386'>haskellPackages.http-test.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -47341,63 +51246,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207256514'>haskellPackages.hw-dsv.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207197884'>haskellPackages.hw-kafka-avro.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207229896'>haskellPackages.hw-simd.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207212984'>haskellPackages.hydra.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207235972'>haskellPackages.hzaif.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207196059'>haskellPackages.idringen.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207246320'>haskellPackages.ihaskell-basic.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207198610'>haskellPackages.ihaskell-display.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207221746'>haskellPackages.ihaskell-hatex.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -47411,52 +51260,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207258387'>haskellPackages.ihaskell-inline-r.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207246037'>haskellPackages.ihaskell-juicypixels.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207229791'>haskellPackages.ihaskell-magic.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207223546'>haskellPackages.inline-r.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207246207'>haskellPackages.inline-r.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207240099'>haskellPackages.interprocess.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207223788'>haskellPackages.intricacy.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -47474,41 +51281,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207220584'>haskellPackages.ipcvar.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207228830'>haskellPackages.irc-client.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207248352'>haskellPackages.irc-conduit.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207255372'>haskellPackages.jacinda.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207204117'>haskellPackages.jpl-horizons-api.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207334261'>haskellPackages.jsaddle-webkit2gtk.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -47516,49 +51288,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207239318'>haskellPackages.katip-wai.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207202970'>haskellPackages.kqueue.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207232299'>haskellPackages.lambdabot-haskell-plugins.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207247052'>haskellPackages.lambdabot.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207198314'>haskellPackages.leanpub-wreq.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207226427'>haskellPackages.leveldb-haskell-fork.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207248252'>haskellPackages.libarchive.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -47572,56 +51302,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207199882'>haskellPackages.libsecp256k1.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207235818'>haskellPackages.libsodium.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207254491'>haskellPackages.libstackexchange.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207230811'>haskellPackages.line.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207237712'>haskellPackages.linkcheck.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207232926'>haskellPackages.linux-framebuffer.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207252696'>haskellPackages.lti13.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207204530'>haskellPackages.lucid-htmx.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -47635,35 +51316,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207230945'>haskellPackages.matrix-client.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207260477'>haskellPackages.mediawiki2latex.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207217321'>haskellPackages.memfd.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207239319'>haskellPackages.mighttpd2.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207212960'>haskellPackages.miso-from-html.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -47684,42 +51337,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207201909'>haskellPackages.morpheus-graphql-client.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207252819'>haskellPackages.morpheus-graphql-code-gen.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207235167'>haskellPackages.morpheus-graphql.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207223676'>haskellPackages.namecoin-update.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207254244'>haskellPackages.nfc.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207243530'>haskellPackages.ngx-export-healthcheck.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -47758,13 +51376,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207215970'>haskellPackages.notmuch.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -47810,13 +51421,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207232856'>haskellPackages.o-clock.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207338304'>haskellPackages.odbc.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -47831,49 +51435,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207241259'>haskellPackages.oidc-client.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207215332'>haskellPackages.openal-ffi.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207201050'>haskellPackages.opentracing-http-client.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207244099'>haskellPackages.opentracing-jaeger.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207240309'>haskellPackages.opentracing-zipkin-v1.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207226663'>haskellPackages.opentracing-zipkin-v2.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207230258'>haskellPackages.ory-hydra-client.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -47894,13 +51456,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207204261'>haskellPackages.pagure.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207256999'>haskellPackages.pandoc-crossref.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -47908,28 +51463,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207238474'>haskellPackages.pandoc-csv2table.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207255067'>haskellPackages.pandoc-dhall-decoder.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207204773'>haskellPackages.pandoc-plot.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207208434'>haskellPackages.pandoc-stylefrommeta.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -47950,66 +51484,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207203621'>haskellPackages.perceptual-hash.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207222617'>haskellPackages.phatsort.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207244931'>haskellPackages.picosat.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207200868'>haskellPackages.pinboard-notes-backup.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207241489'>haskellPackages.ping-wrapper.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207253053'>haskellPackages.piped.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207213071'>haskellPackages.pipes-http.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207221570'>haskellPackages.pipes-zlib.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207209703'>haskellPackages.pipes-zlib.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -48020,28 +51498,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207240976'>haskellPackages.plaid.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207248853'>haskellPackages.plex.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207234133'>haskellPackages.plucky.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207206456'>haskellPackages.polysemy-webserver.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -48055,70 +51512,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207229381'>haskellPackages.procex.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207200384'>haskellPackages.prometheus-wai-middleware.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207207866'>haskellPackages.pthread.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207251653'>haskellPackages.pusher-http-haskell.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207222192'>haskellPackages.pushover.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207230575'>haskellPackages.radixtree.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207253320'>haskellPackages.ratel-wai.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207199848'>haskellPackages.ratel.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207223992'>haskellPackages.raven-haskell.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207220822'>haskellPackages.rdf4h.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -48132,49 +51526,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207255139'>haskellPackages.regex-rure.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207225514'>haskellPackages.req-oauth2.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207203614'>haskellPackages.reqcatcher.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207248467'>haskellPackages.rocksdb-haskell.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207197747'>haskellPackages.rosa.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207208497'>haskellPackages.sandwich-slack.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207234656'>haskellPackages.sandwich-webdriver.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -48202,35 +51554,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207209826'>haskellPackages.select.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207248504'>haskellPackages.selfrestart.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207227030'>haskellPackages.seocheck.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207195009'>haskellPackages.servant-auth-server.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207228803'>haskellPackages.servant-checked-exceptions.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -48244,28 +51568,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207212046'>haskellPackages.servant-machines.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207228466'>haskellPackages.servant-pipes.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207254339'>haskellPackages.servant-polysemy.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207214936'>haskellPackages.serversession-frontend-snap.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -48279,42 +51582,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207218378'>haskellPackages.shake-plus-extended.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207222028'>haskellPackages.shell-conduit.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207245649'>haskellPackages.significant-figures.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207242419'>haskellPackages.simple-src-utils.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207198765'>haskellPackages.slack-web.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207213030'>haskellPackages.slick.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -48328,28 +51596,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207205179'>haskellPackages.smtpbz.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207209748'>haskellPackages.snaplet-ghcjs.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207254355'>haskellPackages.snaplet-i18n.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207229968'>haskellPackages.snaplet-purescript.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -48398,49 +51645,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207200127'>haskellPackages.stack-all.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207247089'>haskellPackages.stackage-install.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207208375'>haskellPackages.stocks.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207239183'>haskellPackages.streaming-utils.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207243643'>haskellPackages.stripe-wreq.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207236127'>haskellPackages.strive.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207215474'>haskellPackages.svm.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -48454,13 +51659,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207212804'>haskellPackages.sysinfo.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207249647'>haskellPackages.tailfile-hinotify.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -48468,59 +51666,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207216470'>haskellPackages.tailfile-hinotify.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207227083'>haskellPackages.tempo.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207239400'>haskellPackages.textlocal.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207205127'>haskellPackages.themoviedb.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207219111'>haskellPackages.thyme.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207254405'>haskellPackages.tibetan-utils.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207251657'>haskellPackages.tldr.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207204805'>haskellPackages.tracing-control.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -48545,66 +51694,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207236551'>haskellPackages.vector-shuffling.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207233274'>haskellPackages.verbosity.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207249274'>haskellPackages.vocabulary-kadma.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207199623'>haskellPackages.wai-app-file-cgi.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207198002'>haskellPackages.wai-handler-hal.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207206725'>haskellPackages.wai-make-assets.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207238189'>haskellPackages.wai-slack-middleware.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207238110'>haskellPackages.web-fpco.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207232400'>haskellPackages.webdriver.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -48629,13 +51722,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207234602'>haskellPackages.weeder.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207242323'>haskellPackages.write-buffer-stm.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -48650,21 +51736,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207239981'>haskellPackages.xbattbar.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207244884'>haskellPackages.yesod-auth-hashdb.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207212227'>haskellPackages.yesod-auth-lti13.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -48678,42 +51750,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207203813'>haskellPackages.yesod-auth-oauth2.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207205320'>haskellPackages.yesod-bin.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207198231'>haskellPackages.yesod-markdown.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207218392'>haskellPackages.yesod-recaptcha2.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207251581'>haskellPackages.yoga.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207200318'>haskellPackages.yst.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -48724,20 +51761,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207231717'>haskellPackages.zeromq4-simple.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207203685'>haskellPackages.zxcvbn-c.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -48892,20 +51915,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207231758'>hledger-check-fancyassertions.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207221526'>hledger-web.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -49287,42 +52296,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207207269'>idrisPackages.eternal.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207213922'>idrisPackages.eternal.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207236247'>idrisPackages.mhd.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207252985'>idrisPackages.mhd.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207234138'>idrisPackages.pacman.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207201721'>idrisPackages.pacman.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -49497,20 +52471,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207201421'>ioccheck.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207218718'>ioccheck.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207339586'>ioquake3.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -49602,13 +52562,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207234427'>jacinda.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207338791'>jackline.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -49676,20 +52629,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207216130'>jellyfin-web.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207334227'>jellyfin.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -49854,13 +52793,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207228010'>jsduck.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207336021'>jsvc.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -49879,13 +52811,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207238624'>jupyter.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -50036,13 +52961,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207225333'>keepassxc.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207339251'>keepassxc.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -50075,13 +52993,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207218115'>keybase.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -50281,13 +53192,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207230082'>krank.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207338400'>kronometer.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -50442,13 +53346,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207231351'>libaosd.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207338503'>liberal-crime-squad.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -50519,13 +53416,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207217981'>libjcat.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207338047'>libmx.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -50558,20 +53448,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207230026'>libportal-qt5.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207221733'>libportal-qt5.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -51758,13 +54634,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207249691'>libsForQt5.liblastfm.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207339347'>libsForQt5.libopenshot.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -51989,20 +54858,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207233203'>libsForQt5.qca-qt5.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207250401'>libsForQt5.qoauth.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207338954'>libsForQt5.qt5.qtwebengine.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -52014,13 +54869,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207232404'>libsForQt5.qtkeychain.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -52161,13 +55009,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207202754'>lighthouse.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -52577,13 +55418,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207229759'>linuxkit.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207251379'>linuxkit.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -52766,13 +55600,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207224348'>lite-xl.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207336062'>lite-xl.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -52864,35 +55691,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207210096'>llvmPackages_15.libcxxStdenv.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207235335'>llvmPackages_15.stdenv.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207202254'>llvmPackages_5.openmp.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207252839'>llvmPackages_7.clang-polly-unwrapped.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207208490'>llvmPackages_8.openmp.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -52983,13 +55782,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207208175'>lsd.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207338278'>lsix.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -53067,34 +55859,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207240941'>lua54Packages.bit32.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207233180'>lua54Packages.lgi.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207240938'>lua54Packages.lpty.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207206064'>lua54Packages.lua-subprocess.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207339468'>lua54Packages.luarocks-nix.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -53106,13 +55870,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207197066'>lua54Packages.vstruct.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -53340,13 +56097,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207229386'>mailcatcher.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207335883'>malcontent-ui.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -53410,13 +56160,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207206000'>mariadb-galera.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207332832'>marker.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -53445,13 +56188,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207218843'>mastodon-archive.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207337238'>mastodon.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -53463,13 +56199,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207201407'>mate.libmatekbd.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -53515,13 +56244,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207233611'>matrix-synapse-tools.synadm.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207338397'>mattermost-desktop.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -53533,13 +56255,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207245568'>mcstatus.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -53620,13 +56335,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207222656'>mellowplayer.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207333308'>mellowplayer.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -53690,20 +56398,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207242255'>metricbeat7.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207227107'>metricbeat7.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207336553'>mgba.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -53722,13 +56416,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207195433'>micropython.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -53876,13 +56563,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207215674'>mkvtoolnix-cli.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -54093,13 +56773,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207238344'>mp3fs.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -54369,20 +57042,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207227275'>neovide.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207196112'>neovide.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207340258'>neovide.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -54397,13 +57056,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207237359'>netcdfcxx4.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207335166'>netcdfcxx4.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -54415,13 +57067,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207238184'>netcoredbg.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -54646,13 +57291,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207238742'>nix-info-tested.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -55076,20 +57714,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207242290'>nixops_unstable.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207204217'>nixops_unstable.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207339740'>nixos-generators.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -55209,28 +57833,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207215116'>nodejs-slim-19_x.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207211056'>nodejs-slim_latest.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207337480'>nominatim.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207221731'>norwester-font.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -55290,13 +57893,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207207648'>ntfy.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -55402,13 +57998,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/206256288'>oatpp.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -55888,13 +58477,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207231472'>open-policy-agent.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207336773'>open-stage-control.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -55976,20 +58558,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207203237'>openimagedenoise.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207231397'>openimagedenoise_1_2_x.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -56249,13 +58817,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207223144'>owncloud-client.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -56665,31 +59226,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207240844'>passExtensions.pass-checkup.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207339896'>passExtensions.pass-tomb.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207231405'>passage.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207243145'>passage.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -56833,13 +59373,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207233859'>perl534Packages.ImageSane.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207337936'>perl534Packages.LaTeXML.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -56875,13 +59408,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207235371'>perl534Packages.WWWCurl.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207337564'>perl534Packages.libapreq2.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -56914,13 +59440,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207235018'>perl536Packages.ImageSane.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -56980,13 +59499,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207231732'>perl536Packages.WWWCurl.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207336195'>perl536Packages.libapreq2.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -56998,20 +59510,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207206543'>persepolis.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207226755'>persepolis.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -57061,13 +59559,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207227521'>pgpool.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -58282,13 +60773,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207228624'>plasma5Packages.liblastfm.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207339118'>plasma5Packages.libopenshot.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -58513,20 +60997,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207259983'>plasma5Packages.qca-qt5.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207242843'>plasma5Packages.qoauth.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207339770'>plasma5Packages.qt5.qtwebengine.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -58538,13 +61008,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207198780'>plasma5Packages.qtkeychain.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -58650,13 +61113,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207212113'>plausible.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -59003,20 +61459,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207177118'>powermanga.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207179709'>powermanga.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207336916'>ppsspp-qt.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -59248,13 +61690,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207221663'>py-spy.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207248530'>pycoin.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -59283,13 +61718,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207224584'>pyocd.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207250080'>pypi-mirror.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -59315,27 +61743,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207227330'>python310Packages.MDP.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207218374'>python310Packages.Theano.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207241133'>python310Packages.TheanoWithoutCuda.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -59371,27 +61778,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207211506'>python310Packages.ansible-kernel.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207220854'>python310Packages.ansible-runner.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207211526'>python310Packages.ansible-runner.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -59514,13 +61900,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207228289'>python310Packages.backports-datetime-fromisoformat.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207279448'>python310Packages.baselines.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -59553,20 +61932,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207238927'>python310Packages.blocksat-cli.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207231378'>python310Packages.bokeh.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -59605,34 +61970,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207242700'>python310Packages.can.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207231464'>python310Packages.can.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207244876'>python310Packages.canopen.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207210849'>python310Packages.canopen.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207333777'>python310Packages.cartopy.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -59658,13 +61995,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207201000'>python310Packages.chia-rs.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -59710,52 +62040,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207207398'>python310Packages.cloudsplaining.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207245579'>python310Packages.clvm-tools-rs.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207198426'>python310Packages.clvm-tools.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207208142'>python310Packages.cmsis-pack-manager.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207338087'>python310Packages.cnvkit.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207231594'>python310Packages.cocotb.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207215636'>python310Packages.coinmetrics-api-client.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -59770,13 +62058,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207216759'>python310Packages.cppheaderparser.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -59990,13 +62271,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207332850'>python310Packages.datashader.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207335411'>python310Packages.db-dtypes.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -60200,13 +62474,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207213596'>python310Packages.effect.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207338107'>python310Packages.elegy.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -60232,13 +62499,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207255466'>python310Packages.emborg.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -60277,13 +62537,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207215521'>python310Packages.fake-useragent.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207334907'>python310Packages.fastparquet.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -60312,13 +62565,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207213357'>python310Packages.filterpy.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207339372'>python310Packages.fiona.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -60330,20 +62576,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207207499'>python310Packages.flake8-future-import.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207218461'>python310Packages.flake8-length.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -60389,13 +62621,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207231923'>python310Packages.flask-autoindex.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207339008'>python310Packages.flask-security-too.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -60414,13 +62639,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207335484'>python310Packages.folium.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -60463,20 +62681,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207238523'>python310Packages.generic.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207215361'>python310Packages.gensim.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -60550,13 +62754,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207208212'>python310Packages.gpaw.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207337685'>python310Packages.gpaw.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -60582,13 +62779,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207196671'>python310Packages.gudhi.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -60641,13 +62831,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207197385'>python310Packages.holoviews.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207333964'>python310Packages.hoomd-blue.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -60662,24 +62845,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207202416'>python310Packages.hvplot.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207340289'>python310Packages.hydra-core.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207276326'>python310Packages.hyppo.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -60851,38 +63020,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207192628'>python310Packages.ipydatawidgets.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207209578'>python310Packages.ipydatawidgets.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207223577'>python310Packages.jedi-language-server.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207338337'>python310Packages.jupyter-repo2docker.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207226760'>python310Packages.jupyterlab_launcher.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -60928,41 +63069,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207238481'>python310Packages.lazy_import.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207241836'>python310Packages.libgpuarray.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207199677'>python310Packages.libsixel.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207207556'>python310Packages.libtmux.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207218245'>python310Packages.libtmux.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207275487'>python310Packages.lightgbm.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -60984,13 +63090,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207211386'>python310Packages.livelossplot.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207335304'>python310Packages.magicgui.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -61005,21 +63104,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207216605'>python310Packages.mcstatus.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207258722'>python310Packages.mediapy.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207198670'>python310Packages.mip.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -61037,13 +63122,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207207609'>python310Packages.mobly.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -61138,24 +63216,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207216443'>python310Packages.nbsmoke.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207340146'>python310Packages.neuron-mpi.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207198771'>python310Packages.nghttp2.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -61208,13 +63272,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207217729'>python310Packages.nose-timer.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207339789'>python310Packages.ocrmypdf.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -61247,13 +63304,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207336968'>python310Packages.osmnx.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -61299,13 +63349,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207233723'>python310Packages.panel.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207337522'>python310Packages.paperwork-backend.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -61321,13 +63364,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/207276182'>python310Packages.papis.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207220928'>python310Packages.pelican.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -61502,24 +63538,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/206266880'>python310Packages.pybrowserid.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207336671'>python310Packages.pyclip.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207252309'>python310Packages.pycm.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -61565,20 +63587,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/206277273'>python310Packages.pyfxa.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207228809'>python310Packages.pygame-gui.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207257775'>python310Packages.pygame-gui.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -61593,13 +63601,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207237691'>python310Packages.pygls.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207337397'>python310Packages.pygmt.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -61611,27 +63612,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207229972'>python310Packages.pykeyatome.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207202769'>python310Packages.pylibdmtx.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207235661'>python310Packages.pyliblo.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -61684,13 +63664,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207206152'>python310Packages.pyocd.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207340335'>python310Packages.pyodbc.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -61702,13 +63675,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207230828'>python310Packages.pypcap.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -61782,20 +63748,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207213389'>python310Packages.python-flirt.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207223785'>python310Packages.python-keycloak.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207338075'>python310Packages.python-mapnik.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -61832,27 +63784,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/207335677'>python310Packages.pythonix.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207221272'>python310Packages.pytomlpp.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207276172'>python310Packages.pytorch-lightning.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207275494'>python310Packages.pytorch-lightning.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -61915,13 +63846,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207234860'>python310Packages.questionary.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207340443'>python310Packages.qutip.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -61947,13 +63871,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207218070'>python310Packages.raincloudy.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -62006,20 +63923,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207215317'>python310Packages.reolink-aio.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207239231'>python310Packages.reolink-aio.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207339393'>python310Packages.reolink-aio.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -62034,13 +63937,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207237615'>python310Packages.reportengine.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207259179'>python310Packages.repoze_sphinx_autointerface.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -62048,31 +63944,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207240752'>python310Packages.retworkx.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207211548'>python310Packages.retworkx.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207277032'>python310Packages.ripser.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207203754'>python310Packages.rpy2.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -62129,13 +64004,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207228528'>python310Packages.sagemaker.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -62223,52 +64091,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207204544'>python310Packages.scim2-filter-parser.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207336386'>python310Packages.scmrepo.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207235856'>python310Packages.scrapy-deltafetch.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207234080'>python310Packages.scrapy-fake-useragent.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207230169'>python310Packages.scrapy-splash.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207196439'>python310Packages.scrapy.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207259515'>python310Packages.seaborn.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -62300,20 +64126,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207226782'>python310Packages.simpy.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207227801'>python310Packages.skyfield.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207335752'>python310Packages.skytemple-dtef.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -62332,13 +64144,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207214491'>python310Packages.slack-sdk.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -62363,24 +64168,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207276564'>python310Packages.spacy-loggers.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207279331'>python310Packages.spacy-loggers.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207209175'>python310Packages.sparklines.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -62489,13 +64280,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207243664'>python310Packages.ssdp.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207334701'>python310Packages.stanza.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -62563,20 +64347,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207206287'>python310Packages.tensorboardx.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207212471'>python310Packages.tensorboardx.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -62727,13 +64497,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207233439'>python310Packages.tikzplotlib.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207337256'>python310Packages.timetagger.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -62769,28 +64532,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207215427'>python310Packages.trackpy.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207245145'>python310Packages.trackpy.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207258883'>python310Packages.trainer.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207243580'>python310Packages.trainer.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -62839,13 +64581,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207225415'>python310Packages.trytond.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207340013'>python310Packages.tubeup.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -62867,24 +64602,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207199309'>python310Packages.unifi-discovery.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207339632'>python310Packages.upb-lib.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207206446'>python310Packages.validphys2.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -62906,13 +64627,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207279118'>python310Packages.wandb.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -62972,13 +64686,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207248907'>python310Packages.wsnsimpy.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207339558'>python310Packages.wxPython_4_0.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -62997,13 +64704,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207219326'>python310Packages.xapian.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -63042,13 +64742,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207233386'>python310Packages.xyzservices.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207335052'>python310Packages.yamlfix.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -63070,34 +64763,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207240010'>python311Packages.HTSeq.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207239722'>python311Packages.Kajiki.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207234772'>python311Packages.Theano.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207244715'>python311Packages.TheanoWithoutCuda.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207257877'>python311Packages.aardwolf.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -63112,27 +64777,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207339695'>python311Packages.aiohttp-apispec.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207198514'>python311Packages.aioimaplib.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207217346'>python311Packages.aiortm.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207335913'>python311Packages.ale-py.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -63140,52 +64784,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207218359'>python311Packages.allure-pytest.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207201310'>python311Packages.alpha-vantage.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207228713'>python311Packages.alpha-vantage.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207335437'>python311Packages.altair.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207214284'>python311Packages.amaranth-boards.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207246711'>python311Packages.amaranth-soc.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207232157'>python311Packages.amaranth.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -63238,20 +64840,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207228088'>python311Packages.aprslib.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207219500'>python311Packages.arcam-fmj.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207336038'>python311Packages.asf-search.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -63273,48 +64861,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207247455'>python311Packages.astroquery.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207260231'>python311Packages.astroquery.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207243447'>python311Packages.asyncwhois.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207197214'>python311Packages.atsim_potentials.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207340343'>python311Packages.autofaiss.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207199713'>python311Packages.automate-home.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207336574'>python311Packages.av.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -63322,28 +64868,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207217571'>python311Packages.avro.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207257255'>python311Packages.boto.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207276530'>python311Packages.branca.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207259456'>python311Packages.breezy.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -63364,13 +64889,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207221580'>python311Packages.canopen.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207337132'>python311Packages.cartopy.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -63379,132 +64897,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/207254556'>python311Packages.cassandra-driver.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207220349'>python311Packages.cepa.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207247410'>python311Packages.cexprtk.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207202969'>python311Packages.chalice.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207225679'>python311Packages.check-manifest.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207243756'>python311Packages.chia-rs.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207234779'>python311Packages.clickhouse-driver.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207205935'>python311Packages.clvm-tools-rs.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207244775'>python311Packages.clvm-tools.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207245488'>python311Packages.cmsis-pack-manager.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207239164'>python311Packages.coconut.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207256099'>python311Packages.coincurve.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207222941'>python311Packages.coinmetrics-api-client.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207218733'>python311Packages.collections-extended.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207242140'>python311Packages.colorcet.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207224831'>python311Packages.conda.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207217811'>python311Packages.cookies.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207231666'>python311Packages.cornice.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207228523'>python311Packages.cot.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -63581,13 +64973,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207205661'>python311Packages.datadog.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207340193'>python311Packages.datafusion.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -63651,94 +65036,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207200443'>python311Packages.dcmstack.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207233084'>python311Packages.debuglater.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207206284'>python311Packages.deepdiff.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207207397'>python311Packages.deform.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207219521'>python311Packages.demetriek.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207339092'>python311Packages.devpi-common.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207241969'>python311Packages.dj-rest-auth.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207241167'>python311Packages.django-haystack.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207208355'>python311Packages.django-maintenance-mode.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207207959'>python311Packages.django-redis.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/206704517'>python311Packages.django-redis.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207237231'>python311Packages.djangorestframework-recursive.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207209722'>python311Packages.dlib.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -63753,13 +65054,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207228358'>python311Packages.drf-spectacular.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -63826,13 +65120,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207223460'>python311Packages.effect.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207333521'>python311Packages.embedding-reader.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -63854,13 +65141,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207238929'>python311Packages.enaml.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207275216'>python311Packages.explorerscript.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -63868,28 +65148,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207196558'>python311Packages.exrex.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207247202'>python311Packages.face-recognition.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207246403'>python311Packages.fastnlo_toolkit.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207228785'>python311Packages.fastpbkdf2.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -63910,21 +65169,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207244924'>python311Packages.fire.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207250578'>python311Packages.flake8-future-import.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207213539'>python311Packages.flake8-length.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -63966,28 +65211,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207210679'>python311Packages.flask-autoindex.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207333320'>python311Packages.flask-security-too.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207278523'>python311Packages.flask_migrate.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207233897'>python311Packages.fn.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -64008,31 +65232,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207240111'>python311Packages.gcal-sync.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207214548'>python311Packages.gcs-oauth2-boto-plugin.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207332807'>python311Packages.gdal.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207238443'>python311Packages.gensim.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -64054,20 +65257,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207208949'>python311Packages.glasgow.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207229653'>python311Packages.gmpy.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -64096,34 +65285,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207203290'>python311Packages.gpaw.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207237448'>python311Packages.gpgme.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207222734'>python311Packages.gradient.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207204631'>python311Packages.gradient_statsd.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -64162,24 +65323,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207242760'>python311Packages.gudhi.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207339590'>python311Packages.guestfs.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207211870'>python311Packages.guppy3.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -64190,20 +65337,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207202013'>python311Packages.hangups.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207241019'>python311Packages.hangups.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207229294'>python311Packages.hepmc3.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -64211,38 +65344,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207202318'>python311Packages.hglib.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207202464'>python311Packages.hickle.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207335561'>python311Packages.hoomd-blue.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207216691'>python311Packages.httpx-socks.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207237955'>python311Packages.httpx-socks.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -64254,20 +65359,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/207278787'>python311Packages.huum.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207259558'>python311Packages.hypercorn.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207247346'>python311Packages.hypercorn.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -64299,13 +65390,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207214479'>python311Packages.ical.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -64365,20 +65449,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207248092'>python311Packages.inquirer.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207224607'>python311Packages.intellifire4py.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207259080'>python311Packages.ipydatawidgets.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -64386,52 +65456,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207231847'>python311Packages.ismartgate.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207229425'>python311Packages.ismartgate.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207195191'>python311Packages.jedi-language-server.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207230101'>python311Packages.jsons.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207336734'>python311Packages.jupyter-repo2docker.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207237997'>python311Packages.jupyter-server-mathjax.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207202815'>python311Packages.jupyterlab-git.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -64453,13 +65481,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207230933'>python311Packages.kivy.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -64491,59 +65512,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207209921'>python311Packages.lazy_import.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207237251'>python311Packages.libgpuarray.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207337092'>python311Packages.liblarch.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207202070'>python311Packages.librepo.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207237980'>python311Packages.libsavitar.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207216129'>python311Packages.libsixel.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207212369'>python311Packages.libtmux.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207226340'>python311Packages.libtmux.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -64568,45 +65540,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207201611'>python311Packages.lightning.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207244539'>python311Packages.lizard.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207215145'>python311Packages.llvmlite.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207234425'>python311Packages.matrix-api-async.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207240130'>python311Packages.maxcube-api.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/206284632'>python311Packages.maxcube-api.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -64617,24 +65554,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207204792'>python311Packages.mip.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207339674'>python311Packages.mlt.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207180720'>python311Packages.mobly.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -64652,38 +65575,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207237560'>python311Packages.monosat.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207221660'>python311Packages.mox.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207333624'>python311Packages.mpi4py.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207230441'>python311Packages.nbdime.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207209431'>python311Packages.nessclient.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -64729,13 +65624,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207230244'>python311Packages.nitime.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207337793'>python311Packages.nix-kernel.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -64771,13 +65659,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207236862'>python311Packages.nkdfu.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207340307'>python311Packages.nocasedict.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -64792,13 +65673,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207209545'>python311Packages.nsz.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207336768'>python311Packages.nsz.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -64806,24 +65680,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/206341440'>python311Packages.nvchecker.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207337086'>python311Packages.ocrmypdf.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207236996'>python311Packages.omnikinverter.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -64904,34 +65764,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207235898'>python311Packages.pathy.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207216556'>python311Packages.pdoc.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207229655'>python311Packages.peaqevcore.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207233390'>python311Packages.pelican.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207335087'>python311Packages.picos.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -64946,45 +65778,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207197314'>python311Packages.pkutils.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207338369'>python311Packages.plantuml-markdown.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207338820'>python311Packages.plotnine.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207218057'>python311Packages.podcastparser.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207196874'>python311Packages.pony.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207226718'>python311Packages.ponywhoosh.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -65010,13 +65807,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/207248585'>python311Packages.py-zabbix.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207214162'>python311Packages.py_stringmatching.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -65051,31 +65841,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207243534'>python311Packages.pyathena.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207183844'>python311Packages.pyatv.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207333078'>python311Packages.pyautogui.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207225670'>python311Packages.pyblake2.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -65087,48 +65856,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/207249260'>python311Packages.pycfmodel.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207206366'>python311Packages.pycfmodel.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207235120'>python311Packages.pycoin.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207225421'>python311Packages.pyct.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207212285'>python311Packages.pydash.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207227093'>python311Packages.pydbus.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207225586'>python311Packages.pydeconz.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -65177,38 +65904,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207201722'>python311Packages.pygame-gui.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207207343'>python311Packages.pygame-gui.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207338267'>python311Packages.pygame-gui.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207252593'>python311Packages.pygame.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207254743'>python311Packages.pygame.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -65226,31 +65925,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207211742'>python311Packages.pygetwindow.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207240901'>python311Packages.pygetwindow.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207337079'>python311Packages.pygetwindow.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207219116'>python311Packages.pygls.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -65261,20 +65939,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207206044'>python311Packages.pygogo.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207260261'>python311Packages.pygpgme.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207339346'>python311Packages.pyhiveapi.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -65282,38 +65946,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207196961'>python311Packages.pyinstrument.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207335432'>python311Packages.pyjnius.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207197912'>python311Packages.pykdl.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207201922'>python311Packages.pylibjpeg-libjpeg.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207194455'>python311Packages.pylitterbot.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -65331,34 +65967,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207227616'>python311Packages.pymedio.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207231246'>python311Packages.pymelcloud.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/206303837'>python311Packages.pymodbus.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/206232983'>python311Packages.pymodbus.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207337829'>python311Packages.pynamodb.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -65370,13 +65978,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207227386'>python311Packages.pyocd.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -65394,13 +65995,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207210357'>python311Packages.pyp.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207255833'>python311Packages.pypcap.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -65415,24 +66009,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207205408'>python311Packages.pyprecice.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207340414'>python311Packages.pyprecice.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207209601'>python311Packages.pypugjs.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -65471,73 +66051,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207217555'>python311Packages.pyramid.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207233734'>python311Packages.pyramid_exclog.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207209268'>python311Packages.pyramid_mako.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207217104'>python311Packages.pyramid_multiauth.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207242107'>python311Packages.pyrect.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207199305'>python311Packages.pyrect.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207340044'>python311Packages.pyrect.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207220311'>python311Packages.pysam.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207219793'>python311Packages.pyshark.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207201866'>python311Packages.pysimplegui.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -65562,13 +66079,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207207823'>python311Packages.pytaglib.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207335420'>python311Packages.pytautulli.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -65576,31 +66086,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207222708'>python311Packages.pytest-aio.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207333257'>python311Packages.pytest-playwright.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207231133'>python311Packages.python-crfsuite.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207233192'>python311Packages.python-ctags3.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -65688,13 +66177,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207242810'>python311Packages.pytm.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207337118'>python311Packages.pytmx.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -65716,13 +66198,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207217739'>python311Packages.pyunifiprotect.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207336849'>python311Packages.pyuptimerobot.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -65731,27 +66206,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/207247598'>python311Packages.pyvisa-py.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207229622'>python311Packages.pyvo.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207215560'>python311Packages.pyvo.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207207933'>python311Packages.pyvoro.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -65779,27 +66233,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207208455'>python311Packages.qds_sdk.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207227880'>python311Packages.quamash.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207208906'>python311Packages.quamash.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207336135'>python311Packages.qutip.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -65821,34 +66254,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207214484'>python311Packages.radios.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207219763'>python311Packages.raincloudy.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207232982'>python311Packages.raincloudy.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207228432'>python311Packages.rangehttpserver.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207332470'>python311Packages.rasterio.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -65867,20 +66272,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207206420'>python311Packages.readchar.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207221742'>python311Packages.recoll.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -65912,52 +66303,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207207626'>python311Packages.reolink-aio.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207201501'>python311Packages.reolink-aio.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207336918'>python311Packages.reolink.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207237207'>python311Packages.retworkx.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207216937'>python311Packages.rivet.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207215621'>python311Packages.rpy2.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207231210'>python311Packages.rpy2.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -65996,27 +66345,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207207988'>python311Packages.sagemaker.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207229410'>python311Packages.samplerate.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207216770'>python311Packages.samplerate.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207277522'>python311Packages.scikit-learn-extra.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -66028,13 +66356,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207212212'>python311Packages.scikit-misc.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -66080,20 +66401,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207212098'>python311Packages.scim2-filter-parser.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207196876'>python311Packages.scrapy-deltafetch.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207253939'>python311Packages.scrapy-fake-useragent.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -66101,45 +66408,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207218787'>python311Packages.scrapy-splash.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207227319'>python311Packages.scrapy.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207238313'>python311Packages.sfrbox-api.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207256210'>python311Packages.sfrbox-api.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207230860'>python311Packages.signalslot.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207245004'>python311Packages.sip_4.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -66157,38 +66429,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207216850'>python311Packages.slack-sdk.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207228288'>python311Packages.softlayer.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207224018'>python311Packages.sparklines.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207245643'>python311Packages.sphinx-automodapi.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207199770'>python311Packages.sphinx-automodapi.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -66262,35 +66506,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207253769'>python311Packages.stem.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207253830'>python311Packages.stravalib.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207219105'>python311Packages.streaming-form-data.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207219685'>python311Packages.stups-fullstop.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207210666'>python311Packages.sysv_ipc.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -66304,35 +66520,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207204054'>python311Packages.tailscale.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207278843'>python311Packages.tensorflow-estimator-bin.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207210548'>python311Packages.testbook.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207224981'>python311Packages.tikzplotlib.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207217575'>python311Packages.timelib.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -66343,13 +66531,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207189212'>python311Packages.toggl-cli.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -66381,13 +66562,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207230530'>python311Packages.torrequest.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207333598'>python311Packages.transformers.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -66409,49 +66583,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207189853'>python311Packages.translatepy.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207278794'>python311Packages.trectools.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207224233'>python311Packages.trezor.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207234549'>python311Packages.trezor_agent.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207260272'>python311Packages.trio-asyncio.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207200602'>python311Packages.tweedledum.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207207542'>python311Packages.typical.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -66465,24 +66597,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207231997'>python311Packages.typish.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207336743'>python311Packages.ueberzug.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207246084'>python311Packages.unittest-xml-reporting.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -66497,20 +66615,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207212886'>python311Packages.validobj.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207241212'>python311Packages.validobj.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -66535,20 +66639,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207220757'>python311Packages.virtualenv-clone.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207251109'>python311Packages.virtualenvwrapper.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207338029'>python311Packages.viv-utils.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -66570,24 +66660,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207234201'>python311Packages.vyper.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207339991'>python311Packages.wand.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207223345'>python311Packages.waqiasync.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -66598,38 +66674,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207339167'>python311Packages.webargs.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207210299'>python311Packages.webauthn.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207233017'>python311Packages.whodap.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207257251'>python311Packages.withings-api.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207202202'>python311Packages.withings-api.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -66644,20 +66692,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207219028'>python311Packages.wordfreq.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207233529'>python311Packages.wordfreq.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -66703,20 +66737,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207216333'>python311Packages.xapian.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207207682'>python311Packages.xbox-webapi.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207338628'>python311Packages.xcffib.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -66759,20 +66779,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207230742'>python311Packages.yalexs.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207198952'>python311Packages.zeek.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207250731'>python311Packages.zimports.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -66805,13 +66811,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207230167'>qbittorrent-nox.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -66892,13 +66891,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207206484'>qmk.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207340432'>qmmp.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -66924,13 +66916,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207230854'>qownnotes.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -67137,13 +67122,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207213845'>quakespasm.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207336897'>quantomatic.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -67179,31 +67157,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207223322'>quasselDaemon.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207244956'>quasselDaemon.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207244877'>quaternion.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207233659'>quaternion.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -67316,13 +67273,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207210138'>ratman.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -67739,13 +67689,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207228174'>rubyPackages_3_0.snappy.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207337164'>rubyPackages_3_0.tiny_tds.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -67768,13 +67711,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/207335963'>rubyPackages_3_1.rmagick.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207228632'>rubyPackages_3_1.scrypt.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -67823,21 +67759,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207201781'>rustypaste.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207335569'>s2n-tls.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207220820'>sacad.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -67879,13 +67801,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207215545'>sagoin.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207338855'>sameboy.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -67897,27 +67812,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/206281987'>sbcl_2_1_10.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/206271713'>sbcl_2_1_11.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/206211071'>sbcl_2_2_4.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -67960,13 +67854,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207196643'>scid.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -68076,41 +67963,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/207338346'>shattered-pixel-dungeon.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207205822'>shellcheck.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/206347270'>shen-sbcl.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/206294814'>shen-sbcl.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/206337049'>shen-sbcl.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/206317817'>shen-sbcl.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -68278,13 +68130,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207214247'>skeema.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207333055'>skrooge.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -68334,13 +68179,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207229016'>slint-lsp.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207337518'>slurm-spank-x11.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -68373,13 +68211,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207221691'>snd.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -68520,13 +68351,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207226264'>soupault.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -68859,24 +68683,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207216910'>stabber.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207337642'>station.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207200459'>stdenvBootstrapTools.aarch64-darwin.dist</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -68912,13 +68722,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207222378'>stog.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -69223,20 +69026,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207197557'>synergy.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207227642'>synergyWithoutGUI.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207338852'>synfigstudio.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -69297,13 +69086,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207203007'>tab-rs.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -69475,13 +69257,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207242583'>terraform-providers.docker.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207340264'>terraform-providers.minio.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -69517,13 +69292,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207233853'>tests.haskell.cabalSdist.helloFromCabalSdist.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207339607'>tests.haskell.cabalSdist.hercules-ci-cnix-store.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -69545,24 +69313,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207242515'>tests.haskell.cabalSdist.localFromCabalSdist.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207257979'>tests.haskell.shellFor.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207251361'>tests.haskell.writers.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -69584,13 +69338,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207213504'>tests.writers.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -69650,13 +69397,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207217769'>threatest.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207339401'>threema-desktop.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -69710,13 +69450,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207244497'>timeline.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -69776,34 +69509,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207232332'>tldr-hs.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207215795'>tmuxp.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207202289'>tmuxp.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207220619'>todoman.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207336511'>tomb.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -69839,13 +69544,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207237640'>topydo.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207335138'>tor-browser-bundle-bin.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -69867,27 +69565,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207220694'>tracy.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207202481'>tracy.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207222341'>trashy.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207339974'>trezor_agent.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -69899,13 +69576,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207212497'>trytond.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -69927,13 +69597,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207215660'>ttfautohint.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -70203,13 +69866,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207212469'>validphys2.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207336991'>vassal.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -70284,13 +69940,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207223449'>vimPlugins.YouCompleteMe.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -71141,13 +70790,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207219482'>vpsfree-client.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207339300'>vsce.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -71166,13 +70808,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207207554'>vscode-extensions.vadimcn.vscode-lldb.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -71365,13 +71000,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/207241417'>welle-io.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/207333913'>werf.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -71383,20 +71011,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207247392'>wesnoth-dev.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207217239'>wesnoth.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -72090,13 +71704,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207198249'>ycmd.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -72935,6 +72542,7 @@ Built for evals:
 <li>python311Packages.oslo-serialization.x86_64-linux</li>
 <li>python311Packages.oslo-utils.aarch64-linux</li>
 <li>python311Packages.oslo-utils.x86_64-linux</li>
+<li>python311Packages.pygpgme.aarch64-darwin</li>
 <li>python311Packages.pygpgme.aarch64-linux</li>
 <li>python311Packages.pygpgme.x86_64-darwin</li>
 <li>python311Packages.pygpgme.x86_64-linux</li>
@@ -72967,7 +72575,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>111</td>
+<td>113</td>
 </tr>
 <tr>
 <td>
@@ -73034,6 +72642,7 @@ Built for evals:
 <ul>
 <li>bashblog.aarch64-darwin</li>
 <li>cabal2nix-unwrapped.aarch64-darwin</li>
+<li>darcs-to-git.aarch64-darwin</li>
 <li>dhall-nix.aarch64-darwin</li>
 <li>dhall-nixpkgs.aarch64-darwin</li>
 <li>echidna.aarch64-darwin</li>
@@ -73052,6 +72661,8 @@ Built for evals:
 <li>haskellPackages.docusign-client.aarch64-darwin</li>
 <li>haskellPackages.emanote.aarch64-darwin</li>
 <li>haskellPackages.extensioneer.aarch64-darwin</li>
+<li>haskellPackages.fedora-dists.aarch64-darwin</li>
+<li>haskellPackages.fedora-haskell-tools.aarch64-darwin</li>
 <li>haskellPackages.git-annex.aarch64-darwin</li>
 <li>haskellPackages.hs-opentelemetry-sdk.aarch64-darwin</li>
 <li>haskellPackages.hs-opentelemetry-utils-exceptions.aarch64-darwin</li>
@@ -73060,15 +72671,18 @@ Built for evals:
 <li>haskellPackages.mega-sdist.aarch64-darwin</li>
 <li>haskellPackages.monomer-hagrid.aarch64-darwin</li>
 <li>haskellPackages.pantry.aarch64-darwin</li>
+<li>haskellPackages.ratel-wai.aarch64-darwin</li>
 <li>haskellPackages.reddit-scrape.aarch64-darwin</li>
 <li>haskellPackages.soap-openssl.aarch64-darwin</li>
 <li>haskellPackages.soap-tls.aarch64-darwin</li>
+<li>haskellPackages.stack-all.aarch64-darwin</li>
 <li>haskellPackages.stack.aarch64-darwin</li>
 <li>haskellPackages.tmp-proc-postgres.aarch64-darwin</li>
 <li>haskellPackages.tmp-proc-rabbitmq.aarch64-darwin</li>
 <li>haskellPackages.tmp-proc-redis.aarch64-darwin</li>
 <li>haskellPackages.tmp-proc-zipkin.aarch64-darwin</li>
 <li>haskellPackages.vaultenv.aarch64-darwin</li>
+<li>haskellPackages.wai-handler-hal.aarch64-darwin</li>
 <li>haskellPackages.yesod-fb.aarch64-darwin</li>
 <li>http-prompt.aarch64-darwin</li>
 <li>isabelle.aarch64-darwin</li>
@@ -73109,7 +72723,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>74</td>
+<td>80</td>
 </tr>
 <tr>
 <td>
@@ -73215,6 +72829,35 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207255459'>aarch64-darwin cmsis-pack-manager-0.5.1-native</a></tt></summary>
+<ul>
+<li>pyocd.aarch64-darwin</li>
+<li>pyocd.aarch64-linux</li>
+<li>pyocd.x86_64-darwin</li>
+<li>pyocd.x86_64-linux</li>
+<li>python310Packages.cmsis-pack-manager.aarch64-darwin</li>
+<li>python310Packages.cmsis-pack-manager.aarch64-linux</li>
+<li>python310Packages.cmsis-pack-manager.x86_64-darwin</li>
+<li>python310Packages.cmsis-pack-manager.x86_64-linux</li>
+<li>python310Packages.pyocd.aarch64-darwin</li>
+<li>python310Packages.pyocd.aarch64-linux</li>
+<li>python310Packages.pyocd.x86_64-darwin</li>
+<li>python310Packages.pyocd.x86_64-linux</li>
+<li>python311Packages.cmsis-pack-manager.aarch64-darwin</li>
+<li>python311Packages.cmsis-pack-manager.aarch64-linux</li>
+<li>python311Packages.cmsis-pack-manager.x86_64-darwin</li>
+<li>python311Packages.cmsis-pack-manager.x86_64-linux</li>
+<li>python311Packages.pyocd.aarch64-darwin</li>
+<li>python311Packages.pyocd.aarch64-linux</li>
+<li>python311Packages.pyocd.x86_64-darwin</li>
+<li>python311Packages.pyocd.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>52</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/207209003'>aarch64-darwin python3.11-cirq-core-1.1.0</a></tt></summary>
 <ul>
 <li>python311Packages.cirq-rigetti.aarch64-darwin</li>
@@ -73245,6 +72888,103 @@ Built for evals:
 </details>
 </td>
 <td>48</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207217555'>aarch64-darwin python3.11-pyramid-2.0</a></tt></summary>
+<ul>
+<li>python311Packages.aiohttp-apispec.aarch64-darwin</li>
+<li>python311Packages.aiohttp-apispec.x86_64-darwin</li>
+<li>python311Packages.webargs.aarch64-darwin</li>
+<li>python311Packages.webargs.x86_64-darwin</li>
+<li>python311Packages.aiohttp-apispec.aarch64-linux</li>
+<li>python311Packages.aiohttp-apispec.x86_64-linux</li>
+<li>python311Packages.buildbot.x86_64-linux</li>
+<li>python311Packages.cornice.aarch64-darwin</li>
+<li>python311Packages.cornice.aarch64-linux</li>
+<li>python311Packages.cornice.x86_64-darwin</li>
+<li>python311Packages.cornice.x86_64-linux</li>
+<li>python311Packages.cypherpunkpay.x86_64-linux</li>
+<li>python311Packages.deform.aarch64-darwin</li>
+<li>python311Packages.deform.aarch64-linux</li>
+<li>python311Packages.deform.x86_64-darwin</li>
+<li>python311Packages.deform.x86_64-linux</li>
+<li>python311Packages.pypugjs.aarch64-darwin</li>
+<li>python311Packages.pypugjs.aarch64-linux</li>
+<li>python311Packages.pypugjs.x86_64-darwin</li>
+<li>python311Packages.pypugjs.x86_64-linux</li>
+<li>python311Packages.pyramid_chameleon.x86_64-linux</li>
+<li>python311Packages.pyramid_exclog.aarch64-darwin</li>
+<li>python311Packages.pyramid_exclog.aarch64-linux</li>
+<li>python311Packages.pyramid_exclog.x86_64-darwin</li>
+<li>python311Packages.pyramid_exclog.x86_64-linux</li>
+<li>python311Packages.pyramid_hawkauth.x86_64-linux</li>
+<li>python311Packages.pyramid_jinja2.x86_64-linux</li>
+<li>python311Packages.pyramid_mako.aarch64-darwin</li>
+<li>python311Packages.pyramid_mako.aarch64-linux</li>
+<li>python311Packages.pyramid_mako.x86_64-darwin</li>
+<li>python311Packages.pyramid_mako.x86_64-linux</li>
+<li>python311Packages.pyramid_multiauth.aarch64-darwin</li>
+<li>python311Packages.pyramid_multiauth.aarch64-linux</li>
+<li>python311Packages.pyramid_multiauth.x86_64-darwin</li>
+<li>python311Packages.pyramid_multiauth.x86_64-linux</li>
+<li>python311Packages.webargs.aarch64-linux</li>
+<li>python311Packages.webargs.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>47</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207196023'>aarch64-darwin cookie-0.4.6</a></tt></summary>
+<ul>
+<li>bashblog.aarch64-darwin</li>
+<li>cabal2nix-unwrapped.aarch64-darwin</li>
+<li>darcs-to-git.aarch64-darwin</li>
+<li>dhall-nix.aarch64-darwin</li>
+<li>echidna.aarch64-darwin</li>
+<li>emanote.aarch64-darwin</li>
+<li>git-annex.aarch64-darwin</li>
+<li>haskellPackages.blockfrost-client-core.aarch64-darwin</li>
+<li>haskellPackages.blockfrost-client.aarch64-darwin</li>
+<li>haskellPackages.ci-info.aarch64-darwin</li>
+<li>haskellPackages.clckwrks-theme-bootstrap.aarch64-darwin</li>
+<li>haskellPackages.clckwrks.aarch64-darwin</li>
+<li>haskellPackages.dhall-nixpkgs.aarch64-darwin</li>
+<li>haskellPackages.docusign-client.aarch64-darwin</li>
+<li>haskellPackages.emanote.aarch64-darwin</li>
+<li>haskellPackages.git-annex.aarch64-darwin</li>
+<li>haskellPackages.hspec-tmp-proc.aarch64-darwin</li>
+<li>haskellPackages.mega-sdist.aarch64-darwin</li>
+<li>haskellPackages.monomer-hagrid.aarch64-darwin</li>
+<li>haskellPackages.pantry.aarch64-darwin</li>
+<li>haskellPackages.reddit-scrape.aarch64-darwin</li>
+<li>haskellPackages.stack.aarch64-darwin</li>
+<li>haskellPackages.tmp-proc-rabbitmq.aarch64-darwin</li>
+<li>haskellPackages.wai-handler-hal.aarch64-darwin</li>
+<li>haskellPackages.yesod-fb.aarch64-darwin</li>
+<li>http-prompt.aarch64-darwin</li>
+<li>naproche.aarch64-darwin</li>
+<li>python310Packages.einops.aarch64-darwin</li>
+<li>python310Packages.httpie-ntlm.aarch64-darwin</li>
+<li>python310Packages.jupyterlab-git.aarch64-darwin</li>
+<li>python310Packages.jupyterlab-lsp.aarch64-darwin</li>
+<li>python310Packages.mkdocs-jupyter.aarch64-darwin</li>
+<li>python310Packages.nbdime.aarch64-darwin</li>
+<li>python310Packages.vega.aarch64-darwin</li>
+<li>python310Packages.xarray-einstats.aarch64-darwin</li>
+<li>python311Packages.einops.aarch64-darwin</li>
+<li>python311Packages.git-annex-adapter.aarch64-darwin</li>
+<li>python311Packages.httpie-ntlm.aarch64-darwin</li>
+<li>python311Packages.jupyter.aarch64-darwin</li>
+<li>stack.aarch64-darwin</li>
+<li>vaultenv.aarch64-darwin</li>
+<li>wayback-machine-archiver.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>42</td>
 </tr>
 <tr>
 <td>
@@ -73283,114 +73023,33 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/207196023'>aarch64-darwin cookie-0.4.6</a></tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207233386'>x86_64-darwin python3.10-xyzservices-2022.9.0</a></tt></summary>
 <ul>
-<li>bashblog.aarch64-darwin</li>
-<li>cabal2nix-unwrapped.aarch64-darwin</li>
-<li>dhall-nix.aarch64-darwin</li>
-<li>echidna.aarch64-darwin</li>
-<li>emanote.aarch64-darwin</li>
-<li>git-annex.aarch64-darwin</li>
-<li>haskellPackages.blockfrost-client-core.aarch64-darwin</li>
-<li>haskellPackages.blockfrost-client.aarch64-darwin</li>
-<li>haskellPackages.ci-info.aarch64-darwin</li>
-<li>haskellPackages.clckwrks-theme-bootstrap.aarch64-darwin</li>
-<li>haskellPackages.clckwrks.aarch64-darwin</li>
-<li>haskellPackages.dhall-nixpkgs.aarch64-darwin</li>
-<li>haskellPackages.docusign-client.aarch64-darwin</li>
-<li>haskellPackages.emanote.aarch64-darwin</li>
-<li>haskellPackages.git-annex.aarch64-darwin</li>
-<li>haskellPackages.hspec-tmp-proc.aarch64-darwin</li>
-<li>haskellPackages.mega-sdist.aarch64-darwin</li>
-<li>haskellPackages.monomer-hagrid.aarch64-darwin</li>
-<li>haskellPackages.pantry.aarch64-darwin</li>
-<li>haskellPackages.reddit-scrape.aarch64-darwin</li>
-<li>haskellPackages.stack.aarch64-darwin</li>
-<li>haskellPackages.tmp-proc-rabbitmq.aarch64-darwin</li>
-<li>haskellPackages.yesod-fb.aarch64-darwin</li>
-<li>http-prompt.aarch64-darwin</li>
-<li>naproche.aarch64-darwin</li>
-<li>python310Packages.einops.aarch64-darwin</li>
-<li>python310Packages.httpie-ntlm.aarch64-darwin</li>
-<li>python310Packages.jupyterlab-git.aarch64-darwin</li>
-<li>python310Packages.jupyterlab-lsp.aarch64-darwin</li>
-<li>python310Packages.mkdocs-jupyter.aarch64-darwin</li>
-<li>python310Packages.nbdime.aarch64-darwin</li>
-<li>python310Packages.vega.aarch64-darwin</li>
-<li>python310Packages.xarray-einstats.aarch64-darwin</li>
-<li>python311Packages.einops.aarch64-darwin</li>
-<li>python311Packages.git-annex-adapter.aarch64-darwin</li>
-<li>python311Packages.httpie-ntlm.aarch64-darwin</li>
-<li>python311Packages.jupyter.aarch64-darwin</li>
-<li>stack.aarch64-darwin</li>
-<li>vaultenv.aarch64-darwin</li>
-<li>wayback-machine-archiver.aarch64-darwin</li>
+<li>python310Packages.datashader.x86_64-darwin</li>
+<li>python310Packages.bokeh.aarch64-darwin</li>
+<li>python310Packages.bokeh.x86_64-darwin</li>
+<li>python310Packages.folium.aarch64-darwin</li>
+<li>python310Packages.folium.x86_64-darwin</li>
+<li>python310Packages.holoviews.aarch64-darwin</li>
+<li>python310Packages.holoviews.x86_64-darwin</li>
+<li>python310Packages.hvplot.aarch64-darwin</li>
+<li>python310Packages.hvplot.x86_64-darwin</li>
+<li>python310Packages.livelossplot.aarch64-darwin</li>
+<li>python310Packages.livelossplot.x86_64-darwin</li>
+<li>python310Packages.nbsmoke.aarch64-darwin</li>
+<li>python310Packages.nbsmoke.x86_64-darwin</li>
+<li>python310Packages.osmnx.aarch64-darwin</li>
+<li>python310Packages.osmnx.x86_64-darwin</li>
+<li>python310Packages.panel.aarch64-darwin</li>
+<li>python310Packages.panel.x86_64-darwin</li>
+<li>python310Packages.spacy-loggers.aarch64-darwin</li>
+<li>python310Packages.spacy-loggers.x86_64-darwin</li>
+<li>python310Packages.wandb.aarch64-darwin</li>
+<li>python310Packages.wandb.x86_64-darwin</li>
 </ul>
 </details>
 </td>
-<td>40</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/206755314'>x86_64-darwin python3.11-pyramid-2.0</a></tt></summary>
-<ul>
-<li>python311Packages.aiohttp-apispec.x86_64-darwin</li>
-<li>python311Packages.webargs.x86_64-darwin</li>
-<li>python311Packages.aiohttp-apispec.aarch64-linux</li>
-<li>python311Packages.aiohttp-apispec.x86_64-linux</li>
-<li>python311Packages.buildbot.x86_64-linux</li>
-<li>python311Packages.cornice.aarch64-linux</li>
-<li>python311Packages.cornice.x86_64-darwin</li>
-<li>python311Packages.cornice.x86_64-linux</li>
-<li>python311Packages.cypherpunkpay.x86_64-linux</li>
-<li>python311Packages.deform.aarch64-linux</li>
-<li>python311Packages.deform.x86_64-darwin</li>
-<li>python311Packages.deform.x86_64-linux</li>
-<li>python311Packages.pypugjs.aarch64-linux</li>
-<li>python311Packages.pypugjs.x86_64-darwin</li>
-<li>python311Packages.pypugjs.x86_64-linux</li>
-<li>python311Packages.pyramid_chameleon.x86_64-linux</li>
-<li>python311Packages.pyramid_exclog.aarch64-linux</li>
-<li>python311Packages.pyramid_exclog.x86_64-darwin</li>
-<li>python311Packages.pyramid_exclog.x86_64-linux</li>
-<li>python311Packages.pyramid_hawkauth.x86_64-linux</li>
-<li>python311Packages.pyramid_jinja2.x86_64-linux</li>
-<li>python311Packages.pyramid_mako.aarch64-linux</li>
-<li>python311Packages.pyramid_mako.x86_64-darwin</li>
-<li>python311Packages.pyramid_mako.x86_64-linux</li>
-<li>python311Packages.pyramid_multiauth.aarch64-linux</li>
-<li>python311Packages.pyramid_multiauth.x86_64-darwin</li>
-<li>python311Packages.pyramid_multiauth.x86_64-linux</li>
-<li>python311Packages.webargs.aarch64-linux</li>
-<li>python311Packages.webargs.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>37</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/207255459'>aarch64-darwin cmsis-pack-manager-0.5.1-native</a></tt></summary>
-<ul>
-<li>pyocd.aarch64-darwin</li>
-<li>pyocd.aarch64-linux</li>
-<li>pyocd.x86_64-linux</li>
-<li>python310Packages.cmsis-pack-manager.aarch64-darwin</li>
-<li>python310Packages.cmsis-pack-manager.aarch64-linux</li>
-<li>python310Packages.cmsis-pack-manager.x86_64-linux</li>
-<li>python310Packages.pyocd.aarch64-darwin</li>
-<li>python310Packages.pyocd.aarch64-linux</li>
-<li>python310Packages.pyocd.x86_64-linux</li>
-<li>python311Packages.cmsis-pack-manager.aarch64-darwin</li>
-<li>python311Packages.cmsis-pack-manager.aarch64-linux</li>
-<li>python311Packages.cmsis-pack-manager.x86_64-linux</li>
-<li>python311Packages.pyocd.aarch64-darwin</li>
-<li>python311Packages.pyocd.aarch64-linux</li>
-<li>python311Packages.pyocd.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>37</td>
+<td>36</td>
 </tr>
 <tr>
 <td>
@@ -73406,6 +73065,7 @@ Built for evals:
 <li>python311Packages.ansible-lint.aarch64-linux</li>
 <li>python311Packages.ansible-runner.aarch64-linux</li>
 <li>python311Packages.ansible.aarch64-linux</li>
+<li>python311Packages.atsim_potentials.aarch64-darwin</li>
 <li>python311Packages.atsim_potentials.aarch64-linux</li>
 <li>python311Packages.pyatv.aarch64-linux</li>
 <li>python311Packages.pyatv.x86_64-darwin</li>
@@ -73417,7 +73077,31 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>32</td>
+<td>33</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207225421'>aarch64-darwin python3.11-pyct-0.4.8</a></tt></summary>
+<ul>
+<li>python311Packages.colorcet.aarch64-darwin</li>
+<li>python311Packages.colorcet.aarch64-linux</li>
+<li>python311Packages.colorcet.x86_64-darwin</li>
+<li>python311Packages.colorcet.x86_64-linux</li>
+<li>python311Packages.holoviews.aarch64-linux</li>
+<li>python311Packages.holoviews.x86_64-darwin</li>
+<li>python311Packages.holoviews.x86_64-linux</li>
+<li>python311Packages.hvplot.aarch64-linux</li>
+<li>python311Packages.hvplot.x86_64-linux</li>
+<li>python311Packages.nbsmoke.aarch64-linux</li>
+<li>python311Packages.nbsmoke.x86_64-darwin</li>
+<li>python311Packages.nbsmoke.x86_64-linux</li>
+<li>python311Packages.panel.aarch64-linux</li>
+<li>python311Packages.panel.x86_64-darwin</li>
+<li>python311Packages.panel.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>31</td>
 </tr>
 <tr>
 <td>
@@ -73449,29 +73133,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/206320359'>aarch64-linux python3.11-pyct-0.4.8</a></tt></summary>
-<ul>
-<li>python311Packages.colorcet.aarch64-linux</li>
-<li>python311Packages.colorcet.x86_64-darwin</li>
-<li>python311Packages.colorcet.x86_64-linux</li>
-<li>python311Packages.holoviews.aarch64-linux</li>
-<li>python311Packages.holoviews.x86_64-darwin</li>
-<li>python311Packages.holoviews.x86_64-linux</li>
-<li>python311Packages.hvplot.aarch64-linux</li>
-<li>python311Packages.hvplot.x86_64-linux</li>
-<li>python311Packages.nbsmoke.aarch64-linux</li>
-<li>python311Packages.nbsmoke.x86_64-darwin</li>
-<li>python311Packages.nbsmoke.x86_64-linux</li>
-<li>python311Packages.panel.aarch64-linux</li>
-<li>python311Packages.panel.x86_64-darwin</li>
-<li>python311Packages.panel.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>29</td>
-</tr>
-<tr>
-<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/207231104'>aarch64-darwin python3.10-readchar-4.0.3</a></tt></summary>
 <ul>
 <li>moodle-dl.aarch64-darwin</li>
@@ -73486,6 +73147,26 @@ Built for evals:
 <li>python310Packages.translatepy.x86_64-darwin</li>
 <li>translatepy.aarch64-darwin</li>
 <li>translatepy.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>28</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207279405'>aarch64-linux python3.11-pygame-2.1.2</a></tt></summary>
+<ul>
+<li>python311Packages.pyautogui.aarch64-linux</li>
+<li>python311Packages.pygame-gui.aarch64-darwin</li>
+<li>python311Packages.pygame-gui.aarch64-linux</li>
+<li>python311Packages.pygame-gui.x86_64-darwin</li>
+<li>python311Packages.pygetwindow.aarch64-darwin</li>
+<li>python311Packages.pygetwindow.aarch64-linux</li>
+<li>python311Packages.pygetwindow.x86_64-darwin</li>
+<li>python311Packages.pyrect.aarch64-darwin</li>
+<li>python311Packages.pyrect.aarch64-linux</li>
+<li>python311Packages.pyrect.x86_64-darwin</li>
+<li>python311Packages.pytmx.aarch64-linux</li>
 </ul>
 </details>
 </td>
@@ -73532,6 +73213,35 @@ Built for evals:
 <li>python311Packages.glom.aarch64-linux</li>
 <li>python311Packages.glom.x86_64-darwin</li>
 <li>python311Packages.glom.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>26</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207245004'>aarch64-darwin python3.11-sip-4.19.25</a></tt></summary>
+<ul>
+<li>python311Packages.enaml.aarch64-darwin</li>
+<li>python311Packages.enaml.aarch64-linux</li>
+<li>python311Packages.enaml.x86_64-darwin</li>
+<li>python311Packages.enaml.x86_64-linux</li>
+<li>python311Packages.enamlx.aarch64-linux</li>
+<li>python311Packages.enamlx.x86_64-linux</li>
+<li>python311Packages.libarcus.aarch64-linux</li>
+<li>python311Packages.libarcus.x86_64-linux</li>
+<li>python311Packages.libsavitar.aarch64-darwin</li>
+<li>python311Packages.libsavitar.aarch64-linux</li>
+<li>python311Packages.libsavitar.x86_64-darwin</li>
+<li>python311Packages.libsavitar.x86_64-linux</li>
+<li>python311Packages.pynest2d.aarch64-linux</li>
+<li>python311Packages.pynest2d.x86_64-linux</li>
+<li>python311Packages.pyqt4.aarch64-linux</li>
+<li>python311Packages.pyqt4.x86_64-linux</li>
+<li>python311Packages.qscintilla-qt4.aarch64-linux</li>
+<li>python311Packages.qscintilla-qt4.x86_64-linux</li>
+<li>python311Packages.uranium.aarch64-linux</li>
+<li>python311Packages.uranium.x86_64-linux</li>
 </ul>
 </details>
 </td>
@@ -73672,33 +73382,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/206222217'>aarch64-linux python3.11-sip-4.19.25</a></tt></summary>
-<ul>
-<li>python311Packages.enaml.aarch64-linux</li>
-<li>python311Packages.enaml.x86_64-darwin</li>
-<li>python311Packages.enaml.x86_64-linux</li>
-<li>python311Packages.enamlx.aarch64-linux</li>
-<li>python311Packages.enamlx.x86_64-linux</li>
-<li>python311Packages.libarcus.aarch64-linux</li>
-<li>python311Packages.libarcus.x86_64-linux</li>
-<li>python311Packages.libsavitar.aarch64-linux</li>
-<li>python311Packages.libsavitar.x86_64-darwin</li>
-<li>python311Packages.libsavitar.x86_64-linux</li>
-<li>python311Packages.pynest2d.aarch64-linux</li>
-<li>python311Packages.pynest2d.x86_64-linux</li>
-<li>python311Packages.pyqt4.aarch64-linux</li>
-<li>python311Packages.pyqt4.x86_64-linux</li>
-<li>python311Packages.qscintilla-qt4.aarch64-linux</li>
-<li>python311Packages.qscintilla-qt4.x86_64-linux</li>
-<li>python311Packages.uranium.aarch64-linux</li>
-<li>python311Packages.uranium.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>22</td>
-</tr>
-<tr>
-<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/207179454'>aarch64-darwin python3.10-approvaltests-5.4.2</a></tt></summary>
 <ul>
 <li>python310Packages.robotframework-selenium2library.aarch64-darwin</li>
@@ -73709,6 +73392,27 @@ Built for evals:
 <li>python310Packages.robotframework-seleniumlibrary.aarch64-linux</li>
 <li>python310Packages.robotframework-seleniumlibrary.x86_64-darwin</li>
 <li>python310Packages.robotframework-seleniumlibrary.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>20</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207232157'>aarch64-darwin python3.11-amaranth-0.3</a></tt></summary>
+<ul>
+<li>python311Packages.amaranth-boards.aarch64-darwin</li>
+<li>python311Packages.amaranth-boards.aarch64-linux</li>
+<li>python311Packages.amaranth-boards.x86_64-darwin</li>
+<li>python311Packages.amaranth-boards.x86_64-linux</li>
+<li>python311Packages.amaranth-soc.aarch64-darwin</li>
+<li>python311Packages.amaranth-soc.aarch64-linux</li>
+<li>python311Packages.amaranth-soc.x86_64-darwin</li>
+<li>python311Packages.amaranth-soc.x86_64-linux</li>
+<li>python311Packages.glasgow.aarch64-darwin</li>
+<li>python311Packages.glasgow.aarch64-linux</li>
+<li>python311Packages.glasgow.x86_64-darwin</li>
+<li>python311Packages.glasgow.x86_64-linux</li>
 </ul>
 </details>
 </td>
@@ -73741,18 +73445,16 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt>aarch64-darwin python3.10-xyzservices-2022.9.0</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207246084'>aarch64-darwin python3.11-unittest-xml-reporting-3.2.0</a></tt></summary>
 <ul>
-<li>python310Packages.bokeh.aarch64-darwin</li>
-<li>python310Packages.folium.aarch64-darwin</li>
-<li>python310Packages.holoviews.aarch64-darwin</li>
-<li>python310Packages.hvplot.aarch64-darwin</li>
-<li>python310Packages.livelossplot.aarch64-darwin</li>
-<li>python310Packages.nbsmoke.aarch64-darwin</li>
-<li>python310Packages.osmnx.aarch64-darwin</li>
-<li>python310Packages.panel.aarch64-darwin</li>
-<li>python310Packages.spacy-loggers.aarch64-darwin</li>
-<li>python310Packages.wandb.aarch64-darwin</li>
+<li>python311Packages.dj-rest-auth.aarch64-darwin</li>
+<li>python311Packages.dj-rest-auth.aarch64-linux</li>
+<li>python311Packages.dj-rest-auth.x86_64-darwin</li>
+<li>python311Packages.dj-rest-auth.x86_64-linux</li>
+<li>python311Packages.drf-spectacular.aarch64-darwin</li>
+<li>python311Packages.drf-spectacular.aarch64-linux</li>
+<li>python311Packages.drf-spectacular.x86_64-darwin</li>
+<li>python311Packages.drf-spectacular.x86_64-linux</li>
 </ul>
 </details>
 </td>
@@ -73787,6 +73489,40 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207191306'>aarch64-darwin python3.11-datadog-0.44.0</a></tt></summary>
+<ul>
+<li>python311Packages.gradient.aarch64-darwin</li>
+<li>python311Packages.gradient.aarch64-linux</li>
+<li>python311Packages.gradient.x86_64-darwin</li>
+<li>python311Packages.gradient.x86_64-linux</li>
+<li>python311Packages.gradient_statsd.aarch64-darwin</li>
+<li>python311Packages.gradient_statsd.aarch64-linux</li>
+<li>python311Packages.gradient_statsd.x86_64-darwin</li>
+<li>python311Packages.gradient_statsd.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>18</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207225670'>aarch64-darwin python3.11-pyblake2-1.1.2</a></tt></summary>
+<ul>
+<li>python311Packages.trezor.aarch64-darwin</li>
+<li>python311Packages.trezor.aarch64-linux</li>
+<li>python311Packages.trezor.x86_64-darwin</li>
+<li>python311Packages.trezor.x86_64-linux</li>
+<li>python311Packages.trezor_agent.aarch64-darwin</li>
+<li>python311Packages.trezor_agent.aarch64-linux</li>
+<li>python311Packages.trezor_agent.x86_64-darwin</li>
+<li>python311Packages.trezor_agent.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>18</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/206558964'>aarch64-darwin source</a></tt></summary>
 <ul>
 <li>emacsPackages.khalel.aarch64-darwin</li>
@@ -73802,6 +73538,21 @@ Built for evals:
 </details>
 </td>
 <td>17</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207234860'>aarch64-darwin python3.10-questionary-unstable-2022-07-27</a></tt></summary>
+<ul>
+<li>audible-cli.aarch64-darwin</li>
+<li>audible-cli.x86_64-darwin</li>
+<li>commitizen.aarch64-darwin</li>
+<li>commitizen.x86_64-darwin</li>
+<li>copier.aarch64-darwin</li>
+<li>copier.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>16</td>
 </tr>
 <tr>
 <td>
@@ -73827,6 +73578,58 @@ Built for evals:
 </details>
 </td>
 <td>16</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207257255'>aarch64-darwin python3.11-boto-2.49.0</a></tt></summary>
+<ul>
+<li>python311Packages.gcs-oauth2-boto-plugin.aarch64-darwin</li>
+<li>python311Packages.gcs-oauth2-boto-plugin.aarch64-linux</li>
+<li>python311Packages.gcs-oauth2-boto-plugin.x86_64-darwin</li>
+<li>python311Packages.gcs-oauth2-boto-plugin.x86_64-linux</li>
+<li>python311Packages.google-compute-engine.aarch64-linux</li>
+<li>python311Packages.google-compute-engine.x86_64-linux</li>
+<li>python311Packages.qds_sdk.aarch64-darwin</li>
+<li>python311Packages.qds_sdk.aarch64-linux</li>
+<li>python311Packages.qds_sdk.x86_64-darwin</li>
+<li>python311Packages.qds_sdk.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>16</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207244924'>aarch64-darwin python3.11-fire-0.5.0</a></tt></summary>
+<ul>
+<li>python311Packages.autofaiss.aarch64-darwin</li>
+<li>python311Packages.autofaiss.x86_64-darwin</li>
+<li>python311Packages.autofaiss.aarch64-linux</li>
+<li>python311Packages.autofaiss.x86_64-linux</li>
+<li>python311Packages.nkdfu.aarch64-darwin</li>
+<li>python311Packages.nkdfu.aarch64-linux</li>
+<li>python311Packages.nkdfu.x86_64-darwin</li>
+<li>python311Packages.nkdfu.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>15</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207218571'>x86_64-darwin python3.10-pygls-1.0.0</a></tt></summary>
+<ul>
+<li>cmake-language-server.x86_64-darwin</li>
+<li>python310Packages.jedi-language-server.aarch64-darwin</li>
+<li>python310Packages.jedi-language-server.x86_64-darwin</li>
+<li>vimPlugins.YouCompleteMe.aarch64-darwin</li>
+<li>vimPlugins.YouCompleteMe.x86_64-darwin</li>
+<li>vscode-extensions.ms-python.python.x86_64-darwin</li>
+<li>ycmd.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>15</td>
 </tr>
 <tr>
 <td>
@@ -73881,14 +73684,14 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/206275994'>aarch64-linux python3.11-unittest-xml-reporting-3.2.0</a></tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207182188'>aarch64-darwin python3.10-seaborn-0.12.1</a></tt></summary>
 <ul>
-<li>python311Packages.dj-rest-auth.aarch64-linux</li>
-<li>python311Packages.dj-rest-auth.x86_64-darwin</li>
-<li>python311Packages.dj-rest-auth.x86_64-linux</li>
-<li>python311Packages.drf-spectacular.aarch64-linux</li>
-<li>python311Packages.drf-spectacular.x86_64-darwin</li>
-<li>python311Packages.drf-spectacular.x86_64-linux</li>
+<li>python310Packages.hyppo.aarch64-darwin</li>
+<li>python310Packages.hyppo.x86_64-darwin</li>
+<li>python310Packages.pycm.aarch64-darwin</li>
+<li>python310Packages.pycm.x86_64-darwin</li>
+<li>python310Packages.validphys2.x86_64-darwin</li>
+<li>validphys2.x86_64-darwin</li>
 </ul>
 </details>
 </td>
@@ -73930,21 +73733,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/206314648'>aarch64-linux python3.11-pyblake2-1.1.2</a></tt></summary>
-<ul>
-<li>python311Packages.trezor.aarch64-linux</li>
-<li>python311Packages.trezor.x86_64-darwin</li>
-<li>python311Packages.trezor.x86_64-linux</li>
-<li>python311Packages.trezor_agent.aarch64-linux</li>
-<li>python311Packages.trezor_agent.x86_64-darwin</li>
-<li>python311Packages.trezor_agent.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>14</td>
-</tr>
-<tr>
-<td>
 <details><summary><tt>aarch64-darwin python3.11-lark-1.1.5</tt></summary>
 <ul>
 <li>python311Packages.gdtoolkit.aarch64-darwin</li>
@@ -73958,14 +73746,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/207183997'>x86_64-darwin python3.11-fire-0.5.0</a></tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207207556'>aarch64-darwin python3.10-libtmux-0.18.1</a></tt></summary>
 <ul>
-<li>python311Packages.autofaiss.x86_64-darwin</li>
-<li>python311Packages.autofaiss.aarch64-linux</li>
-<li>python311Packages.autofaiss.x86_64-linux</li>
-<li>python311Packages.nkdfu.aarch64-linux</li>
-<li>python311Packages.nkdfu.x86_64-darwin</li>
-<li>python311Packages.nkdfu.x86_64-linux</li>
+<li>arsenal.aarch64-darwin</li>
+<li>arsenal.x86_64-darwin</li>
+<li>tmuxp.aarch64-darwin</li>
+<li>tmuxp.x86_64-darwin</li>
 </ul>
 </details>
 </td>
@@ -74005,14 +73791,14 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/207191306'>aarch64-darwin python3.11-datadog-0.44.0</a></tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207251470'>aarch64-linux python3.11-jupyter-server-mathjax-0.2.6</a></tt></summary>
 <ul>
-<li>python311Packages.gradient.aarch64-darwin</li>
-<li>python311Packages.gradient.aarch64-linux</li>
-<li>python311Packages.gradient.x86_64-linux</li>
-<li>python311Packages.gradient_statsd.aarch64-darwin</li>
-<li>python311Packages.gradient_statsd.aarch64-linux</li>
-<li>python311Packages.gradient_statsd.x86_64-linux</li>
+<li>python311Packages.jupyterlab-git.aarch64-linux</li>
+<li>python311Packages.jupyterlab-git.x86_64-darwin</li>
+<li>python311Packages.jupyterlab-git.x86_64-linux</li>
+<li>python311Packages.nbdime.aarch64-linux</li>
+<li>python311Packages.nbdime.x86_64-darwin</li>
+<li>python311Packages.nbdime.x86_64-linux</li>
 </ul>
 </details>
 </td>
@@ -74082,20 +73868,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/207218571'>x86_64-darwin python3.10-pygls-1.0.0</a></tt></summary>
-<ul>
-<li>cmake-language-server.x86_64-darwin</li>
-<li>python310Packages.jedi-language-server.x86_64-darwin</li>
-<li>vimPlugins.YouCompleteMe.x86_64-darwin</li>
-<li>vscode-extensions.ms-python.python.x86_64-darwin</li>
-<li>ycmd.x86_64-darwin</li>
-</ul>
-</details>
-</td>
-<td>11</td>
-</tr>
-<tr>
-<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/207181842'>aarch64-darwin hw-json-simd-0.1.1.2</a></tt></summary>
 <ul>
 <li>haskellPackages.hw-json-simple-cursor.aarch64-darwin</li>
@@ -74111,17 +73883,14 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/206323985'>aarch64-linux python3.11-amaranth-0.3</a></tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207220311'>aarch64-darwin python3.11-pysam-0.20.0</a></tt></summary>
 <ul>
-<li>python311Packages.amaranth-boards.aarch64-linux</li>
-<li>python311Packages.amaranth-boards.x86_64-darwin</li>
-<li>python311Packages.amaranth-boards.x86_64-linux</li>
-<li>python311Packages.amaranth-soc.aarch64-linux</li>
-<li>python311Packages.amaranth-soc.x86_64-darwin</li>
-<li>python311Packages.amaranth-soc.x86_64-linux</li>
-<li>python311Packages.glasgow.aarch64-linux</li>
-<li>python311Packages.glasgow.x86_64-darwin</li>
-<li>python311Packages.glasgow.x86_64-linux</li>
+<li>python311Packages.HTSeq.aarch64-darwin</li>
+<li>python311Packages.HTSeq.aarch64-linux</li>
+<li>python311Packages.HTSeq.x86_64-darwin</li>
+<li>python311Packages.HTSeq.x86_64-linux</li>
+<li>python311Packages.cnvkit.aarch64-linux</li>
+<li>python311Packages.cnvkit.x86_64-linux</li>
 </ul>
 </details>
 </td>
@@ -74234,6 +74003,36 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207206420'>aarch64-darwin python3.11-readchar-4.0.3</a></tt></summary>
+<ul>
+<li>python311Packages.chalice.aarch64-darwin</li>
+<li>python311Packages.chalice.x86_64-darwin</li>
+<li>python311Packages.inquirer.aarch64-darwin</li>
+<li>python311Packages.inquirer.x86_64-darwin</li>
+<li>python311Packages.toggl-cli.aarch64-darwin</li>
+<li>python311Packages.toggl-cli.x86_64-darwin</li>
+<li>python311Packages.translatepy.aarch64-darwin</li>
+<li>python311Packages.translatepy.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>10</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207201922'>aarch64-darwin python3.11-pylibjpeg-libjpeg-1.3.3</a></tt></summary>
+<ul>
+<li>python311Packages.dcmstack.aarch64-darwin</li>
+<li>python311Packages.dcmstack.aarch64-linux</li>
+<li>python311Packages.dcmstack.x86_64-darwin</li>
+<li>python311Packages.dcmstack.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>10</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/206240747'>aarch64-linux python3.11-rednose-1.3.0</a></tt></summary>
 <ul>
 <li>python311Packages.flask-admin.aarch64-linux</li>
@@ -74242,23 +74041,6 @@ Built for evals:
 <li>python311Packages.flask-mongoengine.x86_64-linux</li>
 <li>python311Packages.flask-security-too.aarch64-linux</li>
 <li>python311Packages.flask-security-too.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>10</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/206271531'>aarch64-linux python3.11-boto-2.49.0</a></tt></summary>
-<ul>
-<li>python311Packages.gcs-oauth2-boto-plugin.aarch64-linux</li>
-<li>python311Packages.gcs-oauth2-boto-plugin.x86_64-darwin</li>
-<li>python311Packages.gcs-oauth2-boto-plugin.x86_64-linux</li>
-<li>python311Packages.google-compute-engine.aarch64-linux</li>
-<li>python311Packages.google-compute-engine.x86_64-linux</li>
-<li>python311Packages.qds_sdk.aarch64-linux</li>
-<li>python311Packages.qds_sdk.x86_64-darwin</li>
-<li>python311Packages.qds_sdk.x86_64-linux</li>
 </ul>
 </details>
 </td>
@@ -74313,20 +74095,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/207279405'>aarch64-linux python3.11-pygame-2.1.2</a></tt></summary>
-<ul>
-<li>python311Packages.pyautogui.aarch64-linux</li>
-<li>python311Packages.pygame-gui.aarch64-linux</li>
-<li>python311Packages.pygetwindow.aarch64-linux</li>
-<li>python311Packages.pyrect.aarch64-linux</li>
-<li>python311Packages.pytmx.aarch64-linux</li>
-</ul>
-</details>
-</td>
-<td>10</td>
-</tr>
-<tr>
-<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/206168657'>x86_64-darwin gnat-wrapper-12.2.0</a></tt></summary>
 <ul>
 <li>gnatcoll-gmp.x86_64-darwin</li>
@@ -74359,13 +74127,50 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/206288392'>aarch64-linux python3.11-pysam-0.20.0</a></tt></summary>
+<details><summary><tt>aarch64-darwin python3.10-libvirt-python-8.10.0</tt></summary>
 <ul>
-<li>python311Packages.HTSeq.aarch64-linux</li>
-<li>python311Packages.HTSeq.x86_64-darwin</li>
-<li>python311Packages.HTSeq.x86_64-linux</li>
-<li>python311Packages.cnvkit.aarch64-linux</li>
-<li>python311Packages.cnvkit.x86_64-linux</li>
+<li>nixops_unstable.aarch64-darwin</li>
+<li>nixops_unstable.aarch64-linux</li>
+<li>nixops_unstable.x86_64-darwin</li>
+<li>nixops_unstable.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>9</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207206287'>aarch64-darwin python3.10-tensorboardx-2.5.1</a></tt></summary>
+<ul>
+<li>python310Packages.pytorch-lightning.aarch64-darwin</li>
+<li>python310Packages.pytorch-lightning.x86_64-darwin</li>
+<li>python310Packages.trainer.aarch64-darwin</li>
+<li>python310Packages.trainer.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>9</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207196439'>aarch64-darwin python3.10-scrapy-2.7.1</a></tt></summary>
+<ul>
+<li>python310Packages.scrapy-deltafetch.aarch64-darwin</li>
+<li>python310Packages.scrapy-fake-useragent.aarch64-darwin</li>
+<li>python310Packages.scrapy-splash.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>9</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>aarch64-darwin python3.11-whodap-0.1.7</tt></summary>
+<ul>
+<li>python311Packages.asyncwhois.aarch64-darwin</li>
+<li>python311Packages.asyncwhois.aarch64-linux</li>
+<li>python311Packages.asyncwhois.x86_64-darwin</li>
+<li>python311Packages.asyncwhois.x86_64-linux</li>
 </ul>
 </details>
 </td>
@@ -74386,11 +74191,26 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/206249132'>x86_64-darwin python3.10-questionary-unstable-2022-07-27</a></tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207196874'>aarch64-darwin python3.11-pony-0.7.16</a></tt></summary>
 <ul>
-<li>audible-cli.x86_64-darwin</li>
-<li>commitizen.x86_64-darwin</li>
-<li>copier.x86_64-darwin</li>
+<li>python311Packages.flask-security-too.aarch64-darwin</li>
+<li>python311Packages.flask-security-too.x86_64-darwin</li>
+<li>python311Packages.ponywhoosh.aarch64-darwin</li>
+<li>python311Packages.ponywhoosh.aarch64-linux</li>
+<li>python311Packages.ponywhoosh.x86_64-darwin</li>
+<li>python311Packages.ponywhoosh.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>9</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207223546'>aarch64-darwin inline-r-1.0.0</a></tt></summary>
+<ul>
+<li>haskellPackages.H.aarch64-darwin</li>
+<li>haskellPackages.H.x86_64-darwin</li>
+<li>haskellPackages.ihaskell-inline-r.x86_64-darwin</li>
 </ul>
 </details>
 </td>
@@ -74484,6 +74304,19 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207212212'>aarch64-darwin python3.11-scikit-misc-0.1.4</a></tt></summary>
+<ul>
+<li>python311Packages.plotnine.aarch64-darwin</li>
+<li>python311Packages.plotnine.aarch64-linux</li>
+<li>python311Packages.plotnine.x86_64-darwin</li>
+<li>python311Packages.plotnine.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>8</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/207230670'>aarch64-linux python3.11-pyside-shiboken-1.2.4</a></tt></summary>
 <ul>
 <li>python311Packages.pyside.aarch64-linux</li>
@@ -74510,18 +74343,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt>aarch64-darwin python3.11-whodap-0.1.7</tt></summary>
-<ul>
-<li>python311Packages.asyncwhois.aarch64-darwin</li>
-<li>python311Packages.asyncwhois.aarch64-linux</li>
-<li>python311Packages.asyncwhois.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>7</td>
-</tr>
-<tr>
-<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/207244559'>aarch64-darwin python3.11-aiofile-3.8.0</a></tt></summary>
 <ul>
 <li>python311Packages.bimmer-connected.aarch64-darwin</li>
@@ -74535,11 +74356,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/206268676'>aarch64-linux python3.11-pylibjpeg-libjpeg-1.3.3</a></tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207214479'>aarch64-darwin python3.11-ical-4.2.9</a></tt></summary>
 <ul>
-<li>python311Packages.dcmstack.aarch64-linux</li>
-<li>python311Packages.dcmstack.x86_64-darwin</li>
-<li>python311Packages.dcmstack.x86_64-linux</li>
+<li>python311Packages.gcal-sync.aarch64-darwin</li>
+<li>python311Packages.gcal-sync.aarch64-linux</li>
+<li>python311Packages.gcal-sync.x86_64-darwin</li>
+<li>python311Packages.gcal-sync.x86_64-linux</li>
 </ul>
 </details>
 </td>
@@ -74568,6 +74390,21 @@ Built for evals:
 </details>
 </td>
 <td>7</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207335569'>aarch64-darwin s2n-tls-1.3.34</a></tt></summary>
+<ul>
+<li>python311Packages.autofaiss.aarch64-darwin</li>
+<li>cabal2nix.aarch64-darwin</li>
+<li>haskellPackages.cabal2nix-unstable.aarch64-darwin</li>
+<li>haskellPackages.update-nix-fetchgit.aarch64-darwin</li>
+<li>python311Packages.nix-kernel.aarch64-darwin</li>
+<li>update-nix-fetchgit.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>6</td>
 </tr>
 <tr>
 <td>
@@ -74659,6 +74496,18 @@ Built for evals:
 <li>libsForQt5.neochat.aarch64-linux</li>
 <li>plasma5Packages.neochat.aarch64-linux</li>
 <li>quaternion.aarch64-linux</li>
+</ul>
+</details>
+</td>
+<td>6</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207233203'>x86_64-darwin qca-qt5-2.3.5</a></tt></summary>
+<ul>
+<li>libsForQt5.qoauth.x86_64-darwin</li>
+<li>plasma5Packages.qoauth.x86_64-darwin</li>
+<li>quasselDaemon.x86_64-darwin</li>
 </ul>
 </details>
 </td>
@@ -74790,6 +74639,30 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207198780'>x86_64-darwin qtkeychain-0.12.0</a></tt></summary>
+<ul>
+<li>owncloud-client.x86_64-darwin</li>
+<li>quaternion.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>6</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207229622'>aarch64-darwin python3.11-pyvo-1.4</a></tt></summary>
+<ul>
+<li>python311Packages.astroquery.aarch64-darwin</li>
+<li>python311Packages.astroquery.aarch64-linux</li>
+<li>python311Packages.astroquery.x86_64-darwin</li>
+<li>python311Packages.astroquery.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>6</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/206242352'>x86_64-darwin python3.11-cexprtk-0.4.0</a></tt></summary>
 <ul>
 <li>python311Packages.atsim_potentials.x86_64-darwin</li>
@@ -74801,12 +74674,14 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/206243317'>x86_64-darwin python3.11-readchar-4.0.3</a></tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207249652'>aarch64-darwin python3.11-venusian-3.0.0</a></tt></summary>
 <ul>
-<li>python311Packages.chalice.x86_64-darwin</li>
-<li>python311Packages.inquirer.x86_64-darwin</li>
-<li>python311Packages.toggl-cli.x86_64-darwin</li>
-<li>python311Packages.translatepy.x86_64-darwin</li>
+<li>python311Packages.cornice.aarch64-darwin</li>
+<li>python311Packages.deform.aarch64-darwin</li>
+<li>python311Packages.pypugjs.aarch64-darwin</li>
+<li>python311Packages.pyramid_exclog.aarch64-darwin</li>
+<li>python311Packages.pyramid_mako.aarch64-darwin</li>
+<li>python311Packages.pyramid_multiauth.aarch64-darwin</li>
 </ul>
 </details>
 </td>
@@ -74818,6 +74693,19 @@ Built for evals:
 <ul>
 <li>python311Packages.django-q.aarch64-linux</li>
 <li>python311Packages.django-q.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>6</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207209722'>aarch64-darwin python3.11-dlib-19.24</a></tt></summary>
+<ul>
+<li>python311Packages.face-recognition.aarch64-darwin</li>
+<li>python311Packages.face-recognition.aarch64-linux</li>
+<li>python311Packages.face-recognition.x86_64-darwin</li>
+<li>python311Packages.face-recognition.x86_64-linux</li>
 </ul>
 </details>
 </td>
@@ -74837,24 +74725,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/207251470'>aarch64-linux python3.11-jupyter-server-mathjax-0.2.6</a></tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207197314'>aarch64-darwin python3.11-pkutils-3.0.2</a></tt></summary>
 <ul>
-<li>python311Packages.jupyterlab-git.aarch64-linux</li>
-<li>python311Packages.jupyterlab-git.x86_64-linux</li>
-<li>python311Packages.nbdime.aarch64-linux</li>
-<li>python311Packages.nbdime.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>6</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/206315750'>aarch64-linux python3.11-scikit-misc-0.1.4</a></tt></summary>
-<ul>
-<li>python311Packages.plotnine.aarch64-linux</li>
-<li>python311Packages.plotnine.x86_64-darwin</li>
-<li>python311Packages.plotnine.x86_64-linux</li>
+<li>python311Packages.pygogo.aarch64-darwin</li>
+<li>python311Packages.pygogo.aarch64-linux</li>
+<li>python311Packages.pygogo.x86_64-darwin</li>
+<li>python311Packages.pygogo.x86_64-linux</li>
 </ul>
 </details>
 </td>
@@ -74888,13 +74764,24 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/207335569'>aarch64-darwin s2n-tls-1.3.34</a></tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207247081'>aarch64-darwin python3.10-orjson-3.8.4</a></tt></summary>
 <ul>
-<li>cabal2nix.aarch64-darwin</li>
-<li>haskellPackages.cabal2nix-unstable.aarch64-darwin</li>
-<li>haskellPackages.update-nix-fetchgit.aarch64-darwin</li>
-<li>python311Packages.nix-kernel.aarch64-darwin</li>
-<li>update-nix-fetchgit.aarch64-darwin</li>
+<li>cmake-language-server.aarch64-darwin</li>
+<li>python310Packages.ansible-kernel.aarch64-darwin</li>
+<li>python310Packages.jedi-language-server.aarch64-darwin</li>
+<li>vimPlugins.YouCompleteMe.aarch64-darwin</li>
+<li>ycmd.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>5</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>x86_64-darwin ocaml4.14.0-pyml-20220905</tt></summary>
+<ul>
+<li>coccinelle.x86_64-darwin</li>
+<li>cvehound.x86_64-darwin</li>
 </ul>
 </details>
 </td>
@@ -74909,6 +74796,18 @@ Built for evals:
 <li>haskellPackages.tmp-proc-rabbitmq.aarch64-darwin</li>
 <li>haskellPackages.tmp-proc-redis.aarch64-darwin</li>
 <li>haskellPackages.tmp-proc-zipkin.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>5</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207229896'>aarch64-darwin hw-simd-0.1.2.2</a></tt></summary>
+<ul>
+<li>haskellPackages.hw-dsv.aarch64-darwin</li>
+<li>haskellPackages.hw-dsv.aarch64-linux</li>
+<li>haskellPackages.hw-json.aarch64-darwin</li>
 </ul>
 </details>
 </td>
@@ -74970,6 +74869,19 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt>aarch64-darwin ruby2.7.6-eventmachine-1.0.9.1</tt></summary>
+<ul>
+<li>mailcatcher.aarch64-darwin</li>
+<li>mailcatcher.x86_64-darwin</li>
+<li>vpsfree-client.aarch64-darwin</li>
+<li>vpsfree-client.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>5</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/207219601'>aarch64-darwin python3.10-Kivy-2.1.0</a></tt></summary>
 <ul>
 <li>nsz.aarch64-darwin</li>
@@ -75005,11 +74917,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/207211319'>aarch64-linux python3.11-ical-4.2.9</a></tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207231997'>aarch64-darwin python3.11-typish-1.9.3</a></tt></summary>
 <ul>
-<li>python311Packages.gcal-sync.aarch64-linux</li>
-<li>python311Packages.gcal-sync.x86_64-darwin</li>
-<li>python311Packages.gcal-sync.x86_64-linux</li>
+<li>python311Packages.jsons.aarch64-darwin</li>
+<li>python311Packages.jsons.aarch64-linux</li>
+<li>python311Packages.jsons.x86_64-darwin</li>
+<li>python311Packages.jsons.x86_64-linux</li>
 </ul>
 </details>
 </td>
@@ -75042,12 +74955,61 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207260272'>aarch64-darwin python3.11-trio-asyncio-0.12.0</a></tt></summary>
+<ul>
+<li>python311Packages.pytest-aio.aarch64-darwin</li>
+<li>python311Packages.pytest-aio.aarch64-linux</li>
+<li>python311Packages.pytest-aio.x86_64-darwin</li>
+<li>python311Packages.pytest-aio.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>5</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/207178697'>aarch64-darwin python3.11-zope-testbrowser-5.6.1</a></tt></summary>
 <ul>
 <li>python311Packages.splinter.aarch64-darwin</li>
 <li>python311Packages.splinter.aarch64-linux</li>
 <li>python311Packages.splinter.x86_64-darwin</li>
 <li>python311Packages.splinter.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>5</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207253769'>aarch64-darwin python3.11-stem-1.8.1</a></tt></summary>
+<ul>
+<li>python311Packages.torrequest.aarch64-darwin</li>
+<li>python311Packages.torrequest.aarch64-linux</li>
+<li>python311Packages.torrequest.x86_64-darwin</li>
+<li>python311Packages.torrequest.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>5</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207220757'>aarch64-darwin python3.11-virtualenv-clone-0.5.7</a></tt></summary>
+<ul>
+<li>python311Packages.virtualenvwrapper.aarch64-darwin</li>
+<li>python311Packages.virtualenvwrapper.aarch64-linux</li>
+<li>python311Packages.virtualenvwrapper.x86_64-darwin</li>
+<li>python311Packages.virtualenvwrapper.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>5</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>x86_64-darwin python3-aarch64-apple-darwin-3.10.9</tt></summary>
+<ul>
+<li>stdenvBootstrapTools.aarch64-darwin.dist</li>
 </ul>
 </details>
 </td>
@@ -75099,10 +75061,32 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt>aarch64-darwin epgstation-client-2.6.20</tt></summary>
+<ul>
+<li>epgstation.aarch64-darwin</li>
+<li>epgstation.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>4</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/206220480'>aarch64-linux python3.10-etebase-0.31.5</a></tt></summary>
 <ul>
 <li>etesync-dav.aarch64-linux</li>
 <li>etesync-dav.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>4</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207213389'>aarch64-darwin python3.10-python-flirt-0.7.0</a></tt></summary>
+<ul>
+<li>flare-floss.aarch64-darwin</li>
+<li>flare-floss.x86_64-darwin</li>
 </ul>
 </details>
 </td>
@@ -75123,12 +75107,34 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207198055'>aarch64-darwin Crypto-4.2.5.1</a></tt></summary>
+<ul>
+<li>haskellPackages.hS3.aarch64-darwin</li>
+<li>haskellPackages.hS3.aarch64-linux</li>
+</ul>
+</details>
+</td>
+<td>4</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/207186770'>aarch64-darwin quic-0.0.1</a></tt></summary>
 <ul>
 <li>haskellPackages.http3.aarch64-darwin</li>
 <li>haskellPackages.http3.aarch64-linux</li>
 <li>haskellPackages.warp-quic.aarch64-darwin</li>
 <li>haskellPackages.warp-quic.aarch64-linux</li>
+</ul>
+</details>
+</td>
+<td>4</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207255139'>aarch64-darwin regex-rure-0.1.2.0</a></tt></summary>
+<ul>
+<li>haskellPackages.jacinda.aarch64-darwin</li>
+<li>jacinda.aarch64-darwin</li>
 </ul>
 </details>
 </td>
@@ -75158,6 +75164,28 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207209826'>aarch64-darwin select-0.4.0.1</a></tt></summary>
+<ul>
+<li>haskellPackages.xbattbar.aarch64-darwin</li>
+<li>haskellPackages.xbattbar.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>4</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207216130'>aarch64-darwin jellyfin-web-10.8.9</a></tt></summary>
+<ul>
+<li>jellyfin.aarch64-darwin</li>
+<li>jellyfin.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>4</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/206215421'>x86_64-linux cl-out123-20190710-git</a></tt></summary>
 <ul>
 <li>lispPackages_new.sbclPackages.cl-mixed-examples.x86_64-linux</li>
@@ -75171,10 +75199,32 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt>aarch64-linux python3.10-libvirt-python-8.10.0</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207241836'>aarch64-darwin python3.10-libgpuarray-0.7.6</a></tt></summary>
 <ul>
-<li>nixops_unstable.aarch64-linux</li>
-<li>nixops_unstable.x86_64-linux</li>
+<li>python310Packages.Theano.aarch64-darwin</li>
+<li>python310Packages.TheanoWithoutCuda.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>4</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207242700'>aarch64-darwin python3.10-can-4.1.0</a></tt></summary>
+<ul>
+<li>python310Packages.canopen.aarch64-darwin</li>
+<li>python310Packages.canopen.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>4</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207245579'>aarch64-darwin python3.10-clvm-tools-rs-0.1.25</a></tt></summary>
+<ul>
+<li>python310Packages.clvm-tools.aarch64-darwin</li>
+<li>python310Packages.clvm-tools.x86_64-darwin</li>
 </ul>
 </details>
 </td>
@@ -75241,12 +75291,34 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207237251'>aarch64-darwin python3.11-libgpuarray-0.7.6</a></tt></summary>
+<ul>
+<li>python311Packages.Theano.aarch64-darwin</li>
+<li>python311Packages.TheanoWithoutCuda.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>4</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/206240487'>aarch64-linux python3.11-asyncio-dgram-2.1.2</a></tt></summary>
 <ul>
 <li>python311Packages.aioguardian.aarch64-linux</li>
 <li>python311Packages.aioguardian.x86_64-linux</li>
 <li>python311Packages.mcstatus.aarch64-linux</li>
 <li>python311Packages.mcstatus.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>4</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207205935'>aarch64-darwin python3.11-clvm-tools-rs-0.1.25</a></tt></summary>
+<ul>
+<li>python311Packages.clvm-tools.aarch64-darwin</li>
+<li>python311Packages.clvm-tools.x86_64-darwin</li>
 </ul>
 </details>
 </td>
@@ -75269,19 +75341,6 @@ Built for evals:
 <ul>
 <li>python311Packages.django-scim2.aarch64-linux</li>
 <li>python311Packages.django-scim2.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>4</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/206183303'>x86_64-darwin python3.11-pony-0.7.16</a></tt></summary>
-<ul>
-<li>python311Packages.flask-security-too.x86_64-darwin</li>
-<li>python311Packages.ponywhoosh.aarch64-linux</li>
-<li>python311Packages.ponywhoosh.x86_64-darwin</li>
-<li>python311Packages.ponywhoosh.x86_64-linux</li>
 </ul>
 </details>
 </td>
@@ -75370,6 +75429,17 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207229856'>aarch64-darwin cargo-watch-8.3.0</a></tt></summary>
+<ul>
+<li>cargo-lambda.aarch64-darwin</li>
+<li>cargo-lambda.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>3</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/206692937'>aarch64-darwin cctools-973.0.1.tar.gz</a></tt></summary>
 <ul>
 <li>darwin.cctools-apple.aarch64-darwin</li>
@@ -75416,6 +75486,29 @@ Built for evals:
 <ul>
 <li>handbrake.aarch64-linux</li>
 <li>handbrake.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>3</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207233525'>aarch64-darwin thyme-0.3.5.5</a></tt></summary>
+<ul>
+<li>haskellPackages.fastparser.aarch64-darwin</li>
+<li>haskellPackages.fastparser.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>3</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207226630'>aarch64-darwin cached-json-file-0.1.1</a></tt></summary>
+<ul>
+<li>haskellPackages.fedora-dists.aarch64-darwin</li>
+<li>haskellPackages.fedora-haskell-tools.aarch64-darwin</li>
+<li>haskellPackages.stack-all.aarch64-darwin</li>
 </ul>
 </details>
 </td>
@@ -75583,6 +75676,16 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207205182'>x86_64-darwin age-1.1.1</a></tt></summary>
+<ul>
+<li>passage.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>3</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/207232185'>x86_64-linux ponyc-0.50.0</a></tt></summary>
 <ul>
 <li>pony-corral.x86_64-linux</li>
@@ -75613,17 +75716,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/207182188'>aarch64-darwin python3.10-seaborn-0.12.1</a></tt></summary>
-<ul>
-<li>python310Packages.hyppo.aarch64-darwin</li>
-<li>python310Packages.pycm.aarch64-darwin</li>
-</ul>
-</details>
-</td>
-<td>3</td>
-</tr>
-<tr>
-<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/207181656'>aarch64-darwin python3.10-pydevd-2.8.0</a></tt></summary>
 <ul>
 <li>python310Packages.omegaconf.aarch64-darwin</li>
@@ -75645,6 +75737,28 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207226782'>aarch64-darwin python3.10-simpy-4.0.1</a></tt></summary>
+<ul>
+<li>python310Packages.wsnsimpy.aarch64-darwin</li>
+<li>python310Packages.wsnsimpy.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>3</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207259456'>aarch64-darwin python3.11-breezy-3.2.2</a></tt></summary>
+<ul>
+<li>python311Packages.check-manifest.aarch64-darwin</li>
+<li>python311Packages.check-manifest.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>3</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/207238322'>x86_64-linux python3.11-jmp-unstable-2021-10-03</a></tt></summary>
 <ul>
 <li>python311Packages.dm-haiku.x86_64-linux</li>
@@ -75655,11 +75769,9 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/206248502'>aarch64-linux python3.11-dlib-19.24</a></tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207219116'>x86_64-darwin python3.11-pygls-1.0.0</a></tt></summary>
 <ul>
-<li>python311Packages.face-recognition.aarch64-linux</li>
-<li>python311Packages.face-recognition.x86_64-darwin</li>
-<li>python311Packages.face-recognition.x86_64-linux</li>
+<li>python311Packages.jedi-language-server.x86_64-darwin</li>
 </ul>
 </details>
 </td>
@@ -75667,11 +75779,9 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/206223472'>aarch64-linux python3.11-typish-1.9.3</a></tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207230933'>aarch64-darwin python3.11-Kivy-2.1.0</a></tt></summary>
 <ul>
-<li>python311Packages.jsons.aarch64-linux</li>
-<li>python311Packages.jsons.x86_64-darwin</li>
-<li>python311Packages.jsons.x86_64-linux</li>
+<li>python311Packages.nsz.aarch64-darwin</li>
 </ul>
 </details>
 </td>
@@ -75679,11 +75789,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/206213972'>aarch64-linux python3.11-pkutils-3.0.2</a></tt></summary>
+<details><summary><tt>aarch64-darwin test-writers-haskell</tt></summary>
 <ul>
-<li>python311Packages.pygogo.aarch64-linux</li>
-<li>python311Packages.pygogo.x86_64-darwin</li>
-<li>python311Packages.pygogo.x86_64-linux</li>
+<li>tests.haskell.writers.aarch64-darwin</li>
+<li>tests.writers.aarch64-darwin</li>
 </ul>
 </details>
 </td>
@@ -75691,35 +75800,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/206308775'>aarch64-linux python3.11-trio-asyncio-0.12.0</a></tt></summary>
+<details><summary><tt>aarch64-darwin test-writers-rust-bin</tt></summary>
 <ul>
-<li>python311Packages.pytest-aio.aarch64-linux</li>
-<li>python311Packages.pytest-aio.x86_64-darwin</li>
-<li>python311Packages.pytest-aio.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>3</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/206230452'>aarch64-linux python3.11-stem-1.8.1</a></tt></summary>
-<ul>
-<li>python311Packages.torrequest.aarch64-linux</li>
-<li>python311Packages.torrequest.x86_64-darwin</li>
-<li>python311Packages.torrequest.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>3</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/206177135'>aarch64-linux python3.11-virtualenv-clone-0.5.7</a></tt></summary>
-<ul>
-<li>python311Packages.virtualenvwrapper.aarch64-linux</li>
-<li>python311Packages.virtualenvwrapper.x86_64-darwin</li>
-<li>python311Packages.virtualenvwrapper.x86_64-linux</li>
+<li>tests.writers.aarch64-darwin</li>
+<li>tests.writers.aarch64-linux</li>
 </ul>
 </details>
 </td>
@@ -75779,16 +75863,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/206223612'>x86_64-darwin python3.10-python-flirt-0.7.0</a></tt></summary>
-<ul>
-<li>flare-floss.x86_64-darwin</li>
-</ul>
-</details>
-</td>
-<td>2</td>
-</tr>
-<tr>
-<td>
 <details><summary><tt>aarch64-linux fluffychat-1.2.0-deps-flutter-v2.10.5-aarch64-linux.tar.gz</tt></summary>
 <ul>
 <li>fluffychat.aarch64-linux</li>
@@ -75830,10 +75904,9 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/207208017'>aarch64-linux hw-simd-0.1.2.2</a></tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207234892'>aarch64-darwin gauge-0.2.5</a></tt></summary>
 <ul>
-<li>haskellPackages.hw-dsv.aarch64-linux</li>
-<li>haskellPackages.hw-json.aarch64-darwin</li>
+<li>haskellPackages.piped.aarch64-darwin</li>
 </ul>
 </details>
 </td>
@@ -75845,6 +75918,16 @@ Built for evals:
 <ul>
 <li>haskellPackages.soap-openssl.aarch64-darwin</li>
 <li>haskellPackages.soap-tls.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>aarch64-darwin hledger-check-fancyassertions</tt></summary>
+<ul>
+<li>hledger-check-fancyassertions.aarch64-darwin</li>
 </ul>
 </details>
 </td>
@@ -75866,16 +75949,6 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/207333433'>aarch64-linux irods-4.2.11</a></tt></summary>
 <ul>
 <li>irods-icommands.aarch64-linux</li>
-</ul>
-</details>
-</td>
-<td>2</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/206803683'>x86_64-darwin jellyfin-web-10.8.9</a></tt></summary>
-<ul>
-<li>jellyfin.x86_64-darwin</li>
 </ul>
 </details>
 </td>
@@ -76014,17 +76087,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt>x86_64-darwin ruby2.7.6-eventmachine-1.0.9.1</tt></summary>
-<ul>
-<li>mailcatcher.x86_64-darwin</li>
-<li>vpsfree-client.x86_64-darwin</li>
-</ul>
-</details>
-</td>
-<td>2</td>
-</tr>
-<tr>
-<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/206796980'>aarch64-linux python3.10-Flask-SQLAlchemy-3.0.2</a></tt></summary>
 <ul>
 <li>mailman-web.aarch64-linux</li>
@@ -76046,6 +76108,16 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt>aarch64-darwin netcoredbg-2.0.0-895</tt></summary>
+<ul>
+<li>netcoredbg.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/206199064'>x86_64-darwin vmath-1.1.1</a></tt></summary>
 <ul>
 <li>nimPackages.bumpy.x86_64-darwin</li>
@@ -76057,9 +76129,29 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt>aarch64-darwin python3.9-flask-2.2.2</tt></summary>
+<ul>
+<li>ntfy.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt>aarch64-linux python3.9-sphinx-5.3.0</tt></summary>
 <ul>
 <li>privacyidea.aarch64-linux</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207211526'>x86_64-darwin python3.10-ansible-runner-2.3.1</a></tt></summary>
+<ul>
+<li>python310Packages.ansible-kernel.x86_64-darwin</li>
 </ul>
 </details>
 </td>
@@ -76132,17 +76224,6 @@ Built for evals:
 <details><summary><tt>aarch64-linux airflow-frontend</tt></summary>
 <ul>
 <li>python311Packages.apache-airflow.aarch64-linux</li>
-</ul>
-</details>
-</td>
-<td>2</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/207195321'>aarch64-linux python3.11-pyvo-1.4</a></tt></summary>
-<ul>
-<li>python311Packages.astroquery.aarch64-linux</li>
-<li>python311Packages.astroquery.x86_64-linux</li>
 </ul>
 </details>
 </td>
@@ -76277,6 +76358,16 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt>aarch64-darwin ruby2.7.6-i18n-1.8.2</tt></summary>
+<ul>
+<li>vpsfree-client.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/207332558'>x86_64-darwin aws-sdk-cpp-1.9.294</a></tt></summary>
 <ul>
 <li>python310Packages.spacy-transformers.x86_64-darwin</li>
@@ -76307,9 +76398,19 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/206316044'>x86_64-darwin cargo-watch-8.3.0</a></tt></summary>
+<details><summary><tt>x86_64-darwin ocaml4.14.0-stdcompat-19</tt></summary>
 <ul>
-<li>cargo-lambda.x86_64-darwin</li>
+<li>cvehound.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207259042'>aarch64-darwin darcs-2.16.5</a></tt></summary>
+<ul>
+<li>darcs-to-git.aarch64-darwin</li>
 </ul>
 </details>
 </td>
@@ -76320,16 +76421,6 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/206712517'>aarch64-darwin ld64-609.tar.gz</a></tt></summary>
 <ul>
 <li>darwin.cctools-apple.aarch64-darwin</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>x86_64-darwin epgstation-client-2.6.20</tt></summary>
-<ul>
-<li>epgstation.x86_64-darwin</li>
 </ul>
 </details>
 </td>
@@ -76417,26 +76508,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/207233525'>aarch64-darwin thyme-0.3.5.5</a></tt></summary>
-<ul>
-<li>haskellPackages.fastparser.aarch64-darwin</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/206178197'>aarch64-linux Crypto-4.2.5.1</a></tt></summary>
-<ul>
-<li>haskellPackages.hS3.aarch64-linux</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/206348169'>aarch64-linux nlopt-haskell-0.1.3.0</a></tt></summary>
 <ul>
 <li>haskellPackages.hmatrix-nlopt.aarch64-linux</li>
@@ -76467,6 +76538,16 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207199848'>aarch64-darwin ratel-2.0.0.4</a></tt></summary>
+<ul>
+<li>haskellPackages.ratel-wai.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/207204799'>aarch64-darwin scalpel-0.6.2.1</a></tt></summary>
 <ul>
 <li>haskellPackages.reddit-scrape.aarch64-darwin</li>
@@ -76477,9 +76558,19 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/206288241'>x86_64-darwin select-0.4.0.1</a></tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207204675'>aarch64-darwin simple-cmd-args-0.1.8</a></tt></summary>
 <ul>
-<li>haskellPackages.xbattbar.x86_64-darwin</li>
+<li>haskellPackages.stack-all.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207222432'>aarch64-darwin hal-1.0.0.1</a></tt></summary>
+<ul>
+<li>haskellPackages.wai-handler-hal.aarch64-darwin</li>
 </ul>
 </details>
 </td>
@@ -76877,6 +76968,146 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt>aarch64-darwin python3.10-docutils-0.19</tt></summary>
+<ul>
+<li>nixops_unstable.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>aarch64-darwin python3.10-pyrsistent-0.19.2</tt></summary>
+<ul>
+<li>nixops_unstable.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>x86_64-darwin python3.10-scikit-build-0.16.4</tt></summary>
+<ul>
+<li>nixops_unstable.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>x86_64-darwin python3.10-setuptools-scm-7.1.0</tt></summary>
+<ul>
+<li>nixops_unstable.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>x86_64-darwin python3.10-distro-1.8.0</tt></summary>
+<ul>
+<li>nixops_unstable.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>x86_64-darwin python3.10-requests-2.28.1</tt></summary>
+<ul>
+<li>nixops_unstable.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>x86_64-darwin python3.10-pyparsing-3.0.9</tt></summary>
+<ul>
+<li>nixops_unstable.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>x86_64-darwin python3.10-tomli-2.0.1</tt></summary>
+<ul>
+<li>nixops_unstable.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>aarch64-darwin python3.9-slack-sdk-3.19.5</tt></summary>
+<ul>
+<li>ntfy.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207236040'>aarch64-darwin python3.9-invoke-1.7.3</a></tt></summary>
+<ul>
+<li>ntfy.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>aarch64-darwin python3.9-aws-sam-translator-1.55.0</tt></summary>
+<ul>
+<li>ntfy.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>aarch64-darwin python3.9-flake8-6.0.0</tt></summary>
+<ul>
+<li>ntfy.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>aarch64-darwin python3.9-graphql-core-3.2.3</tt></summary>
+<ul>
+<li>ntfy.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>aarch64-darwin python3.9-sarif-om-1.0.4</tt></summary>
+<ul>
+<li>ntfy.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/206200640'>aarch64-darwin perl5.34.1-Math-Pari-2.030518</a></tt></summary>
 <ul>
 <li>perl534Packages.CryptRandom.aarch64-darwin</li>
@@ -76937,16 +77168,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/207247081'>aarch64-darwin python3.10-orjson-3.8.4</a></tt></summary>
-<ul>
-<li>python310Packages.ansible-kernel.aarch64-darwin</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
 <details><summary><tt>aarch64-darwin python3.10-asgiref-3.5.2</tt></summary>
 <ul>
 <li>python310Packages.bokeh.aarch64-darwin</li>
@@ -76957,9 +77178,9 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/206193986'>x86_64-darwin python3.10-clvm-tools-rs-0.1.25</a></tt></summary>
+<details><summary><tt>x86_64-darwin tokio-sync-0.1.8</tt></summary>
 <ul>
-<li>python310Packages.clvm-tools.x86_64-darwin</li>
+<li>python310Packages.cmsis-pack-manager.x86_64-darwin</li>
 </ul>
 </details>
 </td>
@@ -77057,9 +77278,9 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/206324191'>x86_64-darwin python3.10-simpy-4.0.1</a></tt></summary>
+<details><summary><tt>aarch64-darwin clblas-2.12</tt></summary>
 <ul>
-<li>python310Packages.wsnsimpy.x86_64-darwin</li>
+<li>python311Packages.Theano.aarch64-darwin</li>
 </ul>
 </details>
 </td>
@@ -77080,26 +77301,6 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/206223609'>aarch64-linux python3.11-py-sr25519-bindings-0.2.0</a></tt></summary>
 <ul>
 <li>python311Packages.bip_utils.aarch64-linux</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/206688863'>x86_64-darwin python3.11-breezy-3.2.2</a></tt></summary>
-<ul>
-<li>python311Packages.check-manifest.x86_64-darwin</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/206256122'>x86_64-darwin python3.11-clvm-tools-rs-0.1.25</a></tt></summary>
-<ul>
-<li>python311Packages.clvm-tools.x86_64-darwin</li>
 </ul>
 </details>
 </td>
@@ -77227,6 +77428,26 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt>aarch64-darwin test-writers-haskell-path</tt></summary>
+<ul>
+<li>tests.haskell.writers.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>aarch64-darwin test-writers-haskell-bin</tt></summary>
+<ul>
+<li>tests.haskell.writers.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt>aarch64-darwin good-final-asdf</tt></summary>
 <ul>
 <li>tests.macOSSierraShared.aarch64-darwin</li>
@@ -77237,9 +77458,9 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/206650274'>aarch64-linux test-writers-rust-bin</a></tt></summary>
+<details><summary><tt>aarch64-darwin run-test-writers-python3</tt></summary>
 <ul>
-<li>tests.writers.aarch64-linux</li>
+<li>tests.writers.aarch64-darwin</li>
 </ul>
 </details>
 </td>
@@ -77250,6 +77471,46 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/206208465'>aarch64-linux arm-trusted-firmware-2.7</a></tt></summary>
 <ul>
 <li>ubootOdroidC2.aarch64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>aarch64-darwin gemfile-and-lockfile</tt></summary>
+<ul>
+<li>vpsfree-client.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>aarch64-darwin ruby2.7.6-zeitwerk-2.3.0</tt></summary>
+<ul>
+<li>vpsfree-client.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>aarch64-darwin ruby2.7.6-ruby-progressbar-1.7.5</tt></summary>
+<ul>
+<li>vpsfree-client.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>aarch64-darwin ruby2.7.6-minitest-5.14.0</tt></summary>
+<ul>
+<li>vpsfree-client.aarch64-darwin</li>
 </ul>
 </details>
 </td>
