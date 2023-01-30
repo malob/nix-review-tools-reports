@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:haskell-updates 1789896
+title: nixpkgs:haskell-updates 1789896 (succeeded)
 categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2023-01-30 00:08:34 UTC*
+*Report built at 2023-01-30 01:31:47 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>46 issues</summary>
+<details><summary>47 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -71,6 +71,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>hls-hlint-plugin-1.1.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/207323633/nixlog/96'>log</a>, <a href='https://hydra.nixos.org/build/207323633/nixlog/96/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207323633/nixlog/96/tail'>tail</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/207323637'>haskell.packages.ghc944.haskell-language-server.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>hls-hlint-plugin-1.1.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/207323637/nixlog/130'>log</a>, <a href='https://hydra.nixos.org/build/207323637/nixlog/130/raw'>raw</a>, <a href='https://hydra.nixos.org/build/207323637/nixlog/130/tail'>tail</a>
 </li>
 </ul>
 </details>
@@ -456,7 +470,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>2064 issues</summary>
+<details><summary>2065 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -1681,6 +1695,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/207108736'>haskell.packages.ghc925.cabal2nix-unstable.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/207323654'>haskell.packages.ghc925.haskell-language-server.x86_64-darwin</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -13926,34 +13946,6 @@ Built for evals:
 </table>
 </details>
 
-
-### Still queued
-
-
-<details><summary>2 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207323654'>haskell.packages.ghc925.haskell-language-server.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/207323637'>haskell.packages.ghc944.haskell-language-server.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-</table>
-</details>
-
 ## Problematic dependencies
 
 <table>
@@ -14003,6 +13995,25 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/207323648'>aarch64-linux hls-hlint-plugin-1.1.1.0</a></tt></summary>
+<ul>
+<li>haskell-language-server.aarch64-linux</li>
+<li>haskell-language-server.x86_64-linux</li>
+<li>haskell.packages.ghc924.haskell-language-server.aarch64-linux</li>
+<li>haskell.packages.ghc924.haskell-language-server.x86_64-linux</li>
+<li>haskell.packages.ghc925.haskell-language-server.aarch64-linux</li>
+<li>haskell.packages.ghc925.haskell-language-server.x86_64-linux</li>
+<li>haskell.packages.ghc944.haskell-language-server.aarch64-linux</li>
+<li>haskell.packages.ghc944.haskell-language-server.x86_64-linux</li>
+<li>haskellPackages.haskell-language-server.aarch64-linux</li>
+<li>haskellPackages.haskell-language-server.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>10</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/207109311'>x86_64-darwin quickcheck-io-0.2.0</a></tt></summary>
 <ul>
 <li>haskell.packages.ghc902.cabal2nix-unstable.x86_64-darwin</li>
@@ -14019,24 +14030,6 @@ Built for evals:
 </details>
 </td>
 <td>10</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/207323648'>aarch64-linux hls-hlint-plugin-1.1.1.0</a></tt></summary>
-<ul>
-<li>haskell-language-server.aarch64-linux</li>
-<li>haskell-language-server.x86_64-linux</li>
-<li>haskell.packages.ghc924.haskell-language-server.aarch64-linux</li>
-<li>haskell.packages.ghc924.haskell-language-server.x86_64-linux</li>
-<li>haskell.packages.ghc925.haskell-language-server.aarch64-linux</li>
-<li>haskell.packages.ghc925.haskell-language-server.x86_64-linux</li>
-<li>haskell.packages.ghc944.haskell-language-server.aarch64-linux</li>
-<li>haskellPackages.haskell-language-server.aarch64-linux</li>
-<li>haskellPackages.haskell-language-server.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>9</td>
 </tr>
 <tr>
 <td>
