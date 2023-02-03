@@ -163,7 +163,7 @@ jobs:
 
     - name: Save cache
       uses: actions/cache/save@v3
-      if: always()
+      if: steps.restore-cache.outputs.cache-hit != 'true'
       with:
         path: data
         key: "${{ env.project }}:${{ env.jobset }}-eval:${{ env.eval_id }}-${{ env.eval_status }}"
