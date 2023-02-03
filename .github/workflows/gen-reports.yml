@@ -15,51 +15,33 @@ on:
    - cron: '0 */1 * * *'
 
 jobs:
-  nixpkgs-trunk:
-    name: nixpkgs-trunk
-    uses: ./.github/workflows/gen-report.yml
-    with:
-      project: nixpkgs
-      jobset: trunk
-  nixpkgs-nixpkgs-22_11-darwin:
-    name: nixpkgs-22.11-darwin
-    uses: ./.github/workflows/gen-report.yml
-    with:
-      project: nixpkgs
-      jobset: nixpkgs-22.11-darwin
-  nixpkgs-haskell-updates:
-    name: haskell-updates
-    uses: ./.github/workflows/gen-report.yml
-    with:
-      project: nixpkgs
-      jobset: haskell-updates
-  nixpkgs-python-updates:
-    name: python-updates
-    uses: ./.github/workflows/gen-report.yml
-    with:
-      project: nixpkgs
-      jobset: python-updates
-  nixpkgs-staging-next:
-    uses: ./.github/workflows/gen-report.yml
-    with:
-      project: nixpkgs
-      jobset: staging-next
-  nixpkgs-staging-next-22_11:
-    name: staging-next-22.11
-    uses: ./.github/workflows/gen-report.yml
-    with:
-      project: nixpkgs
-      jobset: staging-next-22.11
+  generate-reports:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - project: nixpkgs
+            jobset: trunk
+          - project: nixpkgs
+            jobset: nixpkgs-22.11-darwin
 
-  nixos-trunk-combined:
-    name: nixos-trunk-combined
+          - project: nixpkgs
+            jobset: haskell-updates
+          - project: nixpkgs
+            jobset: python-updates
+
+          - project: nixpkgs
+            jobset: staging-next
+          - project: nixpkgs
+            jobset: staging-next-22.11
+
+          - project: nixos
+            jobset: trunk-combined
+          - project: nixos
+            jobset: release-22.11
+
+    name: ${{ matrix.project }}:${{ matrix.jobset }}
     uses: ./.github/workflows/gen-report.yml
     with:
-      project: nixos
-      jobset: trunk-combined
-  nixos-release-22_11:
-    name: release-22.11
-    uses: ./.github/workflows/gen-report.yml
-    with:
-      project: nixos
-      jobset: release-22.11
+      project: ${{ matrix.project }}
+      jobset: ${{ matrix.jobset }}
