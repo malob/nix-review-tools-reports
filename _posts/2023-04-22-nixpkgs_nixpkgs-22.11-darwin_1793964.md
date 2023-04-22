@@ -1,16 +1,35 @@
 ---
-title: nixpkgs:nixpkgs-22.11-darwin 1793964
+title: nixpkgs:nixpkgs-22.11-darwin 1793964 (succeeded)
 categories: nixpkgs:nixpkgs-22.11-darwin
 ---
 # Evals report
 
-*Report built at 2023-04-22 14:05:34 UTC*
+*Report built at 2023-04-22 19:05:27 UTC*
 
 Built for evals:
 
   * [1793964](https://hydra.nixos.org/eval/1793964)
 
  * * * 
+
+### x86_64-linux
+
+
+<details><summary>1 issues</summary>
+<table>
+<thead><tr>
+<th>job</th>
+<th>status</th>
+</tr></thead>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/217010051'>tarball</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+</table>
+</details>
+
 
 ### x86_64-darwin
 
@@ -4678,7 +4697,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>651 issues</summary>
+<details><summary>652 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -8704,6 +8723,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/217010039'>python310Packages.python-redis-lock.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/216487483'>python310Packages.pytorch-lightning.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -9841,34 +9866,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/216998273'>texlive.combined.scheme-medium.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>2 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/217010043'>darwin-tested</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/217010051'>tarball</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
