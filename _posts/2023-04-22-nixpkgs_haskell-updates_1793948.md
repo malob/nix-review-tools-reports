@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:haskell-updates 1793948
+title: nixpkgs:haskell-updates 1793948 (succeeded)
 categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2023-04-22 01:30:57 UTC*
+*Report built at 2023-04-22 04:04:45 UTC*
 
 Built for evals:
 
@@ -92,7 +92,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>3154 issues</summary>
+<details><summary>3155 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -6905,6 +6905,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/216743451'>haskellPackages.greskell.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/217000331'>haskellPackages.group-by-date.x86_64-darwin</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -20885,27 +20891,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/216744427'>haskellPackages.xturtle.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/217000331'>haskellPackages.group-by-date.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 </table>
 </details>
