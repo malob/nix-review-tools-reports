@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2023-04-22 21:04:33 UTC*
+*Report built at 2023-04-22 22:04:19 UTC*
 
 Built for evals:
 
@@ -112,12 +112,26 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>3143 issues</summary>
+<details><summary>3146 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 </tr></thead>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/217068854'>haskell.packages.ghc884.cabal2nix-unstable.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>aws-sdk-cpp-1.11.37</tt> <br /> <a href='https://hydra.nixos.org/build/217068854/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/217068854/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/217068854/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/217009919'>build 217009919</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
 <tr>
 <td>
 <details><summary>
@@ -289,6 +303,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/217068837'>haskellPackages.nix-serve-ng.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>aws-sdk-cpp-1.11.37</tt> <br /> <a href='https://hydra.nixos.org/build/217068837/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/217068837/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/217068837/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/217009919'>build 217009919</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/216846481'>haskellPackages.proof-assistant-bot.x86_64-darwin</a></tt>
 </summary>
 <ul>
@@ -364,6 +392,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>select-0.4.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/216755062/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/216755062/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/216755062/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/216756285'>build 216756285</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/217068841'>update-nix-fetchgit.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>aws-sdk-cpp-1.11.37</tt> <br /> <a href='https://hydra.nixos.org/build/217068841/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/217068841/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/217068841/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/217009919'>build 217009919</a>
 </li>
 </ul>
 </details>
@@ -20805,7 +20847,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>484 issues</summary>
+<details><summary>476 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -21143,13 +21185,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/217068854'>haskell.packages.ghc884.cabal2nix-unstable.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/217068867'>haskell.packages.ghc884.cabal2nix-unstable.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -21336,13 +21371,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/217068847'>haskell.packages.ghc924.nix-paths.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -22151,13 +22179,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/217068838'>haskell.packages.ghc961.nix-paths.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/217081235'>haskellPackages.align-audio.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -22746,13 +22767,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/217068848'>haskellPackages.hercules-ci-cli.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/217069052'>haskellPackages.hercules-ci-cli.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -23177,13 +23191,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/217068837'>haskellPackages.nix-serve-ng.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -23803,24 +23810,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/217068851'>haskellPackages.update-nix-fetchgit.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/217068954'>haskellPackages.update-nix-fetchgit.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/217068843'>haskellPackages.update-nix-fetchgit.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -24188,13 +24181,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/217068841'>update-nix-fetchgit.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/217068862'>update-nix-fetchgit.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -24333,6 +24319,18 @@ Built for evals:
 </details>
 </td>
 <td>4</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/217009919'>x86_64-darwin aws-sdk-cpp-1.11.37</a></tt></summary>
+<ul>
+<li>haskell.packages.ghc884.cabal2nix-unstable.x86_64-darwin</li>
+<li>haskellPackages.nix-serve-ng.x86_64-darwin</li>
+<li>update-nix-fetchgit.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>3</td>
 </tr>
 <tr>
 <td>
