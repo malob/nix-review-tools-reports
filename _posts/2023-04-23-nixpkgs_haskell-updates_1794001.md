@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:haskell-updates 1794001
+title: nixpkgs:haskell-updates 1794001 (succeeded)
 categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2023-04-23 04:05:13 UTC*
+*Report built at 2023-04-23 05:05:04 UTC*
 
 Built for evals:
 
@@ -158,7 +158,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>3181 issues</summary>
+<details><summary>3182 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -1357,6 +1357,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/216743528'>haskell.packages.ghc924.Cabal_3_8_1_0.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/217081279'>haskell.packages.ghc924.cabal-install.x86_64-darwin</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -20394,7 +20400,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>144 issues</summary>
+<details><summary>146 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -21143,6 +21149,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/217081251'>haskell.packages.ghc902.cabal-install.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/216753749'>haskell.packages.ghc902.cabal2nix.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -21252,6 +21264,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/216742456'>haskell.packages.ghc927.Cabal_3_8_1_0.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/217081263'>haskell.packages.ghc945.hoogle.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -21434,41 +21452,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/216744427'>haskellPackages.xturtle.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>3 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/217081251'>haskell.packages.ghc902.cabal-install.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/217081279'>haskell.packages.ghc924.cabal-install.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/217081263'>haskell.packages.ghc945.hoogle.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 </table>
 </details>
