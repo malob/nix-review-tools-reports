@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-22.11-darwin
 ---
 # Evals report
 
-*Report built at 2023-04-24 10:06:27 UTC*
+*Report built at 2023-04-24 11:05:32 UTC*
 
 Built for evals:
 
@@ -9868,20 +9868,13 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>2 issues</summary>
+<details><summary>1 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/217119997'>hackneyed.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/217119947'>paperless-ngx.x86_64-darwin</a></tt>
