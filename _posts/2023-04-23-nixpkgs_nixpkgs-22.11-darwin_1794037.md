@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:nixpkgs-22.11-darwin 1794037
+title: nixpkgs:nixpkgs-22.11-darwin 1794037 (succeeded)
 categories: nixpkgs:nixpkgs-22.11-darwin
 ---
 # Evals report
 
-*Report built at 2023-04-24 05:06:53 UTC*
+*Report built at 2023-04-24 06:06:25 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>534 issues</summary>
+<details><summary>536 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -519,6 +519,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>select-0.4.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/216522187/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/216522187/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/216522187/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/215977648'>build 215977648</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/217108173'>jellyfin.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>jellyfin-web-10.8.10</tt> <br /> <a href='https://hydra.nixos.org/build/217108173/nixlog/5'>log</a>, <a href='https://hydra.nixos.org/build/217108173/nixlog/5/raw'>raw</a>, <a href='https://hydra.nixos.org/build/217108173/nixlog/5/tail'>tail</a>, <a href='https://hydra.nixos.org/build/217108180'>build 217108180</a>
 </li>
 </ul>
 </details>
@@ -3136,6 +3150,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/216480605'>inputplug.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/217108180'>jellyfin-web.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -9825,34 +9845,6 @@ Built for evals:
 </table>
 </details>
 
-
-### Still queued
-
-
-<details><summary>2 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/217108180'>jellyfin-web.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/217108173'>jellyfin.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-</table>
-</details>
-
 ## Problematic dependencies
 
 <table>
@@ -10500,6 +10492,17 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/217108175'>aarch64-darwin jellyfin-web-10.8.10</a></tt></summary>
+<ul>
+<li>jellyfin.aarch64-darwin</li>
+<li>jellyfin.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/215880253'>aarch64-darwin kicad-base-6.0.9</a></tt></summary>
 <ul>
 <li>kicad-small.aarch64-darwin</li>
@@ -10901,16 +10904,6 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/216023723'>aarch64-darwin regex-rure-0.1.2.0</a></tt></summary>
 <ul>
 <li>jacinda.aarch64-darwin</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/217108175'>aarch64-darwin jellyfin-web-10.8.10</a></tt></summary>
-<ul>
-<li>jellyfin.aarch64-darwin</li>
 </ul>
 </details>
 </td>
