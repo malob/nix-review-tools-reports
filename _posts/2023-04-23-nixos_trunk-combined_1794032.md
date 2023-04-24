@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2023-04-23 21:06:58 UTC*
+*Report built at 2023-04-24 00:10:34 UTC*
 
 Built for evals:
 
@@ -3565,7 +3565,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>910 issues</summary>
+<details><summary>912 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -10488,6 +10488,18 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/215706867'>nixpkgs.shen-sbcl.x86_64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/217095261'>nixpkgs.tarball</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/217093644'>tested</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -18541,7 +18553,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>3349 issues</summary>
+<details><summary>3347 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -41517,13 +41529,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/217095261'>nixpkgs.tarball</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/217096519'>nixpkgs.telegraf.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -41980,13 +41985,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/217095250'>nixpkgs.zookeeper_mt.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/217093644'>tested</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
