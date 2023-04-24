@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:nixpkgs-22.11-darwin 1794064
+title: nixpkgs:nixpkgs-22.11-darwin 1794064 (succeeded)
 categories: nixpkgs:nixpkgs-22.11-darwin
 ---
 # Evals report
 
-*Report built at 2023-04-24 11:05:32 UTC*
+*Report built at 2023-04-24 12:06:27 UTC*
 
 Built for evals:
 
@@ -34,7 +34,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>536 issues</summary>
+<details><summary>537 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -4561,6 +4561,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/216467257'>ltris.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/217119947'>paperless-ngx.x86_64-darwin</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -9860,27 +9866,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/216998273'>texlive.combined.scheme-medium.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/217119947'>paperless-ngx.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 </table>
 </details>
