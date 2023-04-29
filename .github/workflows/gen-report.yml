@@ -129,7 +129,7 @@ jobs:
       if: steps.restore-cache.outputs.cache-hit != 'true'
       uses: nick-fields/retry@v2
       with:
-        timeout_minutes: 240
+        timeout_minutes: 60
         max_attempts: 3
         command: nix run . -- $project $jobset
 
