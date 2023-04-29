@@ -123,35 +123,39 @@ jobs:
     # that means that we already generated a report for the jobset evaluation after the evaluation
     # succeeded/finished, and so the report is already up-to-date.
     #
-    # After generating the report, we check if there are actually any substantial changes to push.
-    # Example contents of `stats` array: `1 files changed, 230 insertions(+), 24628 deletions(-)`,
-    # where `stats[3]` is `230` and `stats[5]` is `24628`.
-    #
-    # If both are equal to 1, this indicates that this was an update to a report for a jobset
-    # evaluation that's still in progress, but that no additional queued builds completed since
-    # the report was last generated, and so the only update to the report is an update to the
-    # "Report built at ..." line. If that's the case, we don't commit and push that change.
+    # We retry a couple times on failure since sometimes this step fails due to transient issues
+    # downloading reports from Hydra and similar.
     - name: Generate report
-      id: gen-report
       if: steps.restore-cache.outputs.cache-hit != 'true'
-      run: |
-        nix run . -- $project $jobset
-        stats=($(git diff --shortstat))
-        if [ "${stats[3]}" -eq 1 ] && [ "${stats[5]}" -eq 1 ]; then
-          echo "push_changes=false" >> $GITHUB_ENV
-        else
-          echo "push_changes=true" >> $GITHUB_ENV
-        fi
+      uses: nick-fields/retry@v2
+      with:
+        timeout_minutes: 240
+        max_attempts: 3
+        command: nix run . -- $project $jobset
 
     # Push new/updated report only if we don't have an exact cache hit for the same reasons as
     # above, and if the report was updated and there were more changes then just an update to the
     # "Report built at ..." line.
     #
+    # We check if there are actually any substantial changes to push. Example contents of `stats`
+    # array: `1 files changed, 230 insertions(+), 24628 deletions(-)`, where `stats[3]` is `230` and
+    # `stats[5]` is `24628`.
+    #
+    # If both are equal to 1, this indicates that this was an update to a report for a jobset
+    # evaluation that's still in progress, but that no additional queued builds completed since
+    # the report was last generated, and so the only update to the report is an update to the
+    # "Report built at ..." line. If that's the case, we don't commit and push that change.
+    #
     # We need to pull and rebase before we push since another run of this workflow maybe have pushed
     # changes since we cloned the repo.
     - name: Push new/updated report
-      if: steps.restore-cache.outputs.cache-hit != 'true' && env.push_changes == 'true'
+      if: steps.restore-cache.outputs.cache-hit != 'true'
       run: |
+        stats=($(git diff --shortstat))
+        if [ "${stats[3]}" -eq 1 ] && [ "${stats[5]}" -eq 1 ]; then
+          echo "No changes to push"
+          exit 0
+        fi
         git config user.name github-actions
         git config user.email github-actions@github.com
         git add --all
