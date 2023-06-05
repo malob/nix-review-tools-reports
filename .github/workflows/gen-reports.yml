@@ -36,6 +36,8 @@ jobs:
             jobset: staging-next
           - project: nixpkgs
             jobset: staging-next-22.11
+          - project: nixpkgs
+            jobset: staging-next-23.05
 
           - project: nixos
             jobset: trunk-combined
