@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next
 ---
 # Evals report
 
-*Report built at 2023-08-01 22:12:24 UTC*
+*Report built at 2023-08-01 23:10:00 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>893 issues</summary>
+<details><summary>895 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -4806,6 +4806,34 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>perl5.38.0-Devel-FindPerl-0.015</tt> <br /> <a href='https://hydra.nixos.org/build/229830551/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/229830551/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/229830551/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/229807544'>build 229807544</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/230016268'>sage.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>sage-tests-10.0</tt> <br /> <a href='https://hydra.nixos.org/build/230016268/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/230016268/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/230016268/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/230017160'>build 230017160</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/230017160'>sageWithDoc.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>sage-tests-10.0</tt> <br /> <a href='https://hydra.nixos.org/build/230017160/nixlog/8'>log</a>, <a href='https://hydra.nixos.org/build/230017160/nixlog/8/raw'>raw</a>, <a href='https://hydra.nixos.org/build/230017160/nixlog/8/tail'>tail</a>
 </li>
 </ul>
 </details>
@@ -43112,7 +43140,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>2014 issues</summary>
+<details><summary>2006 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -43451,20 +43479,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/230019280'>fn-cli.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/230021120'>foundationdb.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/230016701'>foundationdb71.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -51598,13 +51612,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/230021194'>paraview.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/230024923'>parquet-tools.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -52484,13 +52491,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/230020079'>python310Packages.graph-tool.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -54818,13 +54818,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/230022883'>python311Packages.graph-tool.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/230022620'>python311Packages.graph-tool.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -55847,13 +55840,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/230019834'>python311Packages.pyamg.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/230020756'>python311Packages.pyathena.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -56828,20 +56814,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/230024749'>sacad.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/230016268'>sage.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/230017160'>sageWithDoc.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -59991,6 +59963,19 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt>aarch64-linux sage-tests-10.0</tt></summary>
+<ul>
+<li>sage.aarch64-linux</li>
+<li>sage.x86_64-linux</li>
+<li>sageWithDoc.aarch64-linux</li>
+<li>sageWithDoc.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>4</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt>aarch64-darwin python3.10-pilkit-unstable-2022-02-17</tt></summary>
 <ul>
 <li>sigal.aarch64-darwin</li>
@@ -61114,17 +61099,6 @@ Built for evals:
 <details><summary><tt>x86_64-darwin avr-stage-final-gcc-8.5.0</tt></summary>
 <ul>
 <li>qmk.x86_64-darwin</li>
-</ul>
-</details>
-</td>
-<td>2</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>aarch64-linux sage-tests-10.0</tt></summary>
-<ul>
-<li>sage.aarch64-linux</li>
-<li>sageWithDoc.aarch64-linux</li>
 </ul>
 </details>
 </td>
