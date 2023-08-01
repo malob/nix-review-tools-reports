@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:haskell-updates 1798071
+title: nixpkgs:haskell-updates 1798071 (succeeded)
 categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2023-08-01 05:05:03 UTC*
+*Report built at 2023-08-01 06:05:57 UTC*
 
 Built for evals:
 
@@ -29723,34 +29723,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/229236183'>haskellPackages.test-karya.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>2 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/229990518'>nixosTests.xmonad-xdg-autostart.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/229990515'>nixosTests.xmonad.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
