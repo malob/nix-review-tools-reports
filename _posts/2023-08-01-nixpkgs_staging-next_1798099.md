@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next
 ---
 # Evals report
 
-*Report built at 2023-08-02 04:09:36 UTC*
+*Report built at 2023-08-02 05:08:59 UTC*
 
 Built for evals:
 
@@ -43962,7 +43962,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>1865 issues</summary>
+<details><summary>1863 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -52973,13 +52973,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/230016569'>python310Packages.deepwave.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/230024836'>python310Packages.deid.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -53702,13 +53695,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/230025403'>python310Packages.paramz.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/230021820'>python310Packages.phonopy.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
