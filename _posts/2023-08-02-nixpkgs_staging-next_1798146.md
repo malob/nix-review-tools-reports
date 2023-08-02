@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:staging-next 1798146
+title: nixpkgs:staging-next 1798146 (succeeded)
 categories: nixpkgs:staging-next
 ---
 # Evals report
 
-*Report built at 2023-08-02 19:08:35 UTC*
+*Report built at 2023-08-02 21:09:24 UTC*
 
 Built for evals:
 
@@ -8220,7 +8220,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>978 issues</summary>
+<details><summary>979 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -16887,6 +16887,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/229731608'>inkscape-extensions.applytransforms.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/230042647'>irrd.x86_64-darwin</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -34845,27 +34851,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/230005181'>volantes-cursors.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/230042647'>irrd.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 </table>
 </details>
