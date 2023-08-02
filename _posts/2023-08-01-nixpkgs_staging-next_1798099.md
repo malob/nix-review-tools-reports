@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next
 ---
 # Evals report
 
-*Report built at 2023-08-01 23:10:00 UTC*
+*Report built at 2023-08-02 01:34:33 UTC*
 
 Built for evals:
 
@@ -43140,7 +43140,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>2006 issues</summary>
+<details><summary>2004 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -53901,13 +53901,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/230011812'>python310Packages.torchsde.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/230023828'>python310Packages.transforms3d.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -56555,13 +56548,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/230013247'>python311Packages.torchmetrics.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/230012026'>python311Packages.torchsde.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
