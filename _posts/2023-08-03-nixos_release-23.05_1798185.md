@@ -4,7 +4,7 @@ categories: nixos:release-23.05
 ---
 # Evals report
 
-*Report built at 2023-08-03 20:08:22 UTC*
+*Report built at 2023-08-03 21:07:54 UTC*
 
 Built for evals:
 
@@ -2710,7 +2710,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>566 issues</summary>
+<details><summary>565 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -3298,20 +3298,6 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>ruby3.1.4-nokogiri-1.10.1</tt> <br /> <a href='https://hydra.nixos.org/build/229391368/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/229391368/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/229391368/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/228595517'>build 228595517</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/230270232'>tested</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Failed</b> <tt>vm-test-run-firefox-unwrapped</tt> <br /> <a href='https://hydra.nixos.org/build/230270232/nixlog/51'>log</a>, <a href='https://hydra.nixos.org/build/230270232/nixlog/51/raw'>raw</a>, <a href='https://hydra.nixos.org/build/230270232/nixlog/51/tail'>tail</a>, <a href='https://hydra.nixos.org/build/230258469'>build 230258469</a>
 </li>
 </ul>
 </details>
@@ -10716,7 +10702,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>1767 issues</summary>
+<details><summary>1766 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -11002,13 +10988,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/230270310'>nixos.iso_plasma5.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -13151,13 +13130,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/230270249'>nixos.tests.boot.uefiUsb.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -23092,6 +23064,13 @@ Built for evals:
 <td>Queued</td>
 <th>x86_64-linux</th>
 </tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/230270232'>tested</a></tt>
+</td>
+<td>Queued</td>
+<th>x86_64-linux</th>
+</tr>
 </table>
 </details>
 
@@ -24020,16 +23999,6 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/228621705'>x86_64-linux magicl-v0.9.1-build</a></tt></summary>
 <ul>
 <li>nixpkgs.sbclPackages.magicl.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/230258469'>x86_64-linux vm-test-run-firefox-unwrapped</a></tt></summary>
-<ul>
-<li>tested</li>
 </ul>
 </details>
 </td>
