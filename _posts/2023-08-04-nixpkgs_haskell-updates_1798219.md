@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2023-08-04 08:06:27 UTC*
+*Report built at 2023-08-04 10:06:01 UTC*
 
 Built for evals:
 
@@ -15,12 +15,26 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>755 issues</summary>
+<details><summary>759 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 </tr></thead>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/230278169'>emanote.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>ixset-typed-0.5.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/230278169/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/230278169/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/230278169/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/229220198'>build 229220198</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
 <tr>
 <td>
 <details><summary>
@@ -1206,6 +1220,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>unionmount-0.2.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/229873574/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/229873574/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/229873574/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/229232200'>build 229232200</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/230278166'>haskellPackages.emanote.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>ixset-typed-0.5.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/230278166/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/230278166/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/230278166/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/229220198'>build 229220198</a>
 </li>
 </ul>
 </details>
@@ -4295,6 +4323,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/230278170'>maintained</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>zeromq4-haskell-0.8.0</tt> <br /> <a href='https://hydra.nixos.org/build/230278170/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/230278170/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/230278170/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/229221499'>build 229221499</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/229873715'>mergeable</a></tt>
 </summary>
 <ul>
@@ -6712,6 +6754,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/230278172'>haskellPackages.tailwind.x86_64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/229238237'>haskellPackages.tasty-test-reporter.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -7029,7 +7077,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>821 issues</summary>
+<details><summary>822 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -14187,6 +14235,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/230278165'>haskellPackages.tailwind.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/229224092'>haskellPackages.tasty-test-reporter.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -14660,12 +14714,26 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>780 issues</summary>
+<details><summary>783 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 </tr></thead>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/230278167'>emanote.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>tagtree-0.1.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/230278167/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/230278167/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/230278167/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/229221122'>build 229221122</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
 <tr>
 <td>
 <details><summary>
@@ -15992,6 +16060,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>unionmount-0.2.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/229873594/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/229873594/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/229873594/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/229232739'>build 229232739</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/230278168'>haskellPackages.emanote.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>tagtree-0.1.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/230278168/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/230278168/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/230278168/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/229221122'>build 229221122</a>
 </li>
 </ul>
 </details>
@@ -21692,6 +21774,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/230278164'>haskellPackages.tailwind.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/229218022'>haskellPackages.tasty-test-reporter.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -22015,7 +22103,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>826 issues</summary>
+<details><summary>829 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -22119,6 +22207,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>inline-c-cpp-0.5.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/229873637/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/229873637/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/229873637/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/229873704'>build 229873704</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/230278171'>emanote.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>unionmount-0.2.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/230278171/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/230278171/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/230278171/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/229224747'>build 229224747</a>
 </li>
 </ul>
 </details>
@@ -23458,6 +23560,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>unionmount-0.2.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/229873641/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/229873641/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/229873641/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/229224747'>build 229224747</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/230278174'>haskellPackages.emanote.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>unionmount-0.2.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/230278174/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/230278174/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/230278174/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/229224747'>build 229224747</a>
 </li>
 </ul>
 </details>
@@ -29220,6 +29336,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/230278173'>haskellPackages.tailwind.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/229235036'>haskellPackages.tasty-test-reporter.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -29601,97 +29723,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/229236183'>haskellPackages.test-karya.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>11 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/230278171'>emanote.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/230278167'>emanote.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/230278169'>emanote.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/230278174'>haskellPackages.emanote.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/230278168'>haskellPackages.emanote.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/230278166'>haskellPackages.emanote.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/230278173'>haskellPackages.tailwind.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/230278164'>haskellPackages.tailwind.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/230278165'>haskellPackages.tailwind.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/230278172'>haskellPackages.tailwind.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/230278170'>maintained</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
@@ -30314,10 +30345,11 @@ Built for evals:
 <li>haskellPackages.zre.x86_64-darwin</li>
 <li>haskellPackages.zre.x86_64-linux</li>
 <li>ihaskell.x86_64-linux</li>
+<li>maintained</li>
 </ul>
 </details>
 </td>
-<td>47</td>
+<td>48</td>
 </tr>
 <tr>
 <td>
@@ -30455,6 +30487,37 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/229220198'>x86_64-linux ixset-typed-0.5.1.0</a></tt></summary>
+<ul>
+<li>emanote.x86_64-linux</li>
+<li>haskellPackages.emanote.x86_64-linux</li>
+<li>haskellPackages.hOpenPGP.aarch64-darwin</li>
+<li>haskellPackages.hOpenPGP.x86_64-darwin</li>
+<li>haskellPackages.hOpenPGP.x86_64-linux</li>
+<li>haskellPackages.happstack-authenticate.x86_64-darwin</li>
+<li>haskellPackages.happstack-authenticate.x86_64-linux</li>
+<li>haskellPackages.ixset-typed-binary-instance.aarch64-darwin</li>
+<li>haskellPackages.ixset-typed-binary-instance.x86_64-darwin</li>
+<li>haskellPackages.ixset-typed-binary-instance.x86_64-linux</li>
+<li>haskellPackages.ixset-typed-cassava.aarch64-darwin</li>
+<li>haskellPackages.ixset-typed-cassava.x86_64-darwin</li>
+<li>haskellPackages.ixset-typed-cassava.x86_64-linux</li>
+<li>haskellPackages.ixset-typed-conversions.aarch64-darwin</li>
+<li>haskellPackages.ixset-typed-conversions.x86_64-darwin</li>
+<li>haskellPackages.ixset-typed-conversions.x86_64-linux</li>
+<li>haskellPackages.ixset-typed-hashable-instance.aarch64-darwin</li>
+<li>haskellPackages.ixset-typed-hashable-instance.x86_64-darwin</li>
+<li>haskellPackages.ixset-typed-hashable-instance.x86_64-linux</li>
+<li>haskellPackages.shake-plus-extended.aarch64-darwin</li>
+<li>haskellPackages.shake-plus-extended.x86_64-darwin</li>
+<li>haskellPackages.shake-plus-extended.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>22</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/229873704'>aarch64-darwin inline-c-cpp-0.5.0.1</a></tt></summary>
 <ul>
 <li>cachix.aarch64-darwin</li>
@@ -30477,35 +30540,6 @@ Built for evals:
 <li>hercules-ci-agent.x86_64-darwin</li>
 <li>tests.haskell.cabalSdist.hercules-ci-cnix-store.aarch64-darwin</li>
 <li>tests.haskell.cabalSdist.hercules-ci-cnix-store.x86_64-darwin</li>
-</ul>
-</details>
-</td>
-<td>20</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/229231103'>aarch64-darwin ixset-typed-0.5.1.0</a></tt></summary>
-<ul>
-<li>haskellPackages.hOpenPGP.aarch64-darwin</li>
-<li>haskellPackages.hOpenPGP.x86_64-darwin</li>
-<li>haskellPackages.hOpenPGP.x86_64-linux</li>
-<li>haskellPackages.happstack-authenticate.x86_64-darwin</li>
-<li>haskellPackages.happstack-authenticate.x86_64-linux</li>
-<li>haskellPackages.ixset-typed-binary-instance.aarch64-darwin</li>
-<li>haskellPackages.ixset-typed-binary-instance.x86_64-darwin</li>
-<li>haskellPackages.ixset-typed-binary-instance.x86_64-linux</li>
-<li>haskellPackages.ixset-typed-cassava.aarch64-darwin</li>
-<li>haskellPackages.ixset-typed-cassava.x86_64-darwin</li>
-<li>haskellPackages.ixset-typed-cassava.x86_64-linux</li>
-<li>haskellPackages.ixset-typed-conversions.aarch64-darwin</li>
-<li>haskellPackages.ixset-typed-conversions.x86_64-darwin</li>
-<li>haskellPackages.ixset-typed-conversions.x86_64-linux</li>
-<li>haskellPackages.ixset-typed-hashable-instance.aarch64-darwin</li>
-<li>haskellPackages.ixset-typed-hashable-instance.x86_64-darwin</li>
-<li>haskellPackages.ixset-typed-hashable-instance.x86_64-linux</li>
-<li>haskellPackages.shake-plus-extended.aarch64-darwin</li>
-<li>haskellPackages.shake-plus-extended.x86_64-darwin</li>
-<li>haskellPackages.shake-plus-extended.x86_64-linux</li>
 </ul>
 </details>
 </td>
@@ -31097,6 +31131,21 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/229224747'>aarch64-darwin unionmount-0.2.0.0</a></tt></summary>
+<ul>
+<li>emanote.aarch64-darwin</li>
+<li>haskellPackages.ema-extra.aarch64-darwin</li>
+<li>haskellPackages.ema-extra.aarch64-linux</li>
+<li>haskellPackages.ema-extra.x86_64-darwin</li>
+<li>haskellPackages.ema-extra.x86_64-linux</li>
+<li>haskellPackages.emanote.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>6</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/229242700'>aarch64-darwin irc-core-2.11</a></tt></summary>
 <ul>
 <li>glirc.aarch64-darwin</li>
@@ -31454,19 +31503,6 @@ Built for evals:
 <li>haskellPackages.diagrams-gi-cairo.aarch64-linux</li>
 <li>haskellPackages.diagrams-gi-cairo.x86_64-darwin</li>
 <li>haskellPackages.diagrams-gi-cairo.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>4</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/229224747'>aarch64-darwin unionmount-0.2.0.0</a></tt></summary>
-<ul>
-<li>haskellPackages.ema-extra.aarch64-darwin</li>
-<li>haskellPackages.ema-extra.aarch64-linux</li>
-<li>haskellPackages.ema-extra.x86_64-darwin</li>
-<li>haskellPackages.ema-extra.x86_64-linux</li>
 </ul>
 </details>
 </td>
@@ -31882,6 +31918,17 @@ Built for evals:
 </details>
 </td>
 <td>3</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/229221122'>aarch64-linux tagtree-0.1.0.0</a></tt></summary>
+<ul>
+<li>emanote.aarch64-linux</li>
+<li>haskellPackages.emanote.aarch64-linux</li>
+</ul>
+</details>
+</td>
+<td>2</td>
 </tr>
 <tr>
 <td>
