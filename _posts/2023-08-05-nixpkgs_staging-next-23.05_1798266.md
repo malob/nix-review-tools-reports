@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next-23.05
 ---
 # Evals report
 
-*Report built at 2023-08-05 21:09:54 UTC*
+*Report built at 2023-08-05 22:11:18 UTC*
 
 Built for evals:
 
@@ -20528,7 +20528,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>20288 issues</summary>
+<details><summary>20284 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -64441,20 +64441,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/230157410'>haskell.compiler.ghc810.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/230103661'>haskell.compiler.ghc8107.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/230139403'>haskell.compiler.ghc90.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -105525,20 +105511,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/230184576'>nodejs-slim_latest.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/230178943'>nodejs_20.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/230194760'>nodejs_latest.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
