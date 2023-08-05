@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next-23.05
 ---
 # Evals report
 
-*Report built at 2023-08-05 20:10:53 UTC*
+*Report built at 2023-08-05 21:09:54 UTC*
 
 Built for evals:
 
@@ -4539,7 +4539,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>850 issues</summary>
+<details><summary>851 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -13329,6 +13329,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/230110096'>aws-sdk-cpp.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/230081294'>darwin.ios-deploy.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -19154,7 +19160,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>153 issues</summary>
+<details><summary>154 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -20433,6 +20439,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/230107613'>barrage.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/230089820'>inkscape-extensions.applytransforms.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -20516,7 +20528,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>20296 issues</summary>
+<details><summary>20288 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -22198,13 +22210,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/230110096'>aws-sdk-cpp.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/230205405'>aws-sso-cli.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -22391,13 +22396,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/230107613'>barrage.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -64548,20 +64546,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/230105054'>haskell.compiler.integer-simple.ghc810.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/230240793'>haskell.compiler.integer-simple.ghc8107.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/230243661'>haskell.compiler.integer-simple.ghc88.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -64640,13 +64624,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/230154132'>haskell.compiler.native-bignum.ghc942.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/230101595'>haskell.compiler.native-bignum.ghc943.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -95467,13 +95444,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/230173092'>isabelle.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/230222968'>ispc.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -99457,13 +99427,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/230129129'>llvmPackages_8.clang-unwrapped.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/230246523'>llvmPackages_8.clang.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -99500,13 +99463,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/230213193'>llvmPackages_8.clangUseLLVM.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/230219764'>llvmPackages_8.libclang.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
