@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:haskell-updates 1798264
+title: nixpkgs:haskell-updates 1798264 (succeeded)
 categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2023-08-05 04:05:16 UTC*
+*Report built at 2023-08-05 06:04:53 UTC*
 
 Built for evals:
 
@@ -22121,7 +22121,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>827 issues</summary>
+<details><summary>830 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -29684,6 +29684,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/230309128'>haskell.packages.ghc8107.cabal2nix-unstable.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/229225457'>haskell.packages.ghc8107.cabal2nix.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -29720,6 +29726,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/230309118'>haskellPackages.nvfetcher.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/229240676'>haskellPackages.pcap-conduit.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -29730,40 +29742,11 @@ Built for evals:
 </td>
 <td>Timed out</td>
 </tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>3 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/230309128'>haskell.packages.ghc8107.cabal2nix-unstable.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/230309118'>haskellPackages.nvfetcher.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/230309112'>nvfetcher.aarch64-darwin</a></tt>
 </td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
+<td>Timed out</td>
 </tr>
 </table>
 </details>
