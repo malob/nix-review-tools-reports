@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next-23.05
 ---
 # Evals report
 
-*Report built at 2023-08-06 17:08:51 UTC*
+*Report built at 2023-08-06 18:12:10 UTC*
 
 Built for evals:
 
@@ -4539,7 +4539,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1251 issues</summary>
+<details><summary>1254 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -16419,6 +16419,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/230227877'>emacsPackages.tile.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/230153994'>fedigroups.x86_64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -16528,6 +16534,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/230155449'>haskellPackages.digestive-functors-heist.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/230228677'>haskellPackages.ecstasy.x86_64-darwin</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -17512,6 +17524,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/230143608'>svg2tikz.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/230228313'>tecnoballz.x86_64-darwin</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -21944,7 +21962,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>456 issues</summary>
+<details><summary>457 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -25354,6 +25372,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/230227778'>python310Packages.handout.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/230257280'>python310Packages.inkex.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -25455,7 +25479,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>3059 issues</summary>
+<details><summary>3052 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -26578,13 +26602,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/230243028'>emacs29-gtk3.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/230231361'>emacs29-pgtk.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -30847,13 +30864,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/230227877'>emacsPackages.tile.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/230255607'>emacsPackages.tmr.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -33116,13 +33126,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/230248583'>haskellPackages.ec2-signature.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/230228677'>haskellPackages.ecstasy.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -36475,13 +36478,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/230309460'>kicad-small.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/230245664'>kn.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -39233,13 +39229,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/230227778'>python310Packages.handout.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/230248946'>python310Packages.hdbscan.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -41159,13 +41148,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/230236209'>python311Packages.gradient.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/230225701'>python311Packages.graph-tool.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -44673,13 +44655,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/230249001'>td.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/230228313'>tecnoballz.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
