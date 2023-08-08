@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:staging-next 1798348
+title: nixpkgs:staging-next 1798348 (succeeded)
 categories: nixpkgs:staging-next
 ---
 # Evals report
 
-*Report built at 2023-08-08 01:36:13 UTC*
+*Report built at 2023-08-08 02:23:18 UTC*
 
 Built for evals:
 
@@ -6190,7 +6190,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>883 issues</summary>
+<details><summary>884 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -13796,6 +13796,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/230577690'>pgadmin4-desktopmode.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/230573822'>pgadmin4.x86_64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -21052,7 +21058,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>892 issues</summary>
+<details><summary>894 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -29128,6 +29134,18 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/230576078'>pgadmin4-desktopmode.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/230577545'>pgadmin4.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/230501971'>plasma5Packages.libopenshot.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -29239,48 +29257,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/230464948'>volantes-cursors.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>4 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/230576078'>pgadmin4-desktopmode.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/230577690'>pgadmin4-desktopmode.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/230577545'>pgadmin4.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/230384984'>python310Packages.blackjax.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
