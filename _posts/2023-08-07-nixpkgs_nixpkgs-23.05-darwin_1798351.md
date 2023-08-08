@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:nixpkgs-23.05-darwin 1798351
+title: nixpkgs:nixpkgs-23.05-darwin 1798351 (succeeded)
 categories: nixpkgs:nixpkgs-23.05-darwin
 ---
 # Evals report
 
-*Report built at 2023-08-08 00:10:41 UTC*
+*Report built at 2023-08-08 01:33:00 UTC*
 
 Built for evals:
 
@@ -7817,27 +7817,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/230041183'>volantes-cursors.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/230583437'>nixVersions.nix_2_17.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 </table>
 </details>
