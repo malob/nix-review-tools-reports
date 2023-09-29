@@ -126,9 +126,11 @@ jobs:
     # We retry a couple times on failure since sometimes this step fails due to transient issues
     # downloading reports from Hydra and similar.
     - name: Generate report
+      id: generate-report
       if: steps.restore-cache.outputs.cache-hit != 'true'
       uses: nick-fields/retry@v2
       with:
+        continue_on_error: true
         timeout_minutes: 60
         max_attempts: 3
         command: nix run . -- $project $jobset
@@ -149,7 +151,7 @@ jobs:
     # We need to pull and rebase before we push since another run of this workflow maybe have pushed
     # changes since we cloned the repo.
     - name: Push new/updated report
-      if: steps.restore-cache.outputs.cache-hit != 'true'
+      if: steps.restore-cache.outputs.cache-hit != 'true' && steps.generate-report.outcome == 'success'
       run: |
         stats=($(git diff --shortstat))
         if [ "${stats[3]}" -eq 1 ] && [ "${stats[5]}" -eq 1 ]; then
