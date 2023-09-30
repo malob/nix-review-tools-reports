@@ -129,8 +129,8 @@ jobs:
       id: generate-report
       if: steps.restore-cache.outputs.cache-hit != 'true'
       uses: nick-fields/retry@v2
+      continue-on-error: true
       with:
-        continue_on_error: true
         timeout_minutes: 60
         max_attempts: 3
         command: nix run . -- $project $jobset
