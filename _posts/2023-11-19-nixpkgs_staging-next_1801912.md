@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next
 ---
 # Evals report
 
-*Report built at 2023-11-19 14:09:16 UTC*
+*Report built at 2023-11-19 18:09:53 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>583 issues</summary>
+<details><summary>584 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -444,6 +444,32 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>ruby3.1.4-nokogiri-1.10.3</tt> <br /> <a href='https://hydra.nixos.org/build/241474737/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/241474737/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/241474737/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/241410141'>build 241410141</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/241480781'>multipass.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>source</tt> <br /> <a href='https://hydra.nixos.org/build/241480781/nixlog/5'>log</a>, <a href='https://hydra.nixos.org/build/241480781/nixlog/5/raw'>raw</a>, <a href='https://hydra.nixos.org/build/241480781/nixlog/5/tail'>tail</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>source</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>source</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>source</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>source</tt> <br /> 
 </li>
 </ul>
 </details>
@@ -4377,7 +4403,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>20261 issues</summary>
+<details><summary>20260 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -90122,13 +90148,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/241480781'>multipass.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/241473318'>mumble.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -146241,6 +146260,20 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/240532789'>x86_64-linux source</a></tt></summary>
+<ul>
+<li>emacsPackages.anki-editor-view.x86_64-linux</li>
+<li>emacsPackages.fixed-page-mode.x86_64-linux</li>
+<li>emacsPackages.flycheck-cfn.x86_64-linux</li>
+<li>emacsPackages.ox-leanpub.x86_64-linux</li>
+<li>multipass.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>9</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/241338554'>x86_64-linux python3.10-blis-0.7.9</a></tt></summary>
 <ul>
 <li>python310Packages.fastai.x86_64-linux</li>
@@ -146314,19 +146347,6 @@ Built for evals:
 </details>
 </td>
 <td>5</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/240532789'>x86_64-linux source</a></tt></summary>
-<ul>
-<li>emacsPackages.anki-editor-view.x86_64-linux</li>
-<li>emacsPackages.fixed-page-mode.x86_64-linux</li>
-<li>emacsPackages.flycheck-cfn.x86_64-linux</li>
-<li>emacsPackages.ox-leanpub.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>4</td>
 </tr>
 <tr>
 <td>
