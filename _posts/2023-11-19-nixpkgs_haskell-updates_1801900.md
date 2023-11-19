@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2023-11-19 08:04:40 UTC*
+*Report built at 2023-11-19 10:04:31 UTC*
 
 Built for evals:
 
@@ -332,18 +332,12 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>136 issues</summary>
+<details><summary>135 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/241041974'>haskell.packages.ghc962.cabal2nix-unstable.x86_64-darwin</a></tt>
-</td>
-<td>Cancelled</td>
-</tr>
 <tr>
 <td>
 <details><summary>
@@ -3407,7 +3401,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>2257 issues</summary>
+<details><summary>2258 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -3525,6 +3519,13 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/241041974'>haskell.packages.ghc962.cabal2nix-unstable.x86_64-darwin</a></tt>
+</td>
+<td>Queued</td>
+<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
