@@ -1,10 +1,10 @@
 ---
-title: nixos:release-23.05 1801927
+title: nixos:release-23.05 1801927 (succeeded)
 categories: nixos:release-23.05
 ---
 # Evals report
 
-*Report built at 2023-11-19 22:07:35 UTC*
+*Report built at 2023-11-19 23:07:28 UTC*
 
 Built for evals:
 
@@ -39045,34 +39045,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/240247876'>nixpkgs.gawkextlib.select.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>2 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/241506115'>nixos.iso_plasma5.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/241505796'>tested</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
