@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:haskell-updates 1801964
+title: nixpkgs:haskell-updates 1801964 (succeeded)
 categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2023-11-20 19:04:22 UTC*
+*Report built at 2023-11-20 20:04:29 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>73 issues</summary>
+<details><summary>75 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -122,6 +122,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/241527504'>haskell.packages.ghc902.haskell-language-server.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>hls-plugin-api-2.4.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/241527504/nixlog/64'>log</a>, <a href='https://hydra.nixos.org/build/241527504/nixlog/64/raw'>raw</a>, <a href='https://hydra.nixos.org/build/241527504/nixlog/64/tail'>tail</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/241527524'>haskell.packages.ghc924.haskell-language-server.x86_64-linux</a></tt>
 </summary>
 <ul>
@@ -183,6 +197,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>hls-plugin-api-2.4.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/241527536/nixlog/17'>log</a>, <a href='https://hydra.nixos.org/build/241527536/nixlog/17/raw'>raw</a>, <a href='https://hydra.nixos.org/build/241527536/nixlog/17/tail'>tail</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/241527496'>haskell.packages.ghc945.haskell-language-server.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>hls-plugin-api-2.4.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/241527496/nixlog/44'>log</a>, <a href='https://hydra.nixos.org/build/241527496/nixlog/44/raw'>raw</a>, <a href='https://hydra.nixos.org/build/241527496/nixlog/44/tail'>tail</a>
 </li>
 </ul>
 </details>
@@ -5170,55 +5198,6 @@ Built for evals:
 </table>
 </details>
 
-
-### Still queued
-
-
-<details><summary>5 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/241527504'>haskell.packages.ghc902.haskell-language-server.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/241527496'>haskell.packages.ghc945.haskell-language-server.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/241527187'>haskell.packages.ghc946.ghc-lib.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/241526957'>muslGHCs</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/241526723'>pkgsMusl.haskell.compiler.ghcHEAD.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-</table>
-</details>
-
 ## Problematic dependencies
 
 <table>
@@ -5236,6 +5215,7 @@ Built for evals:
 <li>haskell.packages.ghc902.haskell-language-server.aarch64-darwin</li>
 <li>haskell.packages.ghc902.haskell-language-server.aarch64-linux</li>
 <li>haskell.packages.ghc902.haskell-language-server.x86_64-darwin</li>
+<li>haskell.packages.ghc902.haskell-language-server.x86_64-linux</li>
 <li>haskell.packages.ghc924.haskell-language-server.aarch64-darwin</li>
 <li>haskell.packages.ghc924.haskell-language-server.aarch64-linux</li>
 <li>haskell.packages.ghc924.haskell-language-server.x86_64-darwin</li>
@@ -5259,6 +5239,7 @@ Built for evals:
 <li>haskell.packages.ghc945.haskell-language-server.aarch64-darwin</li>
 <li>haskell.packages.ghc945.haskell-language-server.aarch64-linux</li>
 <li>haskell.packages.ghc945.haskell-language-server.x86_64-darwin</li>
+<li>haskell.packages.ghc945.haskell-language-server.x86_64-linux</li>
 <li>haskell.packages.ghc946.haskell-language-server.aarch64-darwin</li>
 <li>haskell.packages.ghc946.haskell-language-server.aarch64-linux</li>
 <li>haskell.packages.ghc946.haskell-language-server.x86_64-darwin</li>
@@ -5391,7 +5372,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>159</td>
+<td>161</td>
 </tr>
 <tr>
 <td>
