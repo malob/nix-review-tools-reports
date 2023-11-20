@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next
 ---
 # Evals report
 
-*Report built at 2023-11-20 18:09:28 UTC*
+*Report built at 2023-11-20 19:08:09 UTC*
 
 Built for evals:
 
@@ -7169,7 +7169,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>239 issues</summary>
+<details><summary>237 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -8733,20 +8733,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/241486275'>pomerium.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/241487959'>python310Packages.graph-tool.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/241487583'>python311Packages.graph-tool.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
