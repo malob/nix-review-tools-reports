@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2023-11-22 05:04:37 UTC*
+*Report built at 2023-11-22 06:04:50 UTC*
 
 Built for evals:
 
@@ -822,7 +822,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>145 issues</summary>
+<details><summary>146 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -1005,6 +1005,20 @@ Built for evals:
 </li>
 <li>
 <b>=> Aborted</b> <tt>charset-0.3.10</tt> <br /> <a href='https://hydra.nixos.org/build/241769416/nixlog/91'>log</a>, <a href='https://hydra.nixos.org/build/241769416/nixlog/91/raw'>raw</a>, <a href='https://hydra.nixos.org/build/241769416/nixlog/91/tail'>tail</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/241769377'>haskell.packages.ghc963.haskell-language-server.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>hls-plugin-api-2.4.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/241769377/nixlog/198'>log</a>, <a href='https://hydra.nixos.org/build/241769377/nixlog/198/raw'>raw</a>, <a href='https://hydra.nixos.org/build/241769377/nixlog/198/tail'>tail</a>
 </li>
 </ul>
 </details>
@@ -5207,7 +5221,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>14 issues</summary>
+<details><summary>11 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -5224,13 +5238,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/241769389'>haskell.compiler.native-bignum.ghcHEAD.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/241769377'>haskell.packages.ghc963.haskell-language-server.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -5272,24 +5279,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/241834129'>pkgsCross.ghcjs.haskell.packages.ghcHEAD.ghc.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/241834436'>pkgsCross.ghcjs.haskell.packages.ghcHEAD.ghc.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/241834596'>pkgsCross.ghcjs.haskell.packages.ghcHEAD.hello.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -5371,6 +5364,7 @@ Built for evals:
 <li>haskell.packages.ghc962.haskell-language-server.x86_64-linux</li>
 <li>haskell.packages.ghc963.haskell-language-server.aarch64-darwin</li>
 <li>haskell.packages.ghc963.haskell-language-server.aarch64-linux</li>
+<li>haskell.packages.ghc963.haskell-language-server.x86_64-darwin</li>
 <li>haskell.packages.ghc963.haskell-language-server.x86_64-linux</li>
 <li>haskellPackages.ghcide.aarch64-darwin</li>
 <li>haskellPackages.ghcide.aarch64-linux</li>
@@ -5488,7 +5482,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>160</td>
+<td>161</td>
 </tr>
 <tr>
 <td>
