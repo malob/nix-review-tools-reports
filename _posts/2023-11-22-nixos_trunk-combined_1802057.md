@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2023-11-22 21:08:02 UTC*
+*Report built at 2023-11-22 22:07:59 UTC*
 
 Built for evals:
 
@@ -32690,7 +32690,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>2635 issues</summary>
+<details><summary>2633 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -32812,13 +32812,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/241852589'>nixos.iso_minimal_new_kernel_no_zfs.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/241869669'>nixos.iso_plasma5.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -51131,13 +51124,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/241864918'>nixpkgs.youtube-music.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/241855826'>tested</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
