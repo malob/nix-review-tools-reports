@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2023-11-22 16:05:04 UTC*
+*Report built at 2023-11-22 18:05:18 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>57 issues</summary>
+<details><summary>61 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -29,6 +29,62 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>hls-plugin-api-2.4.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/241527500/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/241527500/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/241527500/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/241516849'>build 241516849</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/241980601'>haskell.packages.ghc884.cabal2nix-unstable.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>iproute-1.7.12</tt> <br /> <a href='https://hydra.nixos.org/build/241980601/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/241980601/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/241980601/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/241980617'>build 241980617</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/241980598'>haskell.packages.ghc884.cabal2nix.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>iproute-1.7.12</tt> <br /> <a href='https://hydra.nixos.org/build/241980598/nixlog/10'>log</a>, <a href='https://hydra.nixos.org/build/241980598/nixlog/10/raw'>raw</a>, <a href='https://hydra.nixos.org/build/241980598/nixlog/10/tail'>tail</a>, <a href='https://hydra.nixos.org/build/241980617'>build 241980617</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/241980616'>haskell.packages.ghc884.hoogle.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>iproute-1.7.12</tt> <br /> <a href='https://hydra.nixos.org/build/241980616/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/241980616/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/241980616/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/241980617'>build 241980617</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/241980617'>haskell.packages.ghc884.hpack.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>iproute-1.7.12</tt> <br /> <a href='https://hydra.nixos.org/build/241980617/nixlog/31'>log</a>, <a href='https://hydra.nixos.org/build/241980617/nixlog/31/raw'>raw</a>, <a href='https://hydra.nixos.org/build/241980617/nixlog/31/tail'>tail</a>
 </li>
 </ul>
 </details>
@@ -738,7 +794,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>146 issues</summary>
+<details><summary>148 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -1839,6 +1895,26 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/241980594'>pkgsCross.ghcjs.haskell.packages.ghcHEAD.hello.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>ghc-9.9.20231121</tt> <br /> <a href='https://hydra.nixos.org/build/241980594/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/241980594/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/241980594/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/241980590'>build 241980590</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/241980606'>haskell.compiler.native-bignum.ghcHEAD.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/241517571'>haskell.packages.ghc902.ghc-tags.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -2258,7 +2334,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>91 issues</summary>
+<details><summary>95 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -2286,6 +2362,65 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>python3.11-Django-4.2.7</tt> <br /> <a href='https://hydra.nixos.org/build/241834187/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/241834187/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/241834187/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/241586570'>build 241586570</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/241980593'>haskell.packages.ghc884.cabal2nix-unstable.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Aborted</b> <tt>vector-0.13.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/241980593/nixlog/32'>log</a>, <a href='https://hydra.nixos.org/build/241980593/nixlog/32/raw'>raw</a>, <a href='https://hydra.nixos.org/build/241980593/nixlog/32/tail'>tail</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>iproute-1.7.12</tt> <br /> <a href='https://hydra.nixos.org/build/241980593/nixlog/31'>log</a>, <a href='https://hydra.nixos.org/build/241980593/nixlog/31/raw'>raw</a>, <a href='https://hydra.nixos.org/build/241980593/nixlog/31/tail'>tail</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/241980603'>haskell.packages.ghc884.cabal2nix.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>iproute-1.7.12</tt> <br /> <a href='https://hydra.nixos.org/build/241980603/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/241980603/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/241980603/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/241980593'>build 241980593</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/241980604'>haskell.packages.ghc884.hoogle.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>iproute-1.7.12</tt> <br /> <a href='https://hydra.nixos.org/build/241980604/nixlog/6'>log</a>, <a href='https://hydra.nixos.org/build/241980604/nixlog/6/raw'>raw</a>, <a href='https://hydra.nixos.org/build/241980604/nixlog/6/tail'>tail</a>, <a href='https://hydra.nixos.org/build/241980593'>build 241980593</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/241980592'>haskell.packages.ghc884.hpack.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>iproute-1.7.12</tt> <br /> <a href='https://hydra.nixos.org/build/241980592/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/241980592/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/241980592/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/241980593'>build 241980593</a>
 </li>
 </ul>
 </details>
@@ -3345,12 +3480,26 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>159 issues</summary>
+<details><summary>160 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 </tr></thead>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/241525180'>git-annex.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>bup-0.33.2</tt> <br /> <a href='https://hydra.nixos.org/build/241525180/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/241525180/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/241525180/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/241520719'>build 241520719</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
 <tr>
 <td>
 <details><summary>
@@ -4991,7 +5140,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>35 issues</summary>
+<details><summary>15 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -5011,13 +5160,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/241980590'>haskell.compiler.ghcHEAD.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -5042,119 +5184,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/241980606'>haskell.compiler.native-bignum.ghcHEAD.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/241980614'>haskell.compiler.native-bignum.ghcHEAD.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/241980593'>haskell.packages.ghc884.cabal2nix-unstable.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/241980622'>haskell.packages.ghc884.cabal2nix-unstable.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/241980601'>haskell.packages.ghc884.cabal2nix-unstable.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/241980603'>haskell.packages.ghc884.cabal2nix.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/241980615'>haskell.packages.ghc884.cabal2nix.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/241980598'>haskell.packages.ghc884.cabal2nix.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/241980618'>haskell.packages.ghc884.ghc-lib-parser-ex.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/241980623'>haskell.packages.ghc884.ghc-lib-parser-ex.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/241980596'>haskell.packages.ghc884.ghc-lib-parser-ex.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/241980604'>haskell.packages.ghc884.hoogle.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/241980597'>haskell.packages.ghc884.hoogle.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/241980616'>haskell.packages.ghc884.hoogle.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/241980592'>haskell.packages.ghc884.hpack.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/241980595'>haskell.packages.ghc884.hpack.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/241980617'>haskell.packages.ghc884.hpack.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -5165,20 +5195,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/241980605'>haskell.packages.ghc884.language-nix.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/241980608'>haskell.packages.ghc884.language-nix.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -5214,13 +5230,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/241980594'>pkgsCross.ghcjs.haskell.packages.ghcHEAD.hello.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -5512,6 +5521,23 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt>aarch64-linux iproute-1.7.12</tt></summary>
+<ul>
+<li>haskell.packages.ghc884.cabal2nix-unstable.aarch64-linux</li>
+<li>haskell.packages.ghc884.cabal2nix-unstable.x86_64-linux</li>
+<li>haskell.packages.ghc884.cabal2nix.aarch64-linux</li>
+<li>haskell.packages.ghc884.cabal2nix.x86_64-linux</li>
+<li>haskell.packages.ghc884.hoogle.aarch64-linux</li>
+<li>haskell.packages.ghc884.hoogle.x86_64-linux</li>
+<li>haskell.packages.ghc884.hpack.aarch64-linux</li>
+<li>haskell.packages.ghc884.hpack.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>8</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/241527136'>aarch64-darwin exinst-base-0.9</a></tt></summary>
 <ul>
 <li>haskellPackages.exinst-aeson.aarch64-darwin</li>
@@ -5555,6 +5581,19 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/241520719'>aarch64-darwin bup-0.33.2</a></tt></summary>
+<ul>
+<li>git-annex.aarch64-darwin</li>
+<li>git-annex.x86_64-darwin</li>
+<li>haskellPackages.git-annex.aarch64-darwin</li>
+<li>haskellPackages.git-annex.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>4</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/241516641'>aarch64-darwin fp-ieee-0.1.0.3</a></tt></summary>
 <ul>
 <li>haskellPackages.rounded-hw.aarch64-darwin</li>
@@ -5578,18 +5617,6 @@ Built for evals:
 </details>
 </td>
 <td>4</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>x86_64-darwin bup-0.33.2</tt></summary>
-<ul>
-<li>git-annex.x86_64-darwin</li>
-<li>haskellPackages.git-annex.aarch64-darwin</li>
-<li>haskellPackages.git-annex.x86_64-darwin</li>
-</ul>
-</details>
-</td>
-<td>3</td>
 </tr>
 <tr>
 <td>
@@ -5722,6 +5749,26 @@ Built for evals:
 </details>
 </td>
 <td>2</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/241980590'>x86_64-darwin ghc-9.9.20231121</a></tt></summary>
+<ul>
+<li>pkgsCross.ghcjs.haskell.packages.ghcHEAD.hello.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>aarch64-linux vector-0.13.1.0</tt></summary>
+<ul>
+<li>haskell.packages.ghc884.cabal2nix-unstable.aarch64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
 </tr>
 <tr>
 <td>
