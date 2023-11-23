@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2023-11-23 10:04:46 UTC*
+*Report built at 2023-11-23 12:04:57 UTC*
 
 Built for evals:
 
@@ -4961,7 +4961,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>9 issues</summary>
+<details><summary>5 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -4977,13 +4977,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/242115400'>pkgsCross.ghcjs.haskell.packages.ghcHEAD.ghc.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/242115525'>pkgsCross.ghcjs.haskell.packages.ghcHEAD.hello.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -4991,31 +4984,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/242115496'>pkgsCross.ghcjs.haskellPackages.ghc.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/242115516'>pkgsCross.ghcjs.haskellPackages.ghc.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/242115391'>pkgsCross.ghcjs.haskellPackages.ghc.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/242115566'>pkgsCross.ghcjs.haskellPackages.hello.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
