@@ -24,6 +24,8 @@ jobs:
             jobset: trunk
           - project: nixpkgs
             jobset: nixpkgs-23.05-darwin
+          - project: nixpkgs
+            jobset: nixpkgs-23.11-darwin
 
           - project: nixpkgs
             jobset: haskell-updates
@@ -39,6 +41,8 @@ jobs:
             jobset: trunk-combined
           - project: nixos
             jobset: release-23.05
+          - project: nixos
+            jobset: release-23.11
 
     name: ${{ matrix.project }}:${{ matrix.jobset }}
     uses: ./.github/workflows/gen-report.yml
