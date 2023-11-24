@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2023-11-24 06:08:17 UTC*
+*Report built at 2023-11-24 07:08:07 UTC*
 
 Built for evals:
 
@@ -15,12 +15,30 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>587 issues</summary>
+<details><summary>590 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 </tr></thead>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/241343199'>nixpkgs.aspellDicts.is.x86_64-linux</a></tt>
+</td>
+<td>Cancelled</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/241336583'>nixpkgs.aspellDicts.nb.x86_64-linux</a></tt>
+</td>
+<td>Cancelled</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/241842610'>nixpkgs.xmage.x86_64-linux</a></tt>
+</td>
+<td>Cancelled</td>
+</tr>
 <tr>
 <td>
 <details><summary>
@@ -4166,12 +4184,18 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>684 issues</summary>
+<details><summary>685 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 </tr></thead>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/241389051'>nixpkgs.aspellDicts.nb.aarch64-linux</a></tt>
+</td>
+<td>Cancelled</td>
+</tr>
 <tr>
 <td>
 <details><summary>
@@ -9454,7 +9478,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>20364 issues</summary>
+<details><summary>20360 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -18343,6 +18367,13 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/242159690'>nixos.tests.allDrivers.kafka.kafka_kraft.aarch64-linux</a></tt>
+</td>
+<td>Queued</td>
+<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -60452,34 +60483,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/242146680'>nixpkgs.asciidoc-full.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/241326895'>nixpkgs.aspellDicts.is.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/241343199'>nixpkgs.aspellDicts.is.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/241389051'>nixpkgs.aspellDicts.nb.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/241336583'>nixpkgs.aspellDicts.nb.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -151585,13 +151588,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/242152052'>nixpkgs.xflr5.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/241842610'>nixpkgs.xmage.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
