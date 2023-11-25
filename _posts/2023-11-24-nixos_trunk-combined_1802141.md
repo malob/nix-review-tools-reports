@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2023-11-25 00:11:10 UTC*
+*Report built at 2023-11-25 01:29:01 UTC*
 
 Built for evals:
 
@@ -6600,7 +6600,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>787 issues</summary>
+<details><summary>788 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -12577,6 +12577,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/241839196'>nixpkgs.python311Packages.cirq-rigetti.x86_64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/242155656'>nixpkgs.python311Packages.cirq.x86_64-linux</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -20399,7 +20405,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>3095 issues</summary>
+<details><summary>3092 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -41975,13 +41981,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/242155656'>nixpkgs.python311Packages.cirq.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/242151423'>nixpkgs.python311Packages.datashader.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -42032,20 +42031,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/242161564'>nixpkgs.python311Packages.tf2onnx.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/242156835'>nixpkgs.sage.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/242153511'>nixpkgs.sageWithDoc.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
