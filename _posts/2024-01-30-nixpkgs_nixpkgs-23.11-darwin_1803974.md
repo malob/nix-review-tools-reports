@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-23.11-darwin
 ---
 # Evals report
 
-*Report built at 2024-01-30 08:07:11 UTC*
+*Report built at 2024-01-30 11:07:33 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1451 issues</summary>
+<details><summary>1452 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -5531,6 +5531,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>orcania-2.3.3</tt> <br /> <a href='https://hydra.nixos.org/build/246992137/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/246992137/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/246992137/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/246020069'>build 246020069</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/248004021'>yojimbo.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>premake5-5.0.0-beta2</tt> <br /> <a href='https://hydra.nixos.org/build/248004021/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/248004021/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/248004021/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/246009241'>build 246009241</a>
 </li>
 </ul>
 </details>
@@ -22315,7 +22329,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>98 issues</summary>
+<details><summary>97 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -22997,13 +23011,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/248004048'>why3.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/248004021'>yojimbo.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -24669,6 +24676,17 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/246009241'>x86_64-darwin premake5-5.0.0-beta2</a></tt></summary>
+<ul>
+<li>otfcc.x86_64-darwin</li>
+<li>yojimbo.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/246678236'>aarch64-darwin jam-2.6.1</a></tt></summary>
 <ul>
 <li>p4.aarch64-darwin</li>
@@ -25407,16 +25425,6 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/245999603'>x86_64-darwin tcc-unstable-2022-07-15</a></tt></summary>
 <ul>
 <li>nrpl.x86_64-darwin</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/246009241'>x86_64-darwin premake5-5.0.0-beta2</a></tt></summary>
-<ul>
-<li>otfcc.x86_64-darwin</li>
 </ul>
 </details>
 </td>
