@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2024-01-30 13:04:36 UTC*
+*Report built at 2024-01-30 14:04:52 UTC*
 
 Built for evals:
 
@@ -31190,7 +31190,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>41 issues</summary>
+<details><summary>39 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -31402,24 +31402,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/248004100'>haskellPackages.hgdal.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/248004136'>haskellPackages.hgdal.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/248004107'>haskellPackages.hgdal.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
