@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2024-01-30 02:09:32 UTC*
+*Report built at 2024-01-30 11:04:36 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>791 issues</summary>
+<details><summary>792 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -3784,6 +3784,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>warp-3.3.31</tt> <br /> <a href='https://hydra.nixos.org/build/247387552/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/247387552/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/247387552/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/247374682'>build 247374682</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/248004159'>maintained</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>streamly-archive-0.2.0</tt> <br /> <a href='https://hydra.nixos.org/build/248004159/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/248004159/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/248004159/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/247379028'>build 247379028</a>
 </li>
 </ul>
 </details>
@@ -14788,7 +14802,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>810 issues</summary>
+<details><summary>811 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -15522,6 +15536,20 @@ Built for evals:
 </li>
 <li>
 <b>=> Aborted</b> <tt>dec-0.0.5</tt> <br /> 
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/248004109'>haskell.packages.ghc963.cabal2nix-unstable.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>doctest-0.22.2</tt> <br /> <a href='https://hydra.nixos.org/build/248004109/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/248004109/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/248004109/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/247388584'>build 247388584</a>
 </li>
 </ul>
 </details>
@@ -23225,7 +23253,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>885 issues</summary>
+<details><summary>886 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -23351,6 +23379,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>shake-0.19.8</tt> <br /> <a href='https://hydra.nixos.org/build/247384446/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/247384446/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/247384446/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/247388737'>build 247388737</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/248004140'>haskell.packages.ghc902.cabal2nix-unstable.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>crypton-0.34</tt> <br /> <a href='https://hydra.nixos.org/build/248004140/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/248004140/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/248004140/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/247394181'>build 247394181</a>
 </li>
 </ul>
 </details>
@@ -31148,7 +31190,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>71 issues</summary>
+<details><summary>68 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -31210,13 +31252,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/248004140'>haskell.packages.ghc902.cabal2nix-unstable.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -31472,13 +31507,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/248004109'>haskell.packages.ghc963.cabal2nix-unstable.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/248004139'>haskell.packages.ghc963.cabal2nix-unstable.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -31634,13 +31662,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/248004131'>haskellPackages.mpi-hs-store.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/248004159'>maintained</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -32876,6 +32897,26 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/247388584'>aarch64-linux doctest-0.22.2</a></tt></summary>
+<ul>
+<li>haskell.packages.ghc963.cabal-install.aarch64-linux</li>
+<li>haskell.packages.ghc963.cabal2nix-unstable.aarch64-linux</li>
+<li>haskell.packages.ghc963.cabal2nix.aarch64-linux</li>
+<li>haskell.packages.ghc963.ghc-lib-parser-ex.aarch64-linux</li>
+<li>haskell.packages.ghc963.ghc-tags.aarch64-linux</li>
+<li>haskell.packages.ghc963.haskell-language-server.aarch64-linux</li>
+<li>haskell.packages.ghc963.hlint.aarch64-linux</li>
+<li>haskell.packages.ghc963.hoogle.aarch64-linux</li>
+<li>haskell.packages.ghc963.hpack.aarch64-linux</li>
+<li>haskell.packages.ghc963.language-nix.aarch64-linux</li>
+<li>haskell.packages.ghc963.weeder.aarch64-linux</li>
+</ul>
+</details>
+</td>
+<td>11</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/247380951'>aarch64-linux eventuo11y-0.9.0.1</a></tt></summary>
 <ul>
 <li>haskellPackages.eventuo11y-batteries.aarch64-linux</li>
@@ -32906,25 +32947,6 @@ Built for evals:
 <li>haskellPackages.dhall-lsp-server.aarch64-linux</li>
 <li>haskellPackages.dhall-lsp-server.x86_64-darwin</li>
 <li>haskellPackages.dhall-lsp-server.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>10</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/247388584'>aarch64-linux doctest-0.22.2</a></tt></summary>
-<ul>
-<li>haskell.packages.ghc963.cabal-install.aarch64-linux</li>
-<li>haskell.packages.ghc963.cabal2nix.aarch64-linux</li>
-<li>haskell.packages.ghc963.ghc-lib-parser-ex.aarch64-linux</li>
-<li>haskell.packages.ghc963.ghc-tags.aarch64-linux</li>
-<li>haskell.packages.ghc963.haskell-language-server.aarch64-linux</li>
-<li>haskell.packages.ghc963.hlint.aarch64-linux</li>
-<li>haskell.packages.ghc963.hoogle.aarch64-linux</li>
-<li>haskell.packages.ghc963.hpack.aarch64-linux</li>
-<li>haskell.packages.ghc963.language-nix.aarch64-linux</li>
-<li>haskell.packages.ghc963.weeder.aarch64-linux</li>
 </ul>
 </details>
 </td>
@@ -33357,6 +33379,20 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/247394181'>aarch64-darwin crypton-0.34</a></tt></summary>
+<ul>
+<li>haskell.packages.ghc902.cabal2nix-unstable.aarch64-darwin</li>
+<li>haskell.packages.ghc902.cabal2nix.aarch64-darwin</li>
+<li>haskell.packages.ghc902.hoogle.aarch64-darwin</li>
+<li>haskell.packages.ghc902.hpack.aarch64-darwin</li>
+<li>haskell.packages.ghc902.weeder.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>5</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/247393409'>aarch64-darwin ascii-predicates-1.0.1.3</a></tt></summary>
 <ul>
 <li>haskellPackages.ascii.aarch64-darwin</li>
@@ -33410,19 +33446,6 @@ Built for evals:
 </details>
 </td>
 <td>5</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/247394181'>aarch64-darwin crypton-0.34</a></tt></summary>
-<ul>
-<li>haskell.packages.ghc902.cabal2nix.aarch64-darwin</li>
-<li>haskell.packages.ghc902.hoogle.aarch64-darwin</li>
-<li>haskell.packages.ghc902.hpack.aarch64-darwin</li>
-<li>haskell.packages.ghc902.weeder.aarch64-darwin</li>
-</ul>
-</details>
-</td>
-<td>4</td>
 </tr>
 <tr>
 <td>
@@ -35867,6 +35890,16 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/247381479'>aarch64-linux stm-queue-0.2.0.0</a></tt></summary>
 <ul>
 <li>haskellPackages.stm-actor.aarch64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/247379028'>x86_64-linux streamly-archive-0.2.0</a></tt></summary>
+<ul>
+<li>maintained</li>
 </ul>
 </details>
 </td>
