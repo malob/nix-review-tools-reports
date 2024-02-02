@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next-23.11
 ---
 # Evals report
 
-*Report built at 2024-02-02 12:08:12 UTC*
+*Report built at 2024-02-02 13:07:40 UTC*
 
 Built for evals:
 
@@ -19159,7 +19159,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>681 issues</summary>
+<details><summary>686 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -19185,6 +19185,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/247770134'>haskell.compiler.ghc92.aarch64-linux</a></tt>
+</td>
+<td>Aborted</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/247818489'>haskell.compiler.ghc926.aarch64-linux</a></tt>
 </td>
 <td>Aborted</td>
@@ -19197,7 +19203,31 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/247839348'>haskell.compiler.ghc928.aarch64-linux</a></tt>
+</td>
+<td>Aborted</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/247744696'>haskell.compiler.ghcHEAD.aarch64-linux</a></tt>
+</td>
+<td>Aborted</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/247859584'>haskell.compiler.native-bignum.ghc92.aarch64-linux</a></tt>
+</td>
+<td>Aborted</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/247840380'>haskell.compiler.native-bignum.ghc927.aarch64-linux</a></tt>
+</td>
+<td>Aborted</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/247836258'>haskell.compiler.native-bignum.ghc928.aarch64-linux</a></tt>
 </td>
 <td>Aborted</td>
 </tr>
@@ -35712,7 +35742,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>1570 issues</summary>
+<details><summary>1565 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -35805,13 +35835,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/247770134'>haskell.compiler.ghc92.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/247877213'>haskell.compiler.ghc924.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -35819,21 +35842,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/247839348'>haskell.compiler.ghc928.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/247887665'>haskell.compiler.ghc944.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/247859584'>haskell.compiler.native-bignum.ghc92.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
@@ -35855,20 +35864,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/247870756'>haskell.compiler.native-bignum.ghc926.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/247840380'>haskell.compiler.native-bignum.ghc927.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/247836258'>haskell.compiler.native-bignum.ghc928.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
