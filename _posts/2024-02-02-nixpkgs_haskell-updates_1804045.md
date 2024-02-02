@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2024-02-02 01:25:17 UTC*
+*Report built at 2024-02-02 21:04:27 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>834 issues</summary>
+<details><summary>836 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -2925,6 +2925,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/248294865'>haskellPackages.reflex-dom.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>reflex-dom-core-0.8.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/248294865/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/248294865/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/248294865/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/248031680'>build 248031680</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/247384750'>haskellPackages.reform-blaze.x86_64-linux</a></tt>
 </summary>
 <ul>
@@ -3924,6 +3938,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>warp-3.3.31</tt> <br /> <a href='https://hydra.nixos.org/build/248034316/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/248034316/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/248034316/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/248035646'>build 248035646</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/248294862'>maintained</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>eventlog2html-0.10.0</tt> <br /> <a href='https://hydra.nixos.org/build/248294862/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/248294862/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/248294862/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/248042392'>build 248042392</a>
 </li>
 </ul>
 </details>
@@ -15512,7 +15540,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>849 issues</summary>
+<details><summary>850 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -19104,6 +19132,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>reflex-dom-core-0.8.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/248035537/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/248035537/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/248035537/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/248042164'>build 248042164</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/248294867'>haskellPackages.reflex-dom.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>reflex-dom-core-0.8.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/248294867/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/248294867/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/248294867/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/248042164'>build 248042164</a>
 </li>
 </ul>
 </details>
@@ -31812,7 +31854,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>28 issues</summary>
+<details><summary>11 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -31828,24 +31870,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/248294876'>haskellPackages.bindings-lxc.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/248294864'>haskellPackages.gi-javascriptcore.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/248294874'>haskellPackages.gi-javascriptcore.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -31856,24 +31884,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/248294851'>haskellPackages.gi-ostree.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/248294863'>haskellPackages.gi-secret.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/248294870'>haskellPackages.gi-secret.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -31884,24 +31898,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/248294868'>haskellPackages.gi-webkit2.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/248294859'>haskellPackages.gi-webkit2webextension.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/248294861'>haskellPackages.gi-webkit2webextension.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -31912,24 +31912,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/248294871'>haskellPackages.gnome-keyring.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/248294878'>haskellPackages.jsaddle-webkit2gtk.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/248294869'>haskellPackages.jsaddle-webkit2gtk.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -31940,13 +31926,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/248294855'>haskellPackages.lxc.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/248294877'>haskellPackages.ostree-pin.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -31954,66 +31933,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/248294853'>haskellPackages.ostree-pin.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/248294867'>haskellPackages.reflex-dom.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/248294865'>haskellPackages.reflex-dom.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/248294856'>haskellPackages.webkit2gtk3-javascriptcore.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/248294857'>haskellPackages.webkit2gtk3-javascriptcore.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/248294862'>maintained</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/248294858'>nixosTests.agda.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/248294860'>nixosTests.xmonad-xdg-autostart.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/248294854'>nixosTests.xmonad.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
@@ -33203,6 +33126,25 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/248028065'>aarch64-darwin reflex-dom-core-0.8.1.0</a></tt></summary>
+<ul>
+<li>haskellPackages.reflex-dom-ionic.aarch64-darwin</li>
+<li>haskellPackages.reflex-dom-ionic.aarch64-linux</li>
+<li>haskellPackages.reflex-dom-ionic.x86_64-darwin</li>
+<li>haskellPackages.reflex-dom-ionic.x86_64-linux</li>
+<li>haskellPackages.reflex-dom-th.aarch64-darwin</li>
+<li>haskellPackages.reflex-dom-th.aarch64-linux</li>
+<li>haskellPackages.reflex-dom-th.x86_64-darwin</li>
+<li>haskellPackages.reflex-dom-th.x86_64-linux</li>
+<li>haskellPackages.reflex-dom.aarch64-linux</li>
+<li>haskellPackages.reflex-dom.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>10</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/248038982'>aarch64-darwin lsp-1.4.0.0</a></tt></summary>
 <ul>
 <li>dhall-lsp-server.aarch64-darwin</li>
@@ -33454,23 +33396,6 @@ Built for evals:
 <li>haskellPackages.lawful-classes-quickcheck.aarch64-linux</li>
 <li>haskellPackages.lawful-classes-quickcheck.x86_64-darwin</li>
 <li>haskellPackages.lawful-classes-quickcheck.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>8</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/248028065'>aarch64-darwin reflex-dom-core-0.8.1.0</a></tt></summary>
-<ul>
-<li>haskellPackages.reflex-dom-ionic.aarch64-darwin</li>
-<li>haskellPackages.reflex-dom-ionic.aarch64-linux</li>
-<li>haskellPackages.reflex-dom-ionic.x86_64-darwin</li>
-<li>haskellPackages.reflex-dom-ionic.x86_64-linux</li>
-<li>haskellPackages.reflex-dom-th.aarch64-darwin</li>
-<li>haskellPackages.reflex-dom-th.aarch64-linux</li>
-<li>haskellPackages.reflex-dom-th.x86_64-darwin</li>
-<li>haskellPackages.reflex-dom-th.x86_64-linux</li>
 </ul>
 </details>
 </td>
@@ -35266,6 +35191,16 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/247381479'>aarch64-linux stm-queue-0.2.0.0</a></tt></summary>
 <ul>
 <li>haskellPackages.stm-actor.aarch64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/248042392'>x86_64-linux eventlog2html-0.10.0</a></tt></summary>
+<ul>
+<li>maintained</li>
 </ul>
 </details>
 </td>
