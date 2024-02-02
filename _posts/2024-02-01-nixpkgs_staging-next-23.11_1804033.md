@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next-23.11
 ---
 # Evals report
 
-*Report built at 2024-02-02 10:08:43 UTC*
+*Report built at 2024-02-02 12:08:12 UTC*
 
 Built for evals:
 
@@ -35712,7 +35712,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>1574 issues</summary>
+<details><summary>1570 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -35799,13 +35799,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/248171807'>floorp-unwrapped.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/247856046'>friture.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
@@ -46606,13 +46599,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/247866241'>llvmPackages_14.llvm-manpages.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/247887278'>llvmPackages_6.llvm-manpages.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -46677,20 +46663,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/248014418'>qtemu.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/248171790'>sitespeed-io.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/248171699'>slimerjs.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
