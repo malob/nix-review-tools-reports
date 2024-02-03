@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-23.11-darwin
 ---
 # Evals report
 
-*Report built at 2024-02-03 02:09:52 UTC*
+*Report built at 2024-02-03 03:07:36 UTC*
 
 Built for evals:
 
@@ -11698,7 +11698,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1274 issues</summary>
+<details><summary>1276 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -12986,6 +12986,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>sym-0.13.0</tt> <br /> <a href='https://hydra.nixos.org/build/248341394/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/248341394/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/248341394/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/247805892'>build 247805892</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/248355429'>haskellPackages.telegram-bot-simple.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>telegram-bot-api-6.7.1</tt> <br /> <a href='https://hydra.nixos.org/build/248355429/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/248355429/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/248355429/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/248383735'>build 248383735</a>
 </li>
 </ul>
 </details>
@@ -17466,6 +17480,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/248383735'>haskellPackages.telegram-bot-api.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/248307741'>haskellPackages.unix-simple.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -21827,7 +21847,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>11 issues</summary>
+<details><summary>9 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -21844,20 +21864,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/248339575'>darwin.linux-builder.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/248383735'>haskellPackages.telegram-bot-api.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/248355429'>haskellPackages.telegram-bot-simple.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -24176,6 +24182,16 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/247833829'>aarch64-darwin rdtsc-1.3.0.1</a></tt></summary>
 <ul>
 <li>haskellPackages.picosat.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/248383735'>aarch64-darwin telegram-bot-api-6.7.1</a></tt></summary>
+<ul>
+<li>haskellPackages.telegram-bot-simple.aarch64-darwin</li>
 </ul>
 </details>
 </td>
