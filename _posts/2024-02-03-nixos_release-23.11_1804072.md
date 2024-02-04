@@ -4,13 +4,54 @@ categories: nixos:release-23.11
 ---
 # Evals report
 
-*Report built at 2024-02-04 21:07:39 UTC*
+*Report built at 2024-02-04 22:08:08 UTC*
 
 Built for evals:
 
   * [1804072](https://hydra.nixos.org/eval/1804072)
 
  * * * 
+
+### i686-linux
+
+
+<details><summary>2 issues</summary>
+<table>
+<thead><tr>
+<th>job</th>
+<th>status</th>
+</tr></thead>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/248510543'>nixos.tests.allDrivers.mumble.i686-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.11-scipy-1.11.3</tt> <br /> <a href='https://hydra.nixos.org/build/248510543/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/248510543/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/248510543/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/248184392'>build 248184392</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/248510532'>nixos.tests.lemmy.i686-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>libspng-0.7.4</tt> <br /> <a href='https://hydra.nixos.org/build/248510532/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/248510532/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/248510532/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/248244816'>build 248244816</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+</table>
+</details>
+
 
 ### x86_64-linux
 
@@ -14411,7 +14452,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>7416 issues</summary>
+<details><summary>7410 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -26362,13 +26403,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/248510543'>nixos.tests.allDrivers.mumble.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/248513255'>nixos.tests.allDrivers.mumble.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -28354,13 +28388,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/248510578'>nixos.tests.allDrivers.nfs4.simple.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -48783,13 +48810,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/248510532'>nixos.tests.lemmy.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/248511099'>nixos.tests.lemmy.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -64897,24 +64917,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/248511540'>nixpkgs.gnome.gnome-settings-daemon.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/248514041'>nixpkgs.gnome.gnome-settings-daemon43.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/248512649'>nixpkgs.gnome.gnome-settings-daemon43.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -65916,13 +65922,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/248510556'>nixpkgs.power-profiles-daemon.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -67132,6 +67131,26 @@ Built for evals:
 </details>
 </td>
 <td>2</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/248184392'>i686-linux python3.11-scipy-1.11.3</a></tt></summary>
+<ul>
+<li>nixos.tests.allDrivers.mumble.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/248244816'>i686-linux libspng-0.7.4</a></tt></summary>
+<ul>
+<li>nixos.tests.lemmy.i686-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
 </tr>
 <tr>
 <td>
