@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2024-02-05 12:05:15 UTC*
+*Report built at 2024-02-05 13:04:41 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>829 issues</summary>
+<details><summary>830 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -3434,6 +3434,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>connection-0.3.1</tt> <br /> <a href='https://hydra.nixos.org/build/248038016/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/248038016/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/248038016/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/247375594'>build 247375594</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/248537852'>haskellPackages.sockets-and-pipes.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>gambler-0.4.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/248537852/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/248537852/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/248537852/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/247381022'>build 247381022</a>
 </li>
 </ul>
 </details>
@@ -7293,7 +7307,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>913 issues</summary>
+<details><summary>914 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -11231,6 +11245,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>connection-0.3.1</tt> <br /> <a href='https://hydra.nixos.org/build/248035165/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/248035165/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/248035165/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/247385012'>build 247385012</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/248537849'>haskellPackages.sockets-and-pipes.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>gambler-0.4.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/248537849/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/248537849/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/248537849/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/247393282'>build 247393282</a>
 </li>
 </ul>
 </details>
@@ -15426,7 +15454,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>844 issues</summary>
+<details><summary>845 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -19549,6 +19577,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/248537847'>haskellPackages.sockets-and-pipes.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>gambler-0.4.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/248537847/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/248537847/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/248537847/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/247397569'>build 247397569</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/247377624'>haskellPackages.species.aarch64-linux</a></tt>
 </summary>
 <ul>
@@ -23378,7 +23420,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>925 issues</summary>
+<details><summary>926 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -27427,6 +27469,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>connection-0.3.1</tt> <br /> <a href='https://hydra.nixos.org/build/248042048/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/248042048/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/248042048/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/247382928'>build 247382928</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/248537858'>haskellPackages.sockets-and-pipes.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>gambler-0.4.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/248537858/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/248537858/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/248537858/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/247373998'>build 247373998</a>
 </li>
 </ul>
 </details>
@@ -31640,7 +31696,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>46 issues</summary>
+<details><summary>36 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -31649,24 +31705,10 @@ Built for evals:
 </tr></thead>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/248537853'>haskellPackages.ascii-numbers.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/248537857'>haskellPackages.ascii-numbers.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/248537856'>haskellPackages.ascii-numbers.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -31677,24 +31719,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/248537848'>haskellPackages.ascii-predicates.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/248537846'>haskellPackages.ascii-predicates.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/248537855'>haskellPackages.ascii-predicates.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -31705,24 +31733,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/248537850'>haskellPackages.ascii.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/248537844'>haskellPackages.ascii.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/248537845'>haskellPackages.ascii.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -31867,34 +31881,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/248543863'>haskellPackages.persistent-typed-db.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/248537858'>haskellPackages.sockets-and-pipes.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/248537847'>haskellPackages.sockets-and-pipes.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/248537849'>haskellPackages.sockets-and-pipes.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/248537852'>haskellPackages.sockets-and-pipes.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -32863,6 +32849,30 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/247373998'>aarch64-darwin gambler-0.4.1.0</a></tt></summary>
+<ul>
+<li>haskellPackages.hash-addressed-cli.aarch64-darwin</li>
+<li>haskellPackages.hash-addressed-cli.aarch64-linux</li>
+<li>haskellPackages.hash-addressed-cli.x86_64-darwin</li>
+<li>haskellPackages.hash-addressed-cli.x86_64-linux</li>
+<li>haskellPackages.hash-addressed.aarch64-darwin</li>
+<li>haskellPackages.hash-addressed.aarch64-linux</li>
+<li>haskellPackages.hash-addressed.x86_64-darwin</li>
+<li>haskellPackages.hash-addressed.x86_64-linux</li>
+<li>haskellPackages.sockets-and-pipes.aarch64-darwin</li>
+<li>haskellPackages.sockets-and-pipes.aarch64-linux</li>
+<li>haskellPackages.sockets-and-pipes.x86_64-darwin</li>
+<li>haskellPackages.sockets-and-pipes.x86_64-linux</li>
+<li>haskellPackages.supply-next.aarch64-darwin</li>
+<li>haskellPackages.supply-next.aarch64-linux</li>
+<li>haskellPackages.supply-next.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>15</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/247388737'>aarch64-darwin shake-0.19.8</a></tt></summary>
 <ul>
 <li>haskell.compiler.ghc98.aarch64-darwin</li>
@@ -33106,26 +33116,6 @@ Built for evals:
 <li>haskellPackages.selda-sqlite.aarch64-linux</li>
 <li>haskellPackages.selda-sqlite.x86_64-darwin</li>
 <li>haskellPackages.selda-sqlite.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>11</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/247373998'>aarch64-darwin gambler-0.4.1.0</a></tt></summary>
-<ul>
-<li>haskellPackages.hash-addressed-cli.aarch64-darwin</li>
-<li>haskellPackages.hash-addressed-cli.aarch64-linux</li>
-<li>haskellPackages.hash-addressed-cli.x86_64-darwin</li>
-<li>haskellPackages.hash-addressed-cli.x86_64-linux</li>
-<li>haskellPackages.hash-addressed.aarch64-darwin</li>
-<li>haskellPackages.hash-addressed.aarch64-linux</li>
-<li>haskellPackages.hash-addressed.x86_64-darwin</li>
-<li>haskellPackages.hash-addressed.x86_64-linux</li>
-<li>haskellPackages.supply-next.aarch64-darwin</li>
-<li>haskellPackages.supply-next.aarch64-linux</li>
-<li>haskellPackages.supply-next.x86_64-darwin</li>
 </ul>
 </details>
 </td>
