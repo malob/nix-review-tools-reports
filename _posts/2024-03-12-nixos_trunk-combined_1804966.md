@@ -1,10 +1,10 @@
 ---
-title: nixos:trunk-combined 1804966
+title: nixos:trunk-combined 1804966 (succeeded)
 categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2024-03-13 06:35:28 UTC*
+*Report built at 2024-03-13 07:08:04 UTC*
 
 Built for evals:
 
