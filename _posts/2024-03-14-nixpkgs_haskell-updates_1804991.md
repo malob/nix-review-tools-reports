@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:haskell-updates 1804991
+title: nixpkgs:haskell-updates 1804991 (succeeded)
 categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2024-03-14 20:04:51 UTC*
+*Report built at 2024-03-14 21:05:39 UTC*
 
 Built for evals:
 
@@ -14804,12 +14804,26 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>3313 issues</summary>
+<details><summary>3314 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 </tr></thead>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/252716440'>agdaPackages.cubical.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>unordered-containers-0.2.20</tt> <br /> <a href='https://hydra.nixos.org/build/252716440/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/252716440/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/252716440/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/252710983'>build 252710983</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
 <tr>
 <td>
 <details><summary>
@@ -67130,48 +67144,6 @@ Built for evals:
 </table>
 </details>
 
-
-### Still queued
-
-
-<details><summary>4 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/253250907'>ihaskell.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/253250910'>nixosTests.agda.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/253250909'>nixosTests.xmonad-xdg-autostart.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/253250908'>nixosTests.xmonad.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-</table>
-</details>
-
 ## Problematic dependencies
 
 <table>
@@ -67182,6 +67154,7 @@ Built for evals:
 <td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/252710983'>aarch64-linux unordered-containers-0.2.20</a></tt></summary>
 <ul>
+<li>agdaPackages.cubical.aarch64-linux</li>
 <li>agdaPackages.functional-linear-algebra.aarch64-linux</li>
 <li>agdaPackages.standard-library.aarch64-linux</li>
 <li>bench.aarch64-linux</li>
@@ -70069,7 +70042,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>2884</td>
+<td>2885</td>
 </tr>
 <tr>
 <td>
