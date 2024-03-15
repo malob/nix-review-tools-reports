@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:nixpkgs-23.11-darwin 1805011
+title: nixpkgs:nixpkgs-23.11-darwin 1805011 (succeeded)
 categories: nixpkgs:nixpkgs-23.11-darwin
 ---
 # Evals report
 
-*Report built at 2024-03-15 08:07:15 UTC*
+*Report built at 2024-03-15 09:07:42 UTC*
 
 Built for evals:
 
