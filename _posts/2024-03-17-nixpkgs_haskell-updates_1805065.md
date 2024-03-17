@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2024-03-17 15:04:33 UTC*
+*Report built at 2024-03-17 16:04:54 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>6636 issues</summary>
+<details><summary>6663 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -39873,6 +39873,384 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/253435596'>haskellPackages.hls-alternate-number-format-plugin.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>double-conversion-2.0.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/253435596/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/253435596/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/253435596/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/253435497'>build 253435497</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/253435556'>haskellPackages.hls-cabal-fmt-plugin.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>double-conversion-2.0.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/253435556/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/253435556/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/253435556/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/253435497'>build 253435497</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/253435605'>haskellPackages.hls-cabal-plugin.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>double-conversion-2.0.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/253435605/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/253435605/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/253435605/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/253435497'>build 253435497</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/253435593'>haskellPackages.hls-call-hierarchy-plugin.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>double-conversion-2.0.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/253435593/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/253435593/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/253435593/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/253435497'>build 253435497</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/253435609'>haskellPackages.hls-change-type-signature-plugin.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>double-conversion-2.0.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/253435609/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/253435609/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/253435609/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/253435497'>build 253435497</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/253435547'>haskellPackages.hls-class-plugin.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>double-conversion-2.0.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/253435547/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/253435547/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/253435547/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/253435497'>build 253435497</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/253435577'>haskellPackages.hls-code-range-plugin.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>double-conversion-2.0.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/253435577/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/253435577/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/253435577/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/253435497'>build 253435497</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/253435562'>haskellPackages.hls-eval-plugin.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>double-conversion-2.0.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/253435562/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/253435562/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/253435562/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/253435497'>build 253435497</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/253435517'>haskellPackages.hls-explicit-fixity-plugin.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>double-conversion-2.0.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/253435517/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/253435517/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/253435517/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/253435497'>build 253435497</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/253435585'>haskellPackages.hls-explicit-imports-plugin.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>double-conversion-2.0.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/253435585/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/253435585/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/253435585/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/253435497'>build 253435497</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/253435497'>haskellPackages.hls-explicit-record-fields-plugin.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>double-conversion-2.0.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/253435497/nixlog/117'>log</a>, <a href='https://hydra.nixos.org/build/253435497/nixlog/117/raw'>raw</a>, <a href='https://hydra.nixos.org/build/253435497/nixlog/117/tail'>tail</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/253435592'>haskellPackages.hls-floskell-plugin.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>double-conversion-2.0.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/253435592/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/253435592/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/253435592/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/253435497'>build 253435497</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/253435534'>haskellPackages.hls-fourmolu-plugin.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>double-conversion-2.0.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/253435534/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/253435534/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/253435534/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/253435497'>build 253435497</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/253435506'>haskellPackages.hls-gadt-plugin.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>double-conversion-2.0.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/253435506/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/253435506/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/253435506/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/253435497'>build 253435497</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/253435514'>haskellPackages.hls-hlint-plugin.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>double-conversion-2.0.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/253435514/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/253435514/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/253435514/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/253435497'>build 253435497</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/253435563'>haskellPackages.hls-module-name-plugin.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>double-conversion-2.0.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/253435563/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/253435563/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/253435563/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/253435497'>build 253435497</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/253435522'>haskellPackages.hls-ormolu-plugin.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>double-conversion-2.0.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/253435522/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/253435522/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/253435522/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/253435497'>build 253435497</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/253435582'>haskellPackages.hls-overloaded-record-dot-plugin.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>double-conversion-2.0.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/253435582/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/253435582/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/253435582/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/253435497'>build 253435497</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/253435515'>haskellPackages.hls-pragmas-plugin.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>double-conversion-2.0.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/253435515/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/253435515/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/253435515/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/253435497'>build 253435497</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/253435533'>haskellPackages.hls-qualify-imported-names-plugin.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>double-conversion-2.0.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/253435533/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/253435533/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/253435533/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/253435497'>build 253435497</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/253435583'>haskellPackages.hls-refactor-plugin.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>double-conversion-2.0.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/253435583/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/253435583/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/253435583/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/253435497'>build 253435497</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/253435564'>haskellPackages.hls-rename-plugin.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>double-conversion-2.0.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/253435564/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/253435564/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/253435564/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/253435497'>build 253435497</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/253435558'>haskellPackages.hls-retrie-plugin.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>double-conversion-2.0.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/253435558/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/253435558/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/253435558/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/253435497'>build 253435497</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/253435579'>haskellPackages.hls-semantic-tokens-plugin.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>double-conversion-2.0.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/253435579/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/253435579/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/253435579/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/253435497'>build 253435497</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/253435571'>haskellPackages.hls-splice-plugin.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>double-conversion-2.0.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/253435571/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/253435571/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/253435571/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/253435497'>build 253435497</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/253435499'>haskellPackages.hls-stan-plugin.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>double-conversion-2.0.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/253435499/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/253435499/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/253435499/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/253435497'>build 253435497</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/253435541'>haskellPackages.hls-stylish-haskell-plugin.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>double-conversion-2.0.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/253435541/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/253435541/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/253435541/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/253435497'>build 253435497</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/252717122'>haskell.packages.ghc902.ghc-lib-parser.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -39884,7 +40262,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>6502 issues</summary>
+<details><summary>6504 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -78895,6 +79273,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/253435601'>haskell.packages.ghc925.haskell-language-server.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>double-conversion-2.0.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/253435601/nixlog/27'>log</a>, <a href='https://hydra.nixos.org/build/253435601/nixlog/27/raw'>raw</a>, <a href='https://hydra.nixos.org/build/253435601/nixlog/27/tail'>tail</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/253435509'>haskell.packages.ghc926.haskell-language-server.x86_64-darwin</a></tt>
 </summary>
 <ul>
@@ -78922,6 +79314,20 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/253435608'>haskell.packages.ghc928.haskell-language-server.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>double-conversion-2.0.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/253435608/nixlog/27'>log</a>, <a href='https://hydra.nixos.org/build/253435608/nixlog/27/raw'>raw</a>, <a href='https://hydra.nixos.org/build/253435608/nixlog/27/tail'>tail</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/252736567'>haskell.packages.ghc902.ghc-lib-parser.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -78933,7 +79339,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>6564 issues</summary>
+<details><summary>6565 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -118363,6 +118769,29 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/253435581'>haskell.packages.ghc928.haskell-language-server.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>double-conversion-2.0.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/253435581/nixlog/28'>log</a>, <a href='https://hydra.nixos.org/build/253435581/nixlog/28/raw'>raw</a>, <a href='https://hydra.nixos.org/build/253435581/nixlog/28/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>random-1.2.1.2</tt> <br /> <a href='https://hydra.nixos.org/build/253435581/nixlog/4'>log</a>, <a href='https://hydra.nixos.org/build/253435581/nixlog/4/raw'>raw</a>, <a href='https://hydra.nixos.org/build/253435581/nixlog/4/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>vector-stream-0.1.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/253435581/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/253435581/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/253435581/nixlog/2/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>dir-traverse-0.2.3.0</tt> <br /> <a href='https://hydra.nixos.org/build/253435581/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/253435581/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/253435581/nixlog/1/tail'>tail</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/252716176'>haskell.packages.ghc902.ghc-lib-parser.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -157367,34 +157796,13 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>139 issues</summary>
+<details><summary>102 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/253435601'>haskell.packages.ghc925.haskell-language-server.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/253435581'>haskell.packages.ghc928.haskell-language-server.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/253435608'>haskell.packages.ghc928.haskell-language-server.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/253435471'>haskellPackages.csound-catalog.aarch64-darwin</a></tt>
@@ -157415,13 +157823,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/253435463'>haskellPackages.csound-catalog.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -157446,13 +157847,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/253435474'>haskellPackages.csound-controllers.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/253435467'>haskellPackages.csound-expression-dynamic.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -157471,13 +157865,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/253435480'>haskellPackages.csound-expression-dynamic.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -157502,13 +157889,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/253435460'>haskellPackages.csound-expression-opcodes.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/253435466'>haskellPackages.csound-expression-typed.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -157527,13 +157907,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/253435470'>haskellPackages.csound-expression-typed.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -157558,13 +157931,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/253435482'>haskellPackages.csound-expression.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/253435464'>haskellPackages.csound-sampler.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -157583,13 +157949,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/253435476'>haskellPackages.csound-sampler.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -157614,13 +157973,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/253435596'>haskellPackages.hls-alternate-number-format-plugin.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/253435501'>haskellPackages.hls-cabal-fmt-plugin.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -157639,13 +157991,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/253435556'>haskellPackages.hls-cabal-fmt-plugin.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -157670,13 +158015,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/253435605'>haskellPackages.hls-cabal-plugin.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/253435518'>haskellPackages.hls-call-hierarchy-plugin.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -157695,13 +158033,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/253435593'>haskellPackages.hls-call-hierarchy-plugin.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -157726,13 +158057,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/253435609'>haskellPackages.hls-change-type-signature-plugin.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/253435555'>haskellPackages.hls-class-plugin.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -157751,13 +158075,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/253435547'>haskellPackages.hls-class-plugin.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -157782,13 +158099,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/253435577'>haskellPackages.hls-code-range-plugin.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/253435531'>haskellPackages.hls-eval-plugin.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -157807,13 +158117,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/253435562'>haskellPackages.hls-eval-plugin.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -157838,13 +158141,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/253435517'>haskellPackages.hls-explicit-fixity-plugin.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/253435494'>haskellPackages.hls-explicit-imports-plugin.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -157863,13 +158159,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/253435585'>haskellPackages.hls-explicit-imports-plugin.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -157894,13 +158183,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/253435497'>haskellPackages.hls-explicit-record-fields-plugin.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/253435535'>haskellPackages.hls-floskell-plugin.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -157919,13 +158201,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/253435592'>haskellPackages.hls-floskell-plugin.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -157950,13 +158225,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/253435534'>haskellPackages.hls-fourmolu-plugin.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/253435595'>haskellPackages.hls-gadt-plugin.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -157975,13 +158243,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/253435506'>haskellPackages.hls-gadt-plugin.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -158006,13 +158267,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/253435514'>haskellPackages.hls-hlint-plugin.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/253435521'>haskellPackages.hls-module-name-plugin.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -158031,13 +158285,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/253435563'>haskellPackages.hls-module-name-plugin.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -158062,13 +158309,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/253435522'>haskellPackages.hls-ormolu-plugin.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/253435516'>haskellPackages.hls-overloaded-record-dot-plugin.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -158087,13 +158327,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/253435582'>haskellPackages.hls-overloaded-record-dot-plugin.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -158118,13 +158351,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/253435515'>haskellPackages.hls-pragmas-plugin.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/253435588'>haskellPackages.hls-qualify-imported-names-plugin.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -158143,13 +158369,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/253435533'>haskellPackages.hls-qualify-imported-names-plugin.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -158174,13 +158393,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/253435583'>haskellPackages.hls-refactor-plugin.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/253435539'>haskellPackages.hls-rename-plugin.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -158199,13 +158411,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/253435564'>haskellPackages.hls-rename-plugin.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -158230,13 +158435,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/253435558'>haskellPackages.hls-retrie-plugin.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/253435507'>haskellPackages.hls-semantic-tokens-plugin.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -158255,13 +158453,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/253435579'>haskellPackages.hls-semantic-tokens-plugin.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -158286,13 +158477,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/253435571'>haskellPackages.hls-splice-plugin.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/253435578'>haskellPackages.hls-stan-plugin.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -158311,13 +158495,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/253435499'>haskellPackages.hls-stan-plugin.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -158340,13 +158517,6 @@ Built for evals:
 <td>Queued</td>
 <th>x86_64-darwin</th>
 </tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/253435541'>haskellPackages.hls-stylish-haskell-plugin.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
 </table>
 </details>
 
@@ -158362,6 +158532,7 @@ Built for evals:
 <ul>
 <li>haskell.packages.ghc925.haskell-language-server.aarch64-darwin</li>
 <li>haskell.packages.ghc925.haskell-language-server.aarch64-linux</li>
+<li>haskell.packages.ghc925.haskell-language-server.x86_64-darwin</li>
 <li>haskell.packages.ghc925.haskell-language-server.x86_64-linux</li>
 <li>haskell.packages.ghc926.haskell-language-server.aarch64-darwin</li>
 <li>haskell.packages.ghc926.haskell-language-server.aarch64-linux</li>
@@ -158372,11 +158543,40 @@ Built for evals:
 <li>haskell.packages.ghc927.haskell-language-server.x86_64-darwin</li>
 <li>haskell.packages.ghc927.haskell-language-server.x86_64-linux</li>
 <li>haskell.packages.ghc928.haskell-language-server.aarch64-darwin</li>
+<li>haskell.packages.ghc928.haskell-language-server.aarch64-linux</li>
+<li>haskell.packages.ghc928.haskell-language-server.x86_64-darwin</li>
 <li>haskell.packages.ghc928.haskell-language-server.x86_64-linux</li>
+<li>haskellPackages.hls-alternate-number-format-plugin.x86_64-linux</li>
+<li>haskellPackages.hls-cabal-fmt-plugin.x86_64-linux</li>
+<li>haskellPackages.hls-cabal-plugin.x86_64-linux</li>
+<li>haskellPackages.hls-call-hierarchy-plugin.x86_64-linux</li>
+<li>haskellPackages.hls-change-type-signature-plugin.x86_64-linux</li>
+<li>haskellPackages.hls-class-plugin.x86_64-linux</li>
+<li>haskellPackages.hls-code-range-plugin.x86_64-linux</li>
+<li>haskellPackages.hls-eval-plugin.x86_64-linux</li>
+<li>haskellPackages.hls-explicit-fixity-plugin.x86_64-linux</li>
+<li>haskellPackages.hls-explicit-imports-plugin.x86_64-linux</li>
+<li>haskellPackages.hls-explicit-record-fields-plugin.x86_64-linux</li>
+<li>haskellPackages.hls-floskell-plugin.x86_64-linux</li>
+<li>haskellPackages.hls-fourmolu-plugin.x86_64-linux</li>
+<li>haskellPackages.hls-gadt-plugin.x86_64-linux</li>
+<li>haskellPackages.hls-hlint-plugin.x86_64-linux</li>
+<li>haskellPackages.hls-module-name-plugin.x86_64-linux</li>
+<li>haskellPackages.hls-ormolu-plugin.x86_64-linux</li>
+<li>haskellPackages.hls-overloaded-record-dot-plugin.x86_64-linux</li>
+<li>haskellPackages.hls-pragmas-plugin.x86_64-linux</li>
+<li>haskellPackages.hls-qualify-imported-names-plugin.x86_64-linux</li>
+<li>haskellPackages.hls-refactor-plugin.x86_64-linux</li>
+<li>haskellPackages.hls-rename-plugin.x86_64-linux</li>
+<li>haskellPackages.hls-retrie-plugin.x86_64-linux</li>
+<li>haskellPackages.hls-semantic-tokens-plugin.x86_64-linux</li>
+<li>haskellPackages.hls-splice-plugin.x86_64-linux</li>
+<li>haskellPackages.hls-stan-plugin.x86_64-linux</li>
+<li>haskellPackages.hls-stylish-haskell-plugin.x86_64-linux</li>
 </ul>
 </details>
 </td>
-<td>13</td>
+<td>43</td>
 </tr>
 <tr>
 <td>
@@ -158396,30 +158596,33 @@ Built for evals:
 <details><summary><tt>aarch64-linux random-1.2.1.2</tt></summary>
 <ul>
 <li>haskell.packages.ghc925.haskell-language-server.aarch64-linux</li>
+<li>haskell.packages.ghc928.haskell-language-server.aarch64-linux</li>
 </ul>
 </details>
 </td>
-<td>1</td>
+<td>2</td>
 </tr>
 <tr>
 <td>
 <details><summary><tt>aarch64-linux vector-stream-0.1.0.1</tt></summary>
 <ul>
 <li>haskell.packages.ghc925.haskell-language-server.aarch64-linux</li>
+<li>haskell.packages.ghc928.haskell-language-server.aarch64-linux</li>
 </ul>
 </details>
 </td>
-<td>1</td>
+<td>2</td>
 </tr>
 <tr>
 <td>
 <details><summary><tt>aarch64-linux dir-traverse-0.2.3.0</tt></summary>
 <ul>
 <li>haskell.packages.ghc925.haskell-language-server.aarch64-linux</li>
+<li>haskell.packages.ghc928.haskell-language-server.aarch64-linux</li>
 </ul>
 </details>
 </td>
-<td>1</td>
+<td>2</td>
 </tr>
 <tr>
 <td>
