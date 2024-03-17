@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:haskell-updates 1805067
+title: nixpkgs:haskell-updates 1805067 (succeeded)
 categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2024-03-17 17:04:50 UTC*
+*Report built at 2024-03-17 18:04:43 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>6664 issues</summary>
+<details><summary>6667 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -1331,6 +1331,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/253435659'>haskell.packages.ghc981.haskell-language-server.x86_64-linux</a></tt>
+</td>
+<td>Cancelled</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/253364601'>haskell.packages.ghc981.hsdns.x86_64-linux</a></tt>
 </td>
 <td>Cancelled</td>
@@ -1356,6 +1362,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/253364580'>haskell.packages.ghc982.funcmp.x86_64-linux</a></tt>
+</td>
+<td>Cancelled</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/253435663'>haskell.packages.ghc982.haskell-language-server.x86_64-linux</a></tt>
 </td>
 <td>Cancelled</td>
 </tr>
@@ -29609,6 +29621,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/253435660'>haskellPackages.reflex-gi-gtk.x86_64-linux</a></tt>
+</td>
+<td>Cancelled</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/253352907'>haskellPackages.reflex-process.x86_64-linux</a></tt>
 </td>
 <td>Cancelled</td>
@@ -40276,7 +40294,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>6540 issues</summary>
+<details><summary>6541 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -69660,6 +69678,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/253435652'>haskellPackages.reflex-gi-gtk.x86_64-darwin</a></tt>
+</td>
+<td>Cancelled</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/253367605'>haskellPackages.reflex-process.x86_64-darwin</a></tt>
 </td>
 <td>Cancelled</td>
@@ -79585,7 +79609,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>6599 issues</summary>
+<details><summary>6602 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -80895,6 +80919,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/253435658'>haskell.packages.ghc981.haskell-language-server.aarch64-linux</a></tt>
+</td>
+<td>Cancelled</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/253365285'>haskell.packages.ghc981.hsdns.aarch64-linux</a></tt>
 </td>
 <td>Cancelled</td>
@@ -80920,6 +80950,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/253367771'>haskell.packages.ghc982.funcmp.aarch64-linux</a></tt>
+</td>
+<td>Cancelled</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/253435664'>haskell.packages.ghc982.haskell-language-server.aarch64-linux</a></tt>
 </td>
 <td>Cancelled</td>
 </tr>
@@ -109263,6 +109299,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/253435656'>haskellPackages.reflex-gi-gtk.aarch64-linux</a></tt>
+</td>
+<td>Cancelled</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/253360008'>haskellPackages.reflex-process.aarch64-linux</a></tt>
 </td>
 <td>Cancelled</td>
@@ -119253,7 +119295,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>6526 issues</summary>
+<details><summary>6527 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -148583,6 +148625,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/253435653'>haskellPackages.reflex-gi-gtk.aarch64-darwin</a></tt>
+</td>
+<td>Cancelled</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/253351664'>haskellPackages.reflex-process.aarch64-darwin</a></tt>
 </td>
 <td>Cancelled</td>
@@ -158470,76 +158518,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/252737215'>haskell.packages.ghc902.ghc-lib-parser.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>8 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/253435658'>haskell.packages.ghc981.haskell-language-server.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/253435659'>haskell.packages.ghc981.haskell-language-server.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/253435664'>haskell.packages.ghc982.haskell-language-server.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/253435663'>haskell.packages.ghc982.haskell-language-server.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/253435653'>haskellPackages.reflex-gi-gtk.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/253435656'>haskellPackages.reflex-gi-gtk.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/253435652'>haskellPackages.reflex-gi-gtk.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/253435660'>haskellPackages.reflex-gi-gtk.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
