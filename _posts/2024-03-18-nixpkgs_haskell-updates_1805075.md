@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2024-03-18 03:04:46 UTC*
+*Report built at 2024-03-18 04:04:30 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>6660 issues</summary>
+<details><summary>6661 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -40221,6 +40221,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>double-conversion-2.0.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/253439636/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/253439636/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/253439636/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/253435497'>build 253435497</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/253439647'>shellcheck.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>pandoc-3.1.11.1</tt> <br /> <a href='https://hydra.nixos.org/build/253439647/nixlog/111'>log</a>, <a href='https://hydra.nixos.org/build/253439647/nixlog/111/raw'>raw</a>, <a href='https://hydra.nixos.org/build/253439647/nixlog/111/tail'>tail</a>
 </li>
 </ul>
 </details>
@@ -158376,7 +158390,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>20 issues</summary>
+<details><summary>18 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -158490,13 +158504,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/253439655'>nixosTests.agda.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/253439629'>shellcheck.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -158515,13 +158522,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/253439647'>shellcheck.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
@@ -158658,6 +158658,16 @@ Built for evals:
 <details><summary><tt>aarch64-linux tagged-0.8.8</tt></summary>
 <ul>
 <li>haskell.packages.ghc925.haskell-language-server.aarch64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>x86_64-linux pandoc-3.1.11.1</tt></summary>
+<ul>
+<li>shellcheck.x86_64-linux</li>
 </ul>
 </details>
 </td>
