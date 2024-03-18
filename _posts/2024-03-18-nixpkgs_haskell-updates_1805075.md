@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2024-03-18 04:04:30 UTC*
+*Report built at 2024-03-18 05:04:25 UTC*
 
 Built for evals:
 
@@ -79545,7 +79545,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>6596 issues</summary>
+<details><summary>6599 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -119184,7 +119184,42 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/253439642'>shellcheck.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>pandoc-3.1.11.1</tt> <br /> <a href='https://hydra.nixos.org/build/253439642/nixlog/184'>log</a>, <a href='https://hydra.nixos.org/build/253439642/nixlog/184/raw'>raw</a>, <a href='https://hydra.nixos.org/build/253439642/nixlog/184/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>auto-update-0.1.6</tt> <br /> <a href='https://hydra.nixos.org/build/253439642/nixlog/95'>log</a>, <a href='https://hydra.nixos.org/build/253439642/nixlog/95/raw'>raw</a>, <a href='https://hydra.nixos.org/build/253439642/nixlog/95/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>crypton-x509-1.7.6</tt> <br /> <a href='https://hydra.nixos.org/build/253439642/nixlog/94'>log</a>, <a href='https://hydra.nixos.org/build/253439642/nixlog/94/raw'>raw</a>, <a href='https://hydra.nixos.org/build/253439642/nixlog/94/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>commonmark-extensions-0.2.5.3</tt> <br /> <a href='https://hydra.nixos.org/build/253439642/nixlog/93'>log</a>, <a href='https://hydra.nixos.org/build/253439642/nixlog/93/raw'>raw</a>, <a href='https://hydra.nixos.org/build/253439642/nixlog/93/tail'>tail</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/253439630'>haskell-ci.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/252716176'>haskell.packages.ghc902.ghc-lib-parser.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/253439650'>haskellPackages.haskell-ci.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -119195,7 +119230,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>6521 issues</summary>
+<details><summary>6523 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -158379,7 +158414,19 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/253439637'>haskell-ci.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/252737215'>haskell.packages.ghc902.ghc-lib-parser.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/253439628'>haskellPackages.haskell-ci.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -158390,7 +158437,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>18 issues</summary>
+<details><summary>9 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -158406,13 +158453,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/253439643'>hadolint.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/253439648'>hadolint.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -158420,38 +158460,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/253439637'>haskell-ci.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/253439630'>haskell-ci.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/253439641'>haskell-ci.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/253439653'>haskellPackages.ShellCheck.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/253439638'>haskellPackages.ShellCheck.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -158469,31 +158481,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/253439644'>haskellPackages.hadolint.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/253439646'>haskellPackages.hadolint.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/253439628'>haskellPackages.haskell-ci.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/253439650'>haskellPackages.haskell-ci.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -158508,13 +158499,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/253439642'>shellcheck.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -158655,6 +158639,17 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt>aarch64-linux pandoc-3.1.11.1</tt></summary>
+<ul>
+<li>shellcheck.aarch64-linux</li>
+<li>shellcheck.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt>aarch64-linux tagged-0.8.8</tt></summary>
 <ul>
 <li>haskell.packages.ghc925.haskell-language-server.aarch64-linux</li>
@@ -158665,9 +158660,29 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt>x86_64-linux pandoc-3.1.11.1</tt></summary>
+<details><summary><tt>aarch64-linux auto-update-0.1.6</tt></summary>
 <ul>
-<li>shellcheck.x86_64-linux</li>
+<li>shellcheck.aarch64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>aarch64-linux crypton-x509-1.7.6</tt></summary>
+<ul>
+<li>shellcheck.aarch64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>aarch64-linux commonmark-extensions-0.2.5.3</tt></summary>
+<ul>
+<li>shellcheck.aarch64-linux</li>
 </ul>
 </details>
 </td>
