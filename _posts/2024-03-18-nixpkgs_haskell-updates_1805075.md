@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:haskell-updates 1805075
+title: nixpkgs:haskell-updates 1805075 (succeeded)
 categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2024-03-18 05:04:25 UTC*
+*Report built at 2024-03-18 06:05:02 UTC*
 
 Built for evals:
 
@@ -40266,7 +40266,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>6535 issues</summary>
+<details><summary>6538 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -79534,7 +79534,33 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/253439635'>shellcheck.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>pandoc-3.1.11.1</tt> <br /> <a href='https://hydra.nixos.org/build/253439635/nixlog/304'>log</a>, <a href='https://hydra.nixos.org/build/253439635/nixlog/304/raw'>raw</a>, <a href='https://hydra.nixos.org/build/253439635/nixlog/304/tail'>tail</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/253439641'>haskell-ci.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/252736567'>haskell.packages.ghc902.ghc-lib-parser.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/253439631'>haskellPackages.haskell-ci.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -119230,7 +119256,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>6523 issues</summary>
+<details><summary>6524 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -158414,6 +158440,20 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/253439629'>shellcheck.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>pandoc-3.1.11.1</tt> <br /> <a href='https://hydra.nixos.org/build/253439629/nixlog/201'>log</a>, <a href='https://hydra.nixos.org/build/253439629/nixlog/201/raw'>raw</a>, <a href='https://hydra.nixos.org/build/253439629/nixlog/201/tail'>tail</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/253439637'>haskell-ci.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -158429,83 +158469,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/253439628'>haskellPackages.haskell-ci.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>9 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/253439634'>hadolint.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/253439648'>hadolint.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/253439641'>haskell-ci.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/253439639'>haskellPackages.ShellCheck.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/253439654'>haskellPackages.hadolint.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/253439646'>haskellPackages.hadolint.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/253439631'>haskellPackages.haskell-ci.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/253439629'>shellcheck.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/253439635'>shellcheck.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 </table>
 </details>
@@ -158584,6 +158547,19 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt>aarch64-darwin pandoc-3.1.11.1</tt></summary>
+<ul>
+<li>shellcheck.aarch64-darwin</li>
+<li>shellcheck.aarch64-linux</li>
+<li>shellcheck.x86_64-darwin</li>
+<li>shellcheck.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>4</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt>aarch64-linux random-1.2.1.2</tt></summary>
 <ul>
 <li>haskell.packages.ghc925.haskell-language-server.aarch64-linux</li>
@@ -158632,17 +158608,6 @@ Built for evals:
 <ul>
 <li>haskell.packages.ghc981.haskell-language-server.x86_64-darwin</li>
 <li>haskell.packages.ghc982.haskell-language-server.x86_64-darwin</li>
-</ul>
-</details>
-</td>
-<td>2</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>aarch64-linux pandoc-3.1.11.1</tt></summary>
-<ul>
-<li>shellcheck.aarch64-linux</li>
-<li>shellcheck.x86_64-linux</li>
 </ul>
 </details>
 </td>
