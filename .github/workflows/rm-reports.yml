@@ -27,14 +27,14 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
         ref: master
         # We need the history
         fetch-depth: 0
 
     - name: Install Nix
-      uses: cachix/install-nix-action@v18
+      uses: cachix/install-nix-action@v26
       with:
         extra_nix_config: |
           access-tokens = github.com=${{ secrets.GITHUB_TOKEN }}

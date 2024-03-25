@@ -36,10 +36,10 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     - name: Install Nix
-      uses: cachix/install-nix-action@v18
+      uses: cachix/install-nix-action@v26
       with:
         extra_nix_config: |
           access-tokens = github.com=${{ secrets.GITHUB_TOKEN }}
@@ -80,12 +80,12 @@ jobs:
     # Always checkout the `master` branch so that we have the most up to date version of the repo
     # since other runs of this workflow might have pushed before we run.
     - name: Checkout repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
         ref: master
 
     - name: Install Nix
-      uses: cachix/install-nix-action@v18
+      uses: cachix/install-nix-action@v26
       with:
         extra_nix_config: |
           access-tokens = github.com=${{ secrets.GITHUB_TOKEN }}
@@ -103,7 +103,7 @@ jobs:
     # cache action docs:
     # https://github.com/actions/cache
     - name: Restore cache
-      uses: actions/cache/restore@v3
+      uses: actions/cache/restore@v4
       id: restore-cache
       with:
         path: data
@@ -128,7 +128,7 @@ jobs:
     - name: Generate report
       id: generate-report
       if: steps.restore-cache.outputs.cache-hit != 'true'
-      uses: nick-fields/retry@v2
+      uses: nick-fields/retry@v3
       continue-on-error: true
       with:
         timeout_minutes: 60
@@ -168,7 +168,7 @@ jobs:
         done
 
     - name: Save cache
-      uses: actions/cache/save@v3
+      uses: actions/cache/save@v4
       if: steps.restore-cache.outputs.cache-hit != 'true'
       with:
         path: data
