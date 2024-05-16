@@ -1,10 +1,10 @@
 ---
-title: nixos:release-23.11 1806323
+title: nixos:release-23.11 1806323 (succeeded)
 categories: nixos:release-23.11
 ---
 # Evals report
 
-*Report built at 2024-05-16 20:08:21 UTC*
+*Report built at 2024-05-16 21:07:45 UTC*
 
 Built for evals:
 
@@ -19579,27 +19579,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/258681782'>nixpkgs.rustplayer.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/260012724'>nixos.iso_minimal.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 </table>
 </details>
