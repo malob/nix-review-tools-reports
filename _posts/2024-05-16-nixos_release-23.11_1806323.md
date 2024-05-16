@@ -4,7 +4,7 @@ categories: nixos:release-23.11
 ---
 # Evals report
 
-*Report built at 2024-05-16 17:07:50 UTC*
+*Report built at 2024-05-16 18:08:26 UTC*
 
 Built for evals:
 
@@ -5353,7 +5353,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>1067 issues</summary>
+<details><summary>1075 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -5409,6 +5409,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>moby-24.0.9</tt> <br /> <a href='https://hydra.nixos.org/build/260012582/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/260012582/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/260012582/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/260012860'>build 260012860</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/260012775'>nixos.tests.allDrivers.docker-tools-cross.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>moby-24.0.9</tt> <br /> <a href='https://hydra.nixos.org/build/260012775/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/260012775/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/260012775/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/260012860'>build 260012860</a>
 </li>
 </ul>
 </details>
@@ -5614,11 +5628,39 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/260012652'>nixos.tests.allDrivers.traefik.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>moby-24.0.9</tt> <br /> <a href='https://hydra.nixos.org/build/260012652/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/260012652/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/260012652/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/260012860'>build 260012860</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/260012848'>nixos.tests.charliecloud.x86_64-linux</a></tt>
 </summary>
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>moby-24.0.9</tt> <br /> <a href='https://hydra.nixos.org/build/260012848/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/260012848/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/260012848/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/260012860'>build 260012860</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/260012501'>nixos.tests.cntr.docker.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>moby-24.0.9</tt> <br /> <a href='https://hydra.nixos.org/build/260012501/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/260012501/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/260012501/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/260012860'>build 260012860</a>
 </li>
 </ul>
 </details>
@@ -5647,6 +5689,34 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>moby-24.0.9</tt> <br /> <a href='https://hydra.nixos.org/build/260012981/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/260012981/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/260012981/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/260012860'>build 260012860</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/260012815'>nixos.tests.docker-tools-cross.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>moby-24.0.9</tt> <br /> <a href='https://hydra.nixos.org/build/260012815/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/260012815/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/260012815/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/260012860'>build 260012860</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/260012494'>nixos.tests.docker-tools-overlay.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>moby-24.0.9</tt> <br /> <a href='https://hydra.nixos.org/build/260012494/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/260012494/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/260012494/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/260012860'>build 260012860</a>
 </li>
 </ul>
 </details>
@@ -5866,6 +5936,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/260012962'>nixpkgs.apptainer-overriden-nixos.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>moby-24.0.9</tt> <br /> <a href='https://hydra.nixos.org/build/260012962/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/260012962/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/260012962/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/260012860'>build 260012860</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/260012516'>nixpkgs.apptainer.x86_64-linux</a></tt>
 </summary>
 <ul>
@@ -5969,6 +6053,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>python-qt-3.3.0</tt> <br /> <a href='https://hydra.nixos.org/build/258602662/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/258602662/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/258602662/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/257874287'>build 257874287</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/260012839'>nixpkgs.docker-gc.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>moby-24.0.9</tt> <br /> <a href='https://hydra.nixos.org/build/260012839/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/260012839/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/260012839/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/260012860'>build 260012860</a>
 </li>
 </ul>
 </details>
@@ -7138,6 +7236,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/258689248'>nixos.tests.nar-serve.x86_64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/260012616'>nixos.tests.openstack-image-userdata.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -12692,7 +12796,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>881 issues</summary>
+<details><summary>886 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -12748,6 +12852,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>moby-24.0.9</tt> <br /> <a href='https://hydra.nixos.org/build/260012687/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/260012687/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/260012687/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/260012667'>build 260012667</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/260012385'>nixos.tests.allDrivers.docker-tools-cross.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>moby-24.0.9</tt> <br /> <a href='https://hydra.nixos.org/build/260012385/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/260012385/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/260012385/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/260012667'>build 260012667</a>
 </li>
 </ul>
 </details>
@@ -13275,6 +13393,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/260012833'>nixos.tests.sourcehut.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>moby-24.0.9</tt> <br /> <a href='https://hydra.nixos.org/build/260012833/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/260012833/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/260012833/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/260012667'>build 260012667</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/258675286'>nixos.tests.timescaledb.postgresql_13.aarch64-linux</a></tt>
 </summary>
 <ul>
@@ -13415,11 +13547,39 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/260012850'>nixpkgs.apptainer.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>moby-24.0.9</tt> <br /> <a href='https://hydra.nixos.org/build/260012850/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/260012850/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/260012850/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/260012667'>build 260012667</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/258621230'>nixpkgs.baserow.aarch64-linux</a></tt>
 </summary>
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>python3.11-python-crontab-3.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/258621230/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/258621230/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/258621230/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/257949196'>build 257949196</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/260012859'>nixpkgs.charliecloud.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>moby-24.0.9</tt> <br /> <a href='https://hydra.nixos.org/build/260012859/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/260012859/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/260012859/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/260012667'>build 260012667</a>
 </li>
 </ul>
 </details>
@@ -13462,6 +13622,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>python-qt-3.3.0</tt> <br /> <a href='https://hydra.nixos.org/build/258612790/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/258612790/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/258612790/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/257907871'>build 257907871</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/260012426'>nixpkgs.docker-gc.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>moby-24.0.9</tt> <br /> <a href='https://hydra.nixos.org/build/260012426/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/260012426/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/260012426/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/260012667'>build 260012667</a>
 </li>
 </ul>
 </details>
@@ -19303,7 +19477,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>68 issues</summary>
+<details><summary>32 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -19326,13 +19500,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/260012571'>nixos.closures.lapp.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/260012724'>nixos.iso_minimal.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -19347,13 +19514,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/260012668'>nixos.iso_minimal_new_kernel_no_zfs.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/260012911'>nixos.iso_plasma5.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -19361,35 +19521,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/260012906'>nixos.iso_plasma5.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/260012593'>nixos.lxdContainerImageSquashfs.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/260012436'>nixos.tests.allDrivers.containers-portforward.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/260012385'>nixos.tests.allDrivers.docker-tools-cross.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/260012775'>nixos.tests.allDrivers.docker-tools-cross.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -19417,45 +19549,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/260012425'>nixos.tests.allDrivers.lxd-image-server.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/260012966'>nixos.tests.allDrivers.sourcehut.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/260012652'>nixos.tests.allDrivers.traefik.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/260012423'>nixos.tests.boot.uefiUsb.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/260012501'>nixos.tests.cntr.docker.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/260012754'>nixos.tests.containers-imperative.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -19466,31 +19563,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/260012815'>nixos.tests.docker-tools-cross.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/260012494'>nixos.tests.docker-tools-overlay.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/260012838'>nixos.tests.firefox-beta.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/260012630'>nixos.tests.firefox-esr-115.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -19505,13 +19581,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/260012799'>nixos.tests.incus.virtual-machine.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -19550,13 +19619,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/260012946'>nixos.tests.installer-systemd-stage-1.swraid.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/260012836'>nixos.tests.installer.btrfsSimple.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -19585,27 +19647,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/260012806'>nixos.tests.installer.simple.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/260012415'>nixos.tests.installer.simpleProvided.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/260012941'>nixos.tests.installer.switchToFlake.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/260012698'>nixos.tests.installer.zfsroot.i686-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -19613,52 +19654,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/260012552'>nixos.tests.kubernetes.dns-single-node</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/260012585'>nixos.tests.lxd-image-server.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/260012495'>nixos.tests.lxd-image-server.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/260012334'>nixos.tests.nginx-etag.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/260012616'>nixos.tests.openstack-image-userdata.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/260012833'>nixos.tests.sourcehut.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/260012513'>nixos.tests.systemd-initrd-networkd-ssh.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
 </tr>
 <tr>
 <td>
@@ -19676,13 +19675,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/260012517'>nixos.tests.vaultwarden.mysql.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/260012791'>nixos.tests.vaultwarden.postgresql.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -19690,52 +19682,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/260012313'>nixos.tests.zfs.installer.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/260012989'>nixpkgs.apptainer-overriden-nixos.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/260012962'>nixpkgs.apptainer-overriden-nixos.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/260012850'>nixpkgs.apptainer.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/260012859'>nixpkgs.charliecloud.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/260012426'>nixpkgs.docker-gc.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/260012839'>nixpkgs.docker-gc.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -19753,38 +19703,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/260012790'>nixpkgs.mermaid-filter.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/260012706'>nixpkgs.puppeteer-cli.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/260012975'>nixpkgs.python310Packages.pytest-playwright.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/260012336'>nixpkgs.python311Packages.jupyter-repo2docker.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/260012379'>nixpkgs.sitespeed-io.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 </table>
 </details>
@@ -20004,6 +19926,8 @@ Built for evals:
 <li>nixos.tests.allDrivers.docker-registry.x86_64-linux</li>
 <li>nixos.tests.allDrivers.docker-rootless.aarch64-linux</li>
 <li>nixos.tests.allDrivers.docker-rootless.x86_64-linux</li>
+<li>nixos.tests.allDrivers.docker-tools-cross.aarch64-linux</li>
+<li>nixos.tests.allDrivers.docker-tools-cross.x86_64-linux</li>
 <li>nixos.tests.allDrivers.docker-tools-overlay.x86_64-linux</li>
 <li>nixos.tests.allDrivers.docker-tools.x86_64-linux</li>
 <li>nixos.tests.allDrivers.docker.aarch64-linux</li>
@@ -20014,27 +19938,36 @@ Built for evals:
 <li>nixos.tests.allDrivers.sourcehut.aarch64-linux</li>
 <li>nixos.tests.allDrivers.tracee.x86_64-linux</li>
 <li>nixos.tests.allDrivers.traefik.aarch64-linux</li>
+<li>nixos.tests.allDrivers.traefik.x86_64-linux</li>
 <li>nixos.tests.charliecloud.aarch64-linux</li>
 <li>nixos.tests.charliecloud.i686-linux</li>
 <li>nixos.tests.charliecloud.x86_64-linux</li>
 <li>nixos.tests.cntr.docker.aarch64-linux</li>
+<li>nixos.tests.cntr.docker.x86_64-linux</li>
 <li>nixos.tests.docker-registry.aarch64-linux</li>
 <li>nixos.tests.docker-registry.i686-linux</li>
 <li>nixos.tests.docker-registry.x86_64-linux</li>
 <li>nixos.tests.docker-rootless.aarch64-linux</li>
 <li>nixos.tests.docker-rootless.x86_64-linux</li>
 <li>nixos.tests.docker-tools-cross.aarch64-linux</li>
+<li>nixos.tests.docker-tools-cross.x86_64-linux</li>
 <li>nixos.tests.docker.aarch64-linux</li>
 <li>nixos.tests.docker.x86_64-linux</li>
 <li>nixos.tests.gvisor.x86_64-linux</li>
 <li>nixos.tests.oci-containers.docker.aarch64-linux</li>
 <li>nixos.tests.oci-containers.docker.x86_64-linux</li>
+<li>nixos.tests.sourcehut.aarch64-linux</li>
 <li>nixos.tests.sourcehut.x86_64-linux</li>
 <li>nixos.tests.traefik.aarch64-linux</li>
 <li>nixpkgs.airlift.aarch64-linux</li>
 <li>nixpkgs.airlift.x86_64-linux</li>
+<li>nixpkgs.apptainer-overriden-nixos.x86_64-linux</li>
+<li>nixpkgs.apptainer.aarch64-linux</li>
 <li>nixpkgs.apptainer.x86_64-linux</li>
+<li>nixpkgs.charliecloud.aarch64-linux</li>
 <li>nixpkgs.charliecloud.x86_64-linux</li>
+<li>nixpkgs.docker-gc.aarch64-linux</li>
+<li>nixpkgs.docker-gc.x86_64-linux</li>
 <li>nixpkgs.docker-sbom.aarch64-linux</li>
 <li>nixpkgs.docker-sbom.x86_64-linux</li>
 <li>nixpkgs.docker.aarch64-linux</li>
@@ -20056,12 +19989,13 @@ Built for evals:
 <li>nixpkgs.udocker.aarch64-linux</li>
 <li>nixpkgs.udocker.x86_64-linux</li>
 <li>tested</li>
+<li>nixos.tests.docker-tools-overlay.x86_64-linux</li>
 <li>nixos.tests.docker-tools.x86_64-linux</li>
 <li>nixos.tests.tracee.x86_64-linux</li>
 </ul>
 </details>
 </td>
-<td>64</td>
+<td>76</td>
 </tr>
 <tr>
 <td>
