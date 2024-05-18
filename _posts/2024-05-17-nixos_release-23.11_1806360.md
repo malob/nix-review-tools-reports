@@ -4,7 +4,7 @@ categories: nixos:release-23.11
 ---
 # Evals report
 
-*Report built at 2024-05-18 10:07:29 UTC*
+*Report built at 2024-05-18 11:07:59 UTC*
 
 Built for evals:
 
@@ -12171,7 +12171,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>860 issues</summary>
+<details><summary>861 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -18337,6 +18337,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/258595482'>nixpkgs.python310Packages.clustershell.aarch64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/258632827'>nixpkgs.python310Packages.debugpy.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -18414,20 +18420,13 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>2 issues</summary>
+<details><summary>1 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/258595482'>nixpkgs.python310Packages.clustershell.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/260089108'>nixpkgs.ungoogled-chromium.x86_64-linux</a></tt>
