@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2024-05-19 13:04:08 UTC*
+*Report built at 2024-05-19 14:04:24 UTC*
 
 Built for evals:
 
@@ -287,7 +287,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>160 issues</summary>
+<details><summary>161 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -364,6 +364,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>ghc-lib-parser-9.6.5.20240423</tt> <br /> <a href='https://hydra.nixos.org/build/259976855/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/259976855/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/259976855/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/259969192'>build 259969192</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/260189659'>haskell.packages.ghc981.haskell-language-server.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>stylish-haskell-0.14.6.0</tt> <br /> <a href='https://hydra.nixos.org/build/260189659/nixlog/300'>log</a>, <a href='https://hydra.nixos.org/build/260189659/nixlog/300/raw'>raw</a>, <a href='https://hydra.nixos.org/build/260189659/nixlog/300/tail'>tail</a>
 </li>
 </ul>
 </details>
@@ -2160,7 +2174,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>178 issues</summary>
+<details><summary>181 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -2517,6 +2531,37 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>bitvec-1.1.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/259975416/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/259975416/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/259975416/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/259980786'>build 259980786</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/260189699'>haskell.packages.ghc981.haskell-language-server.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>stylish-haskell-0.14.6.0</tt> <br /> <a href='https://hydra.nixos.org/build/260189699/nixlog/299'>log</a>, <a href='https://hydra.nixos.org/build/260189699/nixlog/299/raw'>raw</a>, <a href='https://hydra.nixos.org/build/260189699/nixlog/299/tail'>tail</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/260189671'>haskell.packages.ghc982.haskell-language-server.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>ormolu-0.7.4.0</tt> <br /> <a href='https://hydra.nixos.org/build/260189671/nixlog/307'>log</a>, <a href='https://hydra.nixos.org/build/260189671/nixlog/307/raw'>raw</a>, <a href='https://hydra.nixos.org/build/260189671/nixlog/307/tail'>tail</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>stylish-haskell-0.14.6.0</tt> <br /> <a href='https://hydra.nixos.org/build/260189671/nixlog/306'>log</a>, <a href='https://hydra.nixos.org/build/260189671/nixlog/306/raw'>raw</a>, <a href='https://hydra.nixos.org/build/260189671/nixlog/306/tail'>tail</a>
 </li>
 </ul>
 </details>
@@ -3799,6 +3844,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/260189663'>haskellPackages.servant-http2-client.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/259965803'>haskellPackages.shared-memory.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -3900,7 +3951,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>34 issues</summary>
+<details><summary>30 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -4035,27 +4086,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/260189699'>haskell.packages.ghc981.haskell-language-server.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/260189659'>haskell.packages.ghc981.haskell-language-server.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/260189671'>haskell.packages.ghc982.haskell-language-server.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/260189664'>haskell.packages.ghc982.haskell-language-server.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -4130,13 +4160,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/260189663'>haskellPackages.servant-http2-client.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -4360,6 +4383,19 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt>x86_64-linux ormolu-0.7.4.0</tt></summary>
+<ul>
+<li>haskell.packages.ghc981.haskell-language-server.x86_64-linux</li>
+<li>haskell.packages.ghc982.haskell-language-server.aarch64-darwin</li>
+<li>haskell.packages.ghc982.haskell-language-server.aarch64-linux</li>
+<li>haskell.packages.ghc982.haskell-language-server.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>4</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/259612834'>aarch64-darwin ghc-9.11.20240410-source</a></tt></summary>
 <ul>
 <li>haskell.compiler.ghcHEAD.aarch64-darwin</li>
@@ -4451,11 +4487,11 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt>x86_64-linux ormolu-0.7.4.0</tt></summary>
+<details><summary><tt>aarch64-darwin stylish-haskell-0.14.6.0</tt></summary>
 <ul>
-<li>haskell.packages.ghc981.haskell-language-server.x86_64-linux</li>
-<li>haskell.packages.ghc982.haskell-language-server.aarch64-linux</li>
-<li>haskell.packages.ghc982.haskell-language-server.x86_64-linux</li>
+<li>haskell.packages.ghc981.haskell-language-server.aarch64-darwin</li>
+<li>haskell.packages.ghc981.haskell-language-server.x86_64-darwin</li>
+<li>haskell.packages.ghc982.haskell-language-server.aarch64-darwin</li>
 </ul>
 </details>
 </td>
