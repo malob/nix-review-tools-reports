@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2024-05-19 04:04:10 UTC*
+*Report built at 2024-05-19 05:04:32 UTC*
 
 Built for evals:
 
@@ -274,7 +274,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>160 issues</summary>
+<details><summary>161 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -283,6 +283,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/260120814'>nixosTests.agda.x86_64-darwin</a></tt>
+</td>
+<td>Aborted</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/260120819'>nixosTests.xmonad.x86_64-darwin</a></tt>
 </td>
 <td>Aborted</td>
 </tr>
@@ -3903,7 +3909,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>7 issues</summary>
+<details><summary>5 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -3916,13 +3922,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/260188339'>haskell.packages.ghc963.haskell-language-server.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -3951,13 +3950,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/260120819'>nixosTests.xmonad.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 </table>
 </details>
