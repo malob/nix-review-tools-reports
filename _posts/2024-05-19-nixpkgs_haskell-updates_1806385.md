@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:haskell-updates 1806385
+title: nixpkgs:haskell-updates 1806385 (succeeded)
 categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2024-05-19 08:04:21 UTC*
+*Report built at 2024-05-19 09:04:07 UTC*
 
 Built for evals:
 
@@ -274,7 +274,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>161 issues</summary>
+<details><summary>162 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -283,6 +283,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/260120814'>nixosTests.agda.x86_64-darwin</a></tt>
+</td>
+<td>Aborted</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/260120806'>nixosTests.xmonad-xdg-autostart.x86_64-darwin</a></tt>
 </td>
 <td>Aborted</td>
 </tr>
@@ -3919,27 +3925,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/259980258'>elmPackages.elm.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/260120806'>nixosTests.xmonad-xdg-autostart.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 </table>
 </details>
