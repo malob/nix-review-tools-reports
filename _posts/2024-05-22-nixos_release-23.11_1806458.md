@@ -4,7 +4,7 @@ categories: nixos:release-23.11
 ---
 # Evals report
 
-*Report built at 2024-05-22 15:07:47 UTC*
+*Report built at 2024-05-22 17:08:54 UTC*
 
 Built for evals:
 
@@ -5264,7 +5264,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>1042 issues</summary>
+<details><summary>1040 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -11914,12 +11914,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/260701307'>nixos.tests.allDrivers.chromium.x86_64-linux</a></tt>
-</td>
-<td>Timed out</td>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/260701255'>nixos.tests.allDrivers.jibri.x86_64-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -12035,12 +12029,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/260701830'>nixpkgs.aws-azure-login.x86_64-linux</a></tt>
-</td>
-<td>Timed out</td>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/260700980'>nixpkgs.chromium.x86_64-linux</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -18408,13 +18396,20 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>56 issues</summary>
+<details><summary>58 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 <th>platform</th>
 </tr></thead>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/260701661'>nixos.ova.x86_64-linux</a></tt>
+</td>
+<td>Queued</td>
+<th>x86_64-linux</th>
+</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/260701635'>nixos.tests.allDrivers.chromium.aarch64-linux</a></tt>
@@ -18498,6 +18493,13 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/260700980'>nixpkgs.chromium.x86_64-linux</a></tt>
+</td>
+<td>Queued</td>
+<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
