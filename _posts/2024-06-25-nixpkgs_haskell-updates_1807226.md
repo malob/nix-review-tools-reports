@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2024-06-25 05:05:17 UTC*
+*Report built at 2024-06-25 07:04:35 UTC*
 
 Built for evals:
 
@@ -2000,12 +2000,18 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>205 issues</summary>
+<details><summary>206 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 </tr></thead>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/264229283'>nixosTests.agda.x86_64-darwin</a></tt>
+</td>
+<td>Aborted</td>
+</tr>
 <tr>
 <td>
 <details><summary>
@@ -6281,7 +6287,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>240 issues</summary>
+<details><summary>241 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -7525,6 +7531,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>haskell-gi-0.26.9</tt> <br /> <a href='https://hydra.nixos.org/build/263917803/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/263917803/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/263917803/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/263921011'>build 263921011</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/264479650'>haskellPackages.gi-vips.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>haskell-gi-0.26.9</tt> <br /> <a href='https://hydra.nixos.org/build/264479650/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/264479650/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/264479650/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/263921011'>build 263921011</a>
 </li>
 </ul>
 </details>
@@ -8930,20 +8950,13 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>14 issues</summary>
+<details><summary>12 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264479650'>haskellPackages.gi-vips.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/264479656'>haskellPackages.gi-vips.aarch64-linux</a></tt>
@@ -8971,13 +8984,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264229283'>nixosTests.agda.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -9214,6 +9220,7 @@ Built for evals:
 <li>haskellPackages.gi-soup.aarch64-linux</li>
 <li>haskellPackages.gi-soup.x86_64-darwin</li>
 <li>haskellPackages.gi-soup.x86_64-linux</li>
+<li>haskellPackages.gi-vips.aarch64-darwin</li>
 <li>haskellPackages.gi-vte.aarch64-linux</li>
 <li>haskellPackages.gi-vte.x86_64-linux</li>
 <li>haskellPackages.gi-webkit2.aarch64-linux</li>
@@ -9255,7 +9262,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>204</td>
+<td>205</td>
 </tr>
 <tr>
 <td>
