@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2024-06-25 17:05:24 UTC*
+*Report built at 2024-06-25 23:04:54 UTC*
 
 Built for evals:
 
@@ -4314,7 +4314,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>161 issues</summary>
+<details><summary>162 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -5998,6 +5998,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>tomland-1.3.3.3</tt> <br /> <a href='https://hydra.nixos.org/build/263901564/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/263901564/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/263901564/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/263895195'>build 263895195</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/264479658'>nixosTests.xmonad.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>libmpd-0.10.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/264479658/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/264479658/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/264479658/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/263903496'>build 263903496</a>
 </li>
 </ul>
 </details>
@@ -8956,7 +8970,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>10 issues</summary>
+<details><summary>9 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -9011,13 +9025,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264479658'>nixosTests.xmonad.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -9575,12 +9582,13 @@ Built for evals:
 <li>haskellPackages.xmobar.x86_64-linux</li>
 <li>haskellPackages.xmonad-extras.aarch64-linux</li>
 <li>haskellPackages.xmonad-extras.x86_64-linux</li>
+<li>nixosTests.xmonad.aarch64-linux</li>
 <li>xmobar.aarch64-linux</li>
 <li>xmobar.x86_64-linux</li>
 </ul>
 </details>
 </td>
-<td>6</td>
+<td>7</td>
 </tr>
 <tr>
 <td>
