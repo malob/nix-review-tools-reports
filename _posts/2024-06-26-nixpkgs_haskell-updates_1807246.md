@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2024-06-26 21:04:52 UTC*
+*Report built at 2024-06-26 22:04:47 UTC*
 
 Built for evals:
 
@@ -4356,7 +4356,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>162 issues</summary>
+<details><summary>163 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -4780,6 +4780,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>tomland-1.3.3.3</tt> <br /> <a href='https://hydra.nixos.org/build/263981954/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/263981954/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/263981954/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/263895195'>build 263895195</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/264487150'>haskellPackages.emanote.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>tomland-1.3.3.3</tt> <br /> <a href='https://hydra.nixos.org/build/264487150/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/264487150/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/264487150/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/263895195'>build 263895195</a>
 </li>
 </ul>
 </details>
@@ -9026,20 +9040,13 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>4 issues</summary>
+<details><summary>3 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264487150'>haskellPackages.emanote.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/264479651'>nixosTests.xmonad-xdg-autostart.aarch64-darwin</a></tt>
@@ -9357,6 +9364,7 @@ Built for evals:
 <li>haskellPackages.dhall-toml.x86_64-darwin</li>
 <li>haskellPackages.dhall-toml.x86_64-linux</li>
 <li>haskellPackages.emanote.aarch64-darwin</li>
+<li>haskellPackages.emanote.aarch64-linux</li>
 <li>haskellPackages.emanote.x86_64-linux</li>
 <li>haskellPackages.greenclip.aarch64-darwin</li>
 <li>haskellPackages.greenclip.aarch64-linux</li>
@@ -9405,7 +9413,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>111</td>
+<td>112</td>
 </tr>
 <tr>
 <td>
