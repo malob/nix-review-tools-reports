@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2024-06-26 07:04:33 UTC*
+*Report built at 2024-06-26 09:05:45 UTC*
 
 Built for evals:
 
@@ -4314,7 +4314,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>161 issues</summary>
+<details><summary>162 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -4328,6 +4328,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>lzma-0.0.1.1</tt> <br /> <a href='https://hydra.nixos.org/build/263984844/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/263984844/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/263984844/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/263901233'>build 263901233</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/264487148'>emanote.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>tomland-1.3.3.3</tt> <br /> <a href='https://hydra.nixos.org/build/264487148/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/264487148/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/264487148/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/263895195'>build 263895195</a>
 </li>
 </ul>
 </details>
@@ -6287,7 +6301,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>240 issues</summary>
+<details><summary>241 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -8372,6 +8386,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/264479653'>nixosTests.xmonad.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>libmpd-0.10.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/264479653/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/264479653/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/264479653/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/263903496'>build 263903496</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/263982795'>spago.aarch64-darwin</a></tt>
 </summary>
 <ul>
@@ -8936,20 +8964,13 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>18 issues</summary>
+<details><summary>16 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264487148'>emanote.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/264487143'>emanote.x86_64-linux</a></tt>
@@ -9033,13 +9054,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264479653'>nixosTests.xmonad.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -9299,6 +9313,7 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/263920964'>aarch64-darwin tomland-1.3.3.3</a></tt></summary>
 <ul>
 <li>emanote.aarch64-darwin</li>
+<li>emanote.aarch64-linux</li>
 <li>haskell-language-server.aarch64-darwin</li>
 <li>haskell-language-server.aarch64-linux</li>
 <li>haskell-language-server.x86_64-darwin</li>
@@ -9409,7 +9424,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>108</td>
+<td>109</td>
 </tr>
 <tr>
 <td>
@@ -9552,6 +9567,24 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/263903496'>aarch64-linux libmpd-0.10.0.1</a></tt></summary>
+<ul>
+<li>haskellPackages.xmobar.aarch64-linux</li>
+<li>haskellPackages.xmobar.x86_64-linux</li>
+<li>haskellPackages.xmonad-extras.aarch64-linux</li>
+<li>haskellPackages.xmonad-extras.x86_64-linux</li>
+<li>nixosTests.xmonad.aarch64-darwin</li>
+<li>nixosTests.xmonad.aarch64-linux</li>
+<li>nixosTests.xmonad.x86_64-linux</li>
+<li>xmobar.aarch64-linux</li>
+<li>xmobar.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>9</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/263898926'>aarch64-darwin git-annex-10.20240531-src</a></tt></summary>
 <ul>
 <li>git-annex.aarch64-darwin</li>
@@ -9596,23 +9629,6 @@ Built for evals:
 <li>haskell.compiler.ghcjs810.bootGhcjs.aarch64-linux</li>
 <li>haskell.compiler.ghcjs810.bootGhcjs.x86_64-darwin</li>
 <li>haskell.compiler.ghcjs810.bootGhcjs.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>8</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/263903496'>aarch64-linux libmpd-0.10.0.1</a></tt></summary>
-<ul>
-<li>haskellPackages.xmobar.aarch64-linux</li>
-<li>haskellPackages.xmobar.x86_64-linux</li>
-<li>haskellPackages.xmonad-extras.aarch64-linux</li>
-<li>haskellPackages.xmonad-extras.x86_64-linux</li>
-<li>nixosTests.xmonad.aarch64-linux</li>
-<li>nixosTests.xmonad.x86_64-linux</li>
-<li>xmobar.aarch64-linux</li>
-<li>xmobar.x86_64-linux</li>
 </ul>
 </details>
 </td>
