@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2024-06-26 04:04:55 UTC*
+*Report built at 2024-06-26 05:04:41 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>154 issues</summary>
+<details><summary>155 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -1743,6 +1743,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>tomland-1.3.3.3</tt> <br /> <a href='https://hydra.nixos.org/build/263886896/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/263886896/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/263886896/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/263900658'>build 263900658</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/264487151'>maintained</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>aeson-gadt-th-0.2.5.2</tt> <br /> <a href='https://hydra.nixos.org/build/264487151/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/264487151/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/264487151/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/263899005'>build 263899005</a>
 </li>
 </ul>
 </details>
@@ -8902,7 +8916,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>23 issues</summary>
+<details><summary>21 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -8974,13 +8988,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/264487139'>haskellPackages.hgdal.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/264487145'>haskellPackages.tailwind.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -9003,13 +9010,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/264487149'>haskellPackages.tailwind.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264487151'>maintained</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -10250,6 +10250,16 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/263886628'>aarch64-linux css-syntax-0.1.0.2</a></tt></summary>
 <ul>
 <li>haskellPackages.stylist-traits.aarch64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/263899005'>x86_64-linux aeson-gadt-th-0.2.5.2</a></tt></summary>
+<ul>
+<li>maintained</li>
 </ul>
 </details>
 </td>
