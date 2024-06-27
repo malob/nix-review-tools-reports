@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.05-darwin
 ---
 # Evals report
 
-*Report built at 2024-06-27 16:08:04 UTC*
+*Report built at 2024-06-27 17:17:29 UTC*
 
 Built for evals:
 
@@ -9268,7 +9268,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>974 issues</summary>
+<details><summary>975 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -12459,6 +12459,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/264126928'>git-annex-utils.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/264654429'>gitit.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -16597,7 +16603,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>135 issues</summary>
+<details><summary>130 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -16823,13 +16829,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/264654429'>gitit.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/264654418'>gitit.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -16890,13 +16889,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264654551'>haskellPackages.hakyll-favicon.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -17103,13 +17095,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/264654453'>haskellPackages.uniform-pandoc.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/264654497'>haskellPackages.web-fpco.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -17125,13 +17110,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/264654537'>haskellPackages.wordchoice.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264654573'>haskellPackages.yesod-markdown.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -17412,13 +17390,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/264654526'>python312Packages.httpie.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264654415'>python312Packages.pypandoc.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
