@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2024-06-27 13:06:40 UTC*
+*Report built at 2024-06-27 14:05:19 UTC*
 
 Built for evals:
 
@@ -8966,7 +8966,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>60 issues</summary>
+<details><summary>59 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -9144,13 +9144,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/264504447'>haskellPackages.heist-extra.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264504600'>haskellPackages.hgdal.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
