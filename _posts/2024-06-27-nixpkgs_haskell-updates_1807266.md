@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2024-06-27 10:04:44 UTC*
+*Report built at 2024-06-27 11:05:02 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>152 issues</summary>
+<details><summary>153 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -1962,6 +1962,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/263902603'>haskellPackages.significant-figures.x86_64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/264504578'>wstunnel.x86_64-linux</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -8932,7 +8938,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>81 issues</summary>
+<details><summary>76 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -9172,20 +9178,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/264504603'>haskellPackages.http-io-streams.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264504438'>haskellPackages.http-io-streams.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/264504586'>haskellPackages.mpi-hs-binary.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -9340,13 +9332,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/264504461'>haskellPackages.uniform-latex2pdf.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/264504616'>haskellPackages.web-fpco.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -9452,13 +9437,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/264504515'>tests.haskell.cabalSdist.localFromCabalSdist.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/264504629'>tests.haskell.cabalSdist.localFromCabalSdist.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -9498,13 +9476,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264504578'>wstunnel.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
