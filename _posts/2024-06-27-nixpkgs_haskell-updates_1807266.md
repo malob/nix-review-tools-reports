@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2024-06-27 11:05:02 UTC*
+*Report built at 2024-06-27 12:10:10 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>153 issues</summary>
+<details><summary>155 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -1206,6 +1206,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/264504498'>haskellPackages.git-annex.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>git-annex-10.20240531-src</tt> <br /> <a href='https://hydra.nixos.org/build/264504498/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/264504498/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/264504498/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/263898926'>build 263898926</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/263899972'>haskellPackages.greenclip.x86_64-linux</a></tt>
 </summary>
 <ul>
@@ -1743,6 +1757,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>lzma-0.0.1.1</tt> <br /> <a href='https://hydra.nixos.org/build/264504591/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/264504591/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/264504591/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/263911326'>build 263911326</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/264504575'>nixosTests.xmonad.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>libmpd-0.10.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/264504575/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/264504575/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/264504575/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/263891920'>build 263891920</a>
 </li>
 </ul>
 </details>
@@ -8938,7 +8966,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>76 issues</summary>
+<details><summary>69 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -8996,13 +9024,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/264504498'>haskellPackages.git-annex.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/264504522'>haskellPackages.gitit.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -9028,13 +9049,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264504541'>haskellPackages.hakyll-alectryon.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -9066,13 +9080,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/264504545'>haskellPackages.hakyll-favicon.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/264504517'>haskellPackages.hakyll-favicon.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -9088,13 +9095,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/264504627'>haskellPackages.hakyll-filestore.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264504610'>haskellPackages.hakyll-process.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -9283,13 +9283,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/264504464'>haskellPackages.patat.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/264504636'>haskellPackages.serversession-frontend-snap.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -9360,13 +9353,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/264504582'>haskellPackages.yst.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/264504456'>haskellPackages.yst.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -9406,13 +9392,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264504575'>nixosTests.xmonad.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -9962,6 +9941,24 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/263903496'>aarch64-linux libmpd-0.10.0.1</a></tt></summary>
+<ul>
+<li>haskellPackages.xmobar.aarch64-linux</li>
+<li>haskellPackages.xmobar.x86_64-linux</li>
+<li>haskellPackages.xmonad-extras.aarch64-linux</li>
+<li>haskellPackages.xmonad-extras.x86_64-linux</li>
+<li>nixosTests.xmonad.aarch64-darwin</li>
+<li>nixosTests.xmonad.x86_64-darwin</li>
+<li>nixosTests.xmonad.x86_64-linux</li>
+<li>xmobar.aarch64-linux</li>
+<li>xmobar.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>9</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/263911887'>aarch64-darwin zinza-0.2.1</a></tt></summary>
 <ul>
 <li>haskell-ci.aarch64-darwin</li>
@@ -9996,23 +9993,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/263903496'>aarch64-linux libmpd-0.10.0.1</a></tt></summary>
-<ul>
-<li>haskellPackages.xmobar.aarch64-linux</li>
-<li>haskellPackages.xmobar.x86_64-linux</li>
-<li>haskellPackages.xmonad-extras.aarch64-linux</li>
-<li>haskellPackages.xmonad-extras.x86_64-linux</li>
-<li>nixosTests.xmonad.aarch64-darwin</li>
-<li>nixosTests.xmonad.x86_64-darwin</li>
-<li>xmobar.aarch64-linux</li>
-<li>xmobar.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>8</td>
-</tr>
-<tr>
-<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/263898926'>aarch64-darwin git-annex-10.20240531-src</a></tt></summary>
 <ul>
 <li>git-annex.aarch64-darwin</li>
@@ -10021,10 +10001,11 @@ Built for evals:
 <li>git-annex.x86_64-linux</li>
 <li>haskellPackages.git-annex.aarch64-linux</li>
 <li>haskellPackages.git-annex.x86_64-darwin</li>
+<li>haskellPackages.git-annex.x86_64-linux</li>
 </ul>
 </details>
 </td>
-<td>6</td>
+<td>7</td>
 </tr>
 <tr>
 <td>
