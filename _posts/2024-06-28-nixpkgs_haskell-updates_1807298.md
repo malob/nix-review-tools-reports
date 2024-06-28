@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2024-06-28 05:09:09 UTC*
+*Report built at 2024-06-28 06:07:08 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>147 issues</summary>
+<details><summary>148 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -1449,6 +1449,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>tomland-1.3.3.3</tt> <br /> <a href='https://hydra.nixos.org/build/263889587/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/263889587/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/263889587/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/263900658'>build 263900658</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/264688415'>haskellPackages.nix-thunk.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>cli-git-0.2.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/264688415/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/264688415/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/264688415/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/263884286'>build 263884286</a>
 </li>
 </ul>
 </details>
@@ -8540,7 +8554,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>262 issues</summary>
+<details><summary>260 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -8952,13 +8966,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264688435'>haskell.packages.ghc945.cabal2nix-unstable.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -9925,13 +9932,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264688415'>haskellPackages.nix-thunk.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -11517,6 +11517,16 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/263911916'>x86_64-darwin swisstable-0.1.0.3</a></tt></summary>
 <ul>
 <li>haskellPackages.hs-swisstable-hashtables-class.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/263884286'>x86_64-linux cli-git-0.2.0.1</a></tt></summary>
+<ul>
+<li>haskellPackages.nix-thunk.x86_64-linux</li>
 </ul>
 </details>
 </td>
