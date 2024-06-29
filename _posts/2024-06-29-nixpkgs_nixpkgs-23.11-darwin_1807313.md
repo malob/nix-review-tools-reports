@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-23.11-darwin
 ---
 # Evals report
 
-*Report built at 2024-06-29 03:10:28 UTC*
+*Report built at 2024-06-29 04:11:23 UTC*
 
 Built for evals:
 
@@ -12586,7 +12586,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1287 issues</summary>
+<details><summary>1288 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -22474,6 +22474,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/264689135'>ycmd.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/261677523'>ytmdl.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -22905,7 +22911,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>580 issues</summary>
+<details><summary>577 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -26596,13 +26602,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/264689104'>typescript.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/264689048'>typescript.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -26743,13 +26742,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/264688834'>vsce.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/264688992'>vscode-extensions.vadimcn.vscode-lldb.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -26880,13 +26872,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264689135'>ycmd.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
