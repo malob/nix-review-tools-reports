@@ -4,7 +4,7 @@ categories: nixos:release-23.11
 ---
 # Evals report
 
-*Report built at 2024-06-29 02:42:45 UTC*
+*Report built at 2024-06-29 03:11:49 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### i686-linux
 
 
-<details><summary>29 issues</summary>
+<details><summary>30 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -225,6 +225,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>python3.11-scipy-1.11.3</tt> <br /> <a href='https://hydra.nixos.org/build/264674858/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/264674858/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/264674858/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/261602013'>build 261602013</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/264669679'>nixos.tests.outline.i686-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>outline-0.74.0</tt> <br /> <a href='https://hydra.nixos.org/build/264669679/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/264669679/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/264669679/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/263398696'>build 263398696</a>
 </li>
 </ul>
 </details>
@@ -12072,7 +12086,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>8437 issues</summary>
+<details><summary>8435 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -46661,13 +46675,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/264669679'>nixos.tests.outline.i686-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>i686-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/264675615'>nixos.tests.outline.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -65008,13 +65015,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/264677144'>nixpkgs.linuxPackages.dpdk.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/264672073'>nixpkgs.linuxPackages.dpdk.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -71767,6 +71767,16 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/261558793'>aarch64-linux python3-3.11.8-env</a></tt></summary>
 <ul>
 <li>nixos.tests.magic-wormhole-mailbox-server.aarch64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/263398696'>i686-linux outline-0.74.0</a></tt></summary>
+<ul>
+<li>nixos.tests.outline.i686-linux</li>
 </ul>
 </details>
 </td>
