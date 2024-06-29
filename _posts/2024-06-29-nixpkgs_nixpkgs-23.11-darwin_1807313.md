@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-23.11-darwin
 ---
 # Evals report
 
-*Report built at 2024-06-29 14:16:00 UTC*
+*Report built at 2024-06-29 15:13:53 UTC*
 
 Built for evals:
 
@@ -12622,7 +12622,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1288 issues</summary>
+<details><summary>1289 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -15736,6 +15736,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>kicad-base-7.0.11</tt> <br /> <a href='https://hydra.nixos.org/build/261754022/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/261754022/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/261754022/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/261154363'>build 261154363</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/264688924'>python310Packages.pdf2docx.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>mupdf-1.23.6</tt> <br /> <a href='https://hydra.nixos.org/build/264688924/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/264688924/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/264688924/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/261064433'>build 261064433</a>
 </li>
 </ul>
 </details>
@@ -22947,7 +22961,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>487 issues</summary>
+<details><summary>473 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -23257,13 +23271,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/264688606'>clubhouse-cli.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/264689055'>clubhouse-cli.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -23481,13 +23488,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/264689060'>dot-language-server.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/264688935'>dydisnix.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -23534,13 +23534,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264688968'>emmet-ls.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -23775,13 +23768,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/264688987'>haskellPackages.aeson-typescript.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/264688851'>haskellPackages.aeson-typescript.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -24006,13 +23992,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/264688658'>hueadm.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/264688696'>husky.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -24167,13 +24146,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/264689146'>iosevka-comfy.comfy-wide-motion.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/264688720'>iosevka-comfy.comfy-wide.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -24220,13 +24192,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264689011'>jake.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -24329,13 +24294,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/264688567'>lanraragi.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264688572'>lektor.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -24818,13 +24776,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/264688813'>nix-pin.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/264689108'>nix-pin.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -25074,13 +25025,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264688808'>node-glob.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -25357,13 +25301,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/264688608'>pufferpanel.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/264688965'>pxder.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -25480,13 +25417,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264688924'>python310Packages.pdf2docx.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -25837,13 +25767,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264688714'>swagger-cli.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -26257,13 +26180,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264688846'>yarn-lock-converter.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -27572,6 +27488,18 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/261064433'>aarch64-darwin mupdf-1.23.6</a></tt></summary>
+<ul>
+<li>python310Packages.pdf2docx.aarch64-darwin</li>
+<li>python310Packages.pymupdf.aarch64-darwin</li>
+<li>python310Packages.pymupdf.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>3</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/261263351'>x86_64-darwin python3.10-willow-1.6.2</a></tt></summary>
 <ul>
 <li>python310Packages.wagtail-factories.x86_64-darwin</li>
@@ -28303,17 +28231,6 @@ Built for evals:
 <ul>
 <li>python310Packages.mmcv.aarch64-darwin</li>
 <li>python310Packages.mmcv.x86_64-darwin</li>
-</ul>
-</details>
-</td>
-<td>2</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/261064433'>aarch64-darwin mupdf-1.23.6</a></tt></summary>
-<ul>
-<li>python310Packages.pymupdf.aarch64-darwin</li>
-<li>python310Packages.pymupdf.x86_64-darwin</li>
 </ul>
 </details>
 </td>
