@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2024-06-29 07:07:03 UTC*
+*Report built at 2024-06-29 08:07:35 UTC*
 
 Built for evals:
 
@@ -15,12 +15,26 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>148 issues</summary>
+<details><summary>149 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 </tr></thead>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/264688483'>cachix.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>lzma-0.0.1.1</tt> <br /> <a href='https://hydra.nixos.org/build/264688483/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/264688483/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/264688483/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/263882915'>build 263882915</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
 <tr>
 <td>
 <details><summary>
@@ -8554,7 +8568,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>252 issues</summary>
+<details><summary>249 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -8595,13 +8609,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264688483'>cachix.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -8651,13 +8658,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264688447'>haskell.packages.ghc8107.nix-paths.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -9554,13 +9554,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264504499'>haskellPackages.hakyll-alectryon.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -10665,6 +10658,7 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/263911326'>aarch64-darwin lzma-0.0.1.1</a></tt></summary>
 <ul>
 <li>cachix.aarch64-darwin</li>
+<li>cachix.x86_64-linux</li>
 <li>haskellPackages.bureaucromancy.aarch64-darwin</li>
 <li>haskellPackages.bureaucromancy.aarch64-linux</li>
 <li>haskellPackages.bureaucromancy.x86_64-darwin</li>
@@ -10709,7 +10703,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>47</td>
+<td>48</td>
 </tr>
 <tr>
 <td>
