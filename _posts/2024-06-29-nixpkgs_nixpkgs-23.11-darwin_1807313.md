@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-23.11-darwin
 ---
 # Evals report
 
-*Report built at 2024-06-29 02:41:15 UTC*
+*Report built at 2024-06-29 03:10:28 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1488 issues</summary>
+<details><summary>1489 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -6315,6 +6315,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>zig-0.11.0</tt> <br /> <a href='https://hydra.nixos.org/build/261678404/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/261678404/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/261678404/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/261226890'>build 261226890</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/264689178'>zon2nix.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>zig-0.11.0</tt> <br /> <a href='https://hydra.nixos.org/build/264689178/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/264689178/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/264689178/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/261226890'>build 261226890</a>
 </li>
 </ul>
 </details>
@@ -22891,7 +22905,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>581 issues</summary>
+<details><summary>580 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -26918,13 +26932,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/264689178'>zon2nix.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/264688563'>zotero-translation-server.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -27165,12 +27172,13 @@ Built for evals:
 <li>zf.x86_64-darwin</li>
 <li>zls.aarch64-darwin</li>
 <li>zls.x86_64-darwin</li>
+<li>zon2nix.x86_64-darwin</li>
 <li>ztags.aarch64-darwin</li>
 <li>ztags.x86_64-darwin</li>
 </ul>
 </details>
 </td>
-<td>16</td>
+<td>17</td>
 </tr>
 <tr>
 <td>
