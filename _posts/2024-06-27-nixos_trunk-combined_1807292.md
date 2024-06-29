@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2024-06-29 04:13:12 UTC*
+*Report built at 2024-06-29 05:12:25 UTC*
 
 Built for evals:
 
@@ -19811,7 +19811,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>3 issues</summary>
+<details><summary>2 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -19828,13 +19828,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/264660194'>nixpkgs.python312Packages.deepwave.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264668967'>nixpkgs.zed-editor.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
