@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2024-06-29 11:04:48 UTC*
+*Report built at 2024-06-29 12:33:07 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>150 issues</summary>
+<details><summary>151 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -1701,6 +1701,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>tomland-1.3.3.3</tt> <br /> <a href='https://hydra.nixos.org/build/263886896/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/263886896/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/263886896/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/263900658'>build 263900658</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/264688333'>nixosTests.xmonad.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>libmpd-0.10.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/264688333/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/264688333/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/264688333/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/263891920'>build 263891920</a>
 </li>
 </ul>
 </details>
@@ -8610,7 +8624,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>243 issues</summary>
+<details><summary>242 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -10208,13 +10222,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/264688333'>nixosTests.xmonad.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/264688554'>nvfetcher.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -10843,12 +10850,13 @@ Built for evals:
 <li>haskellPackages.xmobar.x86_64-linux</li>
 <li>haskellPackages.xmonad-extras.aarch64-linux</li>
 <li>haskellPackages.xmonad-extras.x86_64-linux</li>
+<li>nixosTests.xmonad.x86_64-linux</li>
 <li>xmobar.aarch64-linux</li>
 <li>xmobar.x86_64-linux</li>
 </ul>
 </details>
 </td>
-<td>6</td>
+<td>7</td>
 </tr>
 <tr>
 <td>
