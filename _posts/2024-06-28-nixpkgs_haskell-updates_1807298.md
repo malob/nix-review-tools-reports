@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2024-06-29 21:05:14 UTC*
+*Report built at 2024-06-29 22:04:44 UTC*
 
 Built for evals:
 
@@ -6133,7 +6133,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>235 issues</summary>
+<details><summary>237 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -7470,6 +7470,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/264688473'>haskellPackages.hercules-ci-cli.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>tomland-1.3.3.3</tt> <br /> <a href='https://hydra.nixos.org/build/264688473/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/264688473/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/264688473/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/263920964'>build 263920964</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/263911215'>haskellPackages.hinit.aarch64-darwin</a></tt>
 </summary>
 <ul>
@@ -8709,6 +8723,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/264504466'>wstunnel.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/263922372'>haskellPackages.nspace.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -8720,7 +8740,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>193 issues</summary>
+<details><summary>184 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -8789,13 +8809,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264688464'>haskell.packages.ghc8107.nix-paths.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -8918,13 +8931,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/264688501'>haskell.packages.ghc926.cabal2nix-unstable.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/264688466'>haskell.packages.ghc926.cabal2nix-unstable.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -8936,13 +8942,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264688392'>haskell.packages.ghc926.nix-paths.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -8999,13 +8998,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264688496'>haskell.packages.ghc928.cabal2nix-unstable.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -9548,13 +9540,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/264688473'>haskellPackages.hercules-ci-cli.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/264688338'>haskellPackages.hercules-ci-cli.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -9671,13 +9656,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264688393'>haskellPackages.niv.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -9828,13 +9806,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/264688469'>haskellPackages.update-nix-fetchgit.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/264688462'>haskellPackages.update-nix-fetchgit.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -9860,13 +9831,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264504456'>haskellPackages.yst.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -10063,13 +10027,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264504466'>wstunnel.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -10387,6 +10344,7 @@ Built for evals:
 <li>haskellPackages.hdmenu.aarch64-linux</li>
 <li>haskellPackages.hdmenu.x86_64-darwin</li>
 <li>haskellPackages.hdmenu.x86_64-linux</li>
+<li>haskellPackages.hercules-ci-cli.aarch64-darwin</li>
 <li>haskellPackages.hercules-ci-cli.x86_64-darwin</li>
 <li>haskellPackages.hinit.aarch64-darwin</li>
 <li>haskellPackages.hinit.aarch64-linux</li>
@@ -10415,7 +10373,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>104</td>
+<td>105</td>
 </tr>
 <tr>
 <td>
