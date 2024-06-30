@@ -4,7 +4,7 @@ categories: nixos:release-23.11
 ---
 # Evals report
 
-*Report built at 2024-06-30 13:09:06 UTC*
+*Report built at 2024-06-30 14:08:47 UTC*
 
 Built for evals:
 
@@ -5440,7 +5440,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>1237 issues</summary>
+<details><summary>1241 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -7010,6 +7010,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/264757377'>nixpkgs.akkoma-frontends.akkoma-fe.x86_64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/261546930'>nixpkgs.amazon-qldb-shell.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -7155,6 +7161,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/261545420'>nixpkgs.indradb-server.x86_64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/264758100'>nixpkgs.iosevka-comfy.comfy-wide-motion-fixed.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -13436,6 +13448,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/264752233'>nixpkgs.python310Packages.bambi.x86_64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/261647761'>nixpkgs.python310Packages.cirq-rigetti.x86_64-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -13515,6 +13533,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/261603966'>nixpkgs.python311Packages.whirlpool-sixth-sense.x86_64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/264755874'>nixpkgs.quicktype.x86_64-linux</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -20668,41 +20692,13 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>5 issues</summary>
+<details><summary>1 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264757377'>nixpkgs.akkoma-frontends.akkoma-fe.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264758100'>nixpkgs.iosevka-comfy.comfy-wide-motion-fixed.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264752233'>nixpkgs.python310Packages.bambi.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264755874'>nixpkgs.quicktype.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/264757768'>nixpkgs.teams-for-linux.x86_64-linux</a></tt>
