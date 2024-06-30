@@ -1,10 +1,10 @@
 ---
-title: nixos:release-23.11 1807329
+title: nixos:release-23.11 1807329 (succeeded)
 categories: nixos:release-23.11
 ---
 # Evals report
 
-*Report built at 2024-06-30 14:08:47 UTC*
+*Report built at 2024-06-30 15:08:08 UTC*
 
 Built for evals:
 
@@ -5440,7 +5440,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>1241 issues</summary>
+<details><summary>1242 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -12993,6 +12993,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/261638442'>nixpkgs.tartan.x86_64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/264757768'>nixpkgs.teams-for-linux.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -20684,27 +20690,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/261605113'>nixpkgs.rustplayer.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264757768'>nixpkgs.teams-for-linux.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
