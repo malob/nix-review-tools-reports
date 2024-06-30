@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-23.11-darwin
 ---
 # Evals report
 
-*Report built at 2024-06-30 14:07:19 UTC*
+*Report built at 2024-06-30 15:06:42 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1504 issues</summary>
+<details><summary>1506 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -4154,6 +4154,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/264689074'>python310Packages.pdf2docx.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>mupdf-1.23.6</tt> <br /> <a href='https://hydra.nixos.org/build/264689074/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/264689074/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/264689074/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/261252372'>build 261252372</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/261721277'>python310Packages.pdfplumber.x86_64-darwin</a></tt>
 </summary>
 <ul>
@@ -4355,6 +4369,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>python3.10-jaxlib-0.4.20</tt> <br /> <a href='https://hydra.nixos.org/build/261735393/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/261735393/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/261735393/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/261249286'>build 261249286</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/264688721'>python310Packages.unstructured-inference.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.10-blosc2-2.2.7</tt> <br /> <a href='https://hydra.nixos.org/build/264688721/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/264688721/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/264688721/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/261262553'>build 261262553</a>
 </li>
 </ul>
 </details>
@@ -12700,7 +12728,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1294 issues</summary>
+<details><summary>1296 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -18104,6 +18132,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/264688669'>fx-cast-bridge.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/261712405'>gamin.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -22706,6 +22740,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/264688840'>appvm.aarch64-darwin</a></tt>
+</td>
+<td>Log limit exceeded</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/261669925'>germinal.aarch64-darwin</a></tt>
 </td>
 <td>Log limit exceeded</td>
@@ -23077,7 +23117,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>277 issues</summary>
+<details><summary>258 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -23135,13 +23175,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/264688840'>appvm.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/264688749'>assemblyscript.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -23171,13 +23204,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/264688875'>balena-cli.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264688969'>bitwarden-cli.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -23272,20 +23298,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264688884'>colmena.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264688949'>configurable-http-proxy.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -23457,13 +23469,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/264688692'>faust2jackrust.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/264688617'>faust2ladspa.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -23496,13 +23501,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264688669'>fx-cast-bridge.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -23737,13 +23735,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/264688868'>iosevka-comfy.comfy-fixed.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/264689013'>iosevka-comfy.comfy-motion-duo.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -23797,13 +23788,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264688759'>iosevka-comfy.comfy-wide-motion-fixed.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -24136,13 +24120,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/264688938'>nest-cli.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/264688679'>netlistsvg.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -24192,13 +24169,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/264688861'>nix-eval-jobs.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/264689046'>nix-prefetch-docker.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -24210,13 +24180,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264688713'>nix-prefetch.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -24500,13 +24463,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/264688984'>python310Packages.allure-behave.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/264688990'>python310Packages.django-hijack.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -24521,13 +24477,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/264689074'>python310Packages.pdf2docx.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/264689061'>python310Packages.python-docx.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -24539,13 +24488,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264688721'>python310Packages.unstructured-inference.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -24585,13 +24527,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/264689153'>python311Packages.minikanren.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264688686'>python311Packages.nix-kernel.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -24658,13 +24593,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264688704'>rtlcss.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -24745,13 +24673,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/264688648'>terranix.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/264689052'>terranix.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -24787,13 +24708,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/264689010'>tests.nixpkgs-check-by-name.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/264688565'>tests.pkg-config.defaultPkgConfigPackages.nix-cmd.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -24826,13 +24740,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264688663'>titanium.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -25258,6 +25165,27 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/261262553'>x86_64-darwin python3.10-blosc2-2.2.7</a></tt></summary>
+<ul>
+<li>python310Packages.apptools.x86_64-darwin</li>
+<li>python310Packages.deepdish.x86_64-darwin</li>
+<li>python310Packages.envisage.x86_64-darwin</li>
+<li>python310Packages.flammkuchen.x86_64-darwin</li>
+<li>python310Packages.layoutparser.x86_64-darwin</li>
+<li>python310Packages.mayavi.x86_64-darwin</li>
+<li>python310Packages.mdtraj.x86_64-darwin</li>
+<li>python310Packages.pandas-stubs.x86_64-darwin</li>
+<li>python310Packages.pdfplumber.x86_64-darwin</li>
+<li>python310Packages.sfepy.x86_64-darwin</li>
+<li>python310Packages.tables.x86_64-darwin</li>
+<li>python310Packages.unstructured-inference.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>12</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/261033465'>aarch64-darwin bup-0.33.3</a></tt></summary>
 <ul>
 <li>datalad.aarch64-darwin</li>
@@ -25291,26 +25219,6 @@ Built for evals:
 <li>python311Packages.pdfplumber.x86_64-darwin</li>
 <li>python311Packages.sfepy.x86_64-darwin</li>
 <li>python311Packages.tables.x86_64-darwin</li>
-</ul>
-</details>
-</td>
-<td>11</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/261262553'>x86_64-darwin python3.10-blosc2-2.2.7</a></tt></summary>
-<ul>
-<li>python310Packages.apptools.x86_64-darwin</li>
-<li>python310Packages.deepdish.x86_64-darwin</li>
-<li>python310Packages.envisage.x86_64-darwin</li>
-<li>python310Packages.flammkuchen.x86_64-darwin</li>
-<li>python310Packages.layoutparser.x86_64-darwin</li>
-<li>python310Packages.mayavi.x86_64-darwin</li>
-<li>python310Packages.mdtraj.x86_64-darwin</li>
-<li>python310Packages.pandas-stubs.x86_64-darwin</li>
-<li>python310Packages.pdfplumber.x86_64-darwin</li>
-<li>python310Packages.sfepy.x86_64-darwin</li>
-<li>python310Packages.tables.x86_64-darwin</li>
 </ul>
 </details>
 </td>
@@ -25746,6 +25654,20 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/261252372'>x86_64-darwin mupdf-1.23.6</a></tt></summary>
+<ul>
+<li>python310Packages.paddleocr.x86_64-darwin</li>
+<li>python310Packages.pdf2docx.aarch64-darwin</li>
+<li>python310Packages.pdf2docx.x86_64-darwin</li>
+<li>python310Packages.pymupdf.aarch64-darwin</li>
+<li>python310Packages.pymupdf.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>5</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/260982936'>aarch64-darwin python3.11-python-crontab-3.0.0</a></tt></summary>
 <ul>
 <li>baserow.aarch64-darwin</li>
@@ -26051,19 +25973,6 @@ Built for evals:
 <li>python310Packages.mwcli.x86_64-darwin</li>
 <li>python310Packages.mwxml.aarch64-darwin</li>
 <li>python310Packages.mwxml.x86_64-darwin</li>
-</ul>
-</details>
-</td>
-<td>4</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/261252372'>x86_64-darwin mupdf-1.23.6</a></tt></summary>
-<ul>
-<li>python310Packages.paddleocr.x86_64-darwin</li>
-<li>python310Packages.pdf2docx.aarch64-darwin</li>
-<li>python310Packages.pymupdf.aarch64-darwin</li>
-<li>python310Packages.pymupdf.x86_64-darwin</li>
 </ul>
 </details>
 </td>
