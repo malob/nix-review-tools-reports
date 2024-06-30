@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2024-06-30 20:07:56 UTC*
+*Report built at 2024-06-30 21:08:15 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>1048 issues</summary>
+<details><summary>1046 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -2931,20 +2931,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/264767123'>tested</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Cached failure</b> <tt>upower-1.90.4</tt> <br /> <a href='https://hydra.nixos.org/build/264767123/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/264767123/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/264767123/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/264704017'>build 264704017</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/264765881'>nixos.amazonImageZfs.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -2958,12 +2944,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/264767340'>nixos.tests.certmgr.systemd.x86_64-linux</a></tt>
-</td>
-<td>Failed</td>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264764470'>nixos.tests.gitlab.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -17789,7 +17769,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>5265 issues</summary>
+<details><summary>5264 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -17931,13 +17911,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/264765886'>nixos.iso_gnome.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/264762880'>nixos.iso_gnome.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -18061,13 +18034,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264764313'>nixos.sd_image.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -54651,6 +54617,13 @@ Built for evals:
 <td>Queued</td>
 <th>x86_64-linux</th>
 </tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/264767123'>tested</a></tt>
+</td>
+<td>Queued</td>
+<th>x86_64-linux</th>
+</tr>
 </table>
 </details>
 
@@ -55119,12 +55092,11 @@ Built for evals:
 <li>nixpkgs.pantheon.wingpanel-indicator-session.x86_64-linux</li>
 <li>nixpkgs.xfce.xfce4-power-manager.x86_64-linux</li>
 <li>nixpkgs.xfce.xfce4-weather-plugin.x86_64-linux</li>
-<li>tested</li>
 <li>nixos.tests.installed-tests.gnome-photos.x86_64-linux</li>
 </ul>
 </details>
 </td>
-<td>34</td>
+<td>33</td>
 </tr>
 <tr>
 <td>
