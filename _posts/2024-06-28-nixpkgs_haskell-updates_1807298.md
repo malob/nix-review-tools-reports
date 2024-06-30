@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2024-06-30 12:06:08 UTC*
+*Report built at 2024-06-30 13:05:19 UTC*
 
 Built for evals:
 
@@ -4258,12 +4258,26 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>157 issues</summary>
+<details><summary>158 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 </tr></thead>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/264504475'>emanote.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>tomland-1.3.3.3</tt> <br /> <a href='https://hydra.nixos.org/build/264504475/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/264504475/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/264504475/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/263895195'>build 263895195</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
 <tr>
 <td>
 <details><summary>
@@ -8796,7 +8810,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>154 issues</summary>
+<details><summary>152 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -8837,13 +8851,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264504475'>emanote.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -9526,13 +9533,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/264688418'>haskellPackages.hercules-ci-cnix-store.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/264688525'>haskellPackages.hgdal.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -10112,6 +10112,7 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/263920964'>aarch64-darwin tomland-1.3.3.3</a></tt></summary>
 <ul>
 <li>emanote.aarch64-darwin</li>
+<li>emanote.aarch64-linux</li>
 <li>emanote.x86_64-linux</li>
 <li>haskell-language-server.aarch64-darwin</li>
 <li>haskell-language-server.aarch64-linux</li>
@@ -10221,7 +10222,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>107</td>
+<td>108</td>
 </tr>
 <tr>
 <td>
