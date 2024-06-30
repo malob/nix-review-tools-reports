@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.05-darwin
 ---
 # Evals report
 
-*Report built at 2024-06-30 06:31:49 UTC*
+*Report built at 2024-06-30 11:07:06 UTC*
 
 Built for evals:
 
@@ -9148,7 +9148,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>954 issues</summary>
+<details><summary>955 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -11192,6 +11192,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>python3.12-proton-core-0.1.16</tt> <br /> <a href='https://hydra.nixos.org/build/264221933/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/264221933/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/264221933/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/263929797'>build 263929797</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/264687759'>python312Packages.pvextractor.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.12-spectral-cube-0.6.5</tt> <br /> <a href='https://hydra.nixos.org/build/264687759/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/264687759/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/264687759/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/263925347'>build 263925347</a>
 </li>
 </ul>
 </details>
@@ -16317,7 +16331,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>472 issues</summary>
+<details><summary>466 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -17111,13 +17125,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/264654528'>haskellPackages.patat.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264654451'>haskellPackages.serversession-frontend-snap.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -17943,13 +17950,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/264701519'>nil.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/264701349'>nil.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -18076,13 +18076,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/264701411'>nix-template.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/264701337'>nix-template.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -18094,13 +18087,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264776525'>nix-top.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -18608,13 +18594,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/264687759'>python312Packages.pvextractor.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/264687926'>python312Packages.pyside6.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -18626,13 +18605,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264654393'>python312Packages.pytm.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -20983,6 +20955,17 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/263925347'>aarch64-darwin python3.12-spectral-cube-0.6.5</a></tt></summary>
+<ul>
+<li>python312Packages.pvextractor.aarch64-darwin</li>
+<li>python312Packages.pvextractor.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/263209221'>aarch64-darwin python3.12-css-html-js-minify-2.5.5</a></tt></summary>
 <ul>
 <li>python312Packages.sphinx-material.aarch64-darwin</li>
@@ -21385,16 +21368,6 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/263303127'>aarch64-darwin python3.12-curl-cffi-0.6.4</a></tt></summary>
 <ul>
 <li>python312Packages.duckduckgo-search.aarch64-darwin</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/263926794'>x86_64-darwin python3.12-spectral-cube-0.6.5</a></tt></summary>
-<ul>
-<li>python312Packages.pvextractor.x86_64-darwin</li>
 </ul>
 </details>
 </td>
