@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2024-06-30 06:29:31 UTC*
+*Report built at 2024-06-30 11:04:53 UTC*
 
 Built for evals:
 
@@ -4258,7 +4258,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>156 issues</summary>
+<details><summary>157 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -5508,6 +5508,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>tomland-1.3.3.3</tt> <br /> <a href='https://hydra.nixos.org/build/263982610/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/263982610/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/263982610/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/263895195'>build 263895195</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/264688455'>haskellPackages.hercules-ci-agent.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>tomland-1.3.3.3</tt> <br /> <a href='https://hydra.nixos.org/build/264688455/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/264688455/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/264688455/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/263895195'>build 263895195</a>
 </li>
 </ul>
 </details>
@@ -8782,7 +8796,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>162 issues</summary>
+<details><summary>157 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -8837,13 +8851,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264688429'>haskell.packages.ghc8107.cabal2nix-unstable.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -9015,13 +9022,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/264688454'>haskell.packages.ghc928.cabal2nix-unstable.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/264688414'>haskell.packages.ghc928.nix-paths.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -9173,13 +9173,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264688431'>haskell.packages.ghc963.cabal2nix-unstable.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -9470,13 +9463,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/264688455'>haskellPackages.hercules-ci-agent.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/264688512'>haskellPackages.hercules-ci-agent.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -9705,13 +9691,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264504504'>haskellPackages.pandoc-throw.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -10232,6 +10211,7 @@ Built for evals:
 <li>haskellPackages.hdmenu.aarch64-linux</li>
 <li>haskellPackages.hdmenu.x86_64-darwin</li>
 <li>haskellPackages.hdmenu.x86_64-linux</li>
+<li>haskellPackages.hercules-ci-agent.aarch64-linux</li>
 <li>haskellPackages.hercules-ci-cli.aarch64-darwin</li>
 <li>haskellPackages.hercules-ci-cli.x86_64-darwin</li>
 <li>haskellPackages.hinit.aarch64-darwin</li>
@@ -10262,7 +10242,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>106</td>
+<td>107</td>
 </tr>
 <tr>
 <td>
