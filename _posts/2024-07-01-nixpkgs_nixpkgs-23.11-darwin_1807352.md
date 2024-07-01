@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-23.11-darwin
 ---
 # Evals report
 
-*Report built at 2024-07-01 06:33:32 UTC*
+*Report built at 2024-07-01 08:08:16 UTC*
 
 Built for evals:
 
@@ -12814,7 +12814,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1308 issues</summary>
+<details><summary>1309 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -13702,6 +13702,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>mplayer-unstable-2022-02-03</tt> <br /> <a href='https://hydra.nixos.org/build/261727463/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/261727463/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/261727463/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/261026144'>build 261026144</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/264781110'>grafana.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>grafana-10.2.8-go-modules</tt> <br /> <a href='https://hydra.nixos.org/build/264781110/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/264781110/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/264781110/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/264781117'>build 264781117</a>
 </li>
 </ul>
 </details>
@@ -23315,7 +23329,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>76 issues</summary>
+<details><summary>73 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -23349,13 +23363,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264689054'>carbon-now-cli.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -23436,13 +23443,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/264781110'>grafana.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/264688622'>haskellPackages.hercules-ci-cli.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -23493,13 +23493,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/264688839'>jake.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264688855'>javascript-typescript-langserver.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -25369,6 +25362,17 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/264781117'>aarch64-darwin grafana-10.2.8-go-modules</a></tt></summary>
+<ul>
+<li>grafana.aarch64-darwin</li>
+<li>grafana.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/261051676'>aarch64-darwin async-refresh-0.3.0.0</a></tt></summary>
 <ul>
 <li>haskellPackages.async-refresh-tokens.aarch64-darwin</li>
@@ -26323,16 +26327,6 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/261246609'>x86_64-darwin gnat-13.2.0</a></tt></summary>
 <ul>
 <li>gnat13.x86_64-darwin</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>x86_64-darwin grafana-10.2.8-go-modules</tt></summary>
-<ul>
-<li>grafana.x86_64-darwin</li>
 </ul>
 </details>
 </td>
