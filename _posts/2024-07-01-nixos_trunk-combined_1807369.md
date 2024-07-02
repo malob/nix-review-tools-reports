@@ -1,10 +1,10 @@
 ---
-title: nixos:trunk-combined 1807369
+title: nixos:trunk-combined 1807369 (succeeded)
 categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2024-07-02 10:08:35 UTC*
+*Report built at 2024-07-02 11:08:14 UTC*
 
 Built for evals:
 
@@ -19343,27 +19343,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/264470018'>nixpkgs.ryujinx.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264838787'>nixos.iso_plasma5.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
