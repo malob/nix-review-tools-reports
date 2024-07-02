@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2024-07-02 10:04:48 UTC*
+*Report built at 2024-07-02 11:04:45 UTC*
 
 Built for evals:
 
@@ -4244,7 +4244,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>159 issues</summary>
+<details><summary>160 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -5298,6 +5298,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>haskell-gi-0.26.9</tt> <br /> <a href='https://hydra.nixos.org/build/263887860/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/263887860/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/263887860/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/263888710'>build 263888710</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/264858496'>haskellPackages.gi-poppler.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>haskell-gi-0.26.9</tt> <br /> <a href='https://hydra.nixos.org/build/264858496/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/264858496/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/264858496/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/263888710'>build 263888710</a>
 </li>
 </ul>
 </details>
@@ -8687,7 +8701,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>154 issues</summary>
+<details><summary>152 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -9137,13 +9151,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/264858472'>haskell.packages.ghc946.ghc-lib-parser.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/264858509'>haskell.packages.ghc946.ghc-lib.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -9428,13 +9435,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264858496'>haskellPackages.gi-poppler.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -9935,6 +9935,7 @@ Built for evals:
 <li>haskellPackages.gi-pangocairo.aarch64-linux</li>
 <li>haskellPackages.gi-pangocairo.x86_64-darwin</li>
 <li>haskellPackages.gi-pangocairo.x86_64-linux</li>
+<li>haskellPackages.gi-poppler.aarch64-linux</li>
 <li>haskellPackages.gi-poppler.x86_64-linux</li>
 <li>haskellPackages.gi-rsvg.aarch64-darwin</li>
 <li>haskellPackages.gi-rsvg.aarch64-linux</li>
@@ -9991,7 +9992,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>203</td>
+<td>204</td>
 </tr>
 <tr>
 <td>
