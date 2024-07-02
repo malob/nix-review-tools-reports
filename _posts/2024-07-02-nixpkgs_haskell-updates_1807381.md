@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2024-07-02 12:05:30 UTC*
+*Report built at 2024-07-02 13:06:15 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>153 issues</summary>
+<details><summary>154 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -1701,6 +1701,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>lzma-0.0.1.1</tt> <br /> <a href='https://hydra.nixos.org/build/263887109/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/263887109/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/263887109/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/263882915'>build 263882915</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/264858373'>hercules-ci-agent.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>tomland-1.3.3.3</tt> <br /> <a href='https://hydra.nixos.org/build/264858373/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/264858373/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/264858373/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/263900658'>build 263900658</a>
 </li>
 </ul>
 </details>
@@ -6273,7 +6287,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>233 issues</summary>
+<details><summary>234 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -7352,6 +7366,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>haskell-gi-0.26.9</tt> <br /> <a href='https://hydra.nixos.org/build/263910216/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/263910216/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/263910216/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/263921011'>build 263921011</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/264858417'>haskellPackages.gi-poppler.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>haskell-gi-0.26.9</tt> <br /> <a href='https://hydra.nixos.org/build/264858417/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/264858417/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/264858417/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/263921011'>build 263921011</a>
 </li>
 </ul>
 </details>
@@ -8827,7 +8855,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>135 issues</summary>
+<details><summary>133 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -9508,13 +9536,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/264858417'>haskellPackages.gi-poppler.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/264858384'>haskellPackages.gi-poppler.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -9635,13 +9656,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/264688425'>hci.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264858373'>hercules-ci-agent.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -9942,6 +9956,7 @@ Built for evals:
 <li>haskellPackages.gi-pangocairo.aarch64-linux</li>
 <li>haskellPackages.gi-pangocairo.x86_64-darwin</li>
 <li>haskellPackages.gi-pangocairo.x86_64-linux</li>
+<li>haskellPackages.gi-poppler.aarch64-darwin</li>
 <li>haskellPackages.gi-poppler.aarch64-linux</li>
 <li>haskellPackages.gi-poppler.x86_64-linux</li>
 <li>haskellPackages.gi-rsvg.aarch64-darwin</li>
@@ -10000,7 +10015,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>205</td>
+<td>206</td>
 </tr>
 <tr>
 <td>
@@ -10111,6 +10126,7 @@ Built for evals:
 <li>hci.x86_64-darwin</li>
 <li>hercules-ci-agent.aarch64-linux</li>
 <li>hercules-ci-agent.x86_64-darwin</li>
+<li>hercules-ci-agent.x86_64-linux</li>
 <li>hinit.aarch64-darwin</li>
 <li>hinit.aarch64-linux</li>
 <li>hinit.x86_64-darwin</li>
@@ -10118,7 +10134,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>109</td>
+<td>110</td>
 </tr>
 <tr>
 <td>
