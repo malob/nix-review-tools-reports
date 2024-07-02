@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2024-07-02 03:05:05 UTC*
+*Report built at 2024-07-02 04:04:47 UTC*
 
 Built for evals:
 
@@ -4202,7 +4202,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>158 issues</summary>
+<details><summary>159 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -4230,6 +4230,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>tomland-1.3.3.3</tt> <br /> <a href='https://hydra.nixos.org/build/264504475/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/264504475/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/264504475/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/263895195'>build 263895195</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/264858487'>git-annex.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>git-annex-10.20240531-src</tt> <br /> <a href='https://hydra.nixos.org/build/264858487/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/264858487/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/264858487/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/263898926'>build 263898926</a>
 </li>
 </ul>
 </details>
@@ -8572,7 +8586,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>221 issues</summary>
+<details><summary>218 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -8630,13 +8644,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/264858487'>git-annex.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/264858413'>git-annex.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -8652,13 +8659,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/264858339'>haskell.compiler.ghc8107.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/264858439'>haskell.compiler.ghc90.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -9736,13 +9736,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/264858353'>haskellPackages.bindings-sane.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/264858492'>haskellPackages.bindings-sane.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -10738,6 +10731,18 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/263898926'>aarch64-linux git-annex-10.20240531-src</a></tt></summary>
+<ul>
+<li>git-annex.aarch64-linux</li>
+<li>haskellPackages.git-annex.aarch64-linux</li>
+<li>haskellPackages.git-annex.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>3</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt>x86_64-linux hw-prim-0.6.3.2</tt></summary>
 <ul>
 <li>haskell.packages.ghc945.haskell-language-server.x86_64-linux</li>
@@ -10924,17 +10929,6 @@ Built for evals:
 <ul>
 <li>haskellPackages.async-refresh-tokens.aarch64-darwin</li>
 <li>haskellPackages.async-refresh-tokens.x86_64-darwin</li>
-</ul>
-</details>
-</td>
-<td>2</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/263898926'>aarch64-linux git-annex-10.20240531-src</a></tt></summary>
-<ul>
-<li>haskellPackages.git-annex.aarch64-linux</li>
-<li>haskellPackages.git-annex.x86_64-darwin</li>
 </ul>
 </details>
 </td>
