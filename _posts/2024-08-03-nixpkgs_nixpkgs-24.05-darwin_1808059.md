@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.05-darwin
 ---
 # Evals report
 
-*Report built at 2024-08-03 07:07:28 UTC*
+*Report built at 2024-08-03 08:07:47 UTC*
 
 Built for evals:
 
@@ -8710,7 +8710,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>971 issues</summary>
+<details><summary>972 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -11288,6 +11288,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/266810078'>brigand.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/268360350'>btc-rpc-explorer.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -15960,7 +15966,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>322 issues</summary>
+<details><summary>319 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -16075,13 +16081,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/268360702'>browsr.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/268360350'>btc-rpc-explorer.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -17292,13 +17291,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/268360364'>python311Packages.devolo-plc-api.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/268360423'>python311Packages.diagrams.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -17989,13 +17981,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/268360475'>t-rec.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
