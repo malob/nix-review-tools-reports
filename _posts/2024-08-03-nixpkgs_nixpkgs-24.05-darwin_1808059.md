@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.05-darwin
 ---
 # Evals report
 
-*Report built at 2024-08-03 09:07:46 UTC*
+*Report built at 2024-08-03 10:07:39 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1104 issues</summary>
+<details><summary>1105 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -1401,6 +1401,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>python3.11-ledgerblue-0.1.53</tt> <br /> <a href='https://hydra.nixos.org/build/266829855/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/266829855/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/266829855/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/266461097'>build 266461097</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/268360351'>lemmy-ui.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>lemmy-ui-modules-0.19.3</tt> <br /> <a href='https://hydra.nixos.org/build/268360351/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/268360351/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/268360351/nixlog/1/tail'>tail</a>
 </li>
 </ul>
 </details>
@@ -15980,7 +15994,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>313 issues</summary>
+<details><summary>311 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -16619,13 +16633,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/268360700'>kakounePlugins.rep.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/268360450'>kakounePlugins.rep.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -16658,13 +16665,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/268360351'>lemmy-ui.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -19778,6 +19778,16 @@ Built for evals:
 <details><summary><tt>x86_64-darwin synfig-1.5.1</tt></summary>
 <ul>
 <li>hikounomizu.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>x86_64-darwin lemmy-ui-modules-0.19.3</tt></summary>
+<ul>
+<li>lemmy-ui.x86_64-darwin</li>
 </ul>
 </details>
 </td>
