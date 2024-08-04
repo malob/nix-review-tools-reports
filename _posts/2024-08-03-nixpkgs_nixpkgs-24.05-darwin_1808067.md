@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.05-darwin
 ---
 # Evals report
 
-*Report built at 2024-08-04 03:07:36 UTC*
+*Report built at 2024-08-04 04:08:52 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1089 issues</summary>
+<details><summary>1091 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -757,6 +757,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>mpich-4.2.1</tt> <br /> <a href='https://hydra.nixos.org/build/266813391/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/266813391/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/266813391/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/266464720'>build 266464720</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/268422622'>gtk-pipe-viewer.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>swift-5.8</tt> <br /> <a href='https://hydra.nixos.org/build/268422622/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/268422622/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/268422622/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/266816265'>build 266816265</a>
 </li>
 </ul>
 </details>
@@ -3333,6 +3347,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>tracker-3.7.3</tt> <br /> <a href='https://hydra.nixos.org/build/268314672/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/268314672/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/268314672/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/266764129'>build 266764129</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/268360682'>virt-manager.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>libvirt-glib-5.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/268360682/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/268360682/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/268360682/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/267514142'>build 267514142</a>
 </li>
 </ul>
 </details>
@@ -15802,7 +15830,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>266 issues</summary>
+<details><summary>258 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -15986,13 +16014,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/268360734'>deltachat-desktop.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/268360602'>diffoscope.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -16088,13 +16109,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/268360639'>fastqc.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -16238,13 +16252,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/268422622'>gtk-pipe-viewer.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/268360626'>hackneyed.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -16277,13 +16284,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/268360574'>imagemagick_light.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -16354,13 +16354,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/268360529'>k40-whisperer.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -16616,13 +16609,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/268360494'>noto-fonts-color-emoji.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/268360405'>numix-cursor-theme.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -16746,13 +16732,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/268422562'>persepolis.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -17519,13 +17498,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/268360682'>virt-manager.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/268360542'>wallust.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -17696,6 +17668,7 @@ Built for evals:
 <li>dotnetCorePackages.dotnet_9.vmr.x86_64-darwin</li>
 <li>dra-cla.x86_64-darwin</li>
 <li>ghidra-extensions.ghidraninja-ghidra-scripts.x86_64-darwin</li>
+<li>gtk-pipe-viewer.x86_64-darwin</li>
 <li>mpv-unwrapped.x86_64-darwin</li>
 <li>sourcekit-lsp.x86_64-darwin</li>
 <li>supersonic.x86_64-darwin</li>
@@ -17714,7 +17687,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>27</td>
+<td>28</td>
 </tr>
 <tr>
 <td>
@@ -18269,6 +18242,18 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/267514142'>x86_64-darwin libvirt-glib-5.0.0</a></tt></summary>
+<ul>
+<li>appvm.x86_64-darwin</li>
+<li>virt-manager.x86_64-darwin</li>
+<li>virt-viewer.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>3</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/266448638'>x86_64-darwin ruby3.1-nokogiri-1.15.4</a></tt></summary>
 <ul>
 <li>asciidoctor-with-extensions.x86_64-darwin</li>
@@ -18333,17 +18318,6 @@ Built for evals:
 <ul>
 <li>anystyle-cli.aarch64-darwin</li>
 <li>anystyle-cli.x86_64-darwin</li>
-</ul>
-</details>
-</td>
-<td>2</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/267514142'>x86_64-darwin libvirt-glib-5.0.0</a></tt></summary>
-<ul>
-<li>appvm.x86_64-darwin</li>
-<li>virt-viewer.x86_64-darwin</li>
 </ul>
 </details>
 </td>
