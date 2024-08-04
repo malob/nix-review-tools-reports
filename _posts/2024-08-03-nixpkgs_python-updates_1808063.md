@@ -4,7 +4,7 @@ categories: nixpkgs:python-updates
 ---
 # Evals report
 
-*Report built at 2024-08-04 22:05:02 UTC*
+*Report built at 2024-08-04 23:04:45 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>3963 issues</summary>
+<details><summary>3966 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -8742,6 +8742,23 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>python3.12-fastapi-0.111.0</tt> <br /> <a href='https://hydra.nixos.org/build/268415415/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/268415415/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/268415415/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/268402268'>build 268402268</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/268409015'>home-assistant-component-tests.overkiz.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.12-fastapi-0.111.0</tt> <br /> <a href='https://hydra.nixos.org/build/268409015/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/268409015/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/268409015/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/268402268'>build 268402268</a>
+</li>
+<li>
+<b>=> Timed out</b> <tt>python3.12-virtualenv-20.26.2</tt> <br /> <a href='https://hydra.nixos.org/build/268409015/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/268409015/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/268409015/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/268410057'>build 268410057</a>
 </li>
 </ul>
 </details>
@@ -27055,6 +27072,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/268408624'>python311Packages.snorkel.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.11-fastapi-0.111.0</tt> <br /> <a href='https://hydra.nixos.org/build/268408624/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/268408624/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/268408624/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/268408125'>build 268408125</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/268411332'>python311Packages.social-auth-app-django.x86_64-linux</a></tt>
 </summary>
 <ul>
@@ -28954,6 +28985,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>python3.11-fastapi-0.111.0</tt> <br /> <a href='https://hydra.nixos.org/build/268409202/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/268409202/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/268409202/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/268408125'>build 268408125</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/268405530'>python311Packages.types-aiobotocore-codedeploy.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.11-fastapi-0.111.0</tt> <br /> <a href='https://hydra.nixos.org/build/268405530/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/268405530/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/268405530/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/268408125'>build 268408125</a>
 </li>
 </ul>
 </details>
@@ -54870,7 +54915,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>110 issues</summary>
+<details><summary>106 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -54901,13 +54946,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/268411130'>h8mail.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/268409015'>home-assistant-component-tests.overkiz.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -54999,13 +55037,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/268408027'>pwgen-secure.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/268410656'>python311Packages.atsim-potentials.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -55229,13 +55260,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/268408624'>python311Packages.snorkel.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/268405793'>python311Packages.sorl_thumbnail.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -55272,13 +55296,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/268398876'>python311Packages.types-aiobotocore-amplify.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/268405530'>python311Packages.types-aiobotocore-codedeploy.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -56788,6 +56805,7 @@ Built for evals:
 <li>home-assistant-component-tests.opnsense.x86_64-linux</li>
 <li>home-assistant-component-tests.opower.x86_64-linux</li>
 <li>home-assistant-component-tests.otbr.x86_64-linux</li>
+<li>home-assistant-component-tests.overkiz.x86_64-linux</li>
 <li>home-assistant-component-tests.ovo_energy.x86_64-linux</li>
 <li>home-assistant-component-tests.owntracks.x86_64-linux</li>
 <li>home-assistant-component-tests.p1_monitor.x86_64-linux</li>
@@ -57670,7 +57688,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>2045</td>
+<td>2046</td>
 </tr>
 <tr>
 <td>
@@ -58411,6 +58429,7 @@ Built for evals:
 <li>python311Packages.smart-open.x86_64-linux</li>
 <li>python311Packages.smart_open.x86_64-linux</li>
 <li>python311Packages.snapshottest.x86_64-linux</li>
+<li>python311Packages.snorkel.x86_64-linux</li>
 <li>python311Packages.sopel.x86_64-linux</li>
 <li>python311Packages.sorl-thumbnail.x86_64-linux</li>
 <li>python311Packages.spacy-lookups-data.x86_64-linux</li>
@@ -58529,6 +58548,7 @@ Built for evals:
 <li>python311Packages.types-aiobotocore-codebuild.x86_64-linux</li>
 <li>python311Packages.types-aiobotocore-codecatalyst.x86_64-linux</li>
 <li>python311Packages.types-aiobotocore-codecommit.x86_64-linux</li>
+<li>python311Packages.types-aiobotocore-codedeploy.x86_64-linux</li>
 <li>python311Packages.types-aiobotocore-codeguru-reviewer.x86_64-linux</li>
 <li>python311Packages.types-aiobotocore-codeguru-security.x86_64-linux</li>
 <li>python311Packages.types-aiobotocore-codeguruprofiler.x86_64-linux</li>
@@ -58842,7 +58862,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>1181</td>
+<td>1183</td>
 </tr>
 <tr>
 <td>
@@ -59136,6 +59156,7 @@ Built for evals:
 <li>home-assistant-component-tests.opentherm_gw.x86_64-linux</li>
 <li>home-assistant-component-tests.openuv.x86_64-linux</li>
 <li>home-assistant-component-tests.otbr.x86_64-linux</li>
+<li>home-assistant-component-tests.overkiz.x86_64-linux</li>
 <li>home-assistant-component-tests.ovo_energy.x86_64-linux</li>
 <li>home-assistant-component-tests.p1_monitor.x86_64-linux</li>
 <li>home-assistant-component-tests.philips_js.x86_64-linux</li>
@@ -59466,7 +59487,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>615</td>
+<td>616</td>
 </tr>
 <tr>
 <td>
