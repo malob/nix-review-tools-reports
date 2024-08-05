@@ -4,7 +4,7 @@ categories: nixpkgs:python-updates
 ---
 # Evals report
 
-*Report built at 2024-08-05 12:05:36 UTC*
+*Report built at 2024-08-05 13:07:09 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>3990 issues</summary>
+<details><summary>3993 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -21885,6 +21885,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/268400806'>python311Packages.hass-nabucasa.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.11-fastapi-0.111.0</tt> <br /> <a href='https://hydra.nixos.org/build/268400806/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/268400806/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/268400806/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/268408125'>build 268408125</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/268416952'>python311Packages.heudiconv.x86_64-linux</a></tt>
 </summary>
 <ul>
@@ -35324,6 +35338,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/268397863'>python312Packages.azure-synapse-spark.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.12-httpretty-1.1.4</tt> <br /> <a href='https://hydra.nixos.org/build/268397863/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/268397863/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/268397863/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/268407070'>build 268407070</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/268400755'>python312Packages.bash-kernel.x86_64-linux</a></tt>
 </summary>
 <ul>
@@ -45445,6 +45473,23 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/268416315'>python312Packages.securesystemslib.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.12-fastapi-0.111.0</tt> <br /> <a href='https://hydra.nixos.org/build/268416315/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/268416315/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/268416315/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/268413302'>build 268413302</a>
+</li>
+<li>
+<b>=> Timed out</b> <tt>python3.12-virtualenv-20.26.2</tt> <br /> <a href='https://hydra.nixos.org/build/268416315/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/268416315/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/268416315/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/268410057'>build 268410057</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/268408799'>python312Packages.sentence-transformers.x86_64-linux</a></tt>
 </summary>
 <ul>
@@ -55260,7 +55305,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>53 issues</summary>
+<details><summary>50 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -55333,13 +55378,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/268404807'>python311Packages.google-cloud-dataproc.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/268400806'>python311Packages.hass-nabucasa.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -55472,13 +55510,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/268397863'>python312Packages.azure-synapse-spark.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/268399301'>python312Packages.bellows.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -55571,13 +55602,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/268412736'>python312Packages.python-matter-server.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/268416315'>python312Packages.securesystemslib.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -57583,6 +57607,7 @@ Built for evals:
 <li>python312Packages.scikit-rf.x86_64-linux</li>
 <li>python312Packages.scikitimage.x86_64-linux</li>
 <li>python312Packages.scim2-filter-parser.x86_64-linux</li>
+<li>python312Packages.securesystemslib.x86_64-linux</li>
 <li>python312Packages.sentence-transformers.x86_64-linux</li>
 <li>python312Packages.sfepy.x86_64-linux</li>
 <li>python312Packages.skl2onnx.x86_64-linux</li>
@@ -57673,7 +57698,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>2058</td>
+<td>2059</td>
 </tr>
 <tr>
 <td>
@@ -58190,6 +58215,7 @@ Built for evals:
 <li>python311Packages.guidance.x86_64-linux</li>
 <li>python311Packages.gymnasium.x86_64-linux</li>
 <li>python311Packages.handout.x86_64-linux</li>
+<li>python311Packages.hass-nabucasa.x86_64-linux</li>
 <li>python311Packages.heudiconv.x86_64-linux</li>
 <li>python311Packages.httplib2.x86_64-linux</li>
 <li>python311Packages.ibis-framework.x86_64-linux</li>
@@ -58856,7 +58882,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>1192</td>
+<td>1193</td>
 </tr>
 <tr>
 <td>
@@ -59446,6 +59472,7 @@ Built for evals:
 <li>python312Packages.safetensors.x86_64-linux</li>
 <li>python312Packages.scikitimage.x86_64-linux</li>
 <li>python312Packages.scim2-filter-parser.x86_64-linux</li>
+<li>python312Packages.securesystemslib.x86_64-linux</li>
 <li>python312Packages.sentence-transformers.x86_64-linux</li>
 <li>python312Packages.skl2onnx.x86_64-linux</li>
 <li>python312Packages.sorl_thumbnail.x86_64-linux</li>
@@ -59483,7 +59510,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>618</td>
+<td>619</td>
 </tr>
 <tr>
 <td>
@@ -59597,6 +59624,7 @@ Built for evals:
 <li>python312Packages.azure-servicefabric.x86_64-linux</li>
 <li>python312Packages.azure-synapse-accesscontrol.x86_64-linux</li>
 <li>python312Packages.azure-synapse-managedprivateendpoints.x86_64-linux</li>
+<li>python312Packages.azure-synapse-spark.x86_64-linux</li>
 <li>python312Packages.boto.x86_64-linux</li>
 <li>python312Packages.dvc-azure.x86_64-linux</li>
 <li>python312Packages.fixerio.x86_64-linux</li>
@@ -59634,7 +59662,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>144</td>
+<td>145</td>
 </tr>
 <tr>
 <td>
