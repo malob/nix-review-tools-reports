@@ -4,7 +4,7 @@ categories: nixpkgs:python-updates
 ---
 # Evals report
 
-*Report built at 2024-08-05 10:04:50 UTC*
+*Report built at 2024-08-05 11:04:37 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>3982 issues</summary>
+<details><summary>3984 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -14212,6 +14212,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/268415633'>nixops_unstablePlugins.nixops-aws.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.12-httpretty-1.1.4</tt> <br /> <a href='https://hydra.nixos.org/build/268415633/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/268415633/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/268415633/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/268407070'>build 268407070</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/268417099'>normcap.x86_64-linux</a></tt>
 </summary>
 <ul>
@@ -24479,6 +24493,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>python3.11-fastapi-0.111.0</tt> <br /> <a href='https://hydra.nixos.org/build/268398249/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/268398249/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/268398249/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/268408125'>build 268408125</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/268398799'>python311Packages.navec.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.11-fastapi-0.111.0</tt> <br /> <a href='https://hydra.nixos.org/build/268398799/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/268398799/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/268398799/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/268408125'>build 268408125</a>
 </li>
 </ul>
 </details>
@@ -55145,7 +55173,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>63 issues</summary>
+<details><summary>61 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -55197,13 +55225,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/268409689'>mitmproxy2swagger.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/268415633'>nixops_unstablePlugins.nixops-aws.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -55288,13 +55309,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/268416822'>python311Packages.mypy-boto3-secretsmanager.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/268398799'>python311Packages.navec.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -58243,6 +58257,7 @@ Built for evals:
 <li>python311Packages.napari.x86_64-linux</li>
 <li>python311Packages.nasdaq-data-link.x86_64-linux</li>
 <li>python311Packages.natasha.x86_64-linux</li>
+<li>python311Packages.navec.x86_64-linux</li>
 <li>python311Packages.nbclassic.x86_64-linux</li>
 <li>python311Packages.nbconflux.x86_64-linux</li>
 <li>python311Packages.nbconvert.x86_64-linux</li>
@@ -58806,7 +58821,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>1189</td>
+<td>1190</td>
 </tr>
 <tr>
 <td>
@@ -59439,6 +59454,7 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/268407070'>x86_64-linux python3.12-httpretty-1.1.4</a></tt></summary>
 <ul>
 <li>dep-scan.x86_64-linux</li>
+<li>nixops_unstablePlugins.nixops-aws.x86_64-linux</li>
 <li>pgadmin.x86_64-linux</li>
 <li>pgadmin4-desktopmode.x86_64-linux</li>
 <li>pgadmin4.x86_64-linux</li>
@@ -59581,7 +59597,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>142</td>
+<td>143</td>
 </tr>
 <tr>
 <td>
