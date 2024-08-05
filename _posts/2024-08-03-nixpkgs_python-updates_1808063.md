@@ -4,7 +4,7 @@ categories: nixpkgs:python-updates
 ---
 # Evals report
 
-*Report built at 2024-08-05 00:10:10 UTC*
+*Report built at 2024-08-05 01:31:28 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>3967 issues</summary>
+<details><summary>3971 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -9958,6 +9958,20 @@ Built for evals:
 </li>
 <li>
 <b>=> Cached failure</b> <tt>python3.12-fastapi-0.111.0</tt> <br /> <a href='https://hydra.nixos.org/build/268402268'>build 268402268</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/268412896'>home-assistant-component-tests.rtsp_to_webrtc.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.12-fastapi-0.111.0</tt> <br /> <a href='https://hydra.nixos.org/build/268412896/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/268412896/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/268412896/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/268402268'>build 268402268</a>
 </li>
 </ul>
 </details>
@@ -29574,6 +29588,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/268410204'>python311Packages.types-aiobotocore-dynamodbstreams.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.11-fastapi-0.111.0</tt> <br /> <a href='https://hydra.nixos.org/build/268410204/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/268410204/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/268410204/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/268408125'>build 268408125</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/268409178'>python311Packages.types-aiobotocore-ebs.x86_64-linux</a></tt>
 </summary>
 <ul>
@@ -32391,6 +32419,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>python3.11-fastapi-0.111.0</tt> <br /> <a href='https://hydra.nixos.org/build/268415637/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/268415637/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/268415637/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/268408125'>build 268408125</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/268405853'>python311Packages.types-aiobotocore-servicecatalog-appregistry.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.11-fastapi-0.111.0</tt> <br /> <a href='https://hydra.nixos.org/build/268405853/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/268405853/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/268405853/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/268408125'>build 268408125</a>
 </li>
 </ul>
 </details>
@@ -51485,6 +51527,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/268398072'>python312Packages.types-aiobotocore-workspaces.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.12-fastapi-0.111.0</tt> <br /> <a href='https://hydra.nixos.org/build/268398072/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/268398072/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/268398072/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/268413302'>build 268413302</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/268400156'>python312Packages.types-aiobotocore-xray.x86_64-linux</a></tt>
 </summary>
 <ul>
@@ -54932,7 +54988,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>105 issues</summary>
+<details><summary>99 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -54963,13 +55019,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/268411130'>h8mail.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/268412896'>home-assistant-component-tests.rtsp_to_webrtc.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -55312,21 +55361,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/268410204'>python311Packages.types-aiobotocore-dynamodbstreams.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/268405640'>python311Packages.types-aiobotocore-lookoutmetrics.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/268405853'>python311Packages.types-aiobotocore-servicecatalog-appregistry.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -55432,13 +55467,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/268410076'>python312Packages.etcd.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/268406978'>python312Packages.flask-cors.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -55599,13 +55627,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/268398072'>python312Packages.types-aiobotocore-workspaces.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/268415470'>python312Packages.umalqurra.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -55621,13 +55642,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/268415061'>python312Packages.yubico.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/268400012'>python312Packages.zope-contenttype.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -56323,6 +56337,7 @@ Built for evals:
 <li>python312Packages.types-aiobotocore-workmail.x86_64-linux</li>
 <li>python312Packages.types-aiobotocore-workmailmessageflow.x86_64-linux</li>
 <li>python312Packages.types-aiobotocore-workspaces-web.x86_64-linux</li>
+<li>python312Packages.types-aiobotocore-workspaces.x86_64-linux</li>
 <li>python312Packages.types-aiobotocore-xray.x86_64-linux</li>
 <li>python312Packages.vllm.x86_64-linux</li>
 <li>python312Packages.wagtail-modeladmin.x86_64-linux</li>
@@ -56889,6 +56904,7 @@ Built for evals:
 <li>home-assistant-component-tests.roon.x86_64-linux</li>
 <li>home-assistant-component-tests.rpi_power.x86_64-linux</li>
 <li>home-assistant-component-tests.rss_feed_template.x86_64-linux</li>
+<li>home-assistant-component-tests.rtsp_to_webrtc.x86_64-linux</li>
 <li>home-assistant-component-tests.ruckus_unleashed.x86_64-linux</li>
 <li>home-assistant-component-tests.ruuvi_gateway.x86_64-linux</li>
 <li>home-assistant-component-tests.ruuvitag_ble.x86_64-linux</li>
@@ -57699,7 +57715,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>2048</td>
+<td>2050</td>
 </tr>
 <tr>
 <td>
@@ -58599,6 +58615,7 @@ Built for evals:
 <li>python311Packages.types-aiobotocore-drs.x86_64-linux</li>
 <li>python311Packages.types-aiobotocore-ds.x86_64-linux</li>
 <li>python311Packages.types-aiobotocore-dynamodb.x86_64-linux</li>
+<li>python311Packages.types-aiobotocore-dynamodbstreams.x86_64-linux</li>
 <li>python311Packages.types-aiobotocore-ebs.x86_64-linux</li>
 <li>python311Packages.types-aiobotocore-ec2-instance-connect.x86_64-linux</li>
 <li>python311Packages.types-aiobotocore-ec2.x86_64-linux</li>
@@ -58800,6 +58817,7 @@ Built for evals:
 <li>python311Packages.types-aiobotocore-securitylake.x86_64-linux</li>
 <li>python311Packages.types-aiobotocore-serverlessrepo.x86_64-linux</li>
 <li>python311Packages.types-aiobotocore-service-quotas.x86_64-linux</li>
+<li>python311Packages.types-aiobotocore-servicecatalog-appregistry.x86_64-linux</li>
 <li>python311Packages.types-aiobotocore-servicecatalog.x86_64-linux</li>
 <li>python311Packages.types-aiobotocore-servicediscovery.x86_64-linux</li>
 <li>python311Packages.types-aiobotocore-ses.x86_64-linux</li>
@@ -58873,7 +58891,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>1183</td>
+<td>1185</td>
 </tr>
 <tr>
 <td>
