@@ -4,7 +4,7 @@ categories: nixpkgs:python-updates
 ---
 # Evals report
 
-*Report built at 2024-08-05 09:04:46 UTC*
+*Report built at 2024-08-05 10:04:50 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>3981 issues</summary>
+<details><summary>3982 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -31053,6 +31053,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/268405640'>python311Packages.types-aiobotocore-lookoutmetrics.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.11-fastapi-0.111.0</tt> <br /> <a href='https://hydra.nixos.org/build/268405640/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/268405640/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/268405640/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/268408125'>build 268408125</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/268411299'>python311Packages.types-aiobotocore-lookoutvision.x86_64-linux</a></tt>
 </summary>
 <ul>
@@ -55131,7 +55145,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>66 issues</summary>
+<details><summary>63 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -55176,13 +55190,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/268403727'>linkchecker.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/268402377'>linuxKernel.packages.linux_4_19_hardened.bcc.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -55371,13 +55378,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/268405640'>python311Packages.types-aiobotocore-lookoutmetrics.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/268400734'>python311Packages.urlgrabber.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -55414,13 +55414,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/268399301'>python312Packages.bellows.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/268398926'>python312Packages.bring-api.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -58634,6 +58627,7 @@ Built for evals:
 <li>python311Packages.types-aiobotocore-location.x86_64-linux</li>
 <li>python311Packages.types-aiobotocore-logs.x86_64-linux</li>
 <li>python311Packages.types-aiobotocore-lookoutequipment.x86_64-linux</li>
+<li>python311Packages.types-aiobotocore-lookoutmetrics.x86_64-linux</li>
 <li>python311Packages.types-aiobotocore-lookoutvision.x86_64-linux</li>
 <li>python311Packages.types-aiobotocore-m2.x86_64-linux</li>
 <li>python311Packages.types-aiobotocore-machinelearning.x86_64-linux</li>
@@ -58812,7 +58806,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>1188</td>
+<td>1189</td>
 </tr>
 <tr>
 <td>
