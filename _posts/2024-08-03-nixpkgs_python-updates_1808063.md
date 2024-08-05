@@ -4,7 +4,7 @@ categories: nixpkgs:python-updates
 ---
 # Evals report
 
-*Report built at 2024-08-04 23:04:45 UTC*
+*Report built at 2024-08-05 00:10:10 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>3966 issues</summary>
+<details><summary>3967 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -12549,6 +12549,23 @@ Built for evals:
 </li>
 <li>
 <b>=> Timed out</b> <tt>python3.12-virtualenv-20.26.2</tt> <br /> <a href='https://hydra.nixos.org/build/268398190/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/268398190/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/268398190/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/268410057'>build 268410057</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/268399665'>home-assistant-component-tests.velux.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.12-fastapi-0.111.0</tt> <br /> <a href='https://hydra.nixos.org/build/268399665/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/268399665/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/268399665/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/268402268'>build 268402268</a>
+</li>
+<li>
+<b>=> Cached failure</b> <tt>python3.12-fastapi-0.111.0</tt> <br /> <a href='https://hydra.nixos.org/build/268402268'>build 268402268</a>
 </li>
 </ul>
 </details>
@@ -54915,7 +54932,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>106 issues</summary>
+<details><summary>105 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -54967,13 +54984,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/268411463'>home-assistant-component-tests.spotify.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/268399665'>home-assistant-component-tests.velux.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -55764,6 +55774,7 @@ Built for evals:
 <li>home-assistant-component-tests.traccar_server.x86_64-linux</li>
 <li>home-assistant-component-tests.v2c.x86_64-linux</li>
 <li>home-assistant-component-tests.valve.x86_64-linux</li>
+<li>home-assistant-component-tests.velux.x86_64-linux</li>
 <li>home-assistant-component-tests.voip.x86_64-linux</li>
 <li>home-assistant-component-tests.weatherflow_cloud.x86_64-linux</li>
 <li>home-assistant-component-tests.youtube.x86_64-linux</li>
@@ -57688,7 +57699,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>2046</td>
+<td>2048</td>
 </tr>
 <tr>
 <td>
