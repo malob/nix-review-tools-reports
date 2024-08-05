@@ -4,7 +4,7 @@ categories: nixpkgs:python-updates
 ---
 # Evals report
 
-*Report built at 2024-08-05 08:05:28 UTC*
+*Report built at 2024-08-05 09:04:46 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>3978 issues</summary>
+<details><summary>3981 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -14156,6 +14156,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/268415136'>netbox_3_7.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.12-fastapi-0.111.0</tt> <br /> <a href='https://hydra.nixos.org/build/268415136/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/268415136/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/268415136/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/268413302'>build 268413302</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/268415722'>netexec.x86_64-linux</a></tt>
 </summary>
 <ul>
@@ -17561,6 +17575,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>python3.11-fastapi-0.111.0</tt> <br /> <a href='https://hydra.nixos.org/build/268410258/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/268410258/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/268410258/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/268408125'>build 268408125</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/268398033'>python311Packages.django-bootstrap5.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.11-fastapi-0.111.0</tt> <br /> <a href='https://hydra.nixos.org/build/268398033/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/268398033/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/268398033/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/268408125'>build 268408125</a>
 </li>
 </ul>
 </details>
@@ -27209,6 +27237,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>python3.11-fastapi-0.111.0</tt> <br /> <a href='https://hydra.nixos.org/build/268411651/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/268411651/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/268411651/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/268408125'>build 268408125</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/268405793'>python311Packages.sorl_thumbnail.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.11-fastapi-0.111.0</tt> <br /> <a href='https://hydra.nixos.org/build/268405793/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/268405793/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/268405793/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/268408125'>build 268408125</a>
 </li>
 </ul>
 </details>
@@ -55089,7 +55131,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>69 issues</summary>
+<details><summary>66 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -55154,13 +55196,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/268415136'>netbox_3_7.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/268415633'>nixops_unstablePlugins.nixops-aws.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -55190,13 +55225,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/268400454'>python311Packages.dj-static.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/268398033'>python311Packages.django-bootstrap5.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -55309,13 +55337,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/268413319'>python311Packages.rtoml.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/268405793'>python311Packages.sorl_thumbnail.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -55688,6 +55709,7 @@ Built for evals:
 <li>mealie.x86_64-linux</li>
 <li>minari.x86_64-linux</li>
 <li>mokuro.x86_64-linux</li>
+<li>netbox_3_7.x86_64-linux</li>
 <li>netexec.x86_64-linux</li>
 <li>nitrokey-app2.x86_64-linux</li>
 <li>offat.x86_64-linux</li>
@@ -57611,7 +57633,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>2055</td>
+<td>2056</td>
 </tr>
 <tr>
 <td>
@@ -57868,6 +57890,7 @@ Built for evals:
 <li>python311Packages.django-autocomplete-light.x86_64-linux</li>
 <li>python311Packages.django-bootstrap3.x86_64-linux</li>
 <li>python311Packages.django-bootstrap4.x86_64-linux</li>
+<li>python311Packages.django-bootstrap5.x86_64-linux</li>
 <li>python311Packages.django-cachalot.x86_64-linux</li>
 <li>python311Packages.django-cacheops.x86_64-linux</li>
 <li>python311Packages.django-celery-beat.x86_64-linux</li>
@@ -58356,6 +58379,7 @@ Built for evals:
 <li>python311Packages.snorkel.x86_64-linux</li>
 <li>python311Packages.sopel.x86_64-linux</li>
 <li>python311Packages.sorl-thumbnail.x86_64-linux</li>
+<li>python311Packages.sorl_thumbnail.x86_64-linux</li>
 <li>python311Packages.spacy-lookups-data.x86_64-linux</li>
 <li>python311Packages.spacy-transformers.x86_64-linux</li>
 <li>python311Packages.spectral-cube.x86_64-linux</li>
@@ -58788,7 +58812,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>1186</td>
+<td>1188</td>
 </tr>
 <tr>
 <td>
