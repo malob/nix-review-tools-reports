@@ -4,7 +4,7 @@ categories: nixpkgs:python-updates
 ---
 # Evals report
 
-*Report built at 2024-08-05 06:05:14 UTC*
+*Report built at 2024-08-05 08:05:28 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>3977 issues</summary>
+<details><summary>3978 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -43029,6 +43029,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/268413225'>python312Packages.nbdev.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.12-fastapi-0.111.0</tt> <br /> <a href='https://hydra.nixos.org/build/268413225/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/268413225/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/268413225/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/268413302'>build 268413302</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/268410527'>python312Packages.nbdime.x86_64-linux</a></tt>
 </summary>
 <ul>
@@ -55075,7 +55089,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>70 issues</summary>
+<details><summary>69 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -55456,13 +55470,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/268403724'>python312Packages.mypy-boto3-sagemaker-runtime.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/268413225'>python312Packages.nbdev.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -57434,6 +57441,7 @@ Built for evals:
 <li>python312Packages.nbclassic.x86_64-linux</li>
 <li>python312Packages.nbconflux.x86_64-linux</li>
 <li>python312Packages.nbconvert.x86_64-linux</li>
+<li>python312Packages.nbdev.x86_64-linux</li>
 <li>python312Packages.nbexec.x86_64-linux</li>
 <li>python312Packages.nbsphinx.x86_64-linux</li>
 <li>python312Packages.nbval.x86_64-linux</li>
@@ -57603,7 +57611,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>2054</td>
+<td>2055</td>
 </tr>
 <tr>
 <td>
