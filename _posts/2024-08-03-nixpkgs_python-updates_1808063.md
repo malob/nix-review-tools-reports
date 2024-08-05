@@ -4,7 +4,7 @@ categories: nixpkgs:python-updates
 ---
 # Evals report
 
-*Report built at 2024-08-05 13:07:09 UTC*
+*Report built at 2024-08-05 14:04:51 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>3993 issues</summary>
+<details><summary>3995 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -19094,6 +19094,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/268405224'>python311Packages.django-two-factor-auth.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.11-fastapi-0.111.0</tt> <br /> <a href='https://hydra.nixos.org/build/268405224/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/268405224/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/268405224/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/268408125'>build 268408125</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/268404177'>python311Packages.django-vite.x86_64-linux</a></tt>
 </summary>
 <ul>
@@ -21024,6 +21038,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>python3.11-fastapi-0.111.0</tt> <br /> <a href='https://hydra.nixos.org/build/268403123/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/268403123/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/268403123/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/268408125'>build 268408125</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/268404807'>python311Packages.google-cloud-dataproc.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.11-fastapi-0.111.0</tt> <br /> <a href='https://hydra.nixos.org/build/268404807/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/268404807/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/268404807/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/268408125'>build 268408125</a>
 </li>
 </ul>
 </details>
@@ -55305,7 +55333,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>50 issues</summary>
+<details><summary>47 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -55370,20 +55398,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/268405224'>python311Packages.django-two-factor-auth.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/268404807'>python311Packages.google-cloud-dataproc.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/268414275'>python311Packages.mypy-boto3-es.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -55420,13 +55434,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/268407114'>python311Packages.oauth.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/268414463'>python311Packages.protonup-ng.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -58053,6 +58060,7 @@ Built for evals:
 <li>python311Packages.django-taggit.x86_64-linux</li>
 <li>python311Packages.django-timezone-field.x86_64-linux</li>
 <li>python311Packages.django-treebeard.x86_64-linux</li>
+<li>python311Packages.django-two-factor-auth.x86_64-linux</li>
 <li>python311Packages.django-vite.x86_64-linux</li>
 <li>python311Packages.django-webpack-loader.x86_64-linux</li>
 <li>python311Packages.django-webpush.x86_64-linux</li>
@@ -58167,6 +58175,7 @@ Built for evals:
 <li>python311Packages.google-cloud-container.x86_64-linux</li>
 <li>python311Packages.google-cloud-core.x86_64-linux</li>
 <li>python311Packages.google-cloud-datacatalog.x86_64-linux</li>
+<li>python311Packages.google-cloud-dataproc.x86_64-linux</li>
 <li>python311Packages.google-cloud-datastore.x86_64-linux</li>
 <li>python311Packages.google-cloud-dlp.x86_64-linux</li>
 <li>python311Packages.google-cloud-dns.x86_64-linux</li>
@@ -58882,7 +58891,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>1193</td>
+<td>1195</td>
 </tr>
 <tr>
 <td>
