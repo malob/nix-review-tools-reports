@@ -1,10 +1,10 @@
 ---
-title: nixos:release-24.05 1808100
+title: nixos:release-24.05 1808100 (succeeded)
 categories: nixos:release-24.05
 ---
 # Evals report
 
-*Report built at 2024-08-06 15:07:46 UTC*
+*Report built at 2024-08-06 16:08:49 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>1071 issues</summary>
+<details><summary>1073 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -6759,6 +6759,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/268548935'>nixpkgs.rocmPackages.miopen.x86_64-linux</a></tt>
+</td>
+<td>Output size limit exceeded</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/268489950'>nixpkgs.rocmPackages_6.composable_kernel.x86_64-linux</a></tt>
 </td>
 <td>Output size limit exceeded</td>
@@ -6784,6 +6790,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/268582780'>nixpkgs.tinygo.x86_64-linux</a></tt>
+</td>
+<td>Output size limit exceeded</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/268585403'>nixpkgs.zluda.x86_64-linux</a></tt>
 </td>
 <td>Output size limit exceeded</td>
 </tr>
@@ -16439,34 +16451,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/268476239'>nixpkgs.ryujinx.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>2 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/268548935'>nixpkgs.rocmPackages.miopen.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/268585403'>nixpkgs.zluda.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
