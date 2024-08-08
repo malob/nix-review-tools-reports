@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.05-darwin
 ---
 # Evals report
 
-*Report built at 2024-08-08 05:07:45 UTC*
+*Report built at 2024-08-08 06:08:03 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1109 issues</summary>
+<details><summary>1110 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -1625,6 +1625,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>monero-cli-0.18.3.3</tt> <br /> <a href='https://hydra.nixos.org/build/268619270/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/268619270/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/268619270/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/268212558'>build 268212558</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/268959218'>mov-cli.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>swift-5.8</tt> <br /> <a href='https://hydra.nixos.org/build/268959218/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/268959218/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/268959218/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/268709939'>build 268709939</a>
 </li>
 </ul>
 </details>
@@ -15991,7 +16005,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>83 issues</summary>
+<details><summary>79 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -16060,13 +16074,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/268994128'>darwin-tested</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -16252,13 +16259,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/268959218'>mov-cli.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/268959259'>mpvScripts.mpv-playlistmanager.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -16413,13 +16413,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/268994133'>release-checks</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/268959245'>somafm-cli.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -16532,13 +16525,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/268959231'>ytcc.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/268959273'>ytcc.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -16605,6 +16591,7 @@ Built for evals:
 <li>ghidra-extensions.ghidraninja-ghidra-scripts.x86_64-darwin</li>
 <li>gtk-pipe-viewer.x86_64-darwin</li>
 <li>invidtui.x86_64-darwin</li>
+<li>mov-cli.x86_64-darwin</li>
 <li>mpv-unwrapped.x86_64-darwin</li>
 <li>pipe-viewer.x86_64-darwin</li>
 <li>python311Packages.mpv.x86_64-darwin</li>
@@ -16625,7 +16612,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>30</td>
+<td>31</td>
 </tr>
 <tr>
 <td>
