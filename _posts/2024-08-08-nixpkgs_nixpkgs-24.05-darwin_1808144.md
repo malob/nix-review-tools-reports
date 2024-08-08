@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.05-darwin
 ---
 # Evals report
 
-*Report built at 2024-08-08 11:08:08 UTC*
+*Report built at 2024-08-08 12:08:14 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1112 issues</summary>
+<details><summary>1113 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -3221,6 +3221,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>virtualpg-2.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/268646642/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/268646642/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/268646642/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/268207455'>build 268207455</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/268959227'>subtitleedit.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>swift-5.8</tt> <br /> <a href='https://hydra.nixos.org/build/268959227/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/268959227/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/268959227/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/268709939'>build 268709939</a>
 </li>
 </ul>
 </details>
@@ -16047,7 +16061,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>65 issues</summary>
+<details><summary>61 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -16329,13 +16343,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/268959201'>python311Packages.yt-dlp.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/268994130'>python312Packages.moviepy.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -16371,13 +16378,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/268959255'>python312Packages.yt-dlp-light.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/268959245'>somafm-cli.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -16393,13 +16393,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/268959271'>spotdl.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/268959227'>subtitleedit.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -16449,13 +16442,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/268959210'>youtube-tui.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/268959260'>yt-dlp-light.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -16541,6 +16527,7 @@ Built for evals:
 <li>pipe-viewer.x86_64-darwin</li>
 <li>python311Packages.mpv.x86_64-darwin</li>
 <li>sourcekit-lsp.x86_64-darwin</li>
+<li>subtitleedit.x86_64-darwin</li>
 <li>supersonic.x86_64-darwin</li>
 <li>swift-format.x86_64-darwin</li>
 <li>swift.x86_64-darwin</li>
@@ -16558,7 +16545,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>33</td>
+<td>34</td>
 </tr>
 <tr>
 <td>
