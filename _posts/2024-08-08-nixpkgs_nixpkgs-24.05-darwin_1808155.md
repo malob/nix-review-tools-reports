@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.05-darwin
 ---
 # Evals report
 
-*Report built at 2024-08-08 15:07:32 UTC*
+*Report built at 2024-08-08 17:07:13 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1113 issues</summary>
+<details><summary>1114 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -449,6 +449,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>dleyna-core-0.7.0</tt> <br /> <a href='https://hydra.nixos.org/build/268688079/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/268688079/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/268688079/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/268069093'>build 268069093</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/268959272'>dmlive.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>swift-5.8</tt> <br /> <a href='https://hydra.nixos.org/build/268959272/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/268959272/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/268959272/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/268709939'>build 268709939</a>
 </li>
 </ul>
 </details>
@@ -16061,7 +16075,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>96 issues</summary>
+<details><summary>91 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -16182,13 +16196,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/268959272'>dmlive.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/268994136'>duff.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -16273,13 +16280,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/268959228'>invidtui.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/268959217'>jellyfin-media-player.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -16326,20 +16326,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/268959250'>mopidy-youtube.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/268959259'>mpvScripts.mpv-playlistmanager.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -16644,13 +16630,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/268959274'>yewtube.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/268959225'>yewtube.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -16755,6 +16734,7 @@ Built for evals:
 <ul>
 <li>ani-cli.x86_64-darwin</li>
 <li>darwin.openwith.x86_64-darwin</li>
+<li>dmlive.x86_64-darwin</li>
 <li>dotnetCorePackages.dotnet_8.aspnetcore.x86_64-darwin</li>
 <li>dotnetCorePackages.dotnet_8.runtime.x86_64-darwin</li>
 <li>dotnetCorePackages.dotnet_8.sdk.x86_64-darwin</li>
@@ -16790,7 +16770,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>34</td>
+<td>35</td>
 </tr>
 <tr>
 <td>
