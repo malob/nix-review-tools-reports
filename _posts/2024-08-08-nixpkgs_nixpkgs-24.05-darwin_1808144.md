@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.05-darwin
 ---
 # Evals report
 
-*Report built at 2024-08-08 03:07:40 UTC*
+*Report built at 2024-08-08 04:07:28 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1108 issues</summary>
+<details><summary>1109 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -1947,6 +1947,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>perl5.38.2-Compiler-Lexer-0.23</tt> <br /> <a href='https://hydra.nixos.org/build/268662126/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/268662126/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/268662126/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/268138969'>build 268138969</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/268959192'>pipe-viewer.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>swift-5.8</tt> <br /> <a href='https://hydra.nixos.org/build/268959192/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/268959192/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/268959192/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/268709939'>build 268709939</a>
 </li>
 </ul>
 </details>
@@ -15977,7 +15991,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>86 issues</summary>
+<details><summary>85 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -16308,13 +16322,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/268959192'>pipe-viewer.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/268994135'>python311Packages.moviepy.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -16613,6 +16620,7 @@ Built for evals:
 <li>gtk-pipe-viewer.x86_64-darwin</li>
 <li>invidtui.x86_64-darwin</li>
 <li>mpv-unwrapped.x86_64-darwin</li>
+<li>pipe-viewer.x86_64-darwin</li>
 <li>python311Packages.mpv.x86_64-darwin</li>
 <li>sourcekit-lsp.x86_64-darwin</li>
 <li>supersonic.x86_64-darwin</li>
@@ -16631,7 +16639,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>29</td>
+<td>30</td>
 </tr>
 <tr>
 <td>
