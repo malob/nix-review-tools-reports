@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.05-darwin
 ---
 # Evals report
 
-*Report built at 2024-08-08 12:08:14 UTC*
+*Report built at 2024-08-08 13:09:46 UTC*
 
 Built for evals:
 
@@ -16061,7 +16061,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>61 issues</summary>
+<details><summary>60 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -16365,13 +16365,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/268992584'>python312Packages.pywebcopy.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/268959188'>python312Packages.tubeup.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
