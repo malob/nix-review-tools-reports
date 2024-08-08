@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.05-darwin
 ---
 # Evals report
 
-*Report built at 2024-08-08 09:07:33 UTC*
+*Report built at 2024-08-08 10:07:55 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1111 issues</summary>
+<details><summary>1112 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -3585,6 +3585,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>orcania-2.3.3</tt> <br /> <a href='https://hydra.nixos.org/build/268682423/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/268682423/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/268682423/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/268177578'>build 268177578</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/268959190'>youtube-tui.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>swift-5.8</tt> <br /> <a href='https://hydra.nixos.org/build/268959190/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/268959190/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/268959190/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/268709939'>build 268709939</a>
 </li>
 </ul>
 </details>
@@ -16033,7 +16047,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>71 issues</summary>
+<details><summary>69 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -16116,13 +16130,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/268959202'>dra-cla.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -16476,13 +16483,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/268959190'>youtube-tui.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/268959260'>yt-dlp-light.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -16582,10 +16582,11 @@ Built for evals:
 <li>swiftPackages.swiftpm.x86_64-darwin</li>
 <li>swiftpm.x86_64-darwin</li>
 <li>xcodes.x86_64-darwin</li>
+<li>youtube-tui.x86_64-darwin</li>
 </ul>
 </details>
 </td>
-<td>32</td>
+<td>33</td>
 </tr>
 <tr>
 <td>
