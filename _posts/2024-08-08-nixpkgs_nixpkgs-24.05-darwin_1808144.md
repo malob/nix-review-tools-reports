@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.05-darwin
 ---
 # Evals report
 
-*Report built at 2024-08-08 08:07:47 UTC*
+*Report built at 2024-08-08 09:07:33 UTC*
 
 Built for evals:
 
@@ -8758,7 +8758,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>972 issues</summary>
+<details><summary>973 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -9780,6 +9780,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>zig-0.11.0</tt> <br /> <a href='https://hydra.nixos.org/build/268661393/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/268661393/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/268661393/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/268129374'>build 268129374</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/268959246'>moodle-dl.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.11-aioopenssl-0.6.0</tt> <br /> <a href='https://hydra.nixos.org/build/268959246/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/268959246/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/268959246/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/268702514'>build 268702514</a>
 </li>
 </ul>
 </details>
@@ -16019,7 +16033,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>74 issues</summary>
+<details><summary>71 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -16231,13 +16245,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/268959246'>moodle-dl.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/268959248'>moodle-dl.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -16308,13 +16315,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/268994135'>python311Packages.moviepy.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/268994132'>python311Packages.moviepy.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -16354,13 +16354,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/268959207'>python312Packages.mpv.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -17211,6 +17204,18 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/268702514'>aarch64-darwin python3.11-aioopenssl-0.6.0</a></tt></summary>
+<ul>
+<li>moodle-dl.aarch64-darwin</li>
+<li>python311Packages.aioxmpp.aarch64-darwin</li>
+<li>python311Packages.aioxmpp.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>3</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/268192321'>x86_64-darwin catboost-1.2.5</a></tt></summary>
 <ul>
 <li>python311Packages.catboost.x86_64-darwin</li>
@@ -17678,17 +17683,6 @@ Built for evals:
 <ul>
 <li>perl538Packages.PerlLanguageServer.aarch64-darwin</li>
 <li>perl538Packages.PerlLanguageServer.x86_64-darwin</li>
-</ul>
-</details>
-</td>
-<td>2</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/268196143'>aarch64-darwin python3.11-aioopenssl-0.6.0</a></tt></summary>
-<ul>
-<li>python311Packages.aioxmpp.aarch64-darwin</li>
-<li>python311Packages.aioxmpp.x86_64-darwin</li>
 </ul>
 </details>
 </td>
