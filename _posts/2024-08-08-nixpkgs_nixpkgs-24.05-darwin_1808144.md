@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.05-darwin
 ---
 # Evals report
 
-*Report built at 2024-08-08 01:33:50 UTC*
+*Report built at 2024-08-08 02:22:00 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1107 issues</summary>
+<details><summary>1108 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -757,6 +757,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>mpich-4.2.1</tt> <br /> <a href='https://hydra.nixos.org/build/268666416/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/268666416/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/268666416/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/268069255'>build 268069255</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/268959206'>gtk-pipe-viewer.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>swift-5.8</tt> <br /> <a href='https://hydra.nixos.org/build/268959206/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/268959206/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/268959206/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/268709939'>build 268709939</a>
 </li>
 </ul>
 </details>
@@ -15963,7 +15977,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>89 issues</summary>
+<details><summary>87 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -16126,13 +16140,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/268959206'>gtk-pipe-viewer.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/268959242'>hydrus.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -16277,13 +16284,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/268959211'>persepolis.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -16617,6 +16617,7 @@ Built for evals:
 <li>dotnetCorePackages.dotnet_9.sdk.x86_64-darwin</li>
 <li>dotnetCorePackages.dotnet_9.vmr.x86_64-darwin</li>
 <li>ghidra-extensions.ghidraninja-ghidra-scripts.x86_64-darwin</li>
+<li>gtk-pipe-viewer.x86_64-darwin</li>
 <li>invidtui.x86_64-darwin</li>
 <li>mpv-unwrapped.x86_64-darwin</li>
 <li>python311Packages.mpv.x86_64-darwin</li>
@@ -16637,7 +16638,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>28</td>
+<td>29</td>
 </tr>
 <tr>
 <td>
