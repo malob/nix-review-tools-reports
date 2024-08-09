@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.05-darwin
 ---
 # Evals report
 
-*Report built at 2024-08-09 08:07:46 UTC*
+*Report built at 2024-08-09 09:07:24 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1104 issues</summary>
+<details><summary>1105 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -1653,6 +1653,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>monero-cli-0.18.3.3</tt> <br /> <a href='https://hydra.nixos.org/build/268619270/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/268619270/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/268619270/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/268212558'>build 268212558</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/268959248'>moodle-dl.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.11-aioopenssl-0.6.0</tt> <br /> <a href='https://hydra.nixos.org/build/268959248/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/268959248/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/268959248/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/268652905'>build 268652905</a>
 </li>
 </ul>
 </details>
@@ -15923,7 +15937,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>232 issues</summary>
+<details><summary>229 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -16146,13 +16160,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/268959248'>moodle-dl.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -16674,13 +16681,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/269010286'>python311Packages.pytest-postgresql.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/269010441'>python311Packages.pytest-postgresql.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -16860,13 +16860,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/269010248'>python312Packages.easyocr.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -18059,6 +18052,19 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/268702514'>aarch64-darwin python3.11-aioopenssl-0.6.0</a></tt></summary>
+<ul>
+<li>moodle-dl.aarch64-darwin</li>
+<li>moodle-dl.x86_64-darwin</li>
+<li>python311Packages.aioxmpp.aarch64-darwin</li>
+<li>python311Packages.aioxmpp.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>4</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/268023766'>x86_64-darwin perl5.36.3-CryptX-0.080</a></tt></summary>
 <ul>
 <li>perl536Packages.CryptJWT.x86_64-darwin</li>
@@ -18218,18 +18224,6 @@ Built for evals:
 <li>gama.x86_64-darwin</li>
 <li>jupyter-all.x86_64-darwin</li>
 <li>minc_widgets.x86_64-darwin</li>
-</ul>
-</details>
-</td>
-<td>3</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/268702514'>aarch64-darwin python3.11-aioopenssl-0.6.0</a></tt></summary>
-<ul>
-<li>moodle-dl.aarch64-darwin</li>
-<li>python311Packages.aioxmpp.aarch64-darwin</li>
-<li>python311Packages.aioxmpp.x86_64-darwin</li>
 </ul>
 </details>
 </td>
