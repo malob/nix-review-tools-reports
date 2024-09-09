@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.05-darwin
 ---
 # Evals report
 
-*Report built at 2024-09-09 07:07:35 UTC*
+*Report built at 2024-09-09 08:07:35 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1142 issues</summary>
+<details><summary>1143 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -9065,6 +9065,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/271733909'>tests.testers.lycheeLinkCheck.network.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/271733913'>tests.testers.nixosTest-example.x86_64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -9088,7 +9094,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1034 issues</summary>
+<details><summary>1036 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -17227,6 +17233,18 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/271733921'>tests.testers.nixosTest-example.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/271733902'>tests.testers.runNixOSTest-example.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/271462425'>volantes-cursors.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -17244,7 +17262,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>16 issues</summary>
+<details><summary>11 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -17274,13 +17292,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/271733863'>darwin.linux-builder.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/271733869'>darwin.linux-builder.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -17302,13 +17313,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/271733870'>python311Packages.experiment-utilities.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/271733867'>release-checks</a></tt>
 </td>
 <td>Queued</td>
@@ -17324,27 +17328,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/271733852'>tests.testers.lycheeLinkCheck.network.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/271733909'>tests.testers.lycheeLinkCheck.network.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/271733921'>tests.testers.nixosTest-example.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/271733902'>tests.testers.runNixOSTest-example.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
