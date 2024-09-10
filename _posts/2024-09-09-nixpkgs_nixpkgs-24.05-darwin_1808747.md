@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:nixpkgs-24.05-darwin 1808747
+title: nixpkgs:nixpkgs-24.05-darwin 1808747 (succeeded)
 categories: nixpkgs:nixpkgs-24.05-darwin
 ---
 # Evals report
 
-*Report built at 2024-09-10 02:26:11 UTC*
+*Report built at 2024-09-10 03:08:03 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1142 issues</summary>
+<details><summary>1145 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -9071,7 +9071,25 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/271746898'>tests.testers.lycheeLinkCheck.network.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/271746894'>tests.testers.nixosTest-example.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/271746882'>tests.testers.runNixOSTest-example.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/271746904'>tests.trivial-builders.references.x86_64-darwin</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -17294,41 +17312,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/270374944'>xmoto.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>3 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/271746898'>tests.testers.lycheeLinkCheck.network.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/271746894'>tests.testers.nixosTest-example.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/271746904'>tests.trivial-builders.references.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 </table>
 </details>
