@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next
 ---
 # Evals report
 
-*Report built at 2024-09-10 06:10:33 UTC*
+*Report built at 2024-09-10 07:09:56 UTC*
 
 Built for evals:
 
@@ -7284,7 +7284,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1496 issues</summary>
+<details><summary>1518 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -7746,6 +7746,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>swift-5.8</tt> <br /> <a href='https://hydra.nixos.org/build/271735241/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/271735241/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/271735241/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/271578019'>build 271578019</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/271574954'>darwin.openwith.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>swift-5.8</tt> <br /> <a href='https://hydra.nixos.org/build/271574954/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/271574954/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/271574954/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/271578019'>build 271578019</a>
 </li>
 </ul>
 </details>
@@ -8220,6 +8234,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>gforth-0.7.9_20230518</tt> <br /> <a href='https://hydra.nixos.org/build/271568046/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/271568046/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/271568046/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/271585836'>build 271585836</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/271611142'>ghidra-extensions.ghidraninja-ghidra-scripts.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>swift-5.8</tt> <br /> <a href='https://hydra.nixos.org/build/271611142/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/271611142/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/271611142/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/271578019'>build 271578019</a>
 </li>
 </ul>
 </details>
@@ -9791,6 +9819,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>music-player-0.2.0-alpha.14-unstable-2024-08-24-vendor.tar.gz</tt> <br /> <a href='https://hydra.nixos.org/build/271679636/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/271679636/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/271679636/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/271666986'>build 271666986</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/271598114'>needle.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>swift-5.8</tt> <br /> <a href='https://hydra.nixos.org/build/271598114/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/271598114/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/271598114/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/271578019'>build 271578019</a>
 </li>
 </ul>
 </details>
@@ -13102,6 +13144,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/271584987'>sourcekit-lsp.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>swift-5.8</tt> <br /> <a href='https://hydra.nixos.org/build/271584987/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/271584987/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/271584987/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/271578019'>build 271578019</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/271581037'>spago.x86_64-darwin</a></tt>
 </summary>
 <ul>
@@ -13191,6 +13247,160 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>python3.12-swspotify-1.2.3</tt> <br /> <a href='https://hydra.nixos.org/build/271541520/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/271541520/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/271541520/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/271539407'>build 271539407</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/271552591'>swift-format.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>swift-5.8</tt> <br /> <a href='https://hydra.nixos.org/build/271552591/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/271552591/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/271552591/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/271578019'>build 271578019</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/271600997'>swift.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>swift-5.8</tt> <br /> <a href='https://hydra.nixos.org/build/271600997/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/271600997/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/271600997/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/271578019'>build 271578019</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/271587848'>swiftPackages.XCTest.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>swift-5.8</tt> <br /> <a href='https://hydra.nixos.org/build/271587848/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/271587848/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/271587848/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/271578019'>build 271578019</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/271562380'>swiftPackages.sourcekit-lsp.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>swift-5.8</tt> <br /> <a href='https://hydra.nixos.org/build/271562380/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/271562380/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/271562380/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/271578019'>build 271578019</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/271554974'>swiftPackages.swift-docc.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>swift-5.8</tt> <br /> <a href='https://hydra.nixos.org/build/271554974/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/271554974/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/271554974/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/271578019'>build 271578019</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/271577317'>swiftPackages.swift-driver.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>swift-5.8</tt> <br /> <a href='https://hydra.nixos.org/build/271577317/nixlog/22'>log</a>, <a href='https://hydra.nixos.org/build/271577317/nixlog/22/raw'>raw</a>, <a href='https://hydra.nixos.org/build/271577317/nixlog/22/tail'>tail</a>, <a href='https://hydra.nixos.org/build/271578019'>build 271578019</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/271570105'>swiftPackages.swift-format.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>swift-5.8</tt> <br /> <a href='https://hydra.nixos.org/build/271570105/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/271570105/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/271570105/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/271578019'>build 271578019</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/271582398'>swiftPackages.swift.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>swift-5.8</tt> <br /> <a href='https://hydra.nixos.org/build/271582398/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/271582398/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/271582398/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/271578019'>build 271578019</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/271615772'>swiftPackages.swiftNoSwiftDriver.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>swift-5.8</tt> <br /> <a href='https://hydra.nixos.org/build/271615772/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/271615772/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/271615772/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/271578019'>build 271578019</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/271589414'>swiftPackages.swiftpm.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>swift-5.8</tt> <br /> <a href='https://hydra.nixos.org/build/271589414/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/271589414/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/271589414/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/271578019'>build 271578019</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/271577609'>swiftpm.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>swift-5.8</tt> <br /> <a href='https://hydra.nixos.org/build/271577609/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/271577609/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/271577609/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/271578019'>build 271578019</a>
 </li>
 </ul>
 </details>
@@ -13849,6 +14059,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>swift-5.8</tt> <br /> <a href='https://hydra.nixos.org/build/271738779/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/271738779/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/271738779/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/271578019'>build 271578019</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/271552855'>xcodes.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>swift-5.8</tt> <br /> <a href='https://hydra.nixos.org/build/271552855/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/271552855/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/271552855/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/271578019'>build 271578019</a>
 </li>
 </ul>
 </details>
@@ -14910,6 +15134,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/271581478'>grpc-health-check.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/271572182'>gst_all_1.gst-plugins-rs.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -19247,6 +19477,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/271578019'>swiftPackages.swift-unwrapped.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/271583308'>sympow.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -19937,6 +20173,18 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/271584695'>julia_19-bin.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/271598734'>lbreakout2.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/271589928'>np2kai.x86_64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -19962,6 +20210,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/271600579'>perl538Packages.SDL.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/271578361'>poke.x86_64-darwin</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -20052,6 +20306,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/271735467'>roslyn-ls.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/271679112'>sonarr.x86_64-darwin</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -37818,7 +38078,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>26 issues</summary>
+<details><summary>4 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -37827,59 +38087,10 @@ Built for evals:
 </tr></thead>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/271574954'>darwin.openwith.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/271611142'>ghidra-extensions.ghidraninja-ghidra-scripts.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/271572182'>gst_all_1.gst-plugins-rs.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/271584695'>julia_19-bin.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/271598734'>lbreakout2.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/271679051'>libretro.mame.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/271598114'>needle.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/271578361'>poke.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -37898,111 +38109,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/271607546'>python311Packages.wagtail-localize.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/271679112'>sonarr.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/271584987'>sourcekit-lsp.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/271552591'>swift-format.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/271600997'>swift.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/271587848'>swiftPackages.XCTest.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/271562380'>swiftPackages.sourcekit-lsp.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/271554974'>swiftPackages.swift-docc.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/271577317'>swiftPackages.swift-driver.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/271570105'>swiftPackages.swift-format.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/271578019'>swiftPackages.swift-unwrapped.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/271582398'>swiftPackages.swift.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/271615772'>swiftPackages.swiftNoSwiftDriver.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/271589414'>swiftPackages.swiftpm.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/271577609'>swiftpm.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/271552855'>xcodes.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -38028,6 +38134,7 @@ Built for evals:
 <li>curseradio.x86_64-darwin</li>
 <li>dark-mode-notify.aarch64-darwin</li>
 <li>darwin.openwith.aarch64-darwin</li>
+<li>darwin.openwith.x86_64-darwin</li>
 <li>deadbeef-with-plugins.x86_64-linux</li>
 <li>deadbeef.x86_64-linux</li>
 <li>dmlive.aarch64-darwin</li>
@@ -38055,6 +38162,7 @@ Built for evals:
 <li>ff2mpv-go.x86_64-darwin</li>
 <li>ghidra-extensions.ghidraninja-ghidra-scripts.aarch64-darwin</li>
 <li>ghidra-extensions.ghidraninja-ghidra-scripts.aarch64-linux</li>
+<li>ghidra-extensions.ghidraninja-ghidra-scripts.x86_64-darwin</li>
 <li>ghidra-extensions.ghidraninja-ghidra-scripts.x86_64-linux</li>
 <li>gonic.aarch64-darwin</li>
 <li>gonic.x86_64-darwin</li>
@@ -38072,6 +38180,7 @@ Built for evals:
 <li>mpv-unwrapped.aarch64-darwin</li>
 <li>mpv-unwrapped.x86_64-darwin</li>
 <li>needle.aarch64-darwin</li>
+<li>needle.x86_64-darwin</li>
 <li>pipe-viewer.aarch64-darwin</li>
 <li>pipe-viewer.x86_64-darwin</li>
 <li>python311Packages.mpv.aarch64-darwin</li>
@@ -38082,6 +38191,7 @@ Built for evals:
 <li>somafm-cli.x86_64-darwin</li>
 <li>sourcekit-lsp.aarch64-darwin</li>
 <li>sourcekit-lsp.aarch64-linux</li>
+<li>sourcekit-lsp.x86_64-darwin</li>
 <li>sourcekit-lsp.x86_64-linux</li>
 <li>subtitleedit.aarch64-darwin</li>
 <li>subtitleedit.x86_64-darwin</li>
@@ -38091,9 +38201,11 @@ Built for evals:
 <li>swift-corelibs-libdispatch.x86_64-linux</li>
 <li>swift-format.aarch64-darwin</li>
 <li>swift-format.aarch64-linux</li>
+<li>swift-format.x86_64-darwin</li>
 <li>swift-format.x86_64-linux</li>
 <li>swift.aarch64-darwin</li>
 <li>swift.aarch64-linux</li>
+<li>swift.x86_64-darwin</li>
 <li>swift.x86_64-linux</li>
 <li>swiftPackages.Dispatch.aarch64-linux</li>
 <li>swiftPackages.Dispatch.x86_64-linux</li>
@@ -38101,30 +38213,39 @@ Built for evals:
 <li>swiftPackages.Foundation.x86_64-linux</li>
 <li>swiftPackages.XCTest.aarch64-darwin</li>
 <li>swiftPackages.XCTest.aarch64-linux</li>
+<li>swiftPackages.XCTest.x86_64-darwin</li>
 <li>swiftPackages.XCTest.x86_64-linux</li>
 <li>swiftPackages.sourcekit-lsp.aarch64-darwin</li>
 <li>swiftPackages.sourcekit-lsp.aarch64-linux</li>
+<li>swiftPackages.sourcekit-lsp.x86_64-darwin</li>
 <li>swiftPackages.sourcekit-lsp.x86_64-linux</li>
 <li>swiftPackages.swift-docc.aarch64-darwin</li>
 <li>swiftPackages.swift-docc.aarch64-linux</li>
+<li>swiftPackages.swift-docc.x86_64-darwin</li>
 <li>swiftPackages.swift-docc.x86_64-linux</li>
 <li>swiftPackages.swift-driver.aarch64-darwin</li>
 <li>swiftPackages.swift-driver.aarch64-linux</li>
+<li>swiftPackages.swift-driver.x86_64-darwin</li>
 <li>swiftPackages.swift-driver.x86_64-linux</li>
 <li>swiftPackages.swift-format.aarch64-darwin</li>
 <li>swiftPackages.swift-format.aarch64-linux</li>
+<li>swiftPackages.swift-format.x86_64-darwin</li>
 <li>swiftPackages.swift-format.x86_64-linux</li>
 <li>swiftPackages.swift.aarch64-darwin</li>
 <li>swiftPackages.swift.aarch64-linux</li>
+<li>swiftPackages.swift.x86_64-darwin</li>
 <li>swiftPackages.swift.x86_64-linux</li>
 <li>swiftPackages.swiftNoSwiftDriver.aarch64-darwin</li>
 <li>swiftPackages.swiftNoSwiftDriver.aarch64-linux</li>
+<li>swiftPackages.swiftNoSwiftDriver.x86_64-darwin</li>
 <li>swiftPackages.swiftNoSwiftDriver.x86_64-linux</li>
 <li>swiftPackages.swiftpm.aarch64-darwin</li>
 <li>swiftPackages.swiftpm.aarch64-linux</li>
+<li>swiftPackages.swiftpm.x86_64-darwin</li>
 <li>swiftPackages.swiftpm.x86_64-linux</li>
 <li>swiftpm.aarch64-darwin</li>
 <li>swiftpm.aarch64-linux</li>
+<li>swiftpm.x86_64-darwin</li>
 <li>swiftpm.x86_64-linux</li>
 <li>termusic.aarch64-darwin</li>
 <li>termusic.x86_64-darwin</li>
@@ -38133,6 +38254,7 @@ Built for evals:
 <li>wtwitch.aarch64-darwin</li>
 <li>wtwitch.x86_64-darwin</li>
 <li>xcodes.aarch64-darwin</li>
+<li>xcodes.x86_64-darwin</li>
 <li>youtube-tui.aarch64-darwin</li>
 <li>youtube-tui.x86_64-darwin</li>
 <li>ytfzf.aarch64-darwin</li>
@@ -38140,7 +38262,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>117</td>
+<td>133</td>
 </tr>
 <tr>
 <td>
