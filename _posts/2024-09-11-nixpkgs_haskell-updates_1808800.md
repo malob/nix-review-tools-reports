@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2024-09-12 01:31:36 UTC*
+*Report built at 2024-09-12 02:24:13 UTC*
 
 Built for evals:
 
@@ -235,7 +235,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>30 issues</summary>
+<details><summary>31 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -538,6 +538,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/272370558'>hledger-web.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>pcg-random-0.1.4.0</tt> <br /> <a href='https://hydra.nixos.org/build/272370558/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/272370558/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/272370558/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/272365951'>build 272365951</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/272364595'>nixosTests.xmonad.aarch64-linux</a></tt>
 </summary>
 <ul>
@@ -631,7 +645,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>24330 issues</summary>
+<details><summary>24326 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -10241,13 +10255,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/272385973'>haskell.packages.ghc966.ghc-lib-parser-ex.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -77287,13 +77294,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/272379872'>haskellPackages.hashable.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -168857,13 +168857,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/272370558'>hledger-web.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/272377128'>hledger-web.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -169365,13 +169358,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/272373529'>nixfmt-classic.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -170978,11 +170964,12 @@ Built for evals:
 <li>haskellPackages.tiktoken.aarch64-linux</li>
 <li>haskellPackages.yesod-auth-oauth2.aarch64-linux</li>
 <li>haskellPackages.yesod-session-persist.aarch64-linux</li>
+<li>hledger-web.aarch64-linux</li>
 <li>maintained</li>
 </ul>
 </details>
 </td>
-<td>18</td>
+<td>19</td>
 </tr>
 <tr>
 <td>
