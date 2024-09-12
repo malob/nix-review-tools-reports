@@ -4,13 +4,40 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2024-09-12 00:10:09 UTC*
+*Report built at 2024-09-12 01:31:36 UTC*
 
 Built for evals:
 
   * [1808800](https://hydra.nixos.org/eval/1808800)
 
  * * * 
+
+### x86_64-linux
+
+
+<details><summary>1 issues</summary>
+<table>
+<thead><tr>
+<th>job</th>
+<th>status</th>
+</tr></thead>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/272569980'>maintained</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>pcg-random-0.1.4.0</tt> <br /> <a href='https://hydra.nixos.org/build/272569980/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/272569980/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/272569980/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/272365951'>build 272365951</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+</table>
+</details>
+
 
 ### x86_64-darwin
 
@@ -604,7 +631,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>24332 issues</summary>
+<details><summary>24330 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -1807,13 +1834,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/272374787'>haskell.compiler.ghc810.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -169089,13 +169109,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/272569980'>maintained</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/272371072'>matterhorn.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -170965,10 +170978,11 @@ Built for evals:
 <li>haskellPackages.tiktoken.aarch64-linux</li>
 <li>haskellPackages.yesod-auth-oauth2.aarch64-linux</li>
 <li>haskellPackages.yesod-session-persist.aarch64-linux</li>
+<li>maintained</li>
 </ul>
 </details>
 </td>
-<td>17</td>
+<td>18</td>
 </tr>
 <tr>
 <td>
