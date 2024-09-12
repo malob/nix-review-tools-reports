@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2024-09-12 08:05:41 UTC*
+*Report built at 2024-09-12 10:05:37 UTC*
 
 Built for evals:
 
@@ -208,7 +208,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>29 issues</summary>
+<details><summary>30 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -334,6 +334,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>pcg-random-0.1.4.0</tt> <br /> <a href='https://hydra.nixos.org/build/272372651/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/272372651/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/272372651/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/272365951'>build 272365951</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/272386780'>haskellPackages.gitit.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>pcg-random-0.1.4.0</tt> <br /> <a href='https://hydra.nixos.org/build/272386780/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/272386780/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/272386780/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/272365951'>build 272365951</a>
 </li>
 </ul>
 </details>
@@ -590,7 +604,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>24326 issues</summary>
+<details><summary>24325 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -73354,13 +73368,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/272386780'>haskellPackages.gitit.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -170900,6 +170907,7 @@ Built for evals:
 <li>haskellPackages.base32.aarch64-linux</li>
 <li>haskellPackages.base64.aarch64-linux</li>
 <li>haskellPackages.gemini-exports.aarch64-linux</li>
+<li>haskellPackages.gitit.aarch64-linux</li>
 <li>haskellPackages.hledger-web.aarch64-linux</li>
 <li>haskellPackages.hoauth2.aarch64-linux</li>
 <li>haskellPackages.nix-serve-ng.aarch64-linux</li>
@@ -170912,7 +170920,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>17</td>
+<td>18</td>
 </tr>
 <tr>
 <td>
