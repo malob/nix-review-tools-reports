@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2024-09-12 02:24:13 UTC*
+*Report built at 2024-09-12 04:05:40 UTC*
 
 Built for evals:
 
@@ -645,7 +645,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>24326 issues</summary>
+<details><summary>24325 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -70917,13 +70917,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/272384090'>haskellPackages.ghc-lib-parser.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
