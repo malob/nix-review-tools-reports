@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.05-darwin
 ---
 # Evals report
 
-*Report built at 2024-09-14 00:12:04 UTC*
+*Report built at 2024-09-14 01:33:51 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1145 issues</summary>
+<details><summary>1147 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -1331,6 +1331,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>ruby3.1-sqlite3-1.4.2</tt> <br /> <a href='https://hydra.nixos.org/build/270358936/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/270358936/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/270358936/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/269963484'>build 269963484</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/272615415'>jellyfin-media-player.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>swift-5.8</tt> <br /> <a href='https://hydra.nixos.org/build/272615415/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/272615415/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/272615415/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/269922173'>build 269922173</a>
 </li>
 </ul>
 </details>
@@ -8516,6 +8530,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/270374605'>tests.macOSSierraShared.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/272585350'>tests.testers.lycheeLinkCheck.network.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -17322,7 +17342,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>28 issues</summary>
+<details><summary>24 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -17366,13 +17386,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/272615415'>jellyfin-media-player.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/272615420'>jellyfin-web.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -17401,13 +17414,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/272615422'>lib-tests</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/272615416'>manual</a></tt>
 </td>
 <td>Queued</td>
@@ -17433,13 +17439,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/272585363'>netbird-ui.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -17489,13 +17488,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/272585350'>tests.testers.lycheeLinkCheck.network.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -17558,6 +17550,7 @@ Built for evals:
 <li>gtk-pipe-viewer.x86_64-darwin</li>
 <li>hydrus.x86_64-darwin</li>
 <li>invidtui.x86_64-darwin</li>
+<li>jellyfin-media-player.x86_64-darwin</li>
 <li>klipperscreen.x86_64-darwin</li>
 <li>mov-cli.x86_64-darwin</li>
 <li>mpv-unwrapped.x86_64-darwin</li>
@@ -17588,7 +17581,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>47</td>
+<td>48</td>
 </tr>
 <tr>
 <td>
