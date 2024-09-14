@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2024-09-14 15:04:48 UTC*
+*Report built at 2024-09-14 16:04:47 UTC*
 
 Built for evals:
 
@@ -1329,7 +1329,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>82 issues</summary>
+<details><summary>83 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -2204,6 +2204,12 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/272386438'>haskellPackages.uncertain.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/272378699'>haskellPackages.duckdb-haskell.aarch64-linux</a></tt>
+</td>
+<td>Timed out</td>
 </tr>
 <tr>
 <td>
@@ -3241,7 +3247,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>1400 issues</summary>
+<details><summary>1398 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -3352,13 +3358,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/272369126'>haskell.compiler.native-bignum.ghc927.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -7104,13 +7103,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/272378699'>haskellPackages.duckdb-haskell.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
