@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2024-09-14 22:04:50 UTC*
+*Report built at 2024-09-14 23:04:19 UTC*
 
 Built for evals:
 
@@ -278,96 +278,12 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>121 issues</summary>
+<details><summary>115 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 </tr></thead>
-<tr>
-<td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/272374087'>haskell.packages.ghc982.Cabal_3_12_1_0.x86_64-darwin</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Failed</b> <tt>ghc-9.8.2</tt> <br /> <a href='https://hydra.nixos.org/build/272374087/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/272374087/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/272374087/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/272363786'>build 272363786</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/272388007'>haskell.packages.ghc982.ghc-lib-parser.x86_64-darwin</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Failed</b> <tt>ghc-9.8.2</tt> <br /> <a href='https://hydra.nixos.org/build/272388007/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/272388007/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/272388007/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/272363786'>build 272363786</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/272366606'>haskell.packages.ghc982.ghc-lib.x86_64-darwin</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Failed</b> <tt>ghc-9.8.2</tt> <br /> <a href='https://hydra.nixos.org/build/272366606/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/272366606/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/272366606/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/272363786'>build 272363786</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/272373626'>haskell.packages.ghc982.hashable.x86_64-darwin</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Failed</b> <tt>ghc-9.8.2</tt> <br /> <a href='https://hydra.nixos.org/build/272373626/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/272373626/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/272373626/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/272363786'>build 272363786</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/272372244'>haskell.packages.ghc982.hpack.x86_64-darwin</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Failed</b> <tt>ghc-9.8.2</tt> <br /> <a href='https://hydra.nixos.org/build/272372244/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/272372244/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/272372244/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/272363786'>build 272363786</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/272385832'>haskell.packages.ghc982.primitive.x86_64-darwin</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Failed</b> <tt>ghc-9.8.2</tt> <br /> <a href='https://hydra.nixos.org/build/272385832/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/272385832/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/272385832/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/272363786'>build 272363786</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
 <tr>
 <td>
 <details><summary>
@@ -3143,7 +3059,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>205 issues</summary>
+<details><summary>188 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -3191,20 +3107,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/272619795'>haskell.compiler.ghc810.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/272619783'>haskell.compiler.ghc8107.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -3282,34 +3184,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/272619710'>haskell.compiler.integer-simple.ghc810.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/272619755'>haskell.compiler.integer-simple.ghc8107.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/272619698'>haskell.compiler.native-bignum.ghc90.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/272619741'>haskell.compiler.native-bignum.ghc902.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -3527,13 +3401,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/272362614'>haskell.packages.ghc902.Cabal_3_10_3_0.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -4356,27 +4223,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/272615990'>haskell.packages.ghc963.cabal2nix-unstable.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/272375657'>haskell.packages.ghc963.cabal2nix.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/272383337'>haskell.packages.ghc963.ghc-lib.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/272381208'>haskell.packages.ghc963.hoogle.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -4441,41 +4287,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/272378237'>haskell.packages.ghc982.haskell-language-server.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/272388759'>haskellPackages.eventlog2html.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/272390282'>haskellPackages.freckle-env.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/272383747'>haskellPackages.glintcollider.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/272579762'>haskellPackages.hgdal.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/272389347'>haskellPackages.intel-powermon.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -4570,20 +4381,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/272387200'>termonad.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/272382268'>tests.haskell.documentationTarball.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
@@ -4684,21 +4481,6 @@ Built for evals:
 </details>
 </td>
 <td>8</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/272363786'>x86_64-darwin ghc-9.8.2</a></tt></summary>
-<ul>
-<li>haskell.packages.ghc982.Cabal_3_12_1_0.x86_64-darwin</li>
-<li>haskell.packages.ghc982.ghc-lib-parser.x86_64-darwin</li>
-<li>haskell.packages.ghc982.ghc-lib.x86_64-darwin</li>
-<li>haskell.packages.ghc982.hashable.x86_64-darwin</li>
-<li>haskell.packages.ghc982.hpack.x86_64-darwin</li>
-<li>haskell.packages.ghc982.primitive.x86_64-darwin</li>
-</ul>
-</details>
-</td>
-<td>6</td>
 </tr>
 <tr>
 <td>
