@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.05-darwin
 ---
 # Evals report
 
-*Report built at 2024-09-17 20:08:15 UTC*
+*Report built at 2024-09-17 21:08:09 UTC*
 
 Built for evals:
 
@@ -9040,7 +9040,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1029 issues</summary>
+<details><summary>1031 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -11390,6 +11390,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/272806382'>python312Packages.layoutparser.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.12-jupyterlab-server-2.27.1</tt> <br /> <a href='https://hydra.nixos.org/build/272806382/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/272806382/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/272806382/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/270291829'>build 270291829</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/270312052'>python312Packages.ledger-agent.aarch64-darwin</a></tt>
 </summary>
 <ul>
@@ -11451,6 +11465,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>python3.12-jupyterlab-server-2.27.1</tt> <br /> <a href='https://hydra.nixos.org/build/272806367/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/272806367/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/272806367/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/270291829'>build 270291829</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/272806461'>python312Packages.notedown.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.12-jupyterlab-server-2.27.1</tt> <br /> <a href='https://hydra.nixos.org/build/272806461/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/272806461/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/272806461/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/270291829'>build 270291829</a>
 </li>
 </ul>
 </details>
@@ -17054,7 +17082,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>66 issues</summary>
+<details><summary>60 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -17210,13 +17238,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/272806468'>python311Packages.jupyterlab-git.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/272806389'>python311Packages.layoutparser.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -17284,13 +17305,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/272806421'>python311Packages.qgrid.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -17364,13 +17378,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/272806458'>python312Packages.jupyter-collaboration.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/272806395'>python312Packages.jupyterlab-lsp.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -17386,13 +17393,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/272806434'>python312Packages.jupytext.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/272806382'>python312Packages.layoutparser.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -17434,24 +17434,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/272806461'>python312Packages.notedown.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/272806363'>python312Packages.pdfplumber.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/272806442'>python312Packages.pymoo.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -17669,6 +17655,26 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/270291829'>aarch64-darwin python3.12-jupyterlab-server-2.27.1</a></tt></summary>
+<ul>
+<li>python312Packages.experiment-utilities.aarch64-darwin</li>
+<li>python312Packages.ipyvuetify.aarch64-darwin</li>
+<li>python312Packages.jupyter-collaboration.aarch64-darwin</li>
+<li>python312Packages.jupyter-contrib-core.aarch64-darwin</li>
+<li>python312Packages.jupyterlab-git.aarch64-darwin</li>
+<li>python312Packages.layoutparser.aarch64-darwin</li>
+<li>python312Packages.nikola.aarch64-darwin</li>
+<li>python312Packages.nix-kernel.aarch64-darwin</li>
+<li>python312Packages.notedown.aarch64-darwin</li>
+<li>python312Packages.pymoo.aarch64-darwin</li>
+<li>python312Packages.qgrid.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>11</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/269726570'>aarch64-darwin zig-0.11.0</a></tt></summary>
 <ul>
 <li>dt.aarch64-darwin</li>
@@ -17717,24 +17723,6 @@ Built for evals:
 <li>python311Packages.langchain.x86_64-darwin</li>
 <li>python311Packages.langsmith.x86_64-darwin</li>
 <li>shell-gpt.x86_64-darwin</li>
-</ul>
-</details>
-</td>
-<td>9</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/270291829'>aarch64-darwin python3.12-jupyterlab-server-2.27.1</a></tt></summary>
-<ul>
-<li>python312Packages.experiment-utilities.aarch64-darwin</li>
-<li>python312Packages.ipyvuetify.aarch64-darwin</li>
-<li>python312Packages.jupyter-collaboration.aarch64-darwin</li>
-<li>python312Packages.jupyter-contrib-core.aarch64-darwin</li>
-<li>python312Packages.jupyterlab-git.aarch64-darwin</li>
-<li>python312Packages.nikola.aarch64-darwin</li>
-<li>python312Packages.nix-kernel.aarch64-darwin</li>
-<li>python312Packages.pymoo.aarch64-darwin</li>
-<li>python312Packages.qgrid.aarch64-darwin</li>
 </ul>
 </details>
 </td>
