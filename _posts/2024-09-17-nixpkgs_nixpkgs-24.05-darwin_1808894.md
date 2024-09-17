@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.05-darwin
 ---
 # Evals report
 
-*Report built at 2024-09-17 22:07:43 UTC*
+*Report built at 2024-09-17 23:08:06 UTC*
 
 Built for evals:
 
@@ -9068,7 +9068,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1032 issues</summary>
+<details><summary>1035 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -11418,6 +11418,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/272806434'>python312Packages.jupytext.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.12-jupyterlab-server-2.27.1</tt> <br /> <a href='https://hydra.nixos.org/build/272806434/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/272806434/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/272806434/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/270291829'>build 270291829</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/271670777'>python312Packages.kaleido.aarch64-darwin</a></tt>
 </summary>
 <ul>
@@ -11474,6 +11488,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/272806445'>python312Packages.nbdime.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.12-jupyterlab-server-2.27.1</tt> <br /> <a href='https://hydra.nixos.org/build/272806445/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/272806445/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/272806445/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/270291829'>build 270291829</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/270346726'>python312Packages.neoteroi-mkdocs.aarch64-darwin</a></tt>
 </summary>
 <ul>
@@ -11507,6 +11535,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>python3.12-jupyterlab-server-2.27.1</tt> <br /> <a href='https://hydra.nixos.org/build/272806367/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/272806367/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/272806367/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/270291829'>build 270291829</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/272806420'>python312Packages.notebook.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.12-jupyterlab-server-2.27.1</tt> <br /> <a href='https://hydra.nixos.org/build/272806420/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/272806420/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/272806420/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/270291829'>build 270291829</a>
 </li>
 </ul>
 </details>
@@ -17124,7 +17166,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>54 issues</summary>
+<details><summary>49 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -17137,13 +17179,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/272841775'>gitaly.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -17186,13 +17221,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/272806384'>nbqa.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -17399,21 +17427,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/272806434'>python312Packages.jupytext.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/272806435'>python312Packages.mkdocs-jupyter.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/272806445'>python312Packages.nbdime.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -17431,13 +17445,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/272806420'>python312Packages.notebook.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -17662,16 +17669,19 @@ Built for evals:
 <li>python312Packages.jupyter-collaboration.aarch64-darwin</li>
 <li>python312Packages.jupyter-contrib-core.aarch64-darwin</li>
 <li>python312Packages.jupyterlab-git.aarch64-darwin</li>
+<li>python312Packages.jupytext.aarch64-darwin</li>
 <li>python312Packages.layoutparser.aarch64-darwin</li>
+<li>python312Packages.nbdime.aarch64-darwin</li>
 <li>python312Packages.nikola.aarch64-darwin</li>
 <li>python312Packages.nix-kernel.aarch64-darwin</li>
+<li>python312Packages.notebook.aarch64-darwin</li>
 <li>python312Packages.notedown.aarch64-darwin</li>
 <li>python312Packages.pymoo.aarch64-darwin</li>
 <li>python312Packages.qgrid.aarch64-darwin</li>
 </ul>
 </details>
 </td>
-<td>11</td>
+<td>14</td>
 </tr>
 <tr>
 <td>
