@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2024-09-17 20:05:56 UTC*
+*Report built at 2024-09-17 21:05:48 UTC*
 
 Built for evals:
 
@@ -264,7 +264,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>116 issues</summary>
+<details><summary>117 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -740,6 +740,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>ruff-0.6.5</tt> <br /> <a href='https://hydra.nixos.org/build/272841313/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/272841313/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/272841313/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/272695199'>build 272695199</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/272841175'>nixosTests.xmonad.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>ruff-0.6.5</tt> <br /> <a href='https://hydra.nixos.org/build/272841175/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/272841175/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/272841175/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/272695199'>build 272695199</a>
 </li>
 </ul>
 </details>
@@ -3145,7 +3159,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>184 issues</summary>
+<details><summary>172 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -3343,13 +3357,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/272841141'>cachix.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/272841324'>cachix.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -3438,13 +3445,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/272840381'>haskell.packages.ghc9101.hoogle.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -3651,24 +3651,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/272841136'>haskell.packages.ghc946.cabal2nix-unstable.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/272841238'>haskell.packages.ghc946.nix-paths.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/272841157'>haskell.packages.ghc946.nix-paths.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -3791,13 +3777,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/272841183'>haskell.packages.ghc963.nix-paths.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/272841289'>haskell.packages.ghc963.nix-paths.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -3900,13 +3879,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/272841131'>haskell.packages.ghc966.cabal2nix-unstable.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -4043,13 +4015,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/272841349'>haskellPackages.cli-nix.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/272841165'>haskellPackages.cli-nix.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -4162,13 +4127,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/272841264'>haskellPackages.nix-thunk.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/272841201'>haskellPackages.nix-thunk.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -4180,13 +4138,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/272841348'>haskellPackages.notmuch.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -4316,13 +4267,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/272841353'>niv.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/272841369'>nixosTests.agda.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -4362,20 +4306,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/272841175'>nixosTests.xmonad.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/272841311'>nixosTests.xmonad.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -4677,6 +4607,18 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/272695199'>x86_64-darwin ruff-0.6.5</a></tt></summary>
+<ul>
+<li>nixosTests.agda.x86_64-darwin</li>
+<li>nixosTests.xmonad-xdg-autostart.x86_64-darwin</li>
+<li>nixosTests.xmonad.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>3</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/272364564'>aarch64-linux postgresql-syntax-0.4.1.1</a></tt></summary>
 <ul>
 <li>haskellPackages.hasql-mover.aarch64-linux</li>
@@ -4747,17 +4689,6 @@ Built for evals:
 <ul>
 <li>haskellPackages.yaml-light.aarch64-darwin</li>
 <li>haskellPackages.yaml-light.x86_64-darwin</li>
-</ul>
-</details>
-</td>
-<td>2</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/272695199'>x86_64-darwin ruff-0.6.5</a></tt></summary>
-<ul>
-<li>nixosTests.agda.x86_64-darwin</li>
-<li>nixosTests.xmonad-xdg-autostart.x86_64-darwin</li>
 </ul>
 </details>
 </td>
