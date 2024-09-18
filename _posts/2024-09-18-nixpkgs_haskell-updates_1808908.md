@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2024-09-18 02:26:06 UTC*
+*Report built at 2024-09-18 03:06:50 UTC*
 
 Built for evals:
 
@@ -250,7 +250,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>116 issues</summary>
+<details><summary>117 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -726,6 +726,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>ruff-0.6.5</tt> <br /> <a href='https://hydra.nixos.org/build/272878156/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/272878156/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/272878156/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/272695199'>build 272695199</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/272878224'>nixosTests.xmonad.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>ruff-0.6.5</tt> <br /> <a href='https://hydra.nixos.org/build/272878224/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/272878224/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/272878224/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/272695199'>build 272695199</a>
 </li>
 </ul>
 </details>
@@ -3117,7 +3131,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>236 issues</summary>
+<details><summary>230 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -3210,13 +3224,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/272878268'>agdaPackages.agda-prelude.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/272878176'>agdaPackages.agda-prelude.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -3263,13 +3270,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/272878285'>agdaPackages.functional-linear-algebra.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -3784,13 +3784,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/272878211'>haskell.packages.ghc945.nix-paths.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/272878296'>haskell.packages.ghc945.nix-paths.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -4211,13 +4204,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/272878123'>haskell.packages.ghc981.nix-paths.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/272878117'>haskell.packages.ghc981.nix-paths.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -4470,13 +4456,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/272878239'>haskellPackages.nix-thunk.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/272878104'>haskellPackages.nix-thunk.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -4705,13 +4684,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/272878224'>nixosTests.xmonad.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -5011,6 +4983,18 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/272695199'>x86_64-darwin ruff-0.6.5</a></tt></summary>
+<ul>
+<li>nixosTests.agda.x86_64-darwin</li>
+<li>nixosTests.xmonad-xdg-autostart.x86_64-darwin</li>
+<li>nixosTests.xmonad.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>3</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/272364564'>aarch64-linux postgresql-syntax-0.4.1.1</a></tt></summary>
 <ul>
 <li>haskellPackages.hasql-mover.aarch64-linux</li>
@@ -5081,17 +5065,6 @@ Built for evals:
 <ul>
 <li>haskellPackages.yaml-light.aarch64-darwin</li>
 <li>haskellPackages.yaml-light.x86_64-darwin</li>
-</ul>
-</details>
-</td>
-<td>2</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/272695199'>x86_64-darwin ruff-0.6.5</a></tt></summary>
-<ul>
-<li>nixosTests.agda.x86_64-darwin</li>
-<li>nixosTests.xmonad-xdg-autostart.x86_64-darwin</li>
 </ul>
 </details>
 </td>
