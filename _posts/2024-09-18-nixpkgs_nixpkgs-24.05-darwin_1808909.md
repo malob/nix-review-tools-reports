@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.05-darwin
 ---
 # Evals report
 
-*Report built at 2024-09-18 05:07:49 UTC*
+*Report built at 2024-09-18 06:07:43 UTC*
 
 Built for evals:
 
@@ -9094,7 +9094,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1044 issues</summary>
+<details><summary>1045 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -11575,6 +11575,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>sbcl-2.4.4</tt> <br /> <a href='https://hydra.nixos.org/build/271670948/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/271670948/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/271670948/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/269842152'>build 269842152</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/272806435'>python312Packages.mkdocs-jupyter.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.12-jupyterlab-server-2.27.1</tt> <br /> <a href='https://hydra.nixos.org/build/272806435/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/272806435/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/272806435/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/270291829'>build 270291829</a>
 </li>
 </ul>
 </details>
@@ -17310,7 +17324,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>29 issues</summary>
+<details><summary>28 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -17435,13 +17449,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/272806435'>python312Packages.mkdocs-jupyter.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -17652,6 +17659,7 @@ Built for evals:
 <li>python312Packages.jupyterlab.aarch64-darwin</li>
 <li>python312Packages.jupytext.aarch64-darwin</li>
 <li>python312Packages.layoutparser.aarch64-darwin</li>
+<li>python312Packages.mkdocs-jupyter.aarch64-darwin</li>
 <li>python312Packages.nbdime.aarch64-darwin</li>
 <li>python312Packages.nikola.aarch64-darwin</li>
 <li>python312Packages.nix-kernel.aarch64-darwin</li>
@@ -17665,7 +17673,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>19</td>
+<td>20</td>
 </tr>
 <tr>
 <td>
