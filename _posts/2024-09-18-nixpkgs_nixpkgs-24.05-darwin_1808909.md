@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.05-darwin
 ---
 # Evals report
 
-*Report built at 2024-09-18 04:08:38 UTC*
+*Report built at 2024-09-18 05:07:49 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1146 issues</summary>
+<details><summary>1147 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -7403,6 +7403,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/272806423'>python312Packages.nikola.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/270334978'>python312Packages.nimfa.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -9088,7 +9094,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1043 issues</summary>
+<details><summary>1044 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -11471,6 +11477,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>python3.12-jupyterlab-server-2.27.1</tt> <br /> <a href='https://hydra.nixos.org/build/272806388/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/272806388/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/272806388/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/270291829'>build 270291829</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/272806395'>python312Packages.jupyterlab-lsp.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.12-jupyterlab-server-2.27.1</tt> <br /> <a href='https://hydra.nixos.org/build/272806395/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/272806395/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/272806395/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/270291829'>build 270291829</a>
 </li>
 </ul>
 </details>
@@ -17290,7 +17310,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>34 issues</summary>
+<details><summary>29 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -17362,13 +17382,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/272806455'>python311Packages.notedown.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/272878335'>python311Packages.pyqt3d.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -17411,13 +17424,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/272806397'>python311Packages.rotary-embedding-torch.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/272806410'>python311Packages.streamlit.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -17432,31 +17438,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/272806395'>python312Packages.jupyterlab-lsp.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/272806435'>python312Packages.mkdocs-jupyter.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/272806423'>python312Packages.nikola.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/272806370'>python312Packages.nix-kernel.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -17656,6 +17641,34 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/270291829'>aarch64-darwin python3.12-jupyterlab-server-2.27.1</a></tt></summary>
+<ul>
+<li>python312Packages.experiment-utilities.aarch64-darwin</li>
+<li>python312Packages.ipyvuetify.aarch64-darwin</li>
+<li>python312Packages.jupyter-collaboration.aarch64-darwin</li>
+<li>python312Packages.jupyter-contrib-core.aarch64-darwin</li>
+<li>python312Packages.jupyterlab-git.aarch64-darwin</li>
+<li>python312Packages.jupyterlab-lsp.aarch64-darwin</li>
+<li>python312Packages.jupyterlab.aarch64-darwin</li>
+<li>python312Packages.jupytext.aarch64-darwin</li>
+<li>python312Packages.layoutparser.aarch64-darwin</li>
+<li>python312Packages.nbdime.aarch64-darwin</li>
+<li>python312Packages.nikola.aarch64-darwin</li>
+<li>python312Packages.nix-kernel.aarch64-darwin</li>
+<li>python312Packages.notebook.aarch64-darwin</li>
+<li>python312Packages.notedown.aarch64-darwin</li>
+<li>python312Packages.pdfplumber.aarch64-darwin</li>
+<li>python312Packages.pymoo.aarch64-darwin</li>
+<li>python312Packages.pytest-notebook.aarch64-darwin</li>
+<li>python312Packages.qgrid.aarch64-darwin</li>
+<li>python312Packages.vector.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>19</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/269742510'>aarch64-darwin fmt-0.6.3.0</a></tt></summary>
 <ul>
 <li>haskellPackages.cardano-coin-selection.aarch64-darwin</li>
@@ -17676,33 +17689,6 @@ Built for evals:
 <li>haskellPackages.render-utf8.x86_64-darwin</li>
 <li>haskellPackages.rg.aarch64-darwin</li>
 <li>haskellPackages.rg.x86_64-darwin</li>
-</ul>
-</details>
-</td>
-<td>18</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/270291829'>aarch64-darwin python3.12-jupyterlab-server-2.27.1</a></tt></summary>
-<ul>
-<li>python312Packages.experiment-utilities.aarch64-darwin</li>
-<li>python312Packages.ipyvuetify.aarch64-darwin</li>
-<li>python312Packages.jupyter-collaboration.aarch64-darwin</li>
-<li>python312Packages.jupyter-contrib-core.aarch64-darwin</li>
-<li>python312Packages.jupyterlab-git.aarch64-darwin</li>
-<li>python312Packages.jupyterlab.aarch64-darwin</li>
-<li>python312Packages.jupytext.aarch64-darwin</li>
-<li>python312Packages.layoutparser.aarch64-darwin</li>
-<li>python312Packages.nbdime.aarch64-darwin</li>
-<li>python312Packages.nikola.aarch64-darwin</li>
-<li>python312Packages.nix-kernel.aarch64-darwin</li>
-<li>python312Packages.notebook.aarch64-darwin</li>
-<li>python312Packages.notedown.aarch64-darwin</li>
-<li>python312Packages.pdfplumber.aarch64-darwin</li>
-<li>python312Packages.pymoo.aarch64-darwin</li>
-<li>python312Packages.pytest-notebook.aarch64-darwin</li>
-<li>python312Packages.qgrid.aarch64-darwin</li>
-<li>python312Packages.vector.aarch64-darwin</li>
 </ul>
 </details>
 </td>
