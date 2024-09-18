@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.05-darwin
 ---
 # Evals report
 
-*Report built at 2024-09-18 06:07:43 UTC*
+*Report built at 2024-09-18 08:08:28 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1147 issues</summary>
+<details><summary>1148 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -2451,6 +2451,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>python3.11-pytest-examples-0.0.10</tt> <br /> <a href='https://hydra.nixos.org/build/270331358/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/270331358/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/270331358/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/269941577'>build 269941577</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/272806459'>python311Packages.layoutparser.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.11-pandas-stubs-2.2.0.240218</tt> <br /> <a href='https://hydra.nixos.org/build/272806459/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/272806459/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/272806459/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/270292955'>build 270292955</a>
 </li>
 </ul>
 </details>
@@ -17324,7 +17338,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>28 issues</summary>
+<details><summary>27 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -17383,13 +17397,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/272878336'>oink.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/272806459'>python311Packages.layoutparser.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -18177,6 +18184,19 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/270379507'>aarch64-darwin python3.11-pandas-stubs-2.2.0.240218</a></tt></summary>
+<ul>
+<li>python311Packages.layoutparser.aarch64-darwin</li>
+<li>python311Packages.layoutparser.x86_64-darwin</li>
+<li>python311Packages.pdfplumber.aarch64-darwin</li>
+<li>python311Packages.pdfplumber.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>4</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/269729208'>aarch64-darwin python3.11-para-0.0.8</a></tt></summary>
 <ul>
 <li>python311Packages.mwcli.aarch64-darwin</li>
@@ -18307,18 +18327,6 @@ Built for evals:
 <li>python311Packages.catboost.x86_64-darwin</li>
 <li>python311Packages.orange3.x86_64-darwin</li>
 <li>python312Packages.catboost.x86_64-darwin</li>
-</ul>
-</details>
-</td>
-<td>3</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/270379507'>aarch64-darwin python3.11-pandas-stubs-2.2.0.240218</a></tt></summary>
-<ul>
-<li>python311Packages.layoutparser.aarch64-darwin</li>
-<li>python311Packages.pdfplumber.aarch64-darwin</li>
-<li>python311Packages.pdfplumber.x86_64-darwin</li>
 </ul>
 </details>
 </td>
