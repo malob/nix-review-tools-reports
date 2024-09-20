@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2024-09-20 19:05:09 UTC*
+*Report built at 2024-09-20 20:05:33 UTC*
 
 Built for evals:
 
@@ -15,12 +15,18 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>34 issues</summary>
+<details><summary>35 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 </tr></thead>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/273094754'>pkgsMusl.haskell.compiler.native-bignum.ghc981.x86_64-linux</a></tt>
+</td>
+<td>Aborted</td>
+</tr>
 <tr>
 <td>
 <details><summary>
@@ -1514,7 +1520,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>13867 issues</summary>
+<details><summary>13866 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -98285,13 +98291,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/273098118'>pkgsMusl.haskell.compiler.native-bignum.ghc964.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/273094754'>pkgsMusl.haskell.compiler.native-bignum.ghc981.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
