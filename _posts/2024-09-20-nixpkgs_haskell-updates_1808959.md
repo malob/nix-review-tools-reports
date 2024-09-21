@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2024-09-21 02:24:17 UTC*
+*Report built at 2024-09-21 03:06:11 UTC*
 
 Built for evals:
 
@@ -1532,7 +1532,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>13853 issues</summary>
+<details><summary>13851 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -4663,13 +4663,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/273101602'>haskell.packages.ghc946.jailbreak-cabal.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/273097117'>haskell.packages.ghc946.language-nix.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -6942,13 +6935,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/273097301'>haskell.packages.ghc982.jailbreak-cabal.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
