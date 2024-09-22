@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.05-darwin
 ---
 # Evals report
 
-*Report built at 2024-09-22 22:08:05 UTC*
+*Report built at 2024-09-22 23:07:52 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1168 issues</summary>
+<details><summary>1169 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -5140,6 +5140,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/273130731'>haskellPackages.mptcp.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/273436172'>haskellPackages.nix-serve-ng.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -17485,7 +17491,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>154 issues</summary>
+<details><summary>143 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -17543,13 +17549,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/273436273'>bundix.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/273436174'>cabal2nix.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -17592,13 +17591,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/273436297'>darwin-tested</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/273436222'>darwin.linux-builder-x86_64.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -17613,13 +17605,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/273436335'>darwin.linux-builder.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/273413676'>dendrite.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -17628,13 +17613,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/273436292'>dep2nix.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/273436321'>dydisnix.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -17729,13 +17707,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/273436172'>haskellPackages.nix-serve-ng.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -17935,13 +17906,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/273436264'>nix-bundle.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/273436220'>nix-bundle.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -17985,13 +17949,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/273436254'>nix-du.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/273436202'>nix-index.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -18124,13 +18081,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/273436162'>nix-visualize.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/273436186'>nix-visualize.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -18233,13 +18183,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/273436182'>nixos-shell.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -18425,13 +18368,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/273436236'>tests.pkg-config.defaultPkgConfigPackages.nix-main.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/273436219'>tests.pkg-config.defaultPkgConfigPackages.nix-store.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -18513,13 +18449,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/273436299'>vulnix.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
