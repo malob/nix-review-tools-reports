@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2024-09-22 22:06:02 UTC*
+*Report built at 2024-09-23 00:11:42 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>37 issues</summary>
+<details><summary>38 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -119,6 +119,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>dirstream-1.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/273095005/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/273095005/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/273095005/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/273086395'>build 273086395</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/273425706'>maintained</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>dirstream-1.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/273425706/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/273425706/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/273425706/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/273086468'>build 273086468</a>
 </li>
 </ul>
 </details>
@@ -6046,7 +6060,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>20 issues</summary>
+<details><summary>18 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -6104,13 +6118,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/273425714'>haskellPackages.ghcjs-dom-hello.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/273425709'>haskellPackages.ghcjs-dom-hello.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -6136,13 +6143,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/273425706'>maintained</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -6257,10 +6257,11 @@ Built for evals:
 <li>haskellPackages.language-ats.aarch64-linux</li>
 <li>haskellPackages.language-ats.x86_64-darwin</li>
 <li>haskellPackages.language-ats.x86_64-linux</li>
+<li>maintained</li>
 </ul>
 </details>
 </td>
-<td>16</td>
+<td>17</td>
 </tr>
 <tr>
 <td>
