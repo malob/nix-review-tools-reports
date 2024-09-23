@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2024-09-23 10:06:20 UTC*
+*Report built at 2024-09-23 11:06:19 UTC*
 
 Built for evals:
 
@@ -3787,7 +3787,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>68 issues</summary>
+<details><summary>69 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -4165,6 +4165,53 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>ghc-8.10.7</tt> <br /> <a href='https://hydra.nixos.org/build/273094029/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/273094029/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/273094029/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/273099725'>build 273099725</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/273091325'>haskell.packages.ghc981.haskell-language-server.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cancelled</b> <tt>floskell-0.11.1</tt> <br /> <a href='https://hydra.nixos.org/build/273091325/nixlog/86'>log</a>, <a href='https://hydra.nixos.org/build/273091325/nixlog/86/raw'>raw</a>, <a href='https://hydra.nixos.org/build/273091325/nixlog/86/tail'>tail</a>
+</li>
+<li>
+<b>=> Cancelled</b> <tt>genvalidity-property-1.0.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/273091325/nixlog/84'>log</a>, <a href='https://hydra.nixos.org/build/273091325/nixlog/84/raw'>raw</a>, <a href='https://hydra.nixos.org/build/273091325/nixlog/84/tail'>tail</a>
+</li>
+<li>
+<b>=> Cancelled</b> <tt>hie-bios-0.14.0</tt> <br /> <a href='https://hydra.nixos.org/build/273091325/nixlog/82'>log</a>, <a href='https://hydra.nixos.org/build/273091325/nixlog/82/raw'>raw</a>, <a href='https://hydra.nixos.org/build/273091325/nixlog/82/tail'>tail</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>tomland-1.3.3.3</tt> <br /> <a href='https://hydra.nixos.org/build/273091325/nixlog/81'>log</a>, <a href='https://hydra.nixos.org/build/273091325/nixlog/81/raw'>raw</a>, <a href='https://hydra.nixos.org/build/273091325/nixlog/81/tail'>tail</a>
+</li>
+<li>
+<b>=> Cancelled</b> <tt>regex-pcre-builtin-0.95.2.3.8.44</tt> <br /> <a href='https://hydra.nixos.org/build/273091325/nixlog/78'>log</a>, <a href='https://hydra.nixos.org/build/273091325/nixlog/78/raw'>raw</a>, <a href='https://hydra.nixos.org/build/273091325/nixlog/78/tail'>tail</a>
+</li>
+<li>
+<b>=> Cancelled</b> <tt>hspec-attoparsec-0.1.0.2</tt> <br /> <a href='https://hydra.nixos.org/build/273091325/nixlog/67'>log</a>, <a href='https://hydra.nixos.org/build/273091325/nixlog/67/raw'>raw</a>, <a href='https://hydra.nixos.org/build/273091325/nixlog/67/tail'>tail</a>
+</li>
+<li>
+<b>=> Cancelled</b> <tt>primes-0.2.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/273091325/nixlog/63'>log</a>, <a href='https://hydra.nixos.org/build/273091325/nixlog/63/raw'>raw</a>, <a href='https://hydra.nixos.org/build/273091325/nixlog/63/tail'>tail</a>
+</li>
+<li>
+<b>=> Cancelled</b> <tt>direct-sqlite-2.3.29</tt> <br /> <a href='https://hydra.nixos.org/build/273091325/nixlog/60'>log</a>, <a href='https://hydra.nixos.org/build/273091325/nixlog/60/raw'>raw</a>, <a href='https://hydra.nixos.org/build/273091325/nixlog/60/tail'>tail</a>
+</li>
+<li>
+<b>=> Cancelled</b> <tt>time-locale-compat-0.1.1.5</tt> <br /> <a href='https://hydra.nixos.org/build/273091325/nixlog/58'>log</a>, <a href='https://hydra.nixos.org/build/273091325/nixlog/58/raw'>raw</a>, <a href='https://hydra.nixos.org/build/273091325/nixlog/58/tail'>tail</a>
+</li>
+<li>
+<b>=> Cancelled</b> <tt>heaps-0.4</tt> <br /> <a href='https://hydra.nixos.org/build/273091325/nixlog/53'>log</a>, <a href='https://hydra.nixos.org/build/273091325/nixlog/53/raw'>raw</a>, <a href='https://hydra.nixos.org/build/273091325/nixlog/53/tail'>tail</a>
+</li>
+<li>
+<b>=> Cancelled</b> <tt>lucid-2.11.20230408</tt> <br /> <a href='https://hydra.nixos.org/build/273091325/nixlog/51'>log</a>, <a href='https://hydra.nixos.org/build/273091325/nixlog/51/raw'>raw</a>, <a href='https://hydra.nixos.org/build/273091325/nixlog/51/tail'>tail</a>
+</li>
+<li>
+<b>=> Cancelled</b> <tt>ghc-exactprint-1.8.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/273091325/nixlog/49'>log</a>, <a href='https://hydra.nixos.org/build/273091325/nixlog/49/raw'>raw</a>, <a href='https://hydra.nixos.org/build/273091325/nixlog/49/tail'>tail</a>
 </li>
 </ul>
 </details>
@@ -5897,7 +5944,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>19 issues</summary>
+<details><summary>16 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -5969,13 +6016,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/273091325'>haskell.packages.ghc981.haskell-language-server.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/273438435'>ihaskell.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -5994,20 +6034,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/273438434'>nixosTests.xmonad-xdg-autostart.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/273438439'>nixosTests.xmonad-xdg-autostart.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -6329,6 +6355,126 @@ Built for evals:
 <details><summary><tt>aarch64-linux vector-0.13.1.0</tt></summary>
 <ul>
 <li>elmPackages.elm-format.aarch64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>aarch64-linux floskell-0.11.1</tt></summary>
+<ul>
+<li>haskell.packages.ghc981.haskell-language-server.aarch64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>aarch64-linux genvalidity-property-1.0.0.0</tt></summary>
+<ul>
+<li>haskell.packages.ghc981.haskell-language-server.aarch64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>aarch64-linux hie-bios-0.14.0</tt></summary>
+<ul>
+<li>haskell.packages.ghc981.haskell-language-server.aarch64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>aarch64-linux tomland-1.3.3.3</tt></summary>
+<ul>
+<li>haskell.packages.ghc981.haskell-language-server.aarch64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>aarch64-linux regex-pcre-builtin-0.95.2.3.8.44</tt></summary>
+<ul>
+<li>haskell.packages.ghc981.haskell-language-server.aarch64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>aarch64-linux hspec-attoparsec-0.1.0.2</tt></summary>
+<ul>
+<li>haskell.packages.ghc981.haskell-language-server.aarch64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>aarch64-linux primes-0.2.1.0</tt></summary>
+<ul>
+<li>haskell.packages.ghc981.haskell-language-server.aarch64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>aarch64-linux direct-sqlite-2.3.29</tt></summary>
+<ul>
+<li>haskell.packages.ghc981.haskell-language-server.aarch64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>aarch64-linux time-locale-compat-0.1.1.5</tt></summary>
+<ul>
+<li>haskell.packages.ghc981.haskell-language-server.aarch64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>aarch64-linux heaps-0.4</tt></summary>
+<ul>
+<li>haskell.packages.ghc981.haskell-language-server.aarch64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>aarch64-linux lucid-2.11.20230408</tt></summary>
+<ul>
+<li>haskell.packages.ghc981.haskell-language-server.aarch64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>aarch64-linux ghc-exactprint-1.8.0.0</tt></summary>
+<ul>
+<li>haskell.packages.ghc981.haskell-language-server.aarch64-linux</li>
 </ul>
 </details>
 </td>
