@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2024-09-25 17:06:04 UTC*
+*Report built at 2024-09-25 18:05:44 UTC*
 
 Built for evals:
 
@@ -1151,7 +1151,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>20383 issues</summary>
+<details><summary>20382 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -2564,13 +2564,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/273447828'>haskell.compiler.native-bignum.ghcHEAD.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
