@@ -4,7 +4,7 @@ categories: nixos:release-24.05
 ---
 # Evals report
 
-*Report built at 2024-09-25 20:09:12 UTC*
+*Report built at 2024-09-25 21:09:24 UTC*
 
 Built for evals:
 
@@ -13897,7 +13897,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>386 issues</summary>
+<details><summary>385 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -16539,13 +16539,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/273924785'>nixpkgs.manual</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/273924905'>nixpkgs.metrics</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
