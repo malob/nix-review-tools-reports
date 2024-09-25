@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2024-09-25 13:11:05 UTC*
+*Report built at 2024-09-25 14:06:26 UTC*
 
 Built for evals:
 
@@ -1151,7 +1151,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>20390 issues</summary>
+<details><summary>20387 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -2448,13 +2448,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/273464250'>haskell.compiler.native-bignum.ghc925.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/273445126'>haskell.compiler.native-bignum.ghc925.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -2504,13 +2497,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/273458368'>haskell.compiler.native-bignum.ghc94.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/273452696'>haskell.compiler.native-bignum.ghc945.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -2543,13 +2529,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/273448753'>haskell.compiler.native-bignum.ghc948.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
