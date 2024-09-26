@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.05-darwin
 ---
 # Evals report
 
-*Report built at 2024-09-26 05:08:24 UTC*
+*Report built at 2024-09-26 06:09:02 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1173 issues</summary>
+<details><summary>1174 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -6167,6 +6167,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/273946369'>papers.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/273143477'>particl-core.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -9394,7 +9400,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1043 issues</summary>
+<details><summary>1044 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -14588,6 +14594,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/273946361'>papers.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/273156152'>particl-core.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -17593,7 +17605,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>12 issues</summary>
+<details><summary>4 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -17602,45 +17614,10 @@ Built for evals:
 </tr></thead>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/273946360'>coqPackages.hierarchy-builder.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/273946367'>coqPackages.hierarchy-builder.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/273946359'>coqPackages.mathcomp-analysis.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/273946362'>coqPackages.mathcomp-analysis.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/273946358'>coqPackages.mathcomp-classical.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/273946355'>coqPackages.mathcomp-classical.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -17662,27 +17639,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/273946370'>metrics</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/273946361'>papers.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/273946369'>papers.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 </table>
 </details>
