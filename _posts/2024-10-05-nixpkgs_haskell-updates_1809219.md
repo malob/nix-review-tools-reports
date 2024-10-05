@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:haskell-updates 1809219
+title: nixpkgs:haskell-updates 1809219 (succeeded)
 categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2024-10-05 17:05:14 UTC*
+*Report built at 2024-10-05 18:05:47 UTC*
 
 Built for evals:
 
@@ -2273,41 +2273,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/273459662'>haskellPackages.yoga.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>3 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/274462407'>haskellPackages.hgdal.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/274462409'>haskellPackages.hgdal.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/274462397'>pkgsCross.riscv64.haskell.compiler.ghc948.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
