@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:nixpkgs-24.05-darwin 1809210
+title: nixpkgs:nixpkgs-24.05-darwin 1809210 (succeeded)
 categories: nixpkgs:nixpkgs-24.05-darwin
 ---
 # Evals report
 
-*Report built at 2024-10-05 08:08:02 UTC*
+*Report built at 2024-10-05 09:07:22 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1221 issues</summary>
+<details><summary>1222 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -9833,6 +9833,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/274377450'>tests.trivial-builders.references.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/273152537'>xmoto.x86_64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -9850,7 +9856,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1049 issues</summary>
+<details><summary>1050 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -18068,6 +18074,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/274377455'>tests.trivial-builders.references.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/273117276'>volantes-cursors.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -18077,55 +18089,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/273171607'>xmoto.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>5 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/274377458'>darwin-tested</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/274377456'>darwin.linux-builder-x86_64.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/274377464'>darwin.linux-builder.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/274377455'>tests.trivial-builders.references.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/274377450'>tests.trivial-builders.references.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 </table>
 </details>
