@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2024-10-05 14:05:50 UTC*
+*Report built at 2024-10-05 17:05:14 UTC*
 
 Built for evals:
 
@@ -15,12 +15,18 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>3 issues</summary>
+<details><summary>4 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 </tr></thead>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/274462401'>pkgsCross.riscv64.haskell.compiler.ghc8107.x86_64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/273456555'>haskellPackages.duckdb-haskell.x86_64-linux</a></tt>
@@ -2275,20 +2281,13 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>6 issues</summary>
+<details><summary>3 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/273453095'>haskell.packages.ghc902.cabal2nix.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/274462407'>haskellPackages.hgdal.aarch64-darwin</a></tt>
@@ -2302,20 +2301,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/274462403'>maintained</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/274462401'>pkgsCross.riscv64.haskell.compiler.ghc8107.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
