@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2024-10-07 07:05:16 UTC*
+*Report built at 2024-10-07 08:06:15 UTC*
 
 Built for evals:
 
@@ -220,7 +220,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>135 issues</summary>
+<details><summary>138 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -1124,6 +1124,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/274494180'>haskellPackages.dbus-th-introspection.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/274495483'>haskellPackages.diagrams-pandoc.x86_64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -1179,6 +1185,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/274501739'>haskellPackages.http-io-streams.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/274494332'>haskellPackages.nspace.x86_64-darwin</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -1269,6 +1281,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/274494894'>haskellPackages.ptera.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/274494382'>haskellPackages.push-notify-apn.x86_64-darwin</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -2475,7 +2493,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>3733 issues</summary>
+<details><summary>3727 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -2754,13 +2772,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/274625067'>echidna.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -3888,13 +3899,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/274493788'>haskell.packages.ghc966.haskell-language-server.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -12116,13 +12120,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/274494180'>haskellPackages.dbus-th-introspection.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/274496473'>haskellPackages.dde.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -15242,13 +15239,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/274493737'>haskellPackages.haskell-language-server.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -19795,13 +19785,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/274494332'>haskellPackages.nspace.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/274500837'>haskellPackages.number-length.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -21598,13 +21581,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/274494382'>haskellPackages.push-notify-apn.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
