@@ -4,7 +4,7 @@ categories: nixos:release-24.05
 ---
 # Evals report
 
-*Report built at 2024-10-08 02:32:02 UTC*
+*Report built at 2024-10-08 03:14:18 UTC*
 
 Built for evals:
 
@@ -8818,7 +8818,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>1014 issues</summary>
+<details><summary>1017 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -16876,6 +16876,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/274369808'>nixos.tests.enlightenment.aarch64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/274377095'>nixos.tests.firefox-esr-115.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -16889,6 +16895,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/274375108'>nixos.tests.grub.aarch64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/274632515'>nixos.tests.image-contents.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -16955,6 +16967,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/274375375'>nixos.tests.installed-tests.flatpak.aarch64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/274632611'>nixos.tests.installer.fullDiskEncryption.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -17139,7 +17157,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>441 issues</summary>
+<details><summary>433 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -17260,13 +17278,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/274632846'>nixos.iso_gnome.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/274632693'>nixos.iso_gnome.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -17281,24 +17292,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/274632937'>nixos.iso_minimal_new_kernel_no_zfs.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/274632918'>nixos.iso_minimal_new_kernel_no_zfs.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/274632513'>nixos.iso_plasma5.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -18114,13 +18111,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/274632816'>nixos.tests.allDrivers.kexec.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/274632777'>nixos.tests.allDrivers.kexec.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -18324,13 +18314,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/274632582'>nixos.tests.boot.uefiNetboot.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/274632758'>nixos.tests.boot.uefiNetboot.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -18440,13 +18423,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/274632515'>nixos.tests.image-contents.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -18884,13 +18860,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/274632611'>nixos.tests.installer.fullDiskEncryption.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/274632390'>nixos.tests.installer.fullDiskEncryption.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -19014,13 +18983,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/274632822'>nixos.tests.kexec.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
