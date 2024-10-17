@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.05-darwin
 ---
 # Evals report
 
-*Report built at 2024-10-17 21:07:44 UTC*
+*Report built at 2024-10-17 22:07:45 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1214 issues</summary>
+<details><summary>1215 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -1765,6 +1765,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>paperless-ngx-frontend-2.10.2</tt> <br /> <a href='https://hydra.nixos.org/build/274335465/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/274335465/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/274335465/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/272698593'>build 272698593</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/275532379'>pentestgpt.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.11-pytest-examples-0.0.10</tt> <br /> <a href='https://hydra.nixos.org/build/275532379/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/275532379/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/275532379/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/272700442'>build 272700442</a>
 </li>
 </ul>
 </details>
@@ -17833,7 +17847,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>128 issues</summary>
+<details><summary>117 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -17878,13 +17892,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/275532341'>ansible-navigator.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/275532327'>ansible.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -18108,13 +18115,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/275532371'>pdm.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/275532394'>pdm.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -18126,13 +18126,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/275532379'>pentestgpt.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -18227,13 +18220,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/275532316'>python311Packages.ansible-kernel.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/275532319'>python311Packages.ansible-navigator.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -18255,13 +18241,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/275532339'>python311Packages.ansible-runner.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/275532268'>python311Packages.ansible-vault-rw.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -18280,13 +18259,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/275532374'>python311Packages.awswrangler.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -18346,13 +18318,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/275532301'>python311Packages.beanhub-import.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/275532364'>python311Packages.canmatrix.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -18392,13 +18357,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/275532388'>python311Packages.dissect-cobaltstrike.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -18458,13 +18416,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/275532317'>python311Packages.gremlinpython.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/275532273'>python311Packages.hypothesmith.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -18497,13 +18448,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/275532375'>python311Packages.ldfparser.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -18616,13 +18560,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/275532367'>python311Packages.radish-bdd.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -18987,6 +18924,23 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/272700442'>x86_64-darwin python3.11-pytest-examples-0.0.10</a></tt></summary>
+<ul>
+<li>pentestgpt.x86_64-darwin</li>
+<li>python311Packages.instructor.x86_64-darwin</li>
+<li>python311Packages.langchain-chroma.x86_64-darwin</li>
+<li>python311Packages.langchain-community.x86_64-darwin</li>
+<li>python311Packages.langchain-core.x86_64-darwin</li>
+<li>python311Packages.langchain-text-splitters.x86_64-darwin</li>
+<li>python311Packages.langsmith.x86_64-darwin</li>
+<li>shell-gpt.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>8</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/272483793'>aarch64-darwin python3.12-xmlschema-3.3.1</a></tt></summary>
 <ul>
 <li>python312Packages.fints.aarch64-darwin</li>
@@ -19001,22 +18955,6 @@ Built for evals:
 </details>
 </td>
 <td>8</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/272700442'>x86_64-darwin python3.11-pytest-examples-0.0.10</a></tt></summary>
-<ul>
-<li>python311Packages.instructor.x86_64-darwin</li>
-<li>python311Packages.langchain-chroma.x86_64-darwin</li>
-<li>python311Packages.langchain-community.x86_64-darwin</li>
-<li>python311Packages.langchain-core.x86_64-darwin</li>
-<li>python311Packages.langchain-text-splitters.x86_64-darwin</li>
-<li>python311Packages.langsmith.x86_64-darwin</li>
-<li>shell-gpt.x86_64-darwin</li>
-</ul>
-</details>
-</td>
-<td>7</td>
 </tr>
 <tr>
 <td>
