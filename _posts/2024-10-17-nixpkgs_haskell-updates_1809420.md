@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2024-10-17 20:05:32 UTC*
+*Report built at 2024-10-17 22:05:53 UTC*
 
 Built for evals:
 
@@ -38,11 +38,11 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
-<tt><a href='https://hydra.nixos.org/build/275139988'>haskell.packages.ghc982.cabal2nix.x86_64-linux</a></tt>
+<tt><a href='https://hydra.nixos.org/build/275522643'>haskell.packages.ghc9101.haskell-language-server.x86_64-linux</a></tt>
 </summary>
 <ul>
 <li>
-<b>=> Failed</b> <tt>foundation-0.0.30</tt> <br /> <a href='https://hydra.nixos.org/build/275139988/nixlog/8'>log</a>, <a href='https://hydra.nixos.org/build/275139988/nixlog/8/raw'>raw</a>, <a href='https://hydra.nixos.org/build/275139988/nixlog/8/tail'>tail</a>, <a href='https://hydra.nixos.org/build/275137357'>build 275137357</a>
+<b>=> Failed</b> <tt>extensions-0.1.0.3</tt> <br /> <a href='https://hydra.nixos.org/build/275522643/nixlog/214'>log</a>, <a href='https://hydra.nixos.org/build/275522643/nixlog/214/raw'>raw</a>, <a href='https://hydra.nixos.org/build/275522643/nixlog/214/tail'>tail</a>
 </li>
 </ul>
 </details>
@@ -262,7 +262,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>35 issues</summary>
+<details><summary>34 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -304,20 +304,6 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>extensions-0.1.0.3</tt> <br /> <a href='https://hydra.nixos.org/build/275522624/nixlog/217'>log</a>, <a href='https://hydra.nixos.org/build/275522624/nixlog/217/raw'>raw</a>, <a href='https://hydra.nixos.org/build/275522624/nixlog/217/tail'>tail</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/275139800'>haskell.packages.ghc981.haskell-language-server.aarch64-linux</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Failed</b> <tt>hspec-api-2.11.9</tt> <br /> <a href='https://hydra.nixos.org/build/275139800/nixlog/49'>log</a>, <a href='https://hydra.nixos.org/build/275139800/nixlog/49/raw'>raw</a>, <a href='https://hydra.nixos.org/build/275139800/nixlog/49/tail'>tail</a>
 </li>
 </ul>
 </details>
@@ -637,13 +623,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/275522643'>haskell.packages.ghc9101.haskell-language-server.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/275522641'>haskell.packages.ghc925.cabal2nix-unstable.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -763,7 +742,21 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/275139800'>haskell.packages.ghc981.haskell-language-server.aarch64-linux</a></tt>
+</td>
+<td>Queued</td>
+<th>aarch64-linux</th>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/275522689'>haskell.packages.ghc982.cabal2nix-unstable.x86_64-linux</a></tt>
+</td>
+<td>Queued</td>
+<th>x86_64-linux</th>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/275139988'>haskell.packages.ghc982.cabal2nix.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -781,13 +774,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/275522694'>haskellPackages.gi-adwaita.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -966,15 +952,25 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt>aarch64-linux extensions-0.1.0.3</tt></summary>
+<ul>
+<li>haskell.packages.ghc9101.haskell-language-server.aarch64-linux</li>
+<li>haskell.packages.ghc9101.haskell-language-server.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/275137357'>x86_64-linux foundation-0.0.30</a></tt></summary>
 <ul>
-<li>haskell.packages.ghc982.cabal2nix.x86_64-linux</li>
 <li>haskell.packages.ghc982.hoogle.x86_64-linux</li>
 <li>haskell.packages.ghc982.hpack.x86_64-linux</li>
 </ul>
 </details>
 </td>
-<td>3</td>
+<td>2</td>
 </tr>
 <tr>
 <td>
@@ -1000,29 +996,9 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt>aarch64-linux extensions-0.1.0.3</tt></summary>
-<ul>
-<li>haskell.packages.ghc9101.haskell-language-server.aarch64-linux</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
 <details><summary><tt>aarch64-linux warp-3.3.31</tt></summary>
 <ul>
 <li>haskell.packages.ghc8107.hoogle.aarch64-linux</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>aarch64-linux hspec-api-2.11.9</tt></summary>
-<ul>
-<li>haskell.packages.ghc981.haskell-language-server.aarch64-linux</li>
 </ul>
 </details>
 </td>
