@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2024-10-18 16:05:26 UTC*
+*Report built at 2024-10-18 17:06:09 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>25 issues</summary>
+<details><summary>23 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -29,34 +29,6 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>extensions-0.1.0.3</tt> <br /> <a href='https://hydra.nixos.org/build/275522643/nixlog/214'>log</a>, <a href='https://hydra.nixos.org/build/275522643/nixlog/214/raw'>raw</a>, <a href='https://hydra.nixos.org/build/275522643/nixlog/214/tail'>tail</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/275141367'>haskell.packages.ghc982.hoogle.x86_64-linux</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Failed</b> <tt>foundation-0.0.30</tt> <br /> <a href='https://hydra.nixos.org/build/275141367/nixlog/11'>log</a>, <a href='https://hydra.nixos.org/build/275141367/nixlog/11/raw'>raw</a>, <a href='https://hydra.nixos.org/build/275141367/nixlog/11/tail'>tail</a>, <a href='https://hydra.nixos.org/build/275137357'>build 275137357</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/275137357'>haskell.packages.ghc982.hpack.x86_64-linux</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Failed</b> <tt>foundation-0.0.30</tt> <br /> <a href='https://hydra.nixos.org/build/275137357/nixlog/18'>log</a>, <a href='https://hydra.nixos.org/build/275137357/nixlog/18/raw'>raw</a>, <a href='https://hydra.nixos.org/build/275137357/nixlog/18/tail'>tail</a>
 </li>
 </ul>
 </details>
@@ -234,26 +206,12 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>32 issues</summary>
+<details><summary>31 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 </tr></thead>
-<tr>
-<td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/275144907'>haskell.packages.ghc8107.hoogle.aarch64-linux</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Failed</b> <tt>warp-3.3.31</tt> <br /> <a href='https://hydra.nixos.org/build/275144907/nixlog/40'>log</a>, <a href='https://hydra.nixos.org/build/275144907/nixlog/40/raw'>raw</a>, <a href='https://hydra.nixos.org/build/275144907/nixlog/40/tail'>tail</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
 <tr>
 <td>
 <details><summary>
@@ -495,7 +453,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>10 issues</summary>
+<details><summary>12 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -511,7 +469,28 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/275144907'>haskell.packages.ghc8107.hoogle.aarch64-linux</a></tt>
+</td>
+<td>Queued</td>
+<th>aarch64-linux</th>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/275522629'>haskell.packages.ghc947.cabal2nix-unstable.x86_64-linux</a></tt>
+</td>
+<td>Queued</td>
+<th>x86_64-linux</th>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/275141367'>haskell.packages.ghc982.hoogle.x86_64-linux</a></tt>
+</td>
+<td>Queued</td>
+<th>x86_64-linux</th>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/275137357'>haskell.packages.ghc982.hpack.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -543,13 +522,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/275522645'>haskellPackages.jsaddle-webkit2gtk.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -607,17 +579,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/275137357'>x86_64-linux foundation-0.0.30</a></tt></summary>
-<ul>
-<li>haskell.packages.ghc982.hoogle.x86_64-linux</li>
-<li>haskell.packages.ghc982.hpack.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>2</td>
-</tr>
-<tr>
-<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/275136357'>aarch64-linux phonetic-languages-phonetics-basics-0.11.0.0</a></tt></summary>
 <ul>
 <li>haskellPackages.phladiprelio-general-shared.aarch64-linux</li>
@@ -637,16 +598,6 @@ Built for evals:
 </details>
 </td>
 <td>2</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>aarch64-linux warp-3.3.31</tt></summary>
-<ul>
-<li>haskell.packages.ghc8107.hoogle.aarch64-linux</li>
-</ul>
-</details>
-</td>
-<td>1</td>
 </tr>
 <tr>
 <td>
