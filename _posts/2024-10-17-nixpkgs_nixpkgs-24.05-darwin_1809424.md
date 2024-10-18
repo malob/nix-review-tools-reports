@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.05-darwin
 ---
 # Evals report
 
-*Report built at 2024-10-18 12:11:07 UTC*
+*Report built at 2024-10-18 13:12:58 UTC*
 
 Built for evals:
 
@@ -9792,7 +9792,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1045 issues</summary>
+<details><summary>1046 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -10622,6 +10622,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>kicad-base-8.0.2</tt> <br /> <a href='https://hydra.nixos.org/build/275532396/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/275532396/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/275532396/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/272549198'>build 272549198</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/275532298'>kicadAddons.kikit.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>kicad-base-8.0.2</tt> <br /> <a href='https://hydra.nixos.org/build/275532298/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/275532298/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/275532298/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/272549198'>build 272549198</a>
 </li>
 </ul>
 </details>
@@ -17971,7 +17985,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>33 issues</summary>
+<details><summary>28 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -17994,13 +18008,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/275532324'>ansible_2_15.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/275532286'>ansible_2_15.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -18008,21 +18015,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/275532325'>ansible_2_16.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/275532355'>beancount-black.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/275532310'>beanhub-cli.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -18050,13 +18043,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/275532298'>kicadAddons.kikit.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/275532389'>kicadAddons.kikit.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -18065,13 +18051,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/275532381'>kikit.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/275532292'>mattermost.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -18632,6 +18611,20 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/272549198'>aarch64-darwin kicad-base-8.0.2</a></tt></summary>
+<ul>
+<li>kicadAddons.kikit-library.aarch64-darwin</li>
+<li>kicadAddons.kikit.aarch64-darwin</li>
+<li>kikit.x86_64-darwin</li>
+<li>python311Packages.pcbnewtransition.aarch64-darwin</li>
+<li>python311Packages.pcbnewtransition.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>5</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/272510186'>aarch64-darwin z3-4.8.17</a></tt></summary>
 <ul>
 <li>libbap.aarch64-darwin</li>
@@ -18769,19 +18762,6 @@ Built for evals:
 <li>jazzy.x86_64-darwin</li>
 <li>timetrap.aarch64-darwin</li>
 <li>timetrap.x86_64-darwin</li>
-</ul>
-</details>
-</td>
-<td>4</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/272549198'>aarch64-darwin kicad-base-8.0.2</a></tt></summary>
-<ul>
-<li>kicadAddons.kikit-library.aarch64-darwin</li>
-<li>kikit.x86_64-darwin</li>
-<li>python311Packages.pcbnewtransition.aarch64-darwin</li>
-<li>python311Packages.pcbnewtransition.x86_64-darwin</li>
 </ul>
 </details>
 </td>
