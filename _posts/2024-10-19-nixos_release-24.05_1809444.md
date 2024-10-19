@@ -4,7 +4,7 @@ categories: nixos:release-24.05
 ---
 # Evals report
 
-*Report built at 2024-10-19 14:07:49 UTC*
+*Report built at 2024-10-19 15:10:02 UTC*
 
 Built for evals:
 
@@ -1101,12 +1101,6 @@ Built for evals:
 </details>
 </td>
 <td>Dependency failed</td>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/275530260'>nixos.tests.aesmd.x86_64-linux</a></tt>
-</td>
-<td>Failed</td>
 </tr>
 <tr>
 <td>
@@ -6753,6 +6747,12 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/272912927'>nixpkgs.zluda.x86_64-linux</a></tt>
 </td>
 <td>Output size limit exceeded</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/275526012'>nixos.tests.breitbandmessung.x86_64-linux</a></tt>
+</td>
+<td>Timed out</td>
 </tr>
 <tr>
 <td>
