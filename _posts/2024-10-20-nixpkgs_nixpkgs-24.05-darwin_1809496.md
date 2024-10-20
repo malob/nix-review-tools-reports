@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.05-darwin
 ---
 # Evals report
 
-*Report built at 2024-10-20 08:09:37 UTC*
+*Report built at 2024-10-20 10:09:07 UTC*
 
 Built for evals:
 
@@ -9808,7 +9808,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1043 issues</summary>
+<details><summary>1044 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -10764,6 +10764,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>zig-0.10.1</tt> <br /> <a href='https://hydra.nixos.org/build/273166168/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/273166168/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/273166168/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/272514813'>build 272514813</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/275955996'>lixStatic.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>libiconv-static-aarch64-apple-darwin-99</tt> <br /> <a href='https://hydra.nixos.org/build/275955996/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/275955996/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/275955996/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/272540997'>build 272540997</a>
 </li>
 </ul>
 </details>
@@ -17983,7 +17997,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>22 issues</summary>
+<details><summary>21 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -18014,13 +18028,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/275955992'>lix.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/275955996'>lixStatic.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -19283,6 +19290,17 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/272540997'>aarch64-darwin libiconv-static-aarch64-apple-darwin-99</a></tt></summary>
+<ul>
+<li>lixStatic.aarch64-darwin</li>
+<li>nixStatic.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/272492328'>aarch64-darwin lua5.1-lua-resty-jwt-0.2.3-0</a></tt></summary>
 <ul>
 <li>lua51Packages.lua-resty-openidc.aarch64-darwin</li>
@@ -19901,16 +19919,6 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/272628173'>x86_64-darwin fflas-ffpack-2.5.0</a></tt></summary>
 <ul>
 <li>linbox.x86_64-darwin</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/272540997'>aarch64-darwin libiconv-static-aarch64-apple-darwin-99</a></tt></summary>
-<ul>
-<li>nixStatic.aarch64-darwin</li>
 </ul>
 </details>
 </td>
