@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2024-10-21 15:05:07 UTC*
+*Report built at 2024-10-21 16:05:32 UTC*
 
 Built for evals:
 
@@ -226,12 +226,54 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>29 issues</summary>
+<details><summary>33 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 </tr></thead>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/275973512'>haskell.packages.ghc983.ghc-lib-parser-ex.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>ghc-lib-parser-9.8.2.20240223</tt> <br /> <a href='https://hydra.nixos.org/build/275973512/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/275973512/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/275973512/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/275973525'>build 275973525</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/275973490'>haskell.packages.ghc983.ghc-lib.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>ghc-lib-parser-9.8.2.20240223</tt> <br /> <a href='https://hydra.nixos.org/build/275973490/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/275973490/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/275973490/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/275973525'>build 275973525</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/275973477'>haskell.packages.ghc983.haskell-language-server.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>ghc-lib-parser-9.8.2.20240223</tt> <br /> <a href='https://hydra.nixos.org/build/275973477/nixlog/36'>log</a>, <a href='https://hydra.nixos.org/build/275973477/nixlog/36/raw'>raw</a>, <a href='https://hydra.nixos.org/build/275973477/nixlog/36/tail'>tail</a>, <a href='https://hydra.nixos.org/build/275973525'>build 275973525</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
 <tr>
 <td>
 <details><summary>
@@ -301,6 +343,12 @@ Built for evals:
 </details>
 </td>
 <td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/275973525'>haskell.packages.ghc983.ghc-lib-parser.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
 </tr>
 <tr>
 <td>
@@ -453,27 +501,13 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>27 issues</summary>
+<details><summary>6 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/275973511'>haskell.compiler.ghc98.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/275973493'>haskell.compiler.ghc983.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/275828009'>haskell.packages.ghc8107.titlecase.aarch64-linux</a></tt>
@@ -490,62 +524,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/275973474'>haskell.packages.ghc983.Cabal_3_12_1_0.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/275973523'>haskell.packages.ghc983.cabal-install.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/275973481'>haskell.packages.ghc983.cabal2nix-unstable.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/275973497'>haskell.packages.ghc983.cabal2nix.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/275973482'>haskell.packages.ghc983.funcmp.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/275973512'>haskell.packages.ghc983.ghc-lib-parser-ex.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/275973525'>haskell.packages.ghc983.ghc-lib-parser.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/275973490'>haskell.packages.ghc983.ghc-lib.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/275973498'>haskell.packages.ghc983.ghc-lib.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -553,87 +531,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/275973501'>haskell.packages.ghc983.hashable.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/275973477'>haskell.packages.ghc983.haskell-language-server.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/275973515'>haskell.packages.ghc983.hoogle.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/275973495'>haskell.packages.ghc983.hoogle.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/275973530'>haskell.packages.ghc983.hpack.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/275973476'>haskell.packages.ghc983.hsdns.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/275973521'>haskell.packages.ghc983.jailbreak-cabal.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/275973524'>haskell.packages.ghc983.language-nix.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/275973486'>haskell.packages.ghc983.nix-paths.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/275973475'>haskell.packages.ghc983.primitive.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/275973503'>haskell.packages.ghc983.titlecase.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/275973502'>haskell.packages.ghc983.weeder.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -660,6 +561,20 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/275973525'>aarch64-linux ghc-lib-parser-9.8.2.20240223</a></tt></summary>
+<ul>
+<li>haskell.packages.ghc983.ghc-lib-parser-ex.aarch64-linux</li>
+<li>haskell.packages.ghc983.ghc-lib-parser-ex.x86_64-linux</li>
+<li>haskell.packages.ghc983.ghc-lib.aarch64-linux</li>
+<li>haskell.packages.ghc983.haskell-language-server.aarch64-linux</li>
+<li>haskell.packages.ghc983.haskell-language-server.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>5</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/275133735'>aarch64-linux phladiprelio-general-datatype-0.10.1.0</a></tt></summary>
 <ul>
 <li>haskellPackages.phladiprelio-general-simple.aarch64-linux</li>
@@ -670,17 +585,6 @@ Built for evals:
 </details>
 </td>
 <td>4</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/275973485'>x86_64-linux ghc-lib-parser-9.8.2.20240223</a></tt></summary>
-<ul>
-<li>haskell.packages.ghc983.ghc-lib-parser-ex.x86_64-linux</li>
-<li>haskell.packages.ghc983.haskell-language-server.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>2</td>
 </tr>
 <tr>
 <td>
