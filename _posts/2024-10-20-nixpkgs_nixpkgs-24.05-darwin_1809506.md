@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.05-darwin
 ---
 # Evals report
 
-*Report built at 2024-10-21 06:08:24 UTC*
+*Report built at 2024-10-21 07:08:09 UTC*
 
 Built for evals:
 
@@ -18015,7 +18015,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>15 issues</summary>
+<details><summary>14 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -18112,13 +18112,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/275970566'>release-checks</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
