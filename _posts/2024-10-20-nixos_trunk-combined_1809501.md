@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2024-10-21 16:09:26 UTC*
+*Report built at 2024-10-21 17:08:26 UTC*
 
 Built for evals:
 
@@ -20996,7 +20996,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>11 issues</summary>
+<details><summary>10 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -21044,13 +21044,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/275966431'>nixpkgs.freecad-wayland.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
