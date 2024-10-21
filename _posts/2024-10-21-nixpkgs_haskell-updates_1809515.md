@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2024-10-21 07:05:09 UTC*
+*Report built at 2024-10-21 08:06:13 UTC*
 
 Built for evals:
 
@@ -419,7 +419,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>70 issues</summary>
+<details><summary>68 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -877,20 +877,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/275827995'>pkgsMusl.haskell.compiler.ghc810.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/275827993'>pkgsMusl.haskell.compiler.integer-simple.ghc8107.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/275973531'>pkgsMusl.haskell.compiler.native-bignum.ghc98.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
