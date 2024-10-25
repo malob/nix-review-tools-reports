@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:haskell-updates 1809584
+title: nixpkgs:haskell-updates 1809584 (succeeded)
 categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2024-10-25 05:04:59 UTC*
+*Report built at 2024-10-25 06:05:56 UTC*
 
 Built for evals:
 
@@ -221,27 +221,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/275143672'>haskellPackages.nspace.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/276330364'>haskellPackages.hgdal.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
