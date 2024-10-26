@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2024-10-26 14:05:03 UTC*
+*Report built at 2024-10-26 22:04:42 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>1 issues</summary>
+<details><summary>3 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -24,11 +24,39 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/276368737'>haskellPackages.nvfetcher.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.12-pycurl-7.45.3</tt> <br /> <a href='https://hydra.nixos.org/build/276368737/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/276368737/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/276368737/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/276386906'>build 276386906</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/276374279'>mergeable</a></tt>
 </summary>
 <ul>
 <li>
 <b>=> Failed</b> <tt>pantry-0.10.0</tt> <br /> <a href='https://hydra.nixos.org/build/276374279/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/276374279/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/276374279/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/276376222'>build 276376222</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/276377263'>nvfetcher.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.12-pycurl-7.45.3</tt> <br /> <a href='https://hydra.nixos.org/build/276377263/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/276377263/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/276377263/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/276386906'>build 276386906</a>
 </li>
 </ul>
 </details>
@@ -331,7 +359,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>7172 issues</summary>
+<details><summary>7170 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -32736,13 +32764,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/276368737'>haskellPackages.nvfetcher.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/276368828'>haskellPackages.nvim-hs-contrib.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -49662,13 +49683,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/276377263'>nvfetcher.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/276378761'>oama.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -50562,6 +50576,17 @@ Built for evals:
 </details>
 </td>
 <td>3</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/276386906'>x86_64-linux python3.12-pycurl-7.45.3</a></tt></summary>
+<ul>
+<li>haskellPackages.nvfetcher.x86_64-linux</li>
+<li>nvfetcher.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>2</td>
 </tr>
 <tr>
 <td>
