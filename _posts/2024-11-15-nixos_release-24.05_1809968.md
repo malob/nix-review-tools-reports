@@ -1,10 +1,10 @@
 ---
-title: nixos:release-24.05 1809968
+title: nixos:release-24.05 1809968 (succeeded)
 categories: nixos:release-24.05
 ---
 # Evals report
 
-*Report built at 2024-11-16 00:14:54 UTC*
+*Report built at 2024-11-16 01:35:49 UTC*
 
 Built for evals:
 
@@ -17583,34 +17583,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/277503744'>nixpkgs.ryujinx.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>2 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/278983517'>nixpkgs.nodejs-slim_22.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/278986903'>nixpkgs.nodejs-slim_latest.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 </table>
 </details>
