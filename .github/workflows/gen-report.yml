@@ -41,9 +41,6 @@ jobs:
     - name: Install Nix
       uses: DeterminateSystems/nix-installer-action@v14
 
-    - name: Setup Nix cache
-      uses: DeterminateSystems/magic-nix-cache-action@v8
-
     # This steps gets the following values:
     # * eval_id: the ID of the jobset evaluation we are generating the report for.
     # * eval-status: `sucesses` or a unique id (this is used in creating cache ids)
@@ -86,9 +83,6 @@ jobs:
 
     - name: Install Nix
       uses: DeterminateSystems/nix-installer-action@v14
-
-    - name: Setup Nix cache
-      uses: DeterminateSystems/magic-nix-cache-action@v8
 
     # Get the most up-to-date cache of the `data` directory containing Hydra build reports
     # downloaded by `nix-review-reports` for the jobset.
