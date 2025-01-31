@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-01-31 08:08:11 UTC*
+*Report built at 2025-01-31 09:07:40 UTC*
 
 Built for evals:
 
@@ -20412,7 +20412,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>52 issues</summary>
+<details><summary>51 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -20457,13 +20457,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/287385789'>corepack_18.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/287385716'>corepack_23.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
