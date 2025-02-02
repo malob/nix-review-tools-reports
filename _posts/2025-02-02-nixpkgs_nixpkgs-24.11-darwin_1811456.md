@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-02-02 17:07:41 UTC*
+*Report built at 2025-02-02 18:07:36 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1386 issues</summary>
+<details><summary>1391 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -30,6 +30,36 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/286653380'>python311Packages.rq.x86_64-darwin</a></tt>
+</td>
+<td>Cancelled</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/287491150'>tests.devShellTools.nixos.x86_64-darwin</a></tt>
+</td>
+<td>Cancelled</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/287491275'>tests.testers.lycheeLinkCheck.network.x86_64-darwin</a></tt>
+</td>
+<td>Cancelled</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/287491172'>tests.testers.nixosTest-example.x86_64-darwin</a></tt>
+</td>
+<td>Cancelled</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/287491065'>tests.testers.runNixOSTest-example.x86_64-darwin</a></tt>
+</td>
+<td>Cancelled</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/287491269'>tests.trivial-builders.references.x86_64-darwin</a></tt>
 </td>
 <td>Cancelled</td>
 </tr>
@@ -12321,12 +12351,42 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1029 issues</summary>
+<details><summary>1034 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 </tr></thead>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/287491045'>tests.devShellTools.nixos.aarch64-darwin</a></tt>
+</td>
+<td>Cancelled</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/287491050'>tests.testers.lycheeLinkCheck.network.aarch64-darwin</a></tt>
+</td>
+<td>Cancelled</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/287491188'>tests.testers.nixosTest-example.aarch64-darwin</a></tt>
+</td>
+<td>Cancelled</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/287491204'>tests.testers.runNixOSTest-example.aarch64-darwin</a></tt>
+</td>
+<td>Cancelled</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/287491111'>tests.trivial-builders.references.aarch64-darwin</a></tt>
+</td>
+<td>Cancelled</td>
+</tr>
 <tr>
 <td>
 <details><summary>
@@ -20500,7 +20560,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>21 issues</summary>
+<details><summary>1 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -20509,147 +20569,7 @@ Built for evals:
 </tr></thead>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/287511995'>grass.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/287512101'>python311Packages.aligator.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/287512110'>python311Packages.crocoddyl.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/287512341'>python311Packages.example-robot-data.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/287512285'>python311Packages.mim-solvers.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/287512068'>python311Packages.pinocchio.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/287512327'>python311Packages.proxsuite-nlp.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/287512231'>python311Packages.tsid.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/287512078'>python312Packages.aligator.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/287512184'>python312Packages.crocoddyl.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/287512294'>python312Packages.mim-solvers.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/287491045'>tests.devShellTools.nixos.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/287491150'>tests.devShellTools.nixos.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/287491050'>tests.testers.lycheeLinkCheck.network.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/287491275'>tests.testers.lycheeLinkCheck.network.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/287491188'>tests.testers.nixosTest-example.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/287491172'>tests.testers.nixosTest-example.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/287491204'>tests.testers.runNixOSTest-example.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/287491065'>tests.testers.runNixOSTest-example.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/287491111'>tests.trivial-builders.references.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/287491269'>tests.trivial-builders.references.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
