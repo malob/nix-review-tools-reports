@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next
 ---
 # Evals report
 
-*Report built at 2025-02-06 19:32:57 UTC*
+*Report built at 2025-02-06 20:40:27 UTC*
 
 Built for evals:
 
@@ -20035,7 +20035,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>2068 issues</summary>
+<details><summary>2071 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -43876,6 +43876,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/287581188'>diffoscopeMinimal.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/287106980'>julia_19-bin.x86_64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -43946,6 +43952,18 @@ Built for evals:
 </td>
 <td>Timed out</td>
 </tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/287580854'>tests.replaceVars.replaceVarsWith.succeeds-with-exemption.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/287581000'>tests.testers.testEqualContents.nonExistentPath.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
 </table>
 </details>
 
@@ -43953,7 +43971,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>2315 issues</summary>
+<details><summary>2316 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -67492,6 +67510,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/287203842'>haskellPackages.duckdb-haskell.aarch64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/286961654'>preserves-nim.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -67527,7 +67551,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1869 issues</summary>
+<details><summary>1871 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -88617,7 +88641,19 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/287370621'>python313Packages.skyfield.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/287030475'>python313Packages.walrus.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/287579721'>tests.testers.testEqualContents.fileMissing.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -88628,7 +88664,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>3615 issues</summary>
+<details><summary>3609 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -91245,20 +91281,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/287580506'>diffoscopeMinimal.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/287581188'>diffoscopeMinimal.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -110708,13 +110730,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/287370621'>python313Packages.skyfield.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/287556140'>python313Packages.slack-bolt.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -113067,13 +113082,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/287580854'>tests.replaceVars.replaceVarsWith.succeeds-with-exemption.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/287578869'>tests.replaceVars.replaceVarsWith.succeeds.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -113256,13 +113264,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/287579721'>tests.testers.testEqualContents.fileMissing.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/287580029'>tests.testers.testEqualContents.fileMissing.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -113274,13 +113275,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/287581000'>tests.testers.testEqualContents.nonExistentPath.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
