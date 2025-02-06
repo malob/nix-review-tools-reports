@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next
 ---
 # Evals report
 
-*Report built at 2025-02-06 22:43:25 UTC*
+*Report built at 2025-02-06 23:41:18 UTC*
 
 Built for evals:
 
@@ -20035,7 +20035,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>2072 issues</summary>
+<details><summary>2076 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -20043,7 +20043,31 @@ Built for evals:
 </tr></thead>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/287682680'>tests.devShellTools.nixos.x86_64-darwin</a></tt>
+</td>
+<td>Aborted</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/287683104'>tests.testers.lycheeLinkCheck.network.x86_64-darwin</a></tt>
+</td>
+<td>Aborted</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/287677507'>tests.testers.nixosTest-example.x86_64-darwin</a></tt>
+</td>
+<td>Aborted</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/287681864'>tests.testers.runNixOSTest-example.x86_64-darwin</a></tt>
+</td>
+<td>Aborted</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/287678528'>tests.trivial-builders.references.x86_64-darwin</a></tt>
 </td>
 <td>Aborted</td>
 </tr>
@@ -67557,7 +67581,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1875 issues</summary>
+<details><summary>1876 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -67566,6 +67590,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/287678963'>tests.devShellTools.nixos.aarch64-darwin</a></tt>
+</td>
+<td>Aborted</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/287681917'>tests.testers.lycheeLinkCheck.network.aarch64-darwin</a></tt>
 </td>
 <td>Aborted</td>
 </tr>
@@ -88694,7 +88724,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>3604 issues</summary>
+<details><summary>3599 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -112895,13 +112925,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/287682680'>tests.devShellTools.nixos.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/287579983'>tests.dotnet.final-attrs.check-output.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -113189,27 +113212,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/287681917'>tests.testers.lycheeLinkCheck.network.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/287683104'>tests.testers.lycheeLinkCheck.network.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/287681864'>tests.testers.runNixOSTest-example.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/287579378'>tests.testers.testEqualContents.emptyFileAndDir.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -113316,13 +113318,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/287578418'>tests.testers.testEqualContents.unequalExeInDir.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/287678528'>tests.trivial-builders.references.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
