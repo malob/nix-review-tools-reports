@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next
 ---
 # Evals report
 
-*Report built at 2025-02-06 18:40:04 UTC*
+*Report built at 2025-02-06 19:32:57 UTC*
 
 Built for evals:
 
@@ -20035,7 +20035,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>2065 issues</summary>
+<details><summary>2068 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -43906,6 +43906,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/287357293'>python312Packages.skyfield.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/287147854'>python313Packages.aiortsp.x86_64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -43925,6 +43931,18 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/286957199'>python313Packages.pydal.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/287327073'>python313Packages.pytm.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/287279929'>python313Packages.skyfield.x86_64-darwin</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -88610,7 +88628,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>3618 issues</summary>
+<details><summary>3615 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -103011,13 +103029,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/287357293'>python312Packages.skyfield.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/287551943'>python312Packages.slack-bolt.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -110074,13 +110085,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/287327073'>python313Packages.pytm.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/287562694'>python313Packages.pytm.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -110708,13 +110712,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/287279929'>python313Packages.skyfield.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
