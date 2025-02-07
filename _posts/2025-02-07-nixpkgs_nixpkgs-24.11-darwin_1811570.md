@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-02-07 12:08:52 UTC*
+*Report built at 2025-02-07 14:08:46 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1376 issues</summary>
+<details><summary>1377 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -3916,6 +3916,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>bazel-6.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/286623772/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/286623772/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/286623772/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/286140654'>build 286140654</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/288101432'>prowler.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.12-slack-sdk-3.33.2</tt> <br /> <a href='https://hydra.nixos.org/build/288101432/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/288101432/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/288101432/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/286443411'>build 286443411</a>
 </li>
 </ul>
 </details>
@@ -20294,7 +20308,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>346 issues</summary>
+<details><summary>342 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -20545,13 +20559,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/288101647'>go_1_22.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -20996,13 +21003,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/288101432'>prowler.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/288101501'>python311Packages.ax-platform.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -21182,13 +21182,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/288101568'>python311Packages.kaleido.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -21840,13 +21833,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/288101384'>python312Packages.kaleido.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -23725,6 +23711,18 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/286443411'>x86_64-darwin python3.12-slack-sdk-3.33.2</a></tt></summary>
+<ul>
+<li>opsdroid.x86_64-darwin</li>
+<li>prowler.x86_64-darwin</li>
+<li>python312Packages.slack-bolt.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>3</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/286623423'>aarch64-darwin python3.11-radio-beam-0.3.7</a></tt></summary>
 <ul>
 <li>python311Packages.pvextractor.aarch64-darwin</li>
@@ -24151,17 +24149,6 @@ Built for evals:
 <ul>
 <li>opensmtpd-filter-dkimsign.aarch64-darwin</li>
 <li>opensmtpd-filter-dkimsign.x86_64-darwin</li>
-</ul>
-</details>
-</td>
-<td>2</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/286443411'>x86_64-darwin python3.12-slack-sdk-3.33.2</a></tt></summary>
-<ul>
-<li>opsdroid.x86_64-darwin</li>
-<li>python312Packages.slack-bolt.x86_64-darwin</li>
 </ul>
 </details>
 </td>
