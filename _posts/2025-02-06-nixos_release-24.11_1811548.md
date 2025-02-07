@@ -1,10 +1,10 @@
 ---
-title: nixos:release-24.11 1811548
+title: nixos:release-24.11 1811548 (succeeded)
 categories: nixos:release-24.11
 ---
 # Evals report
 
-*Report built at 2025-02-07 07:08:20 UTC*
+*Report built at 2025-02-07 08:08:38 UTC*
 
 Built for evals:
 
@@ -13922,27 +13922,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/288098166'>nixos.tests.vscodium.wayland.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/288096898'>nixos.iso_plasma5.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
