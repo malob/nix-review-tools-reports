@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2025-02-07 15:08:55 UTC*
+*Report built at 2025-02-07 16:09:39 UTC*
 
 Built for evals:
 
@@ -34,7 +34,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>3224 issues</summary>
+<details><summary>3225 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -26918,6 +26918,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/287745880'>nixpkgs.python312Packages.reolink-aio.x86_64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/287761277'>nixpkgs.python313Packages.aiortsp.x86_64-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -26947,7 +26953,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>3572 issues</summary>
+<details><summary>3573 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -59581,6 +59587,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/287699980'>nixpkgs.python313Packages.pytm.aarch64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/287706569'>nixpkgs.python313Packages.reolink-aio.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -59592,7 +59604,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>6 issues</summary>
+<details><summary>4 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -59616,20 +59628,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/287816837'>nixpkgs.paraview.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/287745880'>nixpkgs.python312Packages.reolink-aio.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/287699980'>nixpkgs.python313Packages.pytm.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
