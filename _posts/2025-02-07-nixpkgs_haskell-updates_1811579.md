@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:haskell-updates 1811579
+title: nixpkgs:haskell-updates 1811579 (succeeded)
 categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-02-08 04:05:06 UTC*
+*Report built at 2025-02-08 05:04:45 UTC*
 
 Built for evals:
 
@@ -7459,48 +7459,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/288109992'>update-nix-fetchgit.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>4 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/288113640'>haskellPackages.duckdb-haskell.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/288115987'>pkgsCross.aarch64-multiplatform.haskell.compiler.ghc8107.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/288114732'>pkgsCross.riscv64.haskell.compiler.ghc8107.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/288116239'>pkgsMusl.haskell.compiler.ghc963.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
