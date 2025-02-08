@@ -1,10 +1,10 @@
 ---
-title: nixos:trunk-combined 1811581
+title: nixos:trunk-combined 1811581 (succeeded)
 categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2025-02-08 06:08:33 UTC*
+*Report built at 2025-02-08 07:07:56 UTC*
 
 Built for evals:
 
@@ -25566,7 +25566,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>3417 issues</summary>
+<details><summary>3420 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -35196,6 +35196,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>lldb-19.1.7</tt> <br /> <a href='https://hydra.nixos.org/build/287735279/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/287735279/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/287735279/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/287167326'>build 287167326</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/288121050'>nixpkgs.llvmPackages_20.lldbPlugins.llef.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>lldb-20.1.0-rc1</tt> <br /> <a href='https://hydra.nixos.org/build/288121050/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/288121050/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/288121050/nixlog/3/tail'>tail</a>, <a href='https://hydra.nixos.org/build/288129549'>build 288129549</a>
 </li>
 </ul>
 </details>
@@ -49706,6 +49720,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/288121345'>nixpkgs.lldb_20.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/287713910'>nixpkgs.llvmPackages.lldb.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -49761,6 +49781,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/288124228'>nixpkgs.llvmPackages_20.libc.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/288129549'>nixpkgs.llvmPackages_20.lldb.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -56517,55 +56543,6 @@ Built for evals:
 </table>
 </details>
 
-
-### Still queued
-
-
-<details><summary>5 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/288129645'>nixos.tests.allDrivers.qgis.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/288122157'>nixos.tests.qgis.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/288121345'>nixpkgs.lldb_20.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/288129549'>nixpkgs.llvmPackages_20.lldb.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/288121050'>nixpkgs.llvmPackages_20.lldbPlugins.llef.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-</table>
-</details>
-
 ## Problematic dependencies
 
 <table>
@@ -60035,6 +60012,17 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/288129549'>aarch64-linux lldb-20.1.0-rc1</a></tt></summary>
+<ul>
+<li>nixpkgs.llvmPackages_20.lldbPlugins.llef.aarch64-linux</li>
+<li>nixpkgs.llvmPackages_20.lldbPlugins.llef.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/287093906'>x86_64-linux sgx-psw-2.25.100.3</a></tt></summary>
 <ul>
 <li>nixos.tests.aesmd.x86_64-linux</li>
@@ -62193,16 +62181,6 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/288099981'>aarch64-linux open-policy-agent-1.1.0</a></tt></summary>
 <ul>
 <li>nixpkgs.matrix-authentication-service.aarch64-linux</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/288130108'>x86_64-linux lldb-20.1.0-rc1</a></tt></summary>
-<ul>
-<li>nixpkgs.llvmPackages_20.lldbPlugins.llef.x86_64-linux</li>
 </ul>
 </details>
 </td>
