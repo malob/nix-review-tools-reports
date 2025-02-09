@@ -4,7 +4,7 @@ categories: nixos:release-24.11
 ---
 # Evals report
 
-*Report built at 2025-02-09 18:08:34 UTC*
+*Report built at 2025-02-09 19:08:36 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>1009 issues</summary>
+<details><summary>1010 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -6796,6 +6796,12 @@ Built for evals:
 </td>
 <td>Output size limit exceeded</td>
 </tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/284942373'>nixpkgs.mathemagix.x86_64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
 </table>
 </details>
 
@@ -6803,7 +6809,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>1039 issues</summary>
+<details><summary>1040 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -14800,6 +14806,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/286544260'>nixpkgs.quickwit.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/286517931'>nixpkgs.quorum.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -15117,7 +15129,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>8 issues</summary>
+<details><summary>4 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -15148,34 +15160,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/288151968'>nixos.tests.vector.syslog-quickwit.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/284942373'>nixpkgs.mathemagix.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/286544260'>nixpkgs.quickwit.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/288155399'>nixpkgs.ungoogled-chromium.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/288155436'>nixpkgs.vscode-extensions.yzane.markdown-pdf.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
