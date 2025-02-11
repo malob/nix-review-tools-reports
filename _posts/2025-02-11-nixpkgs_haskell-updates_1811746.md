@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-02-11 12:06:11 UTC*
+*Report built at 2025-02-11 13:09:18 UTC*
 
 Built for evals:
 
@@ -20599,9 +20599,8 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt>x86_64-linux aeson-2.2.3.0</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/288778402'>x86_64-linux aeson-2.2.3.0</a></tt></summary>
 <ul>
-<li>haskell.packages.ghc966.weeder.x86_64-linux</li>
 <li>haskell.packages.ghc928.cabal2nix-unstable.x86_64-linux</li>
 <li>haskell.packages.ghc928.hpack.x86_64-linux</li>
 <li>haskell.packages.ghc948.hlint.x86_64-linux</li>
@@ -20609,6 +20608,7 @@ Built for evals:
 <li>haskell.packages.ghc964.cabal2nix-unstable.x86_64-linux</li>
 <li>haskell.packages.ghc964.ghc-tags.x86_64-linux</li>
 <li>haskell.packages.ghc964.hpack.x86_64-linux</li>
+<li>haskell.packages.ghc966.weeder.x86_64-linux</li>
 </ul>
 </details>
 </td>
@@ -20633,10 +20633,10 @@ Built for evals:
 <td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/288781507'>x86_64-linux ixset-typed-0.5.1.0</a></tt></summary>
 <ul>
-<li>haskellPackages.ixset-typed-binary-instance.x86_64-linux</li>
-<li>haskellPackages.ixset-typed-hashable-instance.x86_64-linux</li>
 <li>haskellPackages.emanote.x86_64-linux</li>
 <li>haskellPackages.hOpenPGP.x86_64-linux</li>
+<li>haskellPackages.ixset-typed-binary-instance.x86_64-linux</li>
+<li>haskellPackages.ixset-typed-hashable-instance.x86_64-linux</li>
 <li>haskellPackages.shake-plus-extended.x86_64-linux</li>
 </ul>
 </details>
@@ -20647,9 +20647,9 @@ Built for evals:
 <td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/288780940'>x86_64-linux gtk3-0.15.9</a></tt></summary>
 <ul>
+<li>haskellPackages.ghc-vis.x86_64-linux</li>
 <li>haskellPackages.gtk-largeTreeStore.x86_64-linux</li>
 <li>haskellPackages.gtk-traymanager.x86_64-linux</li>
-<li>haskellPackages.ghc-vis.x86_64-linux</li>
 <li>haskellPackages.xdot.x86_64-linux</li>
 </ul>
 </details>
@@ -20660,21 +20660,9 @@ Built for evals:
 <td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/288778950'>x86_64-linux superbuffer-0.3.1.2</a></tt></summary>
 <ul>
-<li>haskellPackages.Spock-lucid.x86_64-linux</li>
 <li>haskellPackages.Spock-core.x86_64-linux</li>
+<li>haskellPackages.Spock-lucid.x86_64-linux</li>
 <li>haskellPackages.Spock.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>3</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/288778755'>x86_64-linux morpheus-graphql-tests-0.28.1</a></tt></summary>
-<ul>
-<li>haskellPackages.morpheus-graphql-app.x86_64-linux</li>
-<li>haskellPackages.morpheus-graphql-code-gen-utils.x86_64-linux</li>
-<li>haskellPackages.morpheus-graphql-core.x86_64-linux</li>
 </ul>
 </details>
 </td>
@@ -20694,6 +20682,29 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/288778755'>x86_64-linux morpheus-graphql-tests-0.28.1</a></tt></summary>
+<ul>
+<li>haskellPackages.morpheus-graphql-app.x86_64-linux</li>
+<li>haskellPackages.morpheus-graphql-code-gen-utils.x86_64-linux</li>
+<li>haskellPackages.morpheus-graphql-core.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>3</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>x86_64-linux text-metrics-0.3.3</tt></summary>
+<ul>
+<li>haskell.packages.ghc8107.hpack.x86_64-linux</li>
+<li>haskell.packages.ghc902.hpack.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt>x86_64-linux crypton-1.0.1</tt></summary>
 <ul>
 <li>haskell.packages.ghc9121.cabal2nix.x86_64-linux</li>
@@ -20709,6 +20720,17 @@ Built for evals:
 <ul>
 <li>haskell.packages.ghc927.ghc-lib.x86_64-linux</li>
 <li>haskell.packages.ghc927.ghc-tags.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>x86_64-linux some-1.0.6</tt></summary>
+<ul>
+<li>haskell.packages.ghc948.haskell-language-server.x86_64-linux</li>
+<li>haskell.packages.ghc964.cabal-install.x86_64-linux</li>
 </ul>
 </details>
 </td>
@@ -20749,31 +20771,29 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt>x86_64-linux text-metrics-0.3.3</tt></summary>
-<ul>
-<li>haskell.packages.ghc8107.hpack.x86_64-linux</li>
-<li>haskell.packages.ghc902.hpack.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>2</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>x86_64-linux some-1.0.6</tt></summary>
-<ul>
-<li>haskell.packages.ghc948.haskell-language-server.x86_64-linux</li>
-<li>haskell.packages.ghc964.cabal-install.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>2</td>
-</tr>
-<tr>
-<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/288110450'>x86_64-linux blucontrol-0.7.1.0</a></tt></summary>
 <ul>
 <li>blucontrol.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/287210590'>x86_64-linux git-annex-10.20250115-src</a></tt></summary>
+<ul>
+<li>git-annex.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/288111477'>x86_64-linux os-string-2.0.7</a></tt></summary>
+<ul>
+<li>haskell.packages.ghc8107.cabal2nix.x86_64-linux</li>
 </ul>
 </details>
 </td>
@@ -20891,6 +20911,16 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/288781091'>x86_64-linux mig-swagger-ui-0.1.0.1</a></tt></summary>
+<ul>
+<li>haskellPackages.mig-server.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/288112026'>x86_64-linux migrant-core-0.1.0.3</a></tt></summary>
 <ul>
 <li>haskellPackages.migrant-hdbc.x86_64-linux</li>
@@ -20994,36 +21024,6 @@ Built for evals:
 <details><summary><tt>x86_64-linux vector-0.13.2.0-docs</tt></summary>
 <ul>
 <li>tests.haskell.documentationTarball.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/287210590'>x86_64-linux git-annex-10.20250115-src</a></tt></summary>
-<ul>
-<li>git-annex.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/288111477'>x86_64-linux os-string-2.0.7</a></tt></summary>
-<ul>
-<li>haskell.packages.ghc8107.cabal2nix.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/288781091'>x86_64-linux mig-swagger-ui-0.1.0.1</a></tt></summary>
-<ul>
-<li>haskellPackages.mig-server.x86_64-linux</li>
 </ul>
 </details>
 </td>
