@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-02-12 01:32:02 UTC*
+*Report built at 2025-02-12 02:25:54 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>221 issues</summary>
+<details><summary>223 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -57,6 +57,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>gtk-0.15.9</tt> <br /> <a href='https://hydra.nixos.org/build/288779124/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/288779124/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/288779124/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/288779990'>build 288779990</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/289434405'>haskellPackages.Chart-tests.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>gtk-0.15.9</tt> <br /> <a href='https://hydra.nixos.org/build/289434405/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/289434405/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/289434405/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/288779990'>build 288779990</a>
 </li>
 </ul>
 </details>
@@ -1672,6 +1686,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/288780389'>haskellPackages.twitter-conduit.x86_64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/288780207'>haskellPackages.type-level-kv-list-esqueleto.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -1773,7 +1793,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>2466 issues</summary>
+<details><summary>2451 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -1923,13 +1943,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/289434322'>dhall-nix.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/289434263'>dhall-nixpkgs.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -2182,13 +2195,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/289434362'>haskell.packages.ghc902.cabal2nix.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/289434315'>haskell.packages.ghc902.ghc-lib-parser-ex.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -3386,13 +3392,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/288781516'>haskellPackages.Chart-gtk3.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/289434405'>haskellPackages.Chart-tests.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -6193,13 +6192,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/288780662'>haskellPackages.attoparsec-path.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/288780552'>haskellPackages.attoparsec-time.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -10728,13 +10720,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/288779296'>haskellPackages.hasql-optparse-applicative.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/288779695'>haskellPackages.hastily.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -11134,21 +11119,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/289434102'>haskellPackages.hnix-store-remote.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/288780568'>haskellPackages.hnix-store-tests.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/289434006'>haskellPackages.hnix.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -11191,13 +11162,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/288780847'>haskellPackages.hostaddress.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/288780972'>haskellPackages.hostname-validate.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -12870,13 +12834,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/288779806'>haskellPackages.memdb.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/288780664'>haskellPackages.mempack.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -13550,13 +13507,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/288779691'>haskellPackages.number-length.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/289434220'>haskellPackages.numbered-semigroups.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -14347,13 +14297,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/288781127'>haskellPackages.pointfree.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/288779864'>haskellPackages.polynomials-bernstein.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -15104,13 +15047,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/288780406'>haskellPackages.relocant.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/289434392'>haskellPackages.relude.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -17140,27 +17076,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/288780389'>haskellPackages.twitter-conduit.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/288779842'>haskellPackages.twitter-types-lens.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/288780202'>haskellPackages.twitter-types.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/288778813'>haskellPackages.type-iso.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -19056,6 +18971,7 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/288779990'>x86_64-linux gtk-0.15.9</a></tt></summary>
 <ul>
 <li>haskellPackages.Chart-gtk.x86_64-linux</li>
+<li>haskellPackages.Chart-tests.x86_64-linux</li>
 <li>haskellPackages.cairo-appbase.x86_64-linux</li>
 <li>haskellPackages.diagrams-gtk.x86_64-linux</li>
 <li>haskellPackages.gtk-simple-list-view.x86_64-linux</li>
@@ -19065,7 +18981,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>7</td>
+<td>8</td>
 </tr>
 <tr>
 <td>
