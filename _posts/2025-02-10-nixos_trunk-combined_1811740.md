@@ -1,10 +1,10 @@
 ---
-title: nixos:trunk-combined 1811740
+title: nixos:trunk-combined 1811740 (succeeded)
 categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2025-02-11 21:08:23 UTC*
+*Report built at 2025-02-12 01:35:48 UTC*
 
 Built for evals:
 
@@ -23264,7 +23264,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>3238 issues</summary>
+<details><summary>3239 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -52152,6 +52152,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/288757617'>nixpkgs.python312Packages.streamz.aarch64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/287782968'>nixpkgs.python313Packages.pydal.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -52161,27 +52167,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/287699980'>nixpkgs.python313Packages.pytm.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/288757617'>nixpkgs.python312Packages.streamz.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 </table>
 </details>
