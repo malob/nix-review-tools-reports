@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-02-13 17:05:17 UTC*
+*Report built at 2025-02-13 19:04:46 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>382 issues</summary>
+<details><summary>384 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -57,6 +57,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>text-metrics-0.3.3</tt> <br /> <a href='https://hydra.nixos.org/build/289434346/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/289434346/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/289434346/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/288779310'>build 288779310</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/289434090'>emanote.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>ixset-typed-0.5.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/289434090/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/289434090/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/289434090/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/288781507'>build 288781507</a>
 </li>
 </ul>
 </details>
@@ -393,6 +407,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>aeson-2.2.3.0</tt> <br /> <a href='https://hydra.nixos.org/build/289434157/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/289434157/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/289434157/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/289434366'>build 289434366</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/289433970'>haskell.packages.ghc928.hlint.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>ghc-lib-parser-9.8.4.20241130</tt> <br /> <a href='https://hydra.nixos.org/build/289433970/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/289433970/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/289433970/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/288112099'>build 288112099</a>
 </li>
 </ul>
 </details>
@@ -3515,7 +3543,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>1235 issues</summary>
+<details><summary>1227 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -3616,13 +3644,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/289434408'>elmPackages.elm-instrument.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/289434090'>emanote.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -3938,13 +3959,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/289434191'>haskell.packages.ghc928.haskell-language-server.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/289433970'>haskell.packages.ghc928.hlint.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -4582,13 +4596,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/288781592'>haskellPackages.aivika-experiment-cairo.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/288780119'>haskellPackages.aivika-experiment-diagrams.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -7584,13 +7591,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/288779579'>haskellPackages.gogol-plus.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/288781361'>haskellPackages.gogol-pubsub.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -8557,13 +8557,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/288781731'>haskellPackages.javelin-frames.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/288778598'>haskellPackages.javelin-io.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -9433,13 +9426,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/288780071'>haskellPackages.om-time.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/288779964'>haskellPackages.one-liner-instances.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -11882,13 +11868,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/288781143'>haskellPackages.zippers.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/288779795'>haskellPackages.zre.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -11925,13 +11904,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/288779730'>hinit.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/288780927'>hledger-ui.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -12243,6 +12215,37 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/288781507'>x86_64-linux ixset-typed-0.5.1.0</a></tt></summary>
+<ul>
+<li>emanote.x86_64-linux</li>
+<li>haskellPackages.emanote.x86_64-linux</li>
+<li>haskellPackages.hOpenPGP.x86_64-linux</li>
+<li>haskellPackages.ixset-typed-binary-instance.x86_64-linux</li>
+<li>haskellPackages.ixset-typed-cassava.x86_64-linux</li>
+<li>haskellPackages.ixset-typed-hashable-instance.x86_64-linux</li>
+<li>haskellPackages.shake-plus-extended.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>7</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/288108867'>x86_64-linux ghc-lib-parser-9.8.4.20241130</a></tt></summary>
+<ul>
+<li>haskell.packages.ghc925.ghc-lib.x86_64-linux</li>
+<li>haskell.packages.ghc925.hlint.x86_64-linux</li>
+<li>haskell.packages.ghc927.ghc-lib.x86_64-linux</li>
+<li>haskell.packages.ghc927.hlint.x86_64-linux</li>
+<li>haskell.packages.ghc928.ghc-lib-parser-ex.x86_64-linux</li>
+<li>haskell.packages.ghc928.hlint.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>6</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/288780940'>x86_64-linux gtk3-0.15.9</a></tt></summary>
 <ul>
 <li>haskellPackages.Chart-gtk3.x86_64-linux</li>
@@ -12258,21 +12261,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/288781507'>x86_64-linux ixset-typed-0.5.1.0</a></tt></summary>
-<ul>
-<li>haskellPackages.emanote.x86_64-linux</li>
-<li>haskellPackages.hOpenPGP.x86_64-linux</li>
-<li>haskellPackages.ixset-typed-binary-instance.x86_64-linux</li>
-<li>haskellPackages.ixset-typed-cassava.x86_64-linux</li>
-<li>haskellPackages.ixset-typed-hashable-instance.x86_64-linux</li>
-<li>haskellPackages.shake-plus-extended.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>6</td>
-</tr>
-<tr>
-<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/288779005'>x86_64-linux lattices-2.2.1</a></tt></summary>
 <ul>
 <li>haskell-ci.x86_64-linux</li>
@@ -12280,20 +12268,6 @@ Built for evals:
 <li>haskellPackages.deltaq.x86_64-linux</li>
 <li>haskellPackages.kleene.x86_64-linux</li>
 <li>haskellPackages.yx.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>5</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/288108867'>x86_64-linux ghc-lib-parser-9.8.4.20241130</a></tt></summary>
-<ul>
-<li>haskell.packages.ghc925.ghc-lib.x86_64-linux</li>
-<li>haskell.packages.ghc925.hlint.x86_64-linux</li>
-<li>haskell.packages.ghc927.ghc-lib.x86_64-linux</li>
-<li>haskell.packages.ghc927.hlint.x86_64-linux</li>
-<li>haskell.packages.ghc928.ghc-lib-parser-ex.x86_64-linux</li>
 </ul>
 </details>
 </td>
