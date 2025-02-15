@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-02-15 13:07:12 UTC*
+*Report built at 2025-02-15 14:05:29 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>555 issues</summary>
+<details><summary>557 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -136,6 +136,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/289744081'>haskell.compiler.ghcjs.bootGhcjs.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>ansi-wl-pprint-0.6.9</tt> <br /> <a href='https://hydra.nixos.org/build/289744081/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/289744081/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/289744081/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/288112558'>build 288112558</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/289744080'>haskell.compiler.ghcjs810.bootGhcjs.x86_64-linux</a></tt>
 </summary>
 <ul>
@@ -183,6 +197,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>serialise-0.2.6.1</tt> <br /> <a href='https://hydra.nixos.org/build/289744087/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/289744087/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/289744087/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/289744083'>build 289744083</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/289744084'>haskell.packages.ghc9121.cabal2nix.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>serialise-0.2.6.1</tt> <br /> <a href='https://hydra.nixos.org/build/289744084/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/289744084/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/289744084/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/289744083'>build 289744083</a>
 </li>
 </ul>
 </details>
@@ -5353,7 +5381,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>14 issues</summary>
+<details><summary>11 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -5369,13 +5397,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/289744081'>haskell.compiler.ghcjs.bootGhcjs.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/289744075'>haskell.packages.ghc8107.cabal2nix.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -5383,21 +5404,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/289744084'>haskell.packages.ghc9121.cabal2nix.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/289744090'>haskellPackages.Chart-tests.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/289744091'>haskellPackages.cairo-appbase.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -5758,6 +5765,18 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/289744083'>x86_64-linux serialise-0.2.6.1</a></tt></summary>
+<ul>
+<li>haskell.packages.ghc9121.cabal2nix-unstable.x86_64-linux</li>
+<li>haskell.packages.ghc9121.cabal2nix.x86_64-linux</li>
+<li>haskell.packages.ghc9121.hpack.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>3</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/289434148'>x86_64-linux extra-1.7.16</a></tt></summary>
 <ul>
 <li>haskell.packages.ghc9121.haskell-language-server.x86_64-linux</li>
@@ -5830,10 +5849,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/289744083'>x86_64-linux serialise-0.2.6.1</a></tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/288115349'>x86_64-linux language-docker-11.0.0</a></tt></summary>
 <ul>
-<li>haskell.packages.ghc9121.cabal2nix-unstable.x86_64-linux</li>
-<li>haskell.packages.ghc9121.hpack.x86_64-linux</li>
+<li>hadolint.x86_64-linux</li>
+<li>haskellPackages.hadolint.x86_64-linux</li>
 </ul>
 </details>
 </td>
@@ -5841,10 +5860,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/288115349'>x86_64-linux language-docker-11.0.0</a></tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/288112558'>x86_64-linux ansi-wl-pprint-0.6.9</a></tt></summary>
 <ul>
-<li>hadolint.x86_64-linux</li>
-<li>haskellPackages.hadolint.x86_64-linux</li>
+<li>haskell.compiler.ghcjs.bootGhcjs.x86_64-linux</li>
+<li>haskell.compiler.ghcjs810.bootGhcjs.x86_64-linux</li>
 </ul>
 </details>
 </td>
@@ -6051,16 +6070,6 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/288112382'>x86_64-linux network-uri-2.6.4.2</a></tt></summary>
 <ul>
 <li>elmPackages.elm-format.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/288112558'>x86_64-linux ansi-wl-pprint-0.6.9</a></tt></summary>
-<ul>
-<li>haskell.compiler.ghcjs810.bootGhcjs.x86_64-linux</li>
 </ul>
 </details>
 </td>
