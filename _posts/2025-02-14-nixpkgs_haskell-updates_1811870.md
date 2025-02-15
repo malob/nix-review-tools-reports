@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-02-15 07:05:28 UTC*
+*Report built at 2025-02-15 08:06:17 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>553 issues</summary>
+<details><summary>554 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -183,6 +183,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>extra-1.7.16</tt> <br /> <a href='https://hydra.nixos.org/build/289434319/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/289434319/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/289434319/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/289434148'>build 289434148</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/289744086'>haskell.packages.ghc9121.haskell-language-server.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>extra-1.7.16</tt> <br /> <a href='https://hydra.nixos.org/build/289744086/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/289744086/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/289744086/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/289434148'>build 289434148</a>
 </li>
 </ul>
 </details>
@@ -5325,7 +5339,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>21 issues</summary>
+<details><summary>19 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -5362,21 +5376,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/289744085'>haskell.packages.ghc902.cabal2nix-unstable.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/289744084'>haskell.packages.ghc9121.cabal2nix.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/289744086'>haskell.packages.ghc9121.haskell-language-server.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -5779,6 +5779,18 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/289434148'>x86_64-linux extra-1.7.16</a></tt></summary>
+<ul>
+<li>haskell.packages.ghc9121.haskell-language-server.x86_64-linux</li>
+<li>haskell.packages.ghc9121.ghc-lib-parser-ex.x86_64-linux</li>
+<li>haskell.packages.ghc9121.hoogle.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>3</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/288779641'>x86_64-linux hookup-0.8</a></tt></summary>
 <ul>
 <li>glirc.x86_64-linux</li>
@@ -5854,17 +5866,6 @@ Built for evals:
 <ul>
 <li>hadolint.x86_64-linux</li>
 <li>haskellPackages.hadolint.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>2</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/289434148'>x86_64-linux extra-1.7.16</a></tt></summary>
-<ul>
-<li>haskell.packages.ghc9121.ghc-lib-parser-ex.x86_64-linux</li>
-<li>haskell.packages.ghc9121.hoogle.x86_64-linux</li>
 </ul>
 </details>
 </td>
