@@ -4,7 +4,7 @@ categories: nixos:release-24.11
 ---
 # Evals report
 
-*Report built at 2025-02-16 15:08:45 UTC*
+*Report built at 2025-02-16 18:09:05 UTC*
 
 Built for evals:
 
@@ -7730,7 +7730,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>1082 issues</summary>
+<details><summary>1078 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -7744,20 +7744,6 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>geary-46.0</tt> <br /> <a href='https://hydra.nixos.org/build/290050655/nixlog/7'>log</a>, <a href='https://hydra.nixos.org/build/290050655/nixlog/7/raw'>raw</a>, <a href='https://hydra.nixos.org/build/290050655/nixlog/7/tail'>tail</a>, <a href='https://hydra.nixos.org/build/290051463'>build 290051463</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/290050695'>nixos.iso_gnome.aarch64-linux</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Cached failure</b> <tt>geary-46.0</tt> <br /> <a href='https://hydra.nixos.org/build/290050695/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/290050695/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/290050695/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/290051463'>build 290051463</a>
 </li>
 </ul>
 </details>
@@ -12619,12 +12605,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/290050704'>nixos.iso_plasma6.aarch64-linux</a></tt>
-</td>
-<td>Failed</td>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/290050930'>nixos.tests.allDrivers.nixops.unstable.legacyNetwork</a></tt>
 </td>
 <td>Failed</td>
@@ -13519,19 +13499,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/290051463'>nixpkgs.geary.aarch64-linux</a></tt>
-</td>
-<td>Failed</td>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/288152393'>nixpkgs.gimpPlugins.gap.aarch64-linux</a></tt>
-</td>
-<td>Failed</td>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/290051472'>nixpkgs.gitlab-workhorse.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -17427,14 +17395,14 @@ Built for evals:
 </tr></thead>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/290051993'>nixpkgs.ungoogled-chromium.aarch64-linux</a></tt>
+<tt><a href='https://hydra.nixos.org/build/290050695'>nixos.iso_gnome.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/290052010'>nixpkgs.vscode-extensions.yzane.markdown-pdf.aarch64-linux</a></tt>
+<tt><a href='https://hydra.nixos.org/build/290050704'>nixos.iso_plasma6.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
@@ -17748,7 +17716,6 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/290051463'>aarch64-linux geary-46.0</a></tt></summary>
 <ul>
 <li>nixos.closures.gnome.aarch64-linux</li>
-<li>nixos.iso_gnome.aarch64-linux</li>
 <li>nixos.tests.allDrivers.gnome-extensions.aarch64-linux</li>
 <li>nixos.tests.allDrivers.gnome-flashback.aarch64-linux</li>
 <li>nixos.tests.allDrivers.gnome-xorg.aarch64-linux</li>
@@ -17761,7 +17728,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>11</td>
+<td>10</td>
 </tr>
 <tr>
 <td>
