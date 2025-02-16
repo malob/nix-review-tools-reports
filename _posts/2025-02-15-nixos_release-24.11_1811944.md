@@ -4,7 +4,7 @@ categories: nixos:release-24.11
 ---
 # Evals report
 
-*Report built at 2025-02-16 10:08:44 UTC*
+*Report built at 2025-02-16 11:08:25 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>1088 issues</summary>
+<details><summary>1089 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -1912,6 +1912,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/289740081'>nixos.tests.custom-ca.firefox.x86_64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/290050989'>nixos.tests.custom-ca.midori.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -7724,7 +7730,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>1080 issues</summary>
+<details><summary>1082 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -8718,6 +8724,32 @@ Built for evals:
 </li>
 <li>
 <b>=> Cached failure</b> <tt>python3.12-ariadne-0.23.0</tt> <br /> <a href='https://hydra.nixos.org/build/286458807'>build 286458807</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/290051623'>nixpkgs.kicad-testing-small.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>kicad-base-8.0-2024-02-23</tt> <br /> <a href='https://hydra.nixos.org/build/290051623/nixlog/5'>log</a>, <a href='https://hydra.nixos.org/build/290051623/nixlog/5/raw'>raw</a>, <a href='https://hydra.nixos.org/build/290051623/nixlog/5/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>kicad-base-8.0-2024-02-23</tt> <br /> 
+</li>
+<li>
+<b>=> Aborted</b> <tt>kicad-base-8.0-2024-02-23</tt> <br /> 
+</li>
+<li>
+<b>=> Aborted</b> <tt>kicad-base-8.0-2024-02-23</tt> <br /> 
+</li>
+<li>
+<b>=> Aborted</b> <tt>kicad-base-8.0-2024-02-23</tt> <br /> 
 </li>
 </ul>
 </details>
@@ -12918,6 +12950,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/290051098'>nixos.tests.installer-systemd-stage-1.simpleUefiSystemdBoot.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/290051044'>nixos.tests.installer.fullDiskEncryption.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -17380,48 +17418,13 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>10 issues</summary>
+<details><summary>5 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/290050989'>nixos.tests.custom-ca.midori.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/290051044'>nixos.tests.installer.fullDiskEncryption.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/290051623'>nixpkgs.kicad-testing-small.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/290051697'>nixpkgs.mercury.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/290051741'>nixpkgs.notmuch-bower.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/290051956'>nixpkgs.telegram-desktop.aarch64-linux</a></tt>
@@ -18223,6 +18226,16 @@ Built for evals:
 </details>
 </td>
 <td>6</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>aarch64-linux kicad-base-8.0-2024-02-23</tt></summary>
+<ul>
+<li>nixpkgs.kicad-testing-small.aarch64-linux</li>
+</ul>
+</details>
+</td>
+<td>5</td>
 </tr>
 <tr>
 <td>
