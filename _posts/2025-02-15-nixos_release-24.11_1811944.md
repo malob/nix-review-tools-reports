@@ -4,7 +4,7 @@ categories: nixos:release-24.11
 ---
 # Evals report
 
-*Report built at 2025-02-16 09:09:18 UTC*
+*Report built at 2025-02-16 10:08:44 UTC*
 
 Built for evals:
 
@@ -7724,7 +7724,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>1077 issues</summary>
+<details><summary>1080 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -11906,6 +11906,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/290051847'>nixpkgs.python311Packages.pcbnewtransition.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>kicad-base-8.0.6</tt> <br /> <a href='https://hydra.nixos.org/build/290051847/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/290051847/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/290051847/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/290051845'>build 290051845</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/286535167'>nixpkgs.python311Packages.prophet.aarch64-linux</a></tt>
 </summary>
 <ul>
@@ -13414,6 +13428,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/286532053'>nixpkgs.elmPackages.elm-verify-examples.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/290051380'>nixpkgs.emacs28-gtk3.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -16305,6 +16325,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/290051845'>nixpkgs.python311Packages.kicad.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/284947392'>nixpkgs.python311Packages.libfdt.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -17354,7 +17380,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>13 issues</summary>
+<details><summary>10 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -17371,13 +17397,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/290051044'>nixos.tests.installer.fullDiskEncryption.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/290051380'>nixpkgs.emacs28-gtk3.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
@@ -17402,20 +17421,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/290051845'>nixpkgs.python311Packages.kicad.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/290051847'>nixpkgs.python311Packages.pcbnewtransition.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -17888,6 +17893,22 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/290051856'>x86_64-linux kicad-base-8.0.6</a></tt></summary>
+<ul>
+<li>nixpkgs.kicad-small.x86_64-linux</li>
+<li>nixpkgs.kicadAddons.kikit-library.x86_64-linux</li>
+<li>nixpkgs.kicadAddons.kikit.x86_64-linux</li>
+<li>nixpkgs.kikit.x86_64-linux</li>
+<li>nixpkgs.python311Packages.pcbnewtransition.aarch64-linux</li>
+<li>nixpkgs.python312Packages.pcbnewtransition.x86_64-linux</li>
+<li>nixpkgs.kicad.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>7</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/289449399'>x86_64-linux nodejs-22.14.0</a></tt></summary>
 <ul>
 <li>nixpkgs.astro-language-server.x86_64-linux</li>
@@ -17901,21 +17922,6 @@ Built for evals:
 </details>
 </td>
 <td>7</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/290051856'>x86_64-linux kicad-base-8.0.6</a></tt></summary>
-<ul>
-<li>nixpkgs.kicad-small.x86_64-linux</li>
-<li>nixpkgs.kicadAddons.kikit-library.x86_64-linux</li>
-<li>nixpkgs.kicadAddons.kikit.x86_64-linux</li>
-<li>nixpkgs.kikit.x86_64-linux</li>
-<li>nixpkgs.python312Packages.pcbnewtransition.x86_64-linux</li>
-<li>nixpkgs.kicad.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>6</td>
 </tr>
 <tr>
 <td>
