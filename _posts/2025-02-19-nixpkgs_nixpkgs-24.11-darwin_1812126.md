@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-02-19 12:09:32 UTC*
+*Report built at 2025-02-19 13:12:01 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1349 issues</summary>
+<details><summary>1350 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -10297,6 +10297,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/290170860'>python312Packages.heudiconv.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/286604644'>python312Packages.hieroglyph.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -19615,7 +19621,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>580 issues</summary>
+<details><summary>578 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -19838,13 +19844,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/290170413'>datalad.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -22799,13 +22798,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/290170860'>python312Packages.heudiconv.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
