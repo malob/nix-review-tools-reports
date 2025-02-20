@@ -4,7 +4,7 @@ categories: nixos:release-24.11
 ---
 # Evals report
 
-*Report built at 2025-02-20 19:09:35 UTC*
+*Report built at 2025-02-20 20:09:44 UTC*
 
 Built for evals:
 
@@ -14495,7 +14495,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>1450 issues</summary>
+<details><summary>1440 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -15855,13 +15855,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/290574975'>nixos.tests.allDrivers.lomiri.desktop-basics.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/290574974'>nixos.tests.allDrivers.lomiri.desktop-basics.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -16276,13 +16269,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/290575042'>nixos.tests.allDrivers.postfix.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/290575048'>nixos.tests.allDrivers.private-gpt.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -22428,13 +22414,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/290576149'>nixpkgs.private-gpt.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/290576148'>nixpkgs.prowlarr.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -23268,13 +23247,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/290576294'>nixpkgs.python312Packages.llama-index-embeddings-ollama.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/290576298'>nixpkgs.python312Packages.llama-index-embeddings-openai.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -23338,24 +23310,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/290576313'>nixpkgs.python312Packages.llama-index-llms-ollama.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/290576311'>nixpkgs.python312Packages.llama-index-llms-openai-like.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/290576318'>nixpkgs.python312Packages.llama-index-llms-openai-like.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -23419,13 +23377,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/290576319'>nixpkgs.python312Packages.llama-index-readers-file.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -23520,24 +23471,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/290576330'>nixpkgs.python312Packages.llama-index-vector-stores-postgres.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/290576336'>nixpkgs.python312Packages.llama-index-vector-stores-qdrant.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/290576332'>nixpkgs.python312Packages.llama-index-vector-stores-qdrant.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -23563,13 +23500,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/290576353'>nixpkgs.python312Packages.mpv.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/290576354'>nixpkgs.python312Packages.private-gpt.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
