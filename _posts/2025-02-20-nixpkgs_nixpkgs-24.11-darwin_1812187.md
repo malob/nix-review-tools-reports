@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-02-20 13:12:31 UTC*
+*Report built at 2025-02-20 14:08:50 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1385 issues</summary>
+<details><summary>1386 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -12125,6 +12125,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/290201615'>dotnetCorePackages.dotnet_9.aspnetcore.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/290201617'>dotnetCorePackages.dotnet_9.runtime.x86_64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -20401,20 +20407,13 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>4 issues</summary>
+<details><summary>3 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/290201615'>dotnetCorePackages.dotnet_9.aspnetcore.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/290201678'>juniper.x86_64-darwin</a></tt>
