@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-02-21 17:07:43 UTC*
+*Report built at 2025-02-21 21:08:28 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1384 issues</summary>
+<details><summary>1387 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -480,6 +480,34 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>ocaml-4.05.0</tt> <br /> <a href='https://hydra.nixos.org/build/286572027/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/286572027/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/286572027/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/286172911'>build 286172911</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/290787163'>corepack_23.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-23.8.0</tt> <br /> <a href='https://hydra.nixos.org/build/290787163/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/290787163/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/290787163/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/290787182'>build 290787182</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/290787162'>corepack_latest.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-23.8.0</tt> <br /> <a href='https://hydra.nixos.org/build/290787162/nixlog/5'>log</a>, <a href='https://hydra.nixos.org/build/290787162/nixlog/5/raw'>raw</a>, <a href='https://hydra.nixos.org/build/290787162/nixlog/5/tail'>tail</a>, <a href='https://hydra.nixos.org/build/290787182'>build 290787182</a>
 </li>
 </ul>
 </details>
@@ -8836,6 +8864,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/286595756'>nodehun.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/290787182'>nodejs_23.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -20373,7 +20407,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>41 issues</summary>
+<details><summary>36 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -20389,24 +20423,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/290787163'>corepack_23.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/290787160'>corepack_latest.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/290787162'>corepack_latest.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -20463,13 +20483,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/290787172'>grafana.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -20571,13 +20584,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/290787182'>nodejs_23.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/290787181'>nodejs_latest.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -20617,13 +20623,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/290777905'>tailscale-gitops-pusher.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -21713,6 +21712,17 @@ Built for evals:
 </details>
 </td>
 <td>3</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/290787182'>x86_64-darwin nodejs-23.8.0</a></tt></summary>
+<ul>
+<li>corepack_23.x86_64-darwin</li>
+<li>corepack_latest.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>2</td>
 </tr>
 <tr>
 <td>
