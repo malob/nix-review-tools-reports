@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-02-22 20:07:44 UTC*
+*Report built at 2025-02-22 21:07:53 UTC*
 
 Built for evals:
 
@@ -12204,7 +12204,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1030 issues</summary>
+<details><summary>1032 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -12316,6 +12316,34 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>perl5.38.2-IO-Pty-1.16</tt> <br /> <a href='https://hydra.nixos.org/build/286615866/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/286615866/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/286615866/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/286606251'>build 286606251</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/290787161'>corepack_23.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>nodejs-23.8.0</tt> <br /> <a href='https://hydra.nixos.org/build/290787161/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/290787161/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/290787161/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/290787184'>build 290787184</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/290787160'>corepack_latest.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>nodejs-23.8.0</tt> <br /> <a href='https://hydra.nixos.org/build/290787160/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/290787160/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/290787160/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/290787184'>build 290787184</a>
 </li>
 </ul>
 </details>
@@ -20365,27 +20393,13 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>39 issues</summary>
+<details><summary>36 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/290787161'>corepack_23.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/290787160'>corepack_latest.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/290835917'>darwin-tested</a></tt>
@@ -20448,13 +20462,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/290835918'>manual</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -21327,6 +21334,19 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/290787184'>aarch64-darwin nodejs-23.8.0</a></tt></summary>
+<ul>
+<li>corepack_23.aarch64-darwin</li>
+<li>corepack_23.x86_64-darwin</li>
+<li>corepack_latest.aarch64-darwin</li>
+<li>corepack_latest.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>4</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/286623121'>aarch64-darwin python3.12-okonomiyaki-2.0.0</a></tt></summary>
 <ul>
 <li>fusesoc.aarch64-darwin</li>
@@ -21775,17 +21795,6 @@ Built for evals:
 <ul>
 <li>coq_8_5.x86_64-darwin</li>
 <li>coq_8_6.x86_64-darwin</li>
-</ul>
-</details>
-</td>
-<td>2</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/290787182'>x86_64-darwin nodejs-23.8.0</a></tt></summary>
-<ul>
-<li>corepack_23.x86_64-darwin</li>
-<li>corepack_latest.x86_64-darwin</li>
 </ul>
 </details>
 </td>
