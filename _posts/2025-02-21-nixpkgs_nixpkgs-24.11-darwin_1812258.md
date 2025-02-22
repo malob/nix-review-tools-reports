@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-02-22 01:34:29 UTC*
+*Report built at 2025-02-22 06:08:16 UTC*
 
 Built for evals:
 
@@ -12228,7 +12228,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1034 issues</summary>
+<details><summary>1035 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -17426,6 +17426,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/290787181'>nodejs_latest.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/286622481'>nomacs.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -20413,7 +20419,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>33 issues</summary>
+<details><summary>32 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -20566,13 +20572,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/290787181'>nodejs_latest.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
