@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-02-23 06:07:49 UTC*
+*Report built at 2025-02-23 07:08:07 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1383 issues</summary>
+<details><summary>1385 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -520,6 +520,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>python3.12-deepdiff-8.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/286603569/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/286603569/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/286603569/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/286270808'>build 286270808</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/290787165'>devmode.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>nodejs-23.8.0</tt> <br /> <a href='https://hydra.nixos.org/build/290787165/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/290787165/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/290787165/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/290787182'>build 290787182</a>
 </li>
 </ul>
 </details>
@@ -8857,6 +8871,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/290787183'>nodejs_latest.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/286668059'>nomacs.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -12204,7 +12224,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1031 issues</summary>
+<details><summary>1032 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -12372,6 +12392,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>libthreadar-1.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/286609773/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/286609773/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/286609773/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/286253669'>build 286253669</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/290787164'>devmode.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>nodejs-23.8.0</tt> <br /> <a href='https://hydra.nixos.org/build/290787164/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/290787164/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/290787164/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/290787184'>build 290787184</a>
 </li>
 </ul>
 </details>
@@ -20387,7 +20421,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>34 issues</summary>
+<details><summary>23 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -20410,35 +20444,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/290787164'>devmode.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/290787165'>devmode.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/290843220'>dolibarr.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/290843221'>dolibarr.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/290777894'>inv-sig-helper.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -20459,13 +20465,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/290787176'>mautrix-signal.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/290843227'>mmctl.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -20474,20 +20473,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/290843228'>mmctl.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/290787179'>nodejs-slim_latest.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/290787183'>nodejs_latest.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -20526,34 +20511,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/290777907'>tailscale-gitops-pusher.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/290777906'>tailscale-nginx-auth.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/290777902'>tailscale.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/290777903'>tailscale.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -21112,6 +21069,21 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/290787184'>aarch64-darwin nodejs-23.8.0</a></tt></summary>
+<ul>
+<li>corepack_23.aarch64-darwin</li>
+<li>corepack_23.x86_64-darwin</li>
+<li>corepack_latest.aarch64-darwin</li>
+<li>corepack_latest.x86_64-darwin</li>
+<li>devmode.aarch64-darwin</li>
+<li>devmode.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>6</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/286089913'>x86_64-darwin libspnav-1.1</a></tt></summary>
 <ul>
 <li>dune3d.x86_64-darwin</li>
@@ -21307,19 +21279,6 @@ Built for evals:
 <li>controku.x86_64-darwin</li>
 <li>python312Packages.controku.aarch64-darwin</li>
 <li>python312Packages.controku.x86_64-darwin</li>
-</ul>
-</details>
-</td>
-<td>4</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/290787184'>aarch64-darwin nodejs-23.8.0</a></tt></summary>
-<ul>
-<li>corepack_23.aarch64-darwin</li>
-<li>corepack_23.x86_64-darwin</li>
-<li>corepack_latest.aarch64-darwin</li>
-<li>corepack_latest.x86_64-darwin</li>
 </ul>
 </details>
 </td>
