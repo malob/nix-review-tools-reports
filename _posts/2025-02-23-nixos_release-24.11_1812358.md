@@ -4,7 +4,7 @@ categories: nixos:release-24.11
 ---
 # Evals report
 
-*Report built at 2025-02-24 03:15:34 UTC*
+*Report built at 2025-02-24 04:09:31 UTC*
 
 Built for evals:
 
@@ -14737,7 +14737,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>474 issues</summary>
+<details><summary>471 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -17532,13 +17532,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/291122339'>nixpkgs.diffsitter.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/291122338'>nixpkgs.diffsitter.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -18008,24 +18001,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/291122410'>nixpkgs.tree-sitter-grammars.tree-sitter-markdown-inline.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/291122409'>nixpkgs.tree-sitter-grammars.tree-sitter-markdown-inline.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/291122412'>nixpkgs.tree-sitter-grammars.tree-sitter-org-nvim.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
