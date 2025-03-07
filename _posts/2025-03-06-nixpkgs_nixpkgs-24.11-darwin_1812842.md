@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-03-07 04:07:57 UTC*
+*Report built at 2025-03-07 05:07:30 UTC*
 
 Built for evals:
 
@@ -19667,7 +19667,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>98 issues</summary>
+<details><summary>96 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -19949,13 +19949,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/291897231'>emacs30-pgtk.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/291897236'>emacs30-pgtk.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -20128,13 +20121,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/291897263'>notmuch-mailmover.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
