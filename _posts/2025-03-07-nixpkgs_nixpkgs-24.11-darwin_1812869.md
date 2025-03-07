@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-03-07 14:07:44 UTC*
+*Report built at 2025-03-07 15:07:48 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1318 issues</summary>
+<details><summary>1320 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -11405,6 +11405,18 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/291909857'>dotnetCorePackages.dotnet_10.vmr.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/291458472'>dotnetCorePackages.dotnet_9.aspnetcore.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/291458486'>dotnetCorePackages.dotnet_9.runtime.x86_64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -19653,7 +19665,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>90 issues</summary>
+<details><summary>86 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -19830,24 +19842,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/291909858'>dotnetCorePackages.dotnet_10.sdk.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/291909861'>dotnetCorePackages.dotnet_10.vmr.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/291909857'>dotnetCorePackages.dotnet_10.vmr.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -20131,13 +20129,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/291897262'>notifymuch.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/291909890'>patroni.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -20240,13 +20231,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/291897289'>trexio.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
