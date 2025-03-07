@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-03-07 15:07:48 UTC*
+*Report built at 2025-03-07 16:07:35 UTC*
 
 Built for evals:
 
@@ -11500,7 +11500,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1028 issues</summary>
+<details><summary>1029 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -15604,6 +15604,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/291897239'>framac.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/291460315'>freepv.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -19665,7 +19671,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>86 issues</summary>
+<details><summary>83 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -19905,13 +19911,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/291897221'>emacs.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/291897227'>emacs30-gtk3.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -19930,13 +19929,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/291897239'>framac.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -20214,13 +20206,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/291897285'>selendroid.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/291897284'>selenium-server-standalone.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
