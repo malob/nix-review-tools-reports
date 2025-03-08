@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-03-08 11:07:02 UTC*
+*Report built at 2025-03-08 12:07:24 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1322 issues</summary>
+<details><summary>1323 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -6189,6 +6189,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>coc-css-2.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/291544374/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/291544374/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/291544374/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/290876255'>build 290876255</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/291950531'>vimacs.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>macvim-179</tt> <br /> <a href='https://hydra.nixos.org/build/291950531/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/291950531/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/291950531/nixlog/1/tail'>tail</a>
 </li>
 </ul>
 </details>
@@ -19657,7 +19671,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>98 issues</summary>
+<details><summary>96 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -19950,13 +19964,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/291950461'>metrics</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -20335,13 +20342,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/291950531'>vimacs.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -22835,6 +22835,16 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/291099013'>aarch64-darwin test-writers-wrapping-nim</a></tt></summary>
 <ul>
 <li>tests.writers.wrapping.nim.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>x86_64-darwin macvim-179</tt></summary>
+<ul>
+<li>vimacs.x86_64-darwin</li>
 </ul>
 </details>
 </td>
