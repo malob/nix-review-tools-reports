@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-03-08 03:04:39 UTC*
+*Report built at 2025-03-08 07:04:21 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>638 issues</summary>
+<details><summary>639 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -2964,6 +2964,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/291911641'>maintained</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>binrep-1.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/291911641/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/291911641/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/291911641/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/291137804'>build 291137804</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/291139954'>matterhorn.x86_64-linux</a></tt>
 </summary>
 <ul>
@@ -5576,20 +5590,13 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>32 issues</summary>
+<details><summary>30 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/291911592'>agdaPackages._1lab.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/291911597'>agdaPackages.cubical-mini.x86_64-linux</a></tt>
@@ -5768,13 +5775,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/291911616'>hedgewars.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/291911641'>maintained</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -6198,6 +6198,17 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/291137804'>x86_64-linux binrep-1.0.0</a></tt></summary>
+<ul>
+<li>maintained</li>
+<li>haskellPackages.gtvm-hs.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/291137344'>x86_64-linux aeson-extra-0.5.1.3</a></tt></summary>
 <ul>
 <li>emanote.x86_64-linux</li>
@@ -6559,16 +6570,6 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/290313901'>x86_64-linux language-gemini-0.1.0.1</a></tt></summary>
 <ul>
 <li>haskellPackages.gemini-textboard.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/291137804'>x86_64-linux binrep-1.0.0</a></tt></summary>
-<ul>
-<li>haskellPackages.gtvm-hs.x86_64-linux</li>
 </ul>
 </details>
 </td>
