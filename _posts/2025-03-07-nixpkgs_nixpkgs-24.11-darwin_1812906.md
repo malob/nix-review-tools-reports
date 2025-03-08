@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-03-08 03:07:24 UTC*
+*Report built at 2025-03-08 04:07:36 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1318 issues</summary>
+<details><summary>1320 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -3543,6 +3543,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>python3.11-posthog-3.7.0</tt> <br /> <a href='https://hydra.nixos.org/build/291501628/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/291501628/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/291501628/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/291029473'>build 291029473</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/291950483'>python311Packages.coiled.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.11-gilknocker-0.4.1.post6</tt> <br /> <a href='https://hydra.nixos.org/build/291950483/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/291950483/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/291950483/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/291950485'>build 291950485</a>
 </li>
 </ul>
 </details>
@@ -9016,6 +9030,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/291504161'>python311Packages.getjump.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/291950485'>python311Packages.gilknocker.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -19601,7 +19621,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>129 issues</summary>
+<details><summary>127 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -20177,24 +20197,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/291950483'>python311Packages.coiled.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/291950484'>python311Packages.gilknocker.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/291950485'>python311Packages.gilknocker.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -22560,6 +22566,16 @@ Built for evals:
 </details>
 </td>
 <td>2</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/291950485'>x86_64-darwin python3.11-gilknocker-0.4.1.post6</a></tt></summary>
+<ul>
+<li>python311Packages.coiled.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
 </tr>
 <tr>
 <td>
