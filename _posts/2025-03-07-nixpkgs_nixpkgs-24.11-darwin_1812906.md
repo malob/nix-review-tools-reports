@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-03-08 13:08:10 UTC*
+*Report built at 2025-03-08 14:07:02 UTC*
 
 Built for evals:
 
@@ -19685,7 +19685,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>91 issues</summary>
+<details><summary>89 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -19975,20 +19975,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/291950464'>muchsync.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/291950466'>mujmap.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/291950469'>neomutt.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
