@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-03-08 12:07:24 UTC*
+*Report built at 2025-03-08 13:08:10 UTC*
 
 Built for evals:
 
@@ -11526,7 +11526,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1026 issues</summary>
+<details><summary>1027 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -14970,6 +14970,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>coc-css-2.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/291544371/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/291544371/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/291544371/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/290876248'>build 290876248</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/291950528'>vimacs.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>macvim-179</tt> <br /> <a href='https://hydra.nixos.org/build/291950528/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/291950528/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/291950528/nixlog/1/tail'>tail</a>
 </li>
 </ul>
 </details>
@@ -19671,7 +19685,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>96 issues</summary>
+<details><summary>91 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -19768,13 +19782,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/291950420'>cscope.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -19953,13 +19960,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/291950457'>lbdb.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/291950459'>lieer.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -19971,13 +19971,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/291950463'>mu.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -20027,13 +20020,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/291950474'>notmuch-addrlookup.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -20332,13 +20318,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/291950530'>vimPlugins.vim-agda.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/291950528'>vimacs.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -22402,6 +22381,17 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt>aarch64-darwin macvim-179</tt></summary>
+<ul>
+<li>vimacs.aarch64-darwin</li>
+<li>vimacs.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/291950485'>x86_64-darwin python3.11-gilknocker-0.4.1.post6</a></tt></summary>
 <ul>
 <li>python311Packages.coiled.x86_64-darwin</li>
@@ -22835,16 +22825,6 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/291099013'>aarch64-darwin test-writers-wrapping-nim</a></tt></summary>
 <ul>
 <li>tests.writers.wrapping.nim.aarch64-darwin</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>x86_64-darwin macvim-179</tt></summary>
-<ul>
-<li>vimacs.x86_64-darwin</li>
 </ul>
 </details>
 </td>
