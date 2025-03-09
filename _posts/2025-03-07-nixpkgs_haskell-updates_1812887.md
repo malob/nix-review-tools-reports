@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-03-08 22:04:41 UTC*
+*Report built at 2025-03-09 01:31:01 UTC*
 
 Built for evals:
 
@@ -5604,7 +5604,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>26 issues</summary>
+<details><summary>25 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -5628,13 +5628,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/291911601'>haskell.packages.ghc902.cabal2nix-unstable.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/291911603'>haskell.packages.ghc9101.cabal2nix-unstable.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
