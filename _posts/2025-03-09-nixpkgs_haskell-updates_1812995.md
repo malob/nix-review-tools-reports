@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-03-11 13:10:43 UTC*
+*Report built at 2025-03-11 14:05:17 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>960 issues</summary>
+<details><summary>975 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -1578,6 +1578,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/292010771'>haskellPackages.amazonka-datapipeline.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>amazonka-core-2.0</tt> <br /> <a href='https://hydra.nixos.org/build/292010771/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/292010771/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/292010771/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/292010727'>build 292010727</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/292010736'>haskellPackages.amazonka-datasync.x86_64-linux</a></tt>
 </summary>
 <ul>
@@ -2012,6 +2026,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/292010767'>haskellPackages.amazonka-emr.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>amazonka-core-2.0</tt> <br /> <a href='https://hydra.nixos.org/build/292010767/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/292010767/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/292010767/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/292010727'>build 292010727</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/292010774'>haskellPackages.amazonka-evidently.x86_64-linux</a></tt>
 </summary>
 <ul>
@@ -2059,6 +2087,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>amazonka-core-2.0</tt> <br /> <a href='https://hydra.nixos.org/build/292010792/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/292010792/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/292010792/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/292010727'>build 292010727</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/292010785'>haskellPackages.amazonka-fms.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>amazonka-core-2.0</tt> <br /> <a href='https://hydra.nixos.org/build/292010785/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/292010785/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/292010785/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/292010727'>build 292010727</a>
 </li>
 </ul>
 </details>
@@ -3048,6 +3090,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/292010846'>haskellPackages.amazonka-macie.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>amazonka-core-2.0</tt> <br /> <a href='https://hydra.nixos.org/build/292010846/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/292010846/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/292010846/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/292010727'>build 292010727</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/292010854'>haskellPackages.amazonka-maciev2.x86_64-linux</a></tt>
 </summary>
 <ul>
@@ -3515,6 +3571,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>amazonka-core-2.0</tt> <br /> <a href='https://hydra.nixos.org/build/292010886/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/292010886/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/292010886/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/292010727'>build 292010727</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/292010889'>haskellPackages.amazonka-opensearchserverless.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>amazonka-core-2.0</tt> <br /> <a href='https://hydra.nixos.org/build/292010889/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/292010889/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/292010889/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/292010727'>build 292010727</a>
 </li>
 </ul>
 </details>
@@ -4140,6 +4210,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/292010925'>haskellPackages.amazonka-s3.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>amazonka-core-2.0</tt> <br /> <a href='https://hydra.nixos.org/build/292010925/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/292010925/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/292010925/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/292010727'>build 292010727</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/292010940'>haskellPackages.amazonka-s3outposts.x86_64-linux</a></tt>
 </summary>
 <ul>
@@ -4327,6 +4411,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>amazonka-core-2.0</tt> <br /> <a href='https://hydra.nixos.org/build/292010945/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/292010945/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/292010945/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/292010727'>build 292010727</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/292010954'>haskellPackages.amazonka-securitylake.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>amazonka-core-2.0</tt> <br /> <a href='https://hydra.nixos.org/build/292010954/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/292010954/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/292010954/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/292010727'>build 292010727</a>
 </li>
 </ul>
 </details>
@@ -4630,6 +4728,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/292010960'>haskellPackages.amazonka-sso.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>amazonka-core-2.0</tt> <br /> <a href='https://hydra.nixos.org/build/292010960/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/292010960/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/292010960/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/292010727'>build 292010727</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/292010966'>haskellPackages.amazonka-stepfunctions.x86_64-linux</a></tt>
 </summary>
 <ul>
@@ -4831,6 +4943,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>amazonka-core-2.0</tt> <br /> <a href='https://hydra.nixos.org/build/292010992/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/292010992/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/292010992/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/292010727'>build 292010727</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/292010988'>haskellPackages.amazonka-waf-regional.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>amazonka-core-2.0</tt> <br /> <a href='https://hydra.nixos.org/build/292010988/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/292010988/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/292010988/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/292010727'>build 292010727</a>
 </li>
 </ul>
 </details>
@@ -5624,6 +5750,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/292011602'>haskellPackages.ebird-cli.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>ebird-api-0.2.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/292011602/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/292011602/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/292011602/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/292011603'>build 292011603</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/292011605'>haskellPackages.ebird-client.x86_64-linux</a></tt>
 </summary>
 <ul>
@@ -5713,6 +5853,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>fft-0.1.8.7</tt> <br /> <a href='https://hydra.nixos.org/build/292011643/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/292011643/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/292011643/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/292011713'>build 292011713</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/292011687'>haskellPackages.evdev-streamly.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>streamly-0.10.1</tt> <br /> <a href='https://hydra.nixos.org/build/292011687/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/292011687/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/292011687/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/292013824'>build 292013824</a>
 </li>
 </ul>
 </details>
@@ -6399,6 +6553,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>mattermost-api-90000.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/292012864/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/292012864/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/292012864/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/292012865'>build 292012865</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/292012901'>haskellPackages.mig-server.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>mig-swagger-ui-0.1.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/292012901/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/292012901/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/292012901/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/292012900'>build 292012900</a>
 </li>
 </ul>
 </details>
@@ -7598,6 +7766,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/292014400'>haskellPackages.yesod-auth-simple.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>zxcvbn-hs-0.3.6</tt> <br /> <a href='https://hydra.nixos.org/build/292014400/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/292014400/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/292014400/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/292014426'>build 292014426</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/292014373'>haskellPackages.yesod-fb.x86_64-linux</a></tt>
 </summary>
 <ul>
@@ -8408,6 +8590,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/292011678'>haskellPackages.espial.x86_64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/292011666'>haskellPackages.essence-of-live-coding-gloss-example.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -9553,6 +9741,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/292013474'>haskellPackages.relocant.x86_64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/292013487'>haskellPackages.reqcatcher.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -10212,7 +10406,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>74 issues</summary>
+<details><summary>31 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -10221,42 +10415,7 @@ Built for evals:
 </tr></thead>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/292010308'>cabal2nix.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292010310'>cornelis.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292010413'>haskell.packages.ghc966.cabal2nix.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292010410'>haskell.packages.ghc966.hsdns.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/292010538'>haskellPackages.LambdaHack.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292010549'>haskellPackages.Plural.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -10270,42 +10429,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/292010771'>haskellPackages.amazonka-datapipeline.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/292010778'>haskellPackages.amazonka-emr-containers.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292010767'>haskellPackages.amazonka-emr.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292010785'>haskellPackages.amazonka-fms.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292010846'>haskellPackages.amazonka-macie.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292010889'>haskellPackages.amazonka-opensearchserverless.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -10319,42 +10443,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/292010925'>haskellPackages.amazonka-s3.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292010954'>haskellPackages.amazonka-securitylake.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292010960'>haskellPackages.amazonka-sso.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292010988'>haskellPackages.amazonka-waf-regional.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/292011014'>haskellPackages.apioiaf-client.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292011212'>haskellPackages.ca-province-codes.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -10375,13 +10464,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/292011416'>haskellPackages.csv-to-qif.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/292011528'>haskellPackages.dhall-nix.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -10389,42 +10471,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/292011602'>haskellPackages.ebird-cli.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292011666'>haskellPackages.essence-of-live-coding-gloss-example.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/292011662'>haskellPackages.essence-of-live-coding-quickcheck.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292011687'>haskellPackages.evdev-streamly.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292011763'>haskellPackages.freckle-prelude.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292011847'>haskellPackages.ghcid.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -10446,20 +10493,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/292011969'>haskellPackages.gogol-adsense.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292011986'>haskellPackages.gogol-cloudasset.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292012022'>haskellPackages.gogol-dialogflow.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -10494,35 +10527,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/292012289'>haskellPackages.hasql-notifications.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292012295'>haskellPackages.hasql-optparse-applicative.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/292012267'>haskellPackages.hasqly-mysql.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292012407'>haskellPackages.hschema-prettyprinter.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292012466'>haskellPackages.htmx-servant.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -10557,13 +10562,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/292012684'>haskellPackages.json-spec-elm-servant.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/292012742'>haskellPackages.leanpub-wreq.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -10571,28 +10569,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/292012748'>haskellPackages.lens-csv.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/292012806'>haskellPackages.logging-effect-colors.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292012850'>haskellPackages.matchable-th.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292012901'>haskellPackages.mig-server.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -10613,35 +10590,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/292013132'>haskellPackages.ordering-duplicates.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292013168'>haskellPackages.pandoc-vimhl.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/292013384'>haskellPackages.purenix.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292013363'>haskellPackages.qr.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292013419'>haskellPackages.real-dice.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -10655,42 +10604,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/292013474'>haskellPackages.relocant.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/292013591'>haskellPackages.seqid-streams.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292013623'>haskellPackages.servant-named.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292013700'>haskellPackages.simple-amount.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292013729'>haskellPackages.skylighting-format-typst.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292013737'>haskellPackages.small-bytearray-builder.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -10711,28 +10625,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/292014136'>haskellPackages.usa-holidays.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/292014169'>haskellPackages.vega-view.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292014271'>haskellPackages.webgear-openapi.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292014400'>haskellPackages.yesod-auth-simple.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -10832,6 +10725,7 @@ Built for evals:
 <li>haskellPackages.amazonka-customer-profiles.x86_64-linux</li>
 <li>haskellPackages.amazonka-databrew.x86_64-linux</li>
 <li>haskellPackages.amazonka-dataexchange.x86_64-linux</li>
+<li>haskellPackages.amazonka-datapipeline.x86_64-linux</li>
 <li>haskellPackages.amazonka-datasync.x86_64-linux</li>
 <li>haskellPackages.amazonka-detective.x86_64-linux</li>
 <li>haskellPackages.amazonka-devicefarm.x86_64-linux</li>
@@ -10861,10 +10755,12 @@ Built for evals:
 <li>haskellPackages.amazonka-elb.x86_64-linux</li>
 <li>haskellPackages.amazonka-elbv2.x86_64-linux</li>
 <li>haskellPackages.amazonka-emr-serverless.x86_64-linux</li>
+<li>haskellPackages.amazonka-emr.x86_64-linux</li>
 <li>haskellPackages.amazonka-evidently.x86_64-linux</li>
 <li>haskellPackages.amazonka-finspace-data.x86_64-linux</li>
 <li>haskellPackages.amazonka-finspace.x86_64-linux</li>
 <li>haskellPackages.amazonka-fis.x86_64-linux</li>
+<li>haskellPackages.amazonka-fms.x86_64-linux</li>
 <li>haskellPackages.amazonka-forecast.x86_64-linux</li>
 <li>haskellPackages.amazonka-forecastquery.x86_64-linux</li>
 <li>haskellPackages.amazonka-frauddetector.x86_64-linux</li>
@@ -10935,6 +10831,7 @@ Built for evals:
 <li>haskellPackages.amazonka-lookoutmetrics.x86_64-linux</li>
 <li>haskellPackages.amazonka-lookoutvision.x86_64-linux</li>
 <li>haskellPackages.amazonka-m2.x86_64-linux</li>
+<li>haskellPackages.amazonka-macie.x86_64-linux</li>
 <li>haskellPackages.amazonka-maciev2.x86_64-linux</li>
 <li>haskellPackages.amazonka-managedblockchain.x86_64-linux</li>
 <li>haskellPackages.amazonka-marketplace-analytics.x86_64-linux</li>
@@ -10968,6 +10865,7 @@ Built for evals:
 <li>haskellPackages.amazonka-oam.x86_64-linux</li>
 <li>haskellPackages.amazonka-omics.x86_64-linux</li>
 <li>haskellPackages.amazonka-opensearch.x86_64-linux</li>
+<li>haskellPackages.amazonka-opensearchserverless.x86_64-linux</li>
 <li>haskellPackages.amazonka-opsworks-cm.x86_64-linux</li>
 <li>haskellPackages.amazonka-opsworks.x86_64-linux</li>
 <li>haskellPackages.amazonka-organizations.x86_64-linux</li>
@@ -11010,6 +10908,7 @@ Built for evals:
 <li>haskellPackages.amazonka-route53.x86_64-linux</li>
 <li>haskellPackages.amazonka-route53resolver.x86_64-linux</li>
 <li>haskellPackages.amazonka-rum.x86_64-linux</li>
+<li>haskellPackages.amazonka-s3.x86_64-linux</li>
 <li>haskellPackages.amazonka-s3outposts.x86_64-linux</li>
 <li>haskellPackages.amazonka-sagemaker-a2i-runtime.x86_64-linux</li>
 <li>haskellPackages.amazonka-sagemaker-edge.x86_64-linux</li>
@@ -11024,6 +10923,7 @@ Built for evals:
 <li>haskellPackages.amazonka-sdb.x86_64-linux</li>
 <li>haskellPackages.amazonka-secretsmanager.x86_64-linux</li>
 <li>haskellPackages.amazonka-securityhub.x86_64-linux</li>
+<li>haskellPackages.amazonka-securitylake.x86_64-linux</li>
 <li>haskellPackages.amazonka-serverlessrepo.x86_64-linux</li>
 <li>haskellPackages.amazonka-service-quotas.x86_64-linux</li>
 <li>haskellPackages.amazonka-servicecatalog-appregistry.x86_64-linux</li>
@@ -11045,6 +10945,7 @@ Built for evals:
 <li>haskellPackages.amazonka-ssm.x86_64-linux</li>
 <li>haskellPackages.amazonka-sso-admin.x86_64-linux</li>
 <li>haskellPackages.amazonka-sso-oidc.x86_64-linux</li>
+<li>haskellPackages.amazonka-sso.x86_64-linux</li>
 <li>haskellPackages.amazonka-stepfunctions.x86_64-linux</li>
 <li>haskellPackages.amazonka-storagegateway.x86_64-linux</li>
 <li>haskellPackages.amazonka-sts.x86_64-linux</li>
@@ -11060,6 +10961,7 @@ Built for evals:
 <li>haskellPackages.amazonka-transfer.x86_64-linux</li>
 <li>haskellPackages.amazonka-translate.x86_64-linux</li>
 <li>haskellPackages.amazonka-voice-id.x86_64-linux</li>
+<li>haskellPackages.amazonka-waf-regional.x86_64-linux</li>
 <li>haskellPackages.amazonka-waf.x86_64-linux</li>
 <li>haskellPackages.amazonka-wafv2.x86_64-linux</li>
 <li>haskellPackages.amazonka-wellarchitected.x86_64-linux</li>
@@ -11088,7 +10990,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>335</td>
+<td>344</td>
 </tr>
 <tr>
 <td>
@@ -11134,6 +11036,23 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/292013824'>x86_64-linux streamly-0.10.1</a></tt></summary>
+<ul>
+<li>haskellPackages.amqp-streamly.x86_64-linux</li>
+<li>haskellPackages.evdev-streamly.x86_64-linux</li>
+<li>haskellPackages.hasql-streams-example.x86_64-linux</li>
+<li>haskellPackages.hasql-streams-streamly.x86_64-linux</li>
+<li>haskellPackages.streamly-fsnotify.x86_64-linux</li>
+<li>haskellPackages.streamly-process.x86_64-linux</li>
+<li>haskellPackages.streamly-zip.x86_64-linux</li>
+<li>maintained</li>
+</ul>
+</details>
+</td>
+<td>8</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/292012521'>x86_64-linux hw-int-0.0.2.0</a></tt></summary>
 <ul>
 <li>haskellPackages.hw-balancedparens.x86_64-linux</li>
@@ -11148,22 +11067,6 @@ Built for evals:
 </details>
 </td>
 <td>8</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/292013824'>x86_64-linux streamly-0.10.1</a></tt></summary>
-<ul>
-<li>haskellPackages.amqp-streamly.x86_64-linux</li>
-<li>haskellPackages.hasql-streams-example.x86_64-linux</li>
-<li>haskellPackages.hasql-streams-streamly.x86_64-linux</li>
-<li>haskellPackages.streamly-fsnotify.x86_64-linux</li>
-<li>haskellPackages.streamly-process.x86_64-linux</li>
-<li>haskellPackages.streamly-zip.x86_64-linux</li>
-<li>maintained</li>
-</ul>
-</details>
-</td>
-<td>7</td>
 </tr>
 <tr>
 <td>
@@ -11576,6 +11479,17 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/292011603'>x86_64-linux ebird-api-0.2.0.0</a></tt></summary>
+<ul>
+<li>haskellPackages.ebird-cli.x86_64-linux</li>
+<li>haskellPackages.ebird-client.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/292013710'>x86_64-linux simplex-method-0.2.0.0</a></tt></summary>
 <ul>
 <li>haskellPackages.exact-kantorovich.x86_64-linux</li>
@@ -11816,16 +11730,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/292011603'>x86_64-linux ebird-api-0.2.0.0</a></tt></summary>
-<ul>
-<li>haskellPackages.ebird-client.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/292011550'>x86_64-linux distributed-process-p2p-0.1.5.0</a></tt></summary>
 <ul>
 <li>haskellPackages.feed-gipeda.x86_64-linux</li>
@@ -11909,6 +11813,16 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/292012814'>x86_64-linux lp-diagrams-2.1.4</a></tt></summary>
 <ul>
 <li>haskellPackages.marxup.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/292012900'>x86_64-linux mig-swagger-ui-0.1.0.1</a></tt></summary>
+<ul>
+<li>haskellPackages.mig-server.x86_64-linux</li>
 </ul>
 </details>
 </td>
@@ -12109,6 +12023,16 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/292014345'>x86_64-linux yaya-hedgehog-0.3.0.3</a></tt></summary>
 <ul>
 <li>haskellPackages.yaya-unsafe.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/292014426'>x86_64-linux zxcvbn-hs-0.3.6</a></tt></summary>
+<ul>
+<li>haskellPackages.yesod-auth-simple.x86_64-linux</li>
 </ul>
 </details>
 </td>
