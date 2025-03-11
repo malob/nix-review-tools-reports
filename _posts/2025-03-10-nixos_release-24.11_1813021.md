@@ -1,10 +1,10 @@
 ---
-title: nixos:release-24.11 1813021
+title: nixos:release-24.11 1813021 (succeeded)
 categories: nixos:release-24.11
 ---
 # Evals report
 
-*Report built at 2025-03-11 03:16:44 UTC*
+*Report built at 2025-03-11 04:08:06 UTC*
 
 Built for evals:
 
