@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-03-10 22:07:19 UTC*
+*Report built at 2025-03-11 02:32:24 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1321 issues</summary>
+<details><summary>1322 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -6007,6 +6007,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>ruby3.3-msgpack-1.2.6</tt> <br /> <a href='https://hydra.nixos.org/build/291540798/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/291540798/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/291540798/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/291096340'>build 291096340</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/292016662'>teleport.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>teleport-rdpclient-16.4.14</tt> <br /> <a href='https://hydra.nixos.org/build/292016662/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/292016662/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/292016662/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/291801936'>build 291801936</a>
 </li>
 </ul>
 </details>
@@ -19671,7 +19685,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>85 issues</summary>
+<details><summary>80 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -19719,13 +19733,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292026250'>cinny-unwrapped.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -19995,13 +20002,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/292016607'>mpd-small.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/292016614'>next-ls.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -20045,13 +20045,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/292016619'>plausible.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292016623'>pnpm_9.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -20132,13 +20125,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292016662'>teleport.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -20258,13 +20244,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292016682'>youtube-music.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -22281,6 +22260,17 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/291801936'>x86_64-darwin teleport-rdpclient-16.4.14</a></tt></summary>
+<ul>
+<li>teleport.x86_64-darwin</li>
+<li>teleport_16.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/291099123'>aarch64-darwin pypy3.9-pycodestyle-2.12.0</a></tt></summary>
 <ul>
 <li>tests.writers.simple.pypy3NoLibs.aarch64-darwin</li>
@@ -22718,16 +22708,6 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/291096432'>x86_64-darwin python3.11-cfn-lint-1.18.1</a></tt></summary>
 <ul>
 <li>tandoor-recipes.x86_64-darwin</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/291801936'>x86_64-darwin teleport-rdpclient-16.4.14</a></tt></summary>
-<ul>
-<li>teleport_16.x86_64-darwin</li>
 </ul>
 </details>
 </td>
