@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next
 ---
 # Evals report
 
-*Report built at 2025-03-11 20:11:37 UTC*
+*Report built at 2025-03-11 21:10:34 UTC*
 
 Built for evals:
 
@@ -12184,7 +12184,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>1113 issues</summary>
+<details><summary>1117 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -16755,6 +16755,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/291583099'>haskell.compiler.ghc964.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/291583197'>haskell.compiler.native-bignum.ghc963.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -16912,6 +16918,24 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/291616183'>jikespg.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/291616679'>julia-stable.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/291616662'>julia.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/291616691'>julia_111.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -25109,7 +25133,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>5380 issues</summary>
+<details><summary>5376 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -30319,13 +30343,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/291583099'>haskell.compiler.ghc964.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/291583137'>haskell.compiler.integer-simple.ghc810.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -31961,27 +31978,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/291616679'>julia-stable.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/291616662'>julia.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/291616691'>julia_111.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
