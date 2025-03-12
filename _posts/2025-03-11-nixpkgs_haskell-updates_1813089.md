@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-03-12 04:04:53 UTC*
+*Report built at 2025-03-12 07:05:09 UTC*
 
 Built for evals:
 
@@ -10444,7 +10444,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>15 issues</summary>
+<details><summary>14 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -10524,13 +10524,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/292410294'>haskellPackages.yaya-unsafe.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292410298'>nixosTests.xmonad-xdg-autostart.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
