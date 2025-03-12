@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-03-12 02:31:57 UTC*
+*Report built at 2025-03-12 03:15:07 UTC*
 
 Built for evals:
 
@@ -19337,7 +19337,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>540 issues</summary>
+<details><summary>537 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -20417,13 +20417,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/292410475'>invoice2data.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/292410476'>invoice2data.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -20697,13 +20690,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/292410522'>lua52Packages.image-nvim.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/292410521'>lua52Packages.image-nvim.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -20764,13 +20750,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292410532'>luajitPackages.magick.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
