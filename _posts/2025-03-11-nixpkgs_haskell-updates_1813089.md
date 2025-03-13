@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-03-13 07:04:55 UTC*
+*Report built at 2025-03-13 11:04:52 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>983 issues</summary>
+<details><summary>985 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -5428,6 +5428,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/292410285'>haskellPackages.casadi-bindings-control.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>casadi-bindings-core-3.4.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/292410285/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/292410285/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/292410285/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/292410284'>build 292410284</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/292410286'>haskellPackages.casadi-bindings-ipopt-interface.x86_64-linux</a></tt>
 </summary>
 <ul>
@@ -7785,6 +7799,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>nyan-interpolation-core-0.9.2</tt> <br /> <a href='https://hydra.nixos.org/build/292014334/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/292014334/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/292014334/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/292013085'>build 292013085</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/292410294'>haskellPackages.yaya-unsafe.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>yaya-hedgehog-0.3.0.3</tt> <br /> <a href='https://hydra.nixos.org/build/292410294/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/292410294/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/292410294/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/292410293'>build 292410293</a>
 </li>
 </ul>
 </details>
@@ -10470,20 +10498,13 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>5 issues</summary>
+<details><summary>3 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292410285'>haskellPackages.casadi-bindings-control.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/292410287'>haskellPackages.casadi-bindings-snopt-interface.x86_64-linux</a></tt>
@@ -10494,13 +10515,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/292410290'>haskellPackages.gi-vips.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292410294'>haskellPackages.yaya-unsafe.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -11331,6 +11345,17 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/292410284'>x86_64-linux casadi-bindings-core-3.4.5.0</a></tt></summary>
+<ul>
+<li>haskellPackages.casadi-bindings-control.x86_64-linux</li>
+<li>haskellPackages.casadi-bindings-ipopt-interface.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/292013050'>x86_64-linux network-uri-json-0.4.0.0</a></tt></summary>
 <ul>
 <li>haskellPackages.collection-json.x86_64-linux</li>
@@ -11537,16 +11562,6 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/292011848'>x86_64-linux ghcjs-ajax-0.2.0.0</a></tt></summary>
 <ul>
 <li>haskellPackages.async-ajax.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/292410284'>x86_64-linux casadi-bindings-core-3.4.5.0</a></tt></summary>
-<ul>
-<li>haskellPackages.casadi-bindings-ipopt-interface.x86_64-linux</li>
 </ul>
 </details>
 </td>
@@ -11907,6 +11922,16 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/292012212'>x86_64-linux hal-1.1</a></tt></summary>
 <ul>
 <li>haskellPackages.wai-handler-hal.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/292410293'>x86_64-linux yaya-hedgehog-0.3.0.3</a></tt></summary>
+<ul>
+<li>haskellPackages.yaya-unsafe.x86_64-linux</li>
 </ul>
 </details>
 </td>
