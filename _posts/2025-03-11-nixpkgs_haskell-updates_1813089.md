@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-03-13 11:04:52 UTC*
+*Report built at 2025-03-13 14:04:57 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>985 issues</summary>
+<details><summary>986 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -5456,6 +5456,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/292410287'>haskellPackages.casadi-bindings-snopt-interface.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>casadi-bindings-core-3.4.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/292410287/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/292410287/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/292410287/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/292410284'>build 292410284</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/292011260'>haskellPackages.changeset-containers.x86_64-linux</a></tt>
 </summary>
 <ul>
@@ -10498,7 +10512,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>3 issues</summary>
+<details><summary>1 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -10507,21 +10521,7 @@ Built for evals:
 </tr></thead>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/292410287'>haskellPackages.casadi-bindings-snopt-interface.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/292410290'>haskellPackages.gi-vips.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292410297'>nixosTests.xmonad.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -11195,6 +11195,18 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/292410284'>x86_64-linux casadi-bindings-core-3.4.5.0</a></tt></summary>
+<ul>
+<li>haskellPackages.casadi-bindings-control.x86_64-linux</li>
+<li>haskellPackages.casadi-bindings-ipopt-interface.x86_64-linux</li>
+<li>haskellPackages.casadi-bindings-snopt-interface.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>3</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/292011259'>x86_64-linux changeset-0.1.0.2</a></tt></summary>
 <ul>
 <li>haskellPackages.changeset-containers.x86_64-linux</li>
@@ -11338,17 +11350,6 @@ Built for evals:
 <ul>
 <li>haskellPackages.acts.x86_64-linux</li>
 <li>haskellPackages.finitary-optics.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>2</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/292410284'>x86_64-linux casadi-bindings-core-3.4.5.0</a></tt></summary>
-<ul>
-<li>haskellPackages.casadi-bindings-control.x86_64-linux</li>
-<li>haskellPackages.casadi-bindings-ipopt-interface.x86_64-linux</li>
 </ul>
 </details>
 </td>
