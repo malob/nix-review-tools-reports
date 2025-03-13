@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:haskell-updates 1813089
+title: nixpkgs:haskell-updates 1813089 (succeeded)
 categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-03-13 14:04:57 UTC*
+*Report built at 2025-03-13 15:05:20 UTC*
 
 Built for evals:
 
@@ -10504,27 +10504,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/292014446'>nix-output-monitor.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292410290'>haskellPackages.gi-vips.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
