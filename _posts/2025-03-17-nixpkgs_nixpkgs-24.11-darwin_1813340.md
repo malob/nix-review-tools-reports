@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-03-17 12:08:36 UTC*
+*Report built at 2025-03-17 13:13:18 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1313 issues</summary>
+<details><summary>1314 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -5973,6 +5973,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>ruby3.3-msgpack-1.2.6</tt> <br /> <a href='https://hydra.nixos.org/build/291540798/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/291540798/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/291540798/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/291096340'>build 291096340</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/292786687'>teleport.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>teleport-rdpclient-16.4.14</tt> <br /> <a href='https://hydra.nixos.org/build/292786687/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/292786687/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/292786687/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/291801936'>build 291801936</a>
 </li>
 </ul>
 </details>
@@ -19519,7 +19533,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>567 issues</summary>
+<details><summary>562 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -19774,13 +19788,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/292785604'>electron-chromedriver_34.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292785605'>electron_34-bin.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -20963,13 +20970,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/292785918'>php81Packages.psysh.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/292785908'>php82.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -21174,13 +21174,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/292786011'>php82Extensions.opentelemetry.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292786022'>php82Extensions.pcov.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -22818,13 +22811,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/292786583'>php84Packages.phpmd.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/292786591'>php84Packages.phpstan.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -23326,13 +23312,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292786687'>teleport.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -25487,6 +25466,17 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/291801936'>x86_64-darwin teleport-rdpclient-16.4.14</a></tt></summary>
+<ul>
+<li>teleport.x86_64-darwin</li>
+<li>teleport_16.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/291099123'>aarch64-darwin pypy3.9-pycodestyle-2.12.0</a></tt></summary>
 <ul>
 <li>tests.writers.simple.pypy3NoLibs.aarch64-darwin</li>
@@ -25894,16 +25884,6 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/291093485'>aarch64-darwin vscode-spectral-1.1.2</a></tt></summary>
 <ul>
 <li>spectral-language-server.aarch64-darwin</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/291801936'>x86_64-darwin teleport-rdpclient-16.4.14</a></tt></summary>
-<ul>
-<li>teleport_16.x86_64-darwin</li>
 </ul>
 </details>
 </td>
