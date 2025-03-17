@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-03-17 04:08:21 UTC*
+*Report built at 2025-03-17 05:07:45 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1307 issues</summary>
+<details><summary>1308 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -8939,6 +8939,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/292786624'>python311Packages.gradio.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/291504509'>python311Packages.graphite-web.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -11374,7 +11380,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1021 issues</summary>
+<details><summary>1022 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -19406,6 +19412,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/292786682'>tabby-agent.aarch64-darwin</a></tt>
+</td>
+<td>Output size limit exceeded</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/291463744'>haskellPackages.THSH.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -19465,7 +19477,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>680 issues</summary>
+<details><summary>671 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -21378,13 +21390,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/292785970'>php82Extensions.igbinary.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/292785969'>php82Extensions.imagick.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -21456,13 +21461,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/292785991'>php82Extensions.msgpack.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292786010'>php82Extensions.opentelemetry.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -22834,13 +22832,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/292786432'>php84Extensions.imap.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/292786430'>php84Extensions.imap.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -23422,13 +23413,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/292786601'>php84Packages.psalm.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/292786589'>php84Packages.psysh.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -23639,13 +23623,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/292786622'>python311Packages.gradio-client.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/292786620'>python311Packages.gradio-pdf.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -23653,24 +23630,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/292786623'>python311Packages.gradio-pdf.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/292786621'>python311Packages.gradio.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292786624'>python311Packages.gradio.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -24003,13 +23966,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/292786682'>tabby-agent.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/292786683'>tabby-agent.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -24165,13 +24121,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/292786711'>webtorrent_desktop.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292786714'>wp-cli.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
