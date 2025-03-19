@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-03-19 21:07:07 UTC*
+*Report built at 2025-03-19 22:07:33 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1353 issues</summary>
+<details><summary>1354 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -3409,6 +3409,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>box-composer-repository-4.6.6</tt> <br /> <a href='https://hydra.nixos.org/build/292866621/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/292866621/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/292866621/nixlog/2/tail'>tail</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/292866623'>php82Packages.grumphp.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>grumphp-composer-vendor-2.10.0</tt> <br /> <a href='https://hydra.nixos.org/build/292866623/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/292866623/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/292866623/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/292866610'>build 292866610</a>
 </li>
 </ul>
 </details>
@@ -20337,7 +20351,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>63 issues</summary>
+<details><summary>61 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -20514,13 +20528,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/292866623'>php82Packages.grumphp.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/292866639'>php82Packages.phing.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -20543,13 +20550,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/292866640'>php82Packages.phpstan.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292866633'>php82Packages.psysh.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -21231,6 +21231,21 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt>x86_64-darwin grumphp-composer-vendor-2.10.0</tt></summary>
+<ul>
+<li>php81Packages.grumphp.x86_64-darwin</li>
+<li>php82Packages.grumphp.aarch64-darwin</li>
+<li>php82Packages.grumphp.x86_64-darwin</li>
+<li>php83Packages.grumphp.aarch64-darwin</li>
+<li>php83Packages.grumphp.x86_64-darwin</li>
+<li>php84Packages.grumphp.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>6</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/292866632'>aarch64-darwin psalm-composer-vendor-5.26.1</a></tt></summary>
 <ul>
 <li>php81Packages.psalm.aarch64-darwin</li>
@@ -21393,20 +21408,6 @@ Built for evals:
 </details>
 </td>
 <td>6</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>x86_64-darwin grumphp-composer-vendor-2.10.0</tt></summary>
-<ul>
-<li>php81Packages.grumphp.x86_64-darwin</li>
-<li>php82Packages.grumphp.aarch64-darwin</li>
-<li>php83Packages.grumphp.aarch64-darwin</li>
-<li>php83Packages.grumphp.x86_64-darwin</li>
-<li>php84Packages.grumphp.aarch64-darwin</li>
-</ul>
-</details>
-</td>
-<td>5</td>
 </tr>
 <tr>
 <td>
