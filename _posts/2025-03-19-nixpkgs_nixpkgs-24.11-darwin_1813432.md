@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-03-19 17:08:05 UTC*
+*Report built at 2025-03-19 18:08:17 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1349 issues</summary>
+<details><summary>1352 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -3614,6 +3614,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/292866684'>phpactor.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>phpactor-composer-vendor-2024.11.28.0</tt> <br /> <a href='https://hydra.nixos.org/build/292866684/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/292866684/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/292866684/nixlog/1/tail'>tail</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/291497676'>pony-corral.x86_64-darwin</a></tt>
 </summary>
 <ul>
@@ -6470,6 +6484,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/292866722'>vimPlugins.phpactor.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>phpactor-composer-vendor-2024.11.28.0</tt> <br /> <a href='https://hydra.nixos.org/build/292866722/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/292866722/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/292866722/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/292866684'>build 292866684</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/291950531'>vimacs.x86_64-darwin</a></tt>
 </summary>
 <ul>
@@ -8650,6 +8678,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/291487836'>pan-bindings.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/292866594'>paratest.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -11834,7 +11868,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1046 issues</summary>
+<details><summary>1048 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -12921,6 +12955,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/292866635'>php82Packages.grumphp.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>grumphp-composer-vendor-2.10.0</tt> <br /> <a href='https://hydra.nixos.org/build/292866635/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/292866635/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/292866635/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/292866610'>build 292866610</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/292866628'>php82Packages.php-codesniffer.aarch64-darwin</a></tt>
 </summary>
 <ul>
@@ -13038,6 +13086,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>phing-composer-vendor-3.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/292866691/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/292866691/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/292866691/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/292866659'>build 292866659</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/292866670'>php84Packages.php-codesniffer.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>php-codesniffer-composer-vendor-3.11.2</tt> <br /> <a href='https://hydra.nixos.org/build/292866670/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/292866670/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/292866670/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/292866605'>build 292866605</a>
 </li>
 </ul>
 </details>
@@ -20219,7 +20281,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>77 issues</summary>
+<details><summary>71 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -20309,13 +20371,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292866594'>paratest.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -20414,13 +20469,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292866635'>php82Packages.grumphp.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -20536,13 +20584,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/292866670'>php84Packages.php-codesniffer.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/292866672'>php84Packages.php-cs-fixer.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -20582,13 +20623,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292866684'>phpactor.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -20652,13 +20686,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292866702'>tests.haskell.cabalSdist.assumptionLocalHasDirectReference.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -20757,13 +20784,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292866722'>vimPlugins.phpactor.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 </table>
 </details>
@@ -21160,6 +21180,23 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt>aarch64-darwin php-codesniffer-composer-vendor-3.11.2</tt></summary>
+<ul>
+<li>php81Packages.php-codesniffer.aarch64-darwin</li>
+<li>php81Packages.php-codesniffer.x86_64-darwin</li>
+<li>php82Packages.php-codesniffer.aarch64-darwin</li>
+<li>php82Packages.php-codesniffer.x86_64-darwin</li>
+<li>php83Packages.php-codesniffer.aarch64-darwin</li>
+<li>php83Packages.php-codesniffer.x86_64-darwin</li>
+<li>php84Packages.php-codesniffer.aarch64-darwin</li>
+<li>php84Packages.php-codesniffer.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>8</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/291072969'>aarch64-darwin python3.12-ttfautohint-py-0.5.1</a></tt></summary>
 <ul>
 <li>fira-math.aarch64-darwin</li>
@@ -21191,22 +21228,6 @@ Built for evals:
 </details>
 </td>
 <td>8</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>aarch64-darwin php-codesniffer-composer-vendor-3.11.2</tt></summary>
-<ul>
-<li>php81Packages.php-codesniffer.aarch64-darwin</li>
-<li>php81Packages.php-codesniffer.x86_64-darwin</li>
-<li>php82Packages.php-codesniffer.aarch64-darwin</li>
-<li>php82Packages.php-codesniffer.x86_64-darwin</li>
-<li>php83Packages.php-codesniffer.aarch64-darwin</li>
-<li>php83Packages.php-codesniffer.x86_64-darwin</li>
-<li>php84Packages.php-codesniffer.x86_64-darwin</li>
-</ul>
-</details>
-</td>
-<td>7</td>
 </tr>
 <tr>
 <td>
@@ -21360,6 +21381,20 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt>x86_64-darwin grumphp-composer-vendor-2.10.0</tt></summary>
+<ul>
+<li>php81Packages.grumphp.x86_64-darwin</li>
+<li>php82Packages.grumphp.aarch64-darwin</li>
+<li>php83Packages.grumphp.aarch64-darwin</li>
+<li>php83Packages.grumphp.x86_64-darwin</li>
+<li>php84Packages.grumphp.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>5</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/292866659'>aarch64-darwin phing-composer-vendor-3.0.0</a></tt></summary>
 <ul>
 <li>php81Packages.phing.aarch64-darwin</li>
@@ -21427,19 +21462,6 @@ Built for evals:
 </details>
 </td>
 <td>5</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>x86_64-darwin grumphp-composer-vendor-2.10.0</tt></summary>
-<ul>
-<li>php81Packages.grumphp.x86_64-darwin</li>
-<li>php83Packages.grumphp.aarch64-darwin</li>
-<li>php83Packages.grumphp.x86_64-darwin</li>
-<li>php84Packages.grumphp.aarch64-darwin</li>
-</ul>
-</details>
-</td>
-<td>4</td>
 </tr>
 <tr>
 <td>
@@ -21892,6 +21914,17 @@ Built for evals:
 <ul>
 <li>composer-require-checker.aarch64-darwin</li>
 <li>composer-require-checker.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>x86_64-darwin phpactor-composer-vendor-2024.11.28.0</tt></summary>
+<ul>
+<li>phpactor.x86_64-darwin</li>
+<li>vimPlugins.phpactor.x86_64-darwin</li>
 </ul>
 </details>
 </td>
