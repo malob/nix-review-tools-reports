@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-03-19 16:08:08 UTC*
+*Report built at 2025-03-19 17:08:05 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1345 issues</summary>
+<details><summary>1349 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -315,6 +315,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>ocaml4.14.2-mirage-crypto-rng-1.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/291456499/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/291456499/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/291456499/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/291171955'>build 291171955</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/292866571'>composer-require-checker.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>composer-require-checker-composer-vendor-4.13.0</tt> <br /> <a href='https://hydra.nixos.org/build/292866571/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/292866571/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/292866571/nixlog/1/tail'>tail</a>
 </li>
 </ul>
 </details>
@@ -3502,11 +3516,53 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/292866654'>php83Packages.phpstan.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>phpstan-composer-vendor-2.1.1</tt> <br /> <a href='https://hydra.nixos.org/build/292866654/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/292866654/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/292866654/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/292866641'>build 292866641</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/292866658'>php83Packages.psalm.x86_64-darwin</a></tt>
 </summary>
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>psalm-composer-vendor-5.26.1</tt> <br /> <a href='https://hydra.nixos.org/build/292866658/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/292866658/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/292866658/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/292866632'>build 292866632</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/292866665'>php84Packages.box.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>box-composer-repository-4.6.6</tt> <br /> <a href='https://hydra.nixos.org/build/292866665/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/292866665/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/292866665/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/292866621'>build 292866621</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/292866690'>php84Packages.phing.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>phing-composer-vendor-3.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/292866690/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/292866690/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/292866690/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/292866659'>build 292866659</a>
 </li>
 </ul>
 </details>
@@ -11778,7 +11834,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1044 issues</summary>
+<details><summary>1046 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -11862,6 +11918,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>ocaml4.14.2-mirage-crypto-rng-1.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/291456497/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/291456497/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/291456497/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/290951472'>build 290951472</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/292866572'>composer-require-checker.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>composer-require-checker-composer-vendor-4.13.0</tt> <br /> <a href='https://hydra.nixos.org/build/292866572/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/292866572/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/292866572/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/292866571'>build 292866571</a>
 </li>
 </ul>
 </details>
@@ -12926,6 +12996,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>php-codesniffer-composer-vendor-3.11.2</tt> <br /> <a href='https://hydra.nixos.org/build/292866652/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/292866652/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/292866652/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/292866605'>build 292866605</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/292866666'>php84Packages.castor.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>castor-composer-vendor-0.21.0</tt> <br /> <a href='https://hydra.nixos.org/build/292866666/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/292866666/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/292866666/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/292866645'>build 292866645</a>
 </li>
 </ul>
 </details>
@@ -20135,7 +20219,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>89 issues</summary>
+<details><summary>77 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -20148,27 +20232,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292866572'>composer-require-checker.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292866571'>composer-require-checker.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292866578'>evil-helix.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -20200,13 +20263,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/292824121'>nixVersions.nix_2_26.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/292866588'>nixd.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -20232,13 +20288,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292851333'>nixpkgs-manual.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -20417,13 +20466,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/292866634'>php82Packages.psysh.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/292866642'>php83Packages.box.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -20459,13 +20501,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/292866654'>php83Packages.phpstan.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/292866661'>php83Packages.psalm.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -20473,28 +20508,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/292866655'>php83Packages.psysh.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/292866664'>php84Packages.box.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292866665'>php84Packages.box.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292866666'>php84Packages.castor.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -20522,21 +20536,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/292866690'>php84Packages.phing.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/292866670'>php84Packages.php-codesniffer.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292866671'>php84Packages.php-cs-fixer.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -21360,6 +21360,20 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/292866659'>aarch64-darwin phing-composer-vendor-3.0.0</a></tt></summary>
+<ul>
+<li>php81Packages.phing.aarch64-darwin</li>
+<li>php81Packages.phing.x86_64-darwin</li>
+<li>php83Packages.phing.aarch64-darwin</li>
+<li>php84Packages.phing.aarch64-darwin</li>
+<li>php84Packages.phing.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>5</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/292866632'>aarch64-darwin psalm-composer-vendor-5.26.1</a></tt></summary>
 <ul>
 <li>php82Packages.psalm.aarch64-darwin</li>
@@ -21429,12 +21443,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/292866659'>aarch64-darwin phing-composer-vendor-3.0.0</a></tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/292866641'>x86_64-darwin phpstan-composer-vendor-2.1.1</a></tt></summary>
 <ul>
-<li>php81Packages.phing.aarch64-darwin</li>
-<li>php81Packages.phing.x86_64-darwin</li>
-<li>php83Packages.phing.aarch64-darwin</li>
-<li>php84Packages.phing.aarch64-darwin</li>
+<li>php81Packages.phpstan.x86_64-darwin</li>
+<li>php82Packages.phpstan.x86_64-darwin</li>
+<li>php83Packages.phpstan.x86_64-darwin</li>
+<li>php84Packages.phpstan.x86_64-darwin</li>
 </ul>
 </details>
 </td>
@@ -21754,11 +21768,23 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/292866641'>x86_64-darwin phpstan-composer-vendor-2.1.1</a></tt></summary>
+<details><summary><tt>x86_64-darwin box-composer-repository-4.6.6</tt></summary>
 <ul>
-<li>php81Packages.phpstan.x86_64-darwin</li>
-<li>php82Packages.phpstan.x86_64-darwin</li>
-<li>php84Packages.phpstan.x86_64-darwin</li>
+<li>php82Packages.box.x86_64-darwin</li>
+<li>php83Packages.box.x86_64-darwin</li>
+<li>php84Packages.box.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>3</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/292866645'>aarch64-darwin castor-composer-vendor-0.21.0</a></tt></summary>
+<ul>
+<li>php83Packages.castor.aarch64-darwin</li>
+<li>php83Packages.castor.x86_64-darwin</li>
+<li>php84Packages.castor.aarch64-darwin</li>
 </ul>
 </details>
 </td>
@@ -21862,21 +21888,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt>x86_64-darwin box-composer-repository-4.6.6</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/292866571'>aarch64-darwin composer-require-checker-composer-vendor-4.13.0</a></tt></summary>
 <ul>
-<li>php82Packages.box.x86_64-darwin</li>
-<li>php83Packages.box.x86_64-darwin</li>
-</ul>
-</details>
-</td>
-<td>2</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/292866645'>aarch64-darwin castor-composer-vendor-0.21.0</a></tt></summary>
-<ul>
-<li>php83Packages.castor.aarch64-darwin</li>
-<li>php83Packages.castor.x86_64-darwin</li>
+<li>composer-require-checker.aarch64-darwin</li>
+<li>composer-require-checker.x86_64-darwin</li>
 </ul>
 </details>
 </td>
