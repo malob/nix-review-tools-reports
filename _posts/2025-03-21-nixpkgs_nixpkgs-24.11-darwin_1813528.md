@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-03-21 11:07:22 UTC*
+*Report built at 2025-03-21 12:08:01 UTC*
 
 Built for evals:
 
@@ -12052,7 +12052,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1070 issues</summary>
+<details><summary>1071 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -13230,6 +13230,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>psalm-composer-vendor-5.26.1</tt> <br /> <a href='https://hydra.nixos.org/build/292866615/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/292866615/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/292866615/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/292866632'>build 292866632</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/292866620'>php82Packages.box.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>box-composer-repository-4.6.6</tt> <br /> <a href='https://hydra.nixos.org/build/292866620/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/292866620/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/292866620/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/292866621'>build 292866621</a>
 </li>
 </ul>
 </details>
@@ -20709,20 +20723,13 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>15 issues</summary>
+<details><summary>9 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292923498'>bashly.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/292894766'>bruno.x86_64-darwin</a></tt>
@@ -20746,13 +20753,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/292894897'>kryptor.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/292923504'>metrics</a></tt>
 </td>
 <td>Queued</td>
@@ -20760,31 +20760,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/292894915'>nix-tour.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292866620'>php82Packages.box.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/292866679'>phpactor.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292923505'>release-checks</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -20810,13 +20789,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/292866717'>tests.testers.nixosTest-example.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292894991'>torrentstream.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -21250,6 +21222,23 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/292866621'>aarch64-darwin box-composer-repository-4.6.6</a></tt></summary>
+<ul>
+<li>php81Packages.box.aarch64-darwin</li>
+<li>php81Packages.box.x86_64-darwin</li>
+<li>php82Packages.box.aarch64-darwin</li>
+<li>php82Packages.box.x86_64-darwin</li>
+<li>php83Packages.box.aarch64-darwin</li>
+<li>php83Packages.box.x86_64-darwin</li>
+<li>php84Packages.box.aarch64-darwin</li>
+<li>php84Packages.box.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>8</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/292866645'>aarch64-darwin castor-composer-vendor-0.21.0</a></tt></summary>
 <ul>
 <li>php81Packages.castor.aarch64-darwin</li>
@@ -21349,22 +21338,6 @@ Built for evals:
 </details>
 </td>
 <td>8</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/292866621'>aarch64-darwin box-composer-repository-4.6.6</a></tt></summary>
-<ul>
-<li>php81Packages.box.aarch64-darwin</li>
-<li>php81Packages.box.x86_64-darwin</li>
-<li>php82Packages.box.x86_64-darwin</li>
-<li>php83Packages.box.aarch64-darwin</li>
-<li>php83Packages.box.x86_64-darwin</li>
-<li>php84Packages.box.aarch64-darwin</li>
-<li>php84Packages.box.x86_64-darwin</li>
-</ul>
-</details>
-</td>
-<td>7</td>
 </tr>
 <tr>
 <td>
