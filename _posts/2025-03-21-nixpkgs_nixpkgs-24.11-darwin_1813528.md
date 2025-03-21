@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-03-21 12:08:01 UTC*
+*Report built at 2025-03-21 13:12:17 UTC*
 
 Built for evals:
 
@@ -12052,7 +12052,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1071 issues</summary>
+<details><summary>1072 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -13524,6 +13524,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>psalm-composer-vendor-5.26.1</tt> <br /> <a href='https://hydra.nixos.org/build/292866674/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/292866674/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/292866674/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/292866632'>build 292866632</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/292866679'>phpactor.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>phpactor-composer-vendor-2024.11.28.0</tt> <br /> <a href='https://hydra.nixos.org/build/292866679/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/292866679/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/292866679/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/292866684'>build 292866684</a>
 </li>
 </ul>
 </details>
@@ -20723,62 +20737,13 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>9 issues</summary>
+<details><summary>2 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292894766'>bruno.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292923500'>darwin-tested</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292923501'>golangci-lint-langserver.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292923504'>metrics</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292866679'>phpactor.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292894945'>seq-cli.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292923506'>tarball</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/292866716'>tests.testers.lycheeLinkCheck.network.x86_64-darwin</a></tt>
@@ -21663,6 +21628,19 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/292866684'>aarch64-darwin phpactor-composer-vendor-2024.11.28.0</a></tt></summary>
+<ul>
+<li>phpactor.aarch64-darwin</li>
+<li>phpactor.x86_64-darwin</li>
+<li>vimPlugins.phpactor.aarch64-darwin</li>
+<li>vimPlugins.phpactor.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>4</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/291039875'>aarch64-darwin python3.11-type-infer-0.0.20</a></tt></summary>
 <ul>
 <li>python311Packages.dataprep-ml.aarch64-darwin</li>
@@ -21910,18 +21888,6 @@ Built for evals:
 <li>opsdroid.x86_64-darwin</li>
 <li>prowler.x86_64-darwin</li>
 <li>python312Packages.slack-bolt.x86_64-darwin</li>
-</ul>
-</details>
-</td>
-<td>3</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>x86_64-darwin phpactor-composer-vendor-2024.11.28.0</tt></summary>
-<ul>
-<li>phpactor.x86_64-darwin</li>
-<li>vimPlugins.phpactor.aarch64-darwin</li>
-<li>vimPlugins.phpactor.x86_64-darwin</li>
 </ul>
 </details>
 </td>
