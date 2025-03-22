@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-03-22 16:07:33 UTC*
+*Report built at 2025-03-22 17:06:53 UTC*
 
 Built for evals:
 
@@ -20731,7 +20731,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>417 issues</summary>
+<details><summary>414 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -21426,13 +21426,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/292967086'>vscode-extensions.cweijan.vscode-database-client2.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/292967100'>vscode-extensions.danielgavin.ols.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -21843,13 +21836,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292967214'>vscode-extensions.golang.go.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -22788,13 +22774,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292967448'>vscode-extensions.phoenixframework.phoenix.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
