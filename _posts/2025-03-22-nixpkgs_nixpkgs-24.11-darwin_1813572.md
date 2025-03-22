@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-03-22 13:10:08 UTC*
+*Report built at 2025-03-22 14:07:20 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1366 issues</summary>
+<details><summary>1367 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -429,6 +429,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>nodejs-23.10.0</tt> <br /> <a href='https://hydra.nixos.org/build/292966908/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/292966908/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/292966908/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/292966923'>build 292966923</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/292966907'>corepack_latest.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>nodejs-23.10.0</tt> <br /> <a href='https://hydra.nixos.org/build/292966907/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/292966907/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/292966907/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/292966923'>build 292966923</a>
 </li>
 </ul>
 </details>
@@ -20717,7 +20731,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>500 issues</summary>
+<details><summary>474 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -20730,13 +20744,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292966907'>corepack_latest.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -20985,13 +20992,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/292966950'>vscode-extensions.adzero.vscode-sievehighlight.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/292966952'>vscode-extensions.alanz.vscode-hie-server.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -21021,13 +21021,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/292966962'>vscode-extensions.alexdima.copy-relative-path.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292966992'>vscode-extensions.alexisvt.flutter-snippets.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -21440,13 +21433,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/292967068'>vscode-extensions.charliermarsh.ruff.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/292967062'>vscode-extensions.chenglou92.rescript-vscode.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -21517,13 +21503,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/292967081'>vscode-extensions.csharpier.csharpier-vscode.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/292967082'>vscode-extensions.csharpier.csharpier-vscode.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -21535,13 +21514,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292967085'>vscode-extensions.cweijan.dbclient-jdbc.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -21696,13 +21668,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292967142'>vscode-extensions.divyanshuagrawal.competitive-programming-helper.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -22007,13 +21972,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/292967191'>vscode-extensions.genieai.chatgpt-vscode.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/292967239'>vscode-extensions.github.github-vscode-theme.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -22154,13 +22112,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/292967226'>vscode-extensions.hediet.vscode-drawio.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/292967228'>vscode-extensions.hiukky.flate.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -22238,13 +22189,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/292967248'>vscode-extensions.intellsmi.comment-translate.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/292967251'>vscode-extensions.intellsmi.comment-translate.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -22312,13 +22256,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292967273'>vscode-extensions.jbockle.jbockle-format-files.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -22567,13 +22504,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/292967319'>vscode-extensions.lokalise.i18n-ally.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/292967324'>vscode-extensions.lokalise.i18n-ally.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -22581,31 +22511,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/292967311'>vscode-extensions.lucperkins.vrl-vscode.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292967354'>vscode-extensions.mads-hartmann.bash-ide-vscode.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/292967340'>vscode-extensions.mads-hartmann.bash-ide-vscode.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292967344'>vscode-extensions.matangover.mypy.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -22631,13 +22540,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/292967349'>vscode-extensions.mattn.lisp.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292967322'>vscode-extensions.maximedenes.vscoq.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -22714,13 +22616,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/292967336'>vscode-extensions.mongodb.mongodb-vscode.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/292967343'>vscode-extensions.mongodb.mongodb-vscode.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -22791,13 +22686,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/292967368'>vscode-extensions.ms-ceintl.vscode-language-pack-fr.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/292967359'>vscode-extensions.ms-ceintl.vscode-language-pack-it.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -22805,21 +22693,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/292967376'>vscode-extensions.ms-ceintl.vscode-language-pack-it.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/292967356'>vscode-extensions.ms-ceintl.vscode-language-pack-ja.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292967357'>vscode-extensions.ms-ceintl.vscode-language-pack-ko.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -23085,13 +22959,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/292967423'>vscode-extensions.mskelton.one-dark-theme.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/292967495'>vscode-extensions.myriad-dreamin.tinymist.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -23138,13 +23005,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292967438'>vscode-extensions.nur.just-black.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -23533,13 +23393,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/292967529'>vscode-extensions.silofy.hackthebox.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/292967533'>vscode-extensions.skellock.just.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -23659,13 +23512,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/292967567'>vscode-extensions.sumneko.lua.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/292967575'>vscode-extensions.svelte.svelte-vscode.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -23698,13 +23544,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292967558'>vscode-extensions.takayama.vscode-qq.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -24160,13 +23999,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292967674'>vscode-extensions.zainchen.json.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -25289,6 +25121,18 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/292966923'>x86_64-darwin nodejs-23.10.0</a></tt></summary>
+<ul>
+<li>corepack_23.x86_64-darwin</li>
+<li>corepack_latest.x86_64-darwin</li>
+<li>devmode.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>3</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/291048735'>aarch64-darwin python3.12-dash-2.18.1</a></tt></summary>
 <ul>
 <li>das.aarch64-darwin</li>
@@ -25454,17 +25298,6 @@ Built for evals:
 <ul>
 <li>coq_8_5.x86_64-darwin</li>
 <li>coq_8_6.x86_64-darwin</li>
-</ul>
-</details>
-</td>
-<td>2</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/292966923'>x86_64-darwin nodejs-23.10.0</a></tt></summary>
-<ul>
-<li>corepack_23.x86_64-darwin</li>
-<li>devmode.x86_64-darwin</li>
 </ul>
 </details>
 </td>
