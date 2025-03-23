@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next
 ---
 # Evals report
 
-*Report built at 2025-03-23 12:11:14 UTC*
+*Report built at 2025-03-23 13:13:49 UTC*
 
 Built for evals:
 
@@ -4636,7 +4636,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>619 issues</summary>
+<details><summary>620 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -10182,6 +10182,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/292512666'>influxdb3.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/292859867'>julia-bin.x86_64-darwin</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -19530,7 +19536,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>5000 issues</summary>
+<details><summary>4999 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -26407,13 +26413,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/292940258'>jtdx.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/292859867'>julia-bin.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
