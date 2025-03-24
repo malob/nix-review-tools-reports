@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-03-24 15:07:15 UTC*
+*Report built at 2025-03-24 16:07:34 UTC*
 
 Built for evals:
 
@@ -20121,7 +20121,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>284 issues</summary>
+<details><summary>282 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -21096,13 +21096,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/293583589'>juniper.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/293583590'>juniper.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -21230,13 +21223,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/293583610'>msgraph-cli.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/293583613'>nbxplorer.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
