@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-03-24 11:07:41 UTC*
+*Report built at 2025-03-24 12:08:33 UTC*
 
 Built for evals:
 
@@ -20107,7 +20107,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>292 issues</summary>
+<details><summary>289 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -21131,13 +21131,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/293583593'>knot-dns.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/293583592'>knot-resolver.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -21523,13 +21516,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/293583657'>prometheus-knot-exporter.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/293583658'>prowlarr.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -21653,13 +21639,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/293583680'>python312Packages.libknot.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
