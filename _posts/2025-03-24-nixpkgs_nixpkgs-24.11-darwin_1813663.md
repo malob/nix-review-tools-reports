@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-03-24 08:08:29 UTC*
+*Report built at 2025-03-24 09:07:29 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1334 issues</summary>
+<details><summary>1335 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -2711,6 +2711,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>libsigsegv-2.14</tt> <br /> <a href='https://hydra.nixos.org/build/291484501/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/291484501/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/291484501/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/290960493'>build 290960493</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/293583608'>mesen.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>mesen-core-2.0.0-unstable-2024-12-25</tt> <br /> <a href='https://hydra.nixos.org/build/293583608/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/293583608/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/293583608/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/291173803'>build 291173803</a>
 </li>
 </ul>
 </details>
@@ -20093,7 +20107,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>302 issues</summary>
+<details><summary>298 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -20550,13 +20564,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/293583497'>dotnetCorePackages.aspnetcore_8_0.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/293583496'>dotnetCorePackages.aspnetcore_8_0.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -20568,13 +20575,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/293583508'>dotnetCorePackages.aspnetcore_9_0.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -21243,13 +21243,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/293583608'>mesen.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/293583609'>metrics</a></tt>
 </td>
 <td>Queued</td>
@@ -21282,13 +21275,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/293583615'>netcoredbg.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -24486,6 +24472,16 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/290909545'>x86_64-darwin fflas-ffpack-2.5.0</a></tt></summary>
 <ul>
 <li>linbox.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/291173803'>x86_64-darwin mesen-core-2.0.0-unstable-2024-12-25</a></tt></summary>
+<ul>
+<li>mesen.x86_64-darwin</li>
 </ul>
 </details>
 </td>
