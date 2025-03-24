@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-03-24 22:07:10 UTC*
+*Report built at 2025-03-24 23:07:38 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1326 issues</summary>
+<details><summary>1328 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -469,6 +469,34 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>perl5.40.0-CryptX-0.080</tt> <br /> <a href='https://hydra.nixos.org/build/291458156/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/291458156/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/291458156/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/290994839'>build 290994839</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/293583556'>dotnetCorePackages.dotnet_10.runtime.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>dotnet-stage0-vmr-10.0.0-preview.2</tt> <br /> <a href='https://hydra.nixos.org/build/293583556/nixlog/30'>log</a>, <a href='https://hydra.nixos.org/build/293583556/nixlog/30/raw'>raw</a>, <a href='https://hydra.nixos.org/build/293583556/nixlog/30/tail'>tail</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/293583555'>dotnetCorePackages.dotnet_10.vmr.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>dotnet-stage0-vmr-10.0.0-preview.2</tt> <br /> <a href='https://hydra.nixos.org/build/293583555/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/293583555/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/293583555/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/293583556'>build 293583556</a>
 </li>
 </ul>
 </details>
@@ -19937,7 +19965,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>342 issues</summary>
+<details><summary>333 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -19964,13 +19992,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/293583441'>avalonia-ilspy.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -20062,13 +20083,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/293583456'>cassandra_3_0.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -20195,13 +20209,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/293603748'>darwin.linux-builder.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -20450,13 +20457,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/293583556'>dotnetCorePackages.dotnet_10.runtime.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/293583554'>dotnetCorePackages.dotnet_10.sdk.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -20475,13 +20475,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/293583555'>dotnetCorePackages.dotnet_10.vmr.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -21056,13 +21049,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/293583591'>knot-dns.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -21647,13 +21633,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/293583679'>python312Packages.libknot.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/293583683'>python312Packages.pyexpect.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -21885,13 +21864,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/293583730'>tests.dotnet.final-attrs.output-matches-const.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/293583719'>tests.dotnet.final-attrs.override-has-no-effect.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -22120,13 +22092,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/293583738'>tests.writers.simple.fsharpNoNugetDeps.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -23520,6 +23485,17 @@ Built for evals:
 <ul>
 <li>dar.aarch64-darwin</li>
 <li>dar.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>x86_64-darwin dotnet-stage0-vmr-10.0.0-preview.2</tt></summary>
+<ul>
+<li>dotnetCorePackages.dotnet_10.runtime.x86_64-darwin</li>
+<li>dotnetCorePackages.dotnet_10.vmr.x86_64-darwin</li>
 </ul>
 </details>
 </td>
