@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-03-24 14:07:26 UTC*
+*Report built at 2025-03-24 15:07:15 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1335 issues</summary>
+<details><summary>1336 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -2431,6 +2431,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>ocaml4.14.2-mirage-crypto-rng-1.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/291477805/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/291477805/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/291477805/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/291171955'>build 291171955</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/293583587'>jellyfin.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>jellyfin-ffmpeg-7.0.2-5</tt> <br /> <a href='https://hydra.nixos.org/build/293583587/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/293583587/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/293583587/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/292785648'>build 292785648</a>
 </li>
 </ul>
 </details>
@@ -20107,7 +20121,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>288 issues</summary>
+<details><summary>284 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -20386,13 +20400,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/293583478'>dotnet-aspnetcore_8.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -21089,13 +21096,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/293583587'>jellyfin.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/293583589'>juniper.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -21782,13 +21782,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/293583702'>sonarr.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/293583705'>tarball</a></tt>
 </td>
 <td>Queued</td>
@@ -22042,13 +22035,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/293583742'>torrentstream.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/293583743'>upgrade-assistant.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -24382,6 +24368,16 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/291099581'>x86_64-darwin thepeg-2.3.0</a></tt></summary>
 <ul>
 <li>herwig.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/292785648'>x86_64-darwin jellyfin-ffmpeg-7.0.2-5</a></tt></summary>
+<ul>
+<li>jellyfin.x86_64-darwin</li>
 </ul>
 </details>
 </td>
