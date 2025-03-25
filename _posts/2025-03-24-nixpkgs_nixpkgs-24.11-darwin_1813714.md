@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-03-25 04:07:57 UTC*
+*Report built at 2025-03-25 05:07:28 UTC*
 
 Built for evals:
 
@@ -11668,7 +11668,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1042 issues</summary>
+<details><summary>1043 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -12662,6 +12662,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>perl5.38.2-Compiler-Lexer-0.23</tt> <br /> <a href='https://hydra.nixos.org/build/291490853/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/291490853/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/291490853/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/290986827'>build 290986827</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/293583628'>perl540Packages.CryptRandom.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>perl5.40.0-Math-Pari-2.030523</tt> <br /> <a href='https://hydra.nixos.org/build/293583628/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/293583628/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/293583628/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/290997354'>build 290997354</a>
 </li>
 </ul>
 </details>
@@ -20021,7 +20035,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>312 issues</summary>
+<details><summary>310 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -20059,13 +20073,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/293583442'>azure-functions-core-tools.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/293583445'>bicep.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -21210,13 +21217,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/293583628'>perl540Packages.CryptRandom.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -24541,6 +24541,16 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/291175451'>x86_64-darwin paperless-ngx-frontend-2.13.5</a></tt></summary>
 <ul>
 <li>paperless-ngx.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/290997354'>aarch64-darwin perl5.40.0-Math-Pari-2.030523</a></tt></summary>
+<ul>
+<li>perl540Packages.CryptRandom.aarch64-darwin</li>
 </ul>
 </details>
 </td>
