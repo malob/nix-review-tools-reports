@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-03-25 01:34:47 UTC*
+*Report built at 2025-03-25 02:33:38 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1328 issues</summary>
+<details><summary>1332 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -497,6 +497,48 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>dotnet-stage0-vmr-10.0.0-preview.2</tt> <br /> <a href='https://hydra.nixos.org/build/293583555/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/293583555/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/293583555/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/293583556'>build 293583556</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/293583511'>dotnetCorePackages.dotnet_8.runtime.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>dotnet-stage0-vmr-8.0.14</tt> <br /> <a href='https://hydra.nixos.org/build/293583511/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/293583511/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/293583511/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/293583755'>build 293583755</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/293583547'>dotnetCorePackages.dotnet_8.sdk.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>dotnet-stage0-vmr-8.0.14</tt> <br /> <a href='https://hydra.nixos.org/build/293583547/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/293583547/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/293583547/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/293583755'>build 293583755</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/293583512'>dotnetCorePackages.dotnet_8.vmr.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>dotnet-stage0-vmr-8.0.14</tt> <br /> <a href='https://hydra.nixos.org/build/293583512/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/293583512/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/293583512/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/293583755'>build 293583755</a>
 </li>
 </ul>
 </details>
@@ -6321,6 +6363,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>macvim-179</tt> <br /> <a href='https://hydra.nixos.org/build/291950531/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/291950531/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/291950531/nixlog/1/tail'>tail</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/293583755'>yafc-ce.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>dotnet-stage0-vmr-8.0.14</tt> <br /> <a href='https://hydra.nixos.org/build/293583755/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/293583755/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/293583755/nixlog/1/tail'>tail</a>
 </li>
 </ul>
 </details>
@@ -19965,7 +20021,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>326 issues</summary>
+<details><summary>319 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -20303,13 +20359,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/293583480'>dotnet-runtime.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/293583506'>dotnet-runtime_10.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -20478,13 +20527,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/293583511'>dotnetCorePackages.dotnet_8.runtime.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/293583518'>dotnetCorePackages.dotnet_8.sdk.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -20492,24 +20534,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/293583547'>dotnetCorePackages.dotnet_8.sdk.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/293583514'>dotnetCorePackages.dotnet_8.vmr.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/293583512'>dotnetCorePackages.dotnet_8.vmr.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -21094,13 +21122,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/293583603'>lubelogger.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/293603768'>mailcatcher.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -21413,13 +21434,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/293603778'>php84Packages.grumphp.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -22221,13 +22235,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/293583755'>yafc-ce.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/293603818'>zabbix50.agent.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -22944,6 +22951,19 @@ Built for evals:
 <li>controku.x86_64-darwin</li>
 <li>python312Packages.controku.aarch64-darwin</li>
 <li>python312Packages.controku.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>4</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/293583755'>x86_64-darwin dotnet-stage0-vmr-8.0.14</a></tt></summary>
+<ul>
+<li>dotnetCorePackages.dotnet_8.runtime.x86_64-darwin</li>
+<li>dotnetCorePackages.dotnet_8.sdk.x86_64-darwin</li>
+<li>dotnetCorePackages.dotnet_8.vmr.x86_64-darwin</li>
+<li>yafc-ce.x86_64-darwin</li>
 </ul>
 </details>
 </td>
