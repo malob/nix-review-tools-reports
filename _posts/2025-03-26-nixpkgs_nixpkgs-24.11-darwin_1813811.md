@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-03-27 04:08:02 UTC*
+*Report built at 2025-03-27 05:07:28 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1332 issues</summary>
+<details><summary>1333 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -2497,6 +2497,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>python3.12-pyqt6-6.8.0</tt> <br /> <a href='https://hydra.nixos.org/build/291476378/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/291476378/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/291476378/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/291261366'>build 291261366</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/293659215'>hydrus.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.12-pyqt6-6.8.0</tt> <br /> <a href='https://hydra.nixos.org/build/293659215/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/293659215/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/293659215/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/291261366'>build 291261366</a>
 </li>
 </ul>
 </details>
@@ -19851,7 +19865,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>148 issues</summary>
+<details><summary>141 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -20007,13 +20021,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/293659215'>hydrus.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/293659217'>invidtui.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -20119,13 +20126,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/293659238'>pipe-viewer.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/293659239'>plex-media-player.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -20162,13 +20162,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/293659254'>python311Packages.llama-index-cli.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/293659247'>python311Packages.llama-index-embeddings-gemini.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -20406,13 +20399,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/293659301'>python312Packages.llama-index-agent-openai.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/293659324'>python312Packages.llama-index-cli.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -20470,13 +20456,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/293659319'>python312Packages.llama-index-llms-ollama.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/293659303'>python312Packages.llama-index-program-openai.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -20651,13 +20630,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/293659354'>spotdl.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/293659355'>subtitleedit.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -20774,13 +20746,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/293659374'>wtwitch.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -20971,6 +20936,7 @@ Built for evals:
 <ul>
 <li>electrum.x86_64-darwin</li>
 <li>hifiscan.x86_64-darwin</li>
+<li>hydrus.x86_64-darwin</li>
 <li>inkcut.x86_64-darwin</li>
 <li>inkscape-extensions.inkcut.x86_64-darwin</li>
 <li>leo-editor.x86_64-darwin</li>
@@ -20995,7 +20961,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>23</td>
+<td>24</td>
 </tr>
 <tr>
 <td>
