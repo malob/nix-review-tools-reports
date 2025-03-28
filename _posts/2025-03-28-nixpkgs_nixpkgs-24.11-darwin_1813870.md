@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-03-28 07:06:55 UTC*
+*Report built at 2025-03-28 19:07:22 UTC*
 
 Built for evals:
 
@@ -19865,7 +19865,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>157 issues</summary>
+<details><summary>156 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -20617,13 +20617,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/293659317'>python312Packages.llama-index-vector-stores-google.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/293659312'>python312Packages.llama-index-vector-stores-postgres.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
