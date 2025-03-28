@@ -1,10 +1,10 @@
 ---
-title: nixos:trunk-combined 1813849
+title: nixos:trunk-combined 1813849 (succeeded)
 categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2025-03-28 20:08:50 UTC*
+*Report built at 2025-03-28 22:07:52 UTC*
 
 Built for evals:
 
@@ -32154,27 +32154,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/293642083'>nixpkgs.python312Packages.pylette.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/293698925'>nixpkgs.python313Packages.jaxlib-build.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 </table>
 </details>
