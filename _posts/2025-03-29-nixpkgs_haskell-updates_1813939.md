@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-03-30 15:04:32 UTC*
+*Report built at 2025-03-30 16:04:32 UTC*
 
 Built for evals:
 
@@ -1501,7 +1501,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>4513 issues</summary>
+<details><summary>4512 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -32465,13 +32465,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/293767955'>pakcs.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/293767958'>pkgsCross.aarch64-multiplatform.haskell.compiler.ghc8107.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
