@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:staging-next-24.11 1814063
+title: nixpkgs:staging-next-24.11 1814063 (succeeded)
 categories: nixpkgs:staging-next-24.11
 ---
 # Evals report
 
-*Report built at 2025-04-01 21:11:22 UTC*
+*Report built at 2025-04-01 22:10:10 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>1118 issues</summary>
+<details><summary>1119 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -7368,6 +7368,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/290976095'>mathemagix.x86_64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/293541368'>rathole.x86_64-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -7379,7 +7385,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1281 issues</summary>
+<details><summary>1285 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -18231,6 +18237,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/293393910'>haskellPackages.THSH.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/293419207'>helix-gpt.x86_64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -18243,7 +18255,19 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/293428517'>ledger-agent.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/293471646'>powerdns-admin.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/293472975'>pyload-ng.x86_64-darwin</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -18291,6 +18315,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/293519372'>python312Packages.ledger-agent.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/293519384'>python312Packages.ledgerblue.x86_64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -18320,7 +18350,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>933 issues</summary>
+<details><summary>934 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -24442,6 +24472,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/293541092'>quickwit.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/293541062'>quorum.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -24747,7 +24783,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1026 issues</summary>
+<details><summary>1028 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -32944,6 +32980,18 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/293825988'>python311Packages.slack-bolt.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/293825986'>python311Packages.slack-sdk.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/293505329'>python311Packages.walrus.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -32965,90 +33013,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/293553929'>sendme.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>10 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/293393910'>haskellPackages.THSH.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/293428517'>ledger-agent.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/290976095'>mathemagix.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/293472975'>pyload-ng.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/293825988'>python311Packages.slack-bolt.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/293825986'>python311Packages.slack-sdk.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/293519372'>python312Packages.ledger-agent.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/293541092'>quickwit.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/293829325'>thunderbird-latest-unwrapped.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/293829324'>thunderbirdPackages.thunderbird-latest.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 </table>
 </details>
