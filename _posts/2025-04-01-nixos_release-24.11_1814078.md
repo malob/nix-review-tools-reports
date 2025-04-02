@@ -1,10 +1,10 @@
 ---
-title: nixos:release-24.11 1814078
+title: nixos:release-24.11 1814078 (succeeded)
 categories: nixos:release-24.11
 ---
 # Evals report
 
-*Report built at 2025-04-02 01:35:39 UTC*
+*Report built at 2025-04-02 02:34:23 UTC*
 
 Built for evals:
 
@@ -8595,7 +8595,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>1125 issues</summary>
+<details><summary>1126 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -16674,6 +16674,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/293830985'>nixos.tests.image-contents.aarch64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/293754937'>nixos.tests.initrd-secrets.cat.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -16719,48 +16725,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/291405288'>nixpkgs.rathole.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>4 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/293830694'>nixos.netboot.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/293830966'>nixos.tests.ec2-nixops.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/293830985'>nixos.tests.image-contents.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/293831183'>nixpkgs.discourseAllPlugins.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 </table>
 </details>
