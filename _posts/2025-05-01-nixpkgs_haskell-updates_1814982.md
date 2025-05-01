@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-05-01 19:04:52 UTC*
+*Report built at 2025-05-01 20:04:54 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>70 issues</summary>
+<details><summary>69 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -835,12 +835,6 @@ Built for evals:
 </td>
 <td>Failed</td>
 </tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/295458365'>haskellPackages.threads-supervisor.x86_64-linux</a></tt>
-</td>
-<td>Failed</td>
-</tr>
 </table>
 </details>
 
@@ -848,7 +842,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>62 issues</summary>
+<details><summary>59 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -900,13 +894,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/296049830'>cabal2nix.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/296049833'>haskell.packages.ghc8107.cabal2nix-unstable.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -990,13 +977,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/296049846'>haskell.packages.ghc964.cabal2nix-unstable.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/296049845'>haskell.packages.ghc964.nix-paths.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -1061,13 +1041,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/296049858'>haskell.packages.ghc984.cabal2nix-unstable.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/296049859'>haskell.packages.ghc984.nix-paths.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -1200,7 +1173,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/296049899'>haskellPackages.srtree.x86_64-linux</a></tt>
+<tt><a href='https://hydra.nixos.org/build/295458365'>haskellPackages.threads-supervisor.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
