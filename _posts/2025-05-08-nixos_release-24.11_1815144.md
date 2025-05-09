@@ -4,7 +4,7 @@ categories: nixos:release-24.11
 ---
 # Evals report
 
-*Report built at 2025-05-09 01:35:59 UTC*
+*Report built at 2025-05-09 02:37:31 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>1068 issues</summary>
+<details><summary>1070 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -6110,6 +6110,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/296874678'>nixpkgs.linuxKernel.packages.linux_zen.ithc.x86_64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/295293269'>nixpkgs.linuxPackages_5_10_hardened.cryptodev.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -6375,6 +6381,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/296874954'>nixpkgs.linuxPackages_xanmod_latest.digimend.x86_64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/296875156'>nixpkgs.linuxPackages_zen.apfs.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -14281,7 +14293,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>2836 issues</summary>
+<details><summary>2824 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -16982,13 +16994,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/296873713'>nixos.tests.allDrivers.postgresql.tsja.postgresql_13_jit.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -20132,13 +20137,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/296874164'>nixpkgs.iconConvTools.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -23446,13 +23444,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/296874678'>nixpkgs.linuxKernel.packages.linux_zen.ithc.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/296874671'>nixpkgs.linuxKernel.packages.linux_zen.jool.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -26197,13 +26188,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/296875044'>nixpkgs.linuxPackages_xanmod_latest.xone.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/296875042'>nixpkgs.linuxPackages_xanmod_latest.xpadneo.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -27002,13 +26986,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/296875156'>nixpkgs.linuxPackages_zen.apfs.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/296875158'>nixpkgs.linuxPackages_zen.asus-ec-sensors.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -27227,13 +27204,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/296875192'>nixpkgs.linuxPackages_zen.jool.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/296875189'>nixpkgs.linuxPackages_zen.kernel.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -28640,13 +28610,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/296875431'>nixpkgs.postgresql13JitPackages.tds_fdw.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/296875389'>nixpkgs.postgresql13JitPackages.temporal_tables.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -28696,13 +28659,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/296875399'>nixpkgs.postgresql13JitPackages.tsja.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/296875397'>nixpkgs.postgresql13JitPackages.wal2json.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -28742,13 +28698,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/296875485'>nixpkgs.postgresql13Packages.apache_datasketches.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -29141,13 +29090,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/296875461'>nixpkgs.postgresql13Packages.pgrouting.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -31020,13 +30962,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/296875736'>nixpkgs.postgresql15JitPackages.pg_hll.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/296875735'>nixpkgs.postgresql15JitPackages.pg_ivm.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -31535,13 +31470,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/296875836'>nixpkgs.postgresql15Packages.apache_datasketches.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
