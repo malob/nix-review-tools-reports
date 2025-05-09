@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-05-09 22:07:47 UTC*
+*Report built at 2025-05-09 23:08:17 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>2571 issues</summary>
+<details><summary>2572 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -7211,6 +7211,20 @@ Built for evals:
 </li>
 <li>
 <b>=> Failed</b> <tt>libiconv-109</tt> <br /> <a href='https://hydra.nixos.org/build/295135728/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/295135728/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/295135728/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/295126872'>build 295126872</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/296932231'>grafana-image-renderer.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>nodejs-20.19.0</tt> <br /> <a href='https://hydra.nixos.org/build/296932231/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/296932231/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/296932231/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/295179132'>build 295179132</a>
 </li>
 </ul>
 </details>
@@ -39726,7 +39740,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>2088 issues</summary>
+<details><summary>2089 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -52235,6 +52249,20 @@ Built for evals:
 </li>
 <li>
 <b>=> Failed</b> <tt>python3.12-pytest-xdist-3.6.1</tt> <br /> <a href='https://hydra.nixos.org/build/295181138/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/295181138/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/295181138/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/295200630'>build 295200630</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/296873280'>python311Packages.netbox-bgp.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>nodejs-20.19.0</tt> <br /> <a href='https://hydra.nixos.org/build/296873280/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/296873280/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/296873280/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/295159820'>build 295159820</a>
 </li>
 </ul>
 </details>
@@ -70194,7 +70222,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>1064 issues</summary>
+<details><summary>1058 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -70585,13 +70613,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/296932231'>grafana-image-renderer.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -75572,13 +75593,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/296872953'>postgresql15JitPackages.repmgr.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/296872948'>postgresql15JitPackages.repmgr.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -76937,13 +76951,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/296873180'>postgresql17Packages.pg_net.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/296873237'>postgresql17Packages.pg_partman.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -76990,13 +76997,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/296873188'>postgresql17Packages.pg_roaringbitmap.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -77343,13 +77343,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/296873280'>python311Packages.netbox-bgp.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/296873274'>python311Packages.netbox-bgp.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -77403,13 +77396,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/296873283'>python312Packages.django_5.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -78025,6 +78011,7 @@ Built for evals:
 <li>grafana-agent.x86_64-darwin</li>
 <li>grafana-alloy.aarch64-darwin</li>
 <li>grafana-alloy.x86_64-darwin</li>
+<li>grafana-image-renderer.x86_64-darwin</li>
 <li>grafana.aarch64-darwin</li>
 <li>grafana.x86_64-darwin</li>
 <li>gramma.aarch64-darwin</li>
@@ -78741,6 +78728,7 @@ Built for evals:
 <li>python311Packages.nbdime.x86_64-darwin</li>
 <li>python311Packages.nbsmoke.aarch64-darwin</li>
 <li>python311Packages.nbsmoke.x86_64-darwin</li>
+<li>python311Packages.netbox-bgp.aarch64-darwin</li>
 <li>python311Packages.netbox-reorder-rack.aarch64-darwin</li>
 <li>python311Packages.nikola.aarch64-darwin</li>
 <li>python311Packages.nikola.x86_64-darwin</li>
@@ -79828,7 +79816,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>4121</td>
+<td>4123</td>
 </tr>
 <tr>
 <td>
