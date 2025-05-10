@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-05-10 10:08:31 UTC*
+*Report built at 2025-05-10 11:07:29 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>2578 issues</summary>
+<details><summary>2579 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -37101,6 +37101,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/296873019'>postgresql15JitPackages.pgvecto-rs.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/295171610'>postgresql16JitPackages.citus.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -70334,7 +70340,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>885 issues</summary>
+<details><summary>883 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -74606,13 +74612,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/296872900'>postgresql15JitPackages.pg_net.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/296872902'>postgresql15JitPackages.pg_partman.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -74792,13 +74791,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/296873019'>postgresql15JitPackages.pgvecto-rs.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
