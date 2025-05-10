@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-05-10 18:08:36 UTC*
+*Report built at 2025-05-10 19:08:09 UTC*
 
 Built for evals:
 
@@ -39806,7 +39806,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>2096 issues</summary>
+<details><summary>2097 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -43227,6 +43227,20 @@ Built for evals:
 </li>
 <li>
 <b>=> Failed</b> <tt>nodejs-20.19.0</tt> <br /> <a href='https://hydra.nixos.org/build/295132367'>build 295132367</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/296932229'>firefly-iii-data-importer.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>nodejs-20.19.0</tt> <br /> <a href='https://hydra.nixos.org/build/296932229/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/296932229/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/296932229/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/295159820'>build 295159820</a>
 </li>
 </ul>
 </details>
@@ -70354,7 +70368,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>874 issues</summary>
+<details><summary>873 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -70595,13 +70609,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/296932224'>fdroidserver.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/296932229'>firefly-iii-data-importer.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -76805,6 +76812,7 @@ Built for evals:
 <li>filebrowser.x86_64-darwin</li>
 <li>firebase-tools.aarch64-darwin</li>
 <li>firebase-tools.x86_64-darwin</li>
+<li>firefly-iii-data-importer.aarch64-darwin</li>
 <li>fish-lsp.aarch64-darwin</li>
 <li>fish-lsp.x86_64-darwin</li>
 <li>fixjson.aarch64-darwin</li>
@@ -78666,7 +78674,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>4129</td>
+<td>4130</td>
 </tr>
 <tr>
 <td>
