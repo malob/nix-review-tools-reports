@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-05-10 05:08:06 UTC*
+*Report built at 2025-05-10 06:08:43 UTC*
 
 Built for evals:
 
@@ -70300,7 +70300,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>948 issues</summary>
+<details><summary>936 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -70946,13 +70946,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/296932278'>php83Extensions.apcu.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/296932260'>php83Extensions.ast.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -71174,13 +71167,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/296932337'>php83Extensions.mongodb.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -72164,13 +72150,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/296932606'>php84Extensions.smbclient.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/296932614'>php84Extensions.snmp.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -72472,13 +72451,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/296932679'>php84Packages.php-codesniffer.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/296932684'>php84Packages.php-parallel-lint.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -72777,13 +72749,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/296872523'>postgresql13JitPackages.pg_repack.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -74649,13 +74614,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/296872861'>postgresql14Packages.tds_fdw.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/296872886'>postgresql14Packages.tds_fdw.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -74849,13 +74807,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/296872930'>postgresql15JitPackages.pg_net.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -75216,13 +75167,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/296872968'>postgresql15Packages.anonymizer.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/296873024'>postgresql15Packages.apache_datasketches.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -75252,13 +75196,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/296872976'>postgresql15Packages.hypopg.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/296872977'>postgresql15Packages.jsonb_deep_sum.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -76245,13 +76182,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/296873161'>postgresql17Packages.jsonb_deep_sum.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/296873164'>postgresql17Packages.jsonb_deep_sum.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -76434,13 +76364,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/296873194'>postgresql17Packages.pg_squeeze.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/296873216'>postgresql17Packages.pg_topn.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -76536,13 +76459,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/296873245'>postgresql17Packages.pgsql-http.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
