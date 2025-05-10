@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-05-10 04:08:27 UTC*
+*Report built at 2025-05-10 05:08:06 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>2575 issues</summary>
+<details><summary>2576 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -17381,6 +17381,20 @@ Built for evals:
 </li>
 <li>
 <b>=> Failed</b> <tt>libiconv-109</tt> <br /> <a href='https://hydra.nixos.org/build/295181147/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/295181147/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/295181147/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/295126872'>build 295126872</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/296873279'>python311Packages.netbox-documents.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>nodejs-20.19.0</tt> <br /> <a href='https://hydra.nixos.org/build/296873279/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/296873279/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/296873279/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/295179132'>build 295179132</a>
 </li>
 </ul>
 </details>
@@ -70286,7 +70300,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>954 issues</summary>
+<details><summary>948 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -71233,13 +71247,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/296932360'>php83Extensions.pdo_sqlsrv.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/296932362'>php83Extensions.phalcon.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -71559,13 +71566,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/296932449'>php83Packages.deployer.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -72500,13 +72500,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/296932697'>php84Packages.phpinsights.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/296932688'>php84Packages.phpmd.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -73250,13 +73243,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/296872621'>postgresql13Packages.pg_ivm.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/296872618'>postgresql13Packages.pg_libversion.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -75083,13 +75069,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/296872939'>postgresql15JitPackages.pgvector.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/296872956'>postgresql15JitPackages.plr.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -76749,13 +76728,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/296873279'>python311Packages.netbox-documents.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/296873275'>python311Packages.netbox-floorplan-plugin.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -78065,6 +78037,7 @@ Built for evals:
 <li>python311Packages.nbsmoke.aarch64-darwin</li>
 <li>python311Packages.nbsmoke.x86_64-darwin</li>
 <li>python311Packages.netbox-bgp.aarch64-darwin</li>
+<li>python311Packages.netbox-documents.x86_64-darwin</li>
 <li>python311Packages.netbox-floorplan-plugin.aarch64-darwin</li>
 <li>python311Packages.netbox-reorder-rack.aarch64-darwin</li>
 <li>python311Packages.netbox-reorder-rack.x86_64-darwin</li>
@@ -79154,7 +79127,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>4125</td>
+<td>4126</td>
 </tr>
 <tr>
 <td>
