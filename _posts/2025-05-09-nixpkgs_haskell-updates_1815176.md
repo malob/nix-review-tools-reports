@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-05-10 01:32:19 UTC*
+*Report built at 2025-05-10 02:32:08 UTC*
 
 Built for evals:
 
@@ -70,7 +70,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>199 issues</summary>
+<details><summary>198 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -780,13 +780,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/296940161'>haskellPackages.jsaddle-webkit2gtk.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/296933041'>haskellPackages.jsonpatch.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
