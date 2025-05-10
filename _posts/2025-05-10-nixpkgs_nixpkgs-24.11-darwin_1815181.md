@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-05-10 15:07:44 UTC*
+*Report built at 2025-05-10 17:07:53 UTC*
 
 Built for evals:
 
@@ -39806,7 +39806,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>2095 issues</summary>
+<details><summary>2096 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -57304,6 +57304,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/296873290'>python312Packages.netbox-bgp.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>nodejs-20.19.0</tt> <br /> <a href='https://hydra.nixos.org/build/296873290/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/296873290/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/296873290/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/295159820'>build 295159820</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/296873288'>python312Packages.netbox-documents.aarch64-darwin</a></tt>
 </summary>
 <ul>
@@ -70340,7 +70354,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>882 issues</summary>
+<details><summary>879 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -71435,13 +71449,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/296932414'>php83Extensions.tidy.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/296932446'>php83Extensions.vld.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -74101,13 +74108,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/296872837'>postgresql14Packages.pg_ivm.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/296872798'>postgresql14Packages.pg_libversion.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -76348,13 +76348,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/296873290'>python312Packages.netbox-bgp.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/296873289'>python312Packages.netbox-bgp.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -77974,6 +77967,7 @@ Built for evals:
 <li>python312Packages.nbdime.x86_64-darwin</li>
 <li>python312Packages.nbsmoke.aarch64-darwin</li>
 <li>python312Packages.nbsmoke.x86_64-darwin</li>
+<li>python312Packages.netbox-bgp.aarch64-darwin</li>
 <li>python312Packages.netbox-documents.aarch64-darwin</li>
 <li>python312Packages.netbox-documents.x86_64-darwin</li>
 <li>python312Packages.netbox-reorder-rack.aarch64-darwin</li>
@@ -78707,7 +78701,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>4128</td>
+<td>4129</td>
 </tr>
 <tr>
 <td>
