@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-05-11 04:09:21 UTC*
+*Report built at 2025-05-11 05:08:04 UTC*
 
 Built for evals:
 
@@ -70672,7 +70672,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>272 issues</summary>
+<details><summary>270 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -70968,13 +70968,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/296932249'>matrix-synapse-plugins.matrix-synapse-shared-secret-auth.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/296932251'>mercury.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -71130,13 +71123,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/296932439'>php83Extensions.gnupg.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/296932300'>php83Extensions.grpc.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
