@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-05-11 01:32:39 UTC*
+*Report built at 2025-05-11 03:23:32 UTC*
 
 Built for evals:
 
@@ -70,7 +70,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>166 issues</summary>
+<details><summary>165 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -409,13 +409,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/296940146'>haskellPackages.bindings-parport.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/296933009'>haskellPackages.bindings-sane.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
