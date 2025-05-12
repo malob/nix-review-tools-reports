@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-05-12 11:08:45 UTC*
+*Report built at 2025-05-12 12:09:00 UTC*
 
 Built for evals:
 
@@ -39978,7 +39978,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>2108 issues</summary>
+<details><summary>2109 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -49031,6 +49031,20 @@ Built for evals:
 </li>
 <li>
 <b>=> Failed</b> <tt>python3.12-pytest-xdist-3.6.1</tt> <br /> <a href='https://hydra.nixos.org/build/295170752/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/295170752/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/295170752/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/295200630'>build 295200630</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/296932704'>plausible.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>nodejs-20.19.0</tt> <br /> <a href='https://hydra.nixos.org/build/296932704/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/296932704/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/296932704/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/295159820'>build 295159820</a>
 </li>
 </ul>
 </details>
@@ -70678,7 +70692,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>186 issues</summary>
+<details><summary>175 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -70946,20 +70960,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/296932259'>paratest.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/296932260'>php83Extensions.ast.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/296932283'>php83Extensions.ast.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -71065,13 +71065,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/296932373'>php83Extensions.memprof.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/296932325'>php83Extensions.msgpack.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -71080,13 +71073,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/296932350'>php83Extensions.openswoole.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/296932343'>php83Extensions.pcov.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -71282,13 +71268,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/296932555'>php83Packages.phan.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/296932558'>php83Packages.phan.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -71349,13 +71328,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/296932468'>php83Packages.psysh.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -71499,20 +71471,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/296932592'>php84Extensions.meminfo.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/296932543'>php84Extensions.memprof.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/296932585'>php84Extensions.mongodb.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -71590,13 +71548,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/296932640'>php84Extensions.spx.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/296932636'>php84Extensions.sqlsrv.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -71650,13 +71601,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/296932671'>php84Extensions.xdebug.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -71776,13 +71720,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/296932704'>plausible.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -72766,6 +72703,7 @@ Built for evals:
 <li>plasma5Packages.qtwebengine.x86_64-darwin</li>
 <li>plasma5Packages.qtwebview.aarch64-darwin</li>
 <li>plasma5Packages.qtwebview.x86_64-darwin</li>
+<li>plausible.aarch64-darwin</li>
 <li>playwright-driver.aarch64-darwin</li>
 <li>playwright-driver.x86_64-darwin</li>
 <li>playwright-test.aarch64-darwin</li>
@@ -74195,7 +74133,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>4150</td>
+<td>4151</td>
 </tr>
 <tr>
 <td>
