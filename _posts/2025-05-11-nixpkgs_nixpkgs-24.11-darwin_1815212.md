@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-05-12 04:10:13 UTC*
+*Report built at 2025-05-12 05:08:44 UTC*
 
 Built for evals:
 
@@ -70678,7 +70678,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>200 issues</summary>
+<details><summary>196 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -70922,13 +70922,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/296999396'>metrics</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -71181,13 +71174,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/296932380'>php83Extensions.rrd.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -71569,13 +71555,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/296932541'>php84Extensions.memcached.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/296932592'>php84Extensions.meminfo.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -71591,13 +71570,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/296932585'>php84Extensions.mongodb.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/296932609'>php84Extensions.msgpack.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
