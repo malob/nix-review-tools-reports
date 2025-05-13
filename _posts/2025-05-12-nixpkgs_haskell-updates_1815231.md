@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-05-13 04:06:07 UTC*
+*Report built at 2025-05-13 06:06:22 UTC*
 
 Built for evals:
 
@@ -76,7 +76,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>127 issues</summary>
+<details><summary>125 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -142,13 +142,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/297024726'>haskell.packages.ghc9102.cabal2nix-unstable.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297024696'>haskell.packages.ghc9102.funcmp.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -926,13 +919,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/297024802'>pkgsMusl.haskell.compiler.native-bignum.ghc9121.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297024804'>pkgsMusl.haskell.compiler.native-bignum.ghc9122.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
