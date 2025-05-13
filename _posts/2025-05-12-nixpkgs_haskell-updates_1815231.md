@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-05-13 16:05:24 UTC*
+*Report built at 2025-05-13 17:05:24 UTC*
 
 Built for evals:
 
@@ -130,7 +130,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>94 issues</summary>
+<details><summary>93 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -602,13 +602,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/296933080'>haskellPackages.simple-enumeration.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/296940176'>haskellPackages.synthesizer-alsa.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
