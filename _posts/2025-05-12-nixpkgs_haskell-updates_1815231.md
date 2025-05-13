@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-05-13 10:05:16 UTC*
+*Report built at 2025-05-13 11:04:55 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>12 issues</summary>
+<details><summary>13 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -43,6 +43,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>ghc-lib-parser-9.10.2.20250503</tt> <br /> <a href='https://hydra.nixos.org/build/297024697/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/297024697/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/297024697/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/297024699'>build 297024699</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/297024728'>haskell.packages.ghc9102.haskell-language-server.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>ghc-lib-parser-9.10.2.20250503</tt> <br /> <a href='https://hydra.nixos.org/build/297024728/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/297024728/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/297024728/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/297024699'>build 297024699</a>
 </li>
 </ul>
 </details>
@@ -116,7 +130,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>110 issues</summary>
+<details><summary>107 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -189,13 +203,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/297024715'>haskell.packages.ghc9102.ghc-tags.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297024728'>haskell.packages.ghc9102.haskell-language-server.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -364,13 +371,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/296940140'>haskellPackages.OrderedBits.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297024739'>haskellPackages.SDL-gfx.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -790,13 +790,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297024789'>pkgsCross.ghcjs.haskell.packages.ghc912.hello.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297024791'>pkgsCross.ghcjs.haskell.packages.ghc912.microlens.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -908,10 +901,11 @@ Built for evals:
 <ul>
 <li>haskell.packages.ghc9102.ghc-lib-parser-ex.x86_64-linux</li>
 <li>haskell.packages.ghc9102.ghc-lib.x86_64-linux</li>
+<li>haskell.packages.ghc9102.haskell-language-server.x86_64-linux</li>
 </ul>
 </details>
 </td>
-<td>2</td>
+<td>3</td>
 </tr>
 </table>
 
