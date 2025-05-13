@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2025-05-13 05:09:19 UTC*
+*Report built at 2025-05-13 06:10:55 UTC*
 
 Built for evals:
 
@@ -34,7 +34,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>1655 issues</summary>
+<details><summary>1657 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -3930,7 +3930,19 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/297030283'>nixos.tests.phosh.x86_64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/297030319'>nixos.tests.plasma6.x86_64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/297030637'>nixos.tests.pt2-clone.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -12185,7 +12197,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>1515 issues</summary>
+<details><summary>1520 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -12199,6 +12211,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>dde-grand-search-5.5.2</tt> <br /> <a href='https://hydra.nixos.org/build/297024917/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/297024917/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/297024917/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/296991523'>build 296991523</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/297025261'>nixos.tests.allDrivers.ceph-single-node-bluestore-dmcrypt.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>ceph-19.2.2</tt> <br /> <a href='https://hydra.nixos.org/build/297025261/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/297025261/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/297025261/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/296940637'>build 296940637</a>
 </li>
 </ul>
 </details>
@@ -12269,6 +12295,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>gdal-3.11.0</tt> <br /> <a href='https://hydra.nixos.org/build/297028879/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/297028879/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/297028879/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/296994720'>build 296994720</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/297030266'>nixos.tests.photonvision.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>photonvision-v2025.2.1-linuxarm64.jar</tt> <br /> <a href='https://hydra.nixos.org/build/297030266/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/297030266/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/297030266/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/295681826'>build 295681826</a>
 </li>
 </ul>
 </details>
@@ -14812,6 +14852,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/297034467'>nixpkgs.python312Packages.llama-index-readers-s3.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.12-psycopg-3.2.8</tt> <br /> <a href='https://hydra.nixos.org/build/297034467/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/297034467/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/297034467/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/297023095'>build 297023095</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/297034538'>nixpkgs.python312Packages.momepy.aarch64-linux</a></tt>
 </summary>
 <ul>
@@ -15260,6 +15314,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/297034894'>nixpkgs.python313Packages.geodatasets.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>gdal-3.11.0</tt> <br /> <a href='https://hydra.nixos.org/build/297034894/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/297034894/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/297034894/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/296996109'>build 296996109</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/296228453'>nixpkgs.python313Packages.gplaycli.aarch64-linux</a></tt>
 </summary>
 <ul>
@@ -15335,6 +15403,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>python3.13-ubelt-1.3.6</tt> <br /> <a href='https://hydra.nixos.org/build/296230240/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/296230240/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/296230240/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/295685319'>build 295685319</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/297035023'>nixpkgs.python313Packages.morecantile.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>gdal-3.11.0</tt> <br /> <a href='https://hydra.nixos.org/build/297035023/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/297035023/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/297035023/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/296996109'>build 296996109</a>
 </li>
 </ul>
 </details>
@@ -23711,7 +23793,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>14991 issues</summary>
+<details><summary>14684 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -24490,24 +24572,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297025026'>nixos.tests.allDrivers.acme.dns01.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297025027'>nixos.tests.allDrivers.acme.dns01.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297025037'>nixos.tests.allDrivers.acme.http01-builtin.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -24760,13 +24828,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297025073'>nixos.tests.allDrivers.alps.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -25127,13 +25188,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297025156'>nixos.tests.allDrivers.avahi.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297025168'>nixos.tests.allDrivers.ax25.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -25281,13 +25335,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297025169'>nixos.tests.allDrivers.bitcoind.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297025199'>nixos.tests.allDrivers.bittorrent.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -25351,13 +25398,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297025203'>nixos.tests.allDrivers.boot.biosUsb.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297025205'>nixos.tests.allDrivers.boot.uefiCdrom.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -25414,21 +25454,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297025193'>nixos.tests.allDrivers.bootspec.initrd.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297025196'>nixos.tests.allDrivers.bootspec.legacy-boot.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297025202'>nixos.tests.allDrivers.bootspec.specialisation.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -25778,13 +25804,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297025261'>nixos.tests.allDrivers.ceph-single-node-bluestore-dmcrypt.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297025257'>nixos.tests.allDrivers.ceph-single-node-bluestore-dmcrypt.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -25901,13 +25920,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297025283'>nixos.tests.allDrivers.chrony.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -26157,20 +26169,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/297025329'>nixos.tests.allDrivers.containers-imperative.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297025326'>nixos.tests.allDrivers.containers-ip.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297025323'>nixos.tests.allDrivers.containers-ip.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -26688,13 +26686,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297025414'>nixos.tests.allDrivers.dnsdist.base.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297025416'>nixos.tests.allDrivers.dnsdist.dnscrypt.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -26898,13 +26889,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297025459'>nixos.tests.allDrivers.drbd.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297025455'>nixos.tests.allDrivers.druid.default.druidCluster</a></tt>
 </td>
 <td>Queued</td>
@@ -26972,13 +26956,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297025470'>nixos.tests.allDrivers.eintopf.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -27227,13 +27204,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297025521'>nixos.tests.allDrivers.fedimintd.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297025520'>nixos.tests.allDrivers.fenics.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -27315,13 +27285,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297025533'>nixos.tests.allDrivers.filesystems-overlayfs.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -27458,20 +27421,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297025559'>nixos.tests.allDrivers.firewall.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297025562'>nixos.tests.allDrivers.firewall.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297025543'>nixos.tests.allDrivers.fish.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -27598,13 +27547,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297025579'>nixos.tests.allDrivers.forgejo-lts.sqlite3.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297025580'>nixos.tests.allDrivers.forgejo-lts.sqlite3.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -27616,13 +27558,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297025578'>nixos.tests.allDrivers.forgejo.mysql.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -27798,13 +27733,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297025635'>nixos.tests.allDrivers.frr.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -27990,13 +27918,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297025629'>nixos.tests.allDrivers.gerrit.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297025633'>nixos.tests.allDrivers.geth.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -28144,13 +28065,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297025692'>nixos.tests.allDrivers.glusterfs.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297025691'>nixos.tests.allDrivers.glusterfs.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -28162,13 +28076,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297025676'>nixos.tests.allDrivers.gnome-flashback.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -28508,13 +28415,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297025725'>nixos.tests.allDrivers.guacamole-server.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297025716'>nixos.tests.allDrivers.guix.basic.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -28683,13 +28583,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297025744'>nixos.tests.allDrivers.hadoop_3_3.hdfs.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297025741'>nixos.tests.allDrivers.hadoop_3_3.yarn.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -28736,13 +28629,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297025752'>nixos.tests.allDrivers.haste-server.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -28970,13 +28856,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297025801'>nixos.tests.allDrivers.hound.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297025793'>nixos.tests.allDrivers.hub.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -29009,13 +28888,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297025810'>nixos.tests.allDrivers.ifm.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -29194,13 +29066,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297025924'>nixos.tests.allDrivers.incus.all.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297025853'>nixos.tests.allDrivers.incus.appArmor.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -29359,13 +29224,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297025884'>nixos.tests.allDrivers.initrd-secrets-changing.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -29562,13 +29420,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297025902'>nixos.tests.allDrivers.installed-tests.gdk-pixbuf.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -30251,13 +30102,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297026045'>nixos.tests.allDrivers.ipv6.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297026035'>nixos.tests.allDrivers.iscsi-multipath-root.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -30510,13 +30354,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297026061'>nixos.tests.allDrivers.k3s.auto-deploy.k3s_1_30.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297026064'>nixos.tests.allDrivers.k3s.auto-deploy.k3s_1_30.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -30633,13 +30470,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297026087'>nixos.tests.allDrivers.k3s.etcd.k3s_1_31.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -31273,13 +31103,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297026197'>nixos.tests.allDrivers.kernel-latest-ath-user-regd.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297026204'>nixos.tests.allDrivers.kernel-rust.linux_6_12.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -31651,13 +31474,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297026263'>nixos.tests.allDrivers.latestKernel.login.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297026253'>nixos.tests.allDrivers.lavalink.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -31826,13 +31642,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297026281'>nixos.tests.allDrivers.lighttpd.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297026290'>nixos.tests.allDrivers.limesurvey.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -31847,21 +31656,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297026283'>nixos.tests.allDrivers.limine.checksum.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297026295'>nixos.tests.allDrivers.limine.checksum.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297026289'>nixos.tests.allDrivers.limine.uefi.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -31952,13 +31747,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297026314'>nixos.tests.allDrivers.localsend.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297026318'>nixos.tests.allDrivers.localsend.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -31967,20 +31755,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/297026315'>nixos.tests.allDrivers.locate.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297026310'>nixos.tests.allDrivers.login.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297026312'>nixos.tests.allDrivers.login.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -32047,13 +31821,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297026339'>nixos.tests.allDrivers.lomiri-camera-app.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -32393,13 +32160,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297026383'>nixos.tests.allDrivers.lvm2.lvm-thinpool-linux-6_6.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297026382'>nixos.tests.allDrivers.lvm2.lvm-thinpool-linux-latest.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -32446,13 +32206,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297026396'>nixos.tests.allDrivers.lvm2.lvm-thinpool-sd-stage-1-linux-6_1.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -32544,13 +32297,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297026402'>nixos.tests.allDrivers.lxd.nftables.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -32834,13 +32580,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297026452'>nixos.tests.allDrivers.matrix-alertmanager.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297026449'>nixos.tests.allDrivers.matrix-alertmanager.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -33072,13 +32811,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297026512'>nixos.tests.allDrivers.minidlna.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297026508'>nixos.tests.allDrivers.minidlna.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -33129,20 +32861,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/297026501'>nixos.tests.allDrivers.miriway.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297026511'>nixos.tests.allDrivers.misc.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297026507'>nixos.tests.allDrivers.misc.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -33317,13 +33035,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297026540'>nixos.tests.allDrivers.mosquitto.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297026532'>nixos.tests.allDrivers.movim.ejabberd-h2o.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -33356,13 +33067,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297026542'>nixos.tests.allDrivers.mpv.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -33625,41 +33329,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297026604'>nixos.tests.allDrivers.nat.firewall.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297026607'>nixos.tests.allDrivers.nat.nftables.firewall.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297026613'>nixos.tests.allDrivers.nat.nftables.standalone.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297026610'>nixos.tests.allDrivers.nat.standalone.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297026615'>nixos.tests.allDrivers.nat.standalone.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297026609'>nixos.tests.allDrivers.nats.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -33905,13 +33574,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297026652'>nixos.tests.allDrivers.networking.networkd.gre.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297026650'>nixos.tests.allDrivers.networking.networkd.link.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -33944,13 +33606,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297026659'>nixos.tests.allDrivers.networking.networkd.naughtyInterfaceNames.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -34098,13 +33753,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297026682'>nixos.tests.allDrivers.networking.networkmanager.dispatcherScripts.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -34353,13 +34001,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297026737'>nixos.tests.allDrivers.networking.scripted.static.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297026724'>nixos.tests.allDrivers.networking.scripted.virtual.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -34518,34 +34159,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297026747'>nixos.tests.allDrivers.nfs4.kerberos.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297026752'>nixos.tests.allDrivers.nfs4.kerberos.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297026773'>nixos.tests.allDrivers.nfs4.simple.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297026797'>nixos.tests.allDrivers.nfs4.simple.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -34812,13 +34425,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297026783'>nixos.tests.allDrivers.nginx.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -35235,13 +34841,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297026886'>nixos.tests.allDrivers.oci-containers.podman-rootless-conmon.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297026904'>nixos.tests.allDrivers.oci-containers.podman-rootless-conmon.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -35424,13 +35023,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297026916'>nixos.tests.allDrivers.openresty-lua.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297026923'>nixos.tests.allDrivers.opensearch.opensearch.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -35467,13 +35059,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/297026933'>nixos.tests.allDrivers.opensmtpd.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297026981'>nixos.tests.allDrivers.openssh.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
@@ -35893,13 +35478,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297027006'>nixos.tests.allDrivers.php.httpd.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297027005'>nixos.tests.allDrivers.php.pcre.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -35998,20 +35576,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297027045'>nixos.tests.allDrivers.php84.fpm.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297027031'>nixos.tests.allDrivers.php84.httpd.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297027029'>nixos.tests.allDrivers.php84.httpd.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -36023,13 +35587,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297027033'>nixos.tests.allDrivers.php84.pcre.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -36488,24 +36045,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297027145'>nixos.tests.allDrivers.postgresql.postgresql-jit.postgresql_15.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297027148'>nixos.tests.allDrivers.postgresql.postgresql-jit.postgresql_16.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297027146'>nixos.tests.allDrivers.postgresql.postgresql-jit.postgresql_16.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -36628,13 +36171,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297027112'>nixos.tests.allDrivers.postgresql.postgresql.postgresql_13.postgresql-backup-all.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297027113'>nixos.tests.allDrivers.postgresql.postgresql.postgresql_13.postgresql-clauses.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -36747,24 +36283,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297027150'>nixos.tests.allDrivers.postgresql.postgresql.postgresql_17.postgresql-backup-all.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297027135'>nixos.tests.allDrivers.postgresql.postgresql.postgresql_17.postgresql-clauses.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297027151'>nixos.tests.allDrivers.postgresql.postgresql.postgresql_17.postgresql-clauses.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -36835,13 +36357,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297027180'>nixos.tests.allDrivers.power-profiles-daemon.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -36922,98 +36437,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297027189'>nixos.tests.allDrivers.predictable-interface-names.predictable.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297027193'>nixos.tests.allDrivers.predictable-interface-names.predictable.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297027194'>nixos.tests.allDrivers.predictable-interface-names.predictableNetworkd.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297027195'>nixos.tests.allDrivers.predictable-interface-names.predictableNetworkd.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297027198'>nixos.tests.allDrivers.predictable-interface-names.predictableNetworkdSystemdStage1.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297027199'>nixos.tests.allDrivers.predictable-interface-names.predictableSystemdStage1.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297027201'>nixos.tests.allDrivers.predictable-interface-names.predictableSystemdStage1.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297027200'>nixos.tests.allDrivers.predictable-interface-names.unpredictable.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297027205'>nixos.tests.allDrivers.predictable-interface-names.unpredictableNetworkd.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297027204'>nixos.tests.allDrivers.predictable-interface-names.unpredictableNetworkd.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297027208'>nixos.tests.allDrivers.predictable-interface-names.unpredictableNetworkdSystemdStage1.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297027207'>nixos.tests.allDrivers.predictable-interface-names.unpredictableNetworkdSystemdStage1.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297027209'>nixos.tests.allDrivers.predictable-interface-names.unpredictableSystemdStage1.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297027210'>nixos.tests.allDrivers.predictable-interface-names.unpredictableSystemdStage1.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -37510,13 +36934,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297027324'>nixos.tests.allDrivers.prometheus-exporters.node.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297027320'>nixos.tests.allDrivers.prometheus-exporters.node.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -37937,24 +37354,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297027389'>nixos.tests.allDrivers.proxy.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297027381'>nixos.tests.allDrivers.pt2-clone.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297027376'>nixos.tests.allDrivers.pt2-clone.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -38050,13 +37453,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/297027387'>nixos.tests.allDrivers.qemu-vm-external-disk-image.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297027404'>nixos.tests.allDrivers.qemu-vm-restrictnetwork.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -38371,13 +37767,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297027449'>nixos.tests.allDrivers.redmine.pgsql.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297027454'>nixos.tests.allDrivers.redmine.sqlite3.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -38420,13 +37809,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297027450'>nixos.tests.allDrivers.reposilite.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297027456'>nixos.tests.allDrivers.reposilite.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -38438,13 +37820,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297027460'>nixos.tests.allDrivers.restartByActivationScript.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -38924,13 +38299,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297027536'>nixos.tests.allDrivers.rtorrent.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297027543'>nixos.tests.allDrivers.rush.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -39261,20 +38629,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/297027612'>nixos.tests.allDrivers.silverbullet.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297027603'>nixos.tests.allDrivers.simple.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297027604'>nixos.tests.allDrivers.simple.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -39953,13 +39307,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297027746'>nixos.tests.allDrivers.systemd-boot.basicXbootldr.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297027738'>nixos.tests.allDrivers.systemd-boot.edk2-uefi-shell.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -40198,13 +39545,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297027776'>nixos.tests.allDrivers.systemd-initrd-luks-fido2.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297027786'>nixos.tests.allDrivers.systemd-initrd-luks-keyfile.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -40331,13 +39671,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297027801'>nixos.tests.allDrivers.systemd-initrd-shutdown.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297027805'>nixos.tests.allDrivers.systemd-initrd-shutdown.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -40451,13 +39784,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/297027819'>nixos.tests.allDrivers.systemd-machinectl.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297027818'>nixos.tests.allDrivers.systemd-misc.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -40702,13 +40028,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297027878'>nixos.tests.allDrivers.systemd-timesyncd.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297027870'>nixos.tests.allDrivers.systemd-user-linger.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -40909,13 +40228,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297027889'>nixos.tests.allDrivers.telegraf.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -41196,13 +40508,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297027951'>nixos.tests.allDrivers.terminal-emulators.sakura.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -41500,13 +40805,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297028014'>nixos.tests.allDrivers.tmate-ssh-server.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297027999'>nixos.tests.allDrivers.tomcat.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -41672,13 +40970,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297028041'>nixos.tests.allDrivers.turn-rs.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -42078,13 +41369,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297028095'>nixos.tests.allDrivers.varnish76.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -42746,13 +42030,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297028213'>nixos.tests.allDrivers.wireguard.wireguard-dynamic-refresh-networkd-linux-latest.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297028212'>nixos.tests.allDrivers.wireguard.wireguard-dynamic-refresh-networkd-linux-latest.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -42897,13 +42174,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297028245'>nixos.tests.allDrivers.wmderland.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -43107,13 +42377,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297028276'>nixos.tests.allDrivers.xmonad.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -43355,13 +42618,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297028324'>nixos.tests.allDrivers.zfs.unstable.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297028328'>nixos.tests.allDrivers.zfs.unstable.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -43541,13 +42797,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297028336'>nixos.tests.alps.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -43950,13 +43199,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297028396'>nixos.tests.avahi.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297028421'>nixos.tests.ax25.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -44132,13 +43374,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297028424'>nixos.tests.bitcoind.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297028450'>nixos.tests.bittorrent.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -44209,13 +43444,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297028466'>nixos.tests.boot.biosUsb.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297028456'>nixos.tests.boot.uefiCdrom.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -44266,13 +43494,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/297028449'>nixos.tests.bootspec.initrd-secrets.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297028448'>nixos.tests.bootspec.initrd.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -45980,13 +45201,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297028714'>nixos.tests.eintopf.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297028736'>nixos.tests.ejabberd.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -46645,13 +45859,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297028842'>nixos.tests.forgejo-lts.sqlite3.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297028843'>nixos.tests.forgejo-lts.sqlite3.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -47072,13 +46279,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297028881'>nixos.tests.gerrit.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297028882'>nixos.tests.geth.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -47244,13 +46444,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297028951'>nixos.tests.glusterfs.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -47632,13 +46825,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297028974'>nixos.tests.guacamole-server.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297028972'>nixos.tests.guix.basic.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -47811,13 +46997,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297028995'>nixos.tests.hadoop_3_3.hdfs.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -48129,13 +47308,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297029055'>nixos.tests.hound.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297029048'>nixos.tests.hub.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -48182,13 +47354,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297029061'>nixos.tests.ifm.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -48567,13 +47732,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297029145'>nixos.tests.initrd-secrets-changing.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -49410,13 +48568,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297029218'>nixos.tests.installer.luksroot.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297029220'>nixos.tests.installer.lvm.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -49844,13 +48995,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297029313'>nixos.tests.k3s.auto-deploy.k3s_1_30.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297029324'>nixos.tests.k3s.auto-deploy.k3s_1_30.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -49967,13 +49111,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297029352'>nixos.tests.k3s.etcd.k3s_1_31.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -50100,13 +49237,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297029366'>nixos.tests.k3s.single-node.k3s_1_31.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -51307,13 +50437,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297029543'>nixos.tests.limine.uefi.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297029555'>nixos.tests.listmonk.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -51944,13 +51067,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297029650'>nixos.tests.lvm2.lvm-thinpool-sd-stage-1-linux-6_1.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297029651'>nixos.tests.lvm2.lvm-thinpool-sd-stage-1-linux-6_1.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -52053,13 +51169,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297029658'>nixos.tests.lxd.nftables.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -52644,13 +51753,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297029769'>nixos.tests.minidlna.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297029764'>nixos.tests.minidlna.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -52826,13 +51928,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297029772'>nixos.tests.monica.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297029776'>nixos.tests.moodle.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -52963,13 +52058,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297029804'>nixos.tests.mpv.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -53785,13 +52873,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297029932'>nixos.tests.networking.networkmanager.dispatcherScripts.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297029950'>nixos.tests.networking.networkmanager.dns.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -53974,13 +53055,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297029984'>nixos.tests.networking.scripted.macvlan.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297029970'>nixos.tests.networking.scripted.naughtyInterfaceNames.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -54069,13 +53143,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297029987'>nixos.tests.networking.scripted.static.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -54577,13 +53644,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/297030056'>nixos.tests.nginx-variants.tengine.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297030025'>nixos.tests.nginx.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
@@ -55815,20 +54875,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297030283'>nixos.tests.phosh.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297030266'>nixos.tests.photonvision.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297030265'>nixos.tests.photonvision.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -56988,13 +56034,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297030450'>nixos.tests.power-profiles-daemon.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -58216,13 +57255,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297030637'>nixos.tests.pt2-clone.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297030631'>nixos.tests.public-inbox.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -58346,13 +57378,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297030661'>nixos.tests.qemu-vm-restrictnetwork.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -59249,13 +58274,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297030797'>nixos.tests.rtorrent.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -60834,13 +59852,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297031059'>nixos.tests.systemd-initrd-shutdown.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297031058'>nixos.tests.systemd-initrd-shutdown.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -61247,13 +60258,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297031129'>nixos.tests.systemd-timesyncd.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297031135'>nixos.tests.systemd-timesyncd.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -61461,13 +60465,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297031149'>nixos.tests.telegraf.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -61793,13 +60790,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297031208'>nixos.tests.terminal-emulators.sakura.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297031209'>nixos.tests.terminal-emulators.st.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -62115,13 +61105,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297031268'>nixos.tests.tmate-ssh-server.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297031262'>nixos.tests.tomcat.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -62322,13 +61305,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297031287'>nixos.tests.turn-rs.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -62756,13 +61732,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297031355'>nixos.tests.varnish76.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -63249,13 +62218,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297031428'>nixos.tests.whoogle-search.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297031433'>nixos.tests.wine.winePackages-base.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -63627,13 +62589,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297031493'>nixos.tests.wmderland.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297031518'>nixos.tests.wordpress.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -63855,13 +62810,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297031524'>nixos.tests.xmonad.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -64121,13 +63069,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297031604'>nixos.tests.zfs.unstable.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -65083,13 +64024,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297031656'>nixpkgs.bash-my-aws.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297031655'>nixpkgs.basicswap.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -65503,13 +64437,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297031710'>nixpkgs.calibre-web.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297031711'>nixpkgs.calibre-web.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -65700,13 +64627,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/297015805'>nixpkgs.cinnamon-common.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297015783'>nixpkgs.cinnamon-control-center.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -66274,13 +65194,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/297015853'>nixpkgs.dbcsr.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297015857'>nixpkgs.dbt.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -66868,13 +65781,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297015956'>nixpkgs.elpa.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297031838'>nixpkgs.emojione.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -66949,13 +65855,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297015973'>nixpkgs.enlightenment.rage.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -67208,13 +66107,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297016019'>nixpkgs.firefoxpwa.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -67726,13 +66618,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297016122'>nixpkgs.globalarrays.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -69115,13 +68000,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297031954'>nixpkgs.home-assistant-component-tests.airtouch4.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297031956'>nixpkgs.home-assistant-component-tests.airtouch4.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -69266,13 +68144,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297031979'>nixpkgs.home-assistant-component-tests.ambient_network.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -69812,13 +68683,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297032073'>nixpkgs.home-assistant-component-tests.azure_storage.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -70431,13 +69295,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297032166'>nixpkgs.home-assistant-component-tests.command_line.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297032168'>nixpkgs.home-assistant-component-tests.command_line.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -70536,24 +69393,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297032180'>nixpkgs.home-assistant-component-tests.coolmaster.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297032182'>nixpkgs.home-assistant-component-tests.cover.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297032185'>nixpkgs.home-assistant-component-tests.cover.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -71873,13 +70716,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297032392'>nixpkgs.home-assistant-component-tests.flipr.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297032396'>nixpkgs.home-assistant-component-tests.flo.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -72570,13 +71406,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297032499'>nixpkgs.home-assistant-component-tests.google_travel_time.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -73382,13 +72211,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297032629'>nixpkgs.home-assistant-component-tests.image_processing.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -74295,13 +73117,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297032777'>nixpkgs.home-assistant-component-tests.light.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297032778'>nixpkgs.home-assistant-component-tests.linear_garage_door.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -74401,13 +73216,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/297032793'>nixpkgs.home-assistant-component-tests.local_ip.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297032798'>nixpkgs.home-assistant-component-tests.local_todo.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
@@ -74516,13 +73324,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297032819'>nixpkgs.home-assistant-component-tests.lovelace.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -74943,13 +73744,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297032877'>nixpkgs.home-assistant-component-tests.mfi.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -76115,13 +74909,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297033062'>nixpkgs.home-assistant-component-tests.opensky.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297033064'>nixpkgs.home-assistant-component-tests.opensky.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -76773,13 +75560,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297033173'>nixpkgs.home-assistant-component-tests.qbittorrent.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297033174'>nixpkgs.home-assistant-component-tests.qbus.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -77074,13 +75854,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297033217'>nixpkgs.home-assistant-component-tests.recovery_mode.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297033218'>nixpkgs.home-assistant-component-tests.recovery_mode.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -77372,13 +76145,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297033278'>nixpkgs.home-assistant-component-tests.roomba.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -77830,13 +76596,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297033332'>nixpkgs.home-assistant-component-tests.shell_command.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297033343'>nixpkgs.home-assistant-component-tests.shelly.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -78208,13 +76967,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297033395'>nixpkgs.home-assistant-component-tests.snooz.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297033569'>nixpkgs.home-assistant-component-tests.snooz.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -78464,13 +77216,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297033437'>nixpkgs.home-assistant-component-tests.startca.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -78810,13 +77555,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297033490'>nixpkgs.home-assistant-component-tests.systemmonitor.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297033492'>nixpkgs.home-assistant-component-tests.tado.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -78933,13 +77671,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297033519'>nixpkgs.home-assistant-component-tests.telegram.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -79549,13 +78280,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297033606'>nixpkgs.home-assistant-component-tests.uk_transport.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -80406,13 +79130,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297033744'>nixpkgs.home-assistant-component-tests.xiaomi.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297033750'>nixpkgs.home-assistant-component-tests.xiaomi_aqara.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -80574,13 +79291,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297033774'>nixpkgs.home-assistant-component-tests.yolink.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297033775'>nixpkgs.home-assistant-component-tests.youless.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -80648,13 +79358,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297033791'>nixpkgs.home-assistant-component-tests.zha.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -80746,13 +79449,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297033835'>nixpkgs.home-assistant-custom-components.sleep_as_android.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -81435,13 +80131,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297033893'>nixpkgs.k3s_1_32.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297033892'>nixpkgs.k3s_1_33.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -81467,13 +80156,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297033897'>nixpkgs.kakounePlugins.rep.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -82177,13 +80859,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297016639'>nixpkgs.libreoffice-qt6-still-unwrapped.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297016625'>nixpkgs.libreoffice-still.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -82342,13 +81017,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297016680'>nixpkgs.libsForQt5.kfilemetadata.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -83241,13 +81909,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297016823'>nixpkgs.mate.atril.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297016832'>nixpkgs.mate.mate-gsettings-overrides.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -83455,13 +82116,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297034048'>nixpkgs.minio-warp.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -84165,13 +82819,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297016983'>nixpkgs.nushellPlugins.units.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297016987'>nixpkgs.nushellPlugins.units.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -84361,13 +83008,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297017008'>nixpkgs.openboard.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297034130'>nixpkgs.openfortivpn-webview.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -84379,13 +83019,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297034136'>nixpkgs.openmoji-black.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -84467,13 +83100,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/297017018'>nixpkgs.openterface-qt.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297017017'>nixpkgs.openturns.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -86363,13 +84989,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297034250'>nixpkgs.python312Packages.bugwarrior.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297034253'>nixpkgs.python312Packages.camelot.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -86668,13 +85287,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297034289'>nixpkgs.python312Packages.django-tenants.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -87938,13 +86550,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297034467'>nixpkgs.python312Packages.llama-index-readers-s3.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297034476'>nixpkgs.python312Packages.llama-index-readers-s3.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -87956,13 +86561,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297034489'>nixpkgs.python312Packages.llama-index-readers-twitter.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -88103,13 +86701,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297017650'>nixpkgs.python312Packages.lxmf.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -89527,13 +88118,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297017833'>nixpkgs.python312Packages.pyvista.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297034688'>nixpkgs.python312Packages.pywebcopy.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -90682,13 +89266,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297034835'>nixpkgs.python313Packages.cachecontrol.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297034837'>nixpkgs.python313Packages.camelot.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -90851,13 +89428,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/297018005'>nixpkgs.python313Packages.dazl.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297034857'>nixpkgs.python313Packages.diagrams.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -91102,13 +89672,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297018046'>nixpkgs.python313Packages.echo.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297034880'>nixpkgs.python313Packages.eufylife-ble-client.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -91270,13 +89833,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297034894'>nixpkgs.python313Packages.geodatasets.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297034895'>nixpkgs.python313Packages.geodatasets.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -91400,13 +89956,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297034911'>nixpkgs.python313Packages.harlequin-postgres.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -91655,13 +90204,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297035029'>nixpkgs.python313Packages.k-diffusion.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297034943'>nixpkgs.python313Packages.langchain-anthropic.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -91722,13 +90264,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297034951'>nixpkgs.python313Packages.langchain-fireworks.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -91942,13 +90477,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297034995'>nixpkgs.python313Packages.litellm.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297034999'>nixpkgs.python313Packages.litellm.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -92089,13 +90617,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297035012'>nixpkgs.python313Packages.mcp.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297035010'>nixpkgs.python313Packages.mcp.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -92191,13 +90712,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297035023'>nixpkgs.python313Packages.morecantile.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -92467,13 +90981,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297035084'>nixpkgs.python313Packages.odc-geo.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297035076'>nixpkgs.python313Packages.odc-loader.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -92503,13 +91010,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/297018208'>nixpkgs.python313Packages.okta.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297035064'>nixpkgs.python313Packages.open-interpreter.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
@@ -92611,13 +91111,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297035083'>nixpkgs.python313Packages.panel.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -92943,13 +91436,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297035118'>nixpkgs.python313Packages.pyhanko.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297035119'>nixpkgs.python313Packages.pyhanko.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -93066,13 +91552,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297035131'>nixpkgs.python313Packages.pytest-examples.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -93724,13 +92203,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297035201'>nixpkgs.python313Packages.swh-core.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -95029,13 +93501,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297035361'>nixpkgs.rocmPackages_6.rocr-debug-agent.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297035362'>nixpkgs.rocmPackages_6.rocrand.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -95124,13 +93589,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297035384'>nixpkgs.routino.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -95491,13 +93949,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297035421'>nixpkgs.sgt-puzzles-mobile.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297035417'>nixpkgs.sgt-puzzles-mobile.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -95600,13 +94051,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297035435'>nixpkgs.sieve-editor-gui.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -95915,13 +94359,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297035454'>nixpkgs.stretchly.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -96566,13 +95003,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297035521'>nixpkgs.tests.substitute.legacyVar.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -97374,13 +95804,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297035625'>nixpkgs.typstPackages.acrostiche_0_3_4.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297035659'>nixpkgs.typstPackages.acrostiche_0_3_4.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -97840,13 +96263,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297035705'>nixpkgs.typstPackages.algo_0_3_6.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -98354,13 +96770,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297035856'>nixpkgs.typstPackages.arborly_0_1_1.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297035808'>nixpkgs.typstPackages.arborly_0_1_1.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -98404,13 +96813,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/297035803'>nixpkgs.typstPackages.arkheion_0_1_0.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297035805'>nixpkgs.typstPackages.ascii-ipa.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
@@ -100167,13 +98569,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297036087'>nixpkgs.typstPackages.casson-uom-thesis.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297036088'>nixpkgs.typstPackages.casson-uom-thesis_0_1_0.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -100580,13 +98975,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297036175'>nixpkgs.typstPackages.cheda-seu-thesis_0_3_3.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297036212'>nixpkgs.typstPackages.cheda-seu-thesis_0_3_3.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -100710,13 +99098,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297036198'>nixpkgs.typstPackages.chic-hdr_0_1_0.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -101193,13 +99574,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297036281'>nixpkgs.typstPackages.classic-aau-report_0_1_1.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -102141,13 +100515,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297036458'>nixpkgs.typstPackages.conchord.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297036480'>nixpkgs.typstPackages.conchord_0_1_0.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -103037,13 +101404,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297036606'>nixpkgs.typstPackages.definitely-not-isec-thesis.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297036626'>nixpkgs.typstPackages.definitely-not-isec-thesis.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -103300,13 +101660,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297036696'>nixpkgs.typstPackages.diagraph_0_2_3.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -103769,13 +102122,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297036734'>nixpkgs.typstPackages.easytable.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -105137,20 +103483,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297036962'>nixpkgs.typstPackages.fletcher_0_4_5.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297036964'>nixpkgs.typstPackages.fletcher_0_5_0.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297036967'>nixpkgs.typstPackages.fletcher_0_5_0.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -105571,13 +103903,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297037041'>nixpkgs.typstPackages.fractusist_0_2_1.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297037042'>nixpkgs.typstPackages.fractusist_0_2_1.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -105652,13 +103977,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297037059'>nixpkgs.typstPackages.frame-it_1_1_0.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -106278,13 +104596,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297037167'>nixpkgs.typstPackages.georges-yetyp_0_2_0.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297037158'>nixpkgs.typstPackages.georges-yetyp_0_2_0.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -106604,13 +104915,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297037216'>nixpkgs.typstPackages.glossy_0_2_2.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -107038,13 +105342,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297037299'>nixpkgs.typstPackages.grotesk-cv_0_1_6.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -109162,13 +107459,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297037672'>nixpkgs.typstPackages.ionio-illustrate_0_2_0.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297037652'>nixpkgs.typstPackages.ionio-illustrate_0_2_0.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -110170,13 +108460,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297037815'>nixpkgs.typstPackages.leipzig-glossing_0_1_0.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297037919'>nixpkgs.typstPackages.leipzig-glossing_0_1_0.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -110419,13 +108702,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297037894'>nixpkgs.typstPackages.light-cv.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -111451,13 +109727,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297038034'>nixpkgs.typstPackages.metro_0_2_0.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297038035'>nixpkgs.typstPackages.metro_0_3_0.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -111822,13 +110091,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297038158'>nixpkgs.typstPackages.minimal-cv_0_1_0.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297038095'>nixpkgs.typstPackages.minimal-presentation.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -112015,13 +110277,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297038148'>nixpkgs.typstPackages.minimalistic-latex-cv_0_1_1.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -112522,13 +110777,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297038230'>nixpkgs.typstPackages.modern-cv_0_3_1.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297038209'>nixpkgs.typstPackages.modern-cv_0_3_1.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -112782,13 +111030,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/297038249'>nixpkgs.typstPackages.modern-nju-thesis_0_3_0.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297038280'>nixpkgs.typstPackages.modern-nju-thesis_0_3_1.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
@@ -113132,13 +111373,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/297038366'>nixpkgs.typstPackages.modern-sjtu-thesis_0_2_1.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297038327'>nixpkgs.typstPackages.modern-sjtu-thesis_0_2_2.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -113509,13 +111743,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297038372'>nixpkgs.typstPackages.modern-whs-assignment_0_2_0.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297038370'>nixpkgs.typstPackages.modern-whs-assignment_0_2_0.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -113531,13 +111758,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/297038385'>nixpkgs.typstPackages.modern-whs-thesis.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297038418'>nixpkgs.typstPackages.modern-whs-thesis_0_1_0.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
@@ -113688,13 +111908,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297038400'>nixpkgs.typstPackages.moderner-cv_0_1_2.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -113887,13 +112100,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297038482'>nixpkgs.typstPackages.muchpdf.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297038433'>nixpkgs.typstPackages.muchpdf.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -113982,13 +112188,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297038449'>nixpkgs.typstPackages.nassi_0_1_0.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -114510,13 +112709,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297038530'>nixpkgs.typstPackages.nth_1_0_1.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297038532'>nixpkgs.typstPackages.nulite.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -114801,13 +112993,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297038585'>nixpkgs.typstPackages.octique_0_1_0.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -115102,13 +113287,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297038632'>nixpkgs.typstPackages.ourchat.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -115854,13 +114032,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297038764'>nixpkgs.typstPackages.pillar_0_3_1.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297038766'>nixpkgs.typstPackages.pillar_0_3_2.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -116012,13 +114183,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297038825'>nixpkgs.typstPackages.pintorita_0_1_1.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -116897,13 +115061,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297038971'>nixpkgs.typstPackages.quick-sip_0_1_1.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297038938'>nixpkgs.typstPackages.quick-sip_0_1_1.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -116915,13 +115072,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297039010'>nixpkgs.typstPackages.quick-sip_0_1_2.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -117534,13 +115684,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297039073'>nixpkgs.typstPackages.rubber-article.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297039040'>nixpkgs.typstPackages.rubber-article_0_1_0.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -118059,20 +116202,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297039188'>nixpkgs.typstPackages.scholarly-tauthesis_0_5_0.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297039152'>nixpkgs.typstPackages.scholarly-tauthesis_0_5_0.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297039118'>nixpkgs.typstPackages.scholarly-tauthesis_0_6_2.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -118098,13 +116227,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297039239'>nixpkgs.typstPackages.scholarly-tauthesis_0_8_0.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -118196,13 +116318,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297039139'>nixpkgs.typstPackages.scrutinize.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -118413,13 +116528,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297039186'>nixpkgs.typstPackages.shane-hhu-thesis.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -119025,13 +117133,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297039282'>nixpkgs.typstPackages.silky-slides-insa_0_1_1.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297039285'>nixpkgs.typstPackages.silver-dev-cv.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -119249,13 +117350,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297039338'>nixpkgs.typstPackages.simpleplot_0_1_0.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297039322'>nixpkgs.typstPackages.simpleplot_0_1_0.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -119407,13 +117501,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297039341'>nixpkgs.typstPackages.slydst_0_1_4.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -120019,13 +118106,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297039442'>nixpkgs.typstPackages.statementsp_0_1_0.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297039473'>nixpkgs.typstPackages.stellar-iac.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -120058,13 +118138,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297039483'>nixpkgs.typstPackages.stonewall.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -120313,13 +118386,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297039521'>nixpkgs.typstPackages.suiji.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297039548'>nixpkgs.typstPackages.suiji.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -120373,13 +118439,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297039508'>nixpkgs.typstPackages.summy.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -120999,13 +119058,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297039616'>nixpkgs.typstPackages.tableau-icons.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297039659'>nixpkgs.typstPackages.tableau-icons.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -121076,24 +119128,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297039630'>nixpkgs.typstPackages.tablex.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297039632'>nixpkgs.typstPackages.tablex_0_0_4.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297039631'>nixpkgs.typstPackages.tablex_0_0_4.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -121377,13 +119415,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297039683'>nixpkgs.typstPackages.tbl_0_0_3.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297039689'>nixpkgs.typstPackages.tbl_0_0_4.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -121430,13 +119461,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297039716'>nixpkgs.typstPackages.tblr_0_2_0.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -123057,13 +121081,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297039979'>nixpkgs.typstPackages.touying_0_5_4.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297039980'>nixpkgs.typstPackages.touying_0_5_4.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -123530,13 +121547,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297040071'>nixpkgs.typstPackages.tufte-memo_0_1_0.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -124265,13 +122275,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297040186'>nixpkgs.typstPackages.typsium_0_0_3.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -125290,13 +123293,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297040327'>nixpkgs.typstPackages.use-tabler-icons_0_2_0.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297040329'>nixpkgs.typstPackages.use-tabler-icons_0_3_0.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -125605,24 +123601,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297040447'>nixpkgs.typstPackages.vercanard_1_0_0.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297040436'>nixpkgs.typstPackages.vercanard_1_0_0.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297040448'>nixpkgs.typstPackages.vercanard_1_0_1.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -126165,13 +124147,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297040496'>nixpkgs.typstPackages.wrap-indent.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297040500'>nixpkgs.typstPackages.wrap-indent_0_1_0.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -126529,13 +124504,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297040536'>nixpkgs.typstPackages.zebraw_0_4_8.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297040537'>nixpkgs.typstPackages.zebraw_0_4_8.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -126869,13 +124837,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297018787'>nixpkgs.unoconv.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -127327,13 +125288,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297040656'>nixpkgs.vscode-extensions.dart-code.flutter.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297040657'>nixpkgs.vscode-extensions.denoland.vscode-deno.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -127649,13 +125603,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297040704'>nixpkgs.vscode-extensions.sonarsource.sonarlint-vscode.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297040705'>nixpkgs.vscode-extensions.stephlin.vscode-tmux-keybinding.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -127863,13 +125810,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297018856'>nixpkgs.waybox.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -128276,13 +126216,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297018898'>nixpkgs.wio.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -128889,6 +126822,9 @@ Built for evals:
 <li>nixpkgs.python312Packages.pygmt.aarch64-linux</li>
 <li>nixpkgs.python312Packages.pyotb.aarch64-linux</li>
 <li>nixpkgs.python313Packages.django-bootstrap4.aarch64-linux</li>
+<li>nixpkgs.python313Packages.geodatasets.aarch64-linux</li>
+<li>nixpkgs.python313Packages.inequality.aarch64-linux</li>
+<li>nixpkgs.python313Packages.morecantile.aarch64-linux</li>
 <li>nixpkgs.python313Packages.pandera.aarch64-linux</li>
 <li>nixpkgs.python313Packages.pygmt.aarch64-linux</li>
 <li>nixpkgs.python313Packages.pyogrio.aarch64-linux</li>
@@ -128896,11 +126832,37 @@ Built for evals:
 <li>nixpkgs.qgis.aarch64-linux</li>
 <li>nixpkgs.tunnelx.aarch64-linux</li>
 <li>nixpkgs.vpv.aarch64-linux</li>
-<li>nixpkgs.python313Packages.inequality.aarch64-linux</li>
 </ul>
 </details>
 </td>
-<td>25</td>
+<td>27</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/297023095'>aarch64-linux python3.12-psycopg-3.2.8</a></tt></summary>
+<ul>
+<li>nixos.tests.allDrivers.pgadmin4.aarch64-linux</li>
+<li>nixpkgs.python312Packages.django-pglock.aarch64-linux</li>
+<li>nixpkgs.python312Packages.harlequin-postgres.aarch64-linux</li>
+<li>nixpkgs.python312Packages.llama-index-core.aarch64-linux</li>
+<li>nixpkgs.python312Packages.llama-index-embeddings-ollama.aarch64-linux</li>
+<li>nixpkgs.python312Packages.llama-index-graph-stores-nebula.aarch64-linux</li>
+<li>nixpkgs.python312Packages.llama-index-question-gen-openai.aarch64-linux</li>
+<li>nixpkgs.python312Packages.llama-index-readers-json.aarch64-linux</li>
+<li>nixpkgs.python312Packages.textacy.aarch64-linux</li>
+<li>nixpkgs.python313Packages.netbox-plugin-prometheus-sd.aarch64-linux</li>
+<li>nixpkgs.netbox.aarch64-linux</li>
+<li>nixpkgs.python312Packages.bambi.aarch64-linux</li>
+<li>nixpkgs.python312Packages.gradio.aarch64-linux</li>
+<li>nixpkgs.python312Packages.llama-index-graph-stores-neo4j.aarch64-linux</li>
+<li>nixpkgs.python312Packages.llama-index-readers-s3.aarch64-linux</li>
+<li>nixpkgs.python312Packages.momepy.aarch64-linux</li>
+<li>nixpkgs.python312Packages.swh-journal.aarch64-linux</li>
+<li>nixpkgs.python312Packages.swh-storage.aarch64-linux</li>
+</ul>
+</details>
+</td>
+<td>18</td>
 </tr>
 <tr>
 <td>
@@ -128958,35 +126920,11 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/297023095'>aarch64-linux python3.12-psycopg-3.2.8</a></tt></summary>
-<ul>
-<li>nixos.tests.allDrivers.pgadmin4.aarch64-linux</li>
-<li>nixpkgs.python312Packages.django-pglock.aarch64-linux</li>
-<li>nixpkgs.python312Packages.harlequin-postgres.aarch64-linux</li>
-<li>nixpkgs.python312Packages.llama-index-core.aarch64-linux</li>
-<li>nixpkgs.python312Packages.llama-index-embeddings-ollama.aarch64-linux</li>
-<li>nixpkgs.python312Packages.llama-index-graph-stores-nebula.aarch64-linux</li>
-<li>nixpkgs.python312Packages.llama-index-question-gen-openai.aarch64-linux</li>
-<li>nixpkgs.python312Packages.llama-index-readers-json.aarch64-linux</li>
-<li>nixpkgs.python312Packages.textacy.aarch64-linux</li>
-<li>nixpkgs.python313Packages.netbox-plugin-prometheus-sd.aarch64-linux</li>
-<li>nixpkgs.netbox.aarch64-linux</li>
-<li>nixpkgs.python312Packages.bambi.aarch64-linux</li>
-<li>nixpkgs.python312Packages.gradio.aarch64-linux</li>
-<li>nixpkgs.python312Packages.llama-index-graph-stores-neo4j.aarch64-linux</li>
-<li>nixpkgs.python312Packages.momepy.aarch64-linux</li>
-<li>nixpkgs.python312Packages.swh-journal.aarch64-linux</li>
-<li>nixpkgs.python312Packages.swh-storage.aarch64-linux</li>
-</ul>
-</details>
-</td>
-<td>17</td>
-</tr>
-<tr>
-<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/296955976'>x86_64-linux ceph-19.2.2</a></tt></summary>
 <ul>
 <li>nixos.tests.allDrivers.ceph-multi-node.x86_64-linux</li>
+<li>nixos.tests.allDrivers.ceph-single-node-bluestore-dmcrypt.aarch64-linux</li>
+<li>nixos.tests.allDrivers.ceph-single-node.aarch64-linux</li>
 <li>nixpkgs.ceph-client.aarch64-linux</li>
 <li>nixpkgs.ceph-client.x86_64-linux</li>
 <li>nixpkgs.ceph-csi.aarch64-linux</li>
@@ -128995,11 +126933,10 @@ Built for evals:
 <li>nixpkgs.qemu_full.x86_64-linux</li>
 <li>nixpkgs.samba4Full.x86_64-linux</li>
 <li>nixpkgs.sambaFull.x86_64-linux</li>
-<li>nixos.tests.allDrivers.ceph-single-node.aarch64-linux</li>
 </ul>
 </details>
 </td>
-<td>10</td>
+<td>11</td>
 </tr>
 <tr>
 <td>
@@ -129368,11 +127305,11 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/295668313'>aarch64-linux chicken-epoxy-0.2.2</a></tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/296534569'>x86_64-linux python3.12-rtfde-0.1.2.1</a></tt></summary>
 <ul>
-<li>nixpkgs.chickenPackages_5.chickenEggs.gl-type.aarch64-linux</li>
-<li>nixpkgs.chickenPackages_5.chickenEggs.glls.aarch64-linux</li>
-<li>nixpkgs.chickenPackages_5.chickenEggs.noise.aarch64-linux</li>
+<li>nixos.tests.allDrivers.open-webui.x86_64-linux</li>
+<li>nixpkgs.python312Packages.extract-msg.aarch64-linux</li>
+<li>nixpkgs.python312Packages.extract-msg.x86_64-linux</li>
 </ul>
 </details>
 </td>
@@ -129380,11 +127317,11 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/296534567'>aarch64-linux python3.12-rtfde-0.1.2.1</a></tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/295668313'>aarch64-linux chicken-epoxy-0.2.2</a></tt></summary>
 <ul>
-<li>nixpkgs.python312Packages.extract-msg.aarch64-linux</li>
-<li>nixpkgs.python312Packages.extract-msg.x86_64-linux</li>
-<li>nixos.tests.allDrivers.open-webui.x86_64-linux</li>
+<li>nixpkgs.chickenPackages_5.chickenEggs.gl-type.aarch64-linux</li>
+<li>nixpkgs.chickenPackages_5.chickenEggs.glls.aarch64-linux</li>
+<li>nixpkgs.chickenPackages_5.chickenEggs.noise.aarch64-linux</li>
 </ul>
 </details>
 </td>
@@ -129408,6 +127345,17 @@ Built for evals:
 <ul>
 <li>nixos.tests.kernel-rust.linux_6_14.x86_64-linux</li>
 <li>nixos.tests.kernel-rust.linux_testing.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/295681826'>aarch64-linux photonvision-v2025.2.1-linuxarm64.jar</a></tt></summary>
+<ul>
+<li>nixos.tests.photonvision.aarch64-linux</li>
+<li>nixpkgs.photonvision.aarch64-linux</li>
 </ul>
 </details>
 </td>
@@ -130117,6 +128065,16 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/295645705'>x86_64-linux scaphandre-1.0.2</a></tt></summary>
+<ul>
+<li>nixos.tests.allDrivers.prometheus-exporters.scaphandre.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt>aarch64-linux nixos-disk-image</tt></summary>
 <ul>
 <li>nixos.tests.allDrivers.qemu-vm-external-disk-image.aarch64-linux</li>
@@ -130140,6 +128098,16 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/296952515'>x86_64-linux virtualbox-image</a></tt></summary>
 <ul>
 <li>nixos.tests.allDrivers.virtualbox.net-hostonlyif.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/295709363'>aarch64-linux darling-dmg-1.0.4-unstable-2023-07-26</a></tt></summary>
+<ul>
+<li>nixos.tests.darling-dmg.aarch64-linux</li>
 </ul>
 </details>
 </td>
@@ -130270,16 +128238,6 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/296044073'>x86_64-linux libblake3-static-x86_64-unknown-linux-musl-1.8.2</a></tt></summary>
 <ul>
 <li>nixpkgs.nixStatic.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/295681826'>aarch64-linux photonvision-v2025.2.1-linuxarm64.jar</a></tt></summary>
-<ul>
-<li>nixpkgs.photonvision.aarch64-linux</li>
 </ul>
 </details>
 </td>
@@ -130440,26 +128398,6 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/295682124'>x86_64-linux x16-emulator-48</a></tt></summary>
 <ul>
 <li>nixpkgs.x16-run.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/295645705'>x86_64-linux scaphandre-1.0.2</a></tt></summary>
-<ul>
-<li>nixos.tests.allDrivers.prometheus-exporters.scaphandre.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/295709363'>aarch64-linux darling-dmg-1.0.4-unstable-2023-07-26</a></tt></summary>
-<ul>
-<li>nixos.tests.darling-dmg.aarch64-linux</li>
 </ul>
 </details>
 </td>
