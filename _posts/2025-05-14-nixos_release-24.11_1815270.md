@@ -4,7 +4,7 @@ categories: nixos:release-24.11
 ---
 # Evals report
 
-*Report built at 2025-05-14 19:08:28 UTC*
+*Report built at 2025-05-14 20:08:45 UTC*
 
 Built for evals:
 
@@ -7987,7 +7987,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>985 issues</summary>
+<details><summary>986 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -11217,6 +11217,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/297058972'>nixos.tests.systemd-journal.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/297058965'>nixos.tests.systemd-lock-handler.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -15535,7 +15541,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>3188 issues</summary>
+<details><summary>3187 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -25593,13 +25599,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297058965'>nixos.tests.systemd-lock-handler.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
