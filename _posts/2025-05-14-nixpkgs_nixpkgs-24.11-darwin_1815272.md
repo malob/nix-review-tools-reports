@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-05-14 13:16:11 UTC*
+*Report built at 2025-05-14 15:08:21 UTC*
 
 Built for evals:
 
@@ -40046,7 +40046,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>2118 issues</summary>
+<details><summary>2119 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -49627,6 +49627,20 @@ Built for evals:
 </li>
 <li>
 <b>=> Failed</b> <tt>nodejs-20.19.0</tt> <br /> <a href='https://hydra.nixos.org/build/295132367'>build 295132367</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/297068181'>prowler.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>nodejs-20.19.0</tt> <br /> <a href='https://hydra.nixos.org/build/297068181/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/297068181/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/297068181/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/295159820'>build 295159820</a>
 </li>
 </ul>
 </details>
@@ -70808,7 +70822,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>20 issues</summary>
+<details><summary>18 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -70887,13 +70901,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297068181'>prowler.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297068182'>prowler.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -70940,13 +70947,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297103813'>tarball</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -71784,6 +71784,7 @@ Built for evals:
 <li>protoc-gen-connect-es.x86_64-darwin</li>
 <li>protoc-gen-es.aarch64-darwin</li>
 <li>protoc-gen-es.x86_64-darwin</li>
+<li>prowler.aarch64-darwin</li>
 <li>pscid.aarch64-darwin</li>
 <li>pscid.x86_64-darwin</li>
 <li>psitransfer.aarch64-darwin</li>
@@ -73165,7 +73166,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>4152</td>
+<td>4153</td>
 </tr>
 <tr>
 <td>
