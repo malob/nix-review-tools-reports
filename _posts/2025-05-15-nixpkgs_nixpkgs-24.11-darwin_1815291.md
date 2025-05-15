@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-05-15 04:08:43 UTC*
+*Report built at 2025-05-15 05:08:14 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>2596 issues</summary>
+<details><summary>2598 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -13702,6 +13702,20 @@ Built for evals:
 </li>
 <li>
 <b>=> Failed</b> <tt>libiconv-109</tt> <br /> <a href='https://hydra.nixos.org/build/295172594/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/295172594/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/295172594/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/295126872'>build 295126872</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/297068182'>prowler.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.12-google-api-core-2.20.0</tt> <br /> <a href='https://hydra.nixos.org/build/297068182/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/297068182/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/297068182/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/295193881'>build 295193881</a>
 </li>
 </ul>
 </details>
@@ -32595,6 +32609,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/297112591'>vieb.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>nodejs-20.19.0</tt> <br /> <a href='https://hydra.nixos.org/build/297112591/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/297112591/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/297112591/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/295179132'>build 295179132</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/295217342'>vim-language-server.x86_64-darwin</a></tt>
 </summary>
 <ul>
@@ -39934,7 +39962,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>2111 issues</summary>
+<details><summary>2113 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -40817,6 +40845,20 @@ Built for evals:
 </li>
 <li>
 <b>=> Failed</b> <tt>python3.12-pytest-xdist-3.6.1</tt> <br /> <a href='https://hydra.nixos.org/build/295127097/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/295127097/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/295127097/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/295200630'>build 295200630</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/297112564'>bruno.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>nodejs-20.19.0</tt> <br /> <a href='https://hydra.nixos.org/build/297112564/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/297112564/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/297112564/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/295159820'>build 295159820</a>
 </li>
 </ul>
 </details>
@@ -63705,6 +63747,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/297112589'>uivonim.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>nodejs-20.19.0</tt> <br /> <a href='https://hydra.nixos.org/build/297112589/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/297112589/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/297112589/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/295159820'>build 295159820</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/295216873'>undollar.aarch64-darwin</a></tt>
 </summary>
 <ul>
@@ -70598,7 +70654,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>45 issues</summary>
+<details><summary>34 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -70649,13 +70705,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297112564'>bruno.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297112563'>bruno.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -70667,13 +70716,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297112565'>electron-bin.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -70712,13 +70754,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297112574'>electron-chromedriver_35.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297112578'>electron-chromedriver_35.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -70734,20 +70769,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/297112579'>electron-chromedriver_36.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297112572'>electron_34-bin.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297112573'>electron_34-bin.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -70789,38 +70810,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297112583'>metrics</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297103810'>nix-forecast.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297112585'>nix-tour.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297112584'>nix-tour.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297068182'>prowler.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -70845,13 +70838,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297112589'>uivonim.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297112588'>uivonim.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -70870,13 +70856,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297112591'>vieb.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -71014,6 +70993,7 @@ Built for evals:
 <li>bqn.x86_64-darwin</li>
 <li>bruno-cli.aarch64-darwin</li>
 <li>bruno-cli.x86_64-darwin</li>
+<li>bruno.aarch64-darwin</li>
 <li>bump-my-version.aarch64-darwin</li>
 <li>bump-my-version.x86_64-darwin</li>
 <li>cabal-cli.aarch64-darwin</li>
@@ -72886,6 +72866,7 @@ Built for evals:
 <li>typescript.x86_64-darwin</li>
 <li>uglify-js.aarch64-darwin</li>
 <li>uglify-js.x86_64-darwin</li>
+<li>uivonim.aarch64-darwin</li>
 <li>undollar.aarch64-darwin</li>
 <li>undollar.x86_64-darwin</li>
 <li>ungit.aarch64-darwin</li>
@@ -72901,6 +72882,7 @@ Built for evals:
 <li>vercel-pkg.aarch64-darwin</li>
 <li>vercel-pkg.x86_64-darwin</li>
 <li>vesktop.aarch64-darwin</li>
+<li>vieb.x86_64-darwin</li>
 <li>vim-language-server.aarch64-darwin</li>
 <li>vim-language-server.x86_64-darwin</li>
 <li>vimPlugins.YouCompleteMe.aarch64-darwin</li>
@@ -73115,7 +73097,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>4137</td>
+<td>4140</td>
 </tr>
 <tr>
 <td>
@@ -76114,6 +76096,7 @@ Built for evals:
 <li>pentestgpt.x86_64-darwin</li>
 <li>pgadmin4-desktopmode.x86_64-darwin</li>
 <li>pgadmin4.x86_64-darwin</li>
+<li>prowler.x86_64-darwin</li>
 <li>python312Packages.acquire.x86_64-darwin</li>
 <li>python312Packages.aiogithubapi.x86_64-darwin</li>
 <li>python312Packages.altair.x86_64-darwin</li>
@@ -76278,7 +76261,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>192</td>
+<td>193</td>
 </tr>
 <tr>
 <td>
