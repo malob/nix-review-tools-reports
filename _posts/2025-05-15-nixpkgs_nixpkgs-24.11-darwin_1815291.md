@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-05-15 06:08:10 UTC*
+*Report built at 2025-05-15 07:07:31 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>2601 issues</summary>
+<details><summary>2603 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -345,6 +345,20 @@ Built for evals:
 </li>
 <li>
 <b>=> Failed</b> <tt>libiconv-109</tt> <br /> <a href='https://hydra.nixos.org/build/295125016/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/295125016/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/295125016/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/295126872'>build 295126872</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/297112560'>antares.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>nodejs-20.19.0</tt> <br /> <a href='https://hydra.nixos.org/build/297112560/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/297112560/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/297112560/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/295179132'>build 295179132</a>
 </li>
 </ul>
 </details>
@@ -1267,6 +1281,20 @@ Built for evals:
 </li>
 <li>
 <b>=> Failed</b> <tt>libiconv-109</tt> <br /> <a href='https://hydra.nixos.org/build/295127099/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/295127099/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/295127099/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/295126872'>build 295126872</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/297112563'>bruno.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>nodejs-20.19.0</tt> <br /> <a href='https://hydra.nixos.org/build/297112563/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/297112563/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/297112563/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/295179132'>build 295179132</a>
 </li>
 </ul>
 </details>
@@ -40004,7 +40032,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>2113 issues</summary>
+<details><summary>2116 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -40280,6 +40308,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/297112559'>antares.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>nodejs-20.19.0</tt> <br /> <a href='https://hydra.nixos.org/build/297112559/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/297112559/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/297112559/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/295159820'>build 295159820</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/295125069'>antora-lunr-extension.aarch64-darwin</a></tt>
 </summary>
 <ul>
@@ -40311,6 +40353,20 @@ Built for evals:
 </li>
 <li>
 <b>=> Failed</b> <tt>nodejs-20.19.0</tt> <br /> <a href='https://hydra.nixos.org/build/295132367'>build 295132367</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/297068172'>anubis.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>nodejs-20.19.0</tt> <br /> <a href='https://hydra.nixos.org/build/297068172/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/297068172/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/297068172/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/295159820'>build 295159820</a>
 </li>
 </ul>
 </details>
@@ -63945,6 +64001,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/297112592'>vieb.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>nodejs-20.19.0</tt> <br /> <a href='https://hydra.nixos.org/build/297112592/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/297112592/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/297112592/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/295159820'>build 295159820</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/295217354'>vim-language-server.aarch64-darwin</a></tt>
 </summary>
 <ul>
@@ -70696,7 +70766,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>27 issues</summary>
+<details><summary>15 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -70705,52 +70775,10 @@ Built for evals:
 </tr></thead>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297103806'>activemq.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297112559'>antares.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297112560'>antares.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297068172'>anubis.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297112561'>blockbench.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297112563'>bruno.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297112581'>darwin-tested</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -70762,20 +70790,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/297112570'>electron-chromedriver.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297112567'>electron-chromedriver_34.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297112571'>electron-chromedriver_34.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -70817,20 +70831,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297103810'>nix-forecast.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297112586'>release-checks</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297068192'>retool.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -70838,24 +70838,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297112587'>tarball</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297112593'>vesktop.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297112592'>vieb.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -70927,10 +70913,13 @@ Built for evals:
 <li>ansible_2_16.x86_64-darwin</li>
 <li>ansible_2_17.aarch64-darwin</li>
 <li>ansible_2_17.x86_64-darwin</li>
+<li>antares.aarch64-darwin</li>
+<li>antares.x86_64-darwin</li>
 <li>antora-lunr-extension.aarch64-darwin</li>
 <li>antora-lunr-extension.x86_64-darwin</li>
 <li>antora.aarch64-darwin</li>
 <li>antora.x86_64-darwin</li>
+<li>anubis.aarch64-darwin</li>
 <li>anubis.x86_64-darwin</li>
 <li>ares-cli.aarch64-darwin</li>
 <li>ares-cli.x86_64-darwin</li>
@@ -70988,6 +70977,7 @@ Built for evals:
 <li>bruno-cli.aarch64-darwin</li>
 <li>bruno-cli.x86_64-darwin</li>
 <li>bruno.aarch64-darwin</li>
+<li>bruno.x86_64-darwin</li>
 <li>bump-my-version.aarch64-darwin</li>
 <li>bump-my-version.x86_64-darwin</li>
 <li>cabal-cli.aarch64-darwin</li>
@@ -72877,6 +72867,7 @@ Built for evals:
 <li>vercel-pkg.aarch64-darwin</li>
 <li>vercel-pkg.x86_64-darwin</li>
 <li>vesktop.aarch64-darwin</li>
+<li>vieb.aarch64-darwin</li>
 <li>vieb.x86_64-darwin</li>
 <li>vim-language-server.aarch64-darwin</li>
 <li>vim-language-server.x86_64-darwin</li>
@@ -73093,7 +73084,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>4143</td>
+<td>4148</td>
 </tr>
 <tr>
 <td>
