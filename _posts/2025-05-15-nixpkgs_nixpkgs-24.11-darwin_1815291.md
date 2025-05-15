@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:nixpkgs-24.11-darwin 1815291
+title: nixpkgs:nixpkgs-24.11-darwin 1815291 (succeeded)
 categories: nixpkgs:nixpkgs-24.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-05-15 07:07:31 UTC*
+*Report built at 2025-05-15 08:08:07 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>2603 issues</summary>
+<details><summary>2606 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -32665,6 +32665,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/297112593'>vesktop.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>nodejs-20.19.0</tt> <br /> <a href='https://hydra.nixos.org/build/297112593/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/297112593/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/297112593/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/295179132'>build 295179132</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/297112591'>vieb.x86_64-darwin</a></tt>
 </summary>
 <ul>
@@ -34215,6 +34229,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/297112594'>webtorrent_desktop.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>nodejs-20.19.0</tt> <br /> <a href='https://hydra.nixos.org/build/297112594/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/297112594/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/297112594/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/295179132'>build 295179132</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/295222531'>weechatScripts.weechat-matrix.x86_64-darwin</a></tt>
 </summary>
 <ul>
@@ -34635,6 +34663,20 @@ Built for evals:
 </li>
 <li>
 <b>=> Failed</b> <tt>libiconv-109</tt> <br /> <a href='https://hydra.nixos.org/build/295223623/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/295223623/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/295223623/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/295126872'>build 295126872</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/297112597'>youtube-music.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>nodejs-20.19.0</tt> <br /> <a href='https://hydra.nixos.org/build/297112597/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/297112597/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/297112597/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/295179132'>build 295179132</a>
 </li>
 </ul>
 </details>
@@ -40032,7 +40074,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>2116 issues</summary>
+<details><summary>2120 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -40869,6 +40911,20 @@ Built for evals:
 </li>
 <li>
 <b>=> Failed</b> <tt>nodejs-20.19.0</tt> <br /> <a href='https://hydra.nixos.org/build/295132367'>build 295132367</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/297112561'>blockbench.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>nodejs-20.19.0</tt> <br /> <a href='https://hydra.nixos.org/build/297112561/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/297112561/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/297112561/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/295159820'>build 295159820</a>
 </li>
 </ul>
 </details>
@@ -65509,6 +65565,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/297112595'>webtorrent_desktop.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>nodejs-20.19.0</tt> <br /> <a href='https://hydra.nixos.org/build/297112595/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/297112595/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/297112595/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/295159820'>build 295159820</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/295222510'>weechatScripts.weechat-matrix.aarch64-darwin</a></tt>
 </summary>
 <ul>
@@ -65911,6 +65981,34 @@ Built for evals:
 </li>
 <li>
 <b>=> Failed</b> <tt>nodejs-20.19.0</tt> <br /> <a href='https://hydra.nixos.org/build/295132367'>build 295132367</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/297112596'>youtube-music.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>nodejs-20.19.0</tt> <br /> <a href='https://hydra.nixos.org/build/297112596/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/297112596/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/297112596/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/295159820'>build 295159820</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/297112598'>ytdownloader.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>nodejs-20.19.0</tt> <br /> <a href='https://hydra.nixos.org/build/297112598/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/297112598/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/297112598/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/295159820'>build 295159820</a>
 </li>
 </ul>
 </details>
@@ -70762,125 +70860,6 @@ Built for evals:
 </table>
 </details>
 
-
-### Still queued
-
-
-<details><summary>15 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297112561'>blockbench.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297112568'>electron-chromedriver.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297112570'>electron-chromedriver.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297112575'>electron_35-bin.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297112580'>electron_35-bin.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297112577'>electron_36-bin.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297112576'>electron_36-bin.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297112582'>manual</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297068192'>retool.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297112593'>vesktop.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297112595'>webtorrent_desktop.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297112594'>webtorrent_desktop.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297112596'>youtube-music.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297112597'>youtube-music.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297112598'>ytdownloader.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-</table>
-</details>
-
 ## Problematic dependencies
 
 <table>
@@ -70967,6 +70946,7 @@ Built for evals:
 <li>bitwarden-cli.x86_64-darwin</li>
 <li>blade-formatter.aarch64-darwin</li>
 <li>blade-formatter.x86_64-darwin</li>
+<li>blockbench.aarch64-darwin</li>
 <li>blockbench.x86_64-darwin</li>
 <li>botamusique.aarch64-darwin</li>
 <li>botamusique.x86_64-darwin</li>
@@ -72867,6 +72847,7 @@ Built for evals:
 <li>vercel-pkg.aarch64-darwin</li>
 <li>vercel-pkg.x86_64-darwin</li>
 <li>vesktop.aarch64-darwin</li>
+<li>vesktop.x86_64-darwin</li>
 <li>vieb.aarch64-darwin</li>
 <li>vieb.x86_64-darwin</li>
 <li>vim-language-server.aarch64-darwin</li>
@@ -73017,6 +72998,8 @@ Built for evals:
 <li>webassemblyjs-repl.x86_64-darwin</li>
 <li>webmacs.aarch64-darwin</li>
 <li>webmacs.x86_64-darwin</li>
+<li>webtorrent_desktop.aarch64-darwin</li>
+<li>webtorrent_desktop.x86_64-darwin</li>
 <li>whisper-ctranslate2.aarch64-darwin</li>
 <li>whistle.aarch64-darwin</li>
 <li>whistle.x86_64-darwin</li>
@@ -73056,6 +73039,9 @@ Built for evals:
 <li>yo.x86_64-darwin</li>
 <li>your_spotify.aarch64-darwin</li>
 <li>your_spotify.x86_64-darwin</li>
+<li>youtube-music.aarch64-darwin</li>
+<li>youtube-music.x86_64-darwin</li>
+<li>ytdownloader.aarch64-darwin</li>
 <li>ytdownloader.x86_64-darwin</li>
 <li>zabbix-cli.aarch64-darwin</li>
 <li>zabbix-cli.x86_64-darwin</li>
@@ -73084,7 +73070,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>4148</td>
+<td>4155</td>
 </tr>
 <tr>
 <td>
