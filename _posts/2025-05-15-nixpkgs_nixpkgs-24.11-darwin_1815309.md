@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-05-15 21:07:28 UTC*
+*Report built at 2025-05-15 22:07:09 UTC*
 
 Built for evals:
 
@@ -39976,7 +39976,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>2111 issues</summary>
+<details><summary>2112 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -63813,6 +63813,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/297263457'>vencord-web-extension.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>nodejs-20.19.0</tt> <br /> <a href='https://hydra.nixos.org/build/297263457/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/297263457/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/297263457/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/295159820'>build 295159820</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/295217281'>vercel-pkg.aarch64-darwin</a></tt>
 </summary>
 <ul>
@@ -70640,7 +70654,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>26 issues</summary>
+<details><summary>24 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -70754,13 +70768,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297263448'>snipe-it.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297263452'>tarball</a></tt>
 </td>
 <td>Queued</td>
@@ -70783,13 +70790,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/297263449'>teleport_17.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297263457'>vencord-web-extension.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -72803,6 +72803,7 @@ Built for evals:
 <li>uppy-companion.x86_64-darwin</li>
 <li>urlwatch.aarch64-darwin</li>
 <li>urlwatch.x86_64-darwin</li>
+<li>vencord-web-extension.aarch64-darwin</li>
 <li>vercel-pkg.aarch64-darwin</li>
 <li>vercel-pkg.x86_64-darwin</li>
 <li>vieb.aarch64-darwin</li>
@@ -73027,7 +73028,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>4140</td>
+<td>4141</td>
 </tr>
 <tr>
 <td>
