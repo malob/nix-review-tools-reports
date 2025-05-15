@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-05-15 05:08:14 UTC*
+*Report built at 2025-05-15 06:08:10 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>2598 issues</summary>
+<details><summary>2601 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -1159,6 +1159,20 @@ Built for evals:
 </li>
 <li>
 <b>=> Failed</b> <tt>libiconv-109</tt> <br /> <a href='https://hydra.nixos.org/build/295131289/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/295131289/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/295131289/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/295126872'>build 295126872</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/297112562'>blockbench.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>nodejs-20.19.0</tt> <br /> <a href='https://hydra.nixos.org/build/297112562/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/297112562/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/297112562/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/295179132'>build 295179132</a>
 </li>
 </ul>
 </details>
@@ -32481,6 +32495,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/297112588'>uivonim.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>nodejs-20.19.0</tt> <br /> <a href='https://hydra.nixos.org/build/297112588/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/297112588/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/297112588/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/295179132'>build 295179132</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/295216865'>undollar.x86_64-darwin</a></tt>
 </summary>
 <ul>
@@ -34579,6 +34607,20 @@ Built for evals:
 </li>
 <li>
 <b>=> Failed</b> <tt>libiconv-109</tt> <br /> <a href='https://hydra.nixos.org/build/295223623/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/295223623/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/295223623/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/295126872'>build 295126872</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/297112599'>ytdownloader.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>nodejs-20.19.0</tt> <br /> <a href='https://hydra.nixos.org/build/297112599/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/297112599/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/297112599/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/295179132'>build 295179132</a>
 </li>
 </ul>
 </details>
@@ -70654,7 +70696,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>34 issues</summary>
+<details><summary>27 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -70698,13 +70740,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297112562'>blockbench.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297112563'>bruno.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -70716,13 +70751,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297112566'>electron-bin.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -70748,27 +70776,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/297112571'>electron-chromedriver_34.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297112578'>electron-chromedriver_35.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297112569'>electron-chromedriver_36.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297112579'>electron-chromedriver_36.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -70838,13 +70845,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297112588'>uivonim.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297112593'>vesktop.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -70891,13 +70891,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297112599'>ytdownloader.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 </table>
 </details>
@@ -70985,6 +70978,7 @@ Built for evals:
 <li>bitwarden-cli.x86_64-darwin</li>
 <li>blade-formatter.aarch64-darwin</li>
 <li>blade-formatter.x86_64-darwin</li>
+<li>blockbench.x86_64-darwin</li>
 <li>botamusique.aarch64-darwin</li>
 <li>botamusique.x86_64-darwin</li>
 <li>bower2nix.aarch64-darwin</li>
@@ -72867,6 +72861,7 @@ Built for evals:
 <li>uglify-js.aarch64-darwin</li>
 <li>uglify-js.x86_64-darwin</li>
 <li>uivonim.aarch64-darwin</li>
+<li>uivonim.x86_64-darwin</li>
 <li>undollar.aarch64-darwin</li>
 <li>undollar.x86_64-darwin</li>
 <li>ungit.aarch64-darwin</li>
@@ -73070,6 +73065,7 @@ Built for evals:
 <li>yo.x86_64-darwin</li>
 <li>your_spotify.aarch64-darwin</li>
 <li>your_spotify.x86_64-darwin</li>
+<li>ytdownloader.x86_64-darwin</li>
 <li>zabbix-cli.aarch64-darwin</li>
 <li>zabbix-cli.x86_64-darwin</li>
 <li>zap-chip.aarch64-darwin</li>
@@ -73097,7 +73093,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>4140</td>
+<td>4143</td>
 </tr>
 <tr>
 <td>
