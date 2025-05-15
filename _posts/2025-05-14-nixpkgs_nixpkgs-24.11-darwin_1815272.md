@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-05-14 23:07:47 UTC*
+*Report built at 2025-05-15 00:13:54 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>2604 issues</summary>
+<details><summary>2605 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -399,6 +399,20 @@ Built for evals:
 </li>
 <li>
 <b>=> Failed</b> <tt>libiconv-109</tt> <br /> <a href='https://hydra.nixos.org/build/295125049/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/295125049/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/295125049/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/295126872'>build 295126872</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/297068173'>anubis.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>nodejs-20.19.0</tt> <br /> <a href='https://hydra.nixos.org/build/297068173/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/297068173/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/297068173/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/295179132'>build 295179132</a>
 </li>
 </ul>
 </details>
@@ -70822,7 +70836,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>12 issues</summary>
+<details><summary>10 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -70849,13 +70863,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297068173'>anubis.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -70906,13 +70913,6 @@ Built for evals:
 <td>Queued</td>
 <th>aarch64-darwin</th>
 </tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297068195'>subprober.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
 </table>
 </details>
 
@@ -70954,6 +70954,7 @@ Built for evals:
 <li>antora-lunr-extension.x86_64-darwin</li>
 <li>antora.aarch64-darwin</li>
 <li>antora.x86_64-darwin</li>
+<li>anubis.x86_64-darwin</li>
 <li>ares-cli.aarch64-darwin</li>
 <li>ares-cli.x86_64-darwin</li>
 <li>ariang.aarch64-darwin</li>
@@ -73124,7 +73125,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>4153</td>
+<td>4154</td>
 </tr>
 <tr>
 <td>
