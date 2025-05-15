@@ -1,10 +1,10 @@
 ---
-title: nixos:trunk-combined 1815263
+title: nixos:trunk-combined 1815263 (succeeded)
 categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2025-05-15 01:36:25 UTC*
+*Report built at 2025-05-15 02:37:16 UTC*
 
 Built for evals:
 
@@ -34,7 +34,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>1805 issues</summary>
+<details><summary>1804 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -4892,20 +4892,6 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>marble-23.08.5</tt> <br /> <a href='https://hydra.nixos.org/build/296267574/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/296267574/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/296267574/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/295706305'>build 295706305</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/297078934'>tested</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Failed</b> <tt>vm-test-run-chromium-stable</tt> <br /> <a href='https://hydra.nixos.org/build/297078934/nixlog/2746'>log</a>, <a href='https://hydra.nixos.org/build/297078934/nixlog/2746/raw'>raw</a>, <a href='https://hydra.nixos.org/build/297078934/nixlog/2746/tail'>tail</a>, <a href='https://hydra.nixos.org/build/297071825'>build 297071825</a>
 </li>
 </ul>
 </details>
@@ -29541,41 +29527,6 @@ Built for evals:
 </table>
 </details>
 
-
-### Still queued
-
-
-<details><summary>3 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297068832'>nixos.tests.allDrivers.firefox-devedition.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297072077'>nixos.tests.firefox-devedition.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297075284'>nixpkgs.firefox-devedition-unwrapped.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-</table>
-</details>
-
 ## Problematic dependencies
 
 <table>
@@ -31882,16 +31833,6 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/295682124'>x86_64-linux x16-emulator-48</a></tt></summary>
 <ul>
 <li>nixpkgs.x16-run.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/297071825'>x86_64-linux vm-test-run-chromium-stable</a></tt></summary>
-<ul>
-<li>tested</li>
 </ul>
 </details>
 </td>
