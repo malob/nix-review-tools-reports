@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-05-16 08:08:06 UTC*
+*Report built at 2025-05-16 11:07:44 UTC*
 
 Built for evals:
 
@@ -39976,7 +39976,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>2113 issues</summary>
+<details><summary>2115 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -62125,6 +62125,34 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/297263451'>teleport_16.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>nodejs-20.19.0</tt> <br /> <a href='https://hydra.nixos.org/build/297263451/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/297263451/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/297263451/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/295159820'>build 295159820</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/297263449'>teleport_17.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>nodejs-20.19.0</tt> <br /> <a href='https://hydra.nixos.org/build/297263449/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/297263449/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/297263449/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/295159820'>build 295159820</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/295214295'>terminal-stocks.aarch64-darwin</a></tt>
 </summary>
 <ul>
@@ -70668,20 +70696,13 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>20 issues</summary>
+<details><summary>17 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297263433'>brave.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/297263434'>brave.x86_64-darwin</a></tt>
@@ -70765,20 +70786,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297263451'>teleport_16.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297263449'>teleport_17.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -72630,6 +72637,8 @@ Built for evals:
 <li>tegola.x86_64-darwin</li>
 <li>teleport.aarch64-darwin</li>
 <li>teleport_15.aarch64-darwin</li>
+<li>teleport_16.aarch64-darwin</li>
+<li>teleport_17.aarch64-darwin</li>
 <li>terminal-stocks.aarch64-darwin</li>
 <li>terminal-stocks.x86_64-darwin</li>
 <li>terser.aarch64-darwin</li>
@@ -73015,7 +73024,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>4142</td>
+<td>4144</td>
 </tr>
 <tr>
 <td>
