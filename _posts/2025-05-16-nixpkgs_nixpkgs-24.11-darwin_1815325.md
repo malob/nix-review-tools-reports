@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-05-16 16:07:51 UTC*
+*Report built at 2025-05-16 17:07:12 UTC*
 
 Built for evals:
 
@@ -39970,7 +39970,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>2114 issues</summary>
+<details><summary>2116 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -63883,6 +63883,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/297263455'>vesktop.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>nodejs-20.19.0</tt> <br /> <a href='https://hydra.nixos.org/build/297263455/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/297263455/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/297263455/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/295159820'>build 295159820</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/297112592'>vieb.aarch64-darwin</a></tt>
 </summary>
 <ul>
@@ -70349,6 +70363,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/297516135'>varnish77.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/295217214'>vc4-newlib.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -70684,7 +70704,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>24 issues</summary>
+<details><summary>21 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -70798,24 +70818,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297516129'>tarball</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297516134'>varnish60.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297516135'>varnish77.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -70844,13 +70850,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297263455'>vesktop.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -72839,6 +72838,7 @@ Built for evals:
 <li>vencord-web-extension.aarch64-darwin</li>
 <li>vercel-pkg.aarch64-darwin</li>
 <li>vercel-pkg.x86_64-darwin</li>
+<li>vesktop.aarch64-darwin</li>
 <li>vieb.aarch64-darwin</li>
 <li>vieb.x86_64-darwin</li>
 <li>vim-language-server.aarch64-darwin</li>
@@ -73061,7 +73061,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>4144</td>
+<td>4145</td>
 </tr>
 <tr>
 <td>
