@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-05-16 17:07:12 UTC*
+*Report built at 2025-05-16 18:08:32 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>2598 issues</summary>
+<details><summary>2599 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -13316,6 +13316,20 @@ Built for evals:
 </li>
 <li>
 <b>=> Failed</b> <tt>libiconv-109</tt> <br /> <a href='https://hydra.nixos.org/build/295170879/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/295170879/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/295170879/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/295126872'>build 295126872</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/297263438'>pnpm_10.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>nodejs-20.19.0</tt> <br /> <a href='https://hydra.nixos.org/build/297263438/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/297263438/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/297263438/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/295179132'>build 295179132</a>
 </li>
 </ul>
 </details>
@@ -70704,7 +70718,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>21 issues</summary>
+<details><summary>20 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -70759,13 +70773,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297263438'>pnpm_10.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -71653,6 +71660,7 @@ Built for evals:
 <li>pnpm-lock-export.x86_64-darwin</li>
 <li>pnpm.aarch64-darwin</li>
 <li>pnpm.x86_64-darwin</li>
+<li>pnpm_10.x86_64-darwin</li>
 <li>pnpm_8.aarch64-darwin</li>
 <li>pnpm_8.x86_64-darwin</li>
 <li>pnpm_9.aarch64-darwin</li>
@@ -73061,7 +73069,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>4145</td>
+<td>4146</td>
 </tr>
 <tr>
 <td>
