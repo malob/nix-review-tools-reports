@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-05-16 19:07:43 UTC*
+*Report built at 2025-05-16 20:08:20 UTC*
 
 Built for evals:
 
@@ -39984,7 +39984,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>2116 issues</summary>
+<details><summary>2118 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -49209,6 +49209,20 @@ Built for evals:
 </li>
 <li>
 <b>=> Failed</b> <tt>nodejs-20.19.0</tt> <br /> <a href='https://hydra.nixos.org/build/295132367'>build 295132367</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/297263439'>pnpm_10.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>nodejs-20.19.0</tt> <br /> <a href='https://hydra.nixos.org/build/297263439/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/297263439/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/297263439/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/295159820'>build 295159820</a>
 </li>
 </ul>
 </details>
@@ -63877,6 +63891,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/297263453'>vencord.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>nodejs-20.19.0</tt> <br /> <a href='https://hydra.nixos.org/build/297263453/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/297263453/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/297263453/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/295159820'>build 295159820</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/295217281'>vercel-pkg.aarch64-darwin</a></tt>
 </summary>
 <ul>
@@ -70718,7 +70746,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>18 issues</summary>
+<details><summary>12 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -70741,38 +70769,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/297263434'>brave.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297516123'>darwin-tested</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297516124'>manual</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/297516125'>metrics</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297263439'>pnpm_10.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -70794,13 +70794,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297263444'>selendroid.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -70829,13 +70822,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297263453'>vencord.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -71646,6 +71632,7 @@ Built for evals:
 <li>pnpm-lock-export.x86_64-darwin</li>
 <li>pnpm.aarch64-darwin</li>
 <li>pnpm.x86_64-darwin</li>
+<li>pnpm_10.aarch64-darwin</li>
 <li>pnpm_10.x86_64-darwin</li>
 <li>pnpm_8.aarch64-darwin</li>
 <li>pnpm_8.x86_64-darwin</li>
@@ -72830,6 +72817,7 @@ Built for evals:
 <li>urlwatch.aarch64-darwin</li>
 <li>urlwatch.x86_64-darwin</li>
 <li>vencord-web-extension.aarch64-darwin</li>
+<li>vencord.aarch64-darwin</li>
 <li>vercel-pkg.aarch64-darwin</li>
 <li>vercel-pkg.x86_64-darwin</li>
 <li>vesktop.aarch64-darwin</li>
@@ -73055,7 +73043,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>4146</td>
+<td>4148</td>
 </tr>
 <tr>
 <td>
