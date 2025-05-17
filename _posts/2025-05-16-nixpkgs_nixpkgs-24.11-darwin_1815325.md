@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-05-17 00:14:17 UTC*
+*Report built at 2025-05-17 01:35:24 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>2602 issues</summary>
+<details><summary>2603 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -32580,6 +32580,20 @@ Built for evals:
 </li>
 <li>
 <b>=> Failed</b> <tt>libiconv-109</tt> <br /> <a href='https://hydra.nixos.org/build/295217101/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/295217101/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/295217101/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/295126872'>build 295126872</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/297263456'>vencord-web-extension.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>nodejs-20.19.0</tt> <br /> <a href='https://hydra.nixos.org/build/297263456/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/297263456/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/297263456/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/295179132'>build 295179132</a>
 </li>
 </ul>
 </details>
@@ -70780,7 +70794,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>3 issues</summary>
+<details><summary>2 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -70790,13 +70804,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/297516128'>rundeck.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297263456'>vencord-web-extension.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -72788,6 +72795,7 @@ Built for evals:
 <li>urlwatch.aarch64-darwin</li>
 <li>urlwatch.x86_64-darwin</li>
 <li>vencord-web-extension.aarch64-darwin</li>
+<li>vencord-web-extension.x86_64-darwin</li>
 <li>vencord.aarch64-darwin</li>
 <li>vencord.x86_64-darwin</li>
 <li>vercel-pkg.aarch64-darwin</li>
@@ -73015,7 +73023,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>4149</td>
+<td>4150</td>
 </tr>
 <tr>
 <td>
