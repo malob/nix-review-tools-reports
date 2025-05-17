@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:nixpkgs-24.11-darwin 1815325
+title: nixpkgs:nixpkgs-24.11-darwin 1815325 (succeeded)
 categories: nixpkgs:nixpkgs-24.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-05-17 01:35:24 UTC*
+*Report built at 2025-05-17 02:35:34 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>2603 issues</summary>
+<details><summary>2604 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -32628,6 +32628,20 @@ Built for evals:
 </li>
 <li>
 <b>=> Failed</b> <tt>libiconv-109</tt> <br /> <a href='https://hydra.nixos.org/build/295217276/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/295217276/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/295217276/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/295126872'>build 295126872</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/297263458'>vesktop.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>nodejs-20.19.0</tt> <br /> <a href='https://hydra.nixos.org/build/297263458/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/297263458/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/297263458/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/295179132'>build 295179132</a>
 </li>
 </ul>
 </details>
@@ -70790,34 +70804,6 @@ Built for evals:
 </table>
 </details>
 
-
-### Still queued
-
-
-<details><summary>2 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297516128'>rundeck.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297263458'>vesktop.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-</table>
-</details>
-
 ## Problematic dependencies
 
 <table>
@@ -72801,6 +72787,7 @@ Built for evals:
 <li>vercel-pkg.aarch64-darwin</li>
 <li>vercel-pkg.x86_64-darwin</li>
 <li>vesktop.aarch64-darwin</li>
+<li>vesktop.x86_64-darwin</li>
 <li>vieb.aarch64-darwin</li>
 <li>vieb.x86_64-darwin</li>
 <li>vim-language-server.aarch64-darwin</li>
@@ -73023,7 +73010,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>4150</td>
+<td>4151</td>
 </tr>
 <tr>
 <td>
