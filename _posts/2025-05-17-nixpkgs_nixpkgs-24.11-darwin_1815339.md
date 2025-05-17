@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-05-17 09:07:14 UTC*
+*Report built at 2025-05-17 10:07:09 UTC*
 
 Built for evals:
 
@@ -40046,7 +40046,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>2117 issues</summary>
+<details><summary>2119 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -62161,6 +62161,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/297670071'>teams-for-linux.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>nodejs-20.19.0</tt> <br /> <a href='https://hydra.nixos.org/build/297670071/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/297670071/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/297670071/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/295159820'>build 295159820</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/295214197'>tegola.aarch64-darwin</a></tt>
 </summary>
 <ul>
@@ -66226,6 +66240,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/295125143'>apacheHttpdPackages_2_4.mod_python.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/297670059'>apt-dater.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -70802,20 +70822,13 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>7 issues</summary>
+<details><summary>3 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297670059'>apt-dater.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/297670061'>byobu.aarch64-darwin</a></tt>
@@ -70829,27 +70842,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297670066'>manual</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297670069'>screen.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/297670071'>teams-for-linux.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -70869,8 +70861,9 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/295132367'>aarch64-darwin nodejs-20.19.0</a></tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/295159820'>aarch64-darwin nodejs-20.19.0</a></tt></summary>
 <ul>
+<li>teams-for-linux.aarch64-darwin</li>
 <li>aider-chat.aarch64-darwin</li>
 <li>aider-chat.x86_64-darwin</li>
 <li>akkoma-frontends.akkoma-fe.aarch64-darwin</li>
@@ -73067,7 +73060,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>4151</td>
+<td>4152</td>
 </tr>
 <tr>
 <td>
