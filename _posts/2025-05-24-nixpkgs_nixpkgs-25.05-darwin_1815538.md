@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.05-darwin
 ---
 # Evals report
 
-*Report built at 2025-05-24 11:07:01 UTC*
+*Report built at 2025-05-24 13:13:26 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1368 issues</summary>
+<details><summary>1370 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -9627,6 +9627,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/298210810'>python312Packages.torcheval.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/297740323'>python312Packages.tweedledum.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -10312,6 +10318,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/297757041'>python313Packages.torch-geometric.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/298211137'>python313Packages.torcheval.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -11678,7 +11690,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1125 issues</summary>
+<details><summary>1126 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -19754,6 +19766,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/298211138'>python313Packages.torcheval.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/297757130'>python313Packages.transforms3d.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -20791,7 +20809,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>25 issues</summary>
+<details><summary>22 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -20878,27 +20896,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/298247531'>np2kai.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/298210810'>python312Packages.torcheval.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/298211138'>python313Packages.torcheval.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/298211137'>python313Packages.torcheval.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
