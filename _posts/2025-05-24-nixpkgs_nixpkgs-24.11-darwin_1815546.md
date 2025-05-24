@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-05-24 20:08:05 UTC*
+*Report built at 2025-05-24 21:08:11 UTC*
 
 Built for evals:
 
@@ -15,18 +15,12 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>2580 issues</summary>
+<details><summary>2579 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/298205188'>nixVersions.nix_2_23.x86_64-darwin</a></tt>
-</td>
-<td>Cancelled</td>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/298205269'>tests.devShellTools.nixos.x86_64-darwin</a></tt>
