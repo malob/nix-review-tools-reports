@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.05-darwin
 ---
 # Evals report
 
-*Report built at 2025-05-25 10:07:10 UTC*
+*Report built at 2025-05-25 11:07:38 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1367 issues</summary>
+<details><summary>1368 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -1096,6 +1096,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>rclone-1.69.1</tt> <br /> <a href='https://hydra.nixos.org/build/297683920/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/297683920/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/297683920/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/297466175'>build 297466175</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/298247525'>github-runner.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>nodejs-20.19.2</tt> <br /> <a href='https://hydra.nixos.org/build/298247525/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/298247525/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/298247525/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/298045107'>build 298045107</a>
 </li>
 </ul>
 </details>
@@ -20735,7 +20749,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>69 issues</summary>
+<details><summary>67 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -20895,13 +20909,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/298247525'>github-runner.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -21129,13 +21136,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/298267357'>tarball</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/298267358'>ugrep.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -21319,6 +21319,7 @@ Built for evals:
 <li>devcontainer.x86_64-darwin</li>
 <li>ethercalc.aarch64-darwin</li>
 <li>ethercalc.x86_64-darwin</li>
+<li>github-runner.x86_64-darwin</li>
 <li>httptoolkit-server.aarch64-darwin</li>
 <li>httptoolkit-server.x86_64-darwin</li>
 <li>isso.aarch64-darwin</li>
@@ -21349,7 +21350,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>46</td>
+<td>47</td>
 </tr>
 <tr>
 <td>
