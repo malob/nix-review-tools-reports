@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.05-darwin
 ---
 # Evals report
 
-*Report built at 2025-05-27 13:35:59 UTC*
+*Report built at 2025-05-27 14:26:13 UTC*
 
 Built for evals:
 
@@ -20819,7 +20819,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>248 issues</summary>
+<details><summary>245 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -21248,13 +21248,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/298306492'>famistudio.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/298306496'>fantomas.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -21679,13 +21672,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/298331037'>lldb_20.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -22271,13 +22257,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/298331134'>python313Packages.netmap.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/298306700'>python313Packages.pystatgrab.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
