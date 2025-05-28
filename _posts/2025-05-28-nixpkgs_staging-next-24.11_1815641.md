@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next-24.11
 ---
 # Evals report
 
-*Report built at 2025-05-28 18:30:04 UTC*
+*Report built at 2025-05-28 19:29:47 UTC*
 
 Built for evals:
 
@@ -43964,7 +43964,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>4669 issues</summary>
+<details><summary>4668 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -46809,13 +46809,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/298271787'>python311Packages.cltk.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/298097355'>python311Packages.devito.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
