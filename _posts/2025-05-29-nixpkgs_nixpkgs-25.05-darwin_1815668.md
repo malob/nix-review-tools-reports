@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.05-darwin
 ---
 # Evals report
 
-*Report built at 2025-05-29 07:27:12 UTC*
+*Report built at 2025-05-29 08:27:42 UTC*
 
 Built for evals:
 
@@ -12013,7 +12013,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1116 issues</summary>
+<details><summary>1117 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -21010,6 +21010,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/298498440'>diffoscope.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/297686586'>haskellPackages.THSH.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -21069,20 +21075,13 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>5 issues</summary>
+<details><summary>4 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/298498440'>diffoscope.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/298498549'>yazi-unwrapped.aarch64-darwin</a></tt>
