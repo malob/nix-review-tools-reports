@@ -4,7 +4,7 @@ categories: nixos:release-25.05
 ---
 # Evals report
 
-*Report built at 2025-05-29 11:25:56 UTC*
+*Report built at 2025-05-29 12:26:56 UTC*
 
 Built for evals:
 
@@ -10596,7 +10596,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>1582 issues</summary>
+<details><summary>1583 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -14445,6 +14445,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/298323941'>nixos.tests.healthchecks.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/298477895'>nixos.tests.image-contents.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -22237,7 +22243,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>814 issues</summary>
+<details><summary>813 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -23881,13 +23887,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/298477895'>nixos.tests.image-contents.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
