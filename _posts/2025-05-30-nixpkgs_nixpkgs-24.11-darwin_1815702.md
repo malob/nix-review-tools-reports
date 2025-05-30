@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-05-30 19:26:00 UTC*
+*Report built at 2025-05-30 20:26:19 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1594 issues</summary>
+<details><summary>1596 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -14717,6 +14717,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/298516283'>haskellPackages.duckdb-haskell.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/298527617'>irrd.x86_64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -14736,6 +14742,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/298548871'>pyload-ng.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/298551525'>python311Packages.datafusion.x86_64-darwin</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -14848,7 +14860,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1119 issues</summary>
+<details><summary>1122 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -23948,6 +23960,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/298512998'>haskellPackages.THSH.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/298527507'>irrd.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -23990,6 +24008,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/298568228'>python312Packages.django-cacheops.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/298569384'>python312Packages.flask-session-captcha.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -24000,6 +24024,12 @@ Built for evals:
 </td>
 <td>Timed out</td>
 </tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/298578340'>python312Packages.skyfield.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
 </table>
 </details>
 
@@ -24007,27 +24037,13 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>22 issues</summary>
+<details><summary>17 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/298512998'>haskellPackages.THSH.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/298516283'>haskellPackages.duckdb-haskell.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/298527367'>julia-bin.aarch64-darwin</a></tt>
@@ -24051,13 +24067,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/298551525'>python311Packages.datafusion.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/298557777'>python311Packages.netbox-documents.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -24072,13 +24081,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/298568228'>python312Packages.django-cacheops.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/298574355'>python312Packages.netbox-bgp.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -24090,13 +24092,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/298578340'>python312Packages.skyfield.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
