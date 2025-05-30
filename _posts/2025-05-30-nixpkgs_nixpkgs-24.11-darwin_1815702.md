@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-05-30 18:26:48 UTC*
+*Report built at 2025-05-30 19:26:00 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1591 issues</summary>
+<details><summary>1594 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -1373,6 +1373,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>gawkextlib-haru-unstable-2022-10-20</tt> <br /> <a href='https://hydra.nixos.org/build/298509875/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/298509875/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/298509875/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/297804744'>build 297804744</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/298509881'>gbforth.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>gforth-0.7.9_20230518</tt> <br /> <a href='https://hydra.nixos.org/build/298509881/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/298509881/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/298509881/nixlog/1/tail'>tail</a>
 </li>
 </ul>
 </details>
@@ -14685,6 +14699,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/298507490'>diffoscope.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/298510155'>gforth.x86_64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -14710,6 +14730,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/298535687'>netbox.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/298548871'>pyload-ng.x86_64-darwin</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -23981,34 +24007,13 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>27 issues</summary>
+<details><summary>22 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/298503544'>cargo-outdated.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/298507678'>diffoscope.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/298509881'>gbforth.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/298512998'>haskellPackages.THSH.aarch64-darwin</a></tt>
@@ -24040,13 +24045,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/298535684'>netbox_4_1.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/298548871'>pyload-ng.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -24099,13 +24097,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/298581694'>qsv.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -26750,6 +26741,16 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/297804744'>x86_64-darwin gawkextlib-haru-unstable-2022-10-20</a></tt></summary>
 <ul>
 <li>gawk-with-extensions.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>x86_64-darwin gforth-0.7.9_20230518</tt></summary>
+<ul>
+<li>gbforth.x86_64-darwin</li>
 </ul>
 </details>
 </td>
