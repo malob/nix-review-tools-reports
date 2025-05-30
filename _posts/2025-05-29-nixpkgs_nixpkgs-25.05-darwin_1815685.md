@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.05-darwin
 ---
 # Evals report
 
-*Report built at 2025-05-30 05:26:20 UTC*
+*Report built at 2025-05-30 06:27:16 UTC*
 
 Built for evals:
 
@@ -11709,7 +11709,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1100 issues</summary>
+<details><summary>1101 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -11835,6 +11835,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>python3.12-gst-python-1.26.0</tt> <br /> <a href='https://hydra.nixos.org/build/298600118/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/298600118/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/298600118/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/298498975'>build 298498975</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/298600119'>beetsPackages.beets.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.12-gst-python-1.26.0</tt> <br /> <a href='https://hydra.nixos.org/build/298600119/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/298600119/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/298600119/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/298498975'>build 298498975</a>
 </li>
 </ul>
 </details>
@@ -20589,7 +20603,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>175 issues</summary>
+<details><summary>168 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -20830,13 +20844,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/298600114'>beetsPackages.beets-unstable.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/298600119'>beetsPackages.beets.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -21200,13 +21207,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/298600234'>neuron-mpi.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/298600240'>nixfmt-tree.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -21249,13 +21249,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/298600251'>p4est.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/298600260'>pnetcdf.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -21288,13 +21281,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/298600265'>prrte.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -21620,13 +21606,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/298600402'>release-checks</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/298600393'>rocksdb_9_10.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -21711,24 +21690,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/298600425'>tests.pkg-config.defaultPkgConfigPackages.ompi-c.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/298600424'>tests.pkg-config.defaultPkgConfigPackages.ompi-f77.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/298600419'>tests.pkg-config.defaultPkgConfigPackages.ompi-f90.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -22024,6 +21989,7 @@ Built for evals:
 <li>beetsPackages.beets-minimal.x86_64-darwin</li>
 <li>beetsPackages.beets-stable.aarch64-darwin</li>
 <li>beetsPackages.beets-unstable.x86_64-darwin</li>
+<li>beetsPackages.beets.aarch64-darwin</li>
 <li>beetsPackages.beets.x86_64-darwin</li>
 <li>beetsPackages.copyartifacts.x86_64-darwin</li>
 <li>beetsPackages.filetote.x86_64-darwin</li>
@@ -22031,7 +21997,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>13</td>
+<td>14</td>
 </tr>
 <tr>
 <td>
