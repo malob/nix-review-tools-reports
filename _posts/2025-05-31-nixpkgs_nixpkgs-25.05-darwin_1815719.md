@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.05-darwin
 ---
 # Evals report
 
-*Report built at 2025-05-31 15:26:44 UTC*
+*Report built at 2025-05-31 16:26:46 UTC*
 
 Built for evals:
 
@@ -20815,7 +20815,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>1050 issues</summary>
+<details><summary>1041 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -23092,13 +23092,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/298879694'>vimPlugins.fcitx-vim.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/298879712'>vimPlugins.fzf-lua.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -24436,13 +24429,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/298879877'>vimPlugins.nvim-treesitter-parsers.func.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/298879887'>vimPlugins.nvim-treesitter-parsers.func.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -24793,24 +24779,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/298879931'>vimPlugins.nvim-treesitter-parsers.gren.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/298879968'>vimPlugins.nvim-treesitter-parsers.gren.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/298879940'>vimPlugins.nvim-treesitter-parsers.groovy.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -25262,13 +25234,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/298880004'>vimPlugins.nvim-treesitter-parsers.json.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/298880008'>vimPlugins.nvim-treesitter-parsers.json5.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -25406,13 +25371,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/298880023'>vimPlugins.nvim-treesitter-parsers.lalrpop.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -26053,13 +26011,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/298880118'>vimPlugins.nvim-treesitter-parsers.pod.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/298880125'>vimPlugins.nvim-treesitter-parsers.pod.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -26288,13 +26239,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/298880153'>vimPlugins.nvim-treesitter-parsers.ql.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -28094,13 +28038,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/298879582'>vimPluginsUpdater.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
