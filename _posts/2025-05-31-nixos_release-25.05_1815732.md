@@ -1,10 +1,10 @@
 ---
-title: nixos:release-25.05 1815732
+title: nixos:release-25.05 1815732 (succeeded)
 categories: nixos:release-25.05
 ---
 # Evals report
 
-*Report built at 2025-06-02 02:58:44 UTC*
+*Report built at 2025-06-02 05:27:50 UTC*
 
 Built for evals:
 
@@ -22176,27 +22176,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/297638765'>nixpkgs.python313Packages.reflex.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/298611879'>nixpkgs.freecad.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
