@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.05-darwin
 ---
 # Evals report
 
-*Report built at 2025-06-03 06:28:26 UTC*
+*Report built at 2025-06-03 08:27:54 UTC*
 
 Built for evals:
 
@@ -20931,7 +20931,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>157 issues</summary>
+<details><summary>156 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -21417,13 +21417,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/299142725'>beamMinimal27Packages.erlang-ls.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/299142716'>beamMinimal27Packages.erlfmt.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
