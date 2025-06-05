@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-06-05 20:26:46 UTC*
+*Report built at 2025-06-05 21:27:15 UTC*
 
 Built for evals:
 
@@ -23961,7 +23961,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>105 issues</summary>
+<details><summary>102 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -24075,13 +24075,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/299266096'>electron-chromedriver_34.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/299266098'>electron-chromedriver_34.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -24107,13 +24100,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/299266099'>electron-chromedriver_36.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -24471,13 +24457,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/299266123'>roundcube.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
