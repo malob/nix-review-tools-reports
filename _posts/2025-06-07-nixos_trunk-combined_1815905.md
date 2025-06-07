@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2025-06-07 13:34:01 UTC*
+*Report built at 2025-06-07 15:28:10 UTC*
 
 Built for evals:
 
@@ -20194,7 +20194,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>9413 issues</summary>
+<details><summary>9409 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -39271,13 +39271,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/299330266'>nixos.tests.allDrivers.systemd-userdbd.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/299330268'>nixos.tests.allDrivers.systemd-userdbd.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -42033,13 +42026,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/299330697'>nixos.tests.allDrivers.zeronet-conservancy.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -56134,13 +56120,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/299332846'>nixos.tests.postgresql.postgresql-wal-receiver.postgresql_13.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/299332853'>nixos.tests.postgresql.postgresql-wal-receiver.postgresql_13.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -68388,13 +68367,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/299334660'>nixpkgs.guile-srfi-145.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
