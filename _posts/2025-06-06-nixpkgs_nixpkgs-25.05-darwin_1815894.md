@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.05-darwin
 ---
 # Evals report
 
-*Report built at 2025-06-07 07:27:09 UTC*
+*Report built at 2025-06-07 08:28:09 UTC*
 
 Built for evals:
 
@@ -20861,7 +20861,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>178 issues</summary>
+<details><summary>174 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -21402,20 +21402,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/299323505'>llvmPackages_20.bintools-unwrapped.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/299323517'>llvmPackages_20.bintools.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/299323521'>llvmPackages_20.bintools.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -21441,13 +21427,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/299323514'>llvmPackages_20.clang-manpages.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -21686,13 +21665,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/299323538'>llvm_20.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
