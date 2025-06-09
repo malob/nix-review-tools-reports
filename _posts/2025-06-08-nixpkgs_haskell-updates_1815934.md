@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-06-08 20:24:21 UTC*
+*Report built at 2025-06-09 00:31:52 UTC*
 
 Built for evals:
 
@@ -506,7 +506,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>66 issues</summary>
+<details><summary>65 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -845,13 +845,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/299350523'>haskellPackages.lexer-applicative.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/299350527'>haskellPackages.openai-hs.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
