@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-06-09 23:24:21 UTC*
+*Report built at 2025-06-10 06:55:17 UTC*
 
 Built for evals:
 
@@ -512,20 +512,13 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>56 issues</summary>
+<details><summary>53 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/299350423'>cachix.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/299350430'>emanote.x86_64-linux</a></tt>
@@ -717,13 +710,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/299350488'>haskellPackages.advent-of-code-api.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/299350496'>haskellPackages.changelog-d.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -872,13 +858,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/299350548'>haskellPackages.stylist-traits.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/299350558'>oama.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
