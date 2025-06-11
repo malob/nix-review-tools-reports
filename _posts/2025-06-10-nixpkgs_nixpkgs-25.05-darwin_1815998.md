@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.05-darwin
 ---
 # Evals report
 
-*Report built at 2025-06-11 07:09:31 UTC*
+*Report built at 2025-06-11 09:09:36 UTC*
 
 Built for evals:
 
@@ -20803,7 +20803,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>253 issues</summary>
+<details><summary>252 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -21089,13 +21089,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/300101318'>haskellPackages.lz4-frame-conduit.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
