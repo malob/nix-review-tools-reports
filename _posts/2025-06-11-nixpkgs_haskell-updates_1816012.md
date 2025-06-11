@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-06-11 09:06:53 UTC*
+*Report built at 2025-06-11 11:06:26 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>46 issues</summary>
+<details><summary>47 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -289,6 +289,20 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/300115782'>maintained</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>gi-soup2-2.4.30</tt> <br /> <a href='https://hydra.nixos.org/build/300115782/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/300115782/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/300115782/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/299137964'>build 299137964</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/299186680'>haskellPackages.cabal-cargs.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -456,7 +470,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>126 issues</summary>
+<details><summary>124 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -1207,13 +1221,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/300115782'>maintained</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/300115771'>mergeable</a></tt>
 </td>
 <td>Queued</td>
@@ -1243,13 +1250,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/300115776'>nixosTests.xmonad-xdg-autostart.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/300115775'>nixosTests.xmonad.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -1392,6 +1392,17 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/299137964'>x86_64-linux gi-soup2-2.4.30</a></tt></summary>
+<ul>
+<li>haskellPackages.gi-soup.x86_64-linux</li>
+<li>maintained</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/299135676'>x86_64-linux aeson-warning-parser-0.1.1</a></tt></summary>
 <ul>
 <li>haskellPackages.mega-sdist.x86_64-linux</li>
@@ -1436,16 +1447,6 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/299137683'>x86_64-linux fs-api-0.3.0.1</a></tt></summary>
 <ul>
 <li>haskellPackages.fs-sim.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/299137964'>x86_64-linux gi-soup2-2.4.30</a></tt></summary>
-<ul>
-<li>haskellPackages.gi-soup.x86_64-linux</li>
 </ul>
 </details>
 </td>
