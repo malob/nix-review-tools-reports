@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-06-10 22:06:11 UTC*
+*Report built at 2025-06-11 00:13:02 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>51 issues</summary>
+<details><summary>52 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -99,6 +99,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>fs-api-0.3.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/299350509/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/299350509/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/299350509/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/299137683'>build 299137683</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/299350515'>haskellPackages.ghcjs-dom-hello.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>gi-soup2-2.4.30</tt> <br /> <a href='https://hydra.nixos.org/build/299350515/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/299350515/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/299350515/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/299137964'>build 299137964</a>
 </li>
 </ul>
 </details>
@@ -518,7 +532,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>47 issues</summary>
+<details><summary>46 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -723,13 +737,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/299350515'>haskellPackages.ghcjs-dom-hello.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/299350518'>haskellPackages.hercules-ci-agent.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -867,6 +874,7 @@ Built for evals:
 <td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/299137964'>x86_64-linux gi-soup2-2.4.30</a></tt></summary>
 <ul>
+<li>haskellPackages.ghcjs-dom-hello.x86_64-linux</li>
 <li>haskellPackages.gi-soup.x86_64-linux</li>
 <li>haskellPackages.gi-webkit2.x86_64-linux</li>
 <li>haskellPackages.jsaddle-webkit2gtk.x86_64-linux</li>
@@ -874,7 +882,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>4</td>
+<td>5</td>
 </tr>
 <tr>
 <td>
