@@ -4,7 +4,7 @@ categories: nixos:release-25.05
 ---
 # Evals report
 
-*Report built at 2025-06-12 17:10:19 UTC*
+*Report built at 2025-06-12 18:11:10 UTC*
 
 Built for evals:
 
@@ -24585,7 +24585,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>2 issues</summary>
+<details><summary>1 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -24595,13 +24595,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/297587573'>nixpkgs.mathemagix.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/300147573'>tested</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
