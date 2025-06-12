@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-06-12 15:06:03 UTC*
+*Report built at 2025-06-12 17:06:12 UTC*
 
 Built for evals:
 
@@ -470,7 +470,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>104 issues</summary>
+<details><summary>103 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -1187,13 +1187,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/299350563'>pkgsCross.ghcjs.haskell.packages.ghc912.microlens.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/299350564'>pkgsCross.ghcjs.haskell.packages.ghc912.miso.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
