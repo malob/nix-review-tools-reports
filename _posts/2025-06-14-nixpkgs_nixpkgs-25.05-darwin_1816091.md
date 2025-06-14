@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.05-darwin
 ---
 # Evals report
 
-*Report built at 2025-06-14 16:09:35 UTC*
+*Report built at 2025-06-14 17:09:15 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1370 issues</summary>
+<details><summary>1371 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -2748,6 +2748,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>gnat-13.3.0</tt> <br /> <a href='https://hydra.nixos.org/build/297685167/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/297685167/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/297685167/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/297291182'>build 297291182</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/300199921'>gradescope-submit.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>ocaml5.3.0-mirage-crypto-rng-1.2.0</tt> <br /> <a href='https://hydra.nixos.org/build/300199921/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/300199921/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/300199921/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/297712523'>build 297712523</a>
 </li>
 </ul>
 </details>
@@ -20745,7 +20759,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>56 issues</summary>
+<details><summary>55 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -20863,13 +20877,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/300199921'>gradescope-submit.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -22287,6 +22294,18 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/297712523'>x86_64-darwin ocaml5.3.0-mirage-crypto-rng-1.2.0</a></tt></summary>
+<ul>
+<li>gradescope-submit.x86_64-darwin</li>
+<li>opam-publish.aarch64-darwin</li>
+<li>opam-publish.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>3</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/297381689'>aarch64-darwin perl5.40.0-Net-IP-XS-0.22</a></tt></summary>
 <ul>
 <li>perl540Packages.ZonemasterCLI.aarch64-darwin</li>
@@ -22700,17 +22719,6 @@ Built for evals:
 <ul>
 <li>octavePackages.mapping.aarch64-darwin</li>
 <li>octavePackages.mapping.x86_64-darwin</li>
-</ul>
-</details>
-</td>
-<td>2</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/297685252'>aarch64-darwin ocaml5.3.0-mirage-crypto-rng-1.2.0</a></tt></summary>
-<ul>
-<li>opam-publish.aarch64-darwin</li>
-<li>opam-publish.x86_64-darwin</li>
 </ul>
 </details>
 </td>
