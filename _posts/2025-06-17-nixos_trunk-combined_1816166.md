@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2025-06-17 21:10:23 UTC*
+*Report built at 2025-06-17 22:10:28 UTC*
 
 Built for evals:
 
@@ -15317,7 +15317,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>1392 issues</summary>
+<details><summary>1391 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -15961,20 +15961,6 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>eris-20230722</tt> <br /> <a href='https://hydra.nixos.org/build/300210823/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/300210823/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/300210823/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/297285178'>build 297285178</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/300211166'>nixos.tests.home-assistant.aarch64-linux</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Cached failure</b> <tt>python3.13-bellows-0.45.0</tt> <br /> <a href='https://hydra.nixos.org/build/300211166/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/300211166/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/300211166/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/300167840'>build 300167840</a>
 </li>
 </ul>
 </details>
@@ -27154,7 +27140,6 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/300167840'>aarch64-linux python3.13-bellows-0.45.0</a></tt></summary>
 <ul>
 <li>nixos.tests.allDrivers.home-assistant.aarch64-linux</li>
-<li>nixos.tests.home-assistant.aarch64-linux</li>
 <li>nixpkgs.home-assistant-component-tests.hassio.aarch64-linux</li>
 <li>nixpkgs.home-assistant-component-tests.homeassistant_green.aarch64-linux</li>
 <li>nixpkgs.home-assistant-component-tests.homeassistant_hardware.aarch64-linux</li>
@@ -27165,7 +27150,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>9</td>
+<td>8</td>
 </tr>
 <tr>
 <td>
