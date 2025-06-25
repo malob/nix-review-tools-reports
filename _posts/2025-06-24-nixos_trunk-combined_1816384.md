@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2025-06-25 07:11:20 UTC*
+*Report built at 2025-06-25 08:11:11 UTC*
 
 Built for evals:
 
@@ -78713,8 +78713,9 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/299849229'>aarch64-linux python3.13-lxml-html-clean-0.4.2</a></tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/300481504'>x86_64-linux python3.13-lxml-html-clean-0.4.2</a></tt></summary>
 <ul>
+<li>nixos.tests.custom-ca.qutebrowser.x86_64-linux</li>
 <li>nixpkgs.archivy.aarch64-linux</li>
 <li>nixpkgs.archivy.x86_64-linux</li>
 <li>nixpkgs.changedetection-io.aarch64-linux</li>
@@ -78758,7 +78759,6 @@ Built for evals:
 <li>nixos.tests.allDrivers.custom-ca.qutebrowser.aarch64-linux</li>
 <li>nixos.tests.allDrivers.custom-ca.qutebrowser.x86_64-linux</li>
 <li>nixos.tests.allDrivers.tandoor-recipes.x86_64-linux</li>
-<li>nixos.tests.custom-ca.qutebrowser.x86_64-linux</li>
 <li>nixos.tests.mealie.x86_64-linux</li>
 </ul>
 </details>
@@ -79115,12 +79115,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/301089584'>x86_64-linux deepin-icon-theme-2024.07.31</a></tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/301089586'>aarch64-linux deepin-icon-theme-2024.07.31</a></tt></summary>
 <ul>
+<li>nixos.closures.deepin.aarch64-linux</li>
 <li>nixos.closures.deepin.x86_64-linux</li>
 <li>nixpkgs.deepin.deepin-desktop-theme.aarch64-linux</li>
 <li>nixpkgs.deepin.deepin-desktop-theme.x86_64-linux</li>
-<li>nixos.closures.deepin.aarch64-linux</li>
 <li>nixos.tests.allDrivers.deepin.aarch64-linux</li>
 <li>nixos.tests.deepin.x86_64-linux</li>
 </ul>
@@ -79130,13 +79130,13 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/300374893'>aarch64-linux libreswan-5.2</a></tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/300374890'>x86_64-linux libreswan-5.2</a></tt></summary>
 <ul>
+<li>nixos.tests.allDrivers.libreswan.x86_64-linux</li>
 <li>nixos.tests.libreswan.aarch64-linux</li>
 <li>nixpkgs.hash-slinger.aarch64-linux</li>
 <li>nixpkgs.hash-slinger.x86_64-linux</li>
 <li>nixos.tests.allDrivers.libreswan-nat.x86_64-linux</li>
-<li>nixos.tests.allDrivers.libreswan.x86_64-linux</li>
 <li>nixos.tests.libreswan-nat.aarch64-linux</li>
 </ul>
 </details>
@@ -79644,6 +79644,17 @@ Built for evals:
 <ul>
 <li>nixos.tests.password-option-override-ordering.aarch64-linux</li>
 <li>nixos.tests.password-option-override-ordering.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/300504126'>aarch64-linux quorum-24.4.1</a></tt></summary>
+<ul>
+<li>nixos.tests.quorum.aarch64-linux</li>
+<li>nixos.tests.allDrivers.quorum.aarch64-linux</li>
 </ul>
 </details>
 </td>
@@ -80597,17 +80608,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/300504126'>aarch64-linux quorum-24.4.1</a></tt></summary>
-<ul>
-<li>nixos.tests.allDrivers.quorum.aarch64-linux</li>
-<li>nixos.tests.quorum.aarch64-linux</li>
-</ul>
-</details>
-</td>
-<td>2</td>
-</tr>
-<tr>
-<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/300397972'>aarch64-linux mqtt-exporter-1.7.0</a></tt></summary>
 <ul>
 <li>nixos.tests.allDrivers.prometheus-exporters.mqtt.aarch64-linux</li>
@@ -80631,6 +80631,16 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/300724930'>x86_64-linux netbox-4.1.11</a></tt></summary>
 <ul>
 <li>nixos.tests.netbox-upgrade.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/300555413'>aarch64-linux nginx-1.27.5</a></tt></summary>
+<ul>
+<li>nixos.tests.rustls-libssl.aarch64-linux</li>
 </ul>
 </details>
 </td>
@@ -80911,16 +80921,6 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/300477434'>x86_64-linux python3.13-graphite-web-1.1.10-unstable-2025-02-24</a></tt></summary>
 <ul>
 <li>nixos.tests.graphite.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/300555413'>aarch64-linux nginx-1.27.5</a></tt></summary>
-<ul>
-<li>nixos.tests.rustls-libssl.aarch64-linux</li>
 </ul>
 </details>
 </td>
