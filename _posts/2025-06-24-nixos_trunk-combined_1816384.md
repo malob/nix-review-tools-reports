@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2025-06-25 08:11:11 UTC*
+*Report built at 2025-06-25 09:13:25 UTC*
 
 Built for evals:
 
@@ -78511,6 +78511,7 @@ Built for evals:
 <td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/300377916'>x86_64-linux linux-5.10.238</a></tt></summary>
 <ul>
+<li>nixos.tests.allDrivers.kernel-generic.linux_5_10.x86_64-linux</li>
 <li>nixos.tests.lvm2.lvm-thinpool-sd-stage-1-linux-5_10.x86_64-linux</li>
 <li>nixpkgs.linuxKernel.packages.linux_5_10.acpi_call.x86_64-linux</li>
 <li>nixpkgs.linuxKernel.packages.linux_5_10.ajantv2.x86_64-linux</li>
@@ -78621,7 +78622,6 @@ Built for evals:
 <li>nixpkgs.linuxKernel.packages.linux_5_10.zfs_2_2.x86_64-linux</li>
 <li>nixpkgs.linuxKernel.packages.linux_5_10.zfs_2_3.x86_64-linux</li>
 <li>nixpkgs.linuxKernel.packages.linux_5_10.zfs_unstable.x86_64-linux</li>
-<li>nixos.tests.allDrivers.kernel-generic.linux_5_10.x86_64-linux</li>
 </ul>
 </details>
 </td>
@@ -78713,8 +78713,11 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/300481504'>x86_64-linux python3.13-lxml-html-clean-0.4.2</a></tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/301099527'>aarch64-linux python3.13-lxml-html-clean-0.4.2</a></tt></summary>
 <ul>
+<li>nixos.tests.allDrivers.custom-ca.qutebrowser.aarch64-linux</li>
+<li>nixos.tests.allDrivers.custom-ca.qutebrowser.x86_64-linux</li>
+<li>nixos.tests.allDrivers.tandoor-recipes.x86_64-linux</li>
 <li>nixos.tests.custom-ca.qutebrowser.x86_64-linux</li>
 <li>nixpkgs.archivy.aarch64-linux</li>
 <li>nixpkgs.archivy.x86_64-linux</li>
@@ -78756,9 +78759,6 @@ Built for evals:
 <li>nixpkgs.qutebrowser.x86_64-linux</li>
 <li>nixpkgs.tandoor-recipes.aarch64-linux</li>
 <li>nixpkgs.tandoor-recipes.x86_64-linux</li>
-<li>nixos.tests.allDrivers.custom-ca.qutebrowser.aarch64-linux</li>
-<li>nixos.tests.allDrivers.custom-ca.qutebrowser.x86_64-linux</li>
-<li>nixos.tests.allDrivers.tandoor-recipes.x86_64-linux</li>
 <li>nixos.tests.mealie.x86_64-linux</li>
 </ul>
 </details>
@@ -79008,11 +79008,11 @@ Built for evals:
 <li>nixpkgs.python312Packages.gymnasium.aarch64-linux</li>
 <li>nixpkgs.python312Packages.numpyro.aarch64-linux</li>
 <li>nixpkgs.python312Packages.pettingzoo.aarch64-linux</li>
+<li>nixpkgs.python312Packages.shimmy.aarch64-linux</li>
 <li>nixpkgs.python312Packages.skrl.aarch64-linux</li>
 <li>nixpkgs.python312Packages.stable-baselines3.aarch64-linux</li>
 <li>nixpkgs.python312Packages.tyro.aarch64-linux</li>
 <li>nixpkgs.python312Packages.waymax.aarch64-linux</li>
-<li>nixpkgs.python312Packages.shimmy.aarch64-linux</li>
 </ul>
 </details>
 </td>
@@ -79119,10 +79119,10 @@ Built for evals:
 <ul>
 <li>nixos.closures.deepin.aarch64-linux</li>
 <li>nixos.closures.deepin.x86_64-linux</li>
-<li>nixpkgs.deepin.deepin-desktop-theme.aarch64-linux</li>
-<li>nixpkgs.deepin.deepin-desktop-theme.x86_64-linux</li>
 <li>nixos.tests.allDrivers.deepin.aarch64-linux</li>
 <li>nixos.tests.deepin.x86_64-linux</li>
+<li>nixpkgs.deepin.deepin-desktop-theme.aarch64-linux</li>
+<li>nixpkgs.deepin.deepin-desktop-theme.x86_64-linux</li>
 </ul>
 </details>
 </td>
@@ -79132,11 +79132,11 @@ Built for evals:
 <td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/300374890'>x86_64-linux libreswan-5.2</a></tt></summary>
 <ul>
+<li>nixos.tests.allDrivers.libreswan-nat.x86_64-linux</li>
 <li>nixos.tests.allDrivers.libreswan.x86_64-linux</li>
 <li>nixos.tests.libreswan.aarch64-linux</li>
 <li>nixpkgs.hash-slinger.aarch64-linux</li>
 <li>nixpkgs.hash-slinger.x86_64-linux</li>
-<li>nixos.tests.allDrivers.libreswan-nat.x86_64-linux</li>
 <li>nixos.tests.libreswan-nat.aarch64-linux</li>
 </ul>
 </details>
@@ -79266,9 +79266,9 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/300428197'>x86_64-linux powerdns-admin-assets-0.4.2</a></tt></summary>
 <ul>
 <li>nixos.tests.allDrivers.powerdns-admin.postgresql.x86_64-linux</li>
+<li>nixos.tests.powerdns-admin.postgresql.x86_64-linux</li>
 <li>nixpkgs.powerdns-admin.aarch64-linux</li>
 <li>nixpkgs.powerdns-admin.x86_64-linux</li>
-<li>nixos.tests.powerdns-admin.postgresql.x86_64-linux</li>
 </ul>
 </details>
 </td>
@@ -79523,6 +79523,18 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/300377840'>aarch64-linux linux-config-5.15.183-rt85</a></tt></summary>
+<ul>
+<li>nixos.tests.allDrivers.kernel-generic.linux_rt_5_15.aarch64-linux</li>
+<li>nixpkgs.linux-rt.aarch64-linux</li>
+<li>nixpkgs.linuxKernel.kernels.linux_rt_5_15.aarch64-linux</li>
+</ul>
+</details>
+</td>
+<td>3</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt>aarch64-linux nixos-disk-image</tt></summary>
 <ul>
 <li>nixos.tests.allDrivers.qemu-vm-external-disk-image.aarch64-linux</li>
@@ -79564,18 +79576,6 @@ Built for evals:
 <li>nixpkgs.home-assistant-component-tests.tplink.aarch64-linux</li>
 <li>nixpkgs.python313Packages.pytapo.aarch64-linux</li>
 <li>nixpkgs.python313Packages.pytapo.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>3</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/299997274'>aarch64-linux linux-config-5.15.183-rt85</a></tt></summary>
-<ul>
-<li>nixpkgs.linux-rt.aarch64-linux</li>
-<li>nixpkgs.linuxKernel.kernels.linux_rt_5_15.aarch64-linux</li>
-<li>nixos.tests.allDrivers.kernel-generic.linux_rt_5_15.aarch64-linux</li>
 </ul>
 </details>
 </td>
@@ -79633,6 +79633,17 @@ Built for evals:
 <ul>
 <li>nixos.tests.allDrivers.kernel-generic.linux_rt_5_4.x86_64-linux</li>
 <li>nixos.tests.kernel-generic.linux_rt_5_4.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/300377836'>aarch64-linux linux-config-5.10.237-rt131</a></tt></summary>
+<ul>
+<li>nixos.tests.kernel-generic.linux_rt_5_10.aarch64-linux</li>
+<li>nixpkgs.linuxKernel.kernels.linux_rt_5_10.aarch64-linux</li>
 </ul>
 </details>
 </td>
@@ -79886,17 +79897,6 @@ Built for evals:
 <ul>
 <li>nixpkgs.linphone.aarch64-linux</li>
 <li>nixpkgs.linphone.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>2</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/299997277'>aarch64-linux linux-config-5.10.237-rt131</a></tt></summary>
-<ul>
-<li>nixpkgs.linuxKernel.kernels.linux_rt_5_10.aarch64-linux</li>
-<li>nixos.tests.kernel-generic.linux_rt_5_10.aarch64-linux</li>
 </ul>
 </details>
 </td>
@@ -80628,6 +80628,16 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/301062973'>x86_64-linux nginx-1.28.0</a></tt></summary>
+<ul>
+<li>nixos.tests.frigate.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/300724930'>x86_64-linux netbox-4.1.11</a></tt></summary>
 <ul>
 <li>nixos.tests.netbox-upgrade.x86_64-linux</li>
@@ -80641,6 +80651,16 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/300555413'>aarch64-linux nginx-1.27.5</a></tt></summary>
 <ul>
 <li>nixos.tests.rustls-libssl.aarch64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/300547098'>aarch64-linux waagent-2.14.0.0</a></tt></summary>
+<ul>
+<li>nixos.tests.waagent.aarch64-linux</li>
 </ul>
 </details>
 </td>
@@ -80908,29 +80928,9 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/301062973'>x86_64-linux nginx-1.28.0</a></tt></summary>
-<ul>
-<li>nixos.tests.frigate.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/300477434'>x86_64-linux python3.13-graphite-web-1.1.10-unstable-2025-02-24</a></tt></summary>
 <ul>
 <li>nixos.tests.graphite.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/300547098'>aarch64-linux waagent-2.14.0.0</a></tt></summary>
-<ul>
-<li>nixos.tests.waagent.aarch64-linux</li>
 </ul>
 </details>
 </td>
