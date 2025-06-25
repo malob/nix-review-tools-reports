@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2025-06-25 06:10:42 UTC*
+*Report built at 2025-06-25 07:11:20 UTC*
 
 Built for evals:
 
@@ -14928,7 +14928,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>1440 issues</summary>
+<details><summary>1441 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -20909,6 +20909,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/301176162'>nixos.tests.seatd.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/301176194'>nixos.tests.sfxr-qt.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -26937,7 +26943,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>7334 issues</summary>
+<details><summary>7331 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -33002,13 +33008,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/301171550'>nixos.tests.allDrivers.libreswan.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/301171545'>nixos.tests.allDrivers.librewolf.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
@@ -56024,13 +56023,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/301176194'>nixos.tests.sfxr-qt.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/301176196'>nixos.tests.sgt-puzzles.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -77822,13 +77814,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/300737650'>nixpkgs.telegram-desktop.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/301180288'>nixpkgs.terranix.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -79145,6 +79130,21 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/300374893'>aarch64-linux libreswan-5.2</a></tt></summary>
+<ul>
+<li>nixos.tests.libreswan.aarch64-linux</li>
+<li>nixpkgs.hash-slinger.aarch64-linux</li>
+<li>nixpkgs.hash-slinger.x86_64-linux</li>
+<li>nixos.tests.allDrivers.libreswan-nat.x86_64-linux</li>
+<li>nixos.tests.allDrivers.libreswan.x86_64-linux</li>
+<li>nixos.tests.libreswan-nat.aarch64-linux</li>
+</ul>
+</details>
+</td>
+<td>6</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/300403056'>aarch64-linux python3.11-lxml-html-clean-0.4.2</a></tt></summary>
 <ul>
 <li>nixos.tests.odoo16.aarch64-linux</li>
@@ -79153,21 +79153,6 @@ Built for evals:
 <li>nixpkgs.odoo16.x86_64-linux</li>
 <li>nixpkgs.odoo17.aarch64-linux</li>
 <li>nixpkgs.odoo17.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>6</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/299994772'>aarch64-linux libreswan-5.2</a></tt></summary>
-<ul>
-<li>nixpkgs.hash-slinger.aarch64-linux</li>
-<li>nixpkgs.hash-slinger.x86_64-linux</li>
-<li>nixos.tests.allDrivers.libreswan-nat.x86_64-linux</li>
-<li>nixos.tests.allDrivers.libreswan.x86_64-linux</li>
-<li>nixos.tests.libreswan-nat.aarch64-linux</li>
-<li>nixos.tests.libreswan.aarch64-linux</li>
 </ul>
 </details>
 </td>
