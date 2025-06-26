@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.05-darwin
 ---
 # Evals report
 
-*Report built at 2025-06-26 22:10:39 UTC*
+*Report built at 2025-06-26 23:09:34 UTC*
 
 Built for evals:
 
@@ -11973,7 +11973,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1166 issues</summary>
+<details><summary>1167 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -12071,6 +12071,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>python3.12-gst-python-1.26.0</tt> <br /> <a href='https://hydra.nixos.org/build/300128512/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/300128512/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/300128512/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/300113568'>build 300113568</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/301243002'>beetsPackages.audible.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.12-gst-python-1.26.0</tt> <br /> <a href='https://hydra.nixos.org/build/301243002/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/301243002/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/301243002/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/300113568'>build 300113568</a>
 </li>
 </ul>
 </details>
@@ -21803,7 +21817,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>184 issues</summary>
+<details><summary>181 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -21823,13 +21837,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/301242988'>apkeditor.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -21914,13 +21921,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/301243002'>beetsPackages.audible.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -22673,13 +22673,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/301243118'>pnpm.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/301243124'>pop-wallpapers.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -23388,6 +23381,7 @@ Built for evals:
 <li>beets.x86_64-darwin</li>
 <li>beetsPackages.alternatives.aarch64-darwin</li>
 <li>beetsPackages.alternatives.x86_64-darwin</li>
+<li>beetsPackages.audible.aarch64-darwin</li>
 <li>beetsPackages.beets-minimal.aarch64-darwin</li>
 <li>beetsPackages.beets-minimal.x86_64-darwin</li>
 <li>beetsPackages.beets-stable.aarch64-darwin</li>
@@ -23403,7 +23397,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>18</td>
+<td>19</td>
 </tr>
 <tr>
 <td>
