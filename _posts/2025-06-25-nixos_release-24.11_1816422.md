@@ -1,10 +1,10 @@
 ---
-title: nixos:release-24.11 1816422
+title: nixos:release-24.11 1816422 (succeeded)
 categories: nixos:release-24.11
 ---
 # Evals report
 
-*Report built at 2025-06-26 22:11:35 UTC*
+*Report built at 2025-06-27 03:33:18 UTC*
 
 Built for evals:
 
@@ -11685,7 +11685,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>1198 issues</summary>
+<details><summary>1201 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -20806,6 +20806,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/301210413'>nixos.tests.allDrivers.firefox-beta.aarch64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/301210409'>nixos.tests.allDrivers.firefox-devedition.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -20914,6 +20920,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/301213502'>nixos.tests.firefox-beta.aarch64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/301213506'>nixos.tests.firefox-devedition.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -21010,6 +21022,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/301193878'>nixpkgs.firefox-beta-unwrapped.aarch64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/301193880'>nixpkgs.firefox-devedition-unwrapped.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -21079,41 +21097,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/301194123'>nixpkgs.thunderbirdPackages.thunderbird-latest.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>3 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/301210413'>nixos.tests.allDrivers.firefox-beta.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/301213502'>nixos.tests.firefox-beta.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/301193878'>nixpkgs.firefox-beta-unwrapped.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 </table>
 </details>
