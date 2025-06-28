@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.05-darwin
 ---
 # Evals report
 
-*Report built at 2025-06-28 14:08:46 UTC*
+*Report built at 2025-06-28 15:08:57 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1376 issues</summary>
+<details><summary>1377 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -6338,6 +6338,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>gnat-13.3.0</tt> <br /> <a href='https://hydra.nixos.org/build/297780795/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/297780795/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/297780795/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/297291182'>build 297291182</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/301243187'>zipline.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>nodejs-24.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/301243187/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/301243187/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/301243187/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/298159900'>build 298159900</a>
 </li>
 </ul>
 </details>
@@ -21693,7 +21707,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>505 issues</summary>
+<details><summary>502 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -23907,13 +23921,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/301279750'>python312Packages.llama-index-graph-stores-neo4j.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/301279723'>python312Packages.llama-index-graph-stores-neo4j.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -25034,13 +25041,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/301279884'>why3.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/301267880'>wireshark-qt.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -25227,13 +25227,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/301243187'>zipline.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 </table>
 </details>
@@ -26036,6 +26029,20 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/298159900'>x86_64-darwin nodejs-24.1.0</a></tt></summary>
+<ul>
+<li>corepack_24.x86_64-darwin</li>
+<li>corepack_latest.x86_64-darwin</li>
+<li>devmode.x86_64-darwin</li>
+<li>tailwindcss-language-server.x86_64-darwin</li>
+<li>zipline.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>5</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/297434457'>x86_64-darwin python3.13-curio-compat-1.6.7</a></tt></summary>
 <ul>
 <li>python313Packages.getjump.x86_64-darwin</li>
@@ -26056,19 +26063,6 @@ Built for evals:
 <li>controku.x86_64-darwin</li>
 <li>python312Packages.controku.aarch64-darwin</li>
 <li>python312Packages.controku.x86_64-darwin</li>
-</ul>
-</details>
-</td>
-<td>4</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/298159900'>x86_64-darwin nodejs-24.1.0</a></tt></summary>
-<ul>
-<li>corepack_24.x86_64-darwin</li>
-<li>corepack_latest.x86_64-darwin</li>
-<li>devmode.x86_64-darwin</li>
-<li>tailwindcss-language-server.x86_64-darwin</li>
 </ul>
 </details>
 </td>
