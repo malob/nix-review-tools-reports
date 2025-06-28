@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.05-darwin
 ---
 # Evals report
 
-*Report built at 2025-06-28 21:09:07 UTC*
+*Report built at 2025-06-28 22:09:18 UTC*
 
 Built for evals:
 
@@ -11879,7 +11879,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1156 issues</summary>
+<details><summary>1157 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -13831,6 +13831,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>octave-10.1.0-geometry-unstable-2021-07-07</tt> <br /> <a href='https://hydra.nixos.org/build/299283039/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/299283039/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/299283039/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/297365702'>build 297365702</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/301279666'>opam-publish.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>ocaml5.3.0-mirage-crypto-rng-1.2.0</tt> <br /> <a href='https://hydra.nixos.org/build/301279666/nixlog/7'>log</a>, <a href='https://hydra.nixos.org/build/301279666/nixlog/7/raw'>raw</a>, <a href='https://hydra.nixos.org/build/301279666/nixlog/7/tail'>tail</a>
 </li>
 </ul>
 </details>
@@ -21641,7 +21655,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>525 issues</summary>
+<details><summary>521 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -21654,13 +21668,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/301279500'>acgtk.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -21850,13 +21857,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/301279524'>beam27Packages.elixir-ls.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -23519,13 +23519,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/301279666'>opam-publish.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/301279667'>opam-publish.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -24601,13 +24594,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/301279836'>python313Packages.yark.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -27705,6 +27691,16 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/297354388'>x86_64-darwin x86_64-apple-darwin-rustc-1.86.0</a></tt></summary>
 <ul>
 <li>lixStatic.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>aarch64-darwin ocaml5.3.0-mirage-crypto-rng-1.2.0</tt></summary>
+<ul>
+<li>opam-publish.aarch64-darwin</li>
 </ul>
 </details>
 </td>
