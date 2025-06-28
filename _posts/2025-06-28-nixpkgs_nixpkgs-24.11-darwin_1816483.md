@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-06-28 09:08:22 UTC*
+*Report built at 2025-06-28 10:08:59 UTC*
 
 Built for evals:
 
@@ -23763,7 +23763,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>200 issues</summary>
+<details><summary>196 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -23934,13 +23934,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/301272158'>haskellPackages.nvfetcher.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/301272159'>haskellPackages.update-nix-fetchgit.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -24899,13 +24892,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/301272327'>rubyPackages_3_4.actionmailbox.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/301272318'>rubyPackages_3_4.actionmailer.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -24928,13 +24914,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/301272321'>rubyPackages_3_4.actiontext.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/301272322'>rubyPackages_3_4.activestorage.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -25064,13 +25043,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/301280931'>tarball</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
