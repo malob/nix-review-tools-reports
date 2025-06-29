@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-24.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-06-29 12:09:51 UTC*
+*Report built at 2025-06-29 13:15:21 UTC*
 
 Built for evals:
 
@@ -23763,7 +23763,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>116 issues</summary>
+<details><summary>115 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -24046,13 +24046,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/301272200'>rubyPackages.actioncable.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/301272197'>rubyPackages.actionmailer.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
