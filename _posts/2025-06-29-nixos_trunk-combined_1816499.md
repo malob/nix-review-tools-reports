@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2025-06-29 19:09:34 UTC*
+*Report built at 2025-06-29 20:09:43 UTC*
 
 Built for evals:
 
@@ -9354,7 +9354,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>1053 issues</summary>
+<details><summary>1054 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -14758,6 +14758,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/301338697'>nixpkgs.linuxKernel.packages.linux_latest_libre.rtl8188eus-aircrack.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/301338748'>nixpkgs.linuxKernel.packages.linux_latest_libre.tsme-test.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -17781,7 +17787,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>14229 issues</summary>
+<details><summary>14223 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -25473,13 +25479,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/301328256'>nixos.tests.allDrivers.lomiri-music-app.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -35122,13 +35121,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/301330145'>nixos.tests.allDrivers.wpa_supplicant.saeOnly.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/301330146'>nixos.tests.allDrivers.wpa_supplicant.saeOnly.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -44716,13 +44708,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/301331795'>nixos.tests.mysql-autobackup.mariadb_106.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -82134,13 +82119,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/301338167'>nixpkgs.linuxKernel.packages.linux_6_15.mm-tools.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/301338169'>nixpkgs.linuxKernel.packages.linux_6_15.mm-tools.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -85218,13 +85196,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/301338697'>nixpkgs.linuxKernel.packages.linux_latest_libre.rtl8188eus-aircrack.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -98312,13 +98283,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/301340985'>nixpkgs.lomiri.lomiri-content-hub.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/301340971'>nixpkgs.lomiri.lomiri-docviewer-app.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
