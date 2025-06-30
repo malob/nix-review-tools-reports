@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.05-darwin
 ---
 # Evals report
 
-*Report built at 2025-06-30 07:10:16 UTC*
+*Report built at 2025-06-30 08:09:59 UTC*
 
 Built for evals:
 
@@ -21833,7 +21833,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>58 issues</summary>
+<details><summary>56 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -21926,13 +21926,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/301345338'>homepage-dashboard.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/301345341'>kodiPackages.sendtokodi.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -21965,13 +21958,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/301354553'>manual</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
