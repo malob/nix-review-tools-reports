@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:nixpkgs-25.05-darwin 1816567
+title: nixpkgs:nixpkgs-25.05-darwin 1816567 (succeeded)
 categories: nixpkgs:nixpkgs-25.05-darwin
 ---
 # Evals report
 
-*Report built at 2025-07-01 20:09:16 UTC*
+*Report built at 2025-07-01 21:09:22 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1355 issues</summary>
+<details><summary>1356 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -606,6 +606,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>ghc-8.10.7</tt> <br /> <a href='https://hydra.nixos.org/build/297681856/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/297681856/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/297681856/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/297296333'>build 297296333</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/301391255'>elmPackages.elm-format.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>ghc-9.4.8</tt> <br /> <a href='https://hydra.nixos.org/build/301391255/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/301391255/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/301391255/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/301391261'>build 301391261</a>
 </li>
 </ul>
 </details>
@@ -21051,41 +21065,6 @@ Built for evals:
 </table>
 </details>
 
-
-### Still queued
-
-
-<details><summary>3 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/301391270'>darwin-tested</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/301370233'>dmarc-metrics-exporter.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/301391255'>elmPackages.elm-format.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-</table>
-</details>
-
 ## Problematic dependencies
 
 <table>
@@ -21845,6 +21824,19 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/301391258'>aarch64-darwin ghc-9.4.8</a></tt></summary>
+<ul>
+<li>elmPackages.elm-format.aarch64-darwin</li>
+<li>elmPackages.elm-format.x86_64-darwin</li>
+<li>haskell.packages.ghc94.haskell-language-server.aarch64-darwin</li>
+<li>haskell.packages.ghc94.haskell-language-server.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>4</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/297338737'>aarch64-darwin libportal-gtk3-0.9.1</a></tt></summary>
 <ul>
 <li>eog.aarch64-darwin</li>
@@ -22209,18 +22201,6 @@ Built for evals:
 <li>deskew.x86_64-darwin</li>
 <li>diffoscope.x86_64-darwin</li>
 <li>xidel.x86_64-darwin</li>
-</ul>
-</details>
-</td>
-<td>3</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/301391258'>aarch64-darwin ghc-9.4.8</a></tt></summary>
-<ul>
-<li>elmPackages.elm-format.aarch64-darwin</li>
-<li>haskell.packages.ghc94.haskell-language-server.aarch64-darwin</li>
-<li>haskell.packages.ghc94.haskell-language-server.x86_64-darwin</li>
 </ul>
 </details>
 </td>
