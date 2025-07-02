@@ -1,10 +1,10 @@
 ---
-title: nixos:trunk-combined 1816581
+title: nixos:trunk-combined 1816581 (succeeded)
 categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2025-07-02 16:10:22 UTC*
+*Report built at 2025-07-02 17:10:30 UTC*
 
 Built for evals:
 
@@ -78319,6 +78319,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/301229207'>nixpkgs.nodejs_latest.aarch64-linux</a></tt>
+</td>
+<td>Cancelled</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/301557355'>nixpkgs.nodezator.aarch64-linux</a></tt>
 </td>
 <td>Cancelled</td>
@@ -93360,12 +93366,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/301229204'>nixpkgs.nodejs_24.aarch64-linux</a></tt>
-</td>
-<td>Failed</td>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/301229207'>nixpkgs.nodejs_latest.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
