@@ -1,10 +1,10 @@
 ---
-title: nixos:trunk-combined 1816632
+title: nixos:trunk-combined 1816632 (succeeded)
 categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2025-07-04 12:11:52 UTC*
+*Report built at 2025-07-04 13:18:59 UTC*
 
 Built for evals:
 
@@ -51561,7 +51561,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>7771 issues</summary>
+<details><summary>7772 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -92028,6 +92028,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/301736418'>nixos.tests.gitlab.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>redis-8.0.2</tt> <br /> <a href='https://hydra.nixos.org/build/301736418/nixlog/5'>log</a>, <a href='https://hydra.nixos.org/build/301736418/nixlog/5/raw'>raw</a>, <a href='https://hydra.nixos.org/build/301736418/nixlog/5/tail'>tail</a>, <a href='https://hydra.nixos.org/build/301394579'>build 301394579</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/301737162'>nixos.tests.lvm2.lvm-raid-sd-stage-1-linux-5_4.aarch64-linux</a></tt>
 </summary>
 <ul>
@@ -100572,27 +100586,6 @@ Built for evals:
 </table>
 </details>
 
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/301736418'>nixos.tests.gitlab.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-</table>
-</details>
-
 ## Problematic dependencies
 
 <table>
@@ -100742,6 +100735,7 @@ Built for evals:
 <li>nixos.tests.allDrivers.pretalx.aarch64-linux</li>
 <li>nixos.tests.allDrivers.zammad.aarch64-linux</li>
 <li>nixos.tests.db-rest.aarch64-linux</li>
+<li>nixos.tests.gitlab.aarch64-linux</li>
 <li>nixos.tests.oci-containers.podman-rootless-conmon.aarch64-linux</li>
 <li>nixos.tests.oci-containers.podman-rootless-healthy.aarch64-linux</li>
 <li>nixos.tests.outline.aarch64-linux</li>
@@ -100753,7 +100747,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>14</td>
+<td>15</td>
 </tr>
 <tr>
 <td>
