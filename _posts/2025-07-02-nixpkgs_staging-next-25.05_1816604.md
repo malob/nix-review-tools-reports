@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next-25.05
 ---
 # Evals report
 
-*Report built at 2025-07-04 22:09:57 UTC*
+*Report built at 2025-07-04 23:10:04 UTC*
 
 Built for evals:
 
@@ -33172,7 +33172,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>546 issues</summary>
+<details><summary>548 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -39146,7 +39146,19 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/301301816'>python313Packages.lancedb.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/300927014'>python313Packages.nfcpy.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/301302489'>python313Packages.pylance.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -39157,7 +39169,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>1342 issues</summary>
+<details><summary>1340 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -45984,13 +45996,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/301301816'>python313Packages.lancedb.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/300923094'>python313Packages.libsavitar.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -46335,13 +46340,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/301149755'>python313Packages.pyinfra.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/301302489'>python313Packages.pylance.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
