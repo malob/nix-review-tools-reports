@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next-25.05
 ---
 # Evals report
 
-*Report built at 2025-07-04 20:11:00 UTC*
+*Report built at 2025-07-04 21:09:25 UTC*
 
 Built for evals:
 
@@ -15424,7 +15424,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>695 issues</summary>
+<details><summary>697 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -21767,6 +21767,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/300961705'>smlfut.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>mlkit-4.7.14</tt> <br /> <a href='https://hydra.nixos.org/build/300961705/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/300961705/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/300961705/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/300840546'>build 300840546</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/300962440'>spacecookie.x86_64-darwin</a></tt>
 </summary>
 <ul>
@@ -22593,6 +22607,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/301128121'>mitmproxy.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/300840546'>mlkit.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -39083,7 +39103,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>1353 issues</summary>
+<details><summary>1351 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -43251,13 +43271,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/300840358'>misskey.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/300840546'>mlkit.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -47461,13 +47474,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/300961705'>smlfut.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -51901,6 +51907,17 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/300840563'>aarch64-darwin mlkit-4.7.14</a></tt></summary>
+<ul>
+<li>smlfut.aarch64-darwin</li>
+<li>smlfut.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/301028062'>aarch64-darwin linkchecker-10.2.1</a></tt></summary>
 <ul>
 <li>styx.aarch64-darwin</li>
@@ -52333,16 +52350,6 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/301304636'>aarch64-darwin python3.13-xformers-0.0.28.post3</a></tt></summary>
 <ul>
 <li>python313Packages.vllm.aarch64-darwin</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/300840563'>aarch64-darwin mlkit-4.7.14</a></tt></summary>
-<ul>
-<li>smlfut.aarch64-darwin</li>
 </ul>
 </details>
 </td>
