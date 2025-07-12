@@ -4,7 +4,7 @@ categories: nixos:release-25.05
 ---
 # Evals report
 
-*Report built at 2025-07-12 19:09:37 UTC*
+*Report built at 2025-07-12 20:09:37 UTC*
 
 Built for evals:
 
@@ -31737,7 +31737,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>746 issues</summary>
+<details><summary>744 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -35120,13 +35120,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/302345542'>nixpkgs.dotnetCorePackages.sdk_9_0_1xx-bin.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/302345528'>nixpkgs.dotnetCorePackages.sdk_9_0_1xx.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -35425,13 +35418,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/302345620'>nixpkgs.godot_4_3-mono.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
