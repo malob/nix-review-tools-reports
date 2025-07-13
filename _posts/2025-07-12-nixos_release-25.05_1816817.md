@@ -4,7 +4,7 @@ categories: nixos:release-25.05
 ---
 # Evals report
 
-*Report built at 2025-07-13 06:09:38 UTC*
+*Report built at 2025-07-13 07:10:19 UTC*
 
 Built for evals:
 
@@ -31793,7 +31793,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>561 issues</summary>
+<details><summary>560 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -35121,13 +35121,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/302345778'>nixpkgs.recyclarr.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/302345777'>nixpkgs.release-checks</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
