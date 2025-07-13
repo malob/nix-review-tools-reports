@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-07-13 11:04:47 UTC*
+*Report built at 2025-07-13 12:06:12 UTC*
 
 Built for evals:
 
@@ -413,7 +413,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>3546 issues</summary>
+<details><summary>3544 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -626,13 +626,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/302292444'>haskell.compiler.ghc984.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/302292452'>haskell.compiler.ghcHEAD.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -24804,13 +24797,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/302300194'>pkgsCross.ghcjs.haskell.packages.ghc98.hello.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/302300198'>pkgsCross.ghcjs.haskell.packages.ghcHEAD.hello.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
