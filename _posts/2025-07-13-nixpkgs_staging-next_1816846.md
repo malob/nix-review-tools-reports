@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:staging-next 1816846
+title: nixpkgs:staging-next 1816846 (succeeded)
 categories: nixpkgs:staging-next
 ---
 # Evals report
 
-*Report built at 2025-07-14 01:01:39 UTC*
+*Report built at 2025-07-14 02:40:17 UTC*
 
 Built for evals:
 
@@ -66492,7 +66492,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1542 issues</summary>
+<details><summary>1543 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -82074,6 +82074,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/302343607'>python313Packages.torcheval.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/301958277'>python313Packages.transforms3d.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -83207,20 +83213,13 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>2 issues</summary>
+<details><summary>1 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/302343607'>python313Packages.torcheval.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/302343569'>python313Packages.torcheval.x86_64-darwin</a></tt>
