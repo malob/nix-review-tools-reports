@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.05-darwin
 ---
 # Evals report
 
-*Report built at 2025-07-15 04:21:06 UTC*
+*Report built at 2025-07-15 05:12:50 UTC*
 
 Built for evals:
 
@@ -11905,7 +11905,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1163 issues</summary>
+<details><summary>1164 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -16239,6 +16239,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>tesseract-3.05.02</tt> <br /> <a href='https://hydra.nixos.org/build/301713315/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/301713315/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/301713315/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/300985993'>build 300985993</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/302783820'>tests.cc-wrapper.llvmTests.llvmPackages_git.libcxx.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>libcxx-21.0.0-unstable-2025-07-13</tt> <br /> <a href='https://hydra.nixos.org/build/302783820/nixlog/16'>log</a>, <a href='https://hydra.nixos.org/build/302783820/nixlog/16/raw'>raw</a>, <a href='https://hydra.nixos.org/build/302783820/nixlog/16/tail'>tail</a>
 </li>
 </ul>
 </details>
@@ -21552,7 +21566,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>87 issues</summary>
+<details><summary>79 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -21708,13 +21722,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/302783698'>neohtop.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/302783702'>nixpkgs-manual.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -21729,13 +21736,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/302783705'>python312Packages.fastai.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/302783706'>python312Packages.fastai.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -21747,13 +21747,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/302783707'>python312Packages.k-diffusion.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -21796,13 +21789,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/302783716'>python312Packages.llama-index-embeddings-ollama.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -21852,13 +21838,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/302783725'>python312Packages.llama-index-llms-ollama.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -21915,13 +21894,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/302783759'>python312Packages.llama-index-readers-weather.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -22065,13 +22037,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/302783803'>python313Packages.skrl.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/302783808'>python313Packages.spacy-loggers.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -22146,13 +22111,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/302783820'>tests.cc-wrapper.llvmTests.llvmPackages_git.libcxx.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -24381,6 +24339,16 @@ Built for evals:
 </details>
 </td>
 <td>2</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>aarch64-darwin libcxx-21.0.0-unstable-2025-07-13</tt></summary>
+<ul>
+<li>tests.cc-wrapper.llvmTests.llvmPackages_git.libcxx.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
 </tr>
 <tr>
 <td>
