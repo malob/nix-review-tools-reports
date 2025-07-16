@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-07-16 19:07:18 UTC*
+*Report built at 2025-07-16 20:06:17 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>31 issues</summary>
+<details><summary>28 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -136,20 +136,6 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
-<tt><a href='https://hydra.nixos.org/build/302803420'>haskellPackages.happstack-server.x86_64-linux</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Failed</b> <tt>threads-0.5.1.8</tt> <br /> <a href='https://hydra.nixos.org/build/302803420/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/302803420/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/302803420/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/302806850'>build 302806850</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
-<details><summary>
 <tt><a href='https://hydra.nixos.org/build/302804448'>haskellPackages.llvm-dsl.x86_64-linux</a></tt>
 </summary>
 <ul>
@@ -169,20 +155,6 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>pms-domain-model-0.0.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/302805412/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/302805412/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/302805412/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/302805399'>build 302805399</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/302807654'>naproche.x86_64-linux</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Cached failure</b> <tt>threads-0.5.1.8</tt> <br /> <a href='https://hydra.nixos.org/build/302807654/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/302807654/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/302807654/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/302806850'>build 302806850</a>
 </li>
 </ul>
 </details>
@@ -382,12 +354,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/302806850'>haskellPackages.threads.x86_64-linux</a></tt>
-</td>
-<td>Failed</td>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/302807622'>haskellPackages.zippers.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -411,7 +377,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>5377 issues</summary>
+<details><summary>5380 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -17878,6 +17844,13 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/302803419'>haskellPackages.happstack-fastcgi.x86_64-linux</a></tt>
+</td>
+<td>Queued</td>
+<th>x86_64-linux</th>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/302803423'>haskellPackages.happstack-jmacro.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -17886,6 +17859,13 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/302803421'>haskellPackages.happstack-server-tls.x86_64-linux</a></tt>
+</td>
+<td>Queued</td>
+<th>x86_64-linux</th>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/302803420'>haskellPackages.happstack-server.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -33586,6 +33566,13 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/302806850'>haskellPackages.threads.x86_64-linux</a></tt>
+</td>
+<td>Queued</td>
+<th>x86_64-linux</th>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/302806963'>haskellPackages.threadscope.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -38081,18 +38068,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/302806850'>x86_64-linux threads-0.5.1.8</a></tt></summary>
-<ul>
-<li>haskellPackages.happstack-server.x86_64-linux</li>
-<li>naproche.x86_64-linux</li>
-<li>gitit.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>3</td>
-</tr>
-<tr>
-<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/302807788'>x86_64-linux primitive-static-x86_64-unknown-linux-musl-0.9.1.0</a></tt></summary>
 <ul>
 <li>pkgsStatic.haskell.packages.native-bignum.ghc948.cabal2nix.x86_64-linux</li>
@@ -38281,6 +38256,16 @@ Built for evals:
 <details><summary><tt>x86_64-linux network-static-x86_64-unknown-linux-musl-3.2.7.0</tt></summary>
 <ul>
 <li>pkgsStatic.haskellPackages.postgrest.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/302806850'>x86_64-linux threads-0.5.1.8</a></tt></summary>
+<ul>
+<li>gitit.x86_64-linux</li>
 </ul>
 </details>
 </td>
