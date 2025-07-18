@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-07-17 06:06:05 UTC*
+*Report built at 2025-07-18 00:12:25 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>29 issues</summary>
+<details><summary>26 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -43,20 +43,6 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>standard-library-2.2</tt> <br /> <a href='https://hydra.nixos.org/build/302799855/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/302799855/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/302799855/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/302799851'>build 302799851</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/302799903'>gitit.x86_64-linux</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Failed</b> <tt>threads-0.5.1.8</tt> <br /> <a href='https://hydra.nixos.org/build/302799903/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/302799903/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/302799903/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/302806850'>build 302806850</a>
 </li>
 </ul>
 </details>
@@ -338,12 +324,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/302803553'>haskellPackages.hedgehog-extras.x86_64-linux</a></tt>
-</td>
-<td>Failed</td>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/302803982'>haskellPackages.if-instance.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -368,12 +348,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/302807622'>haskellPackages.zippers.x86_64-linux</a></tt>
-</td>
-<td>Failed</td>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/302807776'>pkgsStatic.haskellPackages.hello.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -391,7 +365,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>5212 issues</summary>
+<details><summary>5215 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -618,6 +592,13 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/302799868'>git-brunch.x86_64-linux</a></tt>
+</td>
+<td>Queued</td>
+<th>x86_64-linux</th>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/302799903'>gitit.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -17880,6 +17861,13 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/302803537'>haskellPackages.hedgehog-corpus.x86_64-linux</a></tt>
+</td>
+<td>Queued</td>
+<th>x86_64-linux</th>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/302803553'>haskellPackages.hedgehog-extras.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -35897,6 +35885,13 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/302807622'>haskellPackages.zippers.x86_64-linux</a></tt>
+</td>
+<td>Queued</td>
+<th>x86_64-linux</th>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/302807644'>haskellPackages.zlib-bytes.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -37095,16 +37090,6 @@ Built for evals:
 <details><summary><tt>x86_64-linux network-static-x86_64-unknown-linux-musl-3.2.7.0</tt></summary>
 <ul>
 <li>pkgsStatic.haskellPackages.postgrest.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/302806850'>x86_64-linux threads-0.5.1.8</a></tt></summary>
-<ul>
-<li>gitit.x86_64-linux</li>
 </ul>
 </details>
 </td>
