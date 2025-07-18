@@ -2,7 +2,10 @@
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
     flake-utils.url = "github:numtide/flake-utils";
-    nix-review-tools = { url = "github:malob/nix-review-tools/improve-reports"; flake = false; };
+    nix-review-tools = {
+      url = "github:malob/nix-review-tools/nix-review-tools-reports";
+      flake = false;
+    };
     devshell.url = "github:numtide/devshell";
     devshell.inputs.nixpkgs.follows = "nixpkgs";
     devshell.inputs.flake-utils.follows = "flake-utils";
