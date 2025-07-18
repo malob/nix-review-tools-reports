@@ -4,7 +4,7 @@ categories: nixos:release-25.05
 ---
 # Evals report
 
-*Report built at 2025-07-18 08:10:43 UTC*
+*Report built at 2025-07-18 09:12:06 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>1217 issues</summary>
+<details><summary>1219 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -2480,6 +2480,18 @@ Built for evals:
 </details>
 </td>
 <td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/303128751'>nixos.tests.incus.lxd-to-incus.x86_64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/303128917'>nixos.tests.installer-systemd-stage-1.clevisZfsParentDatasetFallback.x86_64-linux</a></tt>
+</td>
+<td>Failed</td>
 </tr>
 <tr>
 <td>
@@ -16431,7 +16443,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>13486 issues</summary>
+<details><summary>13472 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -16696,13 +16708,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/303124655'>nixos.iso_minimal.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -18222,13 +18227,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/303124835'>nixos.tests.allDrivers.bitbox-bridge.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -22817,13 +22815,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/303125507'>nixos.tests.allDrivers.incus.lxd-to-incus.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/303125498'>nixos.tests.allDrivers.incus.openvswitch.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -24851,13 +24842,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/303125825'>nixos.tests.allDrivers.kerberos.ldap.mit.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -39869,13 +39853,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/303128079'>nixos.tests.bitbox-bridge.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/303128082'>nixos.tests.bitcoind.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -44552,13 +44529,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/303128751'>nixos.tests.incus.lxd-to-incus.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/303128742'>nixos.tests.incus.openvswitch.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -45274,13 +45244,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/303128919'>nixos.tests.installer-systemd-stage-1.clevisZfsParentDataset.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/303128917'>nixos.tests.installer-systemd-stage-1.clevisZfsParentDatasetFallback.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -63004,13 +62967,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/303131442'>nixpkgs.electron.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/303131448'>nixpkgs.electron_35-bin.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -77295,13 +77251,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/303133532'>nixpkgs.incus.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -98613,13 +98562,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/303136658'>nixpkgs.lomiri.lomiri-app-launch.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/303136662'>nixpkgs.lomiri.lomiri-calculator-app.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -98704,13 +98646,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/303136683'>nixpkgs.lomiri.lomiri-indicator-network.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/303136679'>nixpkgs.lomiri.lomiri-mediaplayer-app.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -98733,13 +98668,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/303136687'>nixpkgs.lomiri.lomiri-polkit-agent.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/303136709'>nixpkgs.lomiri.lomiri-push-qml.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
@@ -98803,13 +98731,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/303136702'>nixpkgs.lomiri.lomiri-ui-extras.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/303136706'>nixpkgs.lomiri.lomiri-url-dispatcher.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
@@ -110783,13 +110704,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/303138536'>nixpkgs.ytmdesktop.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
