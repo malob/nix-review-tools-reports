@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-07-18 17:57:20 UTC*
+*Report built at 2025-07-18 18:06:08 UTC*
 
 Built for evals:
 
@@ -445,7 +445,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>4915 issues</summary>
+<details><summary>4912 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -18794,13 +18794,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/302803980'>haskellPackages.if.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/302803986'>haskellPackages.iff.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -26460,13 +26453,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/302805834'>haskellPackages.reflex-gadt-api.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/302805838'>haskellPackages.reflex-gi-gtk.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -34489,13 +34475,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/302807796'>pkgsMusl.haskell.compiler.native-bignum.ghc9122.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/302807739'>pkgsMusl.haskell.compiler.native-bignum.ghc92.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
