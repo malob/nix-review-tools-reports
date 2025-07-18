@@ -41,16 +41,16 @@
     "nix-review-tools": {
       "flake": false,
       "locked": {
-        "lastModified": 1648152186,
-        "narHash": "sha256-b4doilIuGE0XfqMGDnN8l1amrVVP5thJaloNonuyYEE=",
+        "lastModified": 1752860819,
+        "narHash": "sha256-yrchsKHLwx1eZlzLYq5ftcSOSSu9JUKziCGNhGqIbz8=",
         "owner": "malob",
         "repo": "nix-review-tools",
-        "rev": "47f7a81937a80dc61b412a097c9e746e0a655136",
+        "rev": "2b9f8b8aa01f8ee2caf4c328deae99e5e5f225f1",
         "type": "github"
       },
       "original": {
         "owner": "malob",
-        "ref": "improve-reports",
+        "ref": "nix-review-tools-reports",
         "repo": "nix-review-tools",
         "type": "github"
       }
