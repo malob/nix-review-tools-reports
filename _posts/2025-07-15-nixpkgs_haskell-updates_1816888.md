@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-07-19 07:05:34 UTC*
+*Report built at 2025-07-19 10:04:57 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>39 issues</summary>
+<details><summary>35 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -234,39 +234,11 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
-<tt><a href='https://hydra.nixos.org/build/302807654'>naproche.x86_64-linux</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Cached failure</b> <tt>threads-0.5.1.8</tt> <br /> <a href='https://hydra.nixos.org/build/302807654/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/302807654/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/302807654/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/302806850'>build 302806850</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
-<details><summary>
 <tt><a href='https://hydra.nixos.org/build/302807766'>pkgsStatic.haskell.packages.native-bignum.ghc948.QuickCheck.x86_64-linux</a></tt>
 </summary>
 <ul>
 <li>
 <b>=> Failed</b> <tt>splitmix-static-x86_64-unknown-linux-musl-0.1.3.1</tt> <br /> <a href='https://hydra.nixos.org/build/302807766/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/302807766/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/302807766/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/302807778'>build 302807778</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/302807824'>pkgsStatic.haskell.packages.native-bignum.ghc948.cabal2nix.x86_64-linux</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Cached failure</b> <tt>primitive-static-x86_64-unknown-linux-musl-0.9.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/302807824/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/302807824/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/302807824/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/302807788'>build 302807788</a>
 </li>
 </ul>
 </details>
@@ -470,18 +442,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/302806426'>haskellPackages.stan.x86_64-linux</a></tt>
-</td>
-<td>Failed</td>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/302806728'>haskellPackages.tasty-hunit-adapter.x86_64-linux</a></tt>
-</td>
-<td>Failed</td>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/302807776'>pkgsStatic.haskellPackages.hello.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -499,7 +459,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>4638 issues</summary>
+<details><summary>4642 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -2945,6 +2905,13 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/302800426'>haskellPackages.FixedPoint-simple.x86_64-linux</a></tt>
+</td>
+<td>Queued</td>
+<th>x86_64-linux</th>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/302800423'>haskellPackages.FpMLv53.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -27661,6 +27628,13 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/302806426'>haskellPackages.stan.x86_64-linux</a></tt>
+</td>
+<td>Queued</td>
+<th>x86_64-linux</th>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/302806434'>haskellPackages.star.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -28677,6 +28651,13 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/302806731'>haskellPackages.tasty-html.x86_64-linux</a></tt>
+</td>
+<td>Queued</td>
+<th>x86_64-linux</th>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/302806728'>haskellPackages.tasty-hunit-adapter.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -32281,6 +32262,13 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/302807654'>naproche.x86_64-linux</a></tt>
+</td>
+<td>Queued</td>
+<th>x86_64-linux</th>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/302807655'>niv.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -32999,18 +32987,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/302807788'>x86_64-linux primitive-static-x86_64-unknown-linux-musl-0.9.1.0</a></tt></summary>
-<ul>
-<li>pkgsStatic.haskell.packages.native-bignum.ghc948.cabal2nix.x86_64-linux</li>
-<li>pkgsStatic.haskell.packages.native-bignum.ghc948.lens.x86_64-linux</li>
-<li>pkgsStatic.haskellPackages.cabal2nix.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>3</td>
-</tr>
-<tr>
-<td>
 <details><summary><tt>x86_64-linux splitmix-static-x86_64-unknown-linux-musl-0.1.3.1</tt></summary>
 <ul>
 <li>pkgsStatic.haskellPackages.random.x86_64-linux</li>
@@ -33020,6 +32996,17 @@ Built for evals:
 </details>
 </td>
 <td>3</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>x86_64-linux primitive-static-x86_64-unknown-linux-musl-0.9.1.0</tt></summary>
+<ul>
+<li>pkgsStatic.haskell.packages.native-bignum.ghc948.lens.x86_64-linux</li>
+<li>pkgsStatic.haskellPackages.cabal2nix.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>2</td>
 </tr>
 <tr>
 <td>
@@ -33053,16 +33040,6 @@ Built for evals:
 </details>
 </td>
 <td>2</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/302806850'>x86_64-linux threads-0.5.1.8</a></tt></summary>
-<ul>
-<li>naproche.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>1</td>
 </tr>
 <tr>
 <td>
