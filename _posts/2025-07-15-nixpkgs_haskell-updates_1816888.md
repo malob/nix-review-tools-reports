@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-07-19 10:04:57 UTC*
+*Report built at 2025-07-19 15:05:06 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>35 issues</summary>
+<details><summary>32 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -169,20 +169,6 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>stan-0.2.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/302800401/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/302800401/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/302800401/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/302806426'>build 302806426</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/302803449'>haskellPackages.hakyll-sass.x86_64-linux</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Failed</b> <tt>hsass-0.8.0</tt> <br /> <a href='https://hydra.nixos.org/build/302803449/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/302803449/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/302803449/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/302803760'>build 302803760</a>
 </li>
 </ul>
 </details>
@@ -400,12 +386,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/302803760'>haskellPackages.hsass.x86_64-linux</a></tt>
-</td>
-<td>Failed</td>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/302803982'>haskellPackages.if-instance.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -425,12 +405,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/302805399'>haskellPackages.pms-domain-model.x86_64-linux</a></tt>
-</td>
-<td>Failed</td>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/302805440'>haskellPackages.pontarius-xmpp.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -459,7 +433,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>4642 issues</summary>
+<details><summary>4645 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -15567,6 +15541,13 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/302803449'>haskellPackages.hakyll-sass.x86_64-linux</a></tt>
+</td>
+<td>Queued</td>
+<th>x86_64-linux</th>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/302803418'>haskellPackages.hakyll-shakespeare.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -17031,6 +17012,13 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/302803782'>haskellPackages.hsPID.x86_64-linux</a></tt>
+</td>
+<td>Queued</td>
+<th>x86_64-linux</th>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/302803760'>haskellPackages.hsass.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -23576,6 +23564,13 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/302805423'>haskellPackages.polynomial-algebra.x86_64-linux</a></tt>
+</td>
+<td>Queued</td>
+<th>x86_64-linux</th>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/302805440'>haskellPackages.pontarius-xmpp.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -33206,16 +33201,6 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/302806426'>x86_64-linux stan-0.2.1.0</a></tt></summary>
 <ul>
 <li>haskell.packages.ghc984.haskell-language-server.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/302803760'>x86_64-linux hsass-0.8.0</a></tt></summary>
-<ul>
-<li>haskellPackages.hakyll-sass.x86_64-linux</li>
 </ul>
 </details>
 </td>
