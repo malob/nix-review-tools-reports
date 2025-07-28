@@ -1,10 +1,10 @@
 ---
-title: nixos:release-25.05 1817158
+title: nixos:release-25.05 1817158 (succeeded)
 categories: nixos:release-25.05
 ---
 # Evals report
 
-*Report built at 2025-07-28 08:11:57 UTC*
+*Report built at 2025-07-28 09:12:26 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>1924 issues</summary>
+<details><summary>1926 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -11142,6 +11142,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/303318754'>nixos.tests.sfxr-qt.x86_64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/303318813'>nixos.tests.slurm.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -17682,6 +17688,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/301408106'>nixpkgs.bend.x86_64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/301422961'>nixpkgs.granian.x86_64-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -17711,12 +17723,18 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>1565 issues</summary>
+<details><summary>1568 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 </tr></thead>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/303319306'>nixos.tests.vscodium.wayland.aarch64-linux</a></tt>
+</td>
+<td>Cancelled</td>
+</tr>
 <tr>
 <td>
 <details><summary>
@@ -26721,6 +26739,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/303317298'>nixos.tests.kernel-generic.linux_5_10_hardened.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/303317328'>nixos.tests.kernel-generic.passthru.configfiles.linux_5_4</a></tt>
 </td>
 <td>Failed</td>
@@ -26764,6 +26788,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/303317557'>nixos.tests.lvm2.lvm-raid-sd-stage-1-linux-6_1.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/303317612'>nixos.tests.mate.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -32070,55 +32100,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/301588415'>nixpkgs.python313Packages.reflex.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>5 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/303317298'>nixos.tests.kernel-generic.linux_5_10_hardened.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/303317612'>nixos.tests.mate.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/303318754'>nixos.tests.sfxr-qt.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/303319017'>nixos.tests.systemd-repart.create-root.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/303319306'>nixos.tests.vscodium.wayland.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 </table>
 </details>
