@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-07-28 05:11:11 UTC*
+*Report built at 2025-07-28 06:07:00 UTC*
 
 Built for evals:
 
@@ -472,7 +472,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>17 issues</summary>
+<details><summary>14 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -565,28 +565,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/303481622'>pkgsCross.ghcjs.haskell.packages.ghc912.hello.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/303481632'>pkgsCross.ghcjs.haskell.packages.ghc98.microlens.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/303481625'>pkgsCross.ghcjs.haskell.packages.ghcHEAD.microlens.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/303481634'>pkgsCross.ghcjs.haskellPackages.hello.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
