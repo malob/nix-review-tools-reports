@@ -4,7 +4,7 @@ categories: nixos:release-25.05
 ---
 # Evals report
 
-*Report built at 2025-08-01 23:09:53 UTC*
+*Report built at 2025-08-02 00:17:03 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>2006 issues</summary>
+<details><summary>2007 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -10977,6 +10977,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/304044145'>nixos.tests.drawterm.wayland.x86_64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/304044309'>nixos.tests.ft2-clone.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -18296,7 +18302,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>1621 issues</summary>
+<details><summary>1626 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -27145,6 +27151,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/304043872'>nixos.tests.boot.uefiNetboot.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/304043948'>nixos.tests.castopod.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -27224,6 +27236,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/304044256'>nixos.tests.firewall-nftables.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/304044307'>nixos.tests.ft2-clone.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -27457,6 +27475,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/304045076'>nixos.tests.lvm2.lvm-raid-sd-stage-1-linux-5_10.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/304045080'>nixos.tests.lvm2.lvm-raid-sd-stage-1-linux-6_1.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -27620,6 +27644,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/304046101'>nixos.tests.pulseaudio.user.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/304046099'>nixos.tests.pulseaudio.userFull.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -27800,6 +27830,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/304046830'>nixos.tests.vector.dnstap.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/304046847'>nixos.tests.vscodium.wayland.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -33066,55 +33102,13 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>8 issues</summary>
+<details><summary>2 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/304043872'>nixos.tests.boot.uefiNetboot.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/304044145'>nixos.tests.drawterm.wayland.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/304044307'>nixos.tests.ft2-clone.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/304045076'>nixos.tests.lvm2.lvm-raid-sd-stage-1-linux-5_10.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/304046099'>nixos.tests.pulseaudio.userFull.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/304046847'>nixos.tests.vscodium.wayland.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/304102655'>nixpkgs.ungoogled-chromium.aarch64-linux</a></tt>
