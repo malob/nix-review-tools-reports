@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-08-02 09:05:57 UTC*
+*Report built at 2025-08-02 10:05:09 UTC*
 
 Built for evals:
 
@@ -2026,7 +2026,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>5972 issues</summary>
+<details><summary>5969 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -35670,13 +35670,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/304096104'>haskellPackages.simple-logger.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/304096146'>haskellPackages.simple-ltl.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -37442,20 +37435,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/304096456'>haskellPackages.swizzle-lens.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/304096479'>haskellPackages.swizzle-modify.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/304096452'>haskellPackages.swizzle.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
