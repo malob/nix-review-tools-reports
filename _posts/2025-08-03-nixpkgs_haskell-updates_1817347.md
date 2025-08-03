@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-08-03 18:05:48 UTC*
+*Report built at 2025-08-03 23:05:17 UTC*
 
 Built for evals:
 
@@ -15,26 +15,12 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>290 issues</summary>
+<details><summary>289 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 </tr></thead>
-<tr>
-<td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/304089896'>diagrams-builder.x86_64-linux</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Failed</b> <tt>FontyFruity-0.5.3.5</tt> <br /> <a href='https://hydra.nixos.org/build/304089896/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/304089896/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/304089896/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/304090259'>build 304090259</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
 <tr>
 <td>
 <details><summary>
@@ -3144,7 +3130,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>4592 issues</summary>
+<details><summary>4593 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -3308,6 +3294,13 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/304149909'>dhall.x86_64-linux</a></tt>
+</td>
+<td>Queued</td>
+<th>x86_64-linux</th>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/304089896'>diagrams-builder.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -35495,19 +35488,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/304090259'>x86_64-linux FontyFruity-0.5.3.5</a></tt></summary>
-<ul>
-<li>diagrams-builder.x86_64-linux</li>
-<li>haskellPackages.Rasterific.x86_64-linux</li>
-<li>haskellPackages.diagrams-builder.x86_64-linux</li>
-<li>haskellPackages.diagrams-rasterific.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>4</td>
-</tr>
-<tr>
-<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/304091957'>x86_64-linux data-clist-0.2</a></tt></summary>
 <ul>
 <li>haskellPackages.brick-tabular-list.x86_64-linux</li>
@@ -35518,6 +35498,18 @@ Built for evals:
 </details>
 </td>
 <td>4</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/304090259'>x86_64-linux FontyFruity-0.5.3.5</a></tt></summary>
+<ul>
+<li>haskellPackages.Rasterific.x86_64-linux</li>
+<li>haskellPackages.diagrams-builder.x86_64-linux</li>
+<li>haskellPackages.diagrams-rasterific.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>3</td>
 </tr>
 <tr>
 <td>
