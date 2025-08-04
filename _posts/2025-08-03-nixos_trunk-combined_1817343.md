@@ -1,10 +1,10 @@
 ---
-title: nixos:trunk-combined 1817343
+title: nixos:trunk-combined 1817343 (succeeded)
 categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2025-08-04 09:15:24 UTC*
+*Report built at 2025-08-04 10:12:33 UTC*
 
 Built for evals:
 
@@ -16524,7 +16524,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>1693 issues</summary>
+<details><summary>1694 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -26926,6 +26926,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/304141339'>nixos.tests.libvirtd.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/304141289'>nixos.tests.litestream.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -32458,27 +32464,6 @@ Built for evals:
 </details>
 </td>
 <td>Dependency failed</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/304141339'>nixos.tests.libvirtd.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 </table>
 </details>
