@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-08-05 22:05:51 UTC*
+*Report built at 2025-08-05 23:05:24 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>1195 issues</summary>
+<details><summary>1197 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -6148,6 +6148,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/304092134'>haskellPackages.defun.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>defun-bool-0.1</tt> <br /> <a href='https://hydra.nixos.org/build/304092134/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/304092134/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/304092134/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/304092077'>build 304092077</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/304092067'>haskellPackages.delaunayNd.x86_64-linux</a></tt>
 </summary>
 <ul>
@@ -7301,6 +7315,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>gitlib-3.1.3</tt> <br /> <a href='https://hydra.nixos.org/build/304093018/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/304093018/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/304093018/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/304092943'>build 304092943</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/304150600'>haskellPackages.gitit.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>filestore-0.6.5</tt> <br /> <a href='https://hydra.nixos.org/build/304150600/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/304150600/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/304150600/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/304092530'>build 304092530</a>
 </li>
 </ul>
 </details>
@@ -14287,7 +14315,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>674 issues</summary>
+<details><summary>670 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -15927,13 +15955,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/304092134'>haskellPackages.defun.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/304092079'>haskellPackages.delay.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -16361,13 +16382,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/304150600'>haskellPackages.gitit.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/304092995'>haskellPackages.goat.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -16635,13 +16649,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/304093327'>haskellPackages.haskell-exp-parser.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/304150660'>haskellPackages.haskell-google-trends.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -18371,13 +18378,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/304096533'>haskellPackages.taskwarrior.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/304096582'>haskellPackages.tasty-hunit-adapter.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -20184,6 +20184,17 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/304092530'>x86_64-linux filestore-0.6.5</a></tt></summary>
+<ul>
+<li>gitit.x86_64-linux</li>
+<li>haskellPackages.gitit.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt>x86_64-linux Cabal-syntax-3.16.0.0</tt></summary>
 <ul>
 <li>haskell.packages.ghc8107.Cabal_3_16_0_0.x86_64-linux</li>
@@ -20327,16 +20338,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/304092530'>x86_64-linux filestore-0.6.5</a></tt></summary>
-<ul>
-<li>gitit.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/304090108'>x86_64-linux fast-logger-3.2.6</a></tt></summary>
 <ul>
 <li>haskell.packages.ghc966.hoogle.x86_64-linux</li>
@@ -20420,6 +20421,16 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/304091706'>x86_64-linux componentm-0.0.0.2</a></tt></summary>
 <ul>
 <li>haskellPackages.componentm-devel.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/304092077'>x86_64-linux defun-bool-0.1</a></tt></summary>
+<ul>
+<li>haskellPackages.defun.x86_64-linux</li>
 </ul>
 </details>
 </td>
