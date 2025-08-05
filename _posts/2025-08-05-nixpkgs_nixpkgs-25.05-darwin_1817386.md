@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.05-darwin
 ---
 # Evals report
 
-*Report built at 2025-08-05 15:10:49 UTC*
+*Report built at 2025-08-05 16:10:03 UTC*
 
 Built for evals:
 
@@ -21514,7 +21514,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>67 issues</summary>
+<details><summary>66 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -21832,13 +21832,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/304162334'>php84Extensions.zstd.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/304162329'>php84Packages.cyclonedx-php-composer.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
