@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-08-06 11:05:33 UTC*
+*Report built at 2025-08-06 12:07:18 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>1232 issues</summary>
+<details><summary>1233 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -4255,6 +4255,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>amazonka-test-2.0</tt> <br /> <a href='https://hydra.nixos.org/build/304150335/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/304150335/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/304150335/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/304150381'>build 304150381</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/304150328'>haskellPackages.amazonka-route53.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>amazonka-test-2.0</tt> <br /> <a href='https://hydra.nixos.org/build/304150328/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/304150328/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/304150328/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/304150381'>build 304150381</a>
 </li>
 </ul>
 </details>
@@ -14755,7 +14769,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>523 issues</summary>
+<details><summary>520 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -15401,13 +15415,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/304150328'>haskellPackages.amazonka-route53.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/304150342'>haskellPackages.amazonka-route53resolver.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -15745,13 +15752,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/304091587'>haskellPackages.chessica.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/304091585'>haskellPackages.cipher-rc5.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -17669,13 +17669,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/304096048'>haskellPackages.shakespeare-css.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/304096044'>haskellPackages.shakespeare-js.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -18671,6 +18664,7 @@ Built for evals:
 <li>haskellPackages.amazonka-route53-domains.x86_64-linux</li>
 <li>haskellPackages.amazonka-route53-recovery-control-config.x86_64-linux</li>
 <li>haskellPackages.amazonka-route53-recovery-readiness.x86_64-linux</li>
+<li>haskellPackages.amazonka-route53.x86_64-linux</li>
 <li>haskellPackages.amazonka-rum.x86_64-linux</li>
 <li>haskellPackages.amazonka-s3-streaming.x86_64-linux</li>
 <li>haskellPackages.amazonka-s3outposts.x86_64-linux</li>
@@ -18733,7 +18727,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>294</td>
+<td>295</td>
 </tr>
 <tr>
 <td>
