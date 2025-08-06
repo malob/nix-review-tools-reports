@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-08-06 08:06:22 UTC*
+*Report built at 2025-08-06 09:08:31 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>1218 issues</summary>
+<details><summary>1219 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -7400,6 +7400,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/304092882'>haskellPackages.ghc-vis.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>fgl-5.8.3.0</tt> <br /> <a href='https://hydra.nixos.org/build/304092882/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/304092882/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/304092882/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/304092511'>build 304092511</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/304103262'>haskellPackages.ghcide.x86_64-linux</a></tt>
 </summary>
 <ul>
@@ -14591,7 +14605,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>587 issues</summary>
+<details><summary>579 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -14965,13 +14979,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/304090283'>haskellPackages.Geodetic.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/304090305'>haskellPackages.HDBC-odbc.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -15804,13 +15811,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/304091691'>haskellPackages.commonmark-wikilink.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/304091719'>haskellPackages.concorde.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -16330,13 +16330,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/304092850'>haskellPackages.ghc-tcplugin-api.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/304092882'>haskellPackages.ghc-vis.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -16924,13 +16917,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/304150759'>haskellPackages.io-streams-http.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/304093973'>haskellPackages.ipa.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -17337,13 +17323,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/304094928'>haskellPackages.ocap-io.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/304094950'>haskellPackages.ofx.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -17513,13 +17492,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/304150927'>haskellPackages.powerdns.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/304095360'>haskellPackages.ppad-poly1305.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -18142,13 +18114,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/304096533'>haskellPackages.taskwarrior.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/304096631'>haskellPackages.tasty-prelude.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -18157,13 +18122,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/304096632'>haskellPackages.temporal-music-notation-demo.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/304096604'>haskellPackages.termbox-banana.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -19249,6 +19207,63 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/304092511'>x86_64-linux fgl-5.8.3.0</a></tt></summary>
+<ul>
+<li>darcs.x86_64-linux</li>
+<li>haskell-ci.x86_64-linux</li>
+<li>haskellPackages.BiobaseNewick.x86_64-linux</li>
+<li>haskellPackages.ShellCheck.x86_64-linux</li>
+<li>haskellPackages.Zora.x86_64-linux</li>
+<li>haskellPackages.async-pool.x86_64-linux</li>
+<li>haskellPackages.crucible-debug.x86_64-linux</li>
+<li>haskellPackages.crucible-llvm.x86_64-linux</li>
+<li>haskellPackages.crucible-symio.x86_64-linux</li>
+<li>haskellPackages.crucible-syntax.x86_64-linux</li>
+<li>haskellPackages.crucible.x86_64-linux</li>
+<li>haskellPackages.crux-llvm.x86_64-linux</li>
+<li>haskellPackages.crux.x86_64-linux</li>
+<li>haskellPackages.darcs.x86_64-linux</li>
+<li>haskellPackages.digraph.x86_64-linux</li>
+<li>haskellPackages.dot2graphml.x86_64-linux</li>
+<li>haskellPackages.drifter-sqlite.x86_64-linux</li>
+<li>haskellPackages.drifter.x86_64-linux</li>
+<li>haskellPackages.exploring-interpreters.x86_64-linux</li>
+<li>haskellPackages.fgl-arbitrary.x86_64-linux</li>
+<li>haskellPackages.fgl-visualize.x86_64-linux</li>
+<li>haskellPackages.fortran-src.x86_64-linux</li>
+<li>haskellPackages.ghc-vis.x86_64-linux</li>
+<li>haskellPackages.graph-generators.x86_64-linux</li>
+<li>haskellPackages.graphite.x86_64-linux</li>
+<li>haskellPackages.graphviz.x86_64-linux</li>
+<li>haskellPackages.hadolint.x86_64-linux</li>
+<li>haskellPackages.haskell-ci.x86_64-linux</li>
+<li>haskellPackages.hmt.x86_64-linux</li>
+<li>haskellPackages.hopenpgp-tools.x86_64-linux</li>
+<li>haskellPackages.inf-backprop.x86_64-linux</li>
+<li>haskellPackages.llvm-pretty-bc-parser.x86_64-linux</li>
+<li>haskellPackages.mathgenealogy.x86_64-linux</li>
+<li>haskellPackages.ogma-cli.x86_64-linux</li>
+<li>haskellPackages.ogma-core.x86_64-linux</li>
+<li>haskellPackages.persistent-migration.x86_64-linux</li>
+<li>haskellPackages.prettyprinter-graphviz.x86_64-linux</li>
+<li>haskellPackages.rdf.x86_64-linux</li>
+<li>haskellPackages.scenegraph.x86_64-linux</li>
+<li>haskellPackages.sr-extra.x86_64-linux</li>
+<li>haskellPackages.stacked-dag.x86_64-linux</li>
+<li>haskellPackages.taskpool.x86_64-linux</li>
+<li>nixosTests.agda.x86_64-linux</li>
+<li>nixosTests.kmonad.x86_64-linux</li>
+<li>nixosTests.xmonad-xdg-autostart.x86_64-linux</li>
+<li>nixosTests.xmonad.x86_64-linux</li>
+<li>shellcheck-minimal.x86_64-linux</li>
+<li>tamarin-prover.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>48</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/304096300'>x86_64-linux statistics-0.16.3.0</a></tt></summary>
 <ul>
 <li>bench.x86_64-linux</li>
@@ -19298,62 +19313,6 @@ Built for evals:
 <li>haskellPackages.tasty-bench-fit.x86_64-linux</li>
 <li>haskellPackages.tlynx.x86_64-linux</li>
 <li>haskellPackages.wai-middleware-prometheus.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>47</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/304092511'>x86_64-linux fgl-5.8.3.0</a></tt></summary>
-<ul>
-<li>darcs.x86_64-linux</li>
-<li>haskell-ci.x86_64-linux</li>
-<li>haskellPackages.BiobaseNewick.x86_64-linux</li>
-<li>haskellPackages.ShellCheck.x86_64-linux</li>
-<li>haskellPackages.Zora.x86_64-linux</li>
-<li>haskellPackages.async-pool.x86_64-linux</li>
-<li>haskellPackages.crucible-debug.x86_64-linux</li>
-<li>haskellPackages.crucible-llvm.x86_64-linux</li>
-<li>haskellPackages.crucible-symio.x86_64-linux</li>
-<li>haskellPackages.crucible-syntax.x86_64-linux</li>
-<li>haskellPackages.crucible.x86_64-linux</li>
-<li>haskellPackages.crux-llvm.x86_64-linux</li>
-<li>haskellPackages.crux.x86_64-linux</li>
-<li>haskellPackages.darcs.x86_64-linux</li>
-<li>haskellPackages.digraph.x86_64-linux</li>
-<li>haskellPackages.dot2graphml.x86_64-linux</li>
-<li>haskellPackages.drifter-sqlite.x86_64-linux</li>
-<li>haskellPackages.drifter.x86_64-linux</li>
-<li>haskellPackages.exploring-interpreters.x86_64-linux</li>
-<li>haskellPackages.fgl-arbitrary.x86_64-linux</li>
-<li>haskellPackages.fgl-visualize.x86_64-linux</li>
-<li>haskellPackages.fortran-src.x86_64-linux</li>
-<li>haskellPackages.graph-generators.x86_64-linux</li>
-<li>haskellPackages.graphite.x86_64-linux</li>
-<li>haskellPackages.graphviz.x86_64-linux</li>
-<li>haskellPackages.hadolint.x86_64-linux</li>
-<li>haskellPackages.haskell-ci.x86_64-linux</li>
-<li>haskellPackages.hmt.x86_64-linux</li>
-<li>haskellPackages.hopenpgp-tools.x86_64-linux</li>
-<li>haskellPackages.inf-backprop.x86_64-linux</li>
-<li>haskellPackages.llvm-pretty-bc-parser.x86_64-linux</li>
-<li>haskellPackages.mathgenealogy.x86_64-linux</li>
-<li>haskellPackages.ogma-cli.x86_64-linux</li>
-<li>haskellPackages.ogma-core.x86_64-linux</li>
-<li>haskellPackages.persistent-migration.x86_64-linux</li>
-<li>haskellPackages.prettyprinter-graphviz.x86_64-linux</li>
-<li>haskellPackages.rdf.x86_64-linux</li>
-<li>haskellPackages.scenegraph.x86_64-linux</li>
-<li>haskellPackages.sr-extra.x86_64-linux</li>
-<li>haskellPackages.stacked-dag.x86_64-linux</li>
-<li>haskellPackages.taskpool.x86_64-linux</li>
-<li>nixosTests.agda.x86_64-linux</li>
-<li>nixosTests.kmonad.x86_64-linux</li>
-<li>nixosTests.xmonad-xdg-autostart.x86_64-linux</li>
-<li>nixosTests.xmonad.x86_64-linux</li>
-<li>shellcheck-minimal.x86_64-linux</li>
-<li>tamarin-prover.x86_64-linux</li>
 </ul>
 </details>
 </td>
