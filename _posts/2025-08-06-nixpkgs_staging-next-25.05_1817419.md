@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:staging-next-25.05 1817419
+title: nixpkgs:staging-next-25.05 1817419 (succeeded)
 categories: nixpkgs:staging-next-25.05
 ---
 # Evals report
 
-*Report built at 2025-08-08 11:08:32 UTC*
+*Report built at 2025-08-08 21:10:38 UTC*
 
 Built for evals:
 
@@ -15005,7 +15005,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1304 issues</summary>
+<details><summary>1308 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -21004,6 +21004,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/300744591'>androidenv.androidPkgs.all.system-images.Baklava.page_size_16kb.x86_64.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/300744638'>androidenv.androidPkgs.all.system-images.VanillaIceCream.page_size_16kb.arm64-v8a.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -21017,6 +21023,18 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/300744887'>androidenv.androidPkgs.all.system-images.v24.default.armeabi-v7a.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/300745015'>androidenv.androidPkgs.all.system-images.v28.android-automotive-playstore.x86.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/300745060'>androidenv.androidPkgs.all.system-images.v29.android-automotive-playstore.x86.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -21053,6 +21071,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/300745363'>androidenv.androidPkgs.all.system-images.v35.page_size_16kb.arm64-v8a.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/300745364'>androidenv.androidPkgs.all.system-images.v35.page_size_16kb.x86_64.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -39900,7 +39924,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>2030 issues</summary>
+<details><summary>2032 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -56796,6 +56820,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/300744594'>androidenv.androidPkgs.all.system-images.Baklava.page_size_16kb.x86_64.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/300744641'>androidenv.androidPkgs.all.system-images.VanillaIceCream.page_size_16kb.arm64-v8a.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -56857,6 +56887,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/300745362'>androidenv.androidPkgs.all.system-images.v35.page_size_16kb.arm64-v8a.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/300745367'>androidenv.androidPkgs.all.system-images.v35.page_size_16kb.x86_64.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -61725,62 +61761,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/303963120'>python313Packages.pypck.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>6 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/300744594'>androidenv.androidPkgs.all.system-images.Baklava.page_size_16kb.x86_64.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/300744591'>androidenv.androidPkgs.all.system-images.Baklava.page_size_16kb.x86_64.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/300745015'>androidenv.androidPkgs.all.system-images.v28.android-automotive-playstore.x86.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/300745060'>androidenv.androidPkgs.all.system-images.v29.android-automotive-playstore.x86.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/300745367'>androidenv.androidPkgs.all.system-images.v35.page_size_16kb.x86_64.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/300745364'>androidenv.androidPkgs.all.system-images.v35.page_size_16kb.x86_64.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 </table>
 </details>
