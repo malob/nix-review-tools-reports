@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.05-darwin
 ---
 # Evals report
 
-*Report built at 2025-08-09 19:08:30 UTC*
+*Report built at 2025-08-09 20:08:18 UTC*
 
 Built for evals:
 
@@ -33028,7 +33028,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>36 issues</summary>
+<details><summary>29 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -33107,20 +33107,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/304566236'>opendmarc.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/304566239'>percona-toolkit.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/304566242'>perl538Packages.MinionBackendmysql.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -33163,13 +33149,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/304566253'>perl540Packages.DBDmysql.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/304566257'>perl540Packages.MinionBackendmysql.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -33198,13 +33177,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/304566259'>perl540Packages.PerconaToolkit.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/304566260'>perl540Packages.Testmysqld.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -33219,13 +33191,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/304566262'>perl540Packages.maatkit.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/304566265'>postfix-tlspol.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -33237,13 +33202,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/304566269'>python313Packages.mysql-connector.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -33279,13 +33237,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/304566279'>texpresso.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 </table>
 </details>
