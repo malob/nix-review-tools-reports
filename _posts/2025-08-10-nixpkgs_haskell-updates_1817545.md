@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-08-10 15:04:53 UTC*
+*Report built at 2025-08-10 22:05:19 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>710 issues</summary>
+<details><summary>711 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -197,6 +197,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>Cabal-syntax-3.16.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/304233340/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/304233340/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/304233340/nixlog/1/tail'>tail</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/304843920'>haskell.packages.ghc8107.cabal2nix-unstable.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>bytestring-handle-0.1.0.6</tt> <br /> <a href='https://hydra.nixos.org/build/304843920/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/304843920/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/304843920/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/304233381'>build 304233381</a>
 </li>
 </ul>
 </details>
@@ -7148,7 +7162,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>461 issues</summary>
+<details><summary>460 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -7179,13 +7193,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/304843962'>haskell-language-server.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/304843920'>haskell.packages.ghc8107.cabal2nix-unstable.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -10895,6 +10902,18 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt>x86_64-linux bytestring-handle-0.1.0.6</tt></summary>
+<ul>
+<li>haskell.compiler.ghcjs.bootGhcjs.x86_64-linux</li>
+<li>haskell.compiler.ghcjs810.bootGhcjs.x86_64-linux</li>
+<li>haskell.packages.ghc8107.cabal2nix-unstable.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>3</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt>x86_64-linux stylish-haskell-0.15.1.0</tt></summary>
 <ul>
 <li>haskell.packages.ghc963.haskell-language-server.x86_64-linux</li>
@@ -10994,17 +11013,6 @@ Built for evals:
 <ul>
 <li>gitit.x86_64-linux</li>
 <li>haskellPackages.gitit.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>2</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>x86_64-linux bytestring-handle-0.1.0.6</tt></summary>
-<ul>
-<li>haskell.compiler.ghcjs.bootGhcjs.x86_64-linux</li>
-<li>haskell.compiler.ghcjs810.bootGhcjs.x86_64-linux</li>
 </ul>
 </details>
 </td>
