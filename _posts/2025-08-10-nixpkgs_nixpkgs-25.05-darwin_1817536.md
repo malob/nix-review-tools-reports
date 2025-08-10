@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.05-darwin
 ---
 # Evals report
 
-*Report built at 2025-08-10 09:08:46 UTC*
+*Report built at 2025-08-10 10:08:28 UTC*
 
 Built for evals:
 
@@ -11362,7 +11362,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>2015 issues</summary>
+<details><summary>2021 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -11741,6 +11741,34 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/304569434'>corepack_24.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/304569434/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/304569434/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/304569434/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/304569576'>build 304569576</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/304569433'>corepack_latest.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/304569433/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/304569433/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/304569433/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/304569576'>build 304569576</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/304411238'>crowbar.aarch64-darwin</a></tt>
 </summary>
 <ul>
@@ -11802,6 +11830,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>mplayer-1.5-unstable-2024-12-21</tt> <br /> <a href='https://hydra.nixos.org/build/304412021/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/304412021/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/304412021/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/304442230'>build 304442230</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/304569440'>devmode.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/304569440/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/304569440/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/304569440/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/304569576'>build 304569576</a>
 </li>
 </ul>
 </details>
@@ -27758,6 +27800,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/304569628'>tailwindcss-language-server.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/304569628/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/304569628/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/304569628/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/304569576'>build 304569576</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/304500615'>tandoor-recipes.aarch64-darwin</a></tt>
 </summary>
 <ul>
@@ -30348,6 +30404,18 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/304443647'>nodehun.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/304569575'>nodejs_24.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/304569576'>nodejs_latest.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -33028,7 +33096,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>16 issues</summary>
+<details><summary>8 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -33037,24 +33105,10 @@ Built for evals:
 </tr></thead>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/304569434'>corepack_24.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/304569437'>corepack_24.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/304569433'>corepack_latest.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -33065,24 +33119,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/304569440'>devmode.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/304569439'>devmode.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/304569572'>nodejs-slim_24.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -33093,24 +33133,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/304569573'>nodejs-slim_latest.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/304569578'>nodejs-slim_latest.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/304569575'>nodejs_24.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -33121,24 +33147,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/304569576'>nodejs_latest.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/304569574'>nodejs_latest.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/304569628'>tailwindcss-language-server.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -34771,6 +34783,19 @@ Built for evals:
 </details>
 </td>
 <td>5</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/304569576'>aarch64-darwin nodejs-24.5.0</a></tt></summary>
+<ul>
+<li>corepack_24.aarch64-darwin</li>
+<li>corepack_latest.aarch64-darwin</li>
+<li>devmode.aarch64-darwin</li>
+<li>tailwindcss-language-server.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>4</td>
 </tr>
 <tr>
 <td>
