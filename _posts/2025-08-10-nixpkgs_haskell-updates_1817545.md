@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-08-11 04:20:12 UTC*
+*Report built at 2025-08-11 05:11:03 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>712 issues</summary>
+<details><summary>714 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -2556,6 +2556,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/304844316'>haskellPackages.hercules-ci-agent.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>katip-0.8.8.2</tt> <br /> <a href='https://hydra.nixos.org/build/304844316/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/304844316/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/304844316/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/304237653'>build 304237653</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/304237040'>haskellPackages.hercules-ci-api-agent.x86_64-linux</a></tt>
 </summary>
 <ul>
@@ -3149,6 +3163,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>ghc-typelits-natnormalise-0.7.10</tt> <br /> <a href='https://hydra.nixos.org/build/304237425/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/304237425/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/304237425/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/304236422'>build 304236422</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/304844328'>haskellPackages.ihaskell-symtegration.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>symtegration-0.6.1</tt> <br /> <a href='https://hydra.nixos.org/build/304844328/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/304844328/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/304844328/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/304240068'>build 304240068</a>
 </li>
 </ul>
 </details>
@@ -7176,7 +7204,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>439 issues</summary>
+<details><summary>434 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -8858,13 +8886,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/304844162'>haskellPackages.amazonka-mgn.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/304844186'>haskellPackages.amazonka-migration-hub-refactor-spaces.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -9810,13 +9831,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/304844316'>haskellPackages.hercules-ci-agent.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/304844317'>haskellPackages.hercules-ci-cli.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -9929,13 +9943,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/304844328'>haskellPackages.ihaskell-symtegration.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/304844323'>haskellPackages.ihaskell.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -9999,13 +10006,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/304844344'>haskellPackages.nix-paths.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/304844343'>haskellPackages.nix-serve-ng.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -10021,13 +10021,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/304844347'>haskellPackages.nvfetcher.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/304844346'>haskellPackages.ormolu.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -10452,6 +10445,7 @@ Built for evals:
 <ul>
 <li>haskellPackages.benign-katip.x86_64-linux</li>
 <li>haskellPackages.cachix.x86_64-linux</li>
+<li>haskellPackages.hercules-ci-agent.x86_64-linux</li>
 <li>haskellPackages.hercules-ci-api-agent.x86_64-linux</li>
 <li>haskellPackages.hercules-ci-api-core.x86_64-linux</li>
 <li>haskellPackages.hercules-ci-api.x86_64-linux</li>
@@ -10464,7 +10458,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>11</td>
+<td>12</td>
 </tr>
 <tr>
 <td>
@@ -11262,6 +11256,16 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/304237072'>x86_64-linux hjson-1.3.2</a></tt></summary>
 <ul>
 <li>haskellPackages.hjpath.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/304240068'>x86_64-linux symtegration-0.6.1</a></tt></summary>
+<ul>
+<li>haskellPackages.ihaskell-symtegration.x86_64-linux</li>
 </ul>
 </details>
 </td>
