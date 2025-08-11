@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.05-darwin
 ---
 # Evals report
 
-*Report built at 2025-08-11 06:10:20 UTC*
+*Report built at 2025-08-11 07:12:21 UTC*
 
 Built for evals:
 
@@ -33066,7 +33066,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>366 issues</summary>
+<details><summary>365 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -35351,13 +35351,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/304944573'>tests.dotnet.final-attrs.output-matches-const.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/304944569'>tests.dotnet.final-attrs.override-has-no-effect.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
