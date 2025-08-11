@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-08-11 13:17:06 UTC*
+*Report built at 2025-08-11 14:06:30 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>717 issues</summary>
+<details><summary>718 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -4908,6 +4908,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/304843963'>hci.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>katip-0.8.8.2</tt> <br /> <a href='https://hydra.nixos.org/build/304843963/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/304843963/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/304843963/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/304237653'>build 304237653</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/304241110'>hledger-iadd.x86_64-linux</a></tt>
 </summary>
 <ul>
@@ -7230,7 +7244,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>398 issues</summary>
+<details><summary>396 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -8304,13 +8318,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/304844090'>haskellPackages.amazonka-glacier.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/304844113'>haskellPackages.amazonka-globalaccelerator.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -9850,13 +9857,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/304843963'>hci.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/304844358'>hercules-ci-agent.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -10229,10 +10229,11 @@ Built for evals:
 <li>haskellPackages.katip-wai.x86_64-linux</li>
 <li>haskellPackages.kubernetes-api-client.x86_64-linux</li>
 <li>haskellPackages.kubernetes-api.x86_64-linux</li>
+<li>hci.x86_64-linux</li>
 </ul>
 </details>
 </td>
-<td>12</td>
+<td>13</td>
 </tr>
 <tr>
 <td>
