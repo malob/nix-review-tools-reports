@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-08-12 03:26:50 UTC*
+*Report built at 2025-08-12 04:09:59 UTC*
 
 Built for evals:
 
@@ -7310,7 +7310,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>346 issues</summary>
+<details><summary>344 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -9160,13 +9160,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/304844247'>haskellPackages.amazonka-snow-device-management.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/304844285'>haskellPackages.amazonka-snowball.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -9210,13 +9203,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/304844278'>haskellPackages.amazonka-ssm.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/304844258'>haskellPackages.amazonka-sso-oidc.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
