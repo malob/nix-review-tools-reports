@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-08-12 19:05:56 UTC*
+*Report built at 2025-08-12 20:05:27 UTC*
 
 Built for evals:
 
@@ -7384,7 +7384,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>276 issues</summary>
+<details><summary>272 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -7855,13 +7855,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/304844016'>haskellPackages.amazonka-codepipeline.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/304844017'>haskellPackages.amazonka-codestar-connections.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -8171,13 +8164,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/304844081'>haskellPackages.amazonka-grafana.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/304844103'>haskellPackages.amazonka-greengrass.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -8758,13 +8744,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/304844212'>haskellPackages.amazonka-route53.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/304844237'>haskellPackages.amazonka-s3-streaming.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -9158,13 +9137,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/304844335'>haskellPackages.libssh2-conduit.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/304844337'>haskellPackages.mmark-cli.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
