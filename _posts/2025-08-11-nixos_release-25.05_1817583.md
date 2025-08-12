@@ -4,7 +4,7 @@ categories: nixos:release-25.05
 ---
 # Evals report
 
-*Report built at 2025-08-12 06:10:46 UTC*
+*Report built at 2025-08-12 07:11:48 UTC*
 
 Built for evals:
 
@@ -15231,7 +15231,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>1592 issues</summary>
+<details><summary>1593 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -22856,6 +22856,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/305005332'>nixpkgs.patchcil.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>dotnet-stage0-vmr-9.0.8</tt> <br /> <a href='https://hydra.nixos.org/build/305005332/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/305005332/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/305005332/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/305004639'>build 305004639</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/304326229'>nixpkgs.patdiff.aarch64-linux</a></tt>
 </summary>
 <ul>
@@ -29936,7 +29950,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>1506 issues</summary>
+<details><summary>1497 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -30743,13 +30757,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/305003968'>nixos.tests.allDrivers.incus.all.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/305003967'>nixos.tests.allDrivers.incus.appArmor.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -30863,13 +30870,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/305004033'>nixos.tests.allDrivers.installer-systemd-stage-1.clevisZfs.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/305004027'>nixos.tests.allDrivers.installer-systemd-stage-1.clevisZfsFallback.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -32511,13 +32511,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/305004253'>nixos.tests.incus.all.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -34740,13 +34733,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/305004589'>nixpkgs.capnproto-java.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/305004592'>nixpkgs.capnproto-java.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -35056,13 +35042,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/305004651'>nixpkgs.dotnet-outdated.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/305004714'>nixpkgs.dotnet-repl.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -35682,13 +35661,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/305004759'>nixpkgs.github-runner.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -37526,13 +37498,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/305005043'>nixpkgs.linuxPackages_latest.openafs.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/305005044'>nixpkgs.linuxPackages_latest.openafs.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -38996,13 +38961,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/305005276'>nixpkgs.modsecurity_standalone.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/305005285'>nixpkgs.mqttmultimeter.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -39280,13 +39238,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/305005332'>nixpkgs.patchcil.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -41624,6 +41575,24 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/305004639'>aarch64-linux dotnet-stage0-vmr-9.0.8</a></tt></summary>
+<ul>
+<li>nixpkgs.dotnet-aspnetcore_9.aarch64-linux</li>
+<li>nixpkgs.dotnet-repl.aarch64-linux</li>
+<li>nixpkgs.dotnet-runtime_9.aarch64-linux</li>
+<li>nixpkgs.dotnet-sdk_9.aarch64-linux</li>
+<li>nixpkgs.dotnetCorePackages.aspnetcore_9_0.aarch64-linux</li>
+<li>nixpkgs.dotnetCorePackages.dotnet_9.vmr.aarch64-linux</li>
+<li>nixpkgs.dotnetCorePackages.sdk_9_0_3xx.aarch64-linux</li>
+<li>nixpkgs.pablodraw.aarch64-linux</li>
+<li>nixpkgs.patchcil.aarch64-linux</li>
+</ul>
+</details>
+</td>
+<td>9</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/303994212'>aarch64-linux ocaml5.3.0-ocaml_intrinsics-0.17.0</a></tt></summary>
 <ul>
 <li>nixpkgs.cmdstan.aarch64-linux</li>
@@ -41657,23 +41626,6 @@ Built for evals:
 </details>
 </td>
 <td>9</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/305004639'>aarch64-linux dotnet-stage0-vmr-9.0.8</a></tt></summary>
-<ul>
-<li>nixpkgs.dotnet-aspnetcore_9.aarch64-linux</li>
-<li>nixpkgs.dotnet-repl.aarch64-linux</li>
-<li>nixpkgs.dotnet-runtime_9.aarch64-linux</li>
-<li>nixpkgs.dotnet-sdk_9.aarch64-linux</li>
-<li>nixpkgs.dotnetCorePackages.aspnetcore_9_0.aarch64-linux</li>
-<li>nixpkgs.dotnetCorePackages.dotnet_9.vmr.aarch64-linux</li>
-<li>nixpkgs.dotnetCorePackages.sdk_9_0_3xx.aarch64-linux</li>
-<li>nixpkgs.pablodraw.aarch64-linux</li>
-</ul>
-</details>
-</td>
-<td>8</td>
 </tr>
 <tr>
 <td>
