@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-08-12 13:15:25 UTC*
+*Report built at 2025-08-12 14:05:26 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>727 issues</summary>
+<details><summary>728 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -2673,6 +2673,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>katip-0.8.8.2</tt> <br /> <a href='https://hydra.nixos.org/build/304237036/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/304237036/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/304237036/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/304237653'>build 304237653</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/304844317'>haskellPackages.hercules-ci-cli.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>katip-0.8.8.2</tt> <br /> <a href='https://hydra.nixos.org/build/304844317/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/304844317/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/304844317/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/304237653'>build 304237653</a>
 </li>
 </ul>
 </details>
@@ -7330,7 +7344,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>323 issues</summary>
+<details><summary>320 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -8606,13 +8620,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/304844156'>haskellPackages.amazonka-mediastore.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/304844186'>haskellPackages.amazonka-migration-hub-refactor-spaces.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -9320,13 +9327,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/304844317'>haskellPackages.hercules-ci-cli.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/304844315'>haskellPackages.hercules-ci-cnix-expr.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -9538,13 +9538,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/304844364'>pkgsCross.ghcjs.haskell.packages.ghc912.microlens.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/304844374'>pkgsCross.ghcjs.haskell.packages.ghc912.miso.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -9767,6 +9760,30 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/304237653'>x86_64-linux katip-0.8.8.2</a></tt></summary>
+<ul>
+<li>cachix.x86_64-linux</li>
+<li>haskellPackages.benign-katip.x86_64-linux</li>
+<li>haskellPackages.cachix.x86_64-linux</li>
+<li>haskellPackages.hercules-ci-agent.x86_64-linux</li>
+<li>haskellPackages.hercules-ci-api-agent.x86_64-linux</li>
+<li>haskellPackages.hercules-ci-api-core.x86_64-linux</li>
+<li>haskellPackages.hercules-ci-api.x86_64-linux</li>
+<li>haskellPackages.hercules-ci-cli.x86_64-linux</li>
+<li>haskellPackages.katip-effectful.x86_64-linux</li>
+<li>haskellPackages.katip-logstash.x86_64-linux</li>
+<li>haskellPackages.katip-raven.x86_64-linux</li>
+<li>haskellPackages.katip-wai.x86_64-linux</li>
+<li>haskellPackages.kubernetes-api-client.x86_64-linux</li>
+<li>haskellPackages.kubernetes-api.x86_64-linux</li>
+<li>hci.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>15</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/304543989'>x86_64-linux hw-prim-0.6.3.2</a></tt></summary>
 <ul>
 <li>haskell.packages.ghc9101.haskell-language-server.x86_64-linux</li>
@@ -9788,29 +9805,6 @@ Built for evals:
 </details>
 </td>
 <td>15</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/304237653'>x86_64-linux katip-0.8.8.2</a></tt></summary>
-<ul>
-<li>cachix.x86_64-linux</li>
-<li>haskellPackages.benign-katip.x86_64-linux</li>
-<li>haskellPackages.cachix.x86_64-linux</li>
-<li>haskellPackages.hercules-ci-agent.x86_64-linux</li>
-<li>haskellPackages.hercules-ci-api-agent.x86_64-linux</li>
-<li>haskellPackages.hercules-ci-api-core.x86_64-linux</li>
-<li>haskellPackages.hercules-ci-api.x86_64-linux</li>
-<li>haskellPackages.katip-effectful.x86_64-linux</li>
-<li>haskellPackages.katip-logstash.x86_64-linux</li>
-<li>haskellPackages.katip-raven.x86_64-linux</li>
-<li>haskellPackages.katip-wai.x86_64-linux</li>
-<li>haskellPackages.kubernetes-api-client.x86_64-linux</li>
-<li>haskellPackages.kubernetes-api.x86_64-linux</li>
-<li>hci.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>14</td>
 </tr>
 <tr>
 <td>
