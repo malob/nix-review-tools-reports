@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-08-13 17:05:11 UTC*
+*Report built at 2025-08-13 18:06:09 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>668 issues</summary>
+<details><summary>671 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -2850,6 +2850,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/304844331'>haskellPackages.ihaskell-display.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>say-0.1.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/304844331/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/304844331/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/304844331/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/304239455'>build 304239455</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/304844328'>haskellPackages.ihaskell-symtegration.x86_64-linux</a></tt>
 </summary>
 <ul>
@@ -3961,6 +3975,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>gi-gtk-hs-0.3.17</tt> <br /> <a href='https://hydra.nixos.org/build/304240144/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/304240144/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/304240144/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/304236503'>build 304236503</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/305031873'>haskellPackages.tasty-bench-fit.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>regression-simple-0.2.1</tt> <br /> <a href='https://hydra.nixos.org/build/305031873/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/305031873/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/305031873/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/305031861'>build 305031861</a>
 </li>
 </ul>
 </details>
@@ -6047,6 +6075,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/305031861'>haskellPackages.regression-simple.x86_64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/304239364'>haskellPackages.rematch-text.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -6544,7 +6578,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>257 issues</summary>
+<details><summary>248 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -6561,13 +6595,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/305031808'>futhark.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/305031809'>haskell.compiler.ghcHEAD.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -7127,20 +7154,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/304844083'>haskellPackages.amazonka-groundstation.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/304844093'>haskellPackages.amazonka-healthlake.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/304844106'>haskellPackages.amazonka-honeycode.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -7170,13 +7183,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/304844108'>haskellPackages.amazonka-iot1click-projects.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/304844116'>haskellPackages.amazonka-iotdeviceadvisor.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -7687,13 +7693,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/304844272'>haskellPackages.amazonka-sms.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/304844285'>haskellPackages.amazonka-snowball.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -7995,13 +7994,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/304844331'>haskellPackages.ihaskell-display.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/305031846'>haskellPackages.jord.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -8093,13 +8085,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/305031861'>haskellPackages.regression-simple.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/305031865'>haskellPackages.rhine-bayes.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -8143,13 +8128,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/304844351'>haskellPackages.stylish-haskell.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/305031873'>haskellPackages.tasty-bench-fit.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -8248,13 +8226,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/304844375'>pkgsCross.ghcjs.haskell.packages.ghc912.reflex-dom.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/305031886'>pkgsCross.ghcjs.haskell.packages.ghcHEAD.hello.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -8506,6 +8477,7 @@ Built for evals:
 <li>haskellPackages.classy-prelude-yesod.x86_64-linux</li>
 <li>haskellPackages.classy-prelude.x86_64-linux</li>
 <li>haskellPackages.conduit-concurrent-map.x86_64-linux</li>
+<li>haskellPackages.ihaskell-display.x86_64-linux</li>
 <li>haskellPackages.semver-range.x86_64-linux</li>
 <li>haskellPackages.slack-web.x86_64-linux</li>
 <li>haskellPackages.spago.x86_64-linux</li>
@@ -8517,7 +8489,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>12</td>
+<td>13</td>
 </tr>
 <tr>
 <td>
@@ -9458,6 +9430,16 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/304236503'>x86_64-linux gi-gtk-hs-0.3.17</a></tt></summary>
 <ul>
 <li>haskellPackages.taffybar.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/305031861'>x86_64-linux regression-simple-0.2.1</a></tt></summary>
+<ul>
+<li>haskellPackages.tasty-bench-fit.x86_64-linux</li>
 </ul>
 </details>
 </td>
