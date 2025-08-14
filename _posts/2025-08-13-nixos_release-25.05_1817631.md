@@ -4,7 +4,7 @@ categories: nixos:release-25.05
 ---
 # Evals report
 
-*Report built at 2025-08-14 06:50:20 UTC*
+*Report built at 2025-08-14 07:11:42 UTC*
 
 Built for evals:
 
@@ -31228,7 +31228,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>242 issues</summary>
+<details><summary>240 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -31486,13 +31486,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/305034617'>nixos.tests.allDrivers.boot.uefiCdrom.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -32785,13 +32778,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/305035041'>nixpkgs.perl540Packages.SysVirt.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/305035043'>nixpkgs.plasma5Packages.cantor.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
