@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-08-14 06:37:38 UTC*
+*Report built at 2025-08-14 07:06:34 UTC*
 
 Built for evals:
 
@@ -6666,7 +6666,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>168 issues</summary>
+<details><summary>167 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -7124,13 +7124,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/304844144'>haskellPackages.amazonka-lightsail.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/304844137'>haskellPackages.amazonka-location.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
