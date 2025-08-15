@@ -4,7 +4,7 @@ categories: nixos:release-25.05
 ---
 # Evals report
 
-*Report built at 2025-08-15 06:42:31 UTC*
+*Report built at 2025-08-15 06:50:05 UTC*
 
 Built for evals:
 
@@ -30631,7 +30631,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>3416 issues</summary>
+<details><summary>3415 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -31285,13 +31285,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/305082343'>nixos.tests.allDrivers.containers-tmpfs.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/305082336'>nixos.tests.allDrivers.cosmic-autologin-noxwayland.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
