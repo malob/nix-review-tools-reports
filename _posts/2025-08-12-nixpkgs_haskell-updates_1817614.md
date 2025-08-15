@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-08-15 09:05:54 UTC*
+*Report built at 2025-08-15 11:05:11 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>690 issues</summary>
+<details><summary>691 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -5371,6 +5371,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/305031839'>haskellPackages.fuzzyfind.x86_64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/304236282'>haskellPackages.gauge.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -6780,7 +6786,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>35 issues</summary>
+<details><summary>32 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -6804,13 +6810,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/304843975'>haskellPackages.amazonka-appmesh.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/304843982'>haskellPackages.amazonka-apprunner.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -6901,13 +6900,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/304844173'>haskellPackages.amazonka-nimble.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/304844180'>haskellPackages.amazonka-outposts.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -6972,13 +6964,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/305031834'>haskellPackages.elynx.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/305031839'>haskellPackages.fuzzyfind.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
