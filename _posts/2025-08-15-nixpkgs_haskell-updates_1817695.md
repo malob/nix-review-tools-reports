@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-08-16 02:35:08 UTC*
+*Report built at 2025-08-16 05:05:32 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>686 issues</summary>
+<details><summary>687 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -713,6 +713,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>ghc-exactprint-1.10.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/304544000/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/304544000/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/304544000/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/304233703'>build 304233703</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/305099870'>haskell.packages.ghc982.weeder.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>ghc-exactprint-1.10.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/305099870/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/305099870/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/305099870/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/304233703'>build 304233703</a>
 </li>
 </ul>
 </details>
@@ -6732,7 +6746,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>41 issues</summary>
+<details><summary>40 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -6777,13 +6791,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/305099867'>haskell.packages.ghc966.weeder.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/305099870'>haskell.packages.ghc982.weeder.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -7276,6 +7283,22 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/304233765'>x86_64-linux ghc-exactprint-1.10.0.0</a></tt></summary>
+<ul>
+<li>haskell.packages.ghc981.haskell-language-server.x86_64-linux</li>
+<li>haskell.packages.ghc981.weeder.x86_64-linux</li>
+<li>haskell.packages.ghc982.haskell-language-server.x86_64-linux</li>
+<li>haskell.packages.ghc982.weeder.x86_64-linux</li>
+<li>haskell.packages.ghc983.haskell-language-server.x86_64-linux</li>
+<li>haskell.packages.ghc984.haskell-language-server.x86_64-linux</li>
+<li>haskell.packages.ghc984.weeder.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>7</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/304240597'>x86_64-linux unique-0.0.1</a></tt></summary>
 <ul>
 <li>haskellPackages.accelerate-io-serialise.x86_64-linux</li>
@@ -7289,21 +7312,6 @@ Built for evals:
 </details>
 </td>
 <td>7</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/304233765'>x86_64-linux ghc-exactprint-1.10.0.0</a></tt></summary>
-<ul>
-<li>haskell.packages.ghc981.haskell-language-server.x86_64-linux</li>
-<li>haskell.packages.ghc981.weeder.x86_64-linux</li>
-<li>haskell.packages.ghc982.haskell-language-server.x86_64-linux</li>
-<li>haskell.packages.ghc983.haskell-language-server.x86_64-linux</li>
-<li>haskell.packages.ghc984.haskell-language-server.x86_64-linux</li>
-<li>haskell.packages.ghc984.weeder.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>6</td>
 </tr>
 <tr>
 <td>
