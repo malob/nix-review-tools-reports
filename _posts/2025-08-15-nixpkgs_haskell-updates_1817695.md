@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-08-16 00:11:52 UTC*
+*Report built at 2025-08-16 02:35:08 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>682 issues</summary>
+<details><summary>686 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -475,6 +475,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/305099863'>haskell.packages.ghc948.weeder.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>skeletest-0.2.1</tt> <br /> <a href='https://hydra.nixos.org/build/305099863/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/305099863/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/305099863/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/304233531'>build 304233531</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/304233550'>haskell.packages.ghc963.ghc-tags.x86_64-linux</a></tt>
 </summary>
 <ul>
@@ -570,6 +584,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>hw-prim-0.6.3.2</tt> <br /> <a href='https://hydra.nixos.org/build/304543995/nixlog/69'>log</a>, <a href='https://hydra.nixos.org/build/304543995/nixlog/69/raw'>raw</a>, <a href='https://hydra.nixos.org/build/304543995/nixlog/69/tail'>tail</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/305099866'>haskell.packages.ghc965.weeder.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>skeletest-0.2.1</tt> <br /> <a href='https://hydra.nixos.org/build/305099866/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/305099866/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/305099866/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/304233610'>build 304233610</a>
 </li>
 </ul>
 </details>
@@ -3522,6 +3550,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/305031860'>haskellPackages.postgrest.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>configurator-pg-0.2.10</tt> <br /> <a href='https://hydra.nixos.org/build/305031860/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/305031860/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/305031860/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/304235347'>build 304235347</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/304239114'>haskellPackages.quantification-aeson.x86_64-linux</a></tt>
 </summary>
 <ul>
@@ -5365,6 +5407,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/305099874'>haskellPackages.git-annex.x86_64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/304236546'>haskellPackages.git-phoenix.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -6684,7 +6732,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>45 issues</summary>
+<details><summary>41 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -6714,13 +6762,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/305099863'>haskell.packages.ghc948.weeder.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/305099864'>haskell.packages.ghc963.weeder.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -6729,13 +6770,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/304843946'>haskell.packages.ghc964.nix-paths.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/305099866'>haskell.packages.ghc965.weeder.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -6882,21 +6916,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/305099874'>haskellPackages.git-annex.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/305099876'>haskellPackages.mpi-hs-binary.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/305031860'>haskellPackages.postgrest.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -7345,6 +7365,20 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/304233507'>x86_64-linux skeletest-0.2.1</a></tt></summary>
+<ul>
+<li>haskell.packages.ghc947.weeder.x86_64-linux</li>
+<li>haskell.packages.ghc948.weeder.x86_64-linux</li>
+<li>haskell.packages.ghc964.weeder.x86_64-linux</li>
+<li>haskell.packages.ghc965.weeder.x86_64-linux</li>
+<li>haskell.packages.ghc967.weeder.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>5</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/304233524'>x86_64-linux ghc-lib-9.12.2.20250421</a></tt></summary>
 <ul>
 <li>haskell.packages.ghc963.ghc-tags.x86_64-linux</li>
@@ -7468,18 +7502,6 @@ Built for evals:
 <li>haskell.compiler.ghcjs.bootGhcjs.x86_64-linux</li>
 <li>haskell.compiler.ghcjs810.bootGhcjs.x86_64-linux</li>
 <li>haskell.packages.ghc8107.cabal2nix-unstable.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>3</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/304233507'>x86_64-linux skeletest-0.2.1</a></tt></summary>
-<ul>
-<li>haskell.packages.ghc947.weeder.x86_64-linux</li>
-<li>haskell.packages.ghc964.weeder.x86_64-linux</li>
-<li>haskell.packages.ghc967.weeder.x86_64-linux</li>
 </ul>
 </details>
 </td>
@@ -8078,6 +8100,16 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/304544110'>x86_64-linux hasql-notifications-0.2.3.2</a></tt></summary>
 <ul>
 <li>haskellPackages.postgres-websockets.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/304235347'>x86_64-linux configurator-pg-0.2.10</a></tt></summary>
+<ul>
+<li>haskellPackages.postgrest.x86_64-linux</li>
 </ul>
 </details>
 </td>
