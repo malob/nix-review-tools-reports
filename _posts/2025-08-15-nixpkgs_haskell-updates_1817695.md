@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-08-16 10:05:28 UTC*
+*Report built at 2025-08-16 11:05:06 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>688 issues</summary>
+<details><summary>689 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -511,6 +511,20 @@ Built for evals:
 </li>
 <li>
 <b>=> Failed</b> <tt>stylish-haskell-0.15.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/304543992/nixlog/68'>log</a>, <a href='https://hydra.nixos.org/build/304543992/nixlog/68/raw'>raw</a>, <a href='https://hydra.nixos.org/build/304543992/nixlog/68/tail'>tail</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/305099864'>haskell.packages.ghc963.weeder.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>skeletest-0.2.1</tt> <br /> <a href='https://hydra.nixos.org/build/305099864/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/305099864/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/305099864/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/304233551'>build 304233551</a>
 </li>
 </ul>
 </details>
@@ -6760,7 +6774,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>39 issues</summary>
+<details><summary>38 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -6784,13 +6798,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/305099858'>haskell.compiler.native-bignum.ghcHEAD.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/305099864'>haskell.packages.ghc963.weeder.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -7322,6 +7329,21 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/304233507'>x86_64-linux skeletest-0.2.1</a></tt></summary>
+<ul>
+<li>haskell.packages.ghc947.weeder.x86_64-linux</li>
+<li>haskell.packages.ghc948.weeder.x86_64-linux</li>
+<li>haskell.packages.ghc963.weeder.x86_64-linux</li>
+<li>haskell.packages.ghc964.weeder.x86_64-linux</li>
+<li>haskell.packages.ghc965.weeder.x86_64-linux</li>
+<li>haskell.packages.ghc967.weeder.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>6</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/304235451'>x86_64-linux crucible-0.7.2</a></tt></summary>
 <ul>
 <li>haskellPackages.crucible-debug.x86_64-linux</li>
@@ -7373,20 +7395,6 @@ Built for evals:
 <li>haskellPackages.hevm.x86_64-linux</li>
 <li>haskellPackages.jsonpatch.x86_64-linux</li>
 <li>haskellPackages.testcontainers.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>5</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/304233507'>x86_64-linux skeletest-0.2.1</a></tt></summary>
-<ul>
-<li>haskell.packages.ghc947.weeder.x86_64-linux</li>
-<li>haskell.packages.ghc948.weeder.x86_64-linux</li>
-<li>haskell.packages.ghc964.weeder.x86_64-linux</li>
-<li>haskell.packages.ghc965.weeder.x86_64-linux</li>
-<li>haskell.packages.ghc967.weeder.x86_64-linux</li>
 </ul>
 </details>
 </td>
