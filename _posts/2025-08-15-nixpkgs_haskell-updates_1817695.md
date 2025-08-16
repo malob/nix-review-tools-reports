@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-08-16 05:05:32 UTC*
+*Report built at 2025-08-16 10:05:28 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>687 issues</summary>
+<details><summary>688 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -4390,6 +4390,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/305031883'>mergeable</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>hercules-ci-cnix-store-0.3.7.0</tt> <br /> <a href='https://hydra.nixos.org/build/305031883/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/305031883/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/305031883/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/304844314'>build 304844314</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/304544291'>nix-output-monitor.x86_64-linux</a></tt>
 </summary>
 <ul>
@@ -6746,7 +6760,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>40 issues</summary>
+<details><summary>39 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -6952,13 +6966,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/305099881'>haskellPackages.weeder.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/305031883'>mergeable</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -7689,6 +7696,17 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/304844314'>x86_64-linux hercules-ci-cnix-store-0.3.7.0</a></tt></summary>
+<ul>
+<li>haskellPackages.hercules-ci-cnix-expr.x86_64-linux</li>
+<li>mergeable</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/305031818'>x86_64-linux avro-0.6.2.1</a></tt></summary>
 <ul>
 <li>haskellPackages.hw-kafka-avro.x86_64-linux</li>
@@ -7988,16 +8006,6 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/304544103'>x86_64-linux hasql-transaction-io-0.2.8.0</a></tt></summary>
 <ul>
 <li>haskellPackages.hasql-streams-core.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/304844314'>x86_64-linux hercules-ci-cnix-store-0.3.7.0</a></tt></summary>
-<ul>
-<li>haskellPackages.hercules-ci-cnix-expr.x86_64-linux</li>
 </ul>
 </details>
 </td>
