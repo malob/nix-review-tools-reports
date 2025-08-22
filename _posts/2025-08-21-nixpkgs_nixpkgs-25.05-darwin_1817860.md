@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.05-darwin
 ---
 # Evals report
 
-*Report built at 2025-08-22 07:08:18 UTC*
+*Report built at 2025-08-22 08:09:28 UTC*
 
 Built for evals:
 
@@ -32790,7 +32790,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>686 issues</summary>
+<details><summary>680 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -35032,13 +35032,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/305485205'>rubyPackages_3_2.iconv.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/305485202'>rubyPackages_3_2.idn-ruby.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -35781,13 +35774,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/305485365'>rubyPackages_3_2.mini_magick.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/305485360'>rubyPackages_3_2.mini_magick.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -36131,13 +36117,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/305485455'>rubyPackages_3_2.pp.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/305485551'>rubyPackages_3_2.prettier.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -36156,13 +36135,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/305485461'>rubyPackages_3_2.prettyprint.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -36551,24 +36523,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/305485565'>rubyPackages_3_2.rspec-mocks.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/305485555'>rubyPackages_3_2.rspec-support.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/305485556'>rubyPackages_3_2.rspec-support.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
