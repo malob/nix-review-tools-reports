@@ -4,7 +4,7 @@ categories: nixos:release-25.05
 ---
 # Evals report
 
-*Report built at 2025-08-22 19:09:13 UTC*
+*Report built at 2025-08-22 20:10:57 UTC*
 
 Built for evals:
 
@@ -16630,7 +16630,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>8681 issues</summary>
+<details><summary>8680 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -24452,13 +24452,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/305520241'>nixos.tests.allDrivers.libreswan.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/305520242'>nixos.tests.allDrivers.librewolf.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
