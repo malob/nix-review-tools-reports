@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.05-darwin
 ---
 # Evals report
 
-*Report built at 2025-08-23 09:08:09 UTC*
+*Report built at 2025-08-23 11:07:55 UTC*
 
 Built for evals:
 
@@ -32908,7 +32908,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>503 issues</summary>
+<details><summary>501 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -36284,24 +36284,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/305549571'>weechat-unwrapped.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/305549573'>weechat-unwrapped.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/305549572'>weechat.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
