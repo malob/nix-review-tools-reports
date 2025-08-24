@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.05-darwin
 ---
 # Evals report
 
-*Report built at 2025-08-24 17:08:27 UTC*
+*Report built at 2025-08-24 20:08:48 UTC*
 
 Built for evals:
 
@@ -11516,7 +11516,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>2005 issues</summary>
+<details><summary>2006 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -14715,6 +14715,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>python3.12-cfn-lint-1.32.1</tt> <br /> <a href='https://hydra.nixos.org/build/305989137/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/305989137/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/305989137/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/304458496'>build 304458496</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/305989142'>python312Packages.llama-index-vector-stores-qdrant.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.12-cfn-lint-1.32.1</tt> <br /> <a href='https://hydra.nixos.org/build/305989142/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/305989142/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/305989142/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/304458496'>build 304458496</a>
 </li>
 </ul>
 </details>
@@ -33078,7 +33092,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>128 issues</summary>
+<details><summary>127 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -33612,13 +33626,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/305989142'>python312Packages.llama-index-vector-stores-qdrant.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/305989139'>python312Packages.llama-index.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -34062,6 +34069,7 @@ Built for evals:
 <li>python312Packages.llama-index-readers-txtai.aarch64-darwin</li>
 <li>python312Packages.llama-index-readers-weather.aarch64-darwin</li>
 <li>python312Packages.llama-index-vector-stores-google.aarch64-darwin</li>
+<li>python312Packages.llama-index-vector-stores-qdrant.aarch64-darwin</li>
 <li>python312Packages.llama-parse.aarch64-darwin</li>
 <li>python312Packages.moto.aarch64-darwin</li>
 <li>python312Packages.nice-go.aarch64-darwin</li>
@@ -34470,7 +34478,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>473</td>
+<td>474</td>
 </tr>
 <tr>
 <td>
