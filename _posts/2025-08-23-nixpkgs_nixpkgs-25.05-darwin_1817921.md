@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.05-darwin
 ---
 # Evals report
 
-*Report built at 2025-08-23 23:09:58 UTC*
+*Report built at 2025-08-24 00:16:16 UTC*
 
 Built for evals:
 
@@ -11516,7 +11516,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1986 issues</summary>
+<details><summary>1989 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -14486,6 +14486,34 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/305989099'>python312Packages.llama-index-indices-managed-llama-cloud.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.12-cfn-lint-1.32.1</tt> <br /> <a href='https://hydra.nixos.org/build/305989099/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/305989099/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/305989099/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/304458496'>build 304458496</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/305989137'>python312Packages.llama-index-vector-stores-google.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.12-cfn-lint-1.32.1</tt> <br /> <a href='https://hydra.nixos.org/build/305989137/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/305989137/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/305989137/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/304458496'>build 304458496</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/304463967'>python312Packages.markitdown.aarch64-darwin</a></tt>
 </summary>
 <ul>
@@ -15023,6 +15051,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>python3.12-cfn-lint-1.32.1</tt> <br /> <a href='https://hydra.nixos.org/build/304470674/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/304470674/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/304470674/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/304458496'>build 304458496</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/305989167'>python312Packages.spacy-curated-transformers.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.12-cfn-lint-1.32.1</tt> <br /> <a href='https://hydra.nixos.org/build/305989167/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/305989167/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/305989167/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/304458496'>build 304458496</a>
 </li>
 </ul>
 </details>
@@ -32812,7 +32854,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>200 issues</summary>
+<details><summary>195 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -33276,13 +33318,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/305989080'>python312Packages.fastai.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/305989083'>python312Packages.gym.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -33451,13 +33486,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/305989099'>python312Packages.llama-index-indices-managed-llama-cloud.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/305989116'>python312Packages.llama-index-indices-managed-llama-cloud.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -33469,13 +33497,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/305989110'>python312Packages.llama-index-legacy.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -33654,13 +33675,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/305989137'>python312Packages.llama-index-vector-stores-google.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/305989134'>python312Packages.llama-index-vector-stores-google.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -33721,13 +33735,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/305989167'>python312Packages.spacy-curated-transformers.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -34284,6 +34291,8 @@ Built for evals:
 <li>python312Packages.hishel.aarch64-darwin</li>
 <li>python312Packages.librosa.aarch64-darwin</li>
 <li>python312Packages.llama-index-graph-stores-nebula.aarch64-darwin</li>
+<li>python312Packages.llama-index-indices-managed-llama-cloud.aarch64-darwin</li>
+<li>python312Packages.llama-index-vector-stores-google.aarch64-darwin</li>
 <li>python312Packages.moto.aarch64-darwin</li>
 <li>python312Packages.nice-go.aarch64-darwin</li>
 <li>python312Packages.ome-zarr.aarch64-darwin</li>
@@ -34309,6 +34318,7 @@ Built for evals:
 <li>python312Packages.snakemake-storage-plugin-s3.aarch64-darwin</li>
 <li>python312Packages.snakemake-storage-plugin-xrootd.aarch64-darwin</li>
 <li>python312Packages.snakemake.aarch64-darwin</li>
+<li>python312Packages.spacy-curated-transformers.aarch64-darwin</li>
 <li>python312Packages.spacy-lookups-data.aarch64-darwin</li>
 <li>python312Packages.tenant-schemas-celery.aarch64-darwin</li>
 <li>python312Packages.tensorboardx.aarch64-darwin</li>
@@ -34690,7 +34700,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>455</td>
+<td>458</td>
 </tr>
 <tr>
 <td>
