@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.05-darwin
 ---
 # Evals report
 
-*Report built at 2025-08-25 06:10:29 UTC*
+*Report built at 2025-08-25 13:17:35 UTC*
 
 Built for evals:
 
@@ -11522,7 +11522,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>2006 issues</summary>
+<details><summary>2007 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -14623,6 +14623,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>python3.12-cfn-lint-1.32.1</tt> <br /> <a href='https://hydra.nixos.org/build/305989125/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/305989125/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/305989125/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/304458496'>build 304458496</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/305989119'>python312Packages.llama-index-question-gen-openai.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.12-cfn-lint-1.32.1</tt> <br /> <a href='https://hydra.nixos.org/build/305989119/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/305989119/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/305989119/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/304458496'>build 304458496</a>
 </li>
 </ul>
 </details>
@@ -33098,7 +33112,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>106 issues</summary>
+<details><summary>104 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -33118,13 +33132,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/305989018'>backgroundremover.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -33493,13 +33500,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/305989118'>python312Packages.llama-index-program-openai.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/305989119'>python312Packages.llama-index-question-gen-openai.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -33921,6 +33921,7 @@ Built for evals:
 <li>python312Packages.llama-index-indices-managed-llama-cloud.aarch64-darwin</li>
 <li>python312Packages.llama-index-llms-openai-like.aarch64-darwin</li>
 <li>python312Packages.llama-index-multi-modal-llms-openai.aarch64-darwin</li>
+<li>python312Packages.llama-index-question-gen-openai.aarch64-darwin</li>
 <li>python312Packages.llama-index-readers-database.aarch64-darwin</li>
 <li>python312Packages.llama-index-readers-json.aarch64-darwin</li>
 <li>python312Packages.llama-index-readers-llama-parse.aarch64-darwin</li>
@@ -34337,7 +34338,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>474</td>
+<td>475</td>
 </tr>
 <tr>
 <td>
