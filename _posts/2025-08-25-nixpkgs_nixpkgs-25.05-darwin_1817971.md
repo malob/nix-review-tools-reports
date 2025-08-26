@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.05-darwin
 ---
 # Evals report
 
-*Report built at 2025-08-26 08:09:41 UTC*
+*Report built at 2025-08-26 09:10:25 UTC*
 
 Built for evals:
 
@@ -11426,7 +11426,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>2014 issues</summary>
+<details><summary>2015 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -21779,6 +21779,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>python3.13-cfn-lint-1.32.1</tt> <br /> <a href='https://hydra.nixos.org/build/304484673/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/304484673/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/304484673/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/304476126'>build 304476126</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/306034022'>python313Packages.pyexcel-ods.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.13-pyexcel-xls-0.7.0</tt> <br /> <a href='https://hydra.nixos.org/build/306034022/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/306034022/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/306034022/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/306034021'>build 306034021</a>
 </li>
 </ul>
 </details>
@@ -33130,7 +33144,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>122 issues</summary>
+<details><summary>118 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -33241,13 +33255,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/306033924'>dotnet-runtime_10.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -33465,13 +33472,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/306033971'>lexical.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -33734,13 +33734,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/306034022'>python313Packages.pyexcel-ods.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/306034028'>python313Packages.radian.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -33829,13 +33822,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/306034046'>thunderbird-latest-unwrapped.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -36067,6 +36053,17 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/306034021'>aarch64-darwin python3.13-pyexcel-xls-0.7.0</a></tt></summary>
+<ul>
+<li>python313Packages.pyexcel-ods.aarch64-darwin</li>
+<li>python313Packages.pyexcel-ods.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/303779789'>aarch64-darwin python3.12-aws-encryption-sdk-4.0.1</a></tt></summary>
 <ul>
 <li>aws-encryption-sdk-cli.aarch64-darwin</li>
@@ -36994,16 +36991,6 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/306034011'>x86_64-darwin python3.12-pyexcel-xls-0.7.0</a></tt></summary>
 <ul>
 <li>python312Packages.pyexcel-ods.x86_64-darwin</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/306034023'>x86_64-darwin python3.13-pyexcel-xls-0.7.0</a></tt></summary>
-<ul>
-<li>python313Packages.pyexcel-ods.x86_64-darwin</li>
 </ul>
 </details>
 </td>
