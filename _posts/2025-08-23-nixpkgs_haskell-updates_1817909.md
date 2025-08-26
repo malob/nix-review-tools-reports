@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:haskell-updates 1817909
+title: nixpkgs:haskell-updates 1817909 (succeeded)
 categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-08-26 17:05:33 UTC*
+*Report built at 2025-08-26 18:06:06 UTC*
 
 Built for evals:
 
@@ -6410,34 +6410,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/305723864'>uusi.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>2 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/305723856'>pkgsMusl.haskell.compiler.ghc9121.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/305723806'>pkgsMusl.haskell.compiler.native-bignum.ghc965.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
