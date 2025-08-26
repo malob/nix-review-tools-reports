@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.05-darwin
 ---
 # Evals report
 
-*Report built at 2025-08-26 07:09:01 UTC*
+*Report built at 2025-08-26 08:09:41 UTC*
 
 Built for evals:
 
@@ -11426,7 +11426,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>2013 issues</summary>
+<details><summary>2014 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -32675,6 +32675,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/306034056'>thunderbirdPackages.thunderbird-esr.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/304502482'>tigervnc.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -33124,7 +33130,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>124 issues</summary>
+<details><summary>122 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -33763,13 +33769,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/306034030'>renovate.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/306034032'>teleport.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -33872,13 +33871,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/306034056'>thunderbirdPackages.thunderbird-esr.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
