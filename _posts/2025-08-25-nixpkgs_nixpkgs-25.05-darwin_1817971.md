@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.05-darwin
 ---
 # Evals report
 
-*Report built at 2025-08-26 09:10:25 UTC*
+*Report built at 2025-08-26 10:09:29 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1313 issues</summary>
+<details><summary>1314 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -10827,6 +10827,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/306034055'>thunderbirdPackages.thunderbird-esr.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/304502483'>tigervnc.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -11426,7 +11432,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>2015 issues</summary>
+<details><summary>2016 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -13925,6 +13931,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>python3.12-cfn-lint-1.32.1</tt> <br /> <a href='https://hydra.nixos.org/build/304459741/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/304459741/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/304459741/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/304458496'>build 304458496</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/306034009'>python312Packages.django-filingcabinet.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.12-cfn-lint-1.32.1</tt> <br /> <a href='https://hydra.nixos.org/build/306034009/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/306034009/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/306034009/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/304458496'>build 304458496</a>
 </li>
 </ul>
 </details>
@@ -33144,7 +33164,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>118 issues</summary>
+<details><summary>112 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -33370,13 +33390,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/306033950'>fedistar.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/306033960'>firefox-beta-unwrapped.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -33455,13 +33468,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/306033967'>homepage-dashboard.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/306033970'>immich-cli.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -33643,13 +33649,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/306034003'>pypy310.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/306034004'>pypy310.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -33657,24 +33656,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/306034008'>pypy311.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/306034006'>pypy311.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/306034009'>python312Packages.django-filingcabinet.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -33860,13 +33845,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/306034055'>thunderbirdPackages.thunderbird-esr.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/306034047'>thunderbirdPackages.thunderbird-latest.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -34026,6 +34004,7 @@ Built for evals:
 <li>python312Packages.django-celery-beat.aarch64-darwin</li>
 <li>python312Packages.django-celery-email.aarch64-darwin</li>
 <li>python312Packages.django-celery-results.aarch64-darwin</li>
+<li>python312Packages.django-filingcabinet.aarch64-darwin</li>
 <li>python312Packages.django-google-analytics-app.aarch64-darwin</li>
 <li>python312Packages.django-health-check.aarch64-darwin</li>
 <li>python312Packages.django-raster.aarch64-darwin</li>
@@ -34486,7 +34465,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>493</td>
+<td>494</td>
 </tr>
 <tr>
 <td>
