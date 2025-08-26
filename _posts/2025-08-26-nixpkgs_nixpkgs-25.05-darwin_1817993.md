@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.05-darwin
 ---
 # Evals report
 
-*Report built at 2025-08-26 21:09:16 UTC*
+*Report built at 2025-08-26 22:08:26 UTC*
 
 Built for evals:
 
@@ -11450,7 +11450,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>2013 issues</summary>
+<details><summary>2015 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -15041,6 +15041,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>python3.12-cfn-lint-1.32.1</tt> <br /> <a href='https://hydra.nixos.org/build/304467315/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/304467315/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/304467315/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/304458496'>build 304458496</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/306034014'>python312Packages.pyexcel-ods.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.12-pyexcel-xls-0.7.0</tt> <br /> <a href='https://hydra.nixos.org/build/306034014/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/306034014/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/306034014/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/306034013'>build 306034013</a>
 </li>
 </ul>
 </details>
@@ -31153,6 +31167,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/306034013'>python312Packages.pyexcel-xls.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/304467438'>python312Packages.pygerber.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -33132,7 +33152,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>147 issues</summary>
+<details><summary>141 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -33190,13 +33210,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/306062775'>corepack_24.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/306062772'>corepack_24.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -33229,13 +33242,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/306062777'>devmode.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -33278,13 +33284,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/306033942'>dotnetCorePackages.dotnet_10.runtime.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -33540,13 +33539,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/306062796'>nodejs_24.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/306062797'>nodejs_24.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -33782,20 +33774,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/306034014'>python312Packages.pyexcel-ods.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/306034013'>python312Packages.pyexcel-xls.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -36781,6 +36759,17 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/306034013'>aarch64-darwin python3.12-pyexcel-xls-0.7.0</a></tt></summary>
+<ul>
+<li>python312Packages.pyexcel-ods.aarch64-darwin</li>
+<li>python312Packages.pyexcel-ods.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/303927183'>aarch64-darwin python3.12-pymonctl-0.92</a></tt></summary>
 <ul>
 <li>python312Packages.pywinctl.aarch64-darwin</li>
@@ -37329,16 +37318,6 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/304082451'>aarch64-darwin python3.12-ezyrb-1.3.0.post2404</a></tt></summary>
 <ul>
 <li>python312Packages.pydmd.aarch64-darwin</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/306034011'>x86_64-darwin python3.12-pyexcel-xls-0.7.0</a></tt></summary>
-<ul>
-<li>python312Packages.pyexcel-ods.x86_64-darwin</li>
 </ul>
 </details>
 </td>
