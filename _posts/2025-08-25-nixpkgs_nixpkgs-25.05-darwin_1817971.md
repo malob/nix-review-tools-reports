@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.05-darwin
 ---
 # Evals report
 
-*Report built at 2025-08-26 15:10:33 UTC*
+*Report built at 2025-08-26 16:09:19 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1315 issues</summary>
+<details><summary>1316 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -6047,6 +6047,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>tesseract-3.05.02</tt> <br /> <a href='https://hydra.nixos.org/build/304510343/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/304510343/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/304510343/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/304016771'>build 304016771</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/306034070'>vscode-extensions.reditorsupport.r.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.11-radian-0.6.13</tt> <br /> <a href='https://hydra.nixos.org/build/306034070/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/306034070/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/306034070/nixlog/2/tail'>tail</a>
 </li>
 </ul>
 </details>
@@ -33196,7 +33210,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>89 issues</summary>
+<details><summary>86 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -33331,13 +33345,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/306033931'>dotnetCorePackages.sdk_10_0-bin.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/306033945'>dotnetCorePackages.sdk_10_0-source.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -33349,13 +33356,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/306033936'>dotnetCorePackages.sdk_10_0_1xx.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -33804,13 +33804,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/306034070'>vscode-extensions.reditorsupport.r.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -36842,6 +36835,16 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/306034011'>x86_64-darwin python3.12-pyexcel-xls-0.7.0</a></tt></summary>
 <ul>
 <li>python312Packages.pyexcel-ods.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>x86_64-darwin python3.11-radian-0.6.13</tt></summary>
+<ul>
+<li>vscode-extensions.reditorsupport.r.x86_64-darwin</li>
 </ul>
 </details>
 </td>
