@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.05-darwin
 ---
 # Evals report
 
-*Report built at 2025-08-26 06:09:51 UTC*
+*Report built at 2025-08-26 07:09:01 UTC*
 
 Built for evals:
 
@@ -11426,7 +11426,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>2012 issues</summary>
+<details><summary>2013 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -32777,6 +32777,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/306034061'>varnish77.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/304509206'>vc4-newlib.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -33118,7 +33124,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>129 issues</summary>
+<details><summary>124 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -33239,13 +33245,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/306033943'>dotnet-sdk_10.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/306033925'>dotnetCorePackages.aspnetcore_10_0-bin.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -33267,13 +33266,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/306033932'>dotnetCorePackages.dotnet_10.aspnetcore.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/306033942'>dotnetCorePackages.dotnet_10.runtime.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -33282,13 +33274,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/306033944'>dotnetCorePackages.dotnet_10.sdk.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/306033927'>dotnetCorePackages.dotnet_10.vmr.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -33362,13 +33347,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/306033949'>ex_doc.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -33950,13 +33928,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/306034061'>varnish77.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
