@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.05-darwin
 ---
 # Evals report
 
-*Report built at 2025-08-26 11:08:49 UTC*
+*Report built at 2025-08-26 12:10:10 UTC*
 
 Built for evals:
 
@@ -33170,7 +33170,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>109 issues</summary>
+<details><summary>106 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -33228,13 +33228,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/306033914'>beamMinimal26Packages.ex_doc.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/306033912'>beamMinimal27Packages.ex_doc.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -33243,13 +33236,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/306033916'>codex.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/306033918'>cvs2svn.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -33421,13 +33407,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/306033953'>firefox-esr-unwrapped.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
