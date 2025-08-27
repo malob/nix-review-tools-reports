@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-08-27 07:05:07 UTC*
+*Report built at 2025-08-27 08:06:02 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>646 issues</summary>
+<details><summary>648 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -2268,6 +2268,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/306068325'>haskellPackages.haskoin-node.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>unique-0.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/306068325/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/306068325/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/306068325/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/305723186'>build 305723186</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/305719583'>haskellPackages.hasktorch.x86_64-linux</a></tt>
 </summary>
 <ul>
@@ -4107,6 +4121,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>data-clist-0.2</tt> <br /> <a href='https://hydra.nixos.org/build/305723699/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/305723699/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/305723699/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/305718112'>build 305718112</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/306068339'>mergeable</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>darcs-2.18.5</tt> <br /> <a href='https://hydra.nixos.org/build/306068339/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/306068339/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/306068339/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/305715826'>build 305715826</a>
 </li>
 </ul>
 </details>
@@ -6338,7 +6366,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>18 issues</summary>
+<details><summary>16 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -6417,13 +6445,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/306068325'>haskellPackages.haskoin-node.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/306068326'>haskellPackages.hz3.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -6439,13 +6460,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/306068333'>haskellPackages.rocksdb-query.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/306068339'>mergeable</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -6708,6 +6722,22 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/305723186'>x86_64-linux unique-0.0.1</a></tt></summary>
+<ul>
+<li>haskellPackages.accelerate-io-serialise.x86_64-linux</li>
+<li>haskellPackages.accelerate-io.x86_64-linux</li>
+<li>haskellPackages.accelerate.x86_64-linux</li>
+<li>haskellPackages.colour-accelerate.x86_64-linux</li>
+<li>haskellPackages.haskoin-node.x86_64-linux</li>
+<li>haskellPackages.mwc-random-accelerate.x86_64-linux</li>
+<li>haskellPackages.nqe.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>7</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/305719397'>x86_64-linux gpu-vulkan-middle-0.1.0.76</a></tt></summary>
 <ul>
 <li>haskellPackages.gpu-vulkan-khr-surface-glfw.x86_64-linux</li>
@@ -6721,21 +6751,6 @@ Built for evals:
 </details>
 </td>
 <td>7</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/305723186'>x86_64-linux unique-0.0.1</a></tt></summary>
-<ul>
-<li>haskellPackages.accelerate-io-serialise.x86_64-linux</li>
-<li>haskellPackages.accelerate-io.x86_64-linux</li>
-<li>haskellPackages.accelerate.x86_64-linux</li>
-<li>haskellPackages.colour-accelerate.x86_64-linux</li>
-<li>haskellPackages.mwc-random-accelerate.x86_64-linux</li>
-<li>haskellPackages.nqe.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>6</td>
 </tr>
 <tr>
 <td>
@@ -7620,6 +7635,16 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/305723655'>x86_64-linux yu-utils-0.1.1.0</a></tt></summary>
 <ul>
 <li>haskellPackages.yu-auth.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/305715826'>x86_64-linux darcs-2.18.5</a></tt></summary>
+<ul>
+<li>mergeable</li>
 </ul>
 </details>
 </td>
