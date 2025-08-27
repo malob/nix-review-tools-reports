@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-08-27 03:19:39 UTC*
+*Report built at 2025-08-27 04:05:55 UTC*
 
 Built for evals:
 
@@ -15,12 +15,26 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>643 issues</summary>
+<details><summary>644 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 </tr></thead>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/305715924'>cachix.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>say-0.1.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/305715924/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/305715924/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/305715924/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/305722040'>build 305722040</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
 <tr>
 <td>
 <details><summary>
@@ -6312,7 +6326,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>22 issues</summary>
+<details><summary>21 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -6392,13 +6406,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/306068322'>haskellPackages.crux-llvm.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/306068324'>haskellPackages.dual-game.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -6578,6 +6585,29 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/305722040'>x86_64-linux say-0.1.0.1</a></tt></summary>
+<ul>
+<li>cachix.x86_64-linux</li>
+<li>haskellPackages.classy-prelude-conduit.x86_64-linux</li>
+<li>haskellPackages.classy-prelude-yesod.x86_64-linux</li>
+<li>haskellPackages.classy-prelude.x86_64-linux</li>
+<li>haskellPackages.conduit-concurrent-map.x86_64-linux</li>
+<li>haskellPackages.ihaskell-display.x86_64-linux</li>
+<li>haskellPackages.semver-range.x86_64-linux</li>
+<li>haskellPackages.slack-web.x86_64-linux</li>
+<li>haskellPackages.spago.x86_64-linux</li>
+<li>haskellPackages.update-nix-fetchgit.x86_64-linux</li>
+<li>haskellPackages.yesod-bin.x86_64-linux</li>
+<li>haskellPackages.yesod-routes-flow.x86_64-linux</li>
+<li>spago.x86_64-linux</li>
+<li>update-nix-fetchgit.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>14</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt>x86_64-linux hw-prim-0.6.3.2</tt></summary>
 <ul>
 <li>haskell.packages.ghc9122.haskell-language-server.x86_64-linux</li>
@@ -6593,28 +6623,6 @@ Built for evals:
 <li>haskellPackages.hw-ip.x86_64-linux</li>
 <li>haskellPackages.hw-streams.x86_64-linux</li>
 <li>haskellPackages.hw-vector.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>13</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/305722040'>x86_64-linux say-0.1.0.1</a></tt></summary>
-<ul>
-<li>haskellPackages.classy-prelude-conduit.x86_64-linux</li>
-<li>haskellPackages.classy-prelude-yesod.x86_64-linux</li>
-<li>haskellPackages.classy-prelude.x86_64-linux</li>
-<li>haskellPackages.conduit-concurrent-map.x86_64-linux</li>
-<li>haskellPackages.ihaskell-display.x86_64-linux</li>
-<li>haskellPackages.semver-range.x86_64-linux</li>
-<li>haskellPackages.slack-web.x86_64-linux</li>
-<li>haskellPackages.spago.x86_64-linux</li>
-<li>haskellPackages.update-nix-fetchgit.x86_64-linux</li>
-<li>haskellPackages.yesod-bin.x86_64-linux</li>
-<li>haskellPackages.yesod-routes-flow.x86_64-linux</li>
-<li>spago.x86_64-linux</li>
-<li>update-nix-fetchgit.x86_64-linux</li>
 </ul>
 </details>
 </td>
