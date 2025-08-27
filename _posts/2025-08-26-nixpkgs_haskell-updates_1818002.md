@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-08-27 16:05:58 UTC*
+*Report built at 2025-08-27 18:05:55 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>652 issues</summary>
+<details><summary>653 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -1419,6 +1419,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>ilist-0.4.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/305717961/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/305717961/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/305717961/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/305720025'>build 305720025</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/306068319'>haskellPackages.crucible-llvm.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>crucible-symio-0.1.1</tt> <br /> <a href='https://hydra.nixos.org/build/306068319/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/306068319/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/306068319/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/305718064'>build 305718064</a>
 </li>
 </ul>
 </details>
@@ -6398,20 +6412,13 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>3 issues</summary>
+<details><summary>2 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/306068319'>haskellPackages.crucible-llvm.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/306068337'>nixosTests.agda.x86_64-linux</a></tt>
@@ -7277,6 +7284,16 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/305717865'>x86_64-linux compdata-0.13.1</a></tt></summary>
 <ul>
 <li>haskellPackages.compdata-automata.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/305718064'>x86_64-linux crucible-symio-0.1.1</a></tt></summary>
+<ul>
+<li>haskellPackages.crucible-llvm.x86_64-linux</li>
 </ul>
 </details>
 </td>
