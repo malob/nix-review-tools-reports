@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.05-darwin
 ---
 # Evals report
 
-*Report built at 2025-08-27 18:09:18 UTC*
+*Report built at 2025-08-27 19:08:29 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1320 issues</summary>
+<details><summary>1321 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -8546,6 +8546,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/304444430'>open-timeline-io.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/306080157'>openroad.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -33246,7 +33252,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>23 issues</summary>
+<details><summary>21 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -33340,20 +33346,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/306080061'>librewolf-unwrapped.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/306080141'>noto-fonts-color-emoji.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/306080157'>openroad.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
