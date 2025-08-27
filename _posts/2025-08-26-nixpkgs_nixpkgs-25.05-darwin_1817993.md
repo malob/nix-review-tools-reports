@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.05-darwin
 ---
 # Evals report
 
-*Report built at 2025-08-27 07:08:48 UTC*
+*Report built at 2025-08-27 08:09:30 UTC*
 
 Built for evals:
 
@@ -11484,7 +11484,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>2015 issues</summary>
+<details><summary>2016 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -13605,6 +13605,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>borgmatic-2.0.4</tt> <br /> <a href='https://hydra.nixos.org/build/304515646/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/304515646/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/304515646/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/304515625'>build 304515625</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/306033996'>prometheus-varnish-exporter.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>varnish-7.7.3</tt> <br /> <a href='https://hydra.nixos.org/build/306033996/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/306033996/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/306033996/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/306034061'>build 306034061</a>
 </li>
 </ul>
 </details>
@@ -33186,7 +33200,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>84 issues</summary>
+<details><summary>82 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -33482,21 +33496,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/306033996'>prometheus-varnish-exporter.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/306033995'>protoc-gen-elixir.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/306033998'>pypy.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -36307,6 +36307,17 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/306034061'>aarch64-darwin varnish-7.7.3</a></tt></summary>
+<ul>
+<li>prometheus-varnish-exporter.aarch64-darwin</li>
+<li>prometheus-varnish-exporter.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/304458483'>aarch64-darwin python3.12-cexprtk-0.4.1</a></tt></summary>
 <ul>
 <li>python312Packages.atsim-potentials.aarch64-darwin</li>
@@ -36924,16 +36935,6 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/304451240'>aarch64-darwin perl5.40.0-Math-Pari-2.030523</a></tt></summary>
 <ul>
 <li>perl540Packages.CryptRandom.aarch64-darwin</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/306034062'>x86_64-darwin varnish-7.7.3</a></tt></summary>
-<ul>
-<li>prometheus-varnish-exporter.x86_64-darwin</li>
 </ul>
 </details>
 </td>
