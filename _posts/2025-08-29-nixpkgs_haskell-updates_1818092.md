@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:haskell-updates 1818092
+title: nixpkgs:haskell-updates 1818092 (succeeded)
 categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-08-30 11:05:03 UTC*
+*Report built at 2025-08-30 13:08:57 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>648 issues</summary>
+<details><summary>649 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -900,6 +900,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>graph-wrapper-0.2.6.0</tt> <br /> <a href='https://hydra.nixos.org/build/306253283/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/306253283/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/306253283/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/305719341'>build 305719341</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/306253332'>haskellPackages.acts.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>ghc-typelits-natnormalise-0.7.12</tt> <br /> <a href='https://hydra.nixos.org/build/306253332/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/306253332/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/306253332/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/306254528'>build 306254528</a>
 </li>
 </ul>
 </details>
@@ -6365,27 +6379,6 @@ Built for evals:
 </table>
 </details>
 
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/306255307'>haskellPackages.json-rpc.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-</table>
-</details>
-
 ## Problematic dependencies
 
 <table>
@@ -6428,6 +6421,39 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/306254528'>x86_64-linux ghc-typelits-natnormalise-0.7.12</a></tt></summary>
+<ul>
+<li>haskellPackages.acts.x86_64-linux</li>
+<li>haskellPackages.bins.x86_64-linux</li>
+<li>haskellPackages.emd.x86_64-linux</li>
+<li>haskellPackages.finitary.x86_64-linux</li>
+<li>haskellPackages.ghc-typelits-knownnat.x86_64-linux</li>
+<li>haskellPackages.hmatrix-backprop.x86_64-linux</li>
+<li>haskellPackages.hmatrix-vector-sized.x86_64-linux</li>
+<li>haskellPackages.matrix-static.x86_64-linux</li>
+<li>haskellPackages.modular.x86_64-linux</li>
+<li>haskellPackages.typerep-map.x86_64-linux</li>
+<li>haskellPackages.circuit-notation.x86_64-linux</li>
+<li>haskellPackages.clash-ghc.x86_64-linux</li>
+<li>haskellPackages.clash-lib.x86_64-linux</li>
+<li>haskellPackages.clash-prelude-hedgehog.x86_64-linux</li>
+<li>haskellPackages.clash-prelude.x86_64-linux</li>
+<li>haskellPackages.clash-shake.x86_64-linux</li>
+<li>haskellPackages.dahdit-network.x86_64-linux</li>
+<li>haskellPackages.dahdit.x86_64-linux</li>
+<li>haskellPackages.ghc-typelits-extra.x86_64-linux</li>
+<li>haskellPackages.hasktorch.x86_64-linux</li>
+<li>haskellPackages.ice40-prim.x86_64-linux</li>
+<li>haskellPackages.lion.x86_64-linux</li>
+<li>haskellPackages.sized.x86_64-linux</li>
+<li>haskellPackages.type-natural.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>24</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/305718112'>x86_64-linux data-clist-0.2</a></tt></summary>
 <ul>
 <li>git-brunch.x86_64-linux</li>
@@ -6458,38 +6484,6 @@ Built for evals:
 </details>
 </td>
 <td>24</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/306254528'>x86_64-linux ghc-typelits-natnormalise-0.7.12</a></tt></summary>
-<ul>
-<li>haskellPackages.bins.x86_64-linux</li>
-<li>haskellPackages.emd.x86_64-linux</li>
-<li>haskellPackages.finitary.x86_64-linux</li>
-<li>haskellPackages.ghc-typelits-knownnat.x86_64-linux</li>
-<li>haskellPackages.hmatrix-backprop.x86_64-linux</li>
-<li>haskellPackages.hmatrix-vector-sized.x86_64-linux</li>
-<li>haskellPackages.matrix-static.x86_64-linux</li>
-<li>haskellPackages.modular.x86_64-linux</li>
-<li>haskellPackages.typerep-map.x86_64-linux</li>
-<li>haskellPackages.circuit-notation.x86_64-linux</li>
-<li>haskellPackages.clash-ghc.x86_64-linux</li>
-<li>haskellPackages.clash-lib.x86_64-linux</li>
-<li>haskellPackages.clash-prelude-hedgehog.x86_64-linux</li>
-<li>haskellPackages.clash-prelude.x86_64-linux</li>
-<li>haskellPackages.clash-shake.x86_64-linux</li>
-<li>haskellPackages.dahdit-network.x86_64-linux</li>
-<li>haskellPackages.dahdit.x86_64-linux</li>
-<li>haskellPackages.ghc-typelits-extra.x86_64-linux</li>
-<li>haskellPackages.hasktorch.x86_64-linux</li>
-<li>haskellPackages.ice40-prim.x86_64-linux</li>
-<li>haskellPackages.lion.x86_64-linux</li>
-<li>haskellPackages.sized.x86_64-linux</li>
-<li>haskellPackages.type-natural.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>23</td>
 </tr>
 <tr>
 <td>
