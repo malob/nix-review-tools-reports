@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:staging-next-25.05 1818069
+title: nixpkgs:staging-next-25.05 1818069 (succeeded)
 categories: nixpkgs:staging-next-25.05
 ---
 # Evals report
 
-*Report built at 2025-08-30 02:36:38 UTC*
+*Report built at 2025-08-30 03:22:32 UTC*
 
 Built for evals:
 
@@ -14692,7 +14692,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1290 issues</summary>
+<details><summary>1291 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -25825,6 +25825,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/305454059'>rsshub.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/305466017'>stalwart-mail.x86_64-darwin</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -47448,27 +47454,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/305513480'>python313Packages.pylance.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/305466017'>stalwart-mail.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 </table>
 </details>
