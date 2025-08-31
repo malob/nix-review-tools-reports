@@ -1,10 +1,10 @@
 ---
-title: nixos:release-25.05 1818131
+title: nixos:release-25.05 1818131 (succeeded)
 categories: nixos:release-25.05
 ---
 # Evals report
 
-*Report built at 2025-08-31 20:10:06 UTC*
+*Report built at 2025-08-31 21:09:59 UTC*
 
 Built for evals:
 
@@ -16122,7 +16122,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>1590 issues</summary>
+<details><summary>1591 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -30744,6 +30744,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/306195293'>nixpkgs.preserves-nim.aarch64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/306354737'>nixpkgs.python313Packages.datalad-gooey.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -30759,27 +30765,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/306228219'>nixpkgs.python313Packages.reflex.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/306354156'>nixpkgs.openroad.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 </table>
 </details>
