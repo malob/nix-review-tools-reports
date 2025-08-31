@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.05-darwin
 ---
 # Evals report
 
-*Report built at 2025-08-31 18:09:09 UTC*
+*Report built at 2025-08-31 19:07:55 UTC*
 
 Built for evals:
 
@@ -19595,20 +19595,13 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>2 issues</summary>
+<details><summary>1 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/306567575'>firefox-unwrapped.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/306567576'>firefox-unwrapped.x86_64-darwin</a></tt>
