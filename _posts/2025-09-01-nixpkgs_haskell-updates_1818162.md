@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-09-02 12:06:27 UTC*
+*Report built at 2025-09-02 13:13:18 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>611 issues</summary>
+<details><summary>612 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -1040,6 +1040,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>mono-traversable-keys-0.3.0</tt> <br /> <a href='https://hydra.nixos.org/build/306253929/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/306253929/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/306253929/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/306255600'>build 306255600</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/306588846'>haskellPackages.calamity.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>aeson-optics-1.2.1</tt> <br /> <a href='https://hydra.nixos.org/build/306588846/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/306588846/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/306588846/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/306253308'>build 306253308</a>
 </li>
 </ul>
 </details>
@@ -5883,7 +5897,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>33 issues</summary>
+<details><summary>31 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -6039,13 +6053,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/306588846'>haskellPackages.calamity.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/306588847'>haskellPackages.distribution-nixpkgs-unstable.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -6061,13 +6068,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/306588851'>haskellPackages.hackage-db-unstable.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/306588853'>haskellPackages.linear-tests.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -6322,6 +6322,21 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/306253308'>x86_64-linux aeson-optics-1.2.1</a></tt></summary>
+<ul>
+<li>emanote.x86_64-linux</li>
+<li>haskellPackages.calamity.x86_64-linux</li>
+<li>haskellPackages.emanote.x86_64-linux</li>
+<li>haskellPackages.hevm.x86_64-linux</li>
+<li>haskellPackages.jsonpatch.x86_64-linux</li>
+<li>haskellPackages.testcontainers.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>6</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/305720025'>x86_64-linux ilist-0.4.0.1</a></tt></summary>
 <ul>
 <li>hadolint.x86_64-linux</li>
@@ -6344,20 +6359,6 @@ Built for evals:
 <li>haskellPackages.dhall-nix.x86_64-linux</li>
 <li>haskellPackages.dhall-nixpkgs.x86_64-linux</li>
 <li>haskellPackages.hnix.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>5</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/306253308'>x86_64-linux aeson-optics-1.2.1</a></tt></summary>
-<ul>
-<li>emanote.x86_64-linux</li>
-<li>haskellPackages.emanote.x86_64-linux</li>
-<li>haskellPackages.hevm.x86_64-linux</li>
-<li>haskellPackages.jsonpatch.x86_64-linux</li>
-<li>haskellPackages.testcontainers.x86_64-linux</li>
 </ul>
 </details>
 </td>
