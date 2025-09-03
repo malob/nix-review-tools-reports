@@ -1,10 +1,10 @@
 ---
-title: nixos:trunk-combined 1818180
+title: nixos:trunk-combined 1818180 (succeeded)
 categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2025-09-03 01:37:24 UTC*
+*Report built at 2025-09-03 05:09:54 UTC*
 
 Built for evals:
 
@@ -14306,6 +14306,31 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/306078364'>nixpkgs.python312Packages.reflex.x86_64-linux</a></tt>
 </td>
 <td>Timed out</td>
+</tr>
+</table>
+</details>
+
+
+### x86_64-darwin
+
+
+<details><summary>2 issues</summary>
+<table>
+<thead><tr>
+<th>job</th>
+<th>status</th>
+</tr></thead>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/306624083'>nixpkgs.stdenvBootstrapTools.x86_64-apple-darwin.build</a></tt>
+</td>
+<td>Cancelled</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/306624084'>nixpkgs.stdenvBootstrapTools.x86_64-apple-darwin.test</a></tt>
+</td>
+<td>Cancelled</td>
 </tr>
 </table>
 </details>
@@ -36891,34 +36916,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/306112234'>nixpkgs.snapshot.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>2 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/306624083'>nixpkgs.stdenvBootstrapTools.x86_64-apple-darwin.build</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/306624084'>nixpkgs.stdenvBootstrapTools.x86_64-apple-darwin.test</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 </table>
 </details>
