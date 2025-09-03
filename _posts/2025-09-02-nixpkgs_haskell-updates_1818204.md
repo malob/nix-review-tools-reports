@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-09-03 18:05:54 UTC*
+*Report built at 2025-09-03 19:04:57 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>590 issues</summary>
+<details><summary>592 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -3345,6 +3345,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/306588861'>haskellPackages.update-nix-fetchgit.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>hashing-0.1.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/306588861/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/306588861/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/306588861/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/305719467'>build 305719467</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/306256733'>haskellPackages.uuagc.x86_64-linux</a></tt>
 </summary>
 <ul>
@@ -3420,6 +3434,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>yu-utils-0.1.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/306257002/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/306257002/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/306257002/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/306256998'>build 306256998</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/306636687'>pkgsStatic.haskellPackages.postgrest.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>libpq-static-x86_64-unknown-linux-musl-17.5</tt> <br /> <a href='https://hydra.nixos.org/build/306636687/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/306636687/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/306636687/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/305723876'>build 305723876</a>
 </li>
 </ul>
 </details>
@@ -5581,7 +5609,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>31 issues</summary>
+<details><summary>26 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -5618,13 +5646,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/306588834'>haskell.packages.ghc965.cabal2nix-unstable.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/306588836'>haskell.packages.ghc967.cabal2nix-unstable.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -5640,13 +5661,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/306636660'>haskellPackages.bhoogle.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/306636662'>haskellPackages.brick-list-skip.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -5682,13 +5696,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/306636667'>haskellPackages.ghc-debug-brick.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/306636668'>haskellPackages.ghcitui.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -5751,13 +5758,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/306588861'>haskellPackages.update-nix-fetchgit.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/306588862'>haskellPackages.wikimusic-model-hs.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -5787,13 +5787,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/306636686'>pkgsStatic.haskell.packages.native-bignum.ghc948.postgrest.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/306636687'>pkgsStatic.haskellPackages.postgrest.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -5958,6 +5951,22 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/305719467'>x86_64-linux hashing-0.1.1.0</a></tt></summary>
+<ul>
+<li>dhall-nix.x86_64-linux</li>
+<li>dhall-nixpkgs.x86_64-linux</li>
+<li>haskellPackages.dhall-nix.x86_64-linux</li>
+<li>haskellPackages.dhall-nixpkgs.x86_64-linux</li>
+<li>haskellPackages.hnix.x86_64-linux</li>
+<li>haskellPackages.update-nix-fetchgit.x86_64-linux</li>
+<li>update-nix-fetchgit.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>7</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt>x86_64-linux skeletest-0.2.1</tt></summary>
 <ul>
 <li>haskell.packages.ghc947.weeder.x86_64-linux</li>
@@ -5971,21 +5980,6 @@ Built for evals:
 </details>
 </td>
 <td>7</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/305719467'>x86_64-linux hashing-0.1.1.0</a></tt></summary>
-<ul>
-<li>dhall-nix.x86_64-linux</li>
-<li>dhall-nixpkgs.x86_64-linux</li>
-<li>haskellPackages.dhall-nix.x86_64-linux</li>
-<li>haskellPackages.dhall-nixpkgs.x86_64-linux</li>
-<li>haskellPackages.hnix.x86_64-linux</li>
-<li>update-nix-fetchgit.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>6</td>
 </tr>
 <tr>
 <td>
@@ -6888,6 +6882,16 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/306256998'>x86_64-linux yu-utils-0.1.1.0</a></tt></summary>
 <ul>
 <li>haskellPackages.yu-auth.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/305723876'>x86_64-linux libpq-static-x86_64-unknown-linux-musl-17.5</a></tt></summary>
+<ul>
+<li>pkgsStatic.haskellPackages.postgrest.x86_64-linux</li>
 </ul>
 </details>
 </td>
