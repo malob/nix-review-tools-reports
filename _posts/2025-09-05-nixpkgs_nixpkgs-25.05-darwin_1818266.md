@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.05-darwin
 ---
 # Evals report
 
-*Report built at 2025-09-05 18:09:01 UTC*
+*Report built at 2025-09-05 19:07:47 UTC*
 
 Built for evals:
 
@@ -19353,7 +19353,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>626 issues</summary>
+<details><summary>624 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -21910,13 +21910,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/306782586'>python312Packages.amaranth.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/306782594'>python312Packages.cardimpose.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -23059,13 +23052,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/306782766'>saga.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/306782769'>sby.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
