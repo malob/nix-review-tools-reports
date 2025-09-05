@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.05-darwin
 ---
 # Evals report
 
-*Report built at 2025-09-05 15:08:18 UTC*
+*Report built at 2025-09-05 16:08:05 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1260 issues</summary>
+<details><summary>1261 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -2941,6 +2941,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>memcache-0.3.0.2</tt> <br /> <a href='https://hydra.nixos.org/build/306283254/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/306283254/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/306283254/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/305332448'>build 305332448</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/306782377'>hikounomizu.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>synfig-1.5.3</tt> <br /> <a href='https://hydra.nixos.org/build/306782377/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/306782377/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/306782377/nixlog/1/tail'>tail</a>
 </li>
 </ul>
 </details>
@@ -19339,7 +19353,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>652 issues</summary>
+<details><summary>646 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -19366,13 +19380,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/306782201'>anvil-editor.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -20013,13 +20020,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/306782297'>faircamp.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/306782294'>fastfetch.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -20587,13 +20587,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/306782377'>hikounomizu.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/306782379'>hmcl.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -21042,13 +21035,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/306782452'>lua53Packages.image-nvim.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/306782454'>lua54Packages.image-nvim.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -21088,13 +21074,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/306782460'>luajitPackages.magick.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -23688,13 +23667,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/306782840'>vips.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/306782842'>vipsdisp.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -25961,6 +25933,16 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/305354488'>aarch64-darwin libportal-gtk4-0.9.1</a></tt></summary>
 <ul>
 <li>gradience.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>x86_64-darwin synfig-1.5.3</tt></summary>
+<ul>
+<li>hikounomizu.x86_64-darwin</li>
 </ul>
 </details>
 </td>
