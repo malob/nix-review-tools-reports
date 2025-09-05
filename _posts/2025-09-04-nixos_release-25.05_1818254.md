@@ -4,7 +4,7 @@ categories: nixos:release-25.05
 ---
 # Evals report
 
-*Report built at 2025-09-05 08:09:14 UTC*
+*Report built at 2025-09-05 09:09:07 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>1873 issues</summary>
+<details><summary>1869 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -1163,20 +1163,6 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>python3.12-psycopg-3.2.8</tt> <br /> <a href='https://hydra.nixos.org/build/306687844/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/306687844/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/306687844/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/306688858'>build 306688858</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/306687842'>nixpkgs.froide.x86_64-linux</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Cached failure</b> <tt>python3.12-psycopg-3.2.8</tt> <br /> <a href='https://hydra.nixos.org/build/306687842/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/306687842/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/306687842/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/306688858'>build 306688858</a>
 </li>
 </ul>
 </details>
@@ -7976,34 +7962,6 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
-<tt><a href='https://hydra.nixos.org/build/306688859'>nixpkgs.netbox.x86_64-linux</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Cached failure</b> <tt>python3.12-psycopg-3.2.8</tt> <br /> <a href='https://hydra.nixos.org/build/306688859/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/306688859/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/306688859/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/306688858'>build 306688858</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/306688858'>nixpkgs.netbox_4_2.x86_64-linux</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Failed</b> <tt>python3.12-psycopg-3.2.8</tt> <br /> <a href='https://hydra.nixos.org/build/306688858/nixlog/30'>log</a>, <a href='https://hydra.nixos.org/build/306688858/nixlog/30/raw'>raw</a>, <a href='https://hydra.nixos.org/build/306688858/nixlog/30/tail'>tail</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
-<details><summary>
 <tt><a href='https://hydra.nixos.org/build/306649060'>nixpkgs.nodePackages_latest.vega-lite.x86_64-linux</a></tt>
 </summary>
 <ul>
@@ -10164,12 +10122,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/306147860'>nixpkgs.gnucobol.x86_64-linux</a></tt>
-</td>
-<td>Failed</td>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/306687869'>nixpkgs.gotenberg.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -32122,9 +32074,6 @@ Built for evals:
 <li>nixos.tests.paperless.x86_64-linux</li>
 <li>nixos.tests.weblate.x86_64-linux</li>
 <li>nixpkgs.froide-govplan.x86_64-linux</li>
-<li>nixpkgs.froide.x86_64-linux</li>
-<li>nixpkgs.netbox.x86_64-linux</li>
-<li>nixpkgs.netbox_4_2.x86_64-linux</li>
 <li>nixpkgs.paperless-ngx.x86_64-linux</li>
 <li>nixpkgs.python312Packages.froide.x86_64-linux</li>
 <li>nixpkgs.python312Packages.netbox-attachments.x86_64-linux</li>
@@ -32151,7 +32100,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>35</td>
+<td>32</td>
 </tr>
 <tr>
 <td>
