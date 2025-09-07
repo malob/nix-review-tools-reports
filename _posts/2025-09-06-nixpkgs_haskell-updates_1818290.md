@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-09-07 09:04:44 UTC*
+*Report built at 2025-09-07 10:04:48 UTC*
 
 Built for evals:
 
@@ -4485,7 +4485,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>52 issues</summary>
+<details><summary>51 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -4740,13 +4740,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/306810663'>haskellPackages.pursuit-client.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/306810664'>haskellPackages.sitemap.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
