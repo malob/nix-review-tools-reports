@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.05-darwin
 ---
 # Evals report
 
-*Report built at 2025-09-07 05:07:52 UTC*
+*Report built at 2025-09-07 07:07:45 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1259 issues</summary>
+<details><summary>1260 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -5429,6 +5429,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>tesseract-3.05.02</tt> <br /> <a href='https://hydra.nixos.org/build/306328156/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/306328156/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/306328156/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/305468818'>build 305468818</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/306782826'>texliveFull.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>libsigsegv-2.14</tt> <br /> <a href='https://hydra.nixos.org/build/306782826/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/306782826/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/306782826/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/304436873'>build 304436873</a>
 </li>
 </ul>
 </details>
@@ -19341,7 +19355,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>785 issues</summary>
+<details><summary>784 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -24432,13 +24446,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/306782826'>texliveFull.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/306782816'>texliveMedium.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -25465,6 +25472,19 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/304436873'>x86_64-darwin libsigsegv-2.14</a></tt></summary>
+<ul>
+<li>clisp.x86_64-darwin</li>
+<li>maude.x86_64-darwin</li>
+<li>texliveFull.x86_64-darwin</li>
+<li>yosys-bluespec.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>4</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/304471080'>aarch64-darwin python3.12-ssdpy-0.4.1</a></tt></summary>
 <ul>
 <li>controku.aarch64-darwin</li>
@@ -25761,18 +25781,6 @@ Built for evals:
 </details>
 </td>
 <td>4</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/304436873'>x86_64-darwin libsigsegv-2.14</a></tt></summary>
-<ul>
-<li>clisp.x86_64-darwin</li>
-<li>maude.x86_64-darwin</li>
-<li>yosys-bluespec.x86_64-darwin</li>
-</ul>
-</details>
-</td>
-<td>3</td>
 </tr>
 <tr>
 <td>
