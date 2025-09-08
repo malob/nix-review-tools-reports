@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-09-08 22:04:49 UTC*
+*Report built at 2025-09-08 23:04:53 UTC*
 
 Built for evals:
 
@@ -4281,7 +4281,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>130 issues</summary>
+<details><summary>125 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -4297,13 +4297,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/306865722'>agdaPackages._1lab.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/306865725'>agdaPackages.agda-categories.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -4312,13 +4305,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/306865727'>agdaPackages.agda-prelude.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/306865721'>agdaPackages.agda.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -4368,13 +4354,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/306865737'>cabal2nix.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/306865734'>cachix.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -4633,13 +4612,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/306865765'>haskell.packages.ghc967.nix-paths.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/306865767'>haskell.packages.ghc984.nix-paths.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -4711,13 +4683,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/306865777'>haskellPackages.hercules-ci-cnix-expr.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/306865776'>haskellPackages.hercules-ci-cnix-store.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
