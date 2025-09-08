@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-09-07 12:05:50 UTC*
+*Report built at 2025-09-08 05:04:57 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>517 issues</summary>
+<details><summary>519 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -2211,6 +2211,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/306810665'>haskellPackages.update-nix-fetchgit.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>hnix-0.17.0</tt> <br /> <a href='https://hydra.nixos.org/build/306810665/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/306810665/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/306810665/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/306667609'>build 306667609</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/306256733'>haskellPackages.uuagc.x86_64-linux</a></tt>
 </summary>
 <ul>
@@ -2370,6 +2384,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>stack-3.7.1</tt> <br /> <a href='https://hydra.nixos.org/build/306257084/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/306257084/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/306257084/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/306257073'>build 306257073</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/306810678'>update-nix-fetchgit.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>hnix-0.17.0</tt> <br /> <a href='https://hydra.nixos.org/build/306810678/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/306810678/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/306810678/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/306667609'>build 306667609</a>
 </li>
 </ul>
 </details>
@@ -4485,7 +4513,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>49 issues</summary>
+<details><summary>45 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -4711,28 +4739,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/306810659'>haskellPackages.opencascade-hs.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/306810662'>haskellPackages.pipes-cacophony.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/306810663'>haskellPackages.pursuit-client.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/306810665'>haskellPackages.update-nix-fetchgit.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -4828,13 +4835,6 @@ Built for evals:
 <td>Queued</td>
 <th>x86_64-linux</th>
 </tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/306810678'>update-nix-fetchgit.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
 </table>
 </details>
 
@@ -4866,6 +4866,21 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/306667609'>x86_64-linux hnix-0.17.0</a></tt></summary>
+<ul>
+<li>dhall-nix.x86_64-linux</li>
+<li>dhall-nixpkgs.x86_64-linux</li>
+<li>haskellPackages.dhall-nix.x86_64-linux</li>
+<li>haskellPackages.dhall-nixpkgs.x86_64-linux</li>
+<li>haskellPackages.update-nix-fetchgit.x86_64-linux</li>
+<li>update-nix-fetchgit.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>6</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/306255579'>x86_64-linux monad-logger-aeson-0.4.1.4</a></tt></summary>
 <ul>
 <li>haskellPackages.Blammo-wai.x86_64-linux</li>
@@ -4891,19 +4906,6 @@ Built for evals:
 </details>
 </td>
 <td>5</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/306667609'>x86_64-linux hnix-0.17.0</a></tt></summary>
-<ul>
-<li>dhall-nix.x86_64-linux</li>
-<li>dhall-nixpkgs.x86_64-linux</li>
-<li>haskellPackages.dhall-nix.x86_64-linux</li>
-<li>haskellPackages.dhall-nixpkgs.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>4</td>
 </tr>
 <tr>
 <td>
