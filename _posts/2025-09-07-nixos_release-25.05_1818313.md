@@ -4,7 +4,7 @@ categories: nixos:release-25.05
 ---
 # Evals report
 
-*Report built at 2025-09-08 05:09:01 UTC*
+*Report built at 2025-09-08 06:10:29 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>1829 issues</summary>
+<details><summary>1828 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -8964,20 +8964,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/306833411'>tested</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Failed</b> <tt>firefox-unwrapped-140.2.0esr</tt> <br /> <a href='https://hydra.nixos.org/build/306833411/nixlog/1957'>log</a>, <a href='https://hydra.nixos.org/build/306833411/nixlog/1957/raw'>raw</a>, <a href='https://hydra.nixos.org/build/306833411/nixlog/1957/tail'>tail</a>, <a href='https://hydra.nixos.org/build/306832969'>build 306832969</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/306827764'>nixos.tests.allDrivers.mealie.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -16141,7 +16127,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>1595 issues</summary>
+<details><summary>1594 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -26353,12 +26339,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/306832957'>nixpkgs.firefox-esr-unwrapped.aarch64-linux</a></tt>
-</td>
-<td>Failed</td>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/306144063'>nixpkgs.fmsynth.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -30960,7 +30940,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>3 issues</summary>
+<details><summary>4 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -30976,6 +30956,13 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/306832957'>nixpkgs.firefox-esr-unwrapped.aarch64-linux</a></tt>
+</td>
+<td>Queued</td>
+<th>aarch64-linux</th>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/306803955'>nixpkgs.kicad-testing-small.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -30983,10 +30970,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/306808837'>nixpkgs.qtcreator.aarch64-linux</a></tt>
+<tt><a href='https://hydra.nixos.org/build/306833411'>tested</a></tt>
 </td>
 <td>Queued</td>
-<th>aarch64-linux</th>
+<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
@@ -32179,21 +32166,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/306832969'>aarch64-linux firefox-unwrapped-140.2.0esr</a></tt></summary>
-<ul>
-<li>nixos.tests.allDrivers.firefox-esr.aarch64-linux</li>
-<li>nixos.tests.firefox-esr.aarch64-linux</li>
-<li>nixpkgs.eyewitness.aarch64-linux</li>
-<li>nixos.tests.allDrivers.firefox-esr-140.aarch64-linux</li>
-<li>nixos.tests.firefox-esr-140.aarch64-linux</li>
-<li>tested</li>
-</ul>
-</details>
-</td>
-<td>6</td>
-</tr>
-<tr>
-<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/306832961'>aarch64-linux firefox-unwrapped-142.0.1</a></tt></summary>
 <ul>
 <li>nixos.tests.allDrivers.incus.ui.aarch64-linux</li>
@@ -32251,6 +32223,20 @@ Built for evals:
 </details>
 </td>
 <td>6</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/306832969'>aarch64-linux firefox-unwrapped-140.2.0esr</a></tt></summary>
+<ul>
+<li>nixos.tests.allDrivers.firefox-esr.aarch64-linux</li>
+<li>nixos.tests.firefox-esr.aarch64-linux</li>
+<li>nixpkgs.eyewitness.aarch64-linux</li>
+<li>nixos.tests.allDrivers.firefox-esr-140.aarch64-linux</li>
+<li>nixos.tests.firefox-esr-140.aarch64-linux</li>
+</ul>
+</details>
+</td>
+<td>5</td>
 </tr>
 <tr>
 <td>
