@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:haskell-updates 1818290
+title: nixpkgs:haskell-updates 1818290 (succeeded)
 categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-09-08 10:05:00 UTC*
+*Report built at 2025-09-08 11:04:50 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>525 issues</summary>
+<details><summary>528 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -71,6 +71,34 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>fourmolu-0.16.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/306667545/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/306667545/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/306667545/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/306254441'>build 306254441</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/306810622'>haskell.compiler.ghcjs.bootGhcjs.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>vector-algorithms-0.9.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/306810622/nixlog/6'>log</a>, <a href='https://hydra.nixos.org/build/306810622/nixlog/6/raw'>raw</a>, <a href='https://hydra.nixos.org/build/306810622/nixlog/6/tail'>tail</a>, <a href='https://hydra.nixos.org/build/306810623'>build 306810623</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/306810623'>haskell.compiler.ghcjs810.bootGhcjs.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>vector-algorithms-0.9.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/306810623/nixlog/118'>log</a>, <a href='https://hydra.nixos.org/build/306810623/nixlog/118/raw'>raw</a>, <a href='https://hydra.nixos.org/build/306810623/nixlog/118/tail'>tail</a>
 </li>
 </ul>
 </details>
@@ -2446,6 +2474,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/306810615'>echidna.x86_64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/306667513'>emanote.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -4553,62 +4587,6 @@ Built for evals:
 </table>
 </details>
 
-
-### Still queued
-
-
-<details><summary>6 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/306810615'>echidna.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/306810622'>haskell.compiler.ghcjs.bootGhcjs.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/306810623'>haskell.compiler.ghcjs810.bootGhcjs.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/306810620'>haskell.packages.ghc8107.hoogle.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/306810647'>haskellPackages.hgdal.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/306667688'>pkgsCross.ghcjs.haskell.packages.ghc912.reflex-dom.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-</table>
-</details>
-
 ## Problematic dependencies
 
 <table>
@@ -4884,6 +4862,17 @@ Built for evals:
 <ul>
 <li>diagrams-builder.x86_64-linux</li>
 <li>haskellPackages.diagrams-pandoc.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/306810623'>x86_64-linux vector-algorithms-0.9.1.0</a></tt></summary>
+<ul>
+<li>haskell.compiler.ghcjs.bootGhcjs.x86_64-linux</li>
+<li>haskell.compiler.ghcjs810.bootGhcjs.x86_64-linux</li>
 </ul>
 </details>
 </td>
