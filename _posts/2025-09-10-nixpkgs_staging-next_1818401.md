@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:staging-next 1818401
+title: nixpkgs:staging-next 1818401 (succeeded)
 categories: nixpkgs:staging-next
 ---
 # Evals report
 
-*Report built at 2025-09-11 02:00:18 UTC*
+*Report built at 2025-09-11 04:29:39 UTC*
 
 Built for evals:
 
@@ -14644,7 +14644,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1817 issues</summary>
+<details><summary>1823 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -32845,6 +32845,42 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/307028284'>tests.fetchtorrent.http-link-rqbit-flattened.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/307028288'>tests.fetchtorrent.http-link-rqbit-unflattened.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/307028280'>tests.fetchtorrent.http-link-rqbit.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/307028279'>tests.fetchtorrent.magnet-link-rqbit-flattened.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/307028293'>tests.fetchtorrent.magnet-link-rqbit-unflattened.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/307028295'>tests.fetchtorrent.magnet-link-rqbit.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/306755182'>volantes-cursors.x86_64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -47486,7 +47522,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1554 issues</summary>
+<details><summary>1560 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -64213,103 +64249,41 @@ Built for evals:
 </td>
 <td>Timed out</td>
 </tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>12 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/307028286'>tests.fetchtorrent.http-link-rqbit-flattened.aarch64-darwin</a></tt>
 </td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/307028284'>tests.fetchtorrent.http-link-rqbit-flattened.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
+<td>Timed out</td>
 </tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/307028275'>tests.fetchtorrent.http-link-rqbit-unflattened.aarch64-darwin</a></tt>
 </td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/307028288'>tests.fetchtorrent.http-link-rqbit-unflattened.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
+<td>Timed out</td>
 </tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/307028274'>tests.fetchtorrent.http-link-rqbit.aarch64-darwin</a></tt>
 </td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/307028280'>tests.fetchtorrent.http-link-rqbit.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
+<td>Timed out</td>
 </tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/307028282'>tests.fetchtorrent.magnet-link-rqbit-flattened.aarch64-darwin</a></tt>
 </td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/307028279'>tests.fetchtorrent.magnet-link-rqbit-flattened.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
+<td>Timed out</td>
 </tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/307028294'>tests.fetchtorrent.magnet-link-rqbit-unflattened.aarch64-darwin</a></tt>
 </td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/307028293'>tests.fetchtorrent.magnet-link-rqbit-unflattened.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
+<td>Timed out</td>
 </tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/307028281'>tests.fetchtorrent.magnet-link-rqbit.aarch64-darwin</a></tt>
 </td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/307028295'>tests.fetchtorrent.magnet-link-rqbit.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
+<td>Timed out</td>
 </tr>
 </table>
 </details>
