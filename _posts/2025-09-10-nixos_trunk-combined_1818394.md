@@ -1,10 +1,10 @@
 ---
-title: nixos:trunk-combined 1818394
+title: nixos:trunk-combined 1818394 (succeeded)
 categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2025-09-11 10:09:33 UTC*
+*Report built at 2025-09-11 11:09:32 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>1741 issues</summary>
+<details><summary>1742 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -24,6 +24,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/306916372'>nixpkgs.home-assistant-component-tests.playstation_network.x86_64-linux</a></tt>
+</td>
+<td>Cancelled</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/306916514'>nixpkgs.home-assistant-component-tests.roborock.x86_64-linux</a></tt>
 </td>
 <td>Cancelled</td>
 </tr>
@@ -28753,27 +28759,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/306990553'>nixpkgs.python313Packages.pyrate-limiter.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/306916514'>nixpkgs.home-assistant-component-tests.roborock.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
