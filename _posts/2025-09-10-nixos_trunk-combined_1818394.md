@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2025-09-11 09:09:48 UTC*
+*Report built at 2025-09-11 10:09:33 UTC*
 
 Built for evals:
 
@@ -15,12 +15,24 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>1729 issues</summary>
+<details><summary>1741 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 </tr></thead>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/306916372'>nixpkgs.home-assistant-component-tests.playstation_network.x86_64-linux</a></tt>
+</td>
+<td>Cancelled</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/306935073'>nixpkgs.mathemagix.x86_64-linux</a></tt>
+</td>
+<td>Cancelled</td>
+</tr>
 <tr>
 <td>
 <details><summary>
@@ -5216,6 +5228,32 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/306963125'>nixpkgs.python312Packages.flake8-import-order.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>flake8-import-order-0.19.2.tar.gz</tt> <br /> <a href='https://hydra.nixos.org/build/306963125/nixlog/5'>log</a>, <a href='https://hydra.nixos.org/build/306963125/nixlog/5/raw'>raw</a>, <a href='https://hydra.nixos.org/build/306963125/nixlog/5/tail'>tail</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>flake8-import-order-0.19.2.tar.gz</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>flake8-import-order-0.19.2.tar.gz</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>flake8-import-order-0.19.2.tar.gz</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>flake8-import-order-0.19.2.tar.gz</tt> <br /> 
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/306963296'>nixpkgs.python312Packages.flowlogs-reader.x86_64-linux</a></tt>
 </summary>
 <ul>
@@ -6014,6 +6052,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/306982571'>nixpkgs.python313Packages.flake8-import-order.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>flake8-import-order-0.19.2.tar.gz</tt> <br /> <a href='https://hydra.nixos.org/build/306982571/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/306982571/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/306982571/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/306963125'>build 306963125</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/306982732'>nixpkgs.python313Packages.flowlogs-reader.x86_64-linux</a></tt>
 </summary>
 <ul>
@@ -6784,6 +6836,32 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/307006312'>nixpkgs.sm64baserom.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>baserom.us.z64</tt> <br /> <a href='https://hydra.nixos.org/build/307006312/nixlog/5'>log</a>, <a href='https://hydra.nixos.org/build/307006312/nixlog/5/raw'>raw</a>, <a href='https://hydra.nixos.org/build/307006312/nixlog/5/tail'>tail</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>baserom.us.z64</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>baserom.us.z64</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>baserom.us.z64</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>baserom.us.z64</tt> <br /> 
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/307008413'>nixpkgs.tacentview.x86_64-linux</a></tt>
 </summary>
 <ul>
@@ -7129,6 +7207,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/307032837'>nixos.tests.bitcoind.x86_64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/307032854'>nixos.tests.blockbook-frontend.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -7231,6 +7315,18 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/307033545'>nixos.tests.ifstate.initrd-wireguard.x86_64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/307033534'>nixos.tests.ifstate.initrd.x86_64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/307033631'>nixos.tests.installed-tests.gdk-pixbuf.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -7285,7 +7381,19 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/307033710'>nixos.tests.installer.switchToByAttr.x86_64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/307033760'>nixos.tests.iscsi-multipath-root.x86_64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/307033813'>nixos.tests.k3s.etcd.k3s_1_32.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -7382,6 +7490,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/307034705'>nixos.tests.nvmetcfg.x86_64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/307034704'>nixos.tests.oci-containers.podman-rootless-conmon.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -14455,6 +14569,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/307034651'>nixos.tests.nixos-rebuild-install-bootloader-ng.x86_64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/306964029'>nixpkgs.python312Packages.granian.x86_64-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -14466,12 +14586,18 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>1631 issues</summary>
+<details><summary>1635 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 </tr></thead>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/306904173'>nixpkgs.haskellPackages.duckdb-haskell.aarch64-linux</a></tt>
+</td>
+<td>Cancelled</td>
+</tr>
 <tr>
 <td>
 <details><summary>
@@ -19767,6 +19893,32 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/306963170'>nixpkgs.python312Packages.flake8-import-order.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>flake8-import-order-0.19.2.tar.gz</tt> <br /> <a href='https://hydra.nixos.org/build/306963170/nixlog/5'>log</a>, <a href='https://hydra.nixos.org/build/306963170/nixlog/5/raw'>raw</a>, <a href='https://hydra.nixos.org/build/306963170/nixlog/5/tail'>tail</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>flake8-import-order-0.19.2.tar.gz</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>flake8-import-order-0.19.2.tar.gz</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>flake8-import-order-0.19.2.tar.gz</tt> <br /> 
+</li>
+<li>
+<b>=> Failed</b> <tt>flake8-import-order-0.19.2.tar.gz</tt> <br /> 
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/306963316'>nixpkgs.python312Packages.flowlogs-reader.aarch64-linux</a></tt>
 </summary>
 <ul>
@@ -22256,6 +22408,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/307033602'>nixos.tests.initrd-secrets.lzop.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/307033608'>nixos.tests.initrd-secrets.pigz.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -22503,6 +22661,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/307034792'>nixos.tests.pam-zfs-key.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/307034832'>nixos.tests.phosh.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -28597,7 +28761,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>18 issues</summary>
+<details><summary>1 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -28606,126 +28770,7 @@ Built for evals:
 </tr></thead>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/307032837'>nixos.tests.bitcoind.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/307033545'>nixos.tests.ifstate.initrd-wireguard.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/307033534'>nixos.tests.ifstate.initrd.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/307033602'>nixos.tests.initrd-secrets.lzop.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/307033710'>nixos.tests.installer.switchToByAttr.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/307033813'>nixos.tests.k3s.etcd.k3s_1_32.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/307034651'>nixos.tests.nixos-rebuild-install-bootloader-ng.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/307034704'>nixos.tests.oci-containers.podman-rootless-conmon.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/307034832'>nixos.tests.phosh.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/307035633'>nixos.tests.systemd-initrd-btrfs-raid.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/306904173'>nixpkgs.haskellPackages.duckdb-haskell.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/306916372'>nixpkgs.home-assistant-component-tests.playstation_network.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/306916514'>nixpkgs.home-assistant-component-tests.roborock.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/306935073'>nixpkgs.mathemagix.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/306963170'>nixpkgs.python312Packages.flake8-import-order.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/306963125'>nixpkgs.python312Packages.flake8-import-order.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/306982571'>nixpkgs.python313Packages.flake8-import-order.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/307006312'>nixpkgs.sm64baserom.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -29207,6 +29252,19 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt>aarch64-linux flake8-import-order-0.19.2.tar.gz</tt></summary>
+<ul>
+<li>nixpkgs.python312Packages.flake8-import-order.aarch64-linux</li>
+<li>nixpkgs.python312Packages.flake8-import-order.x86_64-linux</li>
+<li>nixpkgs.python313Packages.flake8-import-order.aarch64-linux</li>
+<li>nixpkgs.python313Packages.flake8-import-order.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>16</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/307032582'>x86_64-linux virtualbox-image</a></tt></summary>
 <ul>
 <li>nixos.tests.allDrivers.virtualbox.headless.x86_64-linux</li>
@@ -29341,6 +29399,17 @@ Built for evals:
 <li>nixpkgs.python313Packages.pywfa.aarch64-linux</li>
 <li>nixpkgs.python313Packages.pywfa.x86_64-linux</li>
 <li>nixpkgs.tiddit.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>10</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>aarch64-linux baserom.us.z64</tt></summary>
+<ul>
+<li>nixpkgs.sm64baserom.aarch64-linux</li>
+<li>nixpkgs.sm64baserom.x86_64-linux</li>
 </ul>
 </details>
 </td>
@@ -29613,26 +29682,6 @@ Built for evals:
 </details>
 </td>
 <td>6</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>aarch64-linux flake8-import-order-0.19.2.tar.gz</tt></summary>
-<ul>
-<li>nixpkgs.python313Packages.flake8-import-order.aarch64-linux</li>
-</ul>
-</details>
-</td>
-<td>5</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>aarch64-linux baserom.us.z64</tt></summary>
-<ul>
-<li>nixpkgs.sm64baserom.aarch64-linux</li>
-</ul>
-</details>
-</td>
-<td>5</td>
 </tr>
 <tr>
 <td>
