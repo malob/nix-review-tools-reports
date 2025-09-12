@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-09-12 19:04:58 UTC*
+*Report built at 2025-09-12 20:05:03 UTC*
 
 Built for evals:
 
@@ -15,12 +15,26 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>110 issues</summary>
+<details><summary>112 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 </tr></thead>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/307515849'>dhall-nix.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>hnix-0.17.0</tt> <br /> <a href='https://hydra.nixos.org/build/307515849/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/307515849/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/307515849/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/307519287'>build 307519287</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
 <tr>
 <td>
 <details><summary>
@@ -425,6 +439,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/307520063'>haskellPackages.lion.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>ghc-typelits-knownnat-0.7.13</tt> <br /> <a href='https://hydra.nixos.org/build/307520063/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/307520063/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/307520063/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/307518583'>build 307518583</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/307520382'>haskellPackages.mmzk-env.x86_64-linux</a></tt>
 </summary>
 <ul>
@@ -666,12 +694,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/307516858'>haskellPackages.arithmoi.x86_64-linux</a></tt>
-</td>
-<td>Failed</td>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/307516784'>haskellPackages.ascii-caseless.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -864,6 +886,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/307520007'>haskellPackages.lhs2tex.x86_64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/307520031'>haskellPackages.libremidi.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -1025,7 +1053,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>5313 issues</summary>
+<details><summary>5311 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -1196,13 +1224,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/307515830'>dhall-lsp-server.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/307515849'>dhall-nix.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -6383,6 +6404,13 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/307516768'>haskellPackages.arithmatic.x86_64-linux</a></tt>
+</td>
+<td>Queued</td>
+<th>x86_64-linux</th>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/307516858'>haskellPackages.arithmoi.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -21964,13 +21992,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/307520007'>haskellPackages.lhs2tex.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/307520004'>haskellPackages.libarchive-conduit.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -22294,13 +22315,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/307520059'>haskellPackages.linux-namespaces.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/307520063'>haskellPackages.lion.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -38241,11 +38255,12 @@ Built for evals:
 <li>haskellPackages.finitary.x86_64-linux</li>
 <li>haskellPackages.hasktorch.x86_64-linux</li>
 <li>haskellPackages.ihp-ide.x86_64-linux</li>
+<li>haskellPackages.lion.x86_64-linux</li>
 <li>haskellPackages.modular.x86_64-linux</li>
 </ul>
 </details>
 </td>
-<td>6</td>
+<td>7</td>
 </tr>
 <tr>
 <td>
@@ -38270,6 +38285,17 @@ Built for evals:
 </details>
 </td>
 <td>3</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/307519287'>x86_64-linux hnix-0.17.0</a></tt></summary>
+<ul>
+<li>dhall-nix.x86_64-linux</li>
+<li>haskellPackages.update-nix-fetchgit.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>2</td>
 </tr>
 <tr>
 <td>
@@ -38475,16 +38501,6 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/307517066'>x86_64-linux bookhound-0.2.2</a></tt></summary>
 <ul>
 <li>haskellPackages.turncoat.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/307519287'>x86_64-linux hnix-0.17.0</a></tt></summary>
-<ul>
-<li>haskellPackages.update-nix-fetchgit.x86_64-linux</li>
 </ul>
 </details>
 </td>
