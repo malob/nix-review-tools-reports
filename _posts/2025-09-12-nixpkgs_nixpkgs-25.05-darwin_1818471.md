@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.05-darwin
 ---
 # Evals report
 
-*Report built at 2025-09-13 01:35:52 UTC*
+*Report built at 2025-09-13 03:12:25 UTC*
 
 Built for evals:
 
@@ -19879,7 +19879,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>393 issues</summary>
+<details><summary>390 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -20637,13 +20637,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/307526995'>beamMinimal26Packages.webdriver.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/307526992'>beamMinimal26Packages.webdriver.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -21033,13 +21026,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/307527061'>elixir_1_17.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -22475,13 +22461,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/307527180'>rabbitmq-server.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
