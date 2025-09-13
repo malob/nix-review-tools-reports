@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.05-darwin
 ---
 # Evals report
 
-*Report built at 2025-09-13 09:09:02 UTC*
+*Report built at 2025-09-13 10:08:09 UTC*
 
 Built for evals:
 
@@ -11146,7 +11146,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1086 issues</summary>
+<details><summary>1087 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -13008,6 +13008,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>python3.12-ctranslate2-4.6.0</tt> <br /> <a href='https://hydra.nixos.org/build/306292955/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/306292955/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/306292955/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/305503929'>build 305503929</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/307550612'>python312Packages.atsim-potentials.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.12-cexprtk-0.4.1</tt> <br /> <a href='https://hydra.nixos.org/build/307550612/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/307550612/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/307550612/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/304458483'>build 304458483</a>
 </li>
 </ul>
 </details>
@@ -19879,7 +19893,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>369 issues</summary>
+<details><summary>363 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -21190,13 +21204,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/307527111'>gimpPlugins.gmic.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/307527099'>gimpPlugins.gmic.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -21414,13 +21421,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/307527142'>mix2nix.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/307527144'>mix2nix.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -21432,13 +21432,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/307527149'>mobilizon.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -21645,13 +21638,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/307550592'>poetryPlugins.poetry-plugin-up.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/307550588'>poetryPlugins.poetry-plugin-up.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -21778,13 +21764,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/307550612'>python312Packages.atsim-potentials.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/307550613'>python312Packages.atsim-potentials.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -21887,13 +21866,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/307550625'>python312Packages.deepdiff.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -24627,6 +24599,16 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/304447460'>aarch64-darwin perl5.38.2-Math-Pari-2.030523</a></tt></summary>
 <ul>
 <li>perl538Packages.CryptRandom.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/304458483'>aarch64-darwin python3.12-cexprtk-0.4.1</a></tt></summary>
+<ul>
+<li>python312Packages.atsim-potentials.aarch64-darwin</li>
 </ul>
 </details>
 </td>
