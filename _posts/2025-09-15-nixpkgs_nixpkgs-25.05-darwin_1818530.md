@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.05-darwin
 ---
 # Evals report
 
-*Report built at 2025-09-15 01:36:12 UTC*
+*Report built at 2025-09-15 02:40:11 UTC*
 
 Built for evals:
 
@@ -11186,7 +11186,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1087 issues</summary>
+<details><summary>1088 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -12768,6 +12768,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>perl5.38.2-Wx-0.9932</tt> <br /> <a href='https://hydra.nixos.org/build/306289798/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/306289798/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/306289798/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/305377654'>build 305377654</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/307609709'>perl538Packages.ZonemasterCLI.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>perl5.38.2-Net-IP-XS-0.22</tt> <br /> <a href='https://hydra.nixos.org/build/307609709/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/307609709/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/307609709/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/304447855'>build 304447855</a>
 </li>
 </ul>
 </details>
@@ -19917,7 +19931,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>583 issues</summary>
+<details><summary>581 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -22782,13 +22796,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/307609709'>perl538Packages.ZonemasterCLI.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/307609704'>perl538Packages.ZonemasterCLI.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -23388,13 +23395,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/307609774'>release-checks</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -25470,6 +25470,17 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/304447855'>aarch64-darwin perl5.38.2-Net-IP-XS-0.22</a></tt></summary>
+<ul>
+<li>perl538Packages.ZonemasterCLI.aarch64-darwin</li>
+<li>perl538Packages.ZonemasterEngine.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/304451240'>aarch64-darwin perl5.40.0-Math-Pari-2.030523</a></tt></summary>
 <ul>
 <li>perl540Packages.CryptRandom.aarch64-darwin</li>
@@ -26163,16 +26174,6 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/304447460'>aarch64-darwin perl5.38.2-Math-Pari-2.030523</a></tt></summary>
 <ul>
 <li>perl538Packages.CryptRandom.aarch64-darwin</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/304447855'>aarch64-darwin perl5.38.2-Net-IP-XS-0.22</a></tt></summary>
-<ul>
-<li>perl538Packages.ZonemasterEngine.aarch64-darwin</li>
 </ul>
 </details>
 </td>
