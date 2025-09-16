@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:haskell-updates 1818532
+title: nixpkgs:haskell-updates 1818532 (succeeded)
 categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-09-16 16:05:26 UTC*
+*Report built at 2025-09-16 17:04:53 UTC*
 
 Built for evals:
 
@@ -4312,34 +4312,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/307523422'>uusi.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>2 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/307609802'>agdaPackages._1lab.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/307609854'>haskell.packages.ghc9102.haskell-language-server.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
