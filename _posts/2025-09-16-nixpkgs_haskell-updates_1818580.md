@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-09-17 01:32:13 UTC*
+*Report built at 2025-09-17 02:28:37 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>494 issues</summary>
+<details><summary>495 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -1334,6 +1334,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>sr-extra-1.88-unstable-2025-03-30</tt> <br /> <a href='https://hydra.nixos.org/build/307610997/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/307610997/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/307610997/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/307611393'>build 307611393</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/307656662'>haskellPackages.jsaddle-webkitgtk.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>webkitgtk3-javascriptcore-0.14.2.1</tt> <br /> <a href='https://hydra.nixos.org/build/307656662/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/307656662/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/307656662/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/307523066'>build 307523066</a>
 </li>
 </ul>
 </details>
@@ -4254,7 +4268,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>59 issues</summary>
+<details><summary>58 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -4467,13 +4481,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/307656663'>haskellPackages.jsaddle-wasm.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/307656662'>haskellPackages.jsaddle-webkitgtk.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -5341,6 +5348,16 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/307522286'>x86_64-linux symtegration-0.6.1</a></tt></summary>
 <ul>
 <li>haskellPackages.ihaskell-symtegration.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/307523066'>x86_64-linux webkitgtk3-javascriptcore-0.14.2.1</a></tt></summary>
+<ul>
+<li>haskellPackages.jsaddle-webkitgtk.x86_64-linux</li>
 </ul>
 </details>
 </td>
