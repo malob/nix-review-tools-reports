@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next-25.05
 ---
 # Evals report
 
-*Report built at 2025-09-18 22:11:07 UTC*
+*Report built at 2025-09-18 23:10:59 UTC*
 
 Built for evals:
 
@@ -14686,7 +14686,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>1237 issues</summary>
+<details><summary>1238 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -23645,6 +23645,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/307605153'>openroad.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/307409831'>openvas-smb.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -25660,7 +25666,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>17488 issues</summary>
+<details><summary>17487 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -72370,13 +72376,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/307605153'>openroad.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
