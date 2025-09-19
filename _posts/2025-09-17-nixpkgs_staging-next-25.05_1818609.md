@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next-25.05
 ---
 # Evals report
 
-*Report built at 2025-09-19 02:38:19 UTC*
+*Report built at 2025-09-19 03:23:27 UTC*
 
 Built for evals:
 
@@ -14686,7 +14686,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>217 issues</summary>
+<details><summary>220 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -15612,6 +15612,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/305368615'>luci-go.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/303870606'>meteor.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -16195,6 +16201,18 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/303995886'>talkfilters.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/305467492'>tbls.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/305467749'>telegraf.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -27293,7 +27311,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>203 issues</summary>
+<details><summary>204 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -28275,6 +28293,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/305368621'>luci-go.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/303871328'>mlkit.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -28892,7 +28916,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>17063 issues</summary>
+<details><summary>17059 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -70104,20 +70128,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/307604937'>lubelogger.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/305368621'>luci-go.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/305368615'>luci-go.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -128756,13 +128766,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/305467492'>tbls.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/307491686'>tclPackages.itktcl.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -128872,13 +128875,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/305467749'>telegraf.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
