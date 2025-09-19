@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next-25.05
 ---
 # Evals report
 
-*Report built at 2025-09-19 05:10:57 UTC*
+*Report built at 2025-09-19 06:12:12 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>1671 issues</summary>
+<details><summary>1669 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -8429,12 +8429,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/307346998'>gotenberg.x86_64-linux</a></tt>
-</td>
-<td>Failed</td>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/307347085'>gqlint.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -14495,12 +14489,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/307608841'>toppler.x86_64-linux</a></tt>
-</td>
-<td>Failed</td>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/307494024'>tora.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -14686,7 +14674,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>222 issues</summary>
+<details><summary>225 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -16332,6 +16320,24 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/305349901'>julia-bin.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/305349908'>julia-stable-bin.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/305349918'>julia_111-bin.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/303843899'>julia_19-bin.x86_64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -16343,7 +16349,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>1238 issues</summary>
+<details><summary>1232 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -21493,20 +21499,6 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
-<tt><a href='https://hydra.nixos.org/build/307439409'>python312Packages.netbox-floorplan-plugin.aarch64-linux</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Cached failure</b> <tt>python3.12-psycopg-3.2.8</tt> <br /> <a href='https://hydra.nixos.org/build/307439409/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/307439409/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/307439409/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/307439437'>build 307439437</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
-<details><summary>
 <tt><a href='https://hydra.nixos.org/build/307439424'>python312Packages.netbox-interface-synchronization.aarch64-linux</a></tt>
 </summary>
 <ul>
@@ -22656,12 +22648,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/307335842'>conan.aarch64-linux</a></tt>
-</td>
-<td>Failed</td>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/307335910'>connman-ncurses.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -23022,12 +23008,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/307379865'>hydrus.aarch64-linux</a></tt>
-</td>
-<td>Failed</td>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/307379932'>hyprlandPlugins.hyprtrails.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -23077,12 +23057,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/307380933'>indradb-server.aarch64-linux</a></tt>
-</td>
-<td>Failed</td>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/307381130'>interactive-html-bom.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -25002,12 +24976,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/307396168'>livepeer.aarch64-linux</a></tt>
-</td>
-<td>Failed</td>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/307397853'>lixStatic.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -26557,12 +26525,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/303977142'>rappel.aarch64-linux</a></tt>
-</td>
-<td>Failed</td>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/307608554'>recyclarr.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -28934,7 +28896,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>17056 issues</summary>
+<details><summary>17053 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -64728,27 +64690,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/307382048'>jugglinglab.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/305349901'>julia-bin.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/305349908'>julia-stable-bin.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/305349918'>julia_111-bin.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -149345,21 +149286,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt>aarch64-linux python3.12-psycopg-3.2.8</tt></summary>
-<ul>
-<li>froide-govplan.aarch64-linux</li>
-<li>paperless-ngx.aarch64-linux</li>
-<li>python312Packages.froide.aarch64-linux</li>
-<li>python312Packages.netbox-contract.aarch64-linux</li>
-<li>python312Packages.netbox-floorplan-plugin.aarch64-linux</li>
-<li>python312Packages.netbox-napalm-plugin.aarch64-linux</li>
-</ul>
-</details>
-</td>
-<td>6</td>
-</tr>
-<tr>
-<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/307360071'>aarch64-linux gpu-vulkan-middle-0.1.0.75</a></tt></summary>
 <ul>
 <li>haskellPackages.gpu-vulkan-middle-khr-surface-glfw.aarch64-linux</li>
@@ -149442,6 +149368,20 @@ Built for evals:
 <li>deepin.dde-shell.aarch64-linux</li>
 <li>deepin.deepin-calculator.x86_64-linux</li>
 <li>deepin.deepin-music.aarch64-linux</li>
+</ul>
+</details>
+</td>
+<td>5</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>aarch64-linux python3.12-psycopg-3.2.8</tt></summary>
+<ul>
+<li>froide-govplan.aarch64-linux</li>
+<li>paperless-ngx.aarch64-linux</li>
+<li>python312Packages.froide.aarch64-linux</li>
+<li>python312Packages.netbox-contract.aarch64-linux</li>
+<li>python312Packages.netbox-napalm-plugin.aarch64-linux</li>
 </ul>
 </details>
 </td>
