@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:staging-next-25.05 1818695
+title: nixpkgs:staging-next-25.05 1818695 (succeeded)
 categories: nixpkgs:staging-next-25.05
 ---
 # Evals report
 
-*Report built at 2025-09-21 03:26:36 UTC*
+*Report built at 2025-09-21 04:11:26 UTC*
 
 Built for evals:
 
@@ -14544,7 +14544,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1286 issues</summary>
+<details><summary>1287 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -25415,6 +25415,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/307446753'>python312Packages.skyfield.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/307448555'>python312Packages.torcheval.x86_64-darwin</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -47522,27 +47528,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/307495648'>vaultwarden.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/307448555'>python312Packages.torcheval.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 </table>
 </details>
