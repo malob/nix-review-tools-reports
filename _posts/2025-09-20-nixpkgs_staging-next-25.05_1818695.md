@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next-25.05
 ---
 # Evals report
 
-*Report built at 2025-09-21 04:11:26 UTC*
+*Report built at 2025-09-21 16:09:26 UTC*
 
 Built for evals:
 
@@ -38501,7 +38501,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1123 issues</summary>
+<details><summary>1122 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -38697,20 +38697,6 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>python3.12-pytest-xdist-3.6.1</tt> <br /> <a href='https://hydra.nixos.org/build/307334465/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/307334465/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/307334465/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/307444206'>build 307444206</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/307334464'>cassandra_4.aarch64-darwin</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Failed</b> <tt>python3.11-twisted-24.11.0</tt> <br /> <a href='https://hydra.nixos.org/build/307334464/nixlog/4'>log</a>, <a href='https://hydra.nixos.org/build/307334464/nixlog/4/raw'>raw</a>, <a href='https://hydra.nixos.org/build/307334464/nixlog/4/tail'>tail</a>
 </li>
 </ul>
 </details>
@@ -50834,16 +50820,6 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/307333132'>x86_64-darwin buildah-1.40.0</a></tt></summary>
 <ul>
 <li>buildah.x86_64-darwin</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>aarch64-darwin python3.11-twisted-24.11.0</tt></summary>
-<ul>
-<li>cassandra_4.aarch64-darwin</li>
 </ul>
 </details>
 </td>
