@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:nixpkgs-25.05-darwin 1818764
+title: nixpkgs:nixpkgs-25.05-darwin 1818764 (succeeded)
 categories: nixpkgs:nixpkgs-25.05-darwin
 ---
 # Evals report
 
-*Report built at 2025-09-23 19:07:24 UTC*
+*Report built at 2025-09-23 20:07:57 UTC*
 
 Built for evals:
 
@@ -11006,7 +11006,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1114 issues</summary>
+<details><summary>1115 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -19358,6 +19358,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/308234075'>sdrangel.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/307886062'>securefs.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -19979,27 +19985,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/307876855'>python313Packages.pylance.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308234075'>sdrangel.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 </table>
 </details>
