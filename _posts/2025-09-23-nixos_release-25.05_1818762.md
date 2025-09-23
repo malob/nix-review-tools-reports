@@ -1,10 +1,10 @@
 ---
-title: nixos:release-25.05 1818762
+title: nixos:release-25.05 1818762 (succeeded)
 categories: nixos:release-25.05
 ---
 # Evals report
 
-*Report built at 2025-09-23 18:09:55 UTC*
+*Report built at 2025-09-23 19:08:55 UTC*
 
 Built for evals:
 
@@ -29936,27 +29936,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/307772420'>nixpkgs.preserves-nim.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308231752'>nixpkgs.freecad-qt6.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 </table>
 </details>
