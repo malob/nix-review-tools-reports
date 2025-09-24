@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.05-darwin
 ---
 # Evals report
 
-*Report built at 2025-09-24 22:08:22 UTC*
+*Report built at 2025-09-24 23:08:35 UTC*
 
 Built for evals:
 
@@ -19899,7 +19899,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>249 issues</summary>
+<details><summary>247 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -21042,24 +21042,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/308278376'>python312Packages.spacy-transformers.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/308278375'>python312Packages.spacy-transformers.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308278367'>python312Packages.spacy.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
