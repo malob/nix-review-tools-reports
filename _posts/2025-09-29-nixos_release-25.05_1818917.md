@@ -4,7 +4,7 @@ categories: nixos:release-25.05
 ---
 # Evals report
 
-*Report built at 2025-09-29 14:09:57 UTC*
+*Report built at 2025-09-29 16:08:56 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>1281 issues</summary>
+<details><summary>1280 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -5663,20 +5663,6 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>marble-23.08.5</tt> <br /> <a href='https://hydra.nixos.org/build/307813887/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/307813887/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/307813887/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/307422615'>build 307422615</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/308546632'>tested</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Cached failure</b> <tt>gitlab-container-registry-4.28.0</tt> <br /> <a href='https://hydra.nixos.org/build/308546632/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308546632/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308546632/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308412311'>build 308412311</a>
 </li>
 </ul>
 </details>
@@ -22525,7 +22511,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>4366 issues</summary>
+<details><summary>4367 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -53094,6 +53080,13 @@ Built for evals:
 <td>Queued</td>
 <th>x86_64-linux</th>
 </tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/308546632'>tested</a></tt>
+</td>
+<td>Queued</td>
+<th>x86_64-linux</th>
+</tr>
 </table>
 </details>
 
@@ -54230,17 +54223,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/308412311'>x86_64-linux gitlab-container-registry-4.28.0</a></tt></summary>
-<ul>
-<li>nixos.tests.allDrivers.gitlab.x86_64-linux</li>
-<li>tested</li>
-</ul>
-</details>
-</td>
-<td>2</td>
-</tr>
-<tr>
-<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/307388690'>x86_64-linux linux-rt-5.4.296-rt100</a></tt></summary>
 <ul>
 <li>nixos.tests.allDrivers.kernel-generic.linux_rt_5_4.x86_64-linux</li>
@@ -54744,6 +54726,16 @@ Built for evals:
 </details>
 </td>
 <td>2</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/308412311'>x86_64-linux gitlab-container-registry-4.28.0</a></tt></summary>
+<ul>
+<li>nixos.tests.allDrivers.gitlab.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
 </tr>
 <tr>
 <td>
