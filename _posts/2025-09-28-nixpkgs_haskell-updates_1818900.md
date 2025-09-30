@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:haskell-updates 1818900
+title: nixpkgs:haskell-updates 1818900 (succeeded)
 categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-09-30 11:05:06 UTC*
+*Report built at 2025-09-30 12:07:13 UTC*
 
 Built for evals:
 
@@ -5530,27 +5530,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/308456739'>vaultenv.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308456696'>pkgsMusl.haskell.compiler.ghc9121.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
