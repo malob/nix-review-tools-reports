@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-09-30 16:05:29 UTC*
+*Report built at 2025-09-30 17:05:07 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>70 issues</summary>
+<details><summary>68 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -338,20 +338,6 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
-<tt><a href='https://hydra.nixos.org/build/308456340'>haskellPackages.web-rep.x86_64-linux</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Failed</b> <tt>box-socket-0.5.2.1</tt> <br /> <a href='https://hydra.nixos.org/build/308456340/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308456340/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308456340/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308450651'>build 308450651</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
-<details><summary>
 <tt><a href='https://hydra.nixos.org/build/308456713'>spago.x86_64-linux</a></tt>
 </summary>
 <ul>
@@ -539,12 +525,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/308453545'>haskellPackages.ltext.x86_64-linux</a></tt>
-</td>
-<td>Failed</td>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/308453885'>haskellPackages.murder.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -646,7 +626,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>340 issues</summary>
+<details><summary>342 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -2986,6 +2966,13 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/308453545'>haskellPackages.ltext.x86_64-linux</a></tt>
+</td>
+<td>Queued</td>
+<th>x86_64-linux</th>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/308569495'>haskellPackages.nlopt-haskell.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -3028,6 +3015,13 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/308456340'>haskellPackages.web-rep.x86_64-linux</a></tt>
+</td>
+<td>Queued</td>
+<th>x86_64-linux</th>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/308569498'>hercules-ci-agent.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -3044,24 +3038,23 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/308450651'>x86_64-linux box-socket-0.5.2.1</a></tt></summary>
-<ul>
-<li>haskellPackages.mealy.x86_64-linux</li>
-<li>haskellPackages.perf.x86_64-linux</li>
-<li>haskellPackages.prettychart.x86_64-linux</li>
-<li>haskellPackages.web-rep.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>4</td>
-</tr>
-<tr>
-<td>
 <details><summary><tt>x86_64-linux skeletest-0.2.1</tt></summary>
 <ul>
 <li>haskell.packages.ghc948.weeder.x86_64-linux</li>
 <li>haskell.packages.ghc963.weeder.x86_64-linux</li>
 <li>haskell.packages.ghc967.weeder.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>3</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/308450651'>x86_64-linux box-socket-0.5.2.1</a></tt></summary>
+<ul>
+<li>haskellPackages.mealy.x86_64-linux</li>
+<li>haskellPackages.perf.x86_64-linux</li>
+<li>haskellPackages.prettychart.x86_64-linux</li>
 </ul>
 </details>
 </td>
