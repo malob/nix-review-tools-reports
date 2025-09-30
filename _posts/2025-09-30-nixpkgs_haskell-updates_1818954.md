@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-09-30 17:05:07 UTC*
+*Report built at 2025-09-30 18:05:38 UTC*
 
 Built for evals:
 
@@ -626,7 +626,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>342 issues</summary>
+<details><summary>340 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -1028,13 +1028,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/308569194'>haskellPackages.amazonka-codeartifact.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308569208'>haskellPackages.amazonka-codecommit.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -1665,13 +1658,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/308569293'>haskellPackages.amazonka-iotfleethub.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308569368'>haskellPackages.amazonka-iotfleetwise.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
