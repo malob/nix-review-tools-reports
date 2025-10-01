@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.05-darwin
 ---
 # Evals report
 
-*Report built at 2025-10-01 07:15:27 UTC*
+*Report built at 2025-10-01 08:10:05 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1280 issues</summary>
+<details><summary>1282 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -5455,6 +5455,34 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>tesseract-3.05.02</tt> <br /> <a href='https://hydra.nixos.org/build/307887424/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/307887424/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/307887424/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/307492137'>build 307492137</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308548460'>tests.cc-wrapper.llvmTests.llvmPackages_git.clang.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>llvm-22.0.0-unstable-2025-09-28</tt> <br /> <a href='https://hydra.nixos.org/build/308548460/nixlog/7'>log</a>, <a href='https://hydra.nixos.org/build/308548460/nixlog/7/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308548460/nixlog/7/tail'>tail</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308548459'>tests.cc-wrapper.llvmTests.llvmPackages_git.libcxx.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>llvm-22.0.0-unstable-2025-09-28</tt> <br /> <a href='https://hydra.nixos.org/build/308548459/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308548459/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308548459/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308548460'>build 308548460</a>
 </li>
 </ul>
 </details>
@@ -19929,7 +19957,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>25 issues</summary>
+<details><summary>23 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -20086,20 +20114,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/308570077'>smtp4dev.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308548460'>tests.cc-wrapper.llvmTests.llvmPackages_git.clang.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308548459'>tests.cc-wrapper.llvmTests.llvmPackages_git.libcxx.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -21059,6 +21073,19 @@ Built for evals:
 <li>tesseract3.x86_64-darwin</li>
 <li>vobsub2srt.aarch64-darwin</li>
 <li>vobsub2srt.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>4</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>aarch64-darwin llvm-22.0.0-unstable-2025-09-28</tt></summary>
+<ul>
+<li>tests.cc-wrapper.llvmTests.llvmPackages_git.clang.aarch64-darwin</li>
+<li>tests.cc-wrapper.llvmTests.llvmPackages_git.clang.x86_64-darwin</li>
+<li>tests.cc-wrapper.llvmTests.llvmPackages_git.libcxx.aarch64-darwin</li>
+<li>tests.cc-wrapper.llvmTests.llvmPackages_git.libcxx.x86_64-darwin</li>
 </ul>
 </details>
 </td>
@@ -22063,17 +22090,6 @@ Built for evals:
 <ul>
 <li>syncthingtray-minimal.x86_64-darwin</li>
 <li>syncthingtray.x86_64-darwin</li>
-</ul>
-</details>
-</td>
-<td>2</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>aarch64-darwin llvm-22.0.0-unstable-2025-09-28</tt></summary>
-<ul>
-<li>tests.cc-wrapper.llvmTests.llvmPackages_git.clang.aarch64-darwin</li>
-<li>tests.cc-wrapper.llvmTests.llvmPackages_git.libcxx.aarch64-darwin</li>
 </ul>
 </details>
 </td>
