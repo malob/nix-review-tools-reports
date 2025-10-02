@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:nixpkgs-25.05-darwin 1819008
+title: nixpkgs:nixpkgs-25.05-darwin 1819008 (succeeded)
 categories: nixpkgs:nixpkgs-25.05-darwin
 ---
 # Evals report
 
-*Report built at 2025-10-02 19:08:11 UTC*
+*Report built at 2025-10-02 20:09:49 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1278 issues</summary>
+<details><summary>1447 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -470,6 +470,34 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610510'>corepack_24.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610510/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610510/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610510/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610511'>corepack_latest.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610511/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610511/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610511/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/307827268'>crowbar.x86_64-darwin</a></tt>
 </summary>
 <ul>
@@ -517,6 +545,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>vcdimager-2.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/307827621/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/307827621/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/307827621/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/304509207'>build 304509207</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610515'>devmode.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610515/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610515/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610515/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
 </li>
 </ul>
 </details>
@@ -923,6 +965,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>gitaly-git-2.50.1.gl1</tt> <br /> <a href='https://hydra.nixos.org/build/308398935/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/308398935/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308398935/nixlog/2/tail'>tail</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610535'>github-runner.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610535/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610535/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610535/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
 </li>
 </ul>
 </details>
@@ -3368,6 +3424,2260 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610556'>nodePackages_latest.&quot;@webassemblyjs/cli-1.11.1&quot;.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610556/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610556/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610556/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610558'>nodePackages_latest.&quot;@webassemblyjs/repl-1.11.1&quot;.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610558/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610558/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610558/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610576'>nodePackages_latest.&quot;@webassemblyjs/wasm-text-gen-1.11.1&quot;.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610576/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610576/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610576/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610573'>nodePackages_latest.&quot;@webassemblyjs/wast-refmt-1.11.1&quot;.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610573/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610573/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610573/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610547'>nodePackages_latest.@angular/cli.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610547/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610547/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610547/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610543'>nodePackages_latest.@antfu/ni.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610543/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610543/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610543/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610551'>nodePackages_latest.@babel/cli.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610551/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610551/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610551/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610541'>nodePackages_latest.@commitlint/cli.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610541/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610541/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610541/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610564'>nodePackages_latest.@electron-forge/cli.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610564/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610564/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610564/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610542'>nodePackages_latest.@gitbeaker/cli.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610542/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610542/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610542/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610566'>nodePackages_latest.@microsoft/rush.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610566/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610566/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610566/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610559'>nodePackages_latest.@tailwindcss/aspect-ratio.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610559/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610559/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610559/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610554'>nodePackages_latest.@tailwindcss/forms.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610554/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610554/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610554/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610552'>nodePackages_latest.@tailwindcss/line-clamp.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610552/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610552/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610552/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610553'>nodePackages_latest.@tailwindcss/typography.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610553/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610553/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610553/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610568'>nodePackages_latest.@uppy/companion.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610568/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610568/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610568/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610567'>nodePackages_latest.@webassemblyjs/wasm-strip.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610567/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610567/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610567/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610565'>nodePackages_latest.@yaegassy/coc-nginx.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610565/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610565/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610565/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610588'>nodePackages_latest.alex.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610588/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610588/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610588/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610572'>nodePackages_latest.audiosprite.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610572/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610572/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610572/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610605'>nodePackages_latest.awesome-lint.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610605/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610605/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610605/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610577'>nodePackages_latest.aws-cdk.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610577/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610577/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610577/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610579'>nodePackages_latest.bower.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610579/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610579/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610579/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610582'>nodePackages_latest.browser-sync.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610582/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610582/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610582/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610584'>nodePackages_latest.browserify.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610584/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610584/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610584/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610586'>nodePackages_latest.cdk8s-cli.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610586/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610586/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610586/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610638'>nodePackages_latest.cdktf-cli.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610638/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610638/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610638/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610591'>nodePackages_latest.clipboard-cli.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610591/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610591/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610591/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610587'>nodePackages_latest.coc-cmake.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610587/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610587/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610587/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610606'>nodePackages_latest.coc-docker.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610606/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610606/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610606/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610592'>nodePackages_latest.coc-emmet.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610592/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610592/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610592/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610617'>nodePackages_latest.coc-eslint.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610617/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610617/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610617/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610616'>nodePackages_latest.coc-explorer.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610616/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610616/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610616/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610595'>nodePackages_latest.coc-flutter.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610595/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610595/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610595/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610597'>nodePackages_latest.coc-git.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610597/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610597/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610597/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610613'>nodePackages_latest.coc-go.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610613/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610613/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610613/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610603'>nodePackages_latest.coc-haxe.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610603/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610603/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610603/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610604'>nodePackages_latest.coc-highlight.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610604/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610604/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610604/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610609'>nodePackages_latest.coc-html.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610609/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610609/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610609/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610631'>nodePackages_latest.coc-java.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610631/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610631/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610631/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610627'>nodePackages_latest.coc-jest.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610627/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610627/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610627/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610619'>nodePackages_latest.coc-json.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610619/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610619/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610619/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610614'>nodePackages_latest.coc-lists.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610614/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610614/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610614/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610620'>nodePackages_latest.coc-ltex.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610620/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/308610620/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610620/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610636'>nodePackages_latest.coc-markdownlint.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610636/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610636/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610636/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610621'>nodePackages_latest.coc-pairs.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610621/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610621/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610621/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610623'>nodePackages_latest.coc-prettier.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610623/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610623/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610623/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610625'>nodePackages_latest.coc-r-lsp.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610625/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610625/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610625/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610626'>nodePackages_latest.coc-rls.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610626/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610626/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610626/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610632'>nodePackages_latest.coc-rust-analyzer.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610632/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610632/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610632/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610642'>nodePackages_latest.coc-sh.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610642/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610642/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610642/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610641'>nodePackages_latest.coc-smartf.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610641/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610641/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610641/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610635'>nodePackages_latest.coc-snippets.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610635/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610635/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610635/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610639'>nodePackages_latest.coc-solargraph.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610639/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610639/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610639/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610648'>nodePackages_latest.coc-spell-checker.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610648/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610648/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610648/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610640'>nodePackages_latest.coc-sqlfluff.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610640/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610640/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610640/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610673'>nodePackages_latest.coc-stylelint.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610673/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610673/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610673/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610649'>nodePackages_latest.coc-sumneko-lua.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610649/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610649/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610649/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610645'>nodePackages_latest.coc-tabnine.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610645/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610645/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610645/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610654'>nodePackages_latest.coc-texlab.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610654/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610654/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610654/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610661'>nodePackages_latest.coc-tsserver.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610661/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610661/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610661/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610655'>nodePackages_latest.coc-ultisnips.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610655/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610655/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610655/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610666'>nodePackages_latest.coc-vetur.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610666/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610666/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610666/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610657'>nodePackages_latest.coc-vimlsp.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610657/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610657/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610657/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610658'>nodePackages_latest.coc-vimtex.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610658/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610658/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610658/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610687'>nodePackages_latest.coc-wxml.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610687/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610687/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610687/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610664'>nodePackages_latest.coc-yaml.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610664/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610664/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610664/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610667'>nodePackages_latest.coc-yank.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610667/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610667/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610667/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610675'>nodePackages_latest.code-theme-converter.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610675/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610675/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610675/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610669'>nodePackages_latest.conventional-changelog-cli.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610669/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610669/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610669/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610695'>nodePackages_latest.cpy-cli.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610695/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610695/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610695/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610677'>nodePackages_latest.create-cycle-app.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610677/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610677/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610677/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610681'>nodePackages_latest.cspell.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610681/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610681/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610681/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610678'>nodePackages_latest.csslint.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610678/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610678/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610678/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610680'>nodePackages_latest.dhcp.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610680/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610680/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610680/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610694'>nodePackages_latest.diff2html-cli.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610694/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610694/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610694/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610704'>nodePackages_latest.dotenv-vault.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610704/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610704/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610704/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610699'>nodePackages_latest.elasticdump.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610699/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610699/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610699/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610686'>nodePackages_latest.elm-oracle.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610686/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610686/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610686/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610700'>nodePackages_latest.emoj.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610700/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610700/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610700/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610689'>nodePackages_latest.emojione.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610689/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610689/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610689/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610697'>nodePackages_latest.esy.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610697/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610697/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610697/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610715'>nodePackages_latest.fauna-shell.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610715/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610715/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610715/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610701'>nodePackages_latest.fkill-cli.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610701/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610701/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610701/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610706'>nodePackages_latest.fleek-cli.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610706/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610706/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610706/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610722'>nodePackages_latest.forever.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610722/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610722/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610722/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610716'>nodePackages_latest.fx.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610716/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610716/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610716/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610721'>nodePackages_latest.gatsby-cli.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610721/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610721/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610721/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610736'>nodePackages_latest.grunt-cli.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610736/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610736/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610736/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610712'>nodePackages_latest.gulp-cli.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610712/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610712/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610712/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610724'>nodePackages_latest.gulp.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610724/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610724/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610724/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610710'>nodePackages_latest.he.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610710/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610710/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610710/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610713'>nodePackages_latest.hs-airdrop.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610713/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610713/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610713/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610719'>nodePackages_latest.imapnotify.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610719/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610719/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610719/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610725'>nodePackages_latest.js-beautify.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610725/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610725/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610725/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610732'>nodePackages_latest.js-yaml.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610732/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610732/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610732/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610723'>nodePackages_latest.jsdoc.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610723/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610723/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610723/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610731'>nodePackages_latest.jshint.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610731/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610731/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610731/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610730'>nodePackages_latest.json-diff.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610730/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610730/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610730/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610747'>nodePackages_latest.json-refs.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610747/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610747/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610747/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610741'>nodePackages_latest.json-server.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610741/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610741/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610741/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610735'>nodePackages_latest.json.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610735/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610735/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610735/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610733'>nodePackages_latest.jsonlint.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610733/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610733/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610733/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610779'>nodePackages_latest.jsonplaceholder.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610779/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610779/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610779/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610746'>nodePackages_latest.katex.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610746/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610746/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610746/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610781'>nodePackages_latest.keyoxide.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610781/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610781/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610781/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610761'>nodePackages_latest.lcov-result-merger.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610761/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610761/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610761/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610753'>nodePackages_latest.live-server.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610753/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610753/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610753/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610775'>nodePackages_latest.livedown.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610775/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610775/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610775/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610776'>nodePackages_latest.localtunnel.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610776/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610776/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610776/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610752'>nodePackages_latest.lua-fmt.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610752/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610752/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610752/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610758'>nodePackages_latest.madoko.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610758/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610758/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610758/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610754'>nodePackages_latest.makam.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610754/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610754/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610754/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610773'>nodePackages_latest.mastodon-bot.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610773/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610773/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610773/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610755'>nodePackages_latest.mathjax.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610755/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610755/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610755/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610756'>nodePackages_latest.meat.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610756/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610756/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610756/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610768'>nodePackages_latest.mocha.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610768/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610768/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610768/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610771'>nodePackages_latest.multi-file-swagger.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610771/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610771/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610771/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610792'>nodePackages_latest.nijs.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610792/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610792/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610792/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610764'>nodePackages_latest.node-gyp-build.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610764/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610764/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610764/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610777'>nodePackages_latest.node2nix.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610777/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610777/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610777/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610785'>nodePackages_latest.np.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610785/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610785/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610785/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610780'>nodePackages_latest.npm-merge-driver.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610780/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610780/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610780/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610778'>nodePackages_latest.nrm.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610778/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610778/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610778/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610787'>nodePackages_latest.parsoid.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610787/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610787/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610787/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610814'>nodePackages_latest.peerflix-server.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610814/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610814/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610814/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610797'>nodePackages_latest.peerflix.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610797/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610797/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610797/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610786'>nodePackages_latest.poor-mans-t-sql-formatter-cli.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610786/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610786/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610786/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610803'>nodePackages_latest.postcss.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610803/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610803/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610803/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610817'>nodePackages_latest.prebuild-install.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610817/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610817/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610817/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610813'>nodePackages_latest.prettier.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610813/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610813/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610813/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610791'>nodePackages_latest.pscid.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610791/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610791/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610791/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610802'>nodePackages_latest.pulp.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610802/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610802/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610802/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610822'>nodePackages_latest.purescript-language-server.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610822/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610822/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610822/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610808'>nodePackages_latest.purescript-psa.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610808/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610808/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610808/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610800'>nodePackages_latest.purs-tidy.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610800/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610800/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610800/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610806'>nodePackages_latest.purty.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610806/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610806/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610806/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610812'>nodePackages_latest.rimraf.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610812/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610812/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610812/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610868'>nodePackages_latest.rush.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610868/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610868/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610868/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610805'>nodePackages_latest.sass.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610805/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610805/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610805/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610811'>nodePackages_latest.semver.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610811/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610811/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610811/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610818'>nodePackages_latest.serve.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610818/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610818/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610818/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610834'>nodePackages_latest.sloc.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610834/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610834/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610834/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610827'>nodePackages_latest.smartdc.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610827/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610827/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610827/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610821'>nodePackages_latest.speed-test.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610821/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610821/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610821/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610835'>nodePackages_latest.svelte-check.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610835/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610835/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610835/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610836'>nodePackages_latest.svgo.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610836/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610836/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610836/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610826'>nodePackages_latest.tern.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610826/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610826/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610826/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610833'>nodePackages_latest.tiddlywiki.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610833/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610833/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610833/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610829'>nodePackages_latest.ts-node.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610829/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610829/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610829/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610828'>nodePackages_latest.tsun.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610828/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610828/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610828/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610831'>nodePackages_latest.ttf2eot.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610831/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610831/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610831/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610852'>nodePackages_latest.unified-language-server.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610852/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610852/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610852/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610865'>nodePackages_latest.uppy-companion.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610865/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610865/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610865/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610844'>nodePackages_latest.vega-cli.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610844/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610844/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610844/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610866'>nodePackages_latest.vega-lite.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610866/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610866/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610866/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610846'>nodePackages_latest.vercel.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610846/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610846/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610846/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610843'>nodePackages_latest.vscode-json-languageserver.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610843/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610843/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610843/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610864'>nodePackages_latest.wavedrom-cli.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610864/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610864/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610864/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610869'>nodePackages_latest.webpack.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610869/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610869/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610869/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610848'>nodePackages_latest.wring.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610848/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610848/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610848/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/307852958'>nrpl.x86_64-darwin</a></tt>
 </summary>
 <ul>
@@ -5427,6 +7737,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>synfig-1.5.3</tt> <br /> <a href='https://hydra.nixos.org/build/307887135/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/307887135/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/307887135/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/307491305'>build 307491305</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/308610882'>tailwindcss-language-server.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>nodejs-24.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/308610882/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/308610882/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/308610882/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/308610767'>build 308610767</a>
 </li>
 </ul>
 </details>
@@ -8035,7 +10359,25 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/308610767'>nodePackages_latest.nodejs.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/307852857'>nodehun.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/308610855'>nodejs_24.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/308610857'>nodejs_latest.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -19921,1222 +22263,186 @@ Built for evals:
 </table>
 </details>
 
-
-### Still queued
-
-
-<details><summary>171 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610510'>corepack_24.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610511'>corepack_latest.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610515'>devmode.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610535'>github-runner.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610556'>nodePackages_latest.&quot;@webassemblyjs/cli-1.11.1&quot;.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610558'>nodePackages_latest.&quot;@webassemblyjs/repl-1.11.1&quot;.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610576'>nodePackages_latest.&quot;@webassemblyjs/wasm-text-gen-1.11.1&quot;.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610573'>nodePackages_latest.&quot;@webassemblyjs/wast-refmt-1.11.1&quot;.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610547'>nodePackages_latest.@angular/cli.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610543'>nodePackages_latest.@antfu/ni.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610551'>nodePackages_latest.@babel/cli.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610541'>nodePackages_latest.@commitlint/cli.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610564'>nodePackages_latest.@electron-forge/cli.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610542'>nodePackages_latest.@gitbeaker/cli.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610566'>nodePackages_latest.@microsoft/rush.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610559'>nodePackages_latest.@tailwindcss/aspect-ratio.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610554'>nodePackages_latest.@tailwindcss/forms.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610552'>nodePackages_latest.@tailwindcss/line-clamp.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610553'>nodePackages_latest.@tailwindcss/typography.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610568'>nodePackages_latest.@uppy/companion.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610567'>nodePackages_latest.@webassemblyjs/wasm-strip.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610565'>nodePackages_latest.@yaegassy/coc-nginx.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610588'>nodePackages_latest.alex.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610572'>nodePackages_latest.audiosprite.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610605'>nodePackages_latest.awesome-lint.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610577'>nodePackages_latest.aws-cdk.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610579'>nodePackages_latest.bower.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610582'>nodePackages_latest.browser-sync.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610584'>nodePackages_latest.browserify.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610586'>nodePackages_latest.cdk8s-cli.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610638'>nodePackages_latest.cdktf-cli.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610591'>nodePackages_latest.clipboard-cli.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610587'>nodePackages_latest.coc-cmake.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610606'>nodePackages_latest.coc-docker.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610592'>nodePackages_latest.coc-emmet.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610617'>nodePackages_latest.coc-eslint.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610616'>nodePackages_latest.coc-explorer.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610595'>nodePackages_latest.coc-flutter.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610597'>nodePackages_latest.coc-git.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610613'>nodePackages_latest.coc-go.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610603'>nodePackages_latest.coc-haxe.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610604'>nodePackages_latest.coc-highlight.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610609'>nodePackages_latest.coc-html.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610631'>nodePackages_latest.coc-java.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610627'>nodePackages_latest.coc-jest.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610619'>nodePackages_latest.coc-json.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610614'>nodePackages_latest.coc-lists.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610620'>nodePackages_latest.coc-ltex.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610636'>nodePackages_latest.coc-markdownlint.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610621'>nodePackages_latest.coc-pairs.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610623'>nodePackages_latest.coc-prettier.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610625'>nodePackages_latest.coc-r-lsp.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610626'>nodePackages_latest.coc-rls.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610632'>nodePackages_latest.coc-rust-analyzer.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610642'>nodePackages_latest.coc-sh.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610641'>nodePackages_latest.coc-smartf.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610635'>nodePackages_latest.coc-snippets.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610639'>nodePackages_latest.coc-solargraph.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610648'>nodePackages_latest.coc-spell-checker.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610640'>nodePackages_latest.coc-sqlfluff.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610673'>nodePackages_latest.coc-stylelint.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610649'>nodePackages_latest.coc-sumneko-lua.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610645'>nodePackages_latest.coc-tabnine.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610654'>nodePackages_latest.coc-texlab.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610661'>nodePackages_latest.coc-tsserver.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610655'>nodePackages_latest.coc-ultisnips.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610666'>nodePackages_latest.coc-vetur.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610657'>nodePackages_latest.coc-vimlsp.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610658'>nodePackages_latest.coc-vimtex.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610687'>nodePackages_latest.coc-wxml.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610664'>nodePackages_latest.coc-yaml.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610667'>nodePackages_latest.coc-yank.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610675'>nodePackages_latest.code-theme-converter.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610669'>nodePackages_latest.conventional-changelog-cli.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610695'>nodePackages_latest.cpy-cli.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610677'>nodePackages_latest.create-cycle-app.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610681'>nodePackages_latest.cspell.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610678'>nodePackages_latest.csslint.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610680'>nodePackages_latest.dhcp.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610694'>nodePackages_latest.diff2html-cli.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610704'>nodePackages_latest.dotenv-vault.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610699'>nodePackages_latest.elasticdump.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610686'>nodePackages_latest.elm-oracle.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610700'>nodePackages_latest.emoj.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610689'>nodePackages_latest.emojione.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610697'>nodePackages_latest.esy.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610715'>nodePackages_latest.fauna-shell.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610701'>nodePackages_latest.fkill-cli.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610706'>nodePackages_latest.fleek-cli.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610722'>nodePackages_latest.forever.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610716'>nodePackages_latest.fx.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610721'>nodePackages_latest.gatsby-cli.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610736'>nodePackages_latest.grunt-cli.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610712'>nodePackages_latest.gulp-cli.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610724'>nodePackages_latest.gulp.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610710'>nodePackages_latest.he.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610713'>nodePackages_latest.hs-airdrop.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610719'>nodePackages_latest.imapnotify.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610725'>nodePackages_latest.js-beautify.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610732'>nodePackages_latest.js-yaml.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610723'>nodePackages_latest.jsdoc.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610731'>nodePackages_latest.jshint.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610730'>nodePackages_latest.json-diff.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610747'>nodePackages_latest.json-refs.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610741'>nodePackages_latest.json-server.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610735'>nodePackages_latest.json.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610733'>nodePackages_latest.jsonlint.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610779'>nodePackages_latest.jsonplaceholder.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610746'>nodePackages_latest.katex.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610781'>nodePackages_latest.keyoxide.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610761'>nodePackages_latest.lcov-result-merger.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610753'>nodePackages_latest.live-server.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610775'>nodePackages_latest.livedown.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610776'>nodePackages_latest.localtunnel.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610752'>nodePackages_latest.lua-fmt.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610758'>nodePackages_latest.madoko.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610754'>nodePackages_latest.makam.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610773'>nodePackages_latest.mastodon-bot.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610755'>nodePackages_latest.mathjax.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610756'>nodePackages_latest.meat.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610768'>nodePackages_latest.mocha.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610771'>nodePackages_latest.multi-file-swagger.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610792'>nodePackages_latest.nijs.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610764'>nodePackages_latest.node-gyp-build.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610777'>nodePackages_latest.node2nix.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610767'>nodePackages_latest.nodejs.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610785'>nodePackages_latest.np.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610780'>nodePackages_latest.npm-merge-driver.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610778'>nodePackages_latest.nrm.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610787'>nodePackages_latest.parsoid.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610814'>nodePackages_latest.peerflix-server.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610797'>nodePackages_latest.peerflix.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610786'>nodePackages_latest.poor-mans-t-sql-formatter-cli.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610803'>nodePackages_latest.postcss.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610817'>nodePackages_latest.prebuild-install.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610813'>nodePackages_latest.prettier.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610791'>nodePackages_latest.pscid.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610802'>nodePackages_latest.pulp.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610822'>nodePackages_latest.purescript-language-server.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610808'>nodePackages_latest.purescript-psa.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610800'>nodePackages_latest.purs-tidy.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610806'>nodePackages_latest.purty.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610812'>nodePackages_latest.rimraf.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610868'>nodePackages_latest.rush.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610805'>nodePackages_latest.sass.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610811'>nodePackages_latest.semver.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610818'>nodePackages_latest.serve.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610834'>nodePackages_latest.sloc.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610827'>nodePackages_latest.smartdc.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610821'>nodePackages_latest.speed-test.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610835'>nodePackages_latest.svelte-check.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610836'>nodePackages_latest.svgo.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610826'>nodePackages_latest.tern.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610833'>nodePackages_latest.tiddlywiki.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610829'>nodePackages_latest.ts-node.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610828'>nodePackages_latest.tsun.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610831'>nodePackages_latest.ttf2eot.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610852'>nodePackages_latest.unified-language-server.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610865'>nodePackages_latest.uppy-companion.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610844'>nodePackages_latest.vega-cli.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610866'>nodePackages_latest.vega-lite.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610846'>nodePackages_latest.vercel.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610843'>nodePackages_latest.vscode-json-languageserver.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610864'>nodePackages_latest.wavedrom-cli.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610869'>nodePackages_latest.webpack.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610848'>nodePackages_latest.wring.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610860'>nodejs-slim_24.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610859'>nodejs-slim_latest.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610855'>nodejs_24.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610857'>nodejs_latest.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308610882'>tailwindcss-language-server.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-</table>
-</details>
-
 ## Problematic dependencies
 
 <table>
 <tr>
 <th>name</th><th>count</th>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/308610767'>x86_64-darwin nodejs-24.9.0</a></tt></summary>
+<ul>
+<li>corepack_24.x86_64-darwin</li>
+<li>corepack_latest.x86_64-darwin</li>
+<li>devmode.x86_64-darwin</li>
+<li>github-runner.x86_64-darwin</li>
+<li>nodePackages_latest.&quot;@webassemblyjs/cli-1.11.1&quot;.x86_64-darwin</li>
+<li>nodePackages_latest.&quot;@webassemblyjs/repl-1.11.1&quot;.x86_64-darwin</li>
+<li>nodePackages_latest.&quot;@webassemblyjs/wasm-text-gen-1.11.1&quot;.x86_64-darwin</li>
+<li>nodePackages_latest.&quot;@webassemblyjs/wast-refmt-1.11.1&quot;.x86_64-darwin</li>
+<li>nodePackages_latest.@angular/cli.x86_64-darwin</li>
+<li>nodePackages_latest.@antfu/ni.x86_64-darwin</li>
+<li>nodePackages_latest.@babel/cli.x86_64-darwin</li>
+<li>nodePackages_latest.@commitlint/cli.x86_64-darwin</li>
+<li>nodePackages_latest.@electron-forge/cli.x86_64-darwin</li>
+<li>nodePackages_latest.@gitbeaker/cli.x86_64-darwin</li>
+<li>nodePackages_latest.@microsoft/rush.x86_64-darwin</li>
+<li>nodePackages_latest.@tailwindcss/aspect-ratio.x86_64-darwin</li>
+<li>nodePackages_latest.@tailwindcss/forms.x86_64-darwin</li>
+<li>nodePackages_latest.@tailwindcss/line-clamp.x86_64-darwin</li>
+<li>nodePackages_latest.@tailwindcss/typography.x86_64-darwin</li>
+<li>nodePackages_latest.@uppy/companion.x86_64-darwin</li>
+<li>nodePackages_latest.@webassemblyjs/wasm-strip.x86_64-darwin</li>
+<li>nodePackages_latest.@yaegassy/coc-nginx.x86_64-darwin</li>
+<li>nodePackages_latest.alex.x86_64-darwin</li>
+<li>nodePackages_latest.audiosprite.x86_64-darwin</li>
+<li>nodePackages_latest.awesome-lint.x86_64-darwin</li>
+<li>nodePackages_latest.aws-cdk.x86_64-darwin</li>
+<li>nodePackages_latest.bower.x86_64-darwin</li>
+<li>nodePackages_latest.browser-sync.x86_64-darwin</li>
+<li>nodePackages_latest.browserify.x86_64-darwin</li>
+<li>nodePackages_latest.cdk8s-cli.x86_64-darwin</li>
+<li>nodePackages_latest.clipboard-cli.x86_64-darwin</li>
+<li>nodePackages_latest.coc-cmake.x86_64-darwin</li>
+<li>nodePackages_latest.coc-docker.x86_64-darwin</li>
+<li>nodePackages_latest.coc-emmet.x86_64-darwin</li>
+<li>nodePackages_latest.coc-eslint.x86_64-darwin</li>
+<li>nodePackages_latest.coc-explorer.x86_64-darwin</li>
+<li>nodePackages_latest.coc-flutter.x86_64-darwin</li>
+<li>nodePackages_latest.coc-git.x86_64-darwin</li>
+<li>nodePackages_latest.coc-go.x86_64-darwin</li>
+<li>nodePackages_latest.coc-haxe.x86_64-darwin</li>
+<li>nodePackages_latest.coc-highlight.x86_64-darwin</li>
+<li>nodePackages_latest.coc-html.x86_64-darwin</li>
+<li>nodePackages_latest.coc-java.x86_64-darwin</li>
+<li>nodePackages_latest.coc-jest.x86_64-darwin</li>
+<li>nodePackages_latest.coc-json.x86_64-darwin</li>
+<li>nodePackages_latest.coc-lists.x86_64-darwin</li>
+<li>nodePackages_latest.coc-ltex.x86_64-darwin</li>
+<li>nodePackages_latest.coc-markdownlint.x86_64-darwin</li>
+<li>nodePackages_latest.coc-pairs.x86_64-darwin</li>
+<li>nodePackages_latest.coc-prettier.x86_64-darwin</li>
+<li>nodePackages_latest.coc-r-lsp.x86_64-darwin</li>
+<li>nodePackages_latest.coc-rls.x86_64-darwin</li>
+<li>nodePackages_latest.coc-rust-analyzer.x86_64-darwin</li>
+<li>nodePackages_latest.coc-sh.x86_64-darwin</li>
+<li>nodePackages_latest.coc-smartf.x86_64-darwin</li>
+<li>nodePackages_latest.coc-snippets.x86_64-darwin</li>
+<li>nodePackages_latest.coc-solargraph.x86_64-darwin</li>
+<li>nodePackages_latest.coc-spell-checker.x86_64-darwin</li>
+<li>nodePackages_latest.coc-sqlfluff.x86_64-darwin</li>
+<li>nodePackages_latest.coc-stylelint.x86_64-darwin</li>
+<li>nodePackages_latest.coc-sumneko-lua.x86_64-darwin</li>
+<li>nodePackages_latest.coc-tabnine.x86_64-darwin</li>
+<li>nodePackages_latest.coc-texlab.x86_64-darwin</li>
+<li>nodePackages_latest.coc-tsserver.x86_64-darwin</li>
+<li>nodePackages_latest.coc-ultisnips.x86_64-darwin</li>
+<li>nodePackages_latest.coc-vetur.x86_64-darwin</li>
+<li>nodePackages_latest.coc-vimlsp.x86_64-darwin</li>
+<li>nodePackages_latest.coc-vimtex.x86_64-darwin</li>
+<li>nodePackages_latest.coc-wxml.x86_64-darwin</li>
+<li>nodePackages_latest.coc-yaml.x86_64-darwin</li>
+<li>nodePackages_latest.coc-yank.x86_64-darwin</li>
+<li>nodePackages_latest.code-theme-converter.x86_64-darwin</li>
+<li>nodePackages_latest.conventional-changelog-cli.x86_64-darwin</li>
+<li>nodePackages_latest.cpy-cli.x86_64-darwin</li>
+<li>nodePackages_latest.create-cycle-app.x86_64-darwin</li>
+<li>nodePackages_latest.cspell.x86_64-darwin</li>
+<li>nodePackages_latest.csslint.x86_64-darwin</li>
+<li>nodePackages_latest.dhcp.x86_64-darwin</li>
+<li>nodePackages_latest.diff2html-cli.x86_64-darwin</li>
+<li>nodePackages_latest.dotenv-vault.x86_64-darwin</li>
+<li>nodePackages_latest.elasticdump.x86_64-darwin</li>
+<li>nodePackages_latest.elm-oracle.x86_64-darwin</li>
+<li>nodePackages_latest.emoj.x86_64-darwin</li>
+<li>nodePackages_latest.emojione.x86_64-darwin</li>
+<li>nodePackages_latest.esy.x86_64-darwin</li>
+<li>nodePackages_latest.fauna-shell.x86_64-darwin</li>
+<li>nodePackages_latest.fkill-cli.x86_64-darwin</li>
+<li>nodePackages_latest.fleek-cli.x86_64-darwin</li>
+<li>nodePackages_latest.forever.x86_64-darwin</li>
+<li>nodePackages_latest.fx.x86_64-darwin</li>
+<li>nodePackages_latest.gatsby-cli.x86_64-darwin</li>
+<li>nodePackages_latest.grunt-cli.x86_64-darwin</li>
+<li>nodePackages_latest.gulp-cli.x86_64-darwin</li>
+<li>nodePackages_latest.gulp.x86_64-darwin</li>
+<li>nodePackages_latest.he.x86_64-darwin</li>
+<li>nodePackages_latest.hs-airdrop.x86_64-darwin</li>
+<li>nodePackages_latest.imapnotify.x86_64-darwin</li>
+<li>nodePackages_latest.js-beautify.x86_64-darwin</li>
+<li>nodePackages_latest.js-yaml.x86_64-darwin</li>
+<li>nodePackages_latest.jsdoc.x86_64-darwin</li>
+<li>nodePackages_latest.jshint.x86_64-darwin</li>
+<li>nodePackages_latest.json-diff.x86_64-darwin</li>
+<li>nodePackages_latest.json-refs.x86_64-darwin</li>
+<li>nodePackages_latest.json-server.x86_64-darwin</li>
+<li>nodePackages_latest.json.x86_64-darwin</li>
+<li>nodePackages_latest.jsonlint.x86_64-darwin</li>
+<li>nodePackages_latest.jsonplaceholder.x86_64-darwin</li>
+<li>nodePackages_latest.katex.x86_64-darwin</li>
+<li>nodePackages_latest.lcov-result-merger.x86_64-darwin</li>
+<li>nodePackages_latest.live-server.x86_64-darwin</li>
+<li>nodePackages_latest.livedown.x86_64-darwin</li>
+<li>nodePackages_latest.localtunnel.x86_64-darwin</li>
+<li>nodePackages_latest.lua-fmt.x86_64-darwin</li>
+<li>nodePackages_latest.madoko.x86_64-darwin</li>
+<li>nodePackages_latest.makam.x86_64-darwin</li>
+<li>nodePackages_latest.mastodon-bot.x86_64-darwin</li>
+<li>nodePackages_latest.mathjax.x86_64-darwin</li>
+<li>nodePackages_latest.meat.x86_64-darwin</li>
+<li>nodePackages_latest.mocha.x86_64-darwin</li>
+<li>nodePackages_latest.multi-file-swagger.x86_64-darwin</li>
+<li>nodePackages_latest.nijs.x86_64-darwin</li>
+<li>nodePackages_latest.node-gyp-build.x86_64-darwin</li>
+<li>nodePackages_latest.node2nix.x86_64-darwin</li>
+<li>nodePackages_latest.np.x86_64-darwin</li>
+<li>nodePackages_latest.npm-merge-driver.x86_64-darwin</li>
+<li>nodePackages_latest.nrm.x86_64-darwin</li>
+<li>nodePackages_latest.parsoid.x86_64-darwin</li>
+<li>nodePackages_latest.peerflix-server.x86_64-darwin</li>
+<li>nodePackages_latest.peerflix.x86_64-darwin</li>
+<li>nodePackages_latest.poor-mans-t-sql-formatter-cli.x86_64-darwin</li>
+<li>nodePackages_latest.postcss.x86_64-darwin</li>
+<li>nodePackages_latest.prebuild-install.x86_64-darwin</li>
+<li>nodePackages_latest.prettier.x86_64-darwin</li>
+<li>nodePackages_latest.pscid.x86_64-darwin</li>
+<li>nodePackages_latest.pulp.x86_64-darwin</li>
+<li>nodePackages_latest.purescript-language-server.x86_64-darwin</li>
+<li>nodePackages_latest.purescript-psa.x86_64-darwin</li>
+<li>nodePackages_latest.purs-tidy.x86_64-darwin</li>
+<li>nodePackages_latest.purty.x86_64-darwin</li>
+<li>nodePackages_latest.rimraf.x86_64-darwin</li>
+<li>nodePackages_latest.rush.x86_64-darwin</li>
+<li>nodePackages_latest.sass.x86_64-darwin</li>
+<li>nodePackages_latest.semver.x86_64-darwin</li>
+<li>nodePackages_latest.serve.x86_64-darwin</li>
+<li>nodePackages_latest.sloc.x86_64-darwin</li>
+<li>nodePackages_latest.smartdc.x86_64-darwin</li>
+<li>nodePackages_latest.speed-test.x86_64-darwin</li>
+<li>nodePackages_latest.svelte-check.x86_64-darwin</li>
+<li>nodePackages_latest.svgo.x86_64-darwin</li>
+<li>nodePackages_latest.tern.x86_64-darwin</li>
+<li>nodePackages_latest.tiddlywiki.x86_64-darwin</li>
+<li>nodePackages_latest.ts-node.x86_64-darwin</li>
+<li>nodePackages_latest.tsun.x86_64-darwin</li>
+<li>nodePackages_latest.ttf2eot.x86_64-darwin</li>
+<li>nodePackages_latest.unified-language-server.x86_64-darwin</li>
+<li>nodePackages_latest.uppy-companion.x86_64-darwin</li>
+<li>nodePackages_latest.vercel.x86_64-darwin</li>
+<li>nodePackages_latest.vscode-json-languageserver.x86_64-darwin</li>
+<li>nodePackages_latest.wavedrom-cli.x86_64-darwin</li>
+<li>nodePackages_latest.webpack.x86_64-darwin</li>
+<li>nodePackages_latest.wring.x86_64-darwin</li>
+<li>tailwindcss-language-server.x86_64-darwin</li>
+<li>nodePackages_latest.cdktf-cli.x86_64-darwin</li>
+<li>nodePackages_latest.keyoxide.x86_64-darwin</li>
+<li>nodePackages_latest.vega-cli.x86_64-darwin</li>
+<li>nodePackages_latest.vega-lite.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>166</td>
 </tr>
 <tr>
 <td>
