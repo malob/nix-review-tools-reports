@@ -4,7 +4,7 @@ categories: nixos:release-25.05
 ---
 # Evals report
 
-*Report built at 2025-10-03 20:10:04 UTC*
+*Report built at 2025-10-03 21:08:56 UTC*
 
 Built for evals:
 
@@ -32412,7 +32412,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>28 issues</summary>
+<details><summary>27 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -32555,13 +32555,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/308637741'>nixpkgs.linuxPackages.amneziawg.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/308638175'>nixpkgs.linuxPackages_custom_tinyconfig_kernel.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
