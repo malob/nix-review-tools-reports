@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.05-darwin
 ---
 # Evals report
 
-*Report built at 2025-10-11 11:07:41 UTC*
+*Report built at 2025-10-11 14:07:44 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1443 issues</summary>
+<details><summary>1445 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -595,6 +595,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>liblcf-0.8</tt> <br /> <a href='https://hydra.nixos.org/build/307828252/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/307828252/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/307828252/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/304436046'>build 304436046</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/310023845'>elmPackages.elm-instrument.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>ghc-8.10.7</tt> <br /> <a href='https://hydra.nixos.org/build/310023845/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/310023845/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/310023845/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/310023878'>build 310023878</a>
 </li>
 </ul>
 </details>
@@ -9006,6 +9020,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/304417579'>hashcash.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/310023878'>haskell.compiler.ghc8107.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -22117,7 +22137,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>209 issues</summary>
+<details><summary>207 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -22382,13 +22402,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/310023845'>elmPackages.elm-instrument.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -22662,13 +22675,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/310023878'>haskell.compiler.ghc8107.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -25774,6 +25780,16 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/307388543'>x86_64-darwin lima-0.22.0</a></tt></summary>
 <ul>
 <li>colima.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/310023878'>x86_64-darwin ghc-8.10.7</a></tt></summary>
+<ul>
+<li>elmPackages.elm-instrument.x86_64-darwin</li>
 </ul>
 </details>
 </td>
