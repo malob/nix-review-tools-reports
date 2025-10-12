@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.05-darwin
 ---
 # Evals report
 
-*Report built at 2025-10-11 23:08:05 UTC*
+*Report built at 2025-10-12 06:39:11 UTC*
 
 Built for evals:
 
@@ -22531,7 +22531,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>50 issues</summary>
+<details><summary>47 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -22750,24 +22750,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/310039337'>python313Packages.dogtag-pki.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/310039338'>python313Packages.dogtag-pki.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/310039340'>python313Packages.flask-simpleldap.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -22789,13 +22775,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/310039344'>python313Packages.python-ldap.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
