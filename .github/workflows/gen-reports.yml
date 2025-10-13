@@ -23,8 +23,6 @@ jobs:
           - project: nixpkgs
             jobset: trunk
           - project: nixpkgs
-            jobset: nixpkgs-24.11-darwin
-          - project: nixpkgs
             jobset: nixpkgs-25.05-darwin
 
           - project: nixpkgs
@@ -35,14 +33,10 @@ jobs:
           - project: nixpkgs
             jobset: staging-next
           - project: nixpkgs
-            jobset: staging-next-24.11
-          - project: nixpkgs
             jobset: staging-next-25.05
 
           - project: nixos
             jobset: trunk-combined
-          - project: nixos
-            jobset: release-24.11
           - project: nixos
             jobset: release-25.05
 
