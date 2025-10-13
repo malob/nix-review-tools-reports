@@ -39,7 +39,7 @@ jobs:
       uses: actions/checkout@v4
 
     - name: Install Nix
-      uses: DeterminateSystems/nix-installer-action@v14
+      uses: DeterminateSystems/nix-installer-action@v20
 
     # This steps gets the following values:
     # * eval_id: the ID of the jobset evaluation we are generating the report for.
@@ -82,7 +82,7 @@ jobs:
         ref: master
 
     - name: Install Nix
-      uses: DeterminateSystems/nix-installer-action@v14
+      uses: DeterminateSystems/nix-installer-action@v20
 
     # Get the most up-to-date cache of the `data` directory containing Hydra build reports
     # downloaded by `nix-review-reports` for the jobset.
