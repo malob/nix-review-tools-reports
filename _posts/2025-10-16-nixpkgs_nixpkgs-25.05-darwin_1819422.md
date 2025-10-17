@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.05-darwin
 ---
 # Evals report
 
-*Report built at 2025-10-17 00:13:24 UTC*
+*Report built at 2025-10-17 01:34:49 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1460 issues</summary>
+<details><summary>1461 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -13393,6 +13393,12 @@ Built for evals:
 </td>
 <td>Timed out</td>
 </tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/310197595'>volantes-cursors.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
 </table>
 </details>
 
@@ -13400,7 +13406,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1117 issues</summary>
+<details><summary>1119 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -17050,6 +17056,34 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>tesseract-3.05.02</tt> <br /> <a href='https://hydra.nixos.org/build/307887421/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/307887421/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/307887421/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/307492124'>build 307492124</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/310197538'>tests.cc-wrapper.llvmTests.llvmPackages_git.clang.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>llvm-22.0.0-unstable-2025-10-12</tt> <br /> <a href='https://hydra.nixos.org/build/310197538/nixlog/7'>log</a>, <a href='https://hydra.nixos.org/build/310197538/nixlog/7/raw'>raw</a>, <a href='https://hydra.nixos.org/build/310197538/nixlog/7/tail'>tail</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/310197537'>tests.cc-wrapper.llvmTests.llvmPackages_git.libcxx.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>llvm-22.0.0-unstable-2025-10-12</tt> <br /> <a href='https://hydra.nixos.org/build/310197537/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/310197537/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/310197537/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/310197538'>build 310197538</a>
 </li>
 </ul>
 </details>
@@ -22367,27 +22401,13 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>6 issues</summary>
+<details><summary>2 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/310197094'>noto-fonts-color-emoji.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/310197538'>tests.cc-wrapper.llvmTests.llvmPackages_git.clang.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/310197539'>tests.cc-wrapper.llvmTests.llvmPackages_git.clang.x86_64-darwin</a></tt>
@@ -22397,21 +22417,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/310197537'>tests.cc-wrapper.llvmTests.llvmPackages_git.libcxx.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/310197540'>tests.cc-wrapper.llvmTests.llvmPackages_git.libcxx.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/310197595'>volantes-cursors.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -24545,6 +24551,17 @@ Built for evals:
 <ul>
 <li>syncthingtray-minimal.x86_64-darwin</li>
 <li>syncthingtray.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>aarch64-darwin llvm-22.0.0-unstable-2025-10-12</tt></summary>
+<ul>
+<li>tests.cc-wrapper.llvmTests.llvmPackages_git.clang.aarch64-darwin</li>
+<li>tests.cc-wrapper.llvmTests.llvmPackages_git.libcxx.aarch64-darwin</li>
 </ul>
 </details>
 </td>
