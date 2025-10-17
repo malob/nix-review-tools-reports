@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-10-17 07:04:33 UTC*
+*Report built at 2025-10-17 08:04:50 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>42 issues</summary>
+<details><summary>40 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -29,34 +29,6 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>ghcide-2.12.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/310154958/nixlog/156'>log</a>, <a href='https://hydra.nixos.org/build/310154958/nixlog/156/raw'>raw</a>, <a href='https://hydra.nixos.org/build/310154958/nixlog/156/tail'>tail</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/310154611'>haskell.packages.ghc948.weeder.x86_64-linux</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Failed</b> <tt>tasty-hunit-compat-0.2.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/310154611/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/310154611/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/310154611/nixlog/1/tail'>tail</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/310154655'>haskell.packages.ghc967.cabal2nix-unstable.x86_64-linux</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Failed</b> <tt>hackage-db-2.1.3-unstable-2025-09-17</tt> <br /> <a href='https://hydra.nixos.org/build/310154655/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/310154655/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/310154655/nixlog/2/tail'>tail</a>
 </li>
 </ul>
 </details>
@@ -496,7 +468,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>2187 issues</summary>
+<details><summary>2189 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -932,7 +904,21 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/310154611'>haskell.packages.ghc948.weeder.x86_64-linux</a></tt>
+</td>
+<td>Queued</td>
+<th>x86_64-linux</th>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/310154604'>haskell.packages.ghc967.Cabal_3_12_1_0.x86_64-linux</a></tt>
+</td>
+<td>Queued</td>
+<th>x86_64-linux</th>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/310154655'>haskell.packages.ghc967.cabal2nix-unstable.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -15869,26 +15855,6 @@ Built for evals:
 </details>
 </td>
 <td>4</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>x86_64-linux tasty-hunit-compat-0.2.0.1</tt></summary>
-<ul>
-<li>haskell.packages.ghc948.weeder.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>x86_64-linux hackage-db-2.1.3-unstable-2025-09-17</tt></summary>
-<ul>
-<li>haskell.packages.ghc967.cabal2nix-unstable.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>1</td>
 </tr>
 <tr>
 <td>
