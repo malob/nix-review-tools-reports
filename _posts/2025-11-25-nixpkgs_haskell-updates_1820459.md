@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-11-25 13:18:37 UTC*
+*Report built at 2025-11-25 18:05:31 UTC*
 
 Built for evals:
 
@@ -292,7 +292,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>7810 issues</summary>
+<details><summary>7808 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -1253,13 +1253,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/315093843'>haskell.packages.ghc948.cabal2nix.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/315093849'>haskell.packages.ghc948.ghc-lib-parser-ex.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -1275,13 +1268,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/315093853'>haskell.packages.ghc948.hoogle.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/315093847'>haskell.packages.ghc948.language-nix.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
