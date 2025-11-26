@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-11-26 09:06:03 UTC*
+*Report built at 2025-11-26 10:04:50 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>180 issues</summary>
+<details><summary>182 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -484,6 +484,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/315099817'>haskellPackages.snowball.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>text-icu-0.8.0.5</tt> <br /> <a href='https://hydra.nixos.org/build/315099817/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/315099817/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/315099817/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/315100543'>build 315100543</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/315099930'>haskellPackages.sphinx.x86_64-linux</a></tt>
 </summary>
 <ul>
@@ -503,6 +517,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>airgql-0.7.1.3</tt> <br /> <a href='https://hydra.nixos.org/build/315100478/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/315100478/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/315100478/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/315094487'>build 315094487</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/315100482'>haskellPackages.tasklite.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>airgql-0.7.1.3</tt> <br /> <a href='https://hydra.nixos.org/build/315100482/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/315100482/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/315100482/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/315094487'>build 315094487</a>
 </li>
 </ul>
 </details>
@@ -1276,7 +1304,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>3452 issues</summary>
+<details><summary>3447 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -1790,13 +1818,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/315093887'>haskell.packages.ghc967.hlint.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/315093907'>haskell.packages.ghc967.hoogle.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -3953,13 +3974,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/315094495'>haskellPackages.amazonka-dlm.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/315094473'>haskellPackages.amazonka-docdb-elastic.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -14592,13 +14606,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/315097984'>haskellPackages.liquidhaskell-boot.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/315098021'>haskellPackages.liquidhaskell.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -20045,13 +20052,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/315099817'>haskellPackages.snowball.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/315099824'>haskellPackages.soap-openssl.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -22230,13 +22230,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/315100454'>haskellPackages.tardis.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/315100482'>haskellPackages.tasklite.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -25458,25 +25451,26 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/315100543'>x86_64-linux text-icu-0.8.0.5</a></tt></summary>
+<ul>
+<li>haskellPackages.binrep.x86_64-linux</li>
+<li>haskellPackages.ety.x86_64-linux</li>
+<li>haskellPackages.pontarius-xmpp.x86_64-linux</li>
+<li>haskellPackages.snowball.x86_64-linux</li>
+<li>haskellPackages.sphinx.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>5</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/315098036'>x86_64-linux lzma-conduit-1.2.3</a></tt></summary>
 <ul>
 <li>cachix.x86_64-linux</li>
 <li>haskellPackages.cachix.x86_64-linux</li>
 <li>haskellPackages.hercules-ci-agent.x86_64-linux</li>
 <li>maintained</li>
-</ul>
-</details>
-</td>
-<td>4</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/315100543'>x86_64-linux text-icu-0.8.0.5</a></tt></summary>
-<ul>
-<li>haskellPackages.binrep.x86_64-linux</li>
-<li>haskellPackages.ety.x86_64-linux</li>
-<li>haskellPackages.pontarius-xmpp.x86_64-linux</li>
-<li>haskellPackages.sphinx.x86_64-linux</li>
 </ul>
 </details>
 </td>
@@ -25530,19 +25524,20 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt>x86_64-linux git-annex-10.20251114-src</tt></summary>
-<ul>
-<li>git-annex.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/315094487'>x86_64-linux airgql-0.7.1.3</a></tt></summary>
 <ul>
 <li>haskellPackages.tasklite-core.x86_64-linux</li>
+<li>haskellPackages.tasklite.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>x86_64-linux git-annex-10.20251114-src</tt></summary>
+<ul>
+<li>git-annex.x86_64-linux</li>
 </ul>
 </details>
 </td>
