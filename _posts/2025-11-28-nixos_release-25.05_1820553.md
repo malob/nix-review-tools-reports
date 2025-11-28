@@ -1,10 +1,10 @@
 ---
-title: nixos:release-25.05 1820553
+title: nixos:release-25.05 1820553 (succeeded)
 categories: nixos:release-25.05
 ---
 # Evals report
 
-*Report built at 2025-11-28 21:08:52 UTC*
+*Report built at 2025-11-28 22:08:42 UTC*
 
 Built for evals:
 
@@ -35551,27 +35551,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/311655649'>nixpkgs.wrangler.aarch64-linux</a></tt>
 </td>
 <td>Output size limit exceeded</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/315180879'>nixpkgs.kicad-testing-small.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 </table>
 </details>
