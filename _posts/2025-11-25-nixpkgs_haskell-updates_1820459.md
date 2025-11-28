@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-11-27 20:04:29 UTC*
+*Report built at 2025-11-28 01:33:42 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>301 issues</summary>
+<details><summary>302 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -447,6 +447,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>text-icu-0.8.0.5</tt> <br /> <a href='https://hydra.nixos.org/build/315096101/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/315096101/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/315096101/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/315100543'>build 315100543</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/315096198'>haskellPackages.fast-tagsoup.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>text-icu-0.8.0.5</tt> <br /> <a href='https://hydra.nixos.org/build/315096198/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/315096198/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/315096198/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/315100543'>build 315100543</a>
 </li>
 </ul>
 </details>
@@ -2050,7 +2064,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>1413 issues</summary>
+<details><summary>1411 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -4103,13 +4117,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/315095207'>haskellPackages.cabal2nix.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/315095218'>haskellPackages.cached-traversable.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -5259,13 +5266,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/315096157'>haskellPackages.fallible.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/315096198'>haskellPackages.fast-tagsoup.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -11964,6 +11964,7 @@ Built for evals:
 <li>haskellPackages.binrep-instances.x86_64-linux</li>
 <li>haskellPackages.binrep.x86_64-linux</li>
 <li>haskellPackages.ety.x86_64-linux</li>
+<li>haskellPackages.fast-tagsoup.x86_64-linux</li>
 <li>haskellPackages.pontarius-xmpp.x86_64-linux</li>
 <li>haskellPackages.slugger.x86_64-linux</li>
 <li>haskellPackages.snowball.x86_64-linux</li>
@@ -11972,7 +11973,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>8</td>
+<td>9</td>
 </tr>
 <tr>
 <td>
