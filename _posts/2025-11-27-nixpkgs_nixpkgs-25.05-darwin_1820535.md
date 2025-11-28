@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.05-darwin
 ---
 # Evals report
 
-*Report built at 2025-11-28 02:36:07 UTC*
+*Report built at 2025-11-28 03:26:51 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1356 issues</summary>
+<details><summary>1357 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -957,6 +957,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>rclone-1.69.1</tt> <br /> <a href='https://hydra.nixos.org/build/311680964/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/311680964/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/311680964/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/311214636'>build 311214636</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/315166572'>gitaly.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>gitaly-git-2.50.1.gl1</tt> <br /> <a href='https://hydra.nixos.org/build/315166572/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/315166572/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/315166572/nixlog/2/tail'>tail</a>
 </li>
 </ul>
 </details>
@@ -20851,7 +20865,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>24 issues</summary>
+<details><summary>22 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -20882,13 +20896,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/315127721'>firefox-unwrapped.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/315166572'>gitaly.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -20962,13 +20969,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/315166587'>perl540Packages.NetZooKeeper.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -23149,6 +23149,16 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/310807084'>x86_64-darwin gfortran-9.5.0</a></tt></summary>
 <ul>
 <li>gfortran9.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>x86_64-darwin gitaly-git-2.50.1.gl1</tt></summary>
+<ul>
+<li>gitaly.x86_64-darwin</li>
 </ul>
 </details>
 </td>
