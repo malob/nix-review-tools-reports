@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:haskell-updates 1820566
+title: nixpkgs:haskell-updates 1820566 (succeeded)
 categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-11-29 01:32:07 UTC*
+*Report built at 2025-11-29 02:32:23 UTC*
 
 Built for evals:
 
@@ -2208,34 +2208,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/315191826'>nixosTests.xmonad.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>2 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/315095957'>haskellPackages.duckdb-haskell.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/315093615'>pkgsCross.riscv64.haskell.compiler.ghc948.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
