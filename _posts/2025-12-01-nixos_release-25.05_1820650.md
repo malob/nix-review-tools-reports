@@ -1,10 +1,10 @@
 ---
-title: nixos:release-25.05 1820650
+title: nixos:release-25.05 1820650 (succeeded)
 categories: nixos:release-25.05
 ---
 # Evals report
 
-*Report built at 2025-12-01 11:08:01 UTC*
+*Report built at 2025-12-01 12:09:29 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>1957 issues</summary>
+<details><summary>1956 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -11543,20 +11543,6 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>marble-23.08.5</tt> <br /> <a href='https://hydra.nixos.org/build/311657789/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/311657789/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/311657789/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/311159572'>build 311159572</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/315325426'>tested</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Failed</b> <tt>vm-test-run-boot-uefi-cdrom</tt> <br /> <a href='https://hydra.nixos.org/build/315325426/nixlog/57'>log</a>, <a href='https://hydra.nixos.org/build/315325426/nixlog/57/raw'>raw</a>, <a href='https://hydra.nixos.org/build/315325426/nixlog/57/tail'>tail</a>, <a href='https://hydra.nixos.org/build/315325172'>build 315325172</a>
 </li>
 </ul>
 </details>
@@ -35593,27 +35579,6 @@ Built for evals:
 </table>
 </details>
 
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/315325172'>nixos.tests.boot.uefiCdrom.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-</table>
-</details>
-
 ## Problematic dependencies
 
 <table>
@@ -38144,16 +38109,6 @@ Built for evals:
 </details>
 </td>
 <td>2</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/315325172'>x86_64-linux vm-test-run-boot-uefi-cdrom</a></tt></summary>
-<ul>
-<li>tested</li>
-</ul>
-</details>
-</td>
-<td>1</td>
 </tr>
 <tr>
 <td>
