@@ -4,7 +4,7 @@ categories: nixos:release-25.05
 ---
 # Evals report
 
-*Report built at 2025-12-01 10:08:07 UTC*
+*Report built at 2025-12-01 11:08:01 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>1958 issues</summary>
+<details><summary>1957 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -11578,12 +11578,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/315177237'>nixos.tests.blockbook-frontend.x86_64-linux</a></tt>
-</td>
-<td>Failed</td>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/315325172'>nixos.tests.boot.uefiCdrom.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -35612,7 +35606,7 @@ Built for evals:
 </tr></thead>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/315324966'>nixos.iso_graphical.x86_64-linux</a></tt>
+<tt><a href='https://hydra.nixos.org/build/315325172'>nixos.tests.boot.uefiCdrom.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
