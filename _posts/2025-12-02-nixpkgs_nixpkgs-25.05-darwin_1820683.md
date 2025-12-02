@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.05-darwin
 ---
 # Evals report
 
-*Report built at 2025-12-02 06:08:29 UTC*
+*Report built at 2025-12-02 12:08:15 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1358 issues</summary>
+<details><summary>1359 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -7434,6 +7434,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/311679583'>finalfrontier.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/315373737'>firefox-devedition-unwrapped.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -20871,7 +20877,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>17 issues</summary>
+<details><summary>16 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -20933,13 +20939,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/315373737'>firefox-devedition-unwrapped.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
