@@ -21,7 +21,7 @@ jobs:
       matrix:
         include:
           - project: nixpkgs
-            jobset: trunk
+            jobset: unstable
           - project: nixpkgs
             jobset: nixpkgs-25.05-darwin
           - project: nixpkgs
@@ -40,7 +40,7 @@ jobs:
             jobset: staging-next-25.11
 
           - project: nixos
-            jobset: trunk-combined
+            jobset: unstable
           - project: nixos
             jobset: release-25.05
           - project: nixos
