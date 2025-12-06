@@ -4,7 +4,7 @@ categories: nixos:release-25.11
 ---
 # Evals report
 
-*Report built at 2025-12-06 09:08:39 UTC*
+*Report built at 2025-12-06 10:07:48 UTC*
 
 Built for evals:
 
@@ -13479,7 +13479,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>2621 issues</summary>
+<details><summary>2615 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -18416,13 +18416,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/315952342'>nixpkgs.ocamlPackages.asetmap.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/315952344'>nixpkgs.ocamlPackages.asn1-combinators.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -20772,13 +20765,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/315952807'>nixpkgs.ocamlPackages.gen_js_api.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -23827,13 +23813,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/315953248'>nixpkgs.ocamlPackages.js_of_ocaml-ppx.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/315953249'>nixpkgs.ocamlPackages.js_of_ocaml-ppx_deriving_json.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -23880,13 +23859,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/315953239'>nixpkgs.ocamlPackages.js_of_ocaml.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -25990,13 +25962,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/315953570'>nixpkgs.ocamlPackages.ojs.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/315953573'>nixpkgs.ocamlPackages.opam-0install-cudf.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -27289,13 +27254,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/315953839'>nixpkgs.ocamlPackages.promise_jsoo.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
