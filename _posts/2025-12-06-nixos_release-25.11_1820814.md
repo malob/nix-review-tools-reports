@@ -4,7 +4,7 @@ categories: nixos:release-25.11
 ---
 # Evals report
 
-*Report built at 2025-12-06 21:07:27 UTC*
+*Report built at 2025-12-06 22:08:02 UTC*
 
 Built for evals:
 
@@ -13485,7 +13485,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>2484 issues</summary>
+<details><summary>2479 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -21677,13 +21677,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/315952960'>nixpkgs.ocamlPackages.janeStreet.bignum.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/315952962'>nixpkgs.ocamlPackages.janeStreet.bignum.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -22693,13 +22686,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/315953134'>nixpkgs.ocamlPackages.janeStreet.ppx_sexp_value.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/315953137'>nixpkgs.ocamlPackages.janeStreet.ppx_stable.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -25940,13 +25926,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/315953666'>nixpkgs.ocamlPackages.ppx_conv_func.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/315953668'>nixpkgs.ocamlPackages.ppx_conv_func.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -27536,13 +27515,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/315953934'>nixpkgs.ocamlPackages.shexp.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/315953972'>nixpkgs.ocamlPackages.simple-diff.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -28415,13 +28387,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/315954078'>nixpkgs.ocamlPackages.uutf.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
