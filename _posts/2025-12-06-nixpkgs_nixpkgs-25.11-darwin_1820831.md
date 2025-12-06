@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-12-06 21:07:34 UTC*
+*Report built at 2025-12-06 22:07:16 UTC*
 
 Built for evals:
 
@@ -33509,7 +33509,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>2215 issues</summary>
+<details><summary>2211 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -40371,13 +40371,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/315956452'>ocamlPackages.janeStreet.ppx_embed_file.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/315956598'>ocamlPackages.janeStreet.ppx_embed_file.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -40480,13 +40473,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/315956469'>ocamlPackages.janeStreet.ppx_ignore_instrumentation.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -47763,13 +47749,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/315957561'>python313Packages.cmdstanpy.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/315957565'>python313Packages.fastai.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -48348,13 +48327,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/315957644'>python313Packages.spacy.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
