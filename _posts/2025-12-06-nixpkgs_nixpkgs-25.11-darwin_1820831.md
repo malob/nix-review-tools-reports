@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-12-07 08:07:40 UTC*
+*Report built at 2025-12-07 09:06:58 UTC*
 
 Built for evals:
 
@@ -33631,7 +33631,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>1682 issues</summary>
+<details><summary>1679 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -35681,13 +35681,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/315955833'>ocamlPackages.biotk.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -40332,13 +40325,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/315956854'>ocamlPackages.mirage-random-test.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/315956782'>ocamlPackages.mirage-random.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -42695,13 +42681,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/315957206'>ocamlPackages.sexp.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
