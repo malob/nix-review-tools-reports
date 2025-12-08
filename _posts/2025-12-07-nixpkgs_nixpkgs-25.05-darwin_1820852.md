@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.05-darwin
 ---
 # Evals report
 
-*Report built at 2025-12-08 02:38:40 UTC*
+*Report built at 2025-12-08 07:09:39 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1314 issues</summary>
+<details><summary>1317 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -565,6 +565,23 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>python3.12-m2crypto-0.45.0</tt> <br /> <a href='https://hydra.nixos.org/build/315534489/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/315534489/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/315534489/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/314719478'>build 314719478</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/316052399'>dxvk.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>dxvk-i686-w64-mingw32-1.10.3</tt> <br /> <a href='https://hydra.nixos.org/build/316052399/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/316052399/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/316052399/nixlog/2/tail'>tail</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>dxvk-x86_64-w64-mingw32-1.10.3</tt> <br /> <a href='https://hydra.nixos.org/build/316052399/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/316052399/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/316052399/nixlog/1/tail'>tail</a>
 </li>
 </ul>
 </details>
@@ -3379,6 +3396,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>l-smash-2.14.5</tt> <br /> <a href='https://hydra.nixos.org/build/315562883/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/315562883/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/315562883/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/314659003'>build 314659003</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/316052411'>matrix-authentication-service.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>open-policy-agent-1.6.0</tt> <br /> <a href='https://hydra.nixos.org/build/316052411/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/316052411/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/316052411/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/314684249'>build 314684249</a>
 </li>
 </ul>
 </details>
@@ -6790,6 +6821,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/315536276'>finalfrontier.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/315955409'>firefox-devedition-unwrapped.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -21025,97 +21062,13 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>25 issues</summary>
+<details><summary>2 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/316052397'>brave.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/316052398'>brave.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/316052408'>darwin-tested</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/316052405'>darwin.linux-builder-x86_64.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/316052402'>darwin.linux-builder.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/316052403'>darwin.linux-builder.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/316052399'>dxvk.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/316052406'>fim-rs.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/315955409'>firefox-devedition-unwrapped.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/316052410'>iocsearcher.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/316052409'>iocsearcher.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/316052411'>matrix-authentication-service.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/316052414'>metrics</a></tt>
@@ -21125,84 +21078,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/316052415'>nss_latest.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/316052416'>nss_latest.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/316052417'>python312Packages.iocsearcher.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/316052421'>python313Packages.iocsearcher.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/316052422'>python313Packages.iocsearcher.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/316052423'>python313Packages.readabilipy.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/316052424'>python313Packages.readabilipy.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/315955415'>scom.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/315955416'>scom.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/316052426'>tarball</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/316052428'>vscode-langservers-extracted.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/316052430'>vscode-langservers-extracted.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -22715,6 +22591,17 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/314684246'>aarch64-darwin open-policy-agent-1.6.0</a></tt></summary>
+<ul>
+<li>matrix-authentication-service.aarch64-darwin</li>
+<li>matrix-authentication-service.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/314682569'>aarch64-darwin vega-cli-5.32.0</a></tt></summary>
 <ul>
 <li>nodePackages_latest.vega-lite.aarch64-darwin</li>
@@ -23342,6 +23229,26 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt>x86_64-darwin dxvk-i686-w64-mingw32-1.10.3</tt></summary>
+<ul>
+<li>dxvk.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>x86_64-darwin dxvk-x86_64-w64-mingw32-1.10.3</tt></summary>
+<ul>
+<li>dxvk.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/314600654'>x86_64-darwin buildah-1.40.0</a></tt></summary>
 <ul>
 <li>buildah.x86_64-darwin</li>
@@ -23445,16 +23352,6 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/314611910'>x86_64-darwin fflas-ffpack-2.5.0</a></tt></summary>
 <ul>
 <li>linbox.x86_64-darwin</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/314684246'>aarch64-darwin open-policy-agent-1.6.0</a></tt></summary>
-<ul>
-<li>matrix-authentication-service.aarch64-darwin</li>
 </ul>
 </details>
 </td>
