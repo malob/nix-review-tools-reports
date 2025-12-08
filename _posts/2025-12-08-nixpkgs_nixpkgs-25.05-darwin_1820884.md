@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.05-darwin
 ---
 # Evals report
 
-*Report built at 2025-12-08 09:10:16 UTC*
+*Report built at 2025-12-08 16:08:01 UTC*
 
 Built for evals:
 
@@ -11409,7 +11409,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1160 issues</summary>
+<details><summary>1161 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -16078,6 +16078,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/315527411'>amnezia-vpn.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/316065735'>apacheHttpdPackages.mod_python.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -21038,7 +21044,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>97 issues</summary>
+<details><summary>91 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -21058,13 +21064,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/316065677'>apacheHttpdPackages.apacheHttpd.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -21201,13 +21200,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/316065735'>apacheHttpdPackages.mod_python.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/316065693'>apacheHttpdPackages.mod_python.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -21250,13 +21242,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/316065682'>apacheHttpdPackages.mod_timestamp.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/316065727'>apacheHttpdPackages.mod_wsgi3.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -21286,13 +21271,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/316065689'>apacheHttpdPackages_2_4.apacheHttpd.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/316065691'>apacheHttpdPackages_2_4.mod_ca.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -21338,13 +21316,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/316065698'>apacheHttpdPackages_2_4.mod_csr.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -21695,13 +21666,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/316065761'>perlPackages.mod_perl2.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
