@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-12-08 09:09:57 UTC*
+*Report built at 2025-12-08 10:07:57 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>2117 issues</summary>
+<details><summary>2118 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -19931,6 +19931,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/316058594'>luajitPackages.lux-lua.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/314998213'>maiko.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -34245,7 +34251,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>6 issues</summary>
+<details><summary>4 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -34254,21 +34260,7 @@ Built for evals:
 </tr></thead>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/316058557'>klayout.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/316058554'>klayout.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/316058594'>luajitPackages.lux-lua.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
