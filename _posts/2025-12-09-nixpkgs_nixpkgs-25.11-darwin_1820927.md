@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-12-09 21:08:12 UTC*
+*Report built at 2025-12-09 22:10:19 UTC*
 
 Built for evals:
 
@@ -34011,7 +34011,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>285 issues</summary>
+<details><summary>282 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -34185,13 +34185,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/316104734'>changelogen.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -34699,13 +34692,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/316104788'>lk-jwt-service.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/316091711'>luau.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -34969,13 +34955,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/316104810'>pnpm_10.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
