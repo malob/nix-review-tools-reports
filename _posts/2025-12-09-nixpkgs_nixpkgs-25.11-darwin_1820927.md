@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-12-09 14:08:49 UTC*
+*Report built at 2025-12-09 15:08:20 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>2090 issues</summary>
+<details><summary>2091 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -6721,6 +6721,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>python3.12-symfc-1.5.4</tt> <br /> <a href='https://hydra.nixos.org/build/315031181/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/315031181/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/315031181/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/314477348'>build 314477348</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/316091766'>python312Packages.pinocchio.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.12-eigenpy-3.12.0</tt> <br /> <a href='https://hydra.nixos.org/build/316091766/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/316091766/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/316091766/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/314453246'>build 314453246</a>
 </li>
 </ul>
 </details>
@@ -33963,7 +33977,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>331 issues</summary>
+<details><summary>327 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -34018,13 +34032,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/316104719'>argc.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -35267,13 +35274,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/316091754'>python312Packages.fast-simplification.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/316091756'>python312Packages.gstools.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -35362,13 +35362,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/316091766'>python312Packages.pinocchio.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -35775,13 +35768,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/316091817'>python313Packages.pyvista.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -38915,6 +38901,17 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/314453246'>x86_64-darwin python3.12-eigenpy-3.12.0</a></tt></summary>
+<ul>
+<li>python312Packages.coal.x86_64-darwin</li>
+<li>python312Packages.pinocchio.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/314478297'>aarch64-darwin python3.12-torch-geometric-2.7.0</a></tt></summary>
 <ul>
 <li>python312Packages.compressai.aarch64-darwin</li>
@@ -39391,16 +39388,6 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/314417714'>aarch64-darwin perl5.38.2-Math-Pari-2.030523</a></tt></summary>
 <ul>
 <li>perl538Packages.CryptRandom.aarch64-darwin</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/314453246'>x86_64-darwin python3.12-eigenpy-3.12.0</a></tt></summary>
-<ul>
-<li>python312Packages.coal.x86_64-darwin</li>
 </ul>
 </details>
 </td>
