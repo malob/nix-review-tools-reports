@@ -1,10 +1,10 @@
 ---
-title: nixos:release-25.11 1820936
+title: nixos:release-25.11 1820936 (succeeded)
 categories: nixos:release-25.11
 ---
 # Evals report
 
-*Report built at 2025-12-10 15:17:12 UTC*
+*Report built at 2025-12-10 16:09:50 UTC*
 
 Built for evals:
 
@@ -15887,34 +15887,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/314925102'>nixpkgs.python313Packages.pylette.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>2 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/316108792'>nixpkgs.kicad-testing-small.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/316108799'>nixpkgs.kicad-unstable-small.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 </table>
 </details>
