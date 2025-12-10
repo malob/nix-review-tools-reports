@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-12-09 23:08:20 UTC*
+*Report built at 2025-12-10 00:16:17 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>2093 issues</summary>
+<details><summary>2094 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -4831,6 +4831,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>fflas-ffpack-2.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/314995025/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/314995025/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/314995025/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/314329284'>build 314329284</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/316091709'>linphonePackages.bcunit.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>source</tt> <br /> <a href='https://hydra.nixos.org/build/316091709/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/316091709/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/316091709/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/316092461'>build 316092461</a>
 </li>
 </ul>
 </details>
@@ -34011,7 +34025,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>280 issues</summary>
+<details><summary>275 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -34164,13 +34178,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/316091677'>cbmp.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -34440,13 +34447,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/316104764'>gcovr.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/316104767'>ghostfolio.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -34678,13 +34678,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/316091709'>linphonePackages.bcunit.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/316104787'>lk-jwt-service.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -34773,13 +34766,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/316104794'>moonlight.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -35137,13 +35123,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/316091753'>python312Packages.fast-simplification.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -39055,6 +39034,16 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/314329284'>x86_64-darwin fflas-ffpack-2.5.0</a></tt></summary>
 <ul>
 <li>linbox.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/316092461'>x86_64-darwin source</a></tt></summary>
+<ul>
+<li>linphonePackages.bcunit.x86_64-darwin</li>
 </ul>
 </details>
 </td>
