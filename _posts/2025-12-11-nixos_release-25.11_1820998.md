@@ -4,7 +4,7 @@ categories: nixos:release-25.11
 ---
 # Evals report
 
-*Report built at 2025-12-11 22:09:14 UTC*
+*Report built at 2025-12-11 23:10:05 UTC*
 
 Built for evals:
 
@@ -12967,7 +12967,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>9110 issues</summary>
+<details><summary>9098 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -17260,13 +17260,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/316148898'>nixos.tests.allDrivers.env.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/316148903'>nixos.tests.allDrivers.envfs.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -18804,13 +18797,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/316149125'>nixos.tests.allDrivers.go-httpbin.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -24568,13 +24554,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/316149952'>nixos.tests.allDrivers.mitmproxy.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/316149950'>nixos.tests.allDrivers.mitmproxy.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -28530,13 +28509,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/316150530'>nixos.tests.allDrivers.php82.pcre.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/316150550'>nixos.tests.allDrivers.php83.fpm-modular.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -29934,13 +29906,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/316150747'>nixos.tests.allDrivers.prometheus-exporters.bind.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -33829,13 +33794,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/316151289'>nixos.tests.allDrivers.systemd-initrd-bridge.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/316151291'>nixos.tests.allDrivers.systemd-initrd-bridge.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -35824,13 +35782,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/316151574'>nixos.tests.allDrivers.unit-php.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/316151598'>nixos.tests.allDrivers.upnp.iptables.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -37704,13 +37655,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/316151841'>nixos.tests.allDrivers.zwave-js-ui.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -48207,13 +48151,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/316153346'>nixos.tests.mitmproxy.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/316153347'>nixos.tests.mitmproxy.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -57531,13 +57468,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/316154697'>nixos.tests.systemd-initrd-bridge.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/316154699'>nixos.tests.systemd-initrd-bridge.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -59547,13 +59477,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/316154973'>nixos.tests.unit-php.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/316154998'>nixos.tests.upnp.iptables.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -61434,13 +61357,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/316155242'>nixos.tests.zwave-js-ui.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
