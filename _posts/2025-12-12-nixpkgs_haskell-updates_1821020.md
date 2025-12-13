@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-12-13 07:04:55 UTC*
+*Report built at 2025-12-13 15:04:37 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>20 issues</summary>
+<details><summary>19 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -135,20 +135,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/316138632'>tamarin-prover.x86_64-linux</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Failed</b> <tt>threads-0.5.1.8</tt> <br /> <a href='https://hydra.nixos.org/build/316138632/nixlog/46'>log</a>, <a href='https://hydra.nixos.org/build/316138632/nixlog/46/raw'>raw</a>, <a href='https://hydra.nixos.org/build/316138632/nixlog/46/tail'>tail</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/316127858'>haskellPackages.fs-api.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -220,7 +206,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>231 issues</summary>
+<details><summary>232 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -1825,6 +1811,13 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/316138632'>tamarin-prover.x86_64-linux</a></tt>
+</td>
+<td>Queued</td>
+<th>x86_64-linux</th>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/316190914'>tests.haskell.cabalSdist.assumptionLocalHasDirectReference.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -1892,16 +1885,6 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/316128181'>x86_64-linux warpZ-3.4.10</a></tt></summary>
 <ul>
 <li>haskellPackages.warpZ-tls.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>x86_64-linux threads-0.5.1.8</tt></summary>
-<ul>
-<li>tamarin-prover.x86_64-linux</li>
 </ul>
 </details>
 </td>
