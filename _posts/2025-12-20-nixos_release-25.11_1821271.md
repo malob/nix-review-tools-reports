@@ -1,10 +1,10 @@
 ---
-title: nixos:release-25.11 1821271
+title: nixos:release-25.11 1821271 (succeeded)
 categories: nixos:release-25.11
 ---
 # Evals report
 
-*Report built at 2025-12-21 03:37:35 UTC*
+*Report built at 2025-12-21 04:21:09 UTC*
 
 Built for evals:
 
@@ -15251,27 +15251,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/316914626'>nixpkgs.python313Packages.reflex.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/316934399'>nixos.amazonImageZfs.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
