@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.05-darwin
 ---
 # Evals report
 
-*Report built at 2025-12-21 01:36:34 UTC*
+*Report built at 2025-12-21 03:36:29 UTC*
 
 Built for evals:
 
@@ -11407,7 +11407,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1158 issues</summary>
+<details><summary>1159 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -12835,6 +12835,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>l-smash-2.14.5</tt> <br /> <a href='https://hydra.nixos.org/build/315562880/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/315562880/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/315562880/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/314659018'>build 314659018</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/316934336'>matrix-authentication-service.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>open-policy-agent-1.6.0</tt> <br /> <a href='https://hydra.nixos.org/build/316934336/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/316934336/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/316934336/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/314684246'>build 314684246</a>
 </li>
 </ul>
 </details>
@@ -21016,7 +21030,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>13 issues</summary>
+<details><summary>12 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -21050,13 +21064,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/316934336'>matrix-authentication-service.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -23372,6 +23379,16 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/314611910'>x86_64-darwin fflas-ffpack-2.5.0</a></tt></summary>
 <ul>
 <li>linbox.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/314684246'>aarch64-darwin open-policy-agent-1.6.0</a></tt></summary>
+<ul>
+<li>matrix-authentication-service.aarch64-darwin</li>
 </ul>
 </details>
 </td>
