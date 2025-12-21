@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-12-21 06:09:49 UTC*
+*Report built at 2025-12-21 08:08:57 UTC*
 
 Built for evals:
 
@@ -18244,7 +18244,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1165 issues</summary>
+<details><summary>1166 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -23292,6 +23292,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>mlt-7.34.1</tt> <br /> <a href='https://hydra.nixos.org/build/316514476/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/316514476/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/316514476/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/316178087'>build 316178087</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/316937702'>tabby-agent.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>tabby-agent-pnpm-deps</tt> <br /> <a href='https://hydra.nixos.org/build/316937702/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/316937702/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/316937702/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/316900681'>build 316900681</a>
 </li>
 </ul>
 </details>
@@ -28467,7 +28481,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>543 issues</summary>
+<details><summary>541 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -31423,13 +31437,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/316937654'>python313Packages.yt-dlp.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/316937655'>python313Packages.yt-dlp.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -31749,13 +31756,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/316937702'>tabby-agent.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -35027,6 +35027,16 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/315768972'>x86_64-darwin mlkit-4.7.14</a></tt></summary>
 <ul>
 <li>smlfut.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/316900681'>aarch64-darwin tabby-agent-pnpm-deps</a></tt></summary>
+<ul>
+<li>tabby-agent.aarch64-darwin</li>
 </ul>
 </details>
 </td>
