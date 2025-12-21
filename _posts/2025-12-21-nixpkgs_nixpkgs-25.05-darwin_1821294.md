@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.05-darwin
 ---
 # Evals report
 
-*Report built at 2025-12-21 06:09:28 UTC*
+*Report built at 2025-12-21 08:09:14 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1316 issues</summary>
+<details><summary>1317 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -3396,6 +3396,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>l-smash-2.14.5</tt> <br /> <a href='https://hydra.nixos.org/build/315562883/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/315562883/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/315562883/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/314659003'>build 314659003</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/316934337'>matrix-authentication-service.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>open-policy-agent-1.6.0</tt> <br /> <a href='https://hydra.nixos.org/build/316934337/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/316934337/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/316934337/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/314684249'>build 314684249</a>
 </li>
 </ul>
 </details>
@@ -21030,7 +21044,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>11 issues</summary>
+<details><summary>10 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -21064,13 +21078,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/316934337'>matrix-authentication-service.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -22622,6 +22629,17 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/314684246'>aarch64-darwin open-policy-agent-1.6.0</a></tt></summary>
+<ul>
+<li>matrix-authentication-service.aarch64-darwin</li>
+<li>matrix-authentication-service.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/316101840'>aarch64-darwin vega-cli-5.32.0</a></tt></summary>
 <ul>
 <li>nodePackages_latest.vega-lite.aarch64-darwin</li>
@@ -23372,16 +23390,6 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/314611910'>x86_64-darwin fflas-ffpack-2.5.0</a></tt></summary>
 <ul>
 <li>linbox.x86_64-darwin</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/314684246'>aarch64-darwin open-policy-agent-1.6.0</a></tt></summary>
-<ul>
-<li>matrix-authentication-service.aarch64-darwin</li>
 </ul>
 </details>
 </td>
