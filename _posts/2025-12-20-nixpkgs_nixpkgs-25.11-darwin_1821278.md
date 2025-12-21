@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-12-21 04:20:42 UTC*
+*Report built at 2025-12-21 05:09:38 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1747 issues</summary>
+<details><summary>1748 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -5711,6 +5711,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>lilypond-2.24.4</tt> <br /> <a href='https://hydra.nixos.org/build/316494033/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/316494033/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/316494033/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/315984164'>build 315984164</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/316937561'>python313Packages.k-diffusion.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.13-accelerate-1.11.0</tt> <br /> <a href='https://hydra.nixos.org/build/316937561/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/316937561/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/316937561/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/316012811'>build 316012811</a>
 </li>
 </ul>
 </details>
@@ -28425,7 +28439,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>549 issues</summary>
+<details><summary>547 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -30751,13 +30765,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/316937561'>python313Packages.k-diffusion.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/316937598'>python313Packages.llama-cloud-services.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -32256,13 +32263,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/316937782'>zenn-cli.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/316937781'>zenn-cli.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -32919,6 +32919,7 @@ Built for evals:
 <li>python313Packages.argostranslate.x86_64-darwin</li>
 <li>python313Packages.docling-ibm-models.aarch64-darwin</li>
 <li>python313Packages.docling-ibm-models.x86_64-darwin</li>
+<li>python313Packages.k-diffusion.x86_64-darwin</li>
 <li>python313Packages.langchain-huggingface.aarch64-darwin</li>
 <li>python313Packages.langchain-huggingface.x86_64-darwin</li>
 <li>python313Packages.libretranslate.aarch64-darwin</li>
@@ -32956,7 +32957,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>41</td>
+<td>42</td>
 </tr>
 <tr>
 <td>
