@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-12-23 07:10:33 UTC*
+*Report built at 2025-12-23 08:10:15 UTC*
 
 Built for evals:
 
@@ -27857,7 +27857,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>1782 issues</summary>
+<details><summary>1781 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -39746,13 +39746,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/317025438'>rubyPackages_4_0.zookeeper.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/317025425'>ruby_4_0.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
