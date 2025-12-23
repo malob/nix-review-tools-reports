@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-12-23 09:10:46 UTC*
+*Report built at 2025-12-23 10:08:54 UTC*
 
 Built for evals:
 
@@ -17924,7 +17924,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1142 issues</summary>
+<details><summary>1143 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -20666,6 +20666,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>python3.12-accelerate-1.11.0</tt> <br /> <a href='https://hydra.nixos.org/build/316475901/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/316475901/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/316475901/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/316178494'>build 316178494</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/316997096'>python312Packages.llama-index-embeddings-huggingface.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.12-accelerate-1.11.0</tt> <br /> <a href='https://hydra.nixos.org/build/316997096/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/316997096/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/316997096/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/316937452'>build 316937452</a>
 </li>
 </ul>
 </details>
@@ -27857,7 +27871,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>1780 issues</summary>
+<details><summary>1779 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -29228,13 +29242,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/316997096'>python312Packages.llama-index-embeddings-huggingface.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -41016,6 +41023,7 @@ Built for evals:
 <li>python312Packages.langchain-huggingface.x86_64-darwin</li>
 <li>python312Packages.libretranslate.aarch64-darwin</li>
 <li>python312Packages.libretranslate.x86_64-darwin</li>
+<li>python312Packages.llama-index-embeddings-huggingface.aarch64-darwin</li>
 <li>python312Packages.llm-sentence-transformers.aarch64-darwin</li>
 <li>python312Packages.llm-sentence-transformers.x86_64-darwin</li>
 <li>python312Packages.lm-eval.aarch64-darwin</li>
@@ -41044,7 +41052,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>36</td>
+<td>37</td>
 </tr>
 <tr>
 <td>
