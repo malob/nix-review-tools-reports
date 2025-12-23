@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-12-23 15:08:50 UTC*
+*Report built at 2025-12-23 16:09:23 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1727 issues</summary>
+<details><summary>1728 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -4883,6 +4883,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>lilypond-2.24.4</tt> <br /> <a href='https://hydra.nixos.org/build/316475303/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/316475303/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/316475303/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/315984164'>build 315984164</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/316997118'>python312Packages.k-diffusion.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.12-accelerate-1.11.0</tt> <br /> <a href='https://hydra.nixos.org/build/316997118/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/316997118/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/316997118/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/316937527'>build 316937527</a>
 </li>
 </ul>
 </details>
@@ -17958,7 +17972,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1145 issues</summary>
+<details><summary>1146 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -21666,6 +21680,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>python3.13-accelerate-1.11.0</tt> <br /> <a href='https://hydra.nixos.org/build/316494504/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/316494504/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/316494504/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/316181900'>build 316181900</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/316997286'>python313Packages.llama-index.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.13-pymupdf-1.26.6</tt> <br /> <a href='https://hydra.nixos.org/build/316997286/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/316997286/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/316997286/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/316937618'>build 316937618</a>
 </li>
 </ul>
 </details>
@@ -27933,7 +27961,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>1382 issues</summary>
+<details><summary>1379 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -28922,13 +28950,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/316997060'>pnpm_10.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/316997063'>pocket-id.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -29080,13 +29101,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/316997118'>python312Packages.k-diffusion.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -30004,13 +30018,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/316997286'>python313Packages.llama-index.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -38303,6 +38310,7 @@ Built for evals:
 <li>python312Packages.argostranslate.x86_64-darwin</li>
 <li>python312Packages.docling-ibm-models.aarch64-darwin</li>
 <li>python312Packages.docling-ibm-models.x86_64-darwin</li>
+<li>python312Packages.k-diffusion.x86_64-darwin</li>
 <li>python312Packages.langchain-huggingface.aarch64-darwin</li>
 <li>python312Packages.langchain-huggingface.x86_64-darwin</li>
 <li>python312Packages.libretranslate.aarch64-darwin</li>
@@ -38337,7 +38345,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>38</td>
+<td>39</td>
 </tr>
 <tr>
 <td>
@@ -38430,6 +38438,7 @@ Built for evals:
 <li>python313Packages.argos-translate-files.aarch64-darwin</li>
 <li>python313Packages.cardimpose.aarch64-darwin</li>
 <li>python313Packages.cardimpose.x86_64-darwin</li>
+<li>python313Packages.llama-index.aarch64-darwin</li>
 <li>python313Packages.llm-pdf-to-images.aarch64-darwin</li>
 <li>python313Packages.llm-pdf-to-images.x86_64-darwin</li>
 <li>python313Packages.paddleocr.aarch64-darwin</li>
@@ -38447,7 +38456,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>25</td>
+<td>26</td>
 </tr>
 <tr>
 <td>
