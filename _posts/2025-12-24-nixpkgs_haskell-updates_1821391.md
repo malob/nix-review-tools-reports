@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2025-12-24 16:05:30 UTC*
+*Report built at 2025-12-24 18:06:21 UTC*
 
 Built for evals:
 
@@ -170,20 +170,13 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>21 issues</summary>
+<details><summary>20 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/317068633'>arion.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/317068637'>haskell.compiler.ghc914.x86_64-linux</a></tt>
