@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-12-26 05:09:42 UTC*
+*Report built at 2025-12-26 06:09:28 UTC*
 
 Built for evals:
 
@@ -18070,7 +18070,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1153 issues</summary>
+<details><summary>1154 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -20378,6 +20378,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>rlottie-0.2-unstable-2025-10-01</tt> <br /> <a href='https://hydra.nixos.org/build/316466744/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/316466744/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/316466744/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/315895361'>build 315895361</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/317081839'>protoc-gen-js.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>bazel-7.6.0</tt> <br /> <a href='https://hydra.nixos.org/build/317081839/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/317081839/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/317081839/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/317081848'>build 317081848</a>
 </li>
 </ul>
 </details>
@@ -28152,7 +28166,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>5 issues</summary>
+<details><summary>2 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -28168,31 +28182,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/317081829'>darwin-tested</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/317081839'>protoc-gen-js.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/317081840'>python312Packages.osc.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/317081847'>tarball</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
@@ -29903,6 +29896,18 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/317081848'>aarch64-darwin bazel-7.6.0</a></tt></summary>
+<ul>
+<li>protoc-gen-js.aarch64-darwin</li>
+<li>protoc-gen-js.x86_64-darwin</li>
+<li>verible.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>3</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/315847833'>x86_64-darwin python3.12-symfc-1.5.4</a></tt></summary>
 <ul>
 <li>python312Packages.atomman.x86_64-darwin</li>
@@ -30328,17 +30333,6 @@ Built for evals:
 <ul>
 <li>plant-it.aarch64-darwin</li>
 <li>plant-it.x86_64-darwin</li>
-</ul>
-</details>
-</td>
-<td>2</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>x86_64-darwin bazel-7.6.0</tt></summary>
-<ul>
-<li>protoc-gen-js.x86_64-darwin</li>
-<li>verible.aarch64-darwin</li>
 </ul>
 </details>
 </td>
