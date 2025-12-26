@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.11-darwin
 ---
 # Evals report
 
-*Report built at 2025-12-26 03:35:18 UTC*
+*Report built at 2025-12-26 05:09:42 UTC*
 
 Built for evals:
 
@@ -18070,7 +18070,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1152 issues</summary>
+<details><summary>1153 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -23349,6 +23349,23 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/317081848'>verible.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>verible-0.0.4023-deps.tar.gz</tt> <br /> <a href='https://hydra.nixos.org/build/317081848/nixlog/3'>log</a>, <a href='https://hydra.nixos.org/build/317081848/nixlog/3/raw'>raw</a>, <a href='https://hydra.nixos.org/build/317081848/nixlog/3/tail'>tail</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>bazel-7.6.0</tt> <br /> <a href='https://hydra.nixos.org/build/317081848/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/317081848/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/317081848/nixlog/1/tail'>tail</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/316529675'>vimPlugins.vectorcode-nvim.aarch64-darwin</a></tt>
 </summary>
 <ul>
@@ -28135,7 +28152,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>7 issues</summary>
+<details><summary>5 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -28152,13 +28169,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/317081829'>darwin-tested</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/317081833'>metrics</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -28183,13 +28193,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/317081848'>verible.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 </table>
 </details>
@@ -30332,6 +30335,17 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt>x86_64-darwin bazel-7.6.0</tt></summary>
+<ul>
+<li>protoc-gen-js.x86_64-darwin</li>
+<li>verible.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/315819725'>aarch64-darwin python3.12-cexprtk-0.4.1</a></tt></summary>
 <ul>
 <li>python312Packages.atsim-potentials.aarch64-darwin</li>
@@ -30876,16 +30890,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt>x86_64-darwin bazel-7.6.0</tt></summary>
-<ul>
-<li>protoc-gen-js.x86_64-darwin</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/316239441'>x86_64-darwin python3.12-mmengine-0.10.7</a></tt></summary>
 <ul>
 <li>python312Packages.mmcv.x86_64-darwin</li>
@@ -31049,6 +31053,16 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/316035358'>aarch64-darwin vapoursynth-editor-R19-mod-4</a></tt></summary>
 <ul>
 <li>vapoursynth-editor.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>aarch64-darwin verible-0.0.4023-deps.tar.gz</tt></summary>
+<ul>
+<li>verible.aarch64-darwin</li>
 </ul>
 </details>
 </td>
