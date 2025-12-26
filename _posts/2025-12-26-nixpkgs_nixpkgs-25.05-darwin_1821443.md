@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:nixpkgs-25.05-darwin 1821443
+title: nixpkgs:nixpkgs-25.05-darwin 1821443 (succeeded)
 categories: nixpkgs:nixpkgs-25.05-darwin
 ---
 # Evals report
 
-*Report built at 2025-12-26 13:17:29 UTC*
+*Report built at 2025-12-26 14:07:33 UTC*
 
 Built for evals:
 
@@ -21048,27 +21048,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/315626358'>stalwart-mail.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/317098874'>darwin-tested</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
