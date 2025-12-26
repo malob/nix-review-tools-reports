@@ -1,10 +1,10 @@
 ---
-title: nixos:release-25.11 1821438
+title: nixos:release-25.11 1821438 (succeeded)
 categories: nixos:release-25.11
 ---
 # Evals report
 
-*Report built at 2025-12-26 14:08:37 UTC*
+*Report built at 2025-12-26 15:08:56 UTC*
 
 Built for evals:
 
@@ -3798,122 +3798,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/317085306'>tested</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Failed</b> <tt>vm-test-run-installer-btrfsSubvolEscape</tt> <br /> <a href='https://hydra.nixos.org/build/317085306/nixlog/299'>log</a>, <a href='https://hydra.nixos.org/build/317085306/nixlog/299/raw'>raw</a>, <a href='https://hydra.nixos.org/build/317085306/nixlog/299/tail'>tail</a>, <a href='https://hydra.nixos.org/build/317085153'>build 317085153</a>
-</li>
-<li>
-<b>=> Aborted</b> <tt>unit-dbus.service</tt> <br /> <a href='https://hydra.nixos.org/build/317085306/nixlog/275'>log</a>, <a href='https://hydra.nixos.org/build/317085306/nixlog/275/raw'>raw</a>, <a href='https://hydra.nixos.org/build/317085306/nixlog/275/tail'>tail</a>
-</li>
-<li>
-<b>=> Aborted</b> <tt>user-units</tt> <br /> <a href='https://hydra.nixos.org/build/317085306/nixlog/274'>log</a>, <a href='https://hydra.nixos.org/build/317085306/nixlog/274/raw'>raw</a>, <a href='https://hydra.nixos.org/build/317085306/nixlog/274/tail'>tail</a>
-</li>
-<li>
-<b>=> Aborted</b> <tt>nixos-system-nixos-25.11.2561.f560ccec6b11</tt> <br /> <a href='https://hydra.nixos.org/build/317085306/nixlog/272'>log</a>, <a href='https://hydra.nixos.org/build/317085306/nixlog/272/raw'>raw</a>, <a href='https://hydra.nixos.org/build/317085306/nixlog/272/tail'>tail</a>
-</li>
-<li>
-<b>=> Aborted</b> <tt>X-Restart-Triggers-polkit</tt> <br /> <a href='https://hydra.nixos.org/build/317085306/nixlog/202'>log</a>, <a href='https://hydra.nixos.org/build/317085306/nixlog/202/raw'>raw</a>, <a href='https://hydra.nixos.org/build/317085306/nixlog/202/tail'>tail</a>
-</li>
-<li>
-<b>=> Aborted</b> <tt>user-units</tt> <br /> <a href='https://hydra.nixos.org/build/317085306/nixlog/190'>log</a>, <a href='https://hydra.nixos.org/build/317085306/nixlog/190/raw'>raw</a>, <a href='https://hydra.nixos.org/build/317085306/nixlog/190/tail'>tail</a>
-</li>
-<li>
-<b>=> Aborted</b> <tt>boot.json</tt> <br /> <a href='https://hydra.nixos.org/build/317085306/nixlog/131'>log</a>, <a href='https://hydra.nixos.org/build/317085306/nixlog/131/raw'>raw</a>, <a href='https://hydra.nixos.org/build/317085306/nixlog/131/tail'>tail</a>
-</li>
-<li>
-<b>=> Aborted</b> <tt>X-Restart-Triggers-dbus</tt> <br /> <a href='https://hydra.nixos.org/build/317085306/nixlog/129'>log</a>, <a href='https://hydra.nixos.org/build/317085306/nixlog/129/raw'>raw</a>, <a href='https://hydra.nixos.org/build/317085306/nixlog/129/tail'>tail</a>
-</li>
-<li>
-<b>=> Aborted</b> <tt>nixos-help</tt> <br /> <a href='https://hydra.nixos.org/build/317085306/nixlog/122'>log</a>, <a href='https://hydra.nixos.org/build/317085306/nixlog/122/raw'>raw</a>, <a href='https://hydra.nixos.org/build/317085306/nixlog/122/tail'>tail</a>
-</li>
-<li>
-<b>=> Aborted</b> <tt>X-Restart-Triggers-dbus</tt> <br /> <a href='https://hydra.nixos.org/build/317085306/nixlog/117'>log</a>, <a href='https://hydra.nixos.org/build/317085306/nixlog/117/raw'>raw</a>, <a href='https://hydra.nixos.org/build/317085306/nixlog/117/tail'>tail</a>
-</li>
-<li>
-<b>=> Aborted</b> <tt>unit-polkit.service</tt> <br /> <a href='https://hydra.nixos.org/build/317085306/nixlog/111'>log</a>, <a href='https://hydra.nixos.org/build/317085306/nixlog/111/raw'>raw</a>, <a href='https://hydra.nixos.org/build/317085306/nixlog/111/tail'>tail</a>
-</li>
-<li>
-<b>=> Aborted</b> <tt>nixos-help</tt> <br /> 
-</li>
-<li>
-<b>=> Aborted</b> <tt>initrd-linux-6.18.2</tt> <br /> <a href='https://hydra.nixos.org/build/317085306/nixlog/108'>log</a>, <a href='https://hydra.nixos.org/build/317085306/nixlog/108/raw'>raw</a>, <a href='https://hydra.nixos.org/build/317085306/nixlog/108/tail'>tail</a>
-</li>
-<li>
-<b>=> Aborted</b> <tt>X-Restart-Triggers-dbus</tt> <br /> 
-</li>
-<li>
-<b>=> Aborted</b> <tt>X-Restart-Triggers-dbus</tt> <br /> <a href='https://hydra.nixos.org/build/317085306/nixlog/91'>log</a>, <a href='https://hydra.nixos.org/build/317085306/nixlog/91/raw'>raw</a>, <a href='https://hydra.nixos.org/build/317085306/nixlog/91/tail'>tail</a>
-</li>
-<li>
-<b>=> Aborted</b> <tt>dbus-1</tt> <br /> <a href='https://hydra.nixos.org/build/317085306/nixlog/89'>log</a>, <a href='https://hydra.nixos.org/build/317085306/nixlog/89/raw'>raw</a>, <a href='https://hydra.nixos.org/build/317085306/nixlog/89/tail'>tail</a>
-</li>
-<li>
-<b>=> Aborted</b> <tt>nixos-help</tt> <br /> <a href='https://hydra.nixos.org/build/317085306/nixlog/88'>log</a>, <a href='https://hydra.nixos.org/build/317085306/nixlog/88/raw'>raw</a>, <a href='https://hydra.nixos.org/build/317085306/nixlog/88/tail'>tail</a>
-</li>
-<li>
-<b>=> Aborted</b> <tt>initrd-linux-6.18.2</tt> <br /> 
-</li>
-<li>
-<b>=> Aborted</b> <tt>unit-polkit.service</tt> <br /> <a href='https://hydra.nixos.org/build/317085306/nixlog/86'>log</a>, <a href='https://hydra.nixos.org/build/317085306/nixlog/86/raw'>raw</a>, <a href='https://hydra.nixos.org/build/317085306/nixlog/86/tail'>tail</a>
-</li>
-<li>
-<b>=> Aborted</b> <tt>unit-generate-shutdown-ramfs.service</tt> <br /> <a href='https://hydra.nixos.org/build/317085306/nixlog/85'>log</a>, <a href='https://hydra.nixos.org/build/317085306/nixlog/85/raw'>raw</a>, <a href='https://hydra.nixos.org/build/317085306/nixlog/85/tail'>tail</a>
-</li>
-<li>
-<b>=> Aborted</b> <tt>X-Restart-Triggers-polkit</tt> <br /> <a href='https://hydra.nixos.org/build/317085306/nixlog/80'>log</a>, <a href='https://hydra.nixos.org/build/317085306/nixlog/80/raw'>raw</a>, <a href='https://hydra.nixos.org/build/317085306/nixlog/80/tail'>tail</a>
-</li>
-<li>
-<b>=> Aborted</b> <tt>dbus-1</tt> <br /> <a href='https://hydra.nixos.org/build/317085306/nixlog/77'>log</a>, <a href='https://hydra.nixos.org/build/317085306/nixlog/77/raw'>raw</a>, <a href='https://hydra.nixos.org/build/317085306/nixlog/77/tail'>tail</a>
-</li>
-<li>
-<b>=> Aborted</b> <tt>X-Restart-Triggers-polkit</tt> <br /> <a href='https://hydra.nixos.org/build/317085306/nixlog/73'>log</a>, <a href='https://hydra.nixos.org/build/317085306/nixlog/73/raw'>raw</a>, <a href='https://hydra.nixos.org/build/317085306/nixlog/73/tail'>tail</a>
-</li>
-<li>
-<b>=> Aborted</b> <tt>dbus-1</tt> <br /> 
-</li>
-<li>
-<b>=> Aborted</b> <tt>dbus-1</tt> <br /> <a href='https://hydra.nixos.org/build/317085306/nixlog/68'>log</a>, <a href='https://hydra.nixos.org/build/317085306/nixlog/68/raw'>raw</a>, <a href='https://hydra.nixos.org/build/317085306/nixlog/68/tail'>tail</a>
-</li>
-<li>
-<b>=> Aborted</b> <tt>nixos-manual-html</tt> <br /> <a href='https://hydra.nixos.org/build/317085306/nixlog/66'>log</a>, <a href='https://hydra.nixos.org/build/317085306/nixlog/66/raw'>raw</a>, <a href='https://hydra.nixos.org/build/317085306/nixlog/66/tail'>tail</a>
-</li>
-<li>
-<b>=> Aborted</b> <tt>shutdown-ramfs-contents.json</tt> <br /> <a href='https://hydra.nixos.org/build/317085306/nixlog/58'>log</a>, <a href='https://hydra.nixos.org/build/317085306/nixlog/58/raw'>raw</a>, <a href='https://hydra.nixos.org/build/317085306/nixlog/58/tail'>tail</a>
-</li>
-<li>
-<b>=> Aborted</b> <tt>linux-6.12.63-modules-shrunk</tt> <br /> <a href='https://hydra.nixos.org/build/317085306/nixlog/53'>log</a>, <a href='https://hydra.nixos.org/build/317085306/nixlog/53/raw'>raw</a>, <a href='https://hydra.nixos.org/build/317085306/nixlog/53/tail'>tail</a>
-</li>
-<li>
-<b>=> Aborted</b> <tt>options.json</tt> <br /> <a href='https://hydra.nixos.org/build/317085306/nixlog/48'>log</a>, <a href='https://hydra.nixos.org/build/317085306/nixlog/48/raw'>raw</a>, <a href='https://hydra.nixos.org/build/317085306/nixlog/48/tail'>tail</a>
-</li>
-<li>
-<b>=> Aborted</b> <tt>options.json</tt> <br /> <a href='https://hydra.nixos.org/build/317085306/nixlog/46'>log</a>, <a href='https://hydra.nixos.org/build/317085306/nixlog/46/raw'>raw</a>, <a href='https://hydra.nixos.org/build/317085306/nixlog/46/tail'>tail</a>
-</li>
-<li>
-<b>=> Aborted</b> <tt>issue</tt> <br /> <a href='https://hydra.nixos.org/build/317085306/nixlog/43'>log</a>, <a href='https://hydra.nixos.org/build/317085306/nixlog/43/raw'>raw</a>, <a href='https://hydra.nixos.org/build/317085306/nixlog/43/tail'>tail</a>
-</li>
-<li>
-<b>=> Aborted</b> <tt>etc-os-release</tt> <br /> <a href='https://hydra.nixos.org/build/317085306/nixlog/37'>log</a>, <a href='https://hydra.nixos.org/build/317085306/nixlog/37/raw'>raw</a>, <a href='https://hydra.nixos.org/build/317085306/nixlog/37/tail'>tail</a>
-</li>
-<li>
-<b>=> Aborted</b> <tt>nixos-help</tt> <br /> <a href='https://hydra.nixos.org/build/317085306/nixlog/35'>log</a>, <a href='https://hydra.nixos.org/build/317085306/nixlog/35/raw'>raw</a>, <a href='https://hydra.nixos.org/build/317085306/nixlog/35/tail'>tail</a>
-</li>
-<li>
-<b>=> Aborted</b> <tt>nixos-help</tt> <br /> <a href='https://hydra.nixos.org/build/317085306/nixlog/34'>log</a>, <a href='https://hydra.nixos.org/build/317085306/nixlog/34/raw'>raw</a>, <a href='https://hydra.nixos.org/build/317085306/nixlog/34/tail'>tail</a>
-</li>
-<li>
-<b>=> Aborted</b> <tt>unit-polkit.service</tt> <br /> <a href='https://hydra.nixos.org/build/317085306/nixlog/32'>log</a>, <a href='https://hydra.nixos.org/build/317085306/nixlog/32/raw'>raw</a>, <a href='https://hydra.nixos.org/build/317085306/nixlog/32/tail'>tail</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/317084992'>nixos.tests.allDrivers.gnome-extensions.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -7262,6 +7146,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/317085246'>nixos.tests.nixos-rebuild-install-bootloader.x86_64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/316349239'>nixpkgs.python312Packages.pylette.x86_64-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -7279,7 +7169,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>746 issues</summary>
+<details><summary>747 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -13247,6 +13137,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/316992944'>nixos.tests.allDrivers.paperless.aarch64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/316993259'>nixos.tests.paperless.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -13280,34 +13176,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/316914626'>nixpkgs.python313Packages.reflex.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>2 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/317085093'>nixos.tests.allDrivers.nixos-rebuild-install-bootloader.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/317085246'>nixos.tests.nixos-rebuild-install-bootloader.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
@@ -13791,36 +13659,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt>x86_64-linux nixos-help</tt></summary>
-<ul>
-<li>tested</li>
-</ul>
-</details>
-</td>
-<td>5</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>x86_64-linux X-Restart-Triggers-dbus</tt></summary>
-<ul>
-<li>tested</li>
-</ul>
-</details>
-</td>
-<td>4</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>x86_64-linux dbus-1</tt></summary>
-<ul>
-<li>tested</li>
-</ul>
-</details>
-</td>
-<td>4</td>
-</tr>
-<tr>
-<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/316908868'>aarch64-linux linux-config-5.15.195-rt90</a></tt></summary>
 <ul>
 <li>nixos.tests.allDrivers.kernel-generic.linux_rt_5_15.aarch64-linux</li>
@@ -13964,38 +13802,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt>x86_64-linux X-Restart-Triggers-polkit</tt></summary>
-<ul>
-<li>tested</li>
-</ul>
-</details>
-</td>
-<td>3</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>x86_64-linux unit-polkit.service</tt></summary>
-<ul>
-<li>tested</li>
-</ul>
-</details>
-</td>
-<td>3</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>x86_64-linux linux-6.12.63-modules-shrunk</tt></summary>
-<ul>
-<li>tested</li>
-<li>nixos.tests.allDrivers.facter.aarch64-linux</li>
-<li>nixos.tests.facter.aarch64-linux</li>
-</ul>
-</details>
-</td>
-<td>3</td>
-</tr>
-<tr>
-<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/316905431'>aarch64-linux linux-config-5.10.245-rt139</a></tt></summary>
 <ul>
 <li>nixos.tests.allDrivers.kernel-generic.linux_rt_5_10.aarch64-linux</li>
@@ -14020,36 +13826,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt>x86_64-linux user-units</tt></summary>
-<ul>
-<li>tested</li>
-</ul>
-</details>
-</td>
-<td>2</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>x86_64-linux initrd-linux-6.18.2</tt></summary>
-<ul>
-<li>tested</li>
-</ul>
-</details>
-</td>
-<td>2</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>x86_64-linux options.json</tt></summary>
-<ul>
-<li>tested</li>
-</ul>
-</details>
-</td>
-<td>2</td>
-</tr>
-<tr>
-<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/315906619'>x86_64-linux sgx-psw-2.25.100.3</a></tt></summary>
 <ul>
 <li>nixos.tests.aesmd.x86_64-linux</li>
@@ -14065,6 +13841,17 @@ Built for evals:
 <ul>
 <li>nixos.tests.allDrivers.commafeed.aarch64-linux</li>
 <li>nixos.tests.commafeed.aarch64-linux</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/316908221'>aarch64-linux linux-6.12.63-modules-shrunk</a></tt></summary>
+<ul>
+<li>nixos.tests.allDrivers.facter.aarch64-linux</li>
+<li>nixos.tests.facter.aarch64-linux</li>
 </ul>
 </details>
 </td>
@@ -14383,96 +14170,6 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/317084992'>x86_64-linux nixos-test-driver-gnome-extensions</a></tt></summary>
 <ul>
 <li>nixos.tests.gnome-extensions.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/317085153'>x86_64-linux vm-test-run-installer-btrfsSubvolEscape</a></tt></summary>
-<ul>
-<li>tested</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>x86_64-linux unit-dbus.service</tt></summary>
-<ul>
-<li>tested</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>x86_64-linux nixos-system-nixos-25.11.2561.f560ccec6b11</tt></summary>
-<ul>
-<li>tested</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>x86_64-linux boot.json</tt></summary>
-<ul>
-<li>tested</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>x86_64-linux unit-generate-shutdown-ramfs.service</tt></summary>
-<ul>
-<li>tested</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>x86_64-linux nixos-manual-html</tt></summary>
-<ul>
-<li>tested</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>x86_64-linux shutdown-ramfs-contents.json</tt></summary>
-<ul>
-<li>tested</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>x86_64-linux issue</tt></summary>
-<ul>
-<li>tested</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>x86_64-linux etc-os-release</tt></summary>
-<ul>
-<li>tested</li>
 </ul>
 </details>
 </td>
