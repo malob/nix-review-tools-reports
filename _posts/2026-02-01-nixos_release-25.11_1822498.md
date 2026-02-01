@@ -1,10 +1,10 @@
 ---
-title: nixos:release-25.11 1822498
+title: nixos:release-25.11 1822498 (succeeded)
 categories: nixos:release-25.11
 ---
 # Evals report
 
-*Report built at 2026-02-01 19:13:07 UTC*
+*Report built at 2026-02-01 20:09:00 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>676 issues</summary>
+<details><summary>678 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -1749,6 +1749,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/320797072'>nixos.tests.luks.x86_64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/320797131'>nixos.tests.maestral.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -1996,6 +2002,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/320798709'>nixos.tests.tandoor-recipes-media.x86_64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/320798724'>nixos.tests.temporal.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -11018,34 +11030,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/318735935'>nixpkgs.python313Packages.pylette.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>2 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/320797072'>nixos.tests.luks.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/320798724'>nixos.tests.temporal.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
