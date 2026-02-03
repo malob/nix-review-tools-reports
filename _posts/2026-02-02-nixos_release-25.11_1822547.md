@@ -1,10 +1,10 @@
 ---
-title: nixos:release-25.11 1822547
+title: nixos:release-25.11 1822547 (succeeded)
 categories: nixos:release-25.11
 ---
 # Evals report
 
-*Report built at 2026-02-03 03:03:33 UTC*
+*Report built at 2026-02-03 03:56:22 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>700 issues</summary>
+<details><summary>701 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -5175,6 +5175,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/320826308'>nixos.tests.nixos-rebuild-install-bootloader-ng.x86_64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/318734837'>nixpkgs.python313Packages.plopp.x86_64-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -5198,7 +5204,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>747 issues</summary>
+<details><summary>748 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -11225,37 +11231,15 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/318735935'>nixpkgs.python313Packages.pylette.aarch64-linux</a></tt>
+<tt><a href='https://hydra.nixos.org/build/318716226'>nixpkgs.python312Packages.pylette.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>2 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/320826005'>nixos.tests.allDrivers.nixos-rebuild-install-bootloader-ng.x86_64-linux</a></tt>
+<tt><a href='https://hydra.nixos.org/build/318735935'>nixpkgs.python313Packages.pylette.aarch64-linux</a></tt>
 </td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/320826308'>nixos.tests.nixos-rebuild-install-bootloader-ng.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
+<td>Timed out</td>
 </tr>
 </table>
 </details>
