@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.11-darwin
 ---
 # Evals report
 
-*Report built at 2026-02-05 21:13:16 UTC*
+*Report built at 2026-02-05 22:09:24 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>2816 issues</summary>
+<details><summary>2818 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -12241,6 +12241,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/321058340'>python312Packages.spacy-transformers.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.13-twisted-25.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/321058340/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/321058340/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/321058340/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/318427113'>build 318427113</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/319548471'>python312Packages.sparse.x86_64-darwin</a></tt>
 </summary>
 <ul>
@@ -13142,6 +13156,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>python3.13-twisted-25.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/319549531/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/319549531/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/319549531/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/318427113'>build 318427113</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/321058354'>python312Packages.wandb.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.13-twisted-25.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/321058354/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/321058354/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/321058354/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/318427113'>build 318427113</a>
 </li>
 </ul>
 </details>
@@ -46686,7 +46714,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>425 issues</summary>
+<details><summary>423 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -48382,13 +48410,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/321058340'>python312Packages.spacy-transformers.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/321058335'>python312Packages.spacy.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -48439,13 +48460,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/321058352'>python312Packages.uv.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/321058354'>python312Packages.wandb.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -50079,6 +50093,7 @@ Built for evals:
 <li>python312Packages.slicedimage.x86_64-darwin</li>
 <li>python312Packages.smolagents.x86_64-darwin</li>
 <li>python312Packages.spacy-lookups-data.x86_64-darwin</li>
+<li>python312Packages.spacy-transformers.x86_64-darwin</li>
 <li>python312Packages.sparse.x86_64-darwin</li>
 <li>python312Packages.spectral-cube.x86_64-darwin</li>
 <li>python312Packages.speechrecognition.x86_64-darwin</li>
@@ -50114,6 +50129,7 @@ Built for evals:
 <li>python312Packages.viser.x86_64-darwin</li>
 <li>python312Packages.vtk.x86_64-darwin</li>
 <li>python312Packages.wacz.x86_64-darwin</li>
+<li>python312Packages.wandb.x86_64-darwin</li>
 <li>python312Packages.webdataset.x86_64-darwin</li>
 <li>python312Packages.wgpu-py.x86_64-darwin</li>
 <li>python312Packages.whisperx.x86_64-darwin</li>
@@ -50698,7 +50714,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>1014</td>
+<td>1016</td>
 </tr>
 <tr>
 <td>
