@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:nixpkgs-25.11-darwin 1822598
+title: nixpkgs:nixpkgs-25.11-darwin 1822598 (succeeded)
 categories: nixpkgs:nixpkgs-25.11-darwin
 ---
 # Evals report
 
-*Report built at 2026-02-05 03:53:34 UTC*
+*Report built at 2026-02-05 04:38:12 UTC*
 
 Built for evals:
 
@@ -48144,27 +48144,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/318913297'>tests.writers.data.yaml.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/320881090'>arti.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 </table>
 </details>
