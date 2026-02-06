@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2026-02-06 18:14:35 UTC*
+*Report built at 2026-02-06 19:17:01 UTC*
 
 Built for evals:
 
@@ -299,7 +299,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>30 issues</summary>
+<details><summary>27 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -316,13 +316,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/321072583'>haskell-language-server.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/321072579'>haskell.packages.ghc9103.haskell-language-server.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -357,21 +350,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/321063317'>haskellPackages.algebraic-classes.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/321063319'>haskellPackages.aztecs-transform.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/321063326'>haskellPackages.derive-lifted-instances.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
