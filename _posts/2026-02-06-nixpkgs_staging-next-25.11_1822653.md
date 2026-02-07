@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next-25.11
 ---
 # Evals report
 
-*Report built at 2026-02-07 05:03:18 UTC*
+*Report built at 2026-02-07 09:43:28 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>621 issues</summary>
+<details><summary>620 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -711,20 +711,6 @@ Built for evals:
 </li>
 <li>
 <b>=> Failed</b> <tt>openfst-1.7.9</tt> <br /> 
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/321059175'>pkgsRocm.aider-chat-full.x86_64-linux</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Cached failure</b> <tt>python3.12-jupyter-server-2.17.0</tt> <br /> <a href='https://hydra.nixos.org/build/321059175/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/321059175/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/321059175/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/321059460'>build 321059460</a>
 </li>
 </ul>
 </details>
@@ -33918,7 +33904,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>654 issues</summary>
+<details><summary>651 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -34286,20 +34272,6 @@ Built for evals:
 </li>
 <li>
 <b>=> Failed</b> <tt>nvramtool-25.09</tt> <br /> 
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/321058673'>crewai.aarch64-linux</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Cached failure</b> <tt>python3.13-jupyter-server-2.17.0</tt> <br /> <a href='https://hydra.nixos.org/build/321058673/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/321058673/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/321058673/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/321060196'>build 321060196</a>
 </li>
 </ul>
 </details>
@@ -36777,20 +36749,6 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
-<tt><a href='https://hydra.nixos.org/build/321060120'>python313Packages.flax.aarch64-linux</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Failed</b> <tt>python3.13-jupyter-server-2.17.0</tt> <br /> <a href='https://hydra.nixos.org/build/321060120/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/321060120/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/321060120/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/321060196'>build 321060196</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
-<details><summary>
 <tt><a href='https://hydra.nixos.org/build/320891448'>python313Packages.flyingsquid.aarch64-linux</a></tt>
 </summary>
 <ul>
@@ -38194,20 +38152,6 @@ Built for evals:
 </li>
 <li>
 <b>=> Aborted</b> <tt>nix-prefetch-git</tt> <br /> <a href='https://hydra.nixos.org/build/320719169/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/320719169/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/320719169/nixlog/1/tail'>tail</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/321060970'>whisperx.aarch64-linux</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Cached failure</b> <tt>python3.13-jupyter-server-2.17.0</tt> <br /> <a href='https://hydra.nixos.org/build/321060970/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/321060970/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/321060970/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/321060196'>build 321060196</a>
 </li>
 </ul>
 </details>
@@ -59851,7 +59795,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>8702 issues</summary>
+<details><summary>8706 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -60459,6 +60403,13 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/321058673'>crewai.aarch64-linux</a></tt>
+</td>
+<td>Queued</td>
+<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -76937,6 +76888,13 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/321059175'>pkgsRocm.aider-chat-full.x86_64-linux</a></tt>
+</td>
+<td>Queued</td>
+<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -95410,6 +95368,13 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/321060120'>python313Packages.flax.aarch64-linux</a></tt>
+</td>
+<td>Queued</td>
+<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -119857,6 +119822,13 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/321060970'>whisperx.aarch64-linux</a></tt>
+</td>
+<td>Queued</td>
+<th>aarch64-linux</th>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/320723430'>whitesur-kde.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -122482,65 +122454,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/321059460'>x86_64-linux python3.12-jupyter-server-2.17.0</a></tt></summary>
-<ul>
-<li>pkgsRocm.aider-chat-full.x86_64-linux</li>
-<li>pkgsRocm.vllm.x86_64-linux</li>
-<li>python312Packages.ale-py.x86_64-linux</li>
-<li>python312Packages.augmax.x86_64-linux</li>
-<li>python312Packages.ax-platform.x86_64-linux</li>
-<li>python312Packages.brax.x86_64-linux</li>
-<li>python312Packages.crewai.x86_64-linux</li>
-<li>python312Packages.dalle-mini.x86_64-linux</li>
-<li>python312Packages.dm-sonnet.x86_64-linux</li>
-<li>python312Packages.encodec.x86_64-linux</li>
-<li>python312Packages.experiment-utilities.x86_64-linux</li>
-<li>python312Packages.flax.x86_64-linux</li>
-<li>python312Packages.guidance-stitch.x86_64-linux</li>
-<li>python312Packages.gymnasium.x86_64-linux</li>
-<li>python312Packages.ipydatagrid.x86_64-linux</li>
-<li>python312Packages.ipytablewidgets.x86_64-linux</li>
-<li>python312Packages.jupyter-book.x86_64-linux</li>
-<li>python312Packages.jupyter-contrib-core.x86_64-linux</li>
-<li>python312Packages.jupyter-server-mathjax.x86_64-linux</li>
-<li>python312Packages.jupyter-server-ydoc.x86_64-linux</li>
-<li>python312Packages.jupyterhub-systemdspawner.x86_64-linux</li>
-<li>python312Packages.jupyterlab-git.x86_64-linux</li>
-<li>python312Packages.k-diffusion.x86_64-linux</li>
-<li>python312Packages.kserve.x86_64-linux</li>
-<li>python312Packages.minari.x86_64-linux</li>
-<li>python312Packages.mkdocs-jupyter.x86_64-linux</li>
-<li>python312Packages.nbdime.x86_64-linux</li>
-<li>python312Packages.nglview.x86_64-linux</li>
-<li>python312Packages.notebook-shim.x86_64-linux</li>
-<li>python312Packages.notebook.x86_64-linux</li>
-<li>python312Packages.pettingzoo.x86_64-linux</li>
-<li>python312Packages.ploomber-extension.x86_64-linux</li>
-<li>python312Packages.pydeck.x86_64-linux</li>
-<li>python312Packages.pymoo.x86_64-linux</li>
-<li>python312Packages.pytest-notebook.x86_64-linux</li>
-<li>python312Packages.pythreejs.x86_64-linux</li>
-<li>python312Packages.qgrid.x86_64-linux</li>
-<li>python312Packages.skops.x86_64-linux</li>
-<li>python312Packages.stable-baselines3.x86_64-linux</li>
-<li>python312Packages.tensorflow-datasets.x86_64-linux</li>
-<li>python312Packages.torchio.x86_64-linux</li>
-<li>python312Packages.txtai.x86_64-linux</li>
-<li>python312Packages.unstructured-inference.x86_64-linux</li>
-<li>python312Packages.vega.x86_64-linux</li>
-<li>python312Packages.vllm.x86_64-linux</li>
-<li>python312Packages.vmas.x86_64-linux</li>
-<li>python312Packages.waymax.x86_64-linux</li>
-<li>python312Packages.whisperx.x86_64-linux</li>
-<li>python312Packages.xarray-einstats.x86_64-linux</li>
-<li>vllm.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>50</td>
-</tr>
-<tr>
-<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/320512385'>x86_64-darwin nodejs-22.22.0</a></tt></summary>
 <ul>
 <li>cambia.x86_64-darwin</li>
@@ -122599,6 +122512,64 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/321059460'>x86_64-linux python3.12-jupyter-server-2.17.0</a></tt></summary>
+<ul>
+<li>pkgsRocm.vllm.x86_64-linux</li>
+<li>python312Packages.ale-py.x86_64-linux</li>
+<li>python312Packages.augmax.x86_64-linux</li>
+<li>python312Packages.ax-platform.x86_64-linux</li>
+<li>python312Packages.brax.x86_64-linux</li>
+<li>python312Packages.crewai.x86_64-linux</li>
+<li>python312Packages.dalle-mini.x86_64-linux</li>
+<li>python312Packages.dm-sonnet.x86_64-linux</li>
+<li>python312Packages.encodec.x86_64-linux</li>
+<li>python312Packages.experiment-utilities.x86_64-linux</li>
+<li>python312Packages.flax.x86_64-linux</li>
+<li>python312Packages.guidance-stitch.x86_64-linux</li>
+<li>python312Packages.gymnasium.x86_64-linux</li>
+<li>python312Packages.ipydatagrid.x86_64-linux</li>
+<li>python312Packages.ipytablewidgets.x86_64-linux</li>
+<li>python312Packages.jupyter-book.x86_64-linux</li>
+<li>python312Packages.jupyter-contrib-core.x86_64-linux</li>
+<li>python312Packages.jupyter-server-mathjax.x86_64-linux</li>
+<li>python312Packages.jupyter-server-ydoc.x86_64-linux</li>
+<li>python312Packages.jupyterhub-systemdspawner.x86_64-linux</li>
+<li>python312Packages.jupyterlab-git.x86_64-linux</li>
+<li>python312Packages.k-diffusion.x86_64-linux</li>
+<li>python312Packages.kserve.x86_64-linux</li>
+<li>python312Packages.minari.x86_64-linux</li>
+<li>python312Packages.mkdocs-jupyter.x86_64-linux</li>
+<li>python312Packages.nbdime.x86_64-linux</li>
+<li>python312Packages.nglview.x86_64-linux</li>
+<li>python312Packages.notebook-shim.x86_64-linux</li>
+<li>python312Packages.notebook.x86_64-linux</li>
+<li>python312Packages.pettingzoo.x86_64-linux</li>
+<li>python312Packages.ploomber-extension.x86_64-linux</li>
+<li>python312Packages.pydeck.x86_64-linux</li>
+<li>python312Packages.pymoo.x86_64-linux</li>
+<li>python312Packages.pytest-notebook.x86_64-linux</li>
+<li>python312Packages.pythreejs.x86_64-linux</li>
+<li>python312Packages.qgrid.x86_64-linux</li>
+<li>python312Packages.skops.x86_64-linux</li>
+<li>python312Packages.stable-baselines3.x86_64-linux</li>
+<li>python312Packages.tensorflow-datasets.x86_64-linux</li>
+<li>python312Packages.torchio.x86_64-linux</li>
+<li>python312Packages.txtai.x86_64-linux</li>
+<li>python312Packages.unstructured-inference.x86_64-linux</li>
+<li>python312Packages.vega.x86_64-linux</li>
+<li>python312Packages.vllm.x86_64-linux</li>
+<li>python312Packages.vmas.x86_64-linux</li>
+<li>python312Packages.waymax.x86_64-linux</li>
+<li>python312Packages.whisperx.x86_64-linux</li>
+<li>python312Packages.xarray-einstats.x86_64-linux</li>
+<li>vllm.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>49</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/320610074'>aarch64-darwin python3.12-accelerate-1.11.0</a></tt></summary>
 <ul>
 <li>aider-chat-with-help.aarch64-darwin</li>
@@ -122640,58 +122611,6 @@ Built for evals:
 </details>
 </td>
 <td>46</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/321060196'>aarch64-linux python3.13-jupyter-server-2.17.0</a></tt></summary>
-<ul>
-<li>crewai.aarch64-linux</li>
-<li>minari.aarch64-linux</li>
-<li>nbqa.aarch64-linux</li>
-<li>python313Packages.ale-py.aarch64-linux</li>
-<li>python313Packages.batchspawner.aarch64-linux</li>
-<li>python313Packages.bayesian-optimization.aarch64-linux</li>
-<li>python313Packages.bqplot.aarch64-linux</li>
-<li>python313Packages.brax.aarch64-linux</li>
-<li>python313Packages.crewai.aarch64-linux</li>
-<li>python313Packages.einops.aarch64-linux</li>
-<li>python313Packages.flax.aarch64-linux</li>
-<li>python313Packages.gymnasium.aarch64-linux</li>
-<li>python313Packages.holistic-trace-analysis.aarch64-linux</li>
-<li>python313Packages.ipytablewidgets.aarch64-linux</li>
-<li>python313Packages.jupysql.aarch64-linux</li>
-<li>python313Packages.jupyter-book.aarch64-linux</li>
-<li>python313Packages.jupyter-collaboration.aarch64-linux</li>
-<li>python313Packages.jupyter-lsp.aarch64-linux</li>
-<li>python313Packages.jupyter-server-mathjax.aarch64-linux</li>
-<li>python313Packages.jupyterlab-git.aarch64-linux</li>
-<li>python313Packages.jupyterlab-lsp.aarch64-linux</li>
-<li>python313Packages.jupyterlab-server.aarch64-linux</li>
-<li>python313Packages.layoutparser.aarch64-linux</li>
-<li>python313Packages.llm-sentence-transformers.aarch64-linux</li>
-<li>python313Packages.minari.aarch64-linux</li>
-<li>python313Packages.mkdocs-jupyter.aarch64-linux</li>
-<li>python313Packages.nglview.aarch64-linux</li>
-<li>python313Packages.nikola.aarch64-linux</li>
-<li>python313Packages.notebook-shim.aarch64-linux</li>
-<li>python313Packages.notebook.aarch64-linux</li>
-<li>python313Packages.notedown.aarch64-linux</li>
-<li>python313Packages.oauthenticator.aarch64-linux</li>
-<li>python313Packages.ploomber-extension.aarch64-linux</li>
-<li>python313Packages.pyannote-audio.aarch64-linux</li>
-<li>python313Packages.pytest-notebook.aarch64-linux</li>
-<li>python313Packages.qcengine.aarch64-linux</li>
-<li>python313Packages.skops.aarch64-linux</li>
-<li>python313Packages.skrl.aarch64-linux</li>
-<li>python313Packages.streamlit.aarch64-linux</li>
-<li>python313Packages.unsloth-zoo.aarch64-linux</li>
-<li>python313Packages.waymax.aarch64-linux</li>
-<li>python313Packages.x-transformers.aarch64-linux</li>
-<li>whisperx.aarch64-linux</li>
-</ul>
-</details>
-</td>
-<td>43</td>
 </tr>
 <tr>
 <td>
@@ -122756,6 +122675,55 @@ Built for evals:
 <li>python313Packages.peft.x86_64-darwin</li>
 <li>python313Packages.stanza.x86_64-darwin</li>
 <li>python313Packages.translatehtml.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>40</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/321060196'>aarch64-linux python3.13-jupyter-server-2.17.0</a></tt></summary>
+<ul>
+<li>minari.aarch64-linux</li>
+<li>nbqa.aarch64-linux</li>
+<li>python313Packages.ale-py.aarch64-linux</li>
+<li>python313Packages.batchspawner.aarch64-linux</li>
+<li>python313Packages.bayesian-optimization.aarch64-linux</li>
+<li>python313Packages.bqplot.aarch64-linux</li>
+<li>python313Packages.brax.aarch64-linux</li>
+<li>python313Packages.crewai.aarch64-linux</li>
+<li>python313Packages.einops.aarch64-linux</li>
+<li>python313Packages.gymnasium.aarch64-linux</li>
+<li>python313Packages.holistic-trace-analysis.aarch64-linux</li>
+<li>python313Packages.ipytablewidgets.aarch64-linux</li>
+<li>python313Packages.jupysql.aarch64-linux</li>
+<li>python313Packages.jupyter-book.aarch64-linux</li>
+<li>python313Packages.jupyter-collaboration.aarch64-linux</li>
+<li>python313Packages.jupyter-lsp.aarch64-linux</li>
+<li>python313Packages.jupyter-server-mathjax.aarch64-linux</li>
+<li>python313Packages.jupyterlab-git.aarch64-linux</li>
+<li>python313Packages.jupyterlab-lsp.aarch64-linux</li>
+<li>python313Packages.jupyterlab-server.aarch64-linux</li>
+<li>python313Packages.layoutparser.aarch64-linux</li>
+<li>python313Packages.llm-sentence-transformers.aarch64-linux</li>
+<li>python313Packages.minari.aarch64-linux</li>
+<li>python313Packages.mkdocs-jupyter.aarch64-linux</li>
+<li>python313Packages.nglview.aarch64-linux</li>
+<li>python313Packages.nikola.aarch64-linux</li>
+<li>python313Packages.notebook-shim.aarch64-linux</li>
+<li>python313Packages.notebook.aarch64-linux</li>
+<li>python313Packages.notedown.aarch64-linux</li>
+<li>python313Packages.oauthenticator.aarch64-linux</li>
+<li>python313Packages.ploomber-extension.aarch64-linux</li>
+<li>python313Packages.pyannote-audio.aarch64-linux</li>
+<li>python313Packages.pytest-notebook.aarch64-linux</li>
+<li>python313Packages.qcengine.aarch64-linux</li>
+<li>python313Packages.skops.aarch64-linux</li>
+<li>python313Packages.skrl.aarch64-linux</li>
+<li>python313Packages.streamlit.aarch64-linux</li>
+<li>python313Packages.unsloth-zoo.aarch64-linux</li>
+<li>python313Packages.waymax.aarch64-linux</li>
+<li>python313Packages.x-transformers.aarch64-linux</li>
 </ul>
 </details>
 </td>
