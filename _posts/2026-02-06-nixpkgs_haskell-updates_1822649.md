@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:haskell-updates 1822649
+title: nixpkgs:haskell-updates 1822649 (succeeded)
 categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2026-02-07 03:47:12 UTC*
+*Report built at 2026-02-07 04:32:12 UTC*
 
 Built for evals:
 
@@ -323,41 +323,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/320163473'>pkgsCross.riscv64.haskell.compiler.ghc948.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>3 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/321072581'>haskell.packages.ghc9122.haskell-language-server.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/321072586'>haskell.packages.ghc967.haskell-language-server.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/321072587'>haskell.packages.ghc984.haskell-language-server.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
