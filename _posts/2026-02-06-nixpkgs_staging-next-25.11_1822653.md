@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next-25.11
 ---
 # Evals report
 
-*Report built at 2026-02-07 03:34:12 UTC*
+*Report built at 2026-02-07 05:03:18 UTC*
 
 Built for evals:
 
@@ -59851,7 +59851,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>8704 issues</summary>
+<details><summary>8702 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -106953,20 +106953,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/321060787'>sage.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/321060788'>sageWithDoc.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
