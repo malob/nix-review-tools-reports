@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next-25.11
 ---
 # Evals report
 
-*Report built at 2026-02-08 00:59:59 UTC*
+*Report built at 2026-02-08 02:04:47 UTC*
 
 Built for evals:
 
@@ -59799,7 +59799,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>8878 issues</summary>
+<details><summary>8875 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -69713,13 +69713,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/321119623'>manual</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/320576766'>maple-mono.Normal-Woff2.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -70025,13 +70018,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/321119627'>metrics</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -109484,13 +109470,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/321119975'>tarball</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
