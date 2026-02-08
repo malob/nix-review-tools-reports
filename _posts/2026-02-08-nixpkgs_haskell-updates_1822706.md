@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2026-02-08 13:19:31 UTC*
+*Report built at 2026-02-08 14:09:44 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>17 issues</summary>
+<details><summary>19 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -66,11 +66,39 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/321269447'>maintained</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>heystone-0.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/321269447/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/321269447/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/321269447/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/320783240'>build 320783240</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/321269433'>pkgsCross.ghcjs.haskell.packages.ghc912.hello.x86_64-linux</a></tt>
 </summary>
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>network-3.2.8.0</tt> <br /> <a href='https://hydra.nixos.org/build/321269433/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/321269433/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/321269433/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/321269446'>build 321269446</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/321269432'>pkgsCross.ghcjs.haskell.packages.ghc912.microlens.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>network-3.2.8.0</tt> <br /> <a href='https://hydra.nixos.org/build/321269432/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/321269432/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/321269432/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/321269446'>build 321269446</a>
 </li>
 </ul>
 </details>
@@ -202,7 +230,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>12 issues</summary>
+<details><summary>6 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -211,28 +239,7 @@ Built for evals:
 </tr></thead>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/321269412'>haskellPackages.bindings-directfb.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/321269413'>haskellPackages.casadi-bindings-internal.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/321269414'>haskellPackages.elerea-sdl.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/321269415'>haskellPackages.ghci-quickfix.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -253,13 +260,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/321269447'>maintained</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/321269444'>mergeable</a></tt>
 </td>
 <td>Queued</td>
@@ -268,20 +268,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/321269439'>nixosTests.xmonad.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/321269432'>pkgsCross.ghcjs.haskell.packages.ghc912.microlens.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/321269435'>pkgsCross.ghcjs.haskell.packages.ghcHEAD.ghc.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -307,6 +293,7 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/321269446'>x86_64-linux network-3.2.8.0</a></tt></summary>
 <ul>
 <li>pkgsCross.ghcjs.haskell.packages.ghc912.hello.x86_64-linux</li>
+<li>pkgsCross.ghcjs.haskell.packages.ghc912.microlens.x86_64-linux</li>
 <li>pkgsCross.ghcjs.haskell.packages.ghc912.miso.x86_64-linux</li>
 <li>pkgsCross.ghcjs.haskell.packages.ghc912.reflex-dom.x86_64-linux</li>
 <li>pkgsCross.ghcjs.haskellPackages.hello.x86_64-linux</li>
@@ -314,7 +301,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>5</td>
+<td>6</td>
 </tr>
 <tr>
 <td>
@@ -332,6 +319,16 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/320780663'>x86_64-linux binary-instances-1.0.6</a></tt></summary>
 <ul>
 <li>haskell.packages.ghc9123.haskell-language-server.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/320783240'>x86_64-linux heystone-0.1.0</a></tt></summary>
+<ul>
+<li>maintained</li>
 </ul>
 </details>
 </td>
