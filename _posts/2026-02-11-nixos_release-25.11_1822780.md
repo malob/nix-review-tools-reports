@@ -4,7 +4,7 @@ categories: nixos:release-25.11
 ---
 # Evals report
 
-*Report built at 2026-02-11 07:00:44 UTC*
+*Report built at 2026-02-11 07:07:15 UTC*
 
 Built for evals:
 
@@ -9691,7 +9691,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>4595 issues</summary>
+<details><summary>4593 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -29643,13 +29643,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/321691938'>nixpkgs.linux_testing.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/321691940'>nixpkgs.litestar.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -41771,13 +41764,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>i686-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/321693989'>nixpkgs.wineWow64Packages.stableFull_11.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
