@@ -1,10 +1,10 @@
 ---
-title: nixos:release-25.11 1822780
+title: nixos:release-25.11 1822780 (succeeded)
 categories: nixos:release-25.11
 ---
 # Evals report
 
-*Report built at 2026-02-11 19:28:03 UTC*
+*Report built at 2026-02-11 20:14:35 UTC*
 
 Built for evals:
 
@@ -5188,7 +5188,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>765 issues</summary>
+<details><summary>766 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -10788,6 +10788,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/321693781'>nixpkgs.python313Packages.psycopg2cffi.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/321021214'>nixpkgs.python313Packages.py-multiaddr.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -11331,27 +11337,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/321022086'>nixpkgs.python313Packages.pylette.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/321693781'>nixpkgs.python313Packages.psycopg2cffi.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 </table>
 </details>
