@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.11-darwin
 ---
 # Evals report
 
-*Report built at 2026-02-11 07:26:36 UTC*
+*Report built at 2026-02-11 08:17:12 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1938 issues</summary>
+<details><summary>1939 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -67,6 +67,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>python3.12-twisted-25.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/321685897/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/321685897/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/321685897/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/320644464'>build 320644464</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/321685898'>aider-chat-with-help.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.12-accelerate-1.11.0</tt> <br /> <a href='https://hydra.nixos.org/build/321685898/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/321685898/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/321685898/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/320610084'>build 320610084</a>
 </li>
 </ul>
 </details>
@@ -20180,7 +20194,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1422 issues</summary>
+<details><summary>1425 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -20200,6 +20214,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>python3.12-twisted-25.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/321685890/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/321685890/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/321685890/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/320644462'>build 320644462</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/321685892'>aider-chat-with-help.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.12-accelerate-1.11.0</tt> <br /> <a href='https://hydra.nixos.org/build/321685892/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/321685892/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/321685892/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/320610074'>build 320610074</a>
 </li>
 </ul>
 </details>
@@ -24325,6 +24353,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/321686827'>python312Packages.llama-index-embeddings-huggingface.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.12-accelerate-1.11.0</tt> <br /> <a href='https://hydra.nixos.org/build/321686827/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/321686827/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/321686827/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/320610074'>build 320610074</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/321213582'>python312Packages.llm-sentence-transformers.aarch64-darwin</a></tt>
 </summary>
 <ul>
@@ -25702,6 +25744,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>python3.12-twisted-25.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/321220091/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/321220091/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/321220091/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/320644462'>build 320644462</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/321686982'>python312Packages.reflex-chakra.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.12-twisted-25.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/321686982/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/321686982/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/321686982/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/320644462'>build 320644462</a>
 </li>
 </ul>
 </details>
@@ -33465,7 +33521,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>1026 issues</summary>
+<details><summary>1020 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -33482,20 +33538,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/321685889'>aider-chat-with-browser.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/321685892'>aider-chat-with-help.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/321685898'>aider-chat-with-help.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -34094,13 +34136,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/321686013'>postgresql.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -37114,13 +37149,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/321686577'>postgresqlPackages.lantern.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/321686581'>postgresqlPackages.omnigres.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -38255,13 +38283,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/321686827'>python312Packages.llama-index-embeddings-huggingface.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/321686833'>python312Packages.llama-index-embeddings-ollama.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -38921,13 +38942,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/321686980'>python312Packages.python-roborock.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/321686982'>python312Packages.reflex-chakra.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -41002,6 +41016,7 @@ Built for evals:
 <li>python312Packages.recline.x86_64-darwin</li>
 <li>python312Packages.reconplogger.aarch64-darwin</li>
 <li>python312Packages.reconplogger.x86_64-darwin</li>
+<li>python312Packages.reflex-chakra.aarch64-darwin</li>
 <li>python312Packages.robotframework-assertion-engine.aarch64-darwin</li>
 <li>python312Packages.robotframework-assertion-engine.x86_64-darwin</li>
 <li>python312Packages.robotframework-databaselibrary.aarch64-darwin</li>
@@ -41108,7 +41123,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>438</td>
+<td>439</td>
 </tr>
 <tr>
 <td>
@@ -41702,6 +41717,8 @@ Built for evals:
 <td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/320610074'>aarch64-darwin python3.12-accelerate-1.11.0</a></tt></summary>
 <ul>
+<li>aider-chat-with-help.aarch64-darwin</li>
+<li>aider-chat-with-help.x86_64-darwin</li>
 <li>python312Packages.argos-translate-files.aarch64-darwin</li>
 <li>python312Packages.argos-translate-files.x86_64-darwin</li>
 <li>python312Packages.argostranslate.aarch64-darwin</li>
@@ -41712,6 +41729,7 @@ Built for evals:
 <li>python312Packages.langchain-huggingface.x86_64-darwin</li>
 <li>python312Packages.libretranslate.aarch64-darwin</li>
 <li>python312Packages.libretranslate.x86_64-darwin</li>
+<li>python312Packages.llama-index-embeddings-huggingface.aarch64-darwin</li>
 <li>python312Packages.llama-index-embeddings-huggingface.x86_64-darwin</li>
 <li>python312Packages.llm-sentence-transformers.x86_64-darwin</li>
 <li>python312Packages.lm-eval.aarch64-darwin</li>
@@ -41738,7 +41756,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>33</td>
+<td>36</td>
 </tr>
 <tr>
 <td>
