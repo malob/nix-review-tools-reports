@@ -1,10 +1,10 @@
 ---
-title: nixos:release-25.11 1822864
+title: nixos:release-25.11 1822864 (succeeded)
 categories: nixos:release-25.11
 ---
 # Evals report
 
-*Report built at 2026-02-14 19:14:08 UTC*
+*Report built at 2026-02-14 20:08:50 UTC*
 
 Built for evals:
 
@@ -5000,7 +5000,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>766 issues</summary>
+<details><summary>767 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -7569,6 +7569,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/321783445'>nixos.tests.gnupg.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/321817258'>nixos.tests.gotenberg.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -10997,41 +11003,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/321022086'>nixpkgs.python313Packages.pylette.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>3 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/321817258'>nixos.tests.gotenberg.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/321817630'>nixpkgs.html2pdf.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/321818965'>tested</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
