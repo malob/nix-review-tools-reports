@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.11-darwin
 ---
 # Evals report
 
-*Report built at 2026-02-15 12:10:07 UTC*
+*Report built at 2026-02-15 13:23:01 UTC*
 
 Built for evals:
 
@@ -34375,7 +34375,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>58 issues</summary>
+<details><summary>56 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -34741,24 +34741,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/321840608'>nodejs-slim_24.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/321840610'>nodejs-slim_24.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/321840609'>nodejs-slim_latest.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
