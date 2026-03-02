@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.11-darwin
 ---
 # Evals report
 
-*Report built at 2026-03-01 23:09:14 UTC*
+*Report built at 2026-03-02 00:20:26 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1992 issues</summary>
+<details><summary>1994 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -3189,6 +3189,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>gjs-1.86.0</tt> <br /> <a href='https://hydra.nixos.org/build/321179237/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/321179237/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/321179237/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/320517927'>build 320517927</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/323013770'>libretranslate.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.13-accelerate-1.11.0</tt> <br /> <a href='https://hydra.nixos.org/build/323013770/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/323013770/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/323013770/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/320648569'>build 320648569</a>
 </li>
 </ul>
 </details>
@@ -8705,6 +8719,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>python3.13-django-5.2.11</tt> <br /> <a href='https://hydra.nixos.org/build/323014066/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/323014066/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/323014066/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/321060085'>build 321060085</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/323014045'>python313Packages.netbox-floorplan-plugin.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.13-django-5.2.11</tt> <br /> <a href='https://hydra.nixos.org/build/323014045/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/323014045/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/323014045/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/321060085'>build 321060085</a>
 </li>
 </ul>
 </details>
@@ -35267,7 +35295,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>528 issues</summary>
+<details><summary>513 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -35802,13 +35830,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/323049035'>lexical.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/323013770'>libretranslate.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -36550,13 +36571,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/323042069'>python313Packages.bgutil-ytdlp-pot-provider.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/323013990'>python313Packages.dissect-cobaltstrike.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -36568,13 +36582,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/323014002'>python313Packages.django-ratelimit.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -36739,13 +36746,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/323014045'>python313Packages.netbox-floorplan-plugin.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/323014056'>python313Packages.netbox-plugin-prometheus-sd.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -36872,13 +36872,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/323042160'>python313Packages.tubeup.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/323014095'>python313Packages.wagtail-factories.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -36984,13 +36977,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/323042190'>rubyPackages.jekyll-github-metadata.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/323042202'>rubyPackages_3_3.github-pages-health-check.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -37076,13 +37062,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/323042250'>shogihome.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/323064878'>sing-box.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -37502,13 +37481,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/323014234'>vimPlugins.coc-sqlfluff.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/323014210'>vimPlugins.coc-sumneko-lua.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -37576,13 +37548,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/323014236'>vimPlugins.fff-nvim.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -37716,13 +37681,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/323014313'>vimPlugins.nvim-treesitter-parsers.asm.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -38111,13 +38069,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/323014533'>vimPlugins.nvim-treesitter-parsers.hlsplaylist.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/323014559'>vimPlugins.nvim-treesitter-parsers.html.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -38328,13 +38279,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/323014660'>vimPlugins.nvim-treesitter-parsers.nu.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/323014662'>vimPlugins.nvim-treesitter-parsers.objc.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -38374,13 +38318,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/323014691'>vimPlugins.nvim-treesitter-parsers.pkl.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -38472,13 +38409,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/323014748'>vimPlugins.nvim-treesitter-parsers.razor.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -38896,13 +38826,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/323015031'>vimPlugins.vectorcode-nvim.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/323015010'>vimPlugins.vim-clap.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -40054,6 +39977,7 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/320648573'>aarch64-darwin python3.13-accelerate-1.11.0</a></tt></summary>
 <ul>
 <li>libretranslate.aarch64-darwin</li>
+<li>libretranslate.x86_64-darwin</li>
 <li>python313Packages.argos-translate-files.aarch64-darwin</li>
 <li>python313Packages.argos-translate-files.x86_64-darwin</li>
 <li>python313Packages.argostranslate.aarch64-darwin</li>
@@ -40101,7 +40025,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>45</td>
+<td>46</td>
 </tr>
 <tr>
 <td>
@@ -40342,6 +40266,32 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/321060085'>x86_64-darwin python3.13-django-5.2.11</a></tt></summary>
+<ul>
+<li>froide-govplan.x86_64-darwin</li>
+<li>glitchtip.x86_64-darwin</li>
+<li>healthchecks.x86_64-darwin</li>
+<li>netbox.x86_64-darwin</li>
+<li>netbox_4_4.x86_64-darwin</li>
+<li>paperless-ngx.x86_64-darwin</li>
+<li>python312Packages.netbox-bgp.x86_64-darwin</li>
+<li>python312Packages.netbox-documents.x86_64-darwin</li>
+<li>python312Packages.netbox-plugin-prometheus-sd.x86_64-darwin</li>
+<li>python312Packages.netbox-reorder-rack.x86_64-darwin</li>
+<li>python312Packages.netbox-routing.x86_64-darwin</li>
+<li>python313Packages.netbox-bgp.x86_64-darwin</li>
+<li>python313Packages.netbox-floorplan-plugin.x86_64-darwin</li>
+<li>python313Packages.netbox-plugin-prometheus-sd.x86_64-darwin</li>
+<li>python313Packages.netbox-reorder-rack.x86_64-darwin</li>
+<li>python313Packages.netbox-routing.x86_64-darwin</li>
+<li>tandoor-recipes.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>17</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/320564281'>aarch64-darwin libplist-2.7.0</a></tt></summary>
 <ul>
 <li>gnome-online-accounts.aarch64-darwin</li>
@@ -40365,31 +40315,6 @@ Built for evals:
 </details>
 </td>
 <td>17</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/321060085'>x86_64-darwin python3.13-django-5.2.11</a></tt></summary>
-<ul>
-<li>froide-govplan.x86_64-darwin</li>
-<li>glitchtip.x86_64-darwin</li>
-<li>healthchecks.x86_64-darwin</li>
-<li>netbox.x86_64-darwin</li>
-<li>netbox_4_4.x86_64-darwin</li>
-<li>paperless-ngx.x86_64-darwin</li>
-<li>python312Packages.netbox-bgp.x86_64-darwin</li>
-<li>python312Packages.netbox-documents.x86_64-darwin</li>
-<li>python312Packages.netbox-plugin-prometheus-sd.x86_64-darwin</li>
-<li>python312Packages.netbox-reorder-rack.x86_64-darwin</li>
-<li>python312Packages.netbox-routing.x86_64-darwin</li>
-<li>python313Packages.netbox-bgp.x86_64-darwin</li>
-<li>python313Packages.netbox-plugin-prometheus-sd.x86_64-darwin</li>
-<li>python313Packages.netbox-reorder-rack.x86_64-darwin</li>
-<li>python313Packages.netbox-routing.x86_64-darwin</li>
-<li>tandoor-recipes.x86_64-darwin</li>
-</ul>
-</details>
-</td>
-<td>16</td>
 </tr>
 <tr>
 <td>
