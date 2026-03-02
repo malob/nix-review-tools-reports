@@ -4,13 +4,40 @@ categories: nixpkgs:nixpkgs-25.11-darwin
 ---
 # Evals report
 
-*Report built at 2026-03-02 20:14:21 UTC*
+*Report built at 2026-03-02 21:16:51 UTC*
 
 Built for evals:
 
   * [1823268](https://hydra.nixos.org/eval/1823268)
 
  * * * 
+
+### x86_64-linux
+
+
+<details><summary>1 issues</summary>
+<table>
+<thead><tr>
+<th>job</th>
+<th>status</th>
+</tr></thead>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/323072769'>darwin-tested</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>transmission-4.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/323072769/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/323072769/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/323072769/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/323064883'>build 323064883</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+</table>
+</details>
+
 
 ### x86_64-darwin
 
@@ -21206,7 +21233,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1509 issues</summary>
+<details><summary>1510 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -32704,6 +32731,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/322980447'>nodejs_latest.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/321186819'>nomad-pack.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -35613,7 +35646,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>123 issues</summary>
+<details><summary>114 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -35703,20 +35736,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/323072748'>copyparty.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/323072769'>darwin-tested</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -35902,13 +35921,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/322980447'>nodejs_latest.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/323072792'>paratest.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -35927,13 +35939,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/323072801'>perlPackages.NetCIDR.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -35973,13 +35978,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/323072858'>php82Packages.box.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/323072850'>php82Packages.castor.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -36056,13 +36054,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/323072831'>php82Packages.phpmd.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/323072841'>php82Packages.phpmd.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -36081,13 +36072,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/323072838'>php83Packages.castor.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -36245,13 +36229,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/323072904'>phpPackages.box.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/323072930'>phpPackages.castor.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -36305,13 +36282,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/323072913'>phpPackages.phive.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -39468,6 +39438,16 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/320502048'>x86_64-darwin buildah-1.42.1</a></tt></summary>
 <ul>
 <li>buildah.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/323064883'>x86_64-linux transmission-4.1.0</a></tt></summary>
+<ul>
+<li>darwin-tested</li>
 </ul>
 </details>
 </td>
