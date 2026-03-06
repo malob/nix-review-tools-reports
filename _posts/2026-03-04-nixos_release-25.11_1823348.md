@@ -4,7 +4,7 @@ categories: nixos:release-25.11
 ---
 # Evals report
 
-*Report built at 2026-03-06 07:22:52 UTC*
+*Report built at 2026-03-06 08:13:48 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>804 issues</summary>
+<details><summary>805 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -5470,6 +5470,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/323261313'>nixpkgs.stract.x86_64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/323261409'>nixpkgs.stuntrally.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -5697,7 +5703,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>785 issues</summary>
+<details><summary>801 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -6166,6 +6172,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>amneziawg-1.0.20251009</tt> <br /> <a href='https://hydra.nixos.org/build/323131535/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/323131535/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/323131535/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/323069725'>build 323069725</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/323131910'>nixpkgs._64gram.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>64gram-unwrapped-1.1.93</tt> <br /> <a href='https://hydra.nixos.org/build/323131910/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/323131910/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/323131910/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/323020907'>build 323020907</a>
 </li>
 </ul>
 </details>
@@ -7486,6 +7506,23 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/323186324'>nixpkgs.materialgram.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>materialgram-unwrapped-6.4.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/323186324/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/323186324/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/323186324/nixlog/2/tail'>tail</a>
+</li>
+<li>
+<b>=> Cached failure</b> <tt>materialgram-unwrapped-6.4.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/323022685'>build 323022685</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/323187182'>nixpkgs.molsketch.aarch64-linux</a></tt>
 </summary>
 <ul>
@@ -7787,6 +7824,23 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/323217352'>nixpkgs.python312Packages.flyingsquid.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>python3.12-pgmpy-1.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/323217352/nixlog/2'>log</a>, <a href='https://hydra.nixos.org/build/323217352/nixlog/2/raw'>raw</a>, <a href='https://hydra.nixos.org/build/323217352/nixlog/2/tail'>tail</a>, <a href='https://hydra.nixos.org/build/323223102'>build 323223102</a>
+</li>
+<li>
+<b>=> Cached failure</b> <tt>python3.12-pgmpy-1.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/322917397'>build 322917397</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/323218820'>nixpkgs.python312Packages.ipfshttpclient.aarch64-linux</a></tt>
 </summary>
 <ul>
@@ -7896,6 +7950,20 @@ Built for evals:
 </li>
 <li>
 <b>=> Cached failure</b> <tt>python3.12-pmdarima-2.0.4</tt> <br /> <a href='https://hydra.nixos.org/build/322917714'>build 322917714</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/323237012'>nixpkgs.python313Packages.flyingsquid.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.13-pgmpy-1.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/323237012/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/323237012/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/323237012/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/322940966'>build 322940966</a>
 </li>
 </ul>
 </details>
@@ -8172,6 +8240,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>linux-kernel-latest-htmldocs-6.19.5</tt> <br /> <a href='https://hydra.nixos.org/build/323262039/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/323262039/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/323262039/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/323069147'>build 323069147</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/323262520'>nixpkgs.telegram-desktop.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>telegram-desktop-unwrapped-6.4.1</tt> <br /> <a href='https://hydra.nixos.org/build/323262520/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/323262520/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/323262520/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/323024453'>build 323024453</a>
 </li>
 </ul>
 </details>
@@ -11072,6 +11154,18 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/323222883'>nixpkgs.python312Packages.parselmouth.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/323223102'>nixpkgs.python312Packages.pgmpy.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/323223193'>nixpkgs.python312Packages.pillow-avif-plugin.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -11348,6 +11442,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/323238030'>nixpkgs.python313Packages.hmmlearn.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/323238792'>nixpkgs.python313Packages.johnnycanencrypt.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -11391,6 +11491,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/323242263'>nixpkgs.python313Packages.opentelemetry-instrumentation-botocore.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/323242840'>nixpkgs.python313Packages.pgmpy.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -11726,6 +11832,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/323259228'>nixpkgs.serious-sam-classic-vulkan.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/323259301'>nixpkgs.sftool-gui.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -11804,6 +11916,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/323265800'>nixpkgs.tootik.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/323266363'>nixpkgs.trezorctl.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -11822,7 +11940,31 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/323274472'>nixpkgs.vault-tasks.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/323274625'>nixpkgs.vengi-tools.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/323274691'>nixpkgs.veridian.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/323274668'>nixpkgs.vertcoin.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/323274670'>nixpkgs.vertcoind.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -11954,6 +12096,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/323279382'>nixpkgs.xtreemfs.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/323280443'>nixpkgs.zsign.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -12007,7 +12155,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>28 issues</summary>
+<details><summary>9 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -12030,20 +12178,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/323131910'>nixpkgs._64gram.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/323186324'>nixpkgs.materialgram.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/323194121'>nixpkgs.openroad.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -12051,28 +12185,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/323217352'>nixpkgs.python312Packages.flyingsquid.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/323222457'>nixpkgs.python312Packages.openbabel.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/323222883'>nixpkgs.python312Packages.parselmouth.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/323223102'>nixpkgs.python312Packages.pgmpy.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
@@ -12093,27 +12206,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/323237012'>nixpkgs.python313Packages.flyingsquid.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/323238030'>nixpkgs.python313Packages.hmmlearn.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/323242840'>nixpkgs.python313Packages.pgmpy.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/323244394'>nixpkgs.python313Packages.pylette.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -12128,84 +12220,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/323248346'>nixpkgs.python313Packages.stp.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/323259228'>nixpkgs.serious-sam-classic-vulkan.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/323261310'>nixpkgs.stp.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/323261311'>nixpkgs.stract.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/323261313'>nixpkgs.stract.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/323262520'>nixpkgs.telegram-desktop.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/323265800'>nixpkgs.tootik.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/323274472'>nixpkgs.vault-tasks.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/323274691'>nixpkgs.veridian.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/323274668'>nixpkgs.vertcoin.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/323274670'>nixpkgs.vertcoind.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/323279382'>nixpkgs.xtreemfs.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
@@ -12551,6 +12566,17 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt>aarch64-linux materialgram-unwrapped-6.4.0.1</tt></summary>
+<ul>
+<li>nixpkgs.materialgram.aarch64-linux</li>
+<li>nixpkgs.materialgram.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>4</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/322883059'>aarch64-linux jackett-0.22.2390</a></tt></summary>
 <ul>
 <li>nixos.tests.allDrivers.jackett.aarch64-linux</li>
@@ -12827,6 +12853,17 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/323020907'>aarch64-linux 64gram-unwrapped-1.1.93</a></tt></summary>
+<ul>
+<li>nixpkgs._64gram.aarch64-linux</li>
+<li>nixpkgs._64gram.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/323020951'>aarch64-linux ayugram-desktop-unwrapped-6.3.10</a></tt></summary>
 <ul>
 <li>nixpkgs.ayugram-desktop.aarch64-linux</li>
@@ -12860,9 +12897,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt>x86_64-linux materialgram-unwrapped-6.4.0.1</tt></summary>
+<details><summary><tt><a href='https://hydra.nixos.org/build/323024453'>aarch64-linux telegram-desktop-unwrapped-6.4.1</a></tt></summary>
 <ul>
-<li>nixpkgs.materialgram.x86_64-linux</li>
+<li>nixpkgs.telegram-desktop.aarch64-linux</li>
+<li>nixpkgs.telegram-desktop.x86_64-linux</li>
 </ul>
 </details>
 </td>
@@ -13001,6 +13039,16 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/323223102'>aarch64-linux python3.12-pgmpy-1.0.0</a></tt></summary>
+<ul>
+<li>nixpkgs.python312Packages.flyingsquid.aarch64-linux</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/322911746'>aarch64-linux python3.12-py-multiaddr-0.0.10</a></tt></summary>
 <ul>
 <li>nixpkgs.python312Packages.ipfshttpclient.aarch64-linux</li>
@@ -13076,26 +13124,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/323020908'>x86_64-linux 64gram-unwrapped-1.1.93</a></tt></summary>
-<ul>
-<li>nixpkgs._64gram.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/323024457'>x86_64-linux telegram-desktop-unwrapped-6.4.1</a></tt></summary>
-<ul>
-<li>nixpkgs.telegram-desktop.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/322847354'>aarch64-linux gephgui-5.4.1</a></tt></summary>
 <ul>
 <li>nixpkgs.gephgui-wry.aarch64-linux</li>
@@ -13119,6 +13147,16 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/323023438'>aarch64-linux python3.12-locust-cloud-1.29.0</a></tt></summary>
 <ul>
 <li>nixpkgs.python312Packages.locust.aarch64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/322940966'>aarch64-linux python3.13-pgmpy-1.0.0</a></tt></summary>
+<ul>
+<li>nixpkgs.python313Packages.flyingsquid.aarch64-linux</li>
 </ul>
 </details>
 </td>
