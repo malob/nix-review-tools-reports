@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:staging-next-25.11 1823371
+title: nixpkgs:staging-next-25.11 1823371 (succeeded)
 categories: nixpkgs:staging-next-25.11
 ---
 # Evals report
 
-*Report built at 2026-03-07 16:58:01 UTC*
+*Report built at 2026-03-07 20:57:17 UTC*
 
 Built for evals:
 
@@ -5438,7 +5438,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>2870 issues</summary>
+<details><summary>2872 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -43736,6 +43736,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/323023264'>python312Packages.django-cacheops.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/322909238'>python312Packages.ezyrb.x86_64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -43875,6 +43881,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/322969474'>volantes-cursors.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/323026414'>zed-editor.x86_64-darwin</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -65104,34 +65116,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/322950631'>python313Packages.wgpu-py.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>2 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/323023264'>python312Packages.django-cacheops.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/323026414'>zed-editor.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 </table>
 </details>
