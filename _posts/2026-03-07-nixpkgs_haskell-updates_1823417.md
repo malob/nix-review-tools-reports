@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2026-03-07 23:05:56 UTC*
+*Report built at 2026-03-08 01:34:09 UTC*
 
 Built for evals:
 
@@ -358,7 +358,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>95 issues</summary>
+<details><summary>93 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -864,13 +864,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/323790163'>haskellPackages.postgresql-simple.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/323790168'>haskellPackages.postgresql-transactional.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -928,13 +921,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/323790178'>haskellPackages.tdlib.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/323790176'>haskellPackages.text-encode.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
