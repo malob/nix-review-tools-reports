@@ -4,7 +4,7 @@ categories: nixos:release-25.11
 ---
 # Evals report
 
-*Report built at 2026-04-28 18:36:27 UTC*
+*Report built at 2026-04-28 21:30:36 UTC*
 
 Built for evals:
 
@@ -3932,12 +3932,40 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>675 issues</summary>
+<details><summary>677 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 </tr></thead>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/327768541'>nixos.tests.lasuite-docs.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.13-psycopg-3.2.12</tt> <br /> <a href='https://hydra.nixos.org/build/327768541/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/327768541/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/327768541/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/325137395'>build 325137395</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/327768639'>nixos.tests.lomiri.desktop-ayatana-indicator-display.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>ayatana-indicator-session-24.5.1</tt> <br /> <a href='https://hydra.nixos.org/build/327768639/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/327768639/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/327768639/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/327525453'>build 327525453</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
 <tr>
 <td>
 <details><summary>
@@ -9852,7 +9880,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>9734 issues</summary>
+<details><summary>9731 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -18251,13 +18279,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/327764881'>nixos.tests.allDrivers.ipv6.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -43720,13 +43741,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/327768541'>nixos.tests.lasuite-docs.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/327768543'>nixos.tests.lasuite-docs.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -44620,13 +44634,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/327768639'>nixos.tests.lomiri.desktop-ayatana-indicator-display.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -78111,6 +78118,37 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/325137395'>aarch64-linux python3.13-psycopg-3.2.12</a></tt></summary>
+<ul>
+<li>nixos.tests.lasuite-docs.aarch64-linux</li>
+<li>nixpkgs.netbox.aarch64-linux</li>
+<li>nixpkgs.netbox_4_4.aarch64-linux</li>
+<li>nixpkgs.python312Packages.netbox-bgp.aarch64-linux</li>
+<li>nixpkgs.python312Packages.netbox-documents.aarch64-linux</li>
+<li>nixpkgs.python312Packages.netbox-interface-synchronization.aarch64-linux</li>
+<li>nixpkgs.python312Packages.netbox-plugin-prometheus-sd.aarch64-linux</li>
+<li>nixpkgs.python312Packages.netbox-qrcode.aarch64-linux</li>
+<li>nixpkgs.python312Packages.netbox-reorder-rack.aarch64-linux</li>
+<li>nixpkgs.python312Packages.netbox-routing.aarch64-linux</li>
+<li>nixpkgs.python313Packages.netbox-attachments.aarch64-linux</li>
+<li>nixpkgs.python313Packages.netbox-bgp.aarch64-linux</li>
+<li>nixpkgs.python313Packages.netbox-contract.aarch64-linux</li>
+<li>nixpkgs.python313Packages.netbox-documents.aarch64-linux</li>
+<li>nixpkgs.python313Packages.netbox-floorplan-plugin.aarch64-linux</li>
+<li>nixpkgs.python313Packages.netbox-interface-synchronization.aarch64-linux</li>
+<li>nixpkgs.python313Packages.netbox-napalm-plugin.aarch64-linux</li>
+<li>nixpkgs.python313Packages.netbox-plugin-prometheus-sd.aarch64-linux</li>
+<li>nixpkgs.python313Packages.netbox-qrcode.aarch64-linux</li>
+<li>nixpkgs.python313Packages.netbox-reorder-rack.aarch64-linux</li>
+<li>nixpkgs.python313Packages.netbox-routing.aarch64-linux</li>
+<li>nixpkgs.python313Packages.netbox-topology-views.aarch64-linux</li>
+</ul>
+</details>
+</td>
+<td>22</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/326744793'>aarch64-linux dotnet-stage0-vmr-10.0.6</a></tt></summary>
 <ul>
 <li>nixpkgs.archisteamfarm.aarch64-linux</li>
@@ -78163,36 +78201,6 @@ Built for evals:
 <li>nixpkgs.osmo-msc.aarch64-linux</li>
 <li>nixpkgs.osmo-sgsn.aarch64-linux</li>
 <li>nixpkgs.trx.aarch64-linux</li>
-</ul>
-</details>
-</td>
-<td>21</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/325137395'>aarch64-linux python3.13-psycopg-3.2.12</a></tt></summary>
-<ul>
-<li>nixpkgs.netbox.aarch64-linux</li>
-<li>nixpkgs.netbox_4_4.aarch64-linux</li>
-<li>nixpkgs.python312Packages.netbox-bgp.aarch64-linux</li>
-<li>nixpkgs.python312Packages.netbox-documents.aarch64-linux</li>
-<li>nixpkgs.python312Packages.netbox-interface-synchronization.aarch64-linux</li>
-<li>nixpkgs.python312Packages.netbox-plugin-prometheus-sd.aarch64-linux</li>
-<li>nixpkgs.python312Packages.netbox-qrcode.aarch64-linux</li>
-<li>nixpkgs.python312Packages.netbox-reorder-rack.aarch64-linux</li>
-<li>nixpkgs.python312Packages.netbox-routing.aarch64-linux</li>
-<li>nixpkgs.python313Packages.netbox-attachments.aarch64-linux</li>
-<li>nixpkgs.python313Packages.netbox-bgp.aarch64-linux</li>
-<li>nixpkgs.python313Packages.netbox-contract.aarch64-linux</li>
-<li>nixpkgs.python313Packages.netbox-documents.aarch64-linux</li>
-<li>nixpkgs.python313Packages.netbox-floorplan-plugin.aarch64-linux</li>
-<li>nixpkgs.python313Packages.netbox-interface-synchronization.aarch64-linux</li>
-<li>nixpkgs.python313Packages.netbox-napalm-plugin.aarch64-linux</li>
-<li>nixpkgs.python313Packages.netbox-plugin-prometheus-sd.aarch64-linux</li>
-<li>nixpkgs.python313Packages.netbox-qrcode.aarch64-linux</li>
-<li>nixpkgs.python313Packages.netbox-reorder-rack.aarch64-linux</li>
-<li>nixpkgs.python313Packages.netbox-routing.aarch64-linux</li>
-<li>nixpkgs.python313Packages.netbox-topology-views.aarch64-linux</li>
 </ul>
 </details>
 </td>
@@ -78735,6 +78743,16 @@ Built for evals:
 </details>
 </td>
 <td>2</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/327525453'>aarch64-linux ayatana-indicator-session-24.5.1</a></tt></summary>
+<ul>
+<li>nixos.tests.lomiri.desktop-ayatana-indicator-display.aarch64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
 </tr>
 <tr>
 <td>
