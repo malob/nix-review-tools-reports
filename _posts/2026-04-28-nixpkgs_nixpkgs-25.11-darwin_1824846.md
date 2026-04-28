@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.11-darwin
 ---
 # Evals report
 
-*Report built at 2026-04-28 19:36:40 UTC*
+*Report built at 2026-04-28 21:27:35 UTC*
 
 Built for evals:
 
@@ -18932,7 +18932,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1348 issues</summary>
+<details><summary>1349 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -23314,6 +23314,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>uhd-4.9.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/325751457/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/325751457/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/325751457/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/325792896'>build 325792896</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/327527582'>python312Packages.spacy-curated-transformers.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.12-imageio-ffmpeg-0.6.0</tt> <br /> <a href='https://hydra.nixos.org/build/327527582/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/327527582/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/327527582/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/325742384'>build 325742384</a>
 </li>
 </ul>
 </details>
@@ -31477,7 +31491,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>840 issues</summary>
+<details><summary>839 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -34619,13 +34633,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/327527582'>python312Packages.spacy-curated-transformers.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -38173,6 +38180,7 @@ Built for evals:
 <li>python312Packages.scikit-tda.aarch64-darwin</li>
 <li>python312Packages.skrl.aarch64-darwin</li>
 <li>python312Packages.slicedimage.aarch64-darwin</li>
+<li>python312Packages.spacy-curated-transformers.aarch64-darwin</li>
 <li>python312Packages.spacy-transformers.aarch64-darwin</li>
 <li>python312Packages.spectral-cube.aarch64-darwin</li>
 <li>python312Packages.stytra.aarch64-darwin</li>
@@ -38187,7 +38195,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>84</td>
+<td>85</td>
 </tr>
 <tr>
 <td>
