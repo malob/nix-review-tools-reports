@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.11-darwin
 ---
 # Evals report
 
-*Report built at 2026-04-28 18:35:13 UTC*
+*Report built at 2026-04-28 19:36:40 UTC*
 
 Built for evals:
 
@@ -18932,7 +18932,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1346 issues</summary>
+<details><summary>1348 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -31436,6 +31436,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/327589986'>tests.dotnet.use-dotnet-from-env.use-dotnet-root-env.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/327590009'>tests.replaceVars.replaceVars.succeeds-with-exemption.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -31443,6 +31449,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/327590028'>tests.substitute.legacyString.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/327590029'>tests.testers.testEqualContents.equalDir.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -31465,7 +31477,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>842 issues</summary>
+<details><summary>840 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -36822,13 +36834,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/327589986'>tests.dotnet.use-dotnet-from-env.use-dotnet-root-env.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/327589998'>tests.dotnet.use-dotnet-from-env.use-dotnet-root-env.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -36952,13 +36957,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/327590029'>tests.testers.testEqualContents.equalDir.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
