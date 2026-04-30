@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2026-04-30 21:22:32 UTC*
+*Report built at 2026-04-30 22:21:30 UTC*
 
 Built for evals:
 
@@ -34,20 +34,13 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>52 issues</summary>
+<details><summary>51 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/327751506'>agdaPackages.agda-prelude.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/327751494'>agdaPackages.agda2hs-base.x86_64-linux</a></tt>
