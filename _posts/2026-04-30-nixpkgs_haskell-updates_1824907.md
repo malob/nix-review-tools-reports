@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2026-04-30 12:30:42 UTC*
+*Report built at 2026-04-30 14:44:29 UTC*
 
 Built for evals:
 
@@ -34,7 +34,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>53 issues</summary>
+<details><summary>50 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -44,13 +44,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/327751505'>agdaPackages._1lab.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/327751501'>agdaPackages.agda-categories.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -176,13 +169,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/327751535'>haskellPackages.hotel-california.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/327751514'>haskellPackages.hs-opentelemetry-exporter-handle.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -240,13 +226,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/327751527'>haskellPackages.hs-opentelemetry-instrumentation-yesod.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/327751532'>haskellPackages.hs-opentelemetry-utils-exceptions.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
