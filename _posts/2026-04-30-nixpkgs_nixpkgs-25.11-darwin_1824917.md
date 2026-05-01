@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.11-darwin
 ---
 # Evals report
 
-*Report built at 2026-05-01 11:30:28 UTC*
+*Report built at 2026-05-01 13:35:12 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1856 issues</summary>
+<details><summary>1857 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -19615,6 +19615,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/327527620'>python313Packages.ax-platform.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/325756887'>python313Packages.botorch.x86_64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -33563,7 +33569,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>515 issues</summary>
+<details><summary>514 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -36464,13 +36470,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/327757218'>python313Packages.aiosenz.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/327527620'>python313Packages.ax-platform.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
