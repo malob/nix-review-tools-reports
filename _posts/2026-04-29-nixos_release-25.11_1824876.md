@@ -4,7 +4,7 @@ categories: nixos:release-25.11
 ---
 # Evals report
 
-*Report built at 2026-04-30 01:40:19 UTC*
+*Report built at 2026-05-01 15:24:50 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>886 issues</summary>
+<details><summary>884 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -2965,12 +2965,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/327767588'>nixos.tests.connman.x86_64-linux</a></tt>
-</td>
-<td>Failed</td>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/327783088'>nixos.tests.cryptpad.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -6948,12 +6942,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/327783310'>tested</a></tt>
-</td>
-<td>Failed</td>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/326744717'>nixpkgs.deadlock-mod-manager.x86_64-linux</a></tt>
 </td>
 <td>Output size limit exceeded</td>
@@ -6995,36 +6983,12 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>933 issues</summary>
+<details><summary>929 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/327772957'>nixpkgs.python313Packages.fastai.aarch64-linux</a></tt>
-</td>
-<td>Aborted</td>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/327773056'>nixpkgs.python313Packages.llama-index-core.aarch64-linux</a></tt>
-</td>
-<td>Aborted</td>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/327773081'>nixpkgs.python313Packages.llama-index-embeddings-huggingface.aarch64-linux</a></tt>
-</td>
-<td>Aborted</td>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/327773222'>nixpkgs.python313Packages.spacy.aarch64-linux</a></tt>
-</td>
-<td>Aborted</td>
-</tr>
 <tr>
 <td>
 <details><summary>
@@ -14142,6 +14106,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/325611641'>nixpkgs.python312Packages.pylette.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/325611852'>nixpkgs.python312Packages.pymssql.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -14503,6 +14473,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/325631301'>nixpkgs.python313Packages.pykdtree.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/325631355'>nixpkgs.python313Packages.pylette.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -15099,18 +15075,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/326699313'>nixpkgs.wrangler.aarch64-linux</a></tt>
 </td>
 <td>Output size limit exceeded</td>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/325611641'>nixpkgs.python312Packages.pylette.aarch64-linux</a></tt>
-</td>
-<td>Timed out</td>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/325631355'>nixpkgs.python313Packages.pylette.aarch64-linux</a></tt>
-</td>
-<td>Timed out</td>
 </tr>
 </table>
 </details>
