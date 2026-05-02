@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.11-darwin
 ---
 # Evals report
 
-*Report built at 2026-05-02 17:20:59 UTC*
+*Report built at 2026-05-02 18:21:21 UTC*
 
 Built for evals:
 
@@ -33827,7 +33827,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>229 issues</summary>
+<details><summary>226 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -34137,13 +34137,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/327796098'>perl538Packages.CatalystViewDownload.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/327796113'>perl538Packages.CatalystViewDownload.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -34299,13 +34292,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/327796193'>perl540Packages.CatalystAuthenticationCredentialHTTP.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/327796245'>perl540Packages.CatalystAuthenticationStoreDBIxClass.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -34533,13 +34519,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/327796280'>perl540Packages.HTMLMasonPSGIHandler.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
