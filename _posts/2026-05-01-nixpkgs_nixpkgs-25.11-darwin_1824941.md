@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.11-darwin
 ---
 # Evals report
 
-*Report built at 2026-05-02 08:34:50 UTC*
+*Report built at 2026-05-02 09:29:30 UTC*
 
 Built for evals:
 
@@ -33843,7 +33843,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>283 issues</summary>
+<details><summary>276 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -34335,13 +34335,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/327796151'>perl538Packages.PrometheusTiny.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/327796166'>perl538Packages.SeleniumRemoteDriver.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -34560,13 +34553,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/327796225'>perl540Packages.CatalystPluginSessionStateCookie.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/327796227'>perl540Packages.CatalystPluginSessionStoreFastMmap.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -34979,13 +34965,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/327796360'>perlPackages.CatalystAuthenticationStoreHtpasswd.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/327796364'>perlPackages.CatalystAuthenticationStoreHtpasswd.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -35060,13 +35039,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/327796353'>perlPackages.CatalystPluginAccessLog.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -35319,13 +35291,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/327796427'>perlPackages.Furl.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -35756,13 +35721,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/327796500'>texliveBookPub.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/327834544'>tshark.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -35788,13 +35746,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/327834554'>wireshark-cli.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
