@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.11-darwin
 ---
 # Evals report
 
-*Report built at 2026-05-03 23:20:33 UTC*
+*Report built at 2026-05-04 00:29:52 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1868 issues</summary>
+<details><summary>1869 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -3347,6 +3347,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>open-policy-agent-1.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/326312136/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/326312136/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/326312136/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/325720187'>build 325720187</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/327864209'>maxima.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>sbcl-2.5.10</tt> <br /> <a href='https://hydra.nixos.org/build/327864209/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/327864209/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/327864209/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/325779118'>build 325779118</a>
 </li>
 </ul>
 </details>
@@ -19840,7 +19854,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1482 issues</summary>
+<details><summary>1483 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -27675,6 +27689,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/327864430'>sageWithDoc.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>singular-4.4.1</tt> <br /> <a href='https://hydra.nixos.org/build/327864430/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/327864430/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/327864430/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/325145936'>build 325145936</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/325779259'>sbclPackages.cl-ana.aarch64-darwin</a></tt>
 </summary>
 <ul>
@@ -33869,27 +33897,13 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>12 issues</summary>
+<details><summary>4 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/327864158'>gitstats.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/327864164'>gnuplot_aquaterm.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/327864192'>kanidmWithSecretProvisioning_1_10.aarch64-darwin</a></tt>
@@ -33918,48 +33932,6 @@ Built for evals:
 <td>Queued</td>
 <th>aarch64-darwin</th>
 </tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/327864209'>maxima.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/327864221'>ocamlPackages.irmin-containers.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/327864312'>octavePackages.stk.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/327864339'>octavePackages.symbolic.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/327834525'>python313Packages.dissect-cobaltstrike.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/327864430'>sageWithDoc.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
 </table>
 </details>
 
@@ -33975,6 +33947,7 @@ Built for evals:
 <ul>
 <li>acl2-minimal.x86_64-darwin</li>
 <li>clasp-common-lisp.x86_64-darwin</li>
+<li>maxima.x86_64-darwin</li>
 <li>pgloader.x86_64-darwin</li>
 <li>roswell.x86_64-darwin</li>
 <li>sbclPackages.access.x86_64-darwin</li>
@@ -34393,7 +34366,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>417</td>
+<td>418</td>
 </tr>
 <tr>
 <td>
@@ -36765,6 +36738,17 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/325145936'>aarch64-darwin singular-4.4.1</a></tt></summary>
+<ul>
+<li>sage.aarch64-darwin</li>
+<li>sageWithDoc.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/324987053'>aarch64-darwin sbcl-antik-base-master-df14cb8c-git</a></tt></summary>
 <ul>
 <li>sbclPackages.cl-ana.aarch64-darwin</li>
@@ -37096,16 +37080,6 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/325759602'>aarch64-darwin python3.13-filterpy-1.4.5-unstable-2022-08-23</a></tt></summary>
 <ul>
 <li>python313Packages.norfair.aarch64-darwin</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/325145936'>aarch64-darwin singular-4.4.1</a></tt></summary>
-<ul>
-<li>sage.aarch64-darwin</li>
 </ul>
 </details>
 </td>
