@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:nixpkgs-25.11-darwin 1825090
+title: nixpkgs:nixpkgs-25.11-darwin 1825090 (succeeded)
 categories: nixpkgs:nixpkgs-25.11-darwin
 ---
 # Evals report
 
-*Report built at 2026-05-05 08:48:07 UTC*
+*Report built at 2026-05-05 09:40:59 UTC*
 
 Built for evals:
 
@@ -19854,7 +19854,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1497 issues</summary>
+<details><summary>1498 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -33814,6 +33814,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/328078419'>pyrefly.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/326546317'>python312Packages.bgutil-ytdlp-pot-provider.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -34069,27 +34075,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/327590049'>tests.writers.data.yaml.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/328078419'>pyrefly.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 </table>
 </details>
