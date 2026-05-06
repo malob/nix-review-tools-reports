@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:staging-next-25.11 1825102
+title: nixpkgs:staging-next-25.11 1825102 (succeeded)
 categories: nixpkgs:staging-next-25.11
 ---
 # Evals report
 
-*Report built at 2026-05-06 02:29:51 UTC*
+*Report built at 2026-05-06 03:57:41 UTC*
 
 Built for evals:
 
@@ -68476,27 +68476,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/327481798'>tabiew.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/327880518'>serenityos-emoji-font.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 </table>
 </details>
