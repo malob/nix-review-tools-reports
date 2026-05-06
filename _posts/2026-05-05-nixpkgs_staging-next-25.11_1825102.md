@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next-25.11
 ---
 # Evals report
 
-*Report built at 2026-05-06 12:13:21 UTC*
+*Report built at 2026-05-06 13:25:13 UTC*
 
 Built for evals:
 
@@ -5982,7 +5982,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>2952 issues</summary>
+<details><summary>2953 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -29115,7 +29115,10 @@ Built for evals:
 </summary>
 <ul>
 <li>
-<b>=> Failed</b> <tt>python3.13-twisted-25.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/327731934/nixlog/5'>log</a>, <a href='https://hydra.nixos.org/build/327731934/nixlog/5/raw'>raw</a>, <a href='https://hydra.nixos.org/build/327731934/nixlog/5/tail'>tail</a>, <a href='https://hydra.nixos.org/build/327741885'>build 327741885</a>
+<b>=> Failed</b> <tt>python3.13-twisted-25.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/327731934/nixlog/6'>log</a>, <a href='https://hydra.nixos.org/build/327731934/nixlog/6/raw'>raw</a>, <a href='https://hydra.nixos.org/build/327731934/nixlog/6/tail'>tail</a>, <a href='https://hydra.nixos.org/build/327741885'>build 327741885</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>python3.13-twisted-25.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/327741885'>build 327741885</a>
 </li>
 <li>
 <b>=> Failed</b> <tt>python3.13-twisted-25.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/327741885'>build 327741885</a>
@@ -53327,6 +53330,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/327443619'>python313Packages.nfcpy.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/327737213'>python313Packages.pgmpy.x86_64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -60228,7 +60237,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1248 issues</summary>
+<details><summary>1249 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -74136,6 +74145,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/327281500'>haskellPackages.THSH.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/327285889'>haskellPackages.cl3-posit.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -74153,20 +74168,13 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>9 issues</summary>
+<details><summary>6 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/327693759'>diffoscope.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/327316681'>julia-bin.x86_64-darwin</a></tt>
@@ -74197,24 +74205,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/327443619'>python313Packages.nfcpy.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/327480214'>stalwart-mail.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/327505408'>venator.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -75367,7 +75361,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>2877</td>
+<td>2878</td>
 </tr>
 <tr>
 <td>
