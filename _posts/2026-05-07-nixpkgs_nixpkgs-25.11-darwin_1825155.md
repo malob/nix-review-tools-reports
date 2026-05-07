@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.11-darwin
 ---
 # Evals report
 
-*Report built at 2026-05-07 07:59:29 UTC*
+*Report built at 2026-05-07 08:57:30 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>2954 issues</summary>
+<details><summary>2957 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -595,6 +595,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>python3.13-twisted-25.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/328245571/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/328245571/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/328245571/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/327741885'>build 327741885</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/328373092'>calibre-web.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.13-twisted-25.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/328373092/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/328373092/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/328373092/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/327741885'>build 327741885</a>
 </li>
 </ul>
 </details>
@@ -4529,6 +4543,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>rlottie-0.2-unstable-2025-10-01</tt> <br /> <a href='https://hydra.nixos.org/build/328275991/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/328275991/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/328275991/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/327465920'>build 327465920</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/328373165'>magic-wormhole.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.13-twisted-25.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/328373165/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/328373165/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/328373165/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/327741885'>build 327741885</a>
 </li>
 </ul>
 </details>
@@ -19313,6 +19341,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>python3.13-twisted-25.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/328327502/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/328327502/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/328327502/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/327741885'>build 327741885</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/328373175'>python313Packages.magic-wormhole.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.13-twisted-25.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/328373175/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/328373175/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/328373175/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/327741885'>build 327741885</a>
 </li>
 </ul>
 </details>
@@ -46597,7 +46639,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>45 issues</summary>
+<details><summary>42 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -46614,13 +46656,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/328373089'>affine.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/328373092'>calibre-web.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -46858,13 +46893,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/328373165'>magic-wormhole.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/328373166'>manual</a></tt>
 </td>
 <td>Queued</td>
@@ -46901,13 +46929,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/328373173'>python312Packages.magic-wormhole.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/328373175'>python313Packages.magic-wormhole.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -46962,6 +46983,7 @@ Built for evals:
 <li>bump2version.x86_64-darwin</li>
 <li>c3d.x86_64-darwin</li>
 <li>calendar-cli.x86_64-darwin</li>
+<li>calibre-web.x86_64-darwin</li>
 <li>cffconvert.x86_64-darwin</li>
 <li>checkov.x86_64-darwin</li>
 <li>copyparty-full-buggy.x86_64-darwin</li>
@@ -47022,6 +47044,7 @@ Built for evals:
 <li>lasuite-meet.x86_64-darwin</li>
 <li>libretranslate.x86_64-darwin</li>
 <li>litellm.x86_64-darwin</li>
+<li>magic-wormhole.x86_64-darwin</li>
 <li>mapcache.x86_64-darwin</li>
 <li>mapnik.x86_64-darwin</li>
 <li>mapproxy.x86_64-darwin</li>
@@ -47708,6 +47731,7 @@ Built for evals:
 <li>python313Packages.logfury.x86_64-darwin</li>
 <li>python313Packages.magic-wormhole-mailbox-server.x86_64-darwin</li>
 <li>python313Packages.magic-wormhole-transit-relay.x86_64-darwin</li>
+<li>python313Packages.magic-wormhole.x86_64-darwin</li>
 <li>python313Packages.manga-ocr.x86_64-darwin</li>
 <li>python313Packages.manifest-ml.x86_64-darwin</li>
 <li>python313Packages.mapclassify.x86_64-darwin</li>
@@ -48033,7 +48057,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>1098</td>
+<td>1101</td>
 </tr>
 <tr>
 <td>
