@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.11-darwin
 ---
 # Evals report
 
-*Report built at 2026-05-07 08:57:30 UTC*
+*Report built at 2026-05-07 09:54:31 UTC*
 
 Built for evals:
 
@@ -46639,7 +46639,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>42 issues</summary>
+<details><summary>40 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -46736,13 +46736,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/328373115'>coqPackages.mathcomp-group-representation.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -46883,13 +46876,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/328373164'>magic-wormhole.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
