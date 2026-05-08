@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.11-darwin
 ---
 # Evals report
 
-*Report built at 2026-05-08 10:35:42 UTC*
+*Report built at 2026-05-08 11:34:44 UTC*
 
 Built for evals:
 
@@ -45667,7 +45667,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>428 issues</summary>
+<details><summary>426 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -47349,13 +47349,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/328690590'>python312Packages.psnawp.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/328690600'>python312Packages.pyannote-audio.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -47392,13 +47385,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/328690605'>python312Packages.pygccxml.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/328690599'>python312Packages.pyrate-limiter.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
