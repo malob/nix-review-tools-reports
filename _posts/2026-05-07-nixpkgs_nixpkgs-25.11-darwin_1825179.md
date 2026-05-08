@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.11-darwin
 ---
 # Evals report
 
-*Report built at 2026-05-08 14:39:46 UTC*
+*Report built at 2026-05-08 15:36:59 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>2898 issues</summary>
+<details><summary>2899 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -1729,6 +1729,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>gitaly-git-2.53-e417bf29</tt> <br /> <a href='https://hydra.nixos.org/build/328253349/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/328253349/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/328253349/nixlog/1/tail'>tail</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/328690441'>gitingest.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.13-twisted-25.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/328690441/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/328690441/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/328690441/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/327741885'>build 327741885</a>
 </li>
 </ul>
 </details>
@@ -45667,7 +45681,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>416 issues</summary>
+<details><summary>410 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -46299,13 +46313,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/328690441'>gitingest.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/328690449'>glitchtip.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -46541,13 +46548,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/328690479'>metrics</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -47041,13 +47041,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/328690549'>python312Packages.flask-socketio.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/328690553'>python312Packages.gitingest.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -47377,13 +47370,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/328690602'>python312Packages.python-socketio.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/328690611'>python312Packages.reflex-chakra.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -47444,13 +47430,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/328690618'>python312Packages.tago.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -48357,13 +48336,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/328690747'>python313Packages.walrus.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/328690751'>python313Packages.walrus.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -48660,6 +48632,7 @@ Built for evals:
 <li>froide-govplan.x86_64-darwin</li>
 <li>gdal.x86_64-darwin</li>
 <li>gdcm.x86_64-darwin</li>
+<li>gitingest.x86_64-darwin</li>
 <li>glances.x86_64-darwin</li>
 <li>gmt.x86_64-darwin</li>
 <li>gpt-cli.x86_64-darwin</li>
@@ -49661,7 +49634,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>1059</td>
+<td>1060</td>
 </tr>
 <tr>
 <td>
