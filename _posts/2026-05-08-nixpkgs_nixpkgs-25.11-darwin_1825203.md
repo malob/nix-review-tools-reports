@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.11-darwin
 ---
 # Evals report
 
-*Report built at 2026-05-09 14:27:53 UTC*
+*Report built at 2026-05-09 15:23:40 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>2897 issues</summary>
+<details><summary>2898 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -29722,6 +29722,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/328690786'>wapiti.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>python3.13-twisted-25.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/328690786/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/328690786/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/328690786/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/327741885'>build 327741885</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/328360711'>welle-io.x86_64-darwin</a></tt>
 </summary>
 <ul>
@@ -45679,7 +45693,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>547 issues</summary>
+<details><summary>541 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -45881,13 +45895,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/328690361'>apacheHttpdPackages.mod_wsgi3.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -47039,13 +47046,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/328701936'>php85Extensions.enchant.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/328702020'>php85Extensions.enchant.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -47767,13 +47767,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/328690514'>powerhub.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/328690513'>powerhub.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -48296,13 +48289,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/328690607'>python312Packages.python-roborock.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -49195,13 +49181,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/328690756'>python313Packages.yalexs.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/328690755'>python313Packages.yalexs.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -49402,13 +49381,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/328690786'>wapiti.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -50581,6 +50553,7 @@ Built for evals:
 <li>vtk.x86_64-darwin</li>
 <li>vtkWithQt6.x86_64-darwin</li>
 <li>vtk_9_5.x86_64-darwin</li>
+<li>wapiti.x86_64-darwin</li>
 <li>whipper.x86_64-darwin</li>
 <li>wikicurses.x86_64-darwin</li>
 <li>world-wall-clock.x86_64-darwin</li>
@@ -50591,7 +50564,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>1060</td>
+<td>1061</td>
 </tr>
 <tr>
 <td>
