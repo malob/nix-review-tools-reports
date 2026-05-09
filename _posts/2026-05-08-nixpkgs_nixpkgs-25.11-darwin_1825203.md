@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.11-darwin
 ---
 # Evals report
 
-*Report built at 2026-05-09 01:38:58 UTC*
+*Report built at 2026-05-09 03:08:15 UTC*
 
 Built for evals:
 
@@ -45665,7 +45665,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>563 issues</summary>
+<details><summary>559 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -46318,13 +46318,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/328701894'>fleet.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/328701892'>fleetctl.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -46451,13 +46444,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/328701900'>go_1_26.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/328701903'>grocy.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -46581,13 +46567,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/328690466'>log4cxx.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -48520,13 +48499,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/328690634'>python312Packages.yalexs.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
