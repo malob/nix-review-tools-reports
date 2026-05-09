@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.11-darwin
 ---
 # Evals report
 
-*Report built at 2026-05-09 15:23:40 UTC*
+*Report built at 2026-05-09 16:21:59 UTC*
 
 Built for evals:
 
@@ -45693,7 +45693,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>541 issues</summary>
+<details><summary>539 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -47991,13 +47991,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/328690551'>python312Packages.flask-session2.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/328690553'>python312Packages.gitingest.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -48009,13 +48002,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/328690554'>python312Packages.graphite-web.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
