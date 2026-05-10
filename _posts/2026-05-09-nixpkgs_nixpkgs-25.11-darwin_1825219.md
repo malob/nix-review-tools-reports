@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.11-darwin
 ---
 # Evals report
 
-*Report built at 2026-05-10 07:16:35 UTC*
+*Report built at 2026-05-10 15:25:11 UTC*
 
 Built for evals:
 
@@ -34640,7 +34640,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1242 issues</summary>
+<details><summary>1243 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -41023,6 +41023,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/328690787'>whisper-ctranslate2.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>ffmpeg-full-6.1.3</tt> <br /> <a href='https://hydra.nixos.org/build/328690787/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/328690787/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/328690787/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/327695029'>build 327695029</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/328360699'>whitesur-gtk-theme.aarch64-darwin</a></tt>
 </summary>
 <ul>
@@ -45817,7 +45831,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>475 issues</summary>
+<details><summary>474 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -49053,13 +49067,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/328690787'>whisper-ctranslate2.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/328690788'>whisper-ctranslate2.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -51428,10 +51435,11 @@ Built for evals:
 <li>python313Packages.torchaudio.aarch64-darwin</li>
 <li>python313Packages.torchcrepe.aarch64-darwin</li>
 <li>tts.aarch64-darwin</li>
+<li>whisper-ctranslate2.aarch64-darwin</li>
 </ul>
 </details>
 </td>
-<td>15</td>
+<td>16</td>
 </tr>
 <tr>
 <td>
