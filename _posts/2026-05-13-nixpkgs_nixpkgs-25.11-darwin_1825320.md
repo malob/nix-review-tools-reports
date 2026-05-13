@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.11-darwin
 ---
 # Evals report
 
-*Report built at 2026-05-13 20:40:58 UTC*
+*Report built at 2026-05-13 21:35:30 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>2619 issues</summary>
+<details><summary>2620 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -4893,6 +4893,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>ocaml5.3.0-mirage-crypto-rng-2.0.2</tt> <br /> <a href='https://hydra.nixos.org/build/328283601/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/328283601/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/328283601/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/327348352'>build 327348352</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/328904495'>ocamlPackages.ocsipersist-sqlite-config.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>ocaml5.3.0-mirage-crypto-rng-2.0.2</tt> <br /> <a href='https://hydra.nixos.org/build/328904495/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/328904495/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/328904495/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/327348352'>build 327348352</a>
 </li>
 </ul>
 </details>
@@ -41522,7 +41536,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>494 issues</summary>
+<details><summary>491 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -42798,13 +42812,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/328904495'>ocamlPackages.ocsipersist-sqlite-config.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/328904505'>ocamlPackages.telegraml.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -43369,13 +43376,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/328898531'>python312Packages.limits.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -44132,13 +44132,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/328898703'>python313Packages.psnawp.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -46572,6 +46565,7 @@ Built for evals:
 <li>ocamlPackages.mirage-crypto-rng-mirage.x86_64-darwin</li>
 <li>ocamlPackages.mirage-nat.x86_64-darwin</li>
 <li>ocamlPackages.mirage-protocols.x86_64-darwin</li>
+<li>ocamlPackages.ocsipersist-sqlite-config.x86_64-darwin</li>
 <li>ocamlPackages.oidc.x86_64-darwin</li>
 <li>ocamlPackages.otr.x86_64-darwin</li>
 <li>ocamlPackages.paf-cohttp.x86_64-darwin</li>
@@ -46590,7 +46584,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>48</td>
+<td>49</td>
 </tr>
 <tr>
 <td>
