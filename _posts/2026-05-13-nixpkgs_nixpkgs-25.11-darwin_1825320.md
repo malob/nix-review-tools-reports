@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.11-darwin
 ---
 # Evals report
 
-*Report built at 2026-05-13 22:32:40 UTC*
+*Report built at 2026-05-13 23:28:43 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>2620 issues</summary>
+<details><summary>2624 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -4678,6 +4678,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/328904491'>ocamlPackages.gitlab-unix.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>ocaml5.3.0-mirage-crypto-rng-2.0.2</tt> <br /> <a href='https://hydra.nixos.org/build/328904491/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/328904491/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/328904491/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/327348352'>build 327348352</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/328282943'>ocamlPackages.gluten-mirage.x86_64-darwin</a></tt>
 </summary>
 <ul>
@@ -4711,6 +4725,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>ocaml5.3.0-mirage-crypto-rng-2.0.2</tt> <br /> <a href='https://hydra.nixos.org/build/328282904/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/328282904/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/328282904/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/327348352'>build 327348352</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/328904498'>ocamlPackages.irmin-git.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>ocaml5.3.0-mirage-crypto-rng-2.0.2</tt> <br /> <a href='https://hydra.nixos.org/build/328904498/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/328904498/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/328904498/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/327348352'>build 327348352</a>
 </li>
 </ul>
 </details>
@@ -24575,6 +24603,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/328904529'>seppo.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>ocaml5.3.0-mirage-crypto-rng-2.0.2</tt> <br /> <a href='https://hydra.nixos.org/build/328904529/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/328904529/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/328904529/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/327348352'>build 327348352</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/328345262'>shell-gpt.x86_64-darwin</a></tt>
 </summary>
 <ul>
@@ -28821,6 +28863,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/328314200'>python312Packages.python-djvulibre.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/328898582'>python312Packages.python-redis-lock.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -41536,7 +41584,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>486 issues</summary>
+<details><summary>479 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -42644,13 +42692,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/328904491'>ocamlPackages.gitlab-unix.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/328904487'>ocamlPackages.graphql-cohttp.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -42669,13 +42710,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/328904498'>ocamlPackages.irmin-git.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -42816,13 +42850,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/328898439'>octoprint.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -43211,13 +43238,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/328898502'>python312Packages.django-redis.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/328898509'>python312Packages.dockerflow.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -43572,13 +43592,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/328898582'>python312Packages.python-redis-lock.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -44002,13 +44015,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/328898681'>python313Packages.netbox-documents.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/328898699'>python313Packages.netbox-documents.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -44419,13 +44425,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/328904529'>seppo.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -46375,6 +46374,67 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/327348352'>x86_64-darwin ocaml5.3.0-mirage-crypto-rng-2.0.2</a></tt></summary>
+<ul>
+<li>ocamlPackages.awa-mirage.x86_64-darwin</li>
+<li>ocamlPackages.awa.x86_64-darwin</li>
+<li>ocamlPackages.ca-certs-nss.x86_64-darwin</li>
+<li>ocamlPackages.conduit-mirage.x86_64-darwin</li>
+<li>ocamlPackages.dns-certify.x86_64-darwin</li>
+<li>ocamlPackages.dns-client-mirage.x86_64-darwin</li>
+<li>ocamlPackages.dns-client.x86_64-darwin</li>
+<li>ocamlPackages.dns-mirage.x86_64-darwin</li>
+<li>ocamlPackages.dns-resolver.x86_64-darwin</li>
+<li>ocamlPackages.dns-server.x86_64-darwin</li>
+<li>ocamlPackages.dns-stub.x86_64-darwin</li>
+<li>ocamlPackages.dnssec.x86_64-darwin</li>
+<li>ocamlPackages.dream.x86_64-darwin</li>
+<li>ocamlPackages.git-mirage.x86_64-darwin</li>
+<li>ocamlPackages.git-paf.x86_64-darwin</li>
+<li>ocamlPackages.git-unix.x86_64-darwin</li>
+<li>ocamlPackages.git.x86_64-darwin</li>
+<li>ocamlPackages.gitlab-unix.x86_64-darwin</li>
+<li>ocamlPackages.gluten-mirage.x86_64-darwin</li>
+<li>ocamlPackages.happy-eyeballs-mirage.x86_64-darwin</li>
+<li>ocamlPackages.http-mirage-client.x86_64-darwin</li>
+<li>ocamlPackages.irmin-git.x86_64-darwin</li>
+<li>ocamlPackages.jose.x86_64-darwin</li>
+<li>ocamlPackages.lambdapi.x86_64-darwin</li>
+<li>ocamlPackages.letsencrypt-dns.x86_64-darwin</li>
+<li>ocamlPackages.letsencrypt-mirage.x86_64-darwin</li>
+<li>ocamlPackages.letsencrypt.x86_64-darwin</li>
+<li>ocamlPackages.letters.x86_64-darwin</li>
+<li>ocamlPackages.mimic-happy-eyeballs.x86_64-darwin</li>
+<li>ocamlPackages.mirage-crypto-ec.x86_64-darwin</li>
+<li>ocamlPackages.mirage-crypto-pk.x86_64-darwin</li>
+<li>ocamlPackages.mirage-crypto-rng-miou-unix.x86_64-darwin</li>
+<li>ocamlPackages.mirage-crypto-rng-mirage.x86_64-darwin</li>
+<li>ocamlPackages.mirage-nat.x86_64-darwin</li>
+<li>ocamlPackages.mirage-protocols.x86_64-darwin</li>
+<li>ocamlPackages.ocsipersist-sqlite-config.x86_64-darwin</li>
+<li>ocamlPackages.oidc.x86_64-darwin</li>
+<li>ocamlPackages.otr.x86_64-darwin</li>
+<li>ocamlPackages.paf-cohttp.x86_64-darwin</li>
+<li>ocamlPackages.paf.x86_64-darwin</li>
+<li>ocamlPackages.plotkicadsch.x86_64-darwin</li>
+<li>ocamlPackages.sendmail.x86_64-darwin</li>
+<li>ocamlPackages.tcpip.x86_64-darwin</li>
+<li>ocamlPackages.telegraml.x86_64-darwin</li>
+<li>ocamlPackages.tls-async.x86_64-darwin</li>
+<li>ocamlPackages.tls-eio.x86_64-darwin</li>
+<li>ocamlPackages.tls-lwt.x86_64-darwin</li>
+<li>ocamlPackages.tls-mirage.x86_64-darwin</li>
+<li>ocamlPackages.tls.x86_64-darwin</li>
+<li>ocamlPackages.x509.x86_64-darwin</li>
+<li>seppo.x86_64-darwin</li>
+<li>slipshow.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>52</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/327383908'>aarch64-darwin postgresql-18.3</a></tt></summary>
 <ul>
 <li>postgresql18Packages.apache_datasketches.aarch64-darwin</li>
@@ -46492,64 +46552,6 @@ Built for evals:
 </details>
 </td>
 <td>50</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/327348352'>x86_64-darwin ocaml5.3.0-mirage-crypto-rng-2.0.2</a></tt></summary>
-<ul>
-<li>ocamlPackages.awa-mirage.x86_64-darwin</li>
-<li>ocamlPackages.awa.x86_64-darwin</li>
-<li>ocamlPackages.ca-certs-nss.x86_64-darwin</li>
-<li>ocamlPackages.conduit-mirage.x86_64-darwin</li>
-<li>ocamlPackages.dns-certify.x86_64-darwin</li>
-<li>ocamlPackages.dns-client-mirage.x86_64-darwin</li>
-<li>ocamlPackages.dns-client.x86_64-darwin</li>
-<li>ocamlPackages.dns-mirage.x86_64-darwin</li>
-<li>ocamlPackages.dns-resolver.x86_64-darwin</li>
-<li>ocamlPackages.dns-server.x86_64-darwin</li>
-<li>ocamlPackages.dns-stub.x86_64-darwin</li>
-<li>ocamlPackages.dnssec.x86_64-darwin</li>
-<li>ocamlPackages.dream.x86_64-darwin</li>
-<li>ocamlPackages.git-mirage.x86_64-darwin</li>
-<li>ocamlPackages.git-paf.x86_64-darwin</li>
-<li>ocamlPackages.git-unix.x86_64-darwin</li>
-<li>ocamlPackages.git.x86_64-darwin</li>
-<li>ocamlPackages.gluten-mirage.x86_64-darwin</li>
-<li>ocamlPackages.happy-eyeballs-mirage.x86_64-darwin</li>
-<li>ocamlPackages.http-mirage-client.x86_64-darwin</li>
-<li>ocamlPackages.jose.x86_64-darwin</li>
-<li>ocamlPackages.lambdapi.x86_64-darwin</li>
-<li>ocamlPackages.letsencrypt-dns.x86_64-darwin</li>
-<li>ocamlPackages.letsencrypt-mirage.x86_64-darwin</li>
-<li>ocamlPackages.letsencrypt.x86_64-darwin</li>
-<li>ocamlPackages.letters.x86_64-darwin</li>
-<li>ocamlPackages.mimic-happy-eyeballs.x86_64-darwin</li>
-<li>ocamlPackages.mirage-crypto-ec.x86_64-darwin</li>
-<li>ocamlPackages.mirage-crypto-pk.x86_64-darwin</li>
-<li>ocamlPackages.mirage-crypto-rng-miou-unix.x86_64-darwin</li>
-<li>ocamlPackages.mirage-crypto-rng-mirage.x86_64-darwin</li>
-<li>ocamlPackages.mirage-nat.x86_64-darwin</li>
-<li>ocamlPackages.mirage-protocols.x86_64-darwin</li>
-<li>ocamlPackages.ocsipersist-sqlite-config.x86_64-darwin</li>
-<li>ocamlPackages.oidc.x86_64-darwin</li>
-<li>ocamlPackages.otr.x86_64-darwin</li>
-<li>ocamlPackages.paf-cohttp.x86_64-darwin</li>
-<li>ocamlPackages.paf.x86_64-darwin</li>
-<li>ocamlPackages.plotkicadsch.x86_64-darwin</li>
-<li>ocamlPackages.sendmail.x86_64-darwin</li>
-<li>ocamlPackages.tcpip.x86_64-darwin</li>
-<li>ocamlPackages.telegraml.x86_64-darwin</li>
-<li>ocamlPackages.tls-async.x86_64-darwin</li>
-<li>ocamlPackages.tls-eio.x86_64-darwin</li>
-<li>ocamlPackages.tls-lwt.x86_64-darwin</li>
-<li>ocamlPackages.tls-mirage.x86_64-darwin</li>
-<li>ocamlPackages.tls.x86_64-darwin</li>
-<li>ocamlPackages.x509.x86_64-darwin</li>
-<li>slipshow.x86_64-darwin</li>
-</ul>
-</details>
-</td>
-<td>49</td>
 </tr>
 <tr>
 <td>
