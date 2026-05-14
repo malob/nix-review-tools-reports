@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.11-darwin
 ---
 # Evals report
 
-*Report built at 2026-05-14 11:39:01 UTC*
+*Report built at 2026-05-14 12:42:26 UTC*
 
 Built for evals:
 
@@ -30519,7 +30519,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1243 issues</summary>
+<details><summary>1244 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -40533,6 +40533,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/328898715'>python313Packages.python-redis-lock.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/328333365'>python313Packages.pytorch-tokenizers.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -41582,7 +41588,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>442 issues</summary>
+<details><summary>440 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -43803,13 +43809,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/328898694'>python313Packages.optuna.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/328898706'>python313Packages.psnawp.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -43853,13 +43852,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/328898712'>python313Packages.pyrate-limiter.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/328898715'>python313Packages.python-redis-lock.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
