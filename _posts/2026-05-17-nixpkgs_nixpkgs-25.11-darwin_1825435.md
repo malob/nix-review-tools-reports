@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.11-darwin
 ---
 # Evals report
 
-*Report built at 2026-05-17 07:53:25 UTC*
+*Report built at 2026-05-17 09:38:06 UTC*
 
 Built for evals:
 
@@ -40104,7 +40104,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>59 issues</summary>
+<details><summary>57 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -40173,13 +40173,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/329114321'>manual</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -40478,13 +40471,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/329114374'>zabbix60.agent2.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/329114384'>zabbix70.agent.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
