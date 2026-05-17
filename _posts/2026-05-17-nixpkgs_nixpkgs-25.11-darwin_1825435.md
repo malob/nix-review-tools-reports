@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.11-darwin
 ---
 # Evals report
 
-*Report built at 2026-05-17 14:35:23 UTC*
+*Report built at 2026-05-17 17:26:19 UTC*
 
 Built for evals:
 
@@ -40104,7 +40104,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>50 issues</summary>
+<details><summary>49 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -40292,13 +40292,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/329114354'>python313Packages.openusd.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
