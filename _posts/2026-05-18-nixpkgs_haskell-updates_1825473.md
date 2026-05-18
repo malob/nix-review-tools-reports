@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2026-05-18 13:09:59 UTC*
+*Report built at 2026-05-18 15:04:51 UTC*
 
 Built for evals:
 
@@ -214,7 +214,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>7846 issues</summary>
+<details><summary>7843 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -1084,13 +1084,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/329187366'>haskell.packages.ghc948.cabal2nix.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/329187344'>haskell.packages.ghc948.ghc-lib-parser-ex.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -1113,13 +1106,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/329187390'>haskell.packages.ghc948.hoogle.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/329187365'>haskell.packages.ghc948.hpack.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -54985,13 +54971,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/329195046'>tests.haskell.cabalSdist.localFromCabalSdist.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/329195047'>tests.haskell.cabalSdist.localHasNoDirectReference.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
