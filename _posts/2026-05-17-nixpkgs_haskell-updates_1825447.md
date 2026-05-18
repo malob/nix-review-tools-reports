@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2026-05-18 07:14:44 UTC*
+*Report built at 2026-05-18 07:21:28 UTC*
 
 Built for evals:
 
@@ -14904,7 +14904,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>1869 issues</summary>
+<details><summary>1868 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -18953,13 +18953,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/329121488'>haskellPackages.enumerable.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/329121495'>haskellPackages.error-analyze.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
