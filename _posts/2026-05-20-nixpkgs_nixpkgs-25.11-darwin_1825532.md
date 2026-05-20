@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.11-darwin
 ---
 # Evals report
 
-*Report built at 2026-05-20 19:52:07 UTC*
+*Report built at 2026-05-20 20:46:37 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>2552 issues</summary>
+<details><summary>2554 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -595,6 +595,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>python3.13-twisted-25.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/328245817/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/328245817/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/328245817/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/327741885'>build 327741885</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/329534361'>chatd.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>ollama-0.21.1</tt> <br /> <a href='https://hydra.nixos.org/build/329534361/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/329534361/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/329534361/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/328701914'>build 328701914</a>
 </li>
 </ul>
 </details>
@@ -3941,6 +3955,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>lix-2.95.2</tt> <br /> <a href='https://hydra.nixos.org/build/328275363/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/328275363/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/328275363/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/328080114'>build 328080114</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/329534418'>lixPackageSets.lix_2_95.nix-direnv.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>lix-2.95.2</tt> <br /> <a href='https://hydra.nixos.org/build/329534418/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/329534418/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/329534418/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/328080114'>build 328080114</a>
 </li>
 </ul>
 </details>
@@ -39970,7 +39998,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>134 issues</summary>
+<details><summary>131 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -40095,13 +40123,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/329534361'>chatd.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -40462,13 +40483,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/329534418'>lixPackageSets.lix_2_95.nix-direnv.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/329534417'>lixPackageSets.stable.nix-direnv.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -40494,13 +40508,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/329534423'>manual</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -42826,6 +42833,27 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/328080112'>aarch64-darwin lix-2.95.2</a></tt></summary>
+<ul>
+<li>lixPackageSets.lix_2_95.colmena.aarch64-darwin</li>
+<li>lixPackageSets.lix_2_95.colmena.x86_64-darwin</li>
+<li>lixPackageSets.lix_2_95.nix-direnv.aarch64-darwin</li>
+<li>lixPackageSets.lix_2_95.nix-direnv.x86_64-darwin</li>
+<li>lixPackageSets.lix_2_95.nix-eval-jobs.aarch64-darwin</li>
+<li>lixPackageSets.lix_2_95.nix-eval-jobs.x86_64-darwin</li>
+<li>lixPackageSets.lix_2_95.nix-fast-build.aarch64-darwin</li>
+<li>lixPackageSets.lix_2_95.nix-fast-build.x86_64-darwin</li>
+<li>lixPackageSets.lix_2_95.nix-update.aarch64-darwin</li>
+<li>lixPackageSets.lix_2_95.nix-update.x86_64-darwin</li>
+<li>lixPackageSets.lix_2_95.nixpkgs-review.aarch64-darwin</li>
+<li>lixPackageSets.lix_2_95.nixpkgs-review.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>12</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/327705076'>aarch64-darwin lix-2.96.0-pre-20260317_96db7c79cf2a</a></tt></summary>
 <ul>
 <li>lixPackageSets.git.colmena.aarch64-darwin</li>
@@ -42839,26 +42867,6 @@ Built for evals:
 <li>lixPackageSets.git.nix-update.x86_64-darwin</li>
 <li>lixPackageSets.git.nixpkgs-review.aarch64-darwin</li>
 <li>lixPackageSets.git.nixpkgs-review.x86_64-darwin</li>
-</ul>
-</details>
-</td>
-<td>11</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/328080112'>aarch64-darwin lix-2.95.2</a></tt></summary>
-<ul>
-<li>lixPackageSets.lix_2_95.colmena.aarch64-darwin</li>
-<li>lixPackageSets.lix_2_95.colmena.x86_64-darwin</li>
-<li>lixPackageSets.lix_2_95.nix-direnv.aarch64-darwin</li>
-<li>lixPackageSets.lix_2_95.nix-eval-jobs.aarch64-darwin</li>
-<li>lixPackageSets.lix_2_95.nix-eval-jobs.x86_64-darwin</li>
-<li>lixPackageSets.lix_2_95.nix-fast-build.aarch64-darwin</li>
-<li>lixPackageSets.lix_2_95.nix-fast-build.x86_64-darwin</li>
-<li>lixPackageSets.lix_2_95.nix-update.aarch64-darwin</li>
-<li>lixPackageSets.lix_2_95.nix-update.x86_64-darwin</li>
-<li>lixPackageSets.lix_2_95.nixpkgs-review.aarch64-darwin</li>
-<li>lixPackageSets.lix_2_95.nixpkgs-review.x86_64-darwin</li>
 </ul>
 </details>
 </td>
@@ -44300,6 +44308,16 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/327254360'>x86_64-darwin buildah-1.42.1</a></tt></summary>
 <ul>
 <li>buildah.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/328701914'>x86_64-darwin ollama-0.21.1</a></tt></summary>
+<ul>
+<li>chatd.x86_64-darwin</li>
 </ul>
 </details>
 </td>
