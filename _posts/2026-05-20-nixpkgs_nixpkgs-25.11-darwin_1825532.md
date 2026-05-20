@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.11-darwin
 ---
 # Evals report
 
-*Report built at 2026-05-20 20:46:37 UTC*
+*Report built at 2026-05-20 22:53:28 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>2554 issues</summary>
+<details><summary>2555 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -3885,6 +3885,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>lix-2.96.0-pre-20260317_96db7c79cf2a</tt> <br /> <a href='https://hydra.nixos.org/build/328275277/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/328275277/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/328275277/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/327705073'>build 327705073</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/329534407'>lixPackageSets.git.nix-direnv.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>lix-2.96.0-pre-20260317_96db7c79cf2a</tt> <br /> <a href='https://hydra.nixos.org/build/329534407/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/329534407/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/329534407/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/327705073'>build 327705073</a>
 </li>
 </ul>
 </details>
@@ -29539,7 +29553,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1205 issues</summary>
+<details><summary>1206 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -29741,6 +29755,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>python3.13-certipy-ad-5.0.3</tt> <br /> <a href='https://hydra.nixos.org/build/328245803/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/328245803/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/328245803/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/327730550'>build 327730550</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/329534360'>chatd.aarch64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>ollama-0.21.1</tt> <br /> <a href='https://hydra.nixos.org/build/329534360/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/329534360/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/329534360/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/328701913'>build 328701913</a>
 </li>
 </ul>
 </details>
@@ -39998,7 +40026,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>131 issues</summary>
+<details><summary>129 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -40116,13 +40144,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/329534360'>chatd.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -40428,13 +40449,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/329534406'>lightway.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/329534407'>lixPackageSets.git.nix-direnv.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -42833,6 +42847,27 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/327705076'>aarch64-darwin lix-2.96.0-pre-20260317_96db7c79cf2a</a></tt></summary>
+<ul>
+<li>lixPackageSets.git.colmena.aarch64-darwin</li>
+<li>lixPackageSets.git.colmena.x86_64-darwin</li>
+<li>lixPackageSets.git.nix-direnv.aarch64-darwin</li>
+<li>lixPackageSets.git.nix-direnv.x86_64-darwin</li>
+<li>lixPackageSets.git.nix-eval-jobs.aarch64-darwin</li>
+<li>lixPackageSets.git.nix-eval-jobs.x86_64-darwin</li>
+<li>lixPackageSets.git.nix-fast-build.aarch64-darwin</li>
+<li>lixPackageSets.git.nix-fast-build.x86_64-darwin</li>
+<li>lixPackageSets.git.nix-update.aarch64-darwin</li>
+<li>lixPackageSets.git.nix-update.x86_64-darwin</li>
+<li>lixPackageSets.git.nixpkgs-review.aarch64-darwin</li>
+<li>lixPackageSets.git.nixpkgs-review.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>12</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/328080112'>aarch64-darwin lix-2.95.2</a></tt></summary>
 <ul>
 <li>lixPackageSets.lix_2_95.colmena.aarch64-darwin</li>
@@ -42851,26 +42886,6 @@ Built for evals:
 </details>
 </td>
 <td>12</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/327705076'>aarch64-darwin lix-2.96.0-pre-20260317_96db7c79cf2a</a></tt></summary>
-<ul>
-<li>lixPackageSets.git.colmena.aarch64-darwin</li>
-<li>lixPackageSets.git.colmena.x86_64-darwin</li>
-<li>lixPackageSets.git.nix-direnv.aarch64-darwin</li>
-<li>lixPackageSets.git.nix-eval-jobs.aarch64-darwin</li>
-<li>lixPackageSets.git.nix-eval-jobs.x86_64-darwin</li>
-<li>lixPackageSets.git.nix-fast-build.aarch64-darwin</li>
-<li>lixPackageSets.git.nix-fast-build.x86_64-darwin</li>
-<li>lixPackageSets.git.nix-update.aarch64-darwin</li>
-<li>lixPackageSets.git.nix-update.x86_64-darwin</li>
-<li>lixPackageSets.git.nixpkgs-review.aarch64-darwin</li>
-<li>lixPackageSets.git.nixpkgs-review.x86_64-darwin</li>
-</ul>
-</details>
-</td>
-<td>11</td>
 </tr>
 <tr>
 <td>
@@ -43540,6 +43555,17 @@ Built for evals:
 <ul>
 <li>certsync.aarch64-darwin</li>
 <li>certsync.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/328701913'>aarch64-darwin ollama-0.21.1</a></tt></summary>
+<ul>
+<li>chatd.aarch64-darwin</li>
+<li>chatd.x86_64-darwin</li>
 </ul>
 </details>
 </td>
@@ -44308,16 +44334,6 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/327254360'>x86_64-darwin buildah-1.42.1</a></tt></summary>
 <ul>
 <li>buildah.x86_64-darwin</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/328701914'>x86_64-darwin ollama-0.21.1</a></tt></summary>
-<ul>
-<li>chatd.x86_64-darwin</li>
 </ul>
 </details>
 </td>
