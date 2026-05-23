@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:nixpkgs-25.11-darwin 1825608
+title: nixpkgs:nixpkgs-25.11-darwin 1825608 (succeeded)
 categories: nixpkgs:nixpkgs-25.11-darwin
 ---
 # Evals report
 
-*Report built at 2026-05-23 07:54:05 UTC*
+*Report built at 2026-05-23 08:45:47 UTC*
 
 Built for evals:
 
@@ -40932,34 +40932,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/328890156'>python313Packages.spsdk.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>2 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/329730068'>libsignal-ffi.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/329730072'>mautrix-signal.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 </table>
 </details>
