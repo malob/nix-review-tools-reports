@@ -4,7 +4,7 @@ categories: nixos:release-25.11
 ---
 # Evals report
 
-*Report built at 2026-05-23 13:37:22 UTC*
+*Report built at 2026-05-23 17:27:46 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>1031 issues</summary>
+<details><summary>1030 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -3649,20 +3649,6 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>nodejs-24.16.0</tt> <br /> <a href='https://hydra.nixos.org/build/329719380/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/329719380/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/329719380/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/329720101'>build 329720101</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/329719402'>nixos.tests.chromium.x86_64-linux</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Failed</b> <tt>nodejs-24.16.0</tt> <br /> <a href='https://hydra.nixos.org/build/329719402/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/329719402/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/329719402/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/329720101'>build 329720101</a>
 </li>
 </ul>
 </details>
@@ -13498,13 +13484,20 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>2 issues</summary>
+<details><summary>3 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 <th>platform</th>
 </tr></thead>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/329719402'>nixos.tests.chromium.x86_64-linux</a></tt>
+</td>
+<td>Queued</td>
+<th>x86_64-linux</th>
+</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/329720287'>nixpkgs.ungoogled-chromium.aarch64-linux</a></tt>
@@ -13545,7 +13538,6 @@ Built for evals:
 <li>nixos.tests.allDrivers.signal-desktop.x86_64-linux</li>
 <li>nixos.tests.allDrivers.vikunja.x86_64-linux</li>
 <li>nixos.tests.allDrivers.zipline.x86_64-linux</li>
-<li>nixos.tests.chromium.x86_64-linux</li>
 <li>nixos.tests.custom-ca.chromium.x86_64-linux</li>
 <li>nixos.tests.filebrowser.x86_64-linux</li>
 <li>nixos.tests.flaresolverr.x86_64-linux</li>
@@ -13723,7 +13715,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>188</td>
+<td>187</td>
 </tr>
 <tr>
 <td>
