@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-25.11-darwin
 ---
 # Evals report
 
-*Report built at 2026-05-24 11:33:23 UTC*
+*Report built at 2026-05-24 12:26:04 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>2615 issues</summary>
+<details><summary>2616 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -24393,6 +24393,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/329753665'>signal-desktop.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Cached failure</b> <tt>nodejs-24.16.0</tt> <br /> <a href='https://hydra.nixos.org/build/329753665/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/329753665/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/329753665/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/329713170'>build 329713170</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/328345426'>silice.x86_64-darwin</a></tt>
 </summary>
 <ul>
@@ -40830,7 +40844,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>24 issues</summary>
+<details><summary>22 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -40944,13 +40958,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/329753653'>openssh_hpnWithKerberos.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/329753655'>perl538Packages.nsdiff.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -40990,13 +40997,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/329753665'>signal-desktop.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -42468,11 +42468,12 @@ Built for evals:
 <li>nodePackages_latest.vercel.x86_64-darwin</li>
 <li>nodePackages_latest.wavedrom-cli.x86_64-darwin</li>
 <li>podman-desktop.x86_64-darwin</li>
+<li>signal-desktop.x86_64-darwin</li>
 <li>starkiller.x86_64-darwin</li>
 </ul>
 </details>
 </td>
-<td>52</td>
+<td>53</td>
 </tr>
 <tr>
 <td>
