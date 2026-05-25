@@ -27,14 +27,14 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v4
+      uses: actions/checkout@v6
       with:
         ref: master
         # We need the history
         fetch-depth: 0
 
     - name: Install Nix
-      uses: DeterminateSystems/nix-installer-action@v20
+      uses: DeterminateSystems/nix-installer-action@v22
 
     - name: Remove reports created over a week ago
       run: |
