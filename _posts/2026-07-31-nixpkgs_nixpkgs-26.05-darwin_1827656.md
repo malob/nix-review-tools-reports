@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-26.05-darwin
 ---
 # Evals report
 
-*Report built at 2026-07-31 16:36:18 UTC*
+*Report built at 2026-07-31 17:34:14 UTC*
 
 Built for evals:
 
@@ -48,7 +48,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>880 issues</summary>
+<details><summary>885 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -4626,6 +4626,24 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/339516079'>julia-bin.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/339516086'>julia-stable-bin.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/339516091'>julia_112-bin.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/339516114'>junkie.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -5808,6 +5826,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/339557836'>python313Packages.pyscf.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/339557887'>python313Packages.pyside6-qtads.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -6253,6 +6277,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/339574647'>python314Packages.opentelemetry-instrumentation-urllib3.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/339574704'>python314Packages.optiland.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -6749,7 +6779,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1367 issues</summary>
+<details><summary>1369 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -6764,6 +6794,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/339483772'>abbaye-des-morts.aarch64-darwin</a></tt>
+</td>
+<td>Aborted</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/339485504'>asn1c.aarch64-darwin</a></tt>
 </td>
 <td>Aborted</td>
 </tr>
@@ -19116,6 +19152,12 @@ Built for evals:
 </td>
 <td>Output size limit exceeded</td>
 </tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/339499214'>haskellPackages.THSH.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
 </table>
 </details>
 
@@ -19123,7 +19165,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>3821 issues</summary>
+<details><summary>3814 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -19374,13 +19416,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/339485504'>asn1c.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -21922,13 +21957,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/339499214'>haskellPackages.THSH.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -37402,27 +37430,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/339516079'>julia-bin.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/339516086'>julia-stable-bin.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/339516091'>julia_112-bin.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/339516097'>julius.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -40545,13 +40552,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/339557836'>python313Packages.pyscf.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/339557829'>python313Packages.pyscreenshot.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -42485,13 +42485,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/339574613'>python314Packages.opentelemetry-instrumentation-celery.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/339574704'>python314Packages.optiland.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
