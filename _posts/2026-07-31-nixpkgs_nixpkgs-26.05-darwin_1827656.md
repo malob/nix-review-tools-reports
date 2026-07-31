@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-26.05-darwin
 ---
 # Evals report
 
-*Report built at 2026-07-31 20:30:54 UTC*
+*Report built at 2026-07-31 21:27:05 UTC*
 
 Built for evals:
 
@@ -48,7 +48,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>4346 issues</summary>
+<details><summary>4368 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -4088,6 +4088,230 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>gnat-15.2.0</tt> <br /> <a href='https://hydra.nixos.org/build/339496828/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/339496828/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/339496828/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/339496819'>build 339496819</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/339496835'>gnat16Packages.gnatcoll-cpp.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>gnat-16.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/339496835/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/339496835/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/339496835/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/339496844'>build 339496844</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/339496838'>gnat16Packages.gnatcoll-db2ada.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>gnat-16.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/339496838/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/339496838/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/339496838/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/339496844'>build 339496844</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/339496836'>gnat16Packages.gnatcoll-gmp.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>gnat-16.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/339496836/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/339496836/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/339496836/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/339496844'>build 339496844</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/339496868'>gnat16Packages.gnatcoll-iconv.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>gnat-16.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/339496868/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/339496868/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/339496868/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/339496844'>build 339496844</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/339496839'>gnat16Packages.gnatcoll-lzma.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>gnat-16.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/339496839/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/339496839/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/339496839/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/339496844'>build 339496844</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/339496837'>gnat16Packages.gnatcoll-omp.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>gnat-16.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/339496837/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/339496837/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/339496837/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/339496844'>build 339496844</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/339496844'>gnat16Packages.gnatcoll-postgres.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>gnat-16.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/339496844/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/339496844/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/339496844/nixlog/1/tail'>tail</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/339496842'>gnat16Packages.gnatcoll-python3.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>gnat-16.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/339496842/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/339496842/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/339496842/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/339496844'>build 339496844</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/339496840'>gnat16Packages.gnatcoll-readline.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>gnat-16.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/339496840/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/339496840/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/339496840/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/339496844'>build 339496844</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/339496841'>gnat16Packages.gnatcoll-sql.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>gnat-16.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/339496841/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/339496841/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/339496841/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/339496844'>build 339496844</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/339496845'>gnat16Packages.gnatcoll-sqlite.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>gnat-16.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/339496845/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/339496845/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/339496845/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/339496844'>build 339496844</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/339496846'>gnat16Packages.gnatcoll-syslog.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>gnat-16.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/339496846/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/339496846/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/339496846/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/339496844'>build 339496844</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/339496850'>gnat16Packages.gnatcoll-xref.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>gnat-16.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/339496850/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/339496850/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/339496850/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/339496844'>build 339496844</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/339496843'>gnat16Packages.gnatcoll-zlib.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>gnat-16.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/339496843/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/339496843/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/339496843/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/339496844'>build 339496844</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/339496855'>gnat16Packages.gnatinspect.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>gnat-16.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/339496855/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/339496855/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/339496855/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/339496844'>build 339496844</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/339496874'>gnat16Packages.gpr2.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>gnat-16.1.0</tt> <br /> <a href='https://hydra.nixos.org/build/339496874/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/339496874/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/339496874/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/339496844'>build 339496844</a>
 </li>
 </ul>
 </details>
@@ -47012,6 +47236,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/339496833'>gnat16Packages.gnatcoll-core.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/339496933'>gnome2.gtksourceview.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -52220,6 +52450,18 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/339517474'>leanPackages.mathlib.x86_64-darwin</a></tt>
+</td>
+<td>Output size limit exceeded</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/339593369'>tests.lake.weak-minimax.x86_64-darwin</a></tt>
+</td>
+<td>Output size limit exceeded</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/339494443'>fedimint.x86_64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -52232,7 +52474,25 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/339499215'>haskellPackages.THSH.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/339506308'>haskellPackages.jet-stream.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/339517793'>libcpr_1_10_5.x86_64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/339597851'>volantes-cursors.x86_64-darwin</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -52243,7 +52503,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1370 issues</summary>
+<details><summary>1371 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -64628,6 +64888,12 @@ Built for evals:
 </td>
 <td>Timed out</td>
 </tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/339517791'>libcpr_1_10_5.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
 </table>
 </details>
 
@@ -64635,7 +64901,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>33 issues</summary>
+<details><summary>3 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -64644,196 +64910,7 @@ Built for evals:
 </tr></thead>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/339496831'>gnat16.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/339496832'>gnat16Packages.gnat.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/339496833'>gnat16Packages.gnatcoll-core.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/339496835'>gnat16Packages.gnatcoll-cpp.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/339496838'>gnat16Packages.gnatcoll-db2ada.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/339496836'>gnat16Packages.gnatcoll-gmp.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/339496868'>gnat16Packages.gnatcoll-iconv.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/339496839'>gnat16Packages.gnatcoll-lzma.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/339496837'>gnat16Packages.gnatcoll-omp.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/339496844'>gnat16Packages.gnatcoll-postgres.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/339496842'>gnat16Packages.gnatcoll-python3.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/339496840'>gnat16Packages.gnatcoll-readline.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/339496841'>gnat16Packages.gnatcoll-sql.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/339496845'>gnat16Packages.gnatcoll-sqlite.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/339496846'>gnat16Packages.gnatcoll-syslog.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/339496850'>gnat16Packages.gnatcoll-xref.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/339496843'>gnat16Packages.gnatcoll-zlib.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/339496855'>gnat16Packages.gnatinspect.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/339496874'>gnat16Packages.gpr2.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/339496847'>gnat16Packages.gprbuild-boot.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/339496848'>gnat16Packages.gprbuild.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/339496849'>gnat16Packages.xmlada.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/339499215'>haskellPackages.THSH.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/339517474'>leanPackages.mathlib.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/339517791'>libcpr_1_10_5.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/339517793'>libcpr_1_10_5.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/339579869'>python314Packages.skyfield.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/339584967'>rsshub.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -64847,28 +64924,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/339591217'>stoolap.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/339593369'>tests.lake.weak-minimax.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/339597681'>vimPlugins.skim.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/339597851'>volantes-cursors.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -68247,6 +68303,31 @@ Built for evals:
 </details>
 </td>
 <td>17</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/339496844'>x86_64-darwin gnat-16.1.0</a></tt></summary>
+<ul>
+<li>gnat16Packages.gnatcoll-cpp.x86_64-darwin</li>
+<li>gnat16Packages.gnatcoll-db2ada.x86_64-darwin</li>
+<li>gnat16Packages.gnatcoll-gmp.x86_64-darwin</li>
+<li>gnat16Packages.gnatcoll-iconv.x86_64-darwin</li>
+<li>gnat16Packages.gnatcoll-lzma.x86_64-darwin</li>
+<li>gnat16Packages.gnatcoll-omp.x86_64-darwin</li>
+<li>gnat16Packages.gnatcoll-postgres.x86_64-darwin</li>
+<li>gnat16Packages.gnatcoll-python3.x86_64-darwin</li>
+<li>gnat16Packages.gnatcoll-readline.x86_64-darwin</li>
+<li>gnat16Packages.gnatcoll-sql.x86_64-darwin</li>
+<li>gnat16Packages.gnatcoll-sqlite.x86_64-darwin</li>
+<li>gnat16Packages.gnatcoll-syslog.x86_64-darwin</li>
+<li>gnat16Packages.gnatcoll-xref.x86_64-darwin</li>
+<li>gnat16Packages.gnatcoll-zlib.x86_64-darwin</li>
+<li>gnat16Packages.gnatinspect.x86_64-darwin</li>
+<li>gnat16Packages.gpr2.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>16</td>
 </tr>
 <tr>
 <td>
