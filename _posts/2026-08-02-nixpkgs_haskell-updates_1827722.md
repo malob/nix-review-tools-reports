@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2026-08-02 16:20:45 UTC*
+*Report built at 2026-08-02 17:22:15 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>737 issues</summary>
+<details><summary>738 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -998,6 +998,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>co-log-0.7.0.0</tt> <br /> <a href='https://hydra.nixos.org/build/340699966/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/340699966/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/340699966/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/340699959'>build 340699959</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/340700023'>haskellPackages.componentm-devel.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>componentm-0.0.0.2</tt> <br /> <a href='https://hydra.nixos.org/build/340700023/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/340700023/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/340700023/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/340700022'>build 340700022</a>
 </li>
 </ul>
 </details>
@@ -7352,90 +7366,6 @@ Built for evals:
 </table>
 </details>
 
-
-### Still queued
-
-
-<details><summary>10 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340702480'>haskellPackages.json-rpc.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340706221'>pkgsMusl.haskell.compiler.ghc9123.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340706227'>pkgsMusl.haskell.compiler.ghc9124.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340706217'>pkgsMusl.haskell.compiler.ghc914.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340706218'>pkgsMusl.haskell.compiler.ghc9141.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340706226'>pkgsMusl.haskell.compiler.native-bignum.ghc9123.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340706225'>pkgsMusl.haskell.compiler.native-bignum.ghc914.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340706224'>pkgsMusl.haskell.compiler.native-bignum.ghc9141.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340706220'>pkgsMusl.haskell.compiler.native-bignum.ghc96.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340706219'>pkgsMusl.haskell.compiler.native-bignum.ghc967.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-</table>
-</details>
-
 ## Problematic dependencies
 
 <table>
@@ -8329,6 +8259,16 @@ Built for evals:
 </details>
 </td>
 <td>2</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/340700022'>x86_64-linux componentm-0.0.0.2</a></tt></summary>
+<ul>
+<li>haskellPackages.componentm-devel.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
 </tr>
 <tr>
 <td>
