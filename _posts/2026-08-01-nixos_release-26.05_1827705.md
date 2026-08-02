@@ -1,10 +1,10 @@
 ---
-title: nixos:release-26.05 1827705
+title: nixos:release-26.05 1827705 (succeeded)
 categories: nixos:release-26.05
 ---
 # Evals report
 
-*Report built at 2026-08-02 00:30:32 UTC*
+*Report built at 2026-08-02 07:48:59 UTC*
 
 Built for evals:
 
@@ -34,12 +34,18 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>721 issues</summary>
+<details><summary>722 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 </tr></thead>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/340426908'>nixos.tests.nyxt.x86_64-linux</a></tt>
+</td>
+<td>Cancelled</td>
+</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/339374710'>nixpkgs.iaito.x86_64-linux</a></tt>
@@ -11581,27 +11587,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/339451320'>nixpkgs.python314Packages.pywebtransport.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340426908'>nixos.tests.nyxt.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
