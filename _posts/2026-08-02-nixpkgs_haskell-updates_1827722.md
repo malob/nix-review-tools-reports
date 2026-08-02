@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:haskell-updates 1827722
+title: nixpkgs:haskell-updates 1827722 (succeeded)
 categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2026-08-02 17:22:15 UTC*
+*Report built at 2026-08-02 18:19:55 UTC*
 
 Built for evals:
 
