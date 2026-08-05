@@ -1,10 +1,10 @@
 ---
-title: nixos:release-26.05 1827794
+title: nixos:release-26.05 1827794 (succeeded)
 categories: nixos:release-26.05
 ---
 # Evals report
 
-*Report built at 2026-08-04 23:25:26 UTC*
+*Report built at 2026-08-05 01:51:49 UTC*
 
 Built for evals:
 
@@ -34,7 +34,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>739 issues</summary>
+<details><summary>744 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -5272,7 +5272,37 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/340757311'>nixos.tests.nixos-rebuild-install-bootloader.x86_64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/340757453'>nixos.tests.openstack-image-metadata.x86_64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/340758388'>nixos.tests.systemd-initrd-luks-password.x86_64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/340758408'>nixos.tests.systemd-initrd-vconsole.x86_64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/340758531'>nixos.tests.terminal-emulators.ghostty.x86_64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/340758716'>nixos.tests.userborn-immutable-etc.x86_64-linux</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -5331,7 +5361,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>727 issues</summary>
+<details><summary>744 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -6006,6 +6036,160 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>compiler-rt-22.1.5</tt> <br /> <a href='https://hydra.nixos.org/build/339386546/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/339386546/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/339386546/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/339386521'>build 339386521</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/340761449'>nixpkgs.llvmPackages_23.clangNoLibc.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>compiler-rt-23.1.0-rc1</tt> <br /> <a href='https://hydra.nixos.org/build/340761449/step/2/log'>log</a>, <a href='https://hydra.nixos.org/build/340761449/step/2/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/340761449/step/2/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/340761446'>build 340761446</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/340761448'>nixpkgs.llvmPackages_23.clangNoLibcWithBasicRt.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>compiler-rt-23.1.0-rc1</tt> <br /> <a href='https://hydra.nixos.org/build/340761448/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/340761448/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/340761448/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/340761446'>build 340761446</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/340761454'>nixpkgs.llvmPackages_23.clangNoLibcxx.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>compiler-rt-23.1.0-rc1</tt> <br /> <a href='https://hydra.nixos.org/build/340761454/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/340761454/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/340761454/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/340761446'>build 340761446</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/340761476'>nixpkgs.llvmPackages_23.clangUseLLVM.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>compiler-rt-23.1.0-rc1</tt> <br /> <a href='https://hydra.nixos.org/build/340761476/step/2/log'>log</a>, <a href='https://hydra.nixos.org/build/340761476/step/2/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/340761476/step/2/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/340761446'>build 340761446</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/340761453'>nixpkgs.llvmPackages_23.clangWithLibcAndBasicRt.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>compiler-rt-23.1.0-rc1</tt> <br /> <a href='https://hydra.nixos.org/build/340761453/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/340761453/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/340761453/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/340761446'>build 340761446</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/340761481'>nixpkgs.llvmPackages_23.clangWithLibcAndBasicRtAndLibcxx.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>compiler-rt-23.1.0-rc1</tt> <br /> <a href='https://hydra.nixos.org/build/340761481/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/340761481/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/340761481/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/340761446'>build 340761446</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/340761459'>nixpkgs.llvmPackages_23.libcxx.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>compiler-rt-23.1.0-rc1</tt> <br /> <a href='https://hydra.nixos.org/build/340761459/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/340761459/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/340761459/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/340761446'>build 340761446</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/340761461'>nixpkgs.llvmPackages_23.libcxxClang.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>compiler-rt-23.1.0-rc1</tt> <br /> <a href='https://hydra.nixos.org/build/340761461/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/340761461/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/340761461/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/340761446'>build 340761446</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/340761474'>nixpkgs.llvmPackages_23.libcxxStdenv.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>compiler-rt-23.1.0-rc1</tt> <br /> <a href='https://hydra.nixos.org/build/340761474/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/340761474/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/340761474/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/340761446'>build 340761446</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/340761468'>nixpkgs.llvmPackages_23.libunwind.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>compiler-rt-23.1.0-rc1</tt> <br /> <a href='https://hydra.nixos.org/build/340761468/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/340761468/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/340761468/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/340761446'>build 340761446</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/340761498'>nixpkgs.llvmPackages_23.lldbPlugins.llef.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>lldb-23.1.0-rc1</tt> <br /> <a href='https://hydra.nixos.org/build/340761498/step/2/log'>log</a>, <a href='https://hydra.nixos.org/build/340761498/step/2/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/340761498/step/2/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/340761497'>build 340761497</a>
 </li>
 </ul>
 </details>
@@ -6807,6 +6991,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>compiler-rt-22.1.5</tt> <br /> <a href='https://hydra.nixos.org/build/339468540/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/339468540/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/339468540/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/339386521'>build 339386521</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/340762382'>nixpkgs.tests.cc-wrapper.llvmTests.llvmPackages_23.libcxx.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>compiler-rt-23.1.0-rc1</tt> <br /> <a href='https://hydra.nixos.org/build/340762382/step/2/log'>log</a>, <a href='https://hydra.nixos.org/build/340762382/step/2/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/340762382/step/2/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/340761446'>build 340761446</a>
 </li>
 </ul>
 </details>
@@ -8969,7 +9167,37 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/340761452'>nixpkgs.llvmPackages_23.clang-manpages.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/340761446'>nixpkgs.llvmPackages_23.compiler-rt-no-libc.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/340761492'>nixpkgs.llvmPackages_23.lldb-manpages.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/340761497'>nixpkgs.llvmPackages_23.lldb.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/340761480'>nixpkgs.llvmPackages_23.llvm-manpages.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/340761483'>nixpkgs.llvmPackages_23.openmp.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -10650,398 +10878,6 @@ Built for evals:
 </table>
 </details>
 
-
-### Still queued
-
-
-<details><summary>54 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340756471'>nixos.tests.kernel-latest-ath-user-regd.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340757311'>nixos.tests.nixos-rebuild-install-bootloader.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340758094'>nixos.tests.rstudio-server.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340758388'>nixos.tests.systemd-initrd-luks-password.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340758408'>nixos.tests.systemd-initrd-vconsole.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340758531'>nixos.tests.terminal-emulators.ghostty.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340758716'>nixos.tests.userborn-immutable-etc.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340758813'>nixos.tests.windmill.apiIntegration.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340759160'>nixpkgs.kdePackages.qodeassist-plugin.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340761450'>nixpkgs.llvmPackages_23.bintools-unwrapped.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340761451'>nixpkgs.llvmPackages_23.bintools.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340761473'>nixpkgs.llvmPackages_23.bintoolsNoLibc.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340761433'>nixpkgs.llvmPackages_23.bolt.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340761452'>nixpkgs.llvmPackages_23.clang-manpages.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340761424'>nixpkgs.llvmPackages_23.clang-tools.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340761426'>nixpkgs.llvmPackages_23.clang-unwrapped.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340761423'>nixpkgs.llvmPackages_23.clang.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340761425'>nixpkgs.llvmPackages_23.clangNoCompilerRt.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340761427'>nixpkgs.llvmPackages_23.clangNoCompilerRtWithLibc.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340761449'>nixpkgs.llvmPackages_23.clangNoLibc.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340761431'>nixpkgs.llvmPackages_23.clangNoLibcNoRt.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340761448'>nixpkgs.llvmPackages_23.clangNoLibcWithBasicRt.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340761454'>nixpkgs.llvmPackages_23.clangNoLibcxx.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340761476'>nixpkgs.llvmPackages_23.clangUseLLVM.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340761453'>nixpkgs.llvmPackages_23.clangWithLibcAndBasicRt.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340761481'>nixpkgs.llvmPackages_23.clangWithLibcAndBasicRtAndLibcxx.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340761446'>nixpkgs.llvmPackages_23.compiler-rt-no-libc.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340761496'>nixpkgs.llvmPackages_23.flang.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340761475'>nixpkgs.llvmPackages_23.libc-full.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340761456'>nixpkgs.llvmPackages_23.libc-overlay.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340761457'>nixpkgs.llvmPackages_23.libc.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340761455'>nixpkgs.llvmPackages_23.libclang.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340761459'>nixpkgs.llvmPackages_23.libcxx.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340761461'>nixpkgs.llvmPackages_23.libcxxClang.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340761474'>nixpkgs.llvmPackages_23.libcxxStdenv.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340761463'>nixpkgs.llvmPackages_23.libllvm.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340761465'>nixpkgs.llvmPackages_23.libstdcxxClang.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340761468'>nixpkgs.llvmPackages_23.libunwind.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340761469'>nixpkgs.llvmPackages_23.lld.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340761492'>nixpkgs.llvmPackages_23.lldb-manpages.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340761497'>nixpkgs.llvmPackages_23.lldb.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340761498'>nixpkgs.llvmPackages_23.lldbPlugins.llef.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340761477'>nixpkgs.llvmPackages_23.llvm.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340761495'>nixpkgs.llvmPackages_23.mlir.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340761483'>nixpkgs.llvmPackages_23.openmp.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340761485'>nixpkgs.llvmPackages_23.stdenv.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340761487'>nixpkgs.llvmPackages_23.systemLibcxxClang.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340761822'>nixpkgs.python313Packages.cleanlab.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340762290'>nixpkgs.qt6Packages.qodeassist-plugin.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340762319'>nixpkgs.rstudio-server.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340762326'>nixpkgs.rstudioServerWrapper.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340762381'>nixpkgs.tests.cc-wrapper.llvmTests.llvmPackages_23.clang.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340762382'>nixpkgs.tests.cc-wrapper.llvmTests.llvmPackages_23.libcxx.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340762711'>nixpkgs.windmill.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-</table>
-</details>
-
 ## Problematic dependencies
 
 <table>
@@ -11097,6 +10933,26 @@ Built for evals:
 </details>
 </td>
 <td>13</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/340761446'>aarch64-linux compiler-rt-23.1.0-rc1</a></tt></summary>
+<ul>
+<li>nixpkgs.llvmPackages_23.clangNoLibc.aarch64-linux</li>
+<li>nixpkgs.llvmPackages_23.clangNoLibcWithBasicRt.aarch64-linux</li>
+<li>nixpkgs.llvmPackages_23.clangNoLibcxx.aarch64-linux</li>
+<li>nixpkgs.llvmPackages_23.clangUseLLVM.aarch64-linux</li>
+<li>nixpkgs.llvmPackages_23.clangWithLibcAndBasicRt.aarch64-linux</li>
+<li>nixpkgs.llvmPackages_23.clangWithLibcAndBasicRtAndLibcxx.aarch64-linux</li>
+<li>nixpkgs.llvmPackages_23.libcxx.aarch64-linux</li>
+<li>nixpkgs.llvmPackages_23.libcxxClang.aarch64-linux</li>
+<li>nixpkgs.llvmPackages_23.libcxxStdenv.aarch64-linux</li>
+<li>nixpkgs.llvmPackages_23.libunwind.aarch64-linux</li>
+<li>nixpkgs.tests.cc-wrapper.llvmTests.llvmPackages_23.libcxx.aarch64-linux</li>
+</ul>
+</details>
+</td>
+<td>11</td>
 </tr>
 <tr>
 <td>
@@ -11325,6 +11181,17 @@ Built for evals:
 </details>
 </td>
 <td>3</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/340761497'>aarch64-linux lldb-23.1.0-rc1</a></tt></summary>
+<ul>
+<li>nixpkgs.llvmPackages_23.lldbPlugins.llef.aarch64-linux</li>
+<li>nixpkgs.llvmPackages_23.lldbPlugins.llef.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>2</td>
 </tr>
 <tr>
 <td>
@@ -11913,16 +11780,6 @@ Built for evals:
 <details><summary><tt>x86_64-linux system-units</tt></summary>
 <ul>
 <li>nixos.tests.sslh.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/340761493'>x86_64-linux lldb-23.1.0-rc1</a></tt></summary>
-<ul>
-<li>nixpkgs.llvmPackages_23.lldbPlugins.llef.x86_64-linux</li>
 </ul>
 </details>
 </td>
