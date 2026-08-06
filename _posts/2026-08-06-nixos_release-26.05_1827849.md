@@ -1,10 +1,10 @@
 ---
-title: nixos:release-26.05 1827849
+title: nixos:release-26.05 1827849 (succeeded)
 categories: nixos:release-26.05
 ---
 # Evals report
 
-*Report built at 2026-08-06 12:55:41 UTC*
+*Report built at 2026-08-06 23:55:17 UTC*
 
 Built for evals:
 
@@ -11028,27 +11028,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/339451320'>nixpkgs.python314Packages.pywebtransport.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340893671'>tested</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
