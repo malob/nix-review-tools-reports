@@ -4,7 +4,7 @@ categories: nixos:release-26.05
 ---
 # Evals report
 
-*Report built at 2026-08-07 17:45:11 UTC*
+*Report built at 2026-08-07 18:45:30 UTC*
 
 Built for evals:
 
@@ -5193,7 +5193,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>729 issues</summary>
+<details><summary>731 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -8994,6 +8994,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/340960099'>nixpkgs.llvmPackages_23.clang-manpages.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/340960133'>nixpkgs.llvmPackages_23.compiler-rt-no-libc.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -9007,6 +9013,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/340960154'>nixpkgs.llvmPackages_23.lldb.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/340960177'>nixpkgs.llvmPackages_23.llvm-manpages.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -10655,48 +10667,13 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>7 issues</summary>
+<details><summary>2 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340958477'>nixpkgs.linuxPackages_custom_tinyconfig_kernel.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340960099'>nixpkgs.llvmPackages_23.clang-manpages.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340960132'>nixpkgs.llvmPackages_23.flang.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340960177'>nixpkgs.llvmPackages_23.llvm-manpages.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/341030701'>nixpkgs.qemu_full.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/341048620'>nixpkgs.ungoogled-chromium.aarch64-linux</a></tt>
