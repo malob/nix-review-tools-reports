@@ -4,7 +4,7 @@ categories: nixos:release-26.05
 ---
 # Evals report
 
-*Report built at 2026-08-07 16:47:27 UTC*
+*Report built at 2026-08-07 17:45:11 UTC*
 
 Built for evals:
 
@@ -5193,7 +5193,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>727 issues</summary>
+<details><summary>729 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -10560,6 +10560,18 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/340953101'>nixpkgs.leanPackages.mathlib.aarch64-linux</a></tt>
+</td>
+<td>Output size limit exceeded</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/341045040'>nixpkgs.tests.lake.weak-minimax.aarch64-linux</a></tt>
+</td>
+<td>Output size limit exceeded</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/340905712'>nixos.tests.boot.uefiNetboot.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -10643,27 +10655,13 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>11 issues</summary>
+<details><summary>7 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340906833'>nixos.tests.kernel-latest-ath-user-regd.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/340953101'>nixpkgs.leanPackages.mathlib.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/340958477'>nixpkgs.linuxPackages_custom_tinyconfig_kernel.aarch64-linux</a></tt>
@@ -10695,20 +10693,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/341030701'>nixpkgs.qemu_full.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/341030829'>nixpkgs.quickemu.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/341045040'>nixpkgs.tests.lake.weak-minimax.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
