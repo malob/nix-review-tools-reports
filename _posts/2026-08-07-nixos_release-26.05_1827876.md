@@ -4,7 +4,7 @@ categories: nixos:release-26.05
 ---
 # Evals report
 
-*Report built at 2026-08-07 18:45:30 UTC*
+*Report built at 2026-08-08 08:06:24 UTC*
 
 Built for evals:
 
@@ -5193,7 +5193,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>731 issues</summary>
+<details><summary>730 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -6426,20 +6426,6 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>conda-26.5.0</tt> <br /> <a href='https://hydra.nixos.org/build/341012938/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/341012938/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/341012938/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/340992039'>build 340992039</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/341013289'>nixpkgs.python314Packages.crewai.aarch64-linux</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Failed</b> <tt>python3.14-a2a-sdk-0.3.26</tt> <br /> <a href='https://hydra.nixos.org/build/341013289/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/341013289/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/341013289/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/341010237'>build 341010237</a>
 </li>
 </ul>
 </details>
@@ -11037,17 +11023,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/341010237'>aarch64-linux python3.14-a2a-sdk-0.3.26</a></tt></summary>
-<ul>
-<li>nixpkgs.python314Packages.crewai.aarch64-linux</li>
-<li>nixpkgs.python314Packages.crewai.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>2</td>
-</tr>
-<tr>
-<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/340905529'>aarch64-linux nixos-system-nixos-26.05pre-git</a></tt></summary>
 <ul>
 <li>nixos.tests.activation-bashless-closure.initrd</li>
@@ -11670,6 +11645,16 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/340994042'>aarch64-linux python3.13-extractcode-31.0.0</a></tt></summary>
 <ul>
 <li>nixpkgs.python313Packages.scancode-toolkit.aarch64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/341010239'>x86_64-linux python3.14-a2a-sdk-0.3.26</a></tt></summary>
+<ul>
+<li>nixpkgs.python314Packages.crewai.x86_64-linux</li>
 </ul>
 </details>
 </td>
