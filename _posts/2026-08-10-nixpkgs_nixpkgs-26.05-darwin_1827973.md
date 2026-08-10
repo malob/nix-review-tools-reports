@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-26.05-darwin
 ---
 # Evals report
 
-*Report built at 2026-08-10 19:52:31 UTC*
+*Report built at 2026-08-10 20:36:08 UTC*
 
 Built for evals:
 
@@ -41026,7 +41026,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>145 issues</summary>
+<details><summary>143 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -41896,13 +41896,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/341492468'>rubyPackages_4_0.activestorage.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/341492471'>rubyPackages_4_0.cocoapods-coverage.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -41911,13 +41904,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/341492486'>rubyPackages_4_0.github-pages.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/341492497'>rubyPackages_4_0.indieweb-endpoints.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
