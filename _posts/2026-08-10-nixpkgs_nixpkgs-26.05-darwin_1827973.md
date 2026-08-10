@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-26.05-darwin
 ---
 # Evals report
 
-*Report built at 2026-08-10 20:36:08 UTC*
+*Report built at 2026-08-10 22:31:28 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1519 issues</summary>
+<details><summary>1521 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -8507,6 +8507,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/341492279'>rapidraw.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>gvfs-1.60.2</tt> <br /> <a href='https://hydra.nixos.org/build/341492279/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/341492279/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/341492279/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/341492137'>build 341492137</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/341387869'>rbdoom-3-bfg.x86_64-darwin</a></tt>
 </summary>
 <ul>
@@ -10562,6 +10576,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/341301926'>gtk-frdp.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/341492137'>gvfs.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -41026,7 +41046,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>143 issues</summary>
+<details><summary>138 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -41057,13 +41077,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/341492109'>cosign.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/341492111'>croaring.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -41113,20 +41126,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/341492130'>gnome-user-docs.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/341492136'>gtkmm4.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/341492137'>gvfs.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -41455,21 +41454,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/341492279'>rapidraw.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/341492281'>redu.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/341492283'>restic.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -44671,6 +44656,17 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/341492138'>aarch64-darwin gvfs-1.60.2</a></tt></summary>
+<ul>
+<li>rapidraw.aarch64-darwin</li>
+<li>rapidraw.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt>aarch64-darwin 64gram-unwrapped-1.2.1</tt></summary>
 <ul>
 <li>_64gram.aarch64-darwin</li>
@@ -45557,16 +45553,6 @@ Built for evals:
 </details>
 </td>
 <td>2</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/341492138'>aarch64-darwin gvfs-1.60.2</a></tt></summary>
-<ul>
-<li>rapidraw.aarch64-darwin</li>
-</ul>
-</details>
-</td>
-<td>1</td>
 </tr>
 <tr>
 <td>
