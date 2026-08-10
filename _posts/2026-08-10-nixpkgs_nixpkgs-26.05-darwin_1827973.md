@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-26.05-darwin
 ---
 # Evals report
 
-*Report built at 2026-08-10 16:47:51 UTC*
+*Report built at 2026-08-10 17:47:26 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1517 issues</summary>
+<details><summary>1519 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -846,6 +846,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>appstream-1.1.2</tt> <br /> <a href='https://hydra.nixos.org/build/341292253/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/341292253/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/341292253/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/341288966'>build 341288966</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/341492108'>celeste.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>appstream-1.1.2</tt> <br /> <a href='https://hydra.nixos.org/build/341492108/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/341492108/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/341492108/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/341492129'>build 341492129</a>
 </li>
 </ul>
 </details>
@@ -3687,6 +3701,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>appstream-1.1.2</tt> <br /> <a href='https://hydra.nixos.org/build/341300630/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/341300630/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/341300630/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/341288966'>build 341288966</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/341492129'>gnome-online-accounts.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>appstream-1.1.2</tt> <br /> <a href='https://hydra.nixos.org/build/341492129/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/341492129/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/341492129/step/1/log/tail'>tail</a>
 </li>
 </ul>
 </details>
@@ -40998,7 +41026,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>165 issues</summary>
+<details><summary>149 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -41022,13 +41050,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/341492106'>brave.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/341492108'>celeste.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -41085,13 +41106,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/341492124'>git-annex-remote-rclone.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/341492129'>gnome-online-accounts.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -41280,27 +41294,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/341492188'>pangomm_2_48.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/341492191'>plover.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/341492192'>plover_5.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/341492193'>pocket-id.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -41392,20 +41385,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/341492233'>python313Packages.plover.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/341492237'>python313Packages.plover_5.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/341492252'>python313Packages.rclone-python.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -41463,20 +41442,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/341492267'>python314Packages.plover-stitching.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/341492260'>python314Packages.plover.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/341492261'>python314Packages.plover_5.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -41553,13 +41518,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/341492297'>rubyPackages.activestorage.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/341492315'>rubyPackages.cocoapods-coverage.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -41568,20 +41526,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/341492333'>rubyPackages.github-pages.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/341492325'>rubyPackages.html-pipeline.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/341492302'>rubyPackages.indieweb-endpoints.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -41847,13 +41791,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/341492399'>rubyPackages_3_4.activestorage.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/341492404'>rubyPackages_3_4.cocoapods-coverage.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -41862,20 +41799,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/341492430'>rubyPackages_3_4.github-pages.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/341492408'>rubyPackages_3_4.html-pipeline.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/341492412'>rubyPackages_3_4.indieweb-endpoints.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -41981,13 +41904,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/341492466'>rubyPackages_4_0.actionmailer.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/341492460'>rubyPackages_4_0.actionpack.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -42988,6 +42904,7 @@ Built for evals:
 <li>cavasik.aarch64-darwin</li>
 <li>cavasik.x86_64-darwin</li>
 <li>celeste.aarch64-darwin</li>
+<li>celeste.x86_64-darwin</li>
 <li>censor.aarch64-darwin</li>
 <li>censor.x86_64-darwin</li>
 <li>chess-clock.aarch64-darwin</li>
@@ -43039,6 +42956,7 @@ Built for evals:
 <li>gnome-obfuscate.aarch64-darwin</li>
 <li>gnome-obfuscate.x86_64-darwin</li>
 <li>gnome-online-accounts.aarch64-darwin</li>
+<li>gnome-online-accounts.x86_64-darwin</li>
 <li>gnome-sudoku.aarch64-darwin</li>
 <li>gnome-sudoku.x86_64-darwin</li>
 <li>gnome-text-editor.aarch64-darwin</li>
@@ -43161,7 +43079,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>197</td>
+<td>199</td>
 </tr>
 <tr>
 <td>
