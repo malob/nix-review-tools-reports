@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:haskell-updates 1828035
+title: nixpkgs:haskell-updates 1828035 (succeeded)
 categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2026-08-12 18:52:11 UTC*
+*Report built at 2026-08-12 19:58:26 UTC*
 
 Built for evals:
 
@@ -7660,83 +7660,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/341472424'>stack.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>9 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/341922189'>haskell.compiler.native-bignum.ghc914.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/341922190'>haskell.compiler.native-bignum.ghc9142.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/341922233'>pkgsCross.ghcjs.haskell.packages.ghcHEAD.ghc.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/341922237'>pkgsCross.ghcjs.haskell.packages.ghcHEAD.hello.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/341922232'>pkgsCross.ghcjs.haskell.packages.ghcHEAD.microlens.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/341922246'>pkgsMusl.haskell.compiler.ghc914.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/341922245'>pkgsMusl.haskell.compiler.ghc9142.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/341922247'>pkgsMusl.haskell.compiler.native-bignum.ghc914.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/341922248'>pkgsMusl.haskell.compiler.native-bignum.ghc9142.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
