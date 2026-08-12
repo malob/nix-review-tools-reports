@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:staging-next 1828021
+title: nixpkgs:staging-next 1828021 (succeeded)
 categories: nixpkgs:staging-next
 ---
 # Evals report
 
-*Report built at 2026-08-12 09:37:46 UTC*
+*Report built at 2026-08-12 11:22:16 UTC*
 
 Built for evals:
 
