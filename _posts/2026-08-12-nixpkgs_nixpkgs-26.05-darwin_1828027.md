@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:nixpkgs-26.05-darwin 1828027
+title: nixpkgs:nixpkgs-26.05-darwin 1828027 (succeeded)
 categories: nixpkgs:nixpkgs-26.05-darwin
 ---
 # Evals report
 
-*Report built at 2026-08-12 21:40:19 UTC*
+*Report built at 2026-08-12 22:35:25 UTC*
 
 Built for evals:
 
@@ -14383,7 +14383,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>2197 issues</summary>
+<details><summary>2198 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -34192,6 +34192,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/341916823'>firefox-devedition-unwrapped.aarch64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/341298637'>fleng.aarch64-darwin</a></tt>
 </td>
 <td>Failed</td>
@@ -38257,27 +38263,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/341377928'>python314Packages.nfcpy.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/341916823'>firefox-devedition-unwrapped.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 </table>
 </details>
