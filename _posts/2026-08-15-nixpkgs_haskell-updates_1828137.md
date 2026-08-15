@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2026-08-15 17:14:39 UTC*
+*Report built at 2026-08-15 18:17:04 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>757 issues</summary>
+<details><summary>759 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -5425,6 +5425,34 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/342319280'>pkgsCross.ghcjs.haskell.packages.ghcHEAD.hello.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>javascript-unknown-ghcjs-ghc-native-bignum-10.1.20260810</tt> <br /> <a href='https://hydra.nixos.org/build/342319280/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/342319280/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/342319280/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/342319281'>build 342319281</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/342319286'>pkgsCross.ghcjs.haskell.packages.ghcHEAD.microlens.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>javascript-unknown-ghcjs-ghc-native-bignum-10.1.20260810</tt> <br /> <a href='https://hydra.nixos.org/build/342319286/step/3/log'>log</a>, <a href='https://hydra.nixos.org/build/342319286/step/3/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/342319286/step/3/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/342319281'>build 342319281</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/342204908'>pkgsCross.ucrt64.haskell.packages.ghc912.microlens.x86_64-linux</a></tt>
 </summary>
 <ul>
@@ -7816,7 +7844,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>88 issues</summary>
+<details><summary>79 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -8322,34 +8350,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/342319281'>pkgsCross.ghcjs.haskell.packages.ghcHEAD.ghc.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/342319280'>pkgsCross.ghcjs.haskell.packages.ghcHEAD.hello.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/342319286'>pkgsCross.ghcjs.haskell.packages.ghcHEAD.microlens.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/342204928'>pkgsMusl.haskell.compiler.ghc9123.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/342204931'>pkgsMusl.haskell.compiler.ghc9124.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -8371,21 +8371,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/342319283'>pkgsMusl.haskell.compiler.ghcHEAD.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/342204934'>pkgsMusl.haskell.compiler.native-bignum.ghc912.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/342204927'>pkgsMusl.haskell.compiler.native-bignum.ghc9123.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -8414,27 +8400,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/342204939'>pkgsMusl.haskell.compiler.native-bignum.ghc9141.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/342204929'>pkgsMusl.haskell.compiler.native-bignum.ghc96.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/342204930'>pkgsMusl.haskell.compiler.native-bignum.ghc967.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/342319285'>pkgsMusl.haskell.compiler.native-bignum.ghcHEAD.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -9142,6 +9107,17 @@ Built for evals:
 </details>
 </td>
 <td>3</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/342319281'>x86_64-linux javascript-unknown-ghcjs-ghc-native-bignum-10.1.20260810</a></tt></summary>
+<ul>
+<li>pkgsCross.ghcjs.haskell.packages.ghcHEAD.hello.x86_64-linux</li>
+<li>pkgsCross.ghcjs.haskell.packages.ghcHEAD.microlens.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>2</td>
 </tr>
 <tr>
 <td>
