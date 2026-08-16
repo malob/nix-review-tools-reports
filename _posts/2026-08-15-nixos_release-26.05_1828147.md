@@ -4,7 +4,7 @@ categories: nixos:release-26.05
 ---
 # Evals report
 
-*Report built at 2026-08-16 00:50:24 UTC*
+*Report built at 2026-08-16 05:53:19 UTC*
 
 Built for evals:
 
@@ -11060,7 +11060,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>2140 issues</summary>
+<details><summary>2139 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -16159,13 +16159,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/342320937'>nixpkgs.pkgsRocm.crewai.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/342320942'>nixpkgs.pkgsRocm.firefox-beta-unwrapped.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
