@@ -4,7 +4,7 @@ categories: nixos:release-26.05
 ---
 # Evals report
 
-*Report built at 2026-08-16 11:16:33 UTC*
+*Report built at 2026-08-16 12:24:44 UTC*
 
 Built for evals:
 
@@ -34,7 +34,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>750 issues</summary>
+<details><summary>751 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -5484,6 +5484,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/341521224'>nixos.tests.activation-etc-overlay-immutable.x86_64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/342320262'>nixos.tests.installer-systemd-stage-1.clevisBcachefs.x86_64-linux</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -11204,7 +11210,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>996 issues</summary>
+<details><summary>988 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -11679,13 +11685,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/342320262'>nixos.tests.installer-systemd-stage-1.clevisBcachefs.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -14125,13 +14124,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/342321260'>nixpkgs.postgresql15Packages.pg_search.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/342321268'>nixpkgs.postgresql15Packages.pg_similarity.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -14979,13 +14971,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/342321527'>nixpkgs.postgresql17Packages.pg_search.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/342321544'>nixpkgs.postgresql17Packages.pg_similarity.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -15798,13 +15783,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/342321788'>nixpkgs.postgresqlPackages.pg_search.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/342321789'>nixpkgs.postgresqlPackages.pg_similarity.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -16159,13 +16137,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/342322007'>nixpkgs.python313Packages.energyflow.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -17086,13 +17057,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/342322515'>nixpkgs.python314Packages.ax-platform.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/342322512'>nixpkgs.python314Packages.backtesting.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -17989,13 +17953,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/342322967'>nixpkgs.radicle-desktop.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/342322970'>nixpkgs.rekor-cli.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -18084,13 +18041,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/342322999'>nixpkgs.supercell-wx.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
