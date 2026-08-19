@@ -1,10 +1,10 @@
 ---
-title: nixos:release-26.05 1828251
+title: nixos:release-26.05 1828251 (succeeded)
 categories: nixos:release-26.05
 ---
 # Evals report
 
-*Report built at 2026-08-19 11:20:57 UTC*
+*Report built at 2026-08-19 12:30:51 UTC*
 
 Built for evals:
 
