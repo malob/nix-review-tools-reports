@@ -4,7 +4,7 @@ categories: nixos:release-26.05
 ---
 # Evals report
 
-*Report built at 2026-08-20 15:29:00 UTC*
+*Report built at 2026-08-20 16:27:16 UTC*
 
 Built for evals:
 
@@ -9248,7 +9248,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>6007 issues</summary>
+<details><summary>6006 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -32011,13 +32011,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/342783824'>nixpkgs.klayout.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
