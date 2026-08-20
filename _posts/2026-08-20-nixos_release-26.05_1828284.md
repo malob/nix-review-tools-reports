@@ -4,7 +4,7 @@ categories: nixos:release-26.05
 ---
 # Evals report
 
-*Report built at 2026-08-20 14:30:07 UTC*
+*Report built at 2026-08-20 15:29:00 UTC*
 
 Built for evals:
 
@@ -9248,7 +9248,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>6009 issues</summary>
+<details><summary>6007 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -29907,13 +29907,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/342783374'>nixpkgs.biome.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/342783375'>nixpkgs.bounty.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -32071,13 +32064,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/342783851'>nixpkgs.librelane.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/342783853'>nixpkgs.librewolf-unwrapped.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
