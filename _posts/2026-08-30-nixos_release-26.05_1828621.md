@@ -4,7 +4,7 @@ categories: nixos:release-26.05
 ---
 # Evals report
 
-*Report built at 2026-08-30 18:21:52 UTC*
+*Report built at 2026-08-30 21:49:47 UTC*
 
 Built for evals:
 
@@ -34,7 +34,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>825 issues</summary>
+<details><summary>826 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -1715,6 +1715,32 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>xcbuild-0.1.1-unstable-2019-11-20</tt> <br /> <a href='https://hydra.nixos.org/build/342606585/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/342606585/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/342606585/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/342606582'>build 342606582</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/344113435'>tested</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>firefox-unwrapped-154.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/344113435/step/181/log'>log</a>, <a href='https://hydra.nixos.org/build/344113435/step/181/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/344113435/step/181/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/344112368'>build 344112368</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>nixos-test-driver-installer-simpleProvided</tt> <br /> <a href='https://hydra.nixos.org/build/344113435/step/86/log'>log</a>, <a href='https://hydra.nixos.org/build/344113435/step/86/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/344113435/step/86/log/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>activate</tt> <br /> <a href='https://hydra.nixos.org/build/344113435/step/33/log'>log</a>, <a href='https://hydra.nixos.org/build/344113435/step/33/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/344113435/step/33/log/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>boot.json</tt> <br /> <a href='https://hydra.nixos.org/build/344113435/step/32/log'>log</a>, <a href='https://hydra.nixos.org/build/344113435/step/32/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/344113435/step/32/log/tail'>tail</a>
+</li>
+<li>
+<b>=> Aborted</b> <tt>nixos-26.05.8702.eaddc7598768</tt> <br /> <a href='https://hydra.nixos.org/build/344113435/step/6/log'>log</a>, <a href='https://hydra.nixos.org/build/344113435/step/6/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/344113435/step/6/log/tail'>tail</a>
 </li>
 </ul>
 </details>
@@ -5958,7 +5984,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>805 issues</summary>
+<details><summary>835 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -5981,6 +6007,20 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/342574499'>nixpkgs.python314Packages.ospd.aarch64-linux</a></tt>
 </td>
 <td>Cancelled</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/344112105'>nixos.iso_graphical.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>firefox-unwrapped-154.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/344112105/step/14/log'>log</a>, <a href='https://hydra.nixos.org/build/344112105/step/14/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/344112105/step/14/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/344112368'>build 344112368</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
 </tr>
 <tr>
 <td>
@@ -6018,6 +6058,90 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>nixos-system-machine-test</tt> <br /> <a href='https://hydra.nixos.org/build/344077993/step/10/log'>log</a>, <a href='https://hydra.nixos.org/build/344077993/step/10/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/344077993/step/10/log/tail'>tail</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/344112127'>nixos.tests.castopod.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>firefox-unwrapped-154.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/344112127/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/344112127/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/344112127/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/344112368'>build 344112368</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/344112130'>nixos.tests.clickhouse-lts.ui.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>firefox-unwrapped-154.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/344112130/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/344112130/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/344112130/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/344112368'>build 344112368</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/344112128'>nixos.tests.clickhouse.ui.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>firefox-unwrapped-154.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/344112128/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/344112128/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/344112128/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/344112368'>build 344112368</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/344112132'>nixos.tests.cockpit.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>firefox-unwrapped-154.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/344112132/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/344112132/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/344112132/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/344112368'>build 344112368</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/344112142'>nixos.tests.cryptpad.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>firefox-unwrapped-154.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/344112142/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/344112142/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/344112142/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/344112368'>build 344112368</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/344112144'>nixos.tests.custom-ca.firefox.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>firefox-unwrapped-154.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/344112144/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/344112144/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/344112144/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/344112368'>build 344112368</a>
 </li>
 </ul>
 </details>
@@ -6069,6 +6193,90 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/344112163'>nixos.tests.firefox.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>firefox-unwrapped-154.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/344112163/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/344112163/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/344112163/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/344112368'>build 344112368</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/344112166'>nixos.tests.firefox_decrypt.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>firefox-unwrapped-154.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/344112166/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/344112166/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/344112166/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/344112368'>build 344112368</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/344112168'>nixos.tests.firefoxpwa.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>firefox-unwrapped-154.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/344112168/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/344112168/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/344112168/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/344112368'>build 344112368</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/344112170'>nixos.tests.galene.basic.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>firefox-unwrapped-154.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/344112170/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/344112170/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/344112170/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/344112368'>build 344112368</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/344112175'>nixos.tests.galene.file-transfer.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>firefox-unwrapped-154.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/344112175/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/344112175/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/344112175/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/344112368'>build 344112368</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/344112172'>nixos.tests.galene.stream.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>firefox-unwrapped-154.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/344112172/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/344112172/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/344112172/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/344112368'>build 344112368</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/344078753'>nixos.tests.glances.aarch64-linux</a></tt>
 </summary>
 <ul>
@@ -6088,6 +6296,48 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>python3.13-graphite-web-1.1.10-unstable-2025-02-24</tt> <br /> <a href='https://hydra.nixos.org/build/344078800/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/344078800/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/344078800/step/1/log/tail'>tail</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/344112182'>nixos.tests.immichframe.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>firefox-unwrapped-154.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/344112182/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/344112182/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/344112182/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/344112368'>build 344112368</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/344112186'>nixos.tests.incus-lts.ui.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>firefox-unwrapped-154.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/344112186/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/344112186/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/344112186/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/344112368'>build 344112368</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/344112185'>nixos.tests.incus.ui.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>firefox-unwrapped-154.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/344112185/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/344112185/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/344112185/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/344112368'>build 344112368</a>
 </li>
 </ul>
 </details>
@@ -6128,6 +6378,34 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/344112282'>nixos.tests.nginx-etag.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>firefox-unwrapped-154.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/344112282/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/344112282/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/344112282/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/344112368'>build 344112368</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/344112293'>nixos.tests.opencloud.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>firefox-unwrapped-154.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/344112293/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/344112293/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/344112293/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/344112368'>build 344112368</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/344080255'>nixos.tests.pantalaimon.aarch64-linux</a></tt>
 </summary>
 <ul>
@@ -6150,6 +6428,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>python3.13-prefect-3.8.3</tt> <br /> <a href='https://hydra.nixos.org/build/344080489/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/344080489/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/344080489/step/1/log/tail'>tail</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/344112305'>nixos.tests.prometheus.ui.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>firefox-unwrapped-154.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/344112305/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/344112305/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/344112305/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/344112368'>build 344112368</a>
 </li>
 </ul>
 </details>
@@ -6204,6 +6496,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/344112310'>nixos.tests.scrutiny.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>firefox-unwrapped-154.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/344112310/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/344112310/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/344112310/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/344112368'>build 344112368</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/344081072'>nixos.tests.stirling-pdf-desktop.aarch64-linux</a></tt>
 </summary>
 <ul>
@@ -6218,11 +6524,95 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/344112315'>nixos.tests.syncthing-guiPassword.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>firefox-unwrapped-154.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/344112315/step/2/log'>log</a>, <a href='https://hydra.nixos.org/build/344112315/step/2/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/344112315/step/2/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/344112368'>build 344112368</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/344112320'>nixos.tests.syncthing-guiPasswordFile.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>firefox-unwrapped-154.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/344112320/step/3/log'>log</a>, <a href='https://hydra.nixos.org/build/344112320/step/3/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/344112320/step/3/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/344112368'>build 344112368</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/344081298'>nixos.tests.szurubooru.aarch64-linux</a></tt>
 </summary>
 <ul>
 <li>
 <b>=> Failed</b> <tt>python3.13-alembic-1.14.1</tt> <br /> <a href='https://hydra.nixos.org/build/344081298/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/344081298/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/344081298/step/1/log/tail'>tail</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/344112333'>nixos.tests.vaultwarden.mysql.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>firefox-unwrapped-154.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/344112333/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/344112333/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/344112333/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/344112368'>build 344112368</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/344112331'>nixos.tests.vaultwarden.postgresql.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>firefox-unwrapped-154.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/344112331/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/344112331/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/344112331/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/344112368'>build 344112368</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/344112334'>nixos.tests.vaultwarden.sqlite-backup.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>firefox-unwrapped-154.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/344112334/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/344112334/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/344112334/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/344112368'>build 344112368</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/344112332'>nixos.tests.vaultwarden.sqlite.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>firefox-unwrapped-154.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/344112332/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/344112332/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/344112332/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/344112368'>build 344112368</a>
 </li>
 </ul>
 </details>
@@ -6257,6 +6647,20 @@ Built for evals:
 </li>
 <li>
 <b>=> Failed</b> <tt>amneziawg-1.0.20260329-2</tt> <br /> <a href='https://hydra.nixos.org/build/344083798'>build 344083798</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/344112339'>nixpkgs.adoptopenjdk-icedtea-web.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>firefox-unwrapped-154.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/344112339/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/344112339/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/344112339/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/344112368'>build 344112368</a>
 </li>
 </ul>
 </details>
@@ -6355,6 +6759,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>envoy-1.36.5-deps.tar</tt> <br /> <a href='https://hydra.nixos.org/build/343822194/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/343822194/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/343822194/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/343821930'>build 343821930</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/344112369'>nixpkgs.firefoxpwa-unwrapped.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>firefox-unwrapped-154.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/344112369/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/344112369/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/344112369/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/344112368'>build 344112368</a>
 </li>
 </ul>
 </details>
@@ -7791,6 +8209,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/344113387'>nixpkgs.sitespeed-io.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>firefox-unwrapped-154.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/344113387/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/344113387/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/344113387/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/344112368'>build 344112368</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/342592227'>nixpkgs.smlfut.aarch64-linux</a></tt>
 </summary>
 <ul>
@@ -8995,6 +9427,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/342476716'>nixpkgs.fedimint.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/344112368'>nixpkgs.firefox-unwrapped.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -11999,69 +12437,13 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>51 issues</summary>
+<details><summary>18 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 <th>platform</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/344112105'>nixos.iso_graphical.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/344112127'>nixos.tests.castopod.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/344112130'>nixos.tests.clickhouse-lts.ui.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/344112128'>nixos.tests.clickhouse.ui.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/344112132'>nixos.tests.cockpit.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/344112142'>nixos.tests.cryptpad.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/344112144'>nixos.tests.custom-ca.firefox.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/344112154'>nixos.tests.firefox-beta.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/344112155'>nixos.tests.firefox-devedition.aarch64-linux</a></tt>
@@ -12085,77 +12467,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/344112163'>nixos.tests.firefox.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/344112166'>nixos.tests.firefox_decrypt.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/344112168'>nixos.tests.firefoxpwa.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/344112170'>nixos.tests.galene.basic.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/344112175'>nixos.tests.galene.file-transfer.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/344112172'>nixos.tests.galene.stream.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/344112182'>nixos.tests.immichframe.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/344112186'>nixos.tests.incus-lts.ui.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/344112185'>nixos.tests.incus.ui.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/344112275'>nixos.tests.librewolf.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/344112282'>nixos.tests.nginx-etag.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
@@ -12169,84 +12481,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/344112293'>nixos.tests.opencloud.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/344112305'>nixos.tests.prometheus.ui.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/344112310'>nixos.tests.scrutiny.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/344112315'>nixos.tests.syncthing-guiPassword.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/344112320'>nixos.tests.syncthing-guiPasswordFile.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/344112333'>nixos.tests.vaultwarden.mysql.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/344112331'>nixos.tests.vaultwarden.postgresql.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/344112334'>nixos.tests.vaultwarden.sqlite-backup.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/344112332'>nixos.tests.vaultwarden.sqlite.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/344112339'>nixpkgs.adoptopenjdk-icedtea-web.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/344112349'>nixpkgs.eyewitness.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/344112361'>nixpkgs.firefox-beta-unwrapped.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
@@ -12274,28 +12509,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/344112368'>nixpkgs.firefox-unwrapped.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/344112369'>nixpkgs.firefoxpwa-unwrapped.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/344112390'>nixpkgs.librewolf-unwrapped.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/344113387'>nixpkgs.sitespeed-io.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
@@ -12356,13 +12570,6 @@ Built for evals:
 <td>Queued</td>
 <th>aarch64-linux</th>
 </tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/344113435'>tested</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
 </table>
 </details>
 
@@ -12371,6 +12578,45 @@ Built for evals:
 <table>
 <tr>
 <th>name</th><th>count</th>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/344112368'>aarch64-linux firefox-unwrapped-154.0.1</a></tt></summary>
+<ul>
+<li>nixos.iso_graphical.aarch64-linux</li>
+<li>nixos.tests.clickhouse-lts.ui.aarch64-linux</li>
+<li>nixos.tests.clickhouse.ui.aarch64-linux</li>
+<li>nixos.tests.cockpit.aarch64-linux</li>
+<li>nixos.tests.cryptpad.aarch64-linux</li>
+<li>nixos.tests.custom-ca.firefox.aarch64-linux</li>
+<li>nixos.tests.firefox.aarch64-linux</li>
+<li>nixos.tests.firefoxpwa.aarch64-linux</li>
+<li>nixos.tests.galene.basic.aarch64-linux</li>
+<li>nixos.tests.galene.file-transfer.aarch64-linux</li>
+<li>nixos.tests.immichframe.aarch64-linux</li>
+<li>nixos.tests.incus-lts.ui.aarch64-linux</li>
+<li>nixos.tests.incus.ui.aarch64-linux</li>
+<li>nixos.tests.nginx-etag.aarch64-linux</li>
+<li>nixos.tests.opencloud.aarch64-linux</li>
+<li>nixos.tests.prometheus.ui.aarch64-linux</li>
+<li>nixos.tests.scrutiny.aarch64-linux</li>
+<li>nixos.tests.vaultwarden.mysql.aarch64-linux</li>
+<li>nixos.tests.vaultwarden.postgresql.aarch64-linux</li>
+<li>nixos.tests.vaultwarden.sqlite-backup.aarch64-linux</li>
+<li>nixos.tests.vaultwarden.sqlite.aarch64-linux</li>
+<li>nixpkgs.adoptopenjdk-icedtea-web.aarch64-linux</li>
+<li>nixpkgs.firefoxpwa-unwrapped.aarch64-linux</li>
+<li>nixpkgs.sitespeed-io.aarch64-linux</li>
+<li>tested</li>
+<li>nixos.tests.castopod.aarch64-linux</li>
+<li>nixos.tests.firefox_decrypt.aarch64-linux</li>
+<li>nixos.tests.galene.stream.aarch64-linux</li>
+<li>nixos.tests.syncthing-guiPassword.aarch64-linux</li>
+<li>nixos.tests.syncthing-guiPasswordFile.aarch64-linux</li>
+</ul>
+</details>
+</td>
+<td>30</td>
 </tr>
 <tr>
 <td>
@@ -13366,6 +13612,46 @@ Built for evals:
 <details><summary><tt>x86_64-linux nixos-lxc-image-x86_64-linux</tt></summary>
 <ul>
 <li>nixos.tests.lxd-image-server.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>x86_64-linux nixos-test-driver-installer-simpleProvided</tt></summary>
+<ul>
+<li>tested</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>x86_64-linux activate</tt></summary>
+<ul>
+<li>tested</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>x86_64-linux boot.json</tt></summary>
+<ul>
+<li>tested</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>x86_64-linux nixos-26.05.8702.eaddc7598768</tt></summary>
+<ul>
+<li>tested</li>
 </ul>
 </details>
 </td>
