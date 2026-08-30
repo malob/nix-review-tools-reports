@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-26.05-darwin
 ---
 # Evals report
 
-*Report built at 2026-08-29 23:48:31 UTC*
+*Report built at 2026-08-30 08:48:33 UTC*
 
 Built for evals:
 
@@ -15796,7 +15796,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1766 issues</summary>
+<details><summary>1767 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -16045,6 +16045,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/342701465'>opensupaplex.aarch64-darwin</a></tt>
+</td>
+<td>Aborted</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/344097069'>plausible.aarch64-darwin</a></tt>
 </td>
 <td>Aborted</td>
 </tr>
@@ -32818,7 +32824,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>84 issues</summary>
+<details><summary>83 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -33332,13 +33338,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/344097067'>pinchflat.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/344097069'>plausible.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
