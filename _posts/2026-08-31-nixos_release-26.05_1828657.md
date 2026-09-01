@@ -1,10 +1,10 @@
 ---
-title: nixos:release-26.05 1828657
+title: nixos:release-26.05 1828657 (succeeded)
 categories: nixos:release-26.05
 ---
 # Evals report
 
-*Report built at 2026-09-01 00:18:45 UTC*
+*Report built at 2026-09-01 15:24:26 UTC*
 
 Built for evals:
 
@@ -5970,7 +5970,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>832 issues</summary>
+<details><summary>828 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -6614,20 +6614,6 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
-<tt><a href='https://hydra.nixos.org/build/344112339'>nixpkgs.adoptopenjdk-icedtea-web.aarch64-linux</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Failed</b> <tt>firefox-unwrapped-154.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/344112339/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/344112339/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/344112339/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/344112368'>build 344112368</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
-<details><summary>
 <tt><a href='https://hydra.nixos.org/build/342464469'>nixpkgs.angr-management.aarch64-linux</a></tt>
 </summary>
 <ul>
@@ -6717,20 +6703,6 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>envoy-1.36.5-deps.tar</tt> <br /> <a href='https://hydra.nixos.org/build/343822194/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/343822194/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/343822194/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/343821930'>build 343821930</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/344112369'>nixpkgs.firefoxpwa-unwrapped.aarch64-linux</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Failed</b> <tt>firefox-unwrapped-154.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/344112369/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/344112369/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/344112369/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/344112368'>build 344112368</a>
 </li>
 </ul>
 </details>
@@ -8167,20 +8139,6 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
-<tt><a href='https://hydra.nixos.org/build/344113387'>nixpkgs.sitespeed-io.aarch64-linux</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Failed</b> <tt>firefox-unwrapped-154.0.1</tt> <br /> <a href='https://hydra.nixos.org/build/344113387/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/344113387/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/344113387/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/344112368'>build 344112368</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
-<details><summary>
 <tt><a href='https://hydra.nixos.org/build/342592227'>nixpkgs.smlfut.aarch64-linux</a></tt>
 </summary>
 <ul>
@@ -9379,12 +9337,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/342476716'>nixpkgs.fedimint.aarch64-linux</a></tt>
-</td>
-<td>Failed</td>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/344112368'>nixpkgs.firefox-unwrapped.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -12385,27 +12337,6 @@ Built for evals:
 </table>
 </details>
 
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/344138812'>tested</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-</table>
-</details>
-
 ## Problematic dependencies
 
 <table>
@@ -12440,13 +12371,10 @@ Built for evals:
 <li>nixos.tests.vaultwarden.postgresql.aarch64-linux</li>
 <li>nixos.tests.vaultwarden.sqlite-backup.aarch64-linux</li>
 <li>nixos.tests.vaultwarden.sqlite.aarch64-linux</li>
-<li>nixpkgs.adoptopenjdk-icedtea-web.aarch64-linux</li>
-<li>nixpkgs.firefoxpwa-unwrapped.aarch64-linux</li>
-<li>nixpkgs.sitespeed-io.aarch64-linux</li>
 </ul>
 </details>
 </td>
-<td>27</td>
+<td>24</td>
 </tr>
 <tr>
 <td>
