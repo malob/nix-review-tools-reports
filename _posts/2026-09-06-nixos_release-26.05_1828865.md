@@ -4,7 +4,7 @@ categories: nixos:release-26.05
 ---
 # Evals report
 
-*Report built at 2026-09-06 16:39:42 UTC*
+*Report built at 2026-09-06 18:49:49 UTC*
 
 Built for evals:
 
@@ -11686,7 +11686,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>341 issues</summary>
+<details><summary>338 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -11888,13 +11888,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/344933890'>nixos.iso_graphical.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -13158,13 +13151,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/344934100'>nixpkgs.firefox-unwrapped.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/344934101'>nixpkgs.firefoxpwa-unwrapped.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -14069,13 +14055,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/344934234'>nixpkgs.weechat.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/344934237'>tested</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
