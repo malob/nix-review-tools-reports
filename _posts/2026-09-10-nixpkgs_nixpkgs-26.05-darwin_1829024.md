@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:nixpkgs-26.05-darwin 1829024
+title: nixpkgs:nixpkgs-26.05-darwin 1829024 (succeeded)
 categories: nixpkgs:nixpkgs-26.05-darwin
 ---
 # Evals report
 
-*Report built at 2026-09-10 07:44:51 UTC*
+*Report built at 2026-09-10 12:35:56 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1542 issues</summary>
+<details><summary>1541 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -2257,20 +2257,6 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>gnat-13.4.0</tt> <br /> <a href='https://hydra.nixos.org/build/344704427/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/344704427/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/344704427/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/344704502'>build 344704502</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/345040893'>gnat14Packages.gnat.x86_64-darwin</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Failed</b> <tt>gnat-14.4.0</tt> <br /> <a href='https://hydra.nixos.org/build/345040893/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/345040893/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/345040893/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/345040894'>build 345040894</a>
 </li>
 </ul>
 </details>
@@ -28163,27 +28149,6 @@ Built for evals:
 </table>
 </details>
 
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/345040892'>gnat14.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-</table>
-</details>
-
 ## Problematic dependencies
 
 <table>
@@ -28908,7 +28873,6 @@ Built for evals:
 <td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/345040894'>x86_64-darwin gnat-14.4.0</a></tt></summary>
 <ul>
-<li>gnat14Packages.gnat.x86_64-darwin</li>
 <li>gnat14Packages.gnatcoll-core.x86_64-darwin</li>
 <li>gnat14Packages.gnatcoll-cpp.x86_64-darwin</li>
 <li>gnat14Packages.gnatcoll-db2ada.x86_64-darwin</li>
@@ -28933,7 +28897,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>22</td>
+<td>21</td>
 </tr>
 <tr>
 <td>
