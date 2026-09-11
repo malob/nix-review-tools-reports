@@ -4,7 +4,7 @@ categories: nixpkgs:staging-next
 ---
 # Evals report
 
-*Report built at 2026-09-10 22:29:32 UTC*
+*Report built at 2026-09-11 01:08:08 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>1627 issues</summary>
+<details><summary>1629 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -943,6 +943,20 @@ Built for evals:
 </li>
 <li>
 <b>=> Failed</b> <tt>python3.12-inline-snapshot-0.34.2</tt> <br /> <a href='https://hydra.nixos.org/build/345022939'>build 345022939</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/345050944'>librelane.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>openroad-26Q2</tt> <br /> <a href='https://hydra.nixos.org/build/345050944/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/345050944/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/345050944/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/345051058'>build 345051058</a>
 </li>
 </ul>
 </details>
@@ -12564,6 +12578,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/344861391'>opencl-cts.x86_64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/345051058'>openroad.x86_64-linux</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -28961,7 +28981,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1682 issues</summary>
+<details><summary>1683 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -46045,6 +46065,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/344815188'>cachix.aarch64-darwin</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/344817877'>devenv.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
@@ -46122,7 +46148,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>260 issues</summary>
+<details><summary>255 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -46268,13 +46294,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/344815188'>cachix.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -46845,20 +46864,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/345050945'>librelane.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/345050944'>librelane.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/345043863'>libreoffice-qt-stable-unwrapped.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -47101,20 +47106,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/345051059'>openroad.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/345051058'>openroad.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -52124,6 +52115,16 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/345020780'>aarch64-darwin python3.14-mpv-1.0.8</a></tt></summary>
 <ul>
 <li>hydrus.aarch64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/345051058'>x86_64-linux openroad-26Q2</a></tt></summary>
+<ul>
+<li>librelane.x86_64-linux</li>
 </ul>
 </details>
 </td>
