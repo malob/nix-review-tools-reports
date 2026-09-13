@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-26.05-darwin
 ---
 # Evals report
 
-*Report built at 2026-09-12 23:40:06 UTC*
+*Report built at 2026-09-13 07:53:30 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1535 issues</summary>
+<details><summary>1538 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -3504,6 +3504,23 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>appstream-1.1.2</tt> <br /> <a href='https://hydra.nixos.org/build/344704552/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/344704552/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/344704552/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/344692866'>build 344692866</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/345664925'>gnome-online-accounts.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>gvfs-1.60.3</tt> <br /> <a href='https://hydra.nixos.org/build/345664925/step/2/log'>log</a>, <a href='https://hydra.nixos.org/build/345664925/step/2/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/345664925/step/2/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/345664927'>build 345664927</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>appstream-1.1.2</tt> <br /> <a href='https://hydra.nixos.org/build/345664925/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/345664925/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/345664925/step/1/log/tail'>tail</a>
 </li>
 </ul>
 </details>
@@ -8470,6 +8487,23 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/345664944'>rapidraw.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>gvfs-1.60.3</tt> <br /> <a href='https://hydra.nixos.org/build/345664944/step/3/log'>log</a>, <a href='https://hydra.nixos.org/build/345664944/step/3/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/345664944/step/3/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/345664927'>build 345664927</a>
+</li>
+<li>
+<b>=> Cancelled</b> <tt>rapidraw-1.5.8-vendor</tt> <br /> <a href='https://hydra.nixos.org/build/345664944/step/2/log'>log</a>, <a href='https://hydra.nixos.org/build/345664944/step/2/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/345664944/step/2/log/tail'>tail</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/344791862'>rbdoom-3-bfg.x86_64-darwin</a></tt>
 </summary>
 <ul>
@@ -10489,6 +10523,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/345026930'>gtk-frdp.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/345664927'>gvfs.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -28001,7 +28041,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>31 issues</summary>
+<details><summary>16 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -28010,31 +28050,10 @@ Built for evals:
 </tr></thead>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/345442597'>_64gram.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/345442599'>ayugram-desktop.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/345664922'>croaring.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/345664923'>croaring.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -28052,24 +28071,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/345664925'>gnome-online-accounts.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/345664926'>gvfs.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/345664927'>gvfs.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -28080,31 +28085,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/345664929'>invoiceplane.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/345664931'>kimai.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/345664932'>kimai.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/345442616'>kotatogram-desktop.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -28115,13 +28099,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/345664933'>mago.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/345664935'>manticoresearch.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -28129,24 +28106,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/345664936'>manticoresearch.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/345664938'>manual</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/345442621'>materialgram.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -28164,13 +28127,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/345664939'>prismlauncher-unwrapped.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/345664941'>prismlauncher.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -28178,24 +28134,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/345664942'>prismlauncher.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/345664943'>rapidraw.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/345664944'>rapidraw.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -28217,13 +28159,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/345664947'>ytdownloader.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 </table>
 </details>
@@ -28302,6 +28237,7 @@ Built for evals:
 <li>gnome-mines.x86_64-darwin</li>
 <li>gnome-obfuscate.aarch64-darwin</li>
 <li>gnome-obfuscate.x86_64-darwin</li>
+<li>gnome-online-accounts.x86_64-darwin</li>
 <li>gnome-sudoku.aarch64-darwin</li>
 <li>gnome-sudoku.x86_64-darwin</li>
 <li>gnome-text-editor.aarch64-darwin</li>
@@ -28424,7 +28360,7 @@ Built for evals:
 </ul>
 </details>
 </td>
-<td>196</td>
+<td>197</td>
 </tr>
 <tr>
 <td>
@@ -30074,6 +30010,17 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/345664927'>x86_64-darwin gvfs-1.60.3</a></tt></summary>
+<ul>
+<li>gnome-online-accounts.x86_64-darwin</li>
+<li>rapidraw.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/344732573'>aarch64-darwin mpich-5.0.1</a></tt></summary>
 <ul>
 <li>gnudatalanguage.aarch64-darwin</li>
@@ -30944,6 +30891,16 @@ Built for evals:
 <details><summary><tt><a href='https://hydra.nixos.org/build/344790666'>x86_64-darwin python3.14-wikitextprocessor-0.4.96-unstable-2026-03-06</a></tt></summary>
 <ul>
 <li>python314Packages.wiktextract.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt>x86_64-darwin rapidraw-1.5.8-vendor</tt></summary>
+<ul>
+<li>rapidraw.x86_64-darwin</li>
 </ul>
 </details>
 </td>
