@@ -4,7 +4,7 @@ categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2026-09-13 19:09:54 UTC*
+*Report built at 2026-09-15 14:03:28 UTC*
 
 Built for evals:
 
@@ -12,10 +12,513 @@ Built for evals:
 
  * * * 
 
+### x86_64-linux
+
+
+<details><summary>35 issues</summary>
+<table>
+<thead><tr>
+<th>job</th>
+<th>status</th>
+</tr></thead>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/345746822'>muslGHCs</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>sqlite-3.53.3</tt> <br /> <a href='https://hydra.nixos.org/build/345746822/step/6/log'>log</a>, <a href='https://hydra.nixos.org/build/345746822/step/6/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/345746822/step/6/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/345746802'>build 345746802</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/345746795'>pkgsMusl.haskell.compiler.ghc9103.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>sqlite-3.53.3</tt> <br /> <a href='https://hydra.nixos.org/build/345746795/step/3/log'>log</a>, <a href='https://hydra.nixos.org/build/345746795/step/3/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/345746795/step/3/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/345746802'>build 345746802</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/345746800'>pkgsMusl.haskell.compiler.ghc912.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>sqlite-3.53.3</tt> <br /> <a href='https://hydra.nixos.org/build/345746800/step/2/log'>log</a>, <a href='https://hydra.nixos.org/build/345746800/step/2/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/345746800/step/2/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/345746802'>build 345746802</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/345746818'>pkgsMusl.haskell.compiler.ghc9123.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>sqlite-3.53.3</tt> <br /> <a href='https://hydra.nixos.org/build/345746818/step/2/log'>log</a>, <a href='https://hydra.nixos.org/build/345746818/step/2/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/345746818/step/2/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/345746802'>build 345746802</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/345746802'>pkgsMusl.haskell.compiler.ghc9124.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>sqlite-3.53.3</tt> <br /> <a href='https://hydra.nixos.org/build/345746802/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/345746802/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/345746802/step/1/log/tail'>tail</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/345746801'>pkgsMusl.haskell.compiler.ghc9125.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>sqlite-3.53.3</tt> <br /> <a href='https://hydra.nixos.org/build/345746801/step/3/log'>log</a>, <a href='https://hydra.nixos.org/build/345746801/step/3/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/345746801/step/3/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/345746802'>build 345746802</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/345746810'>pkgsMusl.haskell.compiler.ghc914.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>sqlite-3.53.3</tt> <br /> <a href='https://hydra.nixos.org/build/345746810/step/4/log'>log</a>, <a href='https://hydra.nixos.org/build/345746810/step/4/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/345746810/step/4/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/345746802'>build 345746802</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/345746811'>pkgsMusl.haskell.compiler.ghc9141.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>sqlite-3.53.3</tt> <br /> <a href='https://hydra.nixos.org/build/345746811/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/345746811/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/345746811/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/345746802'>build 345746802</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/345746816'>pkgsMusl.haskell.compiler.ghc9142.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>sqlite-3.53.3</tt> <br /> <a href='https://hydra.nixos.org/build/345746816/step/4/log'>log</a>, <a href='https://hydra.nixos.org/build/345746816/step/4/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/345746816/step/4/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/345746802'>build 345746802</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/345746788'>pkgsMusl.haskell.compiler.ghc94.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>sqlite-3.53.3</tt> <br /> <a href='https://hydra.nixos.org/build/345746788/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/345746788/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/345746788/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/345746802'>build 345746802</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/345746789'>pkgsMusl.haskell.compiler.ghc948.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>sqlite-3.53.3</tt> <br /> <a href='https://hydra.nixos.org/build/345746789/step/3/log'>log</a>, <a href='https://hydra.nixos.org/build/345746789/step/3/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/345746789/step/3/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/345746802'>build 345746802</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/345746824'>pkgsMusl.haskell.compiler.ghc96.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>sqlite-3.53.3</tt> <br /> <a href='https://hydra.nixos.org/build/345746824/step/2/log'>log</a>, <a href='https://hydra.nixos.org/build/345746824/step/2/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/345746824/step/2/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/345746802'>build 345746802</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/345746823'>pkgsMusl.haskell.compiler.ghc967.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>sqlite-3.53.3</tt> <br /> <a href='https://hydra.nixos.org/build/345746823/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/345746823/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/345746823/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/345746802'>build 345746802</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/345746793'>pkgsMusl.haskell.compiler.ghc98.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>sqlite-3.53.3</tt> <br /> <a href='https://hydra.nixos.org/build/345746793/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/345746793/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/345746793/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/345746802'>build 345746802</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/345746792'>pkgsMusl.haskell.compiler.ghc984.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>sqlite-3.53.3</tt> <br /> <a href='https://hydra.nixos.org/build/345746792/step/2/log'>log</a>, <a href='https://hydra.nixos.org/build/345746792/step/2/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/345746792/step/2/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/345746802'>build 345746802</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/345746805'>pkgsMusl.haskell.compiler.ghcHEAD.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>sqlite-3.53.3</tt> <br /> <a href='https://hydra.nixos.org/build/345746805/step/6/log'>log</a>, <a href='https://hydra.nixos.org/build/345746805/step/6/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/345746805/step/6/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/345746802'>build 345746802</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/345746796'>pkgsMusl.haskell.compiler.native-bignum.ghc910.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>sqlite-3.53.3</tt> <br /> <a href='https://hydra.nixos.org/build/345746796/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/345746796/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/345746796/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/345746802'>build 345746802</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/345746797'>pkgsMusl.haskell.compiler.native-bignum.ghc9103.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>sqlite-3.53.3</tt> <br /> <a href='https://hydra.nixos.org/build/345746797/step/2/log'>log</a>, <a href='https://hydra.nixos.org/build/345746797/step/2/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/345746797/step/2/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/345746802'>build 345746802</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/345746815'>pkgsMusl.haskell.compiler.native-bignum.ghc912.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>sqlite-3.53.3</tt> <br /> <a href='https://hydra.nixos.org/build/345746815/step/2/log'>log</a>, <a href='https://hydra.nixos.org/build/345746815/step/2/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/345746815/step/2/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/345746802'>build 345746802</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/345746819'>pkgsMusl.haskell.compiler.native-bignum.ghc9123.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>sqlite-3.53.3</tt> <br /> <a href='https://hydra.nixos.org/build/345746819/step/5/log'>log</a>, <a href='https://hydra.nixos.org/build/345746819/step/5/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/345746819/step/5/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/345746802'>build 345746802</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/345746809'>pkgsMusl.haskell.compiler.native-bignum.ghc9124.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>sqlite-3.53.3</tt> <br /> <a href='https://hydra.nixos.org/build/345746809/step/3/log'>log</a>, <a href='https://hydra.nixos.org/build/345746809/step/3/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/345746809/step/3/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/345746802'>build 345746802</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/345746814'>pkgsMusl.haskell.compiler.native-bignum.ghc9125.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>sqlite-3.53.3</tt> <br /> <a href='https://hydra.nixos.org/build/345746814/step/3/log'>log</a>, <a href='https://hydra.nixos.org/build/345746814/step/3/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/345746814/step/3/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/345746802'>build 345746802</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/345746798'>pkgsMusl.haskell.compiler.native-bignum.ghc914.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>sqlite-3.53.3</tt> <br /> <a href='https://hydra.nixos.org/build/345746798/step/2/log'>log</a>, <a href='https://hydra.nixos.org/build/345746798/step/2/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/345746798/step/2/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/345746802'>build 345746802</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/345746799'>pkgsMusl.haskell.compiler.native-bignum.ghc9141.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>sqlite-3.53.3</tt> <br /> <a href='https://hydra.nixos.org/build/345746799/step/4/log'>log</a>, <a href='https://hydra.nixos.org/build/345746799/step/4/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/345746799/step/4/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/345746802'>build 345746802</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/345746812'>pkgsMusl.haskell.compiler.native-bignum.ghc9142.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>sqlite-3.53.3</tt> <br /> <a href='https://hydra.nixos.org/build/345746812/step/3/log'>log</a>, <a href='https://hydra.nixos.org/build/345746812/step/3/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/345746812/step/3/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/345746802'>build 345746802</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/345746804'>pkgsMusl.haskell.compiler.native-bignum.ghc94.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>sqlite-3.53.3</tt> <br /> <a href='https://hydra.nixos.org/build/345746804/step/3/log'>log</a>, <a href='https://hydra.nixos.org/build/345746804/step/3/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/345746804/step/3/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/345746802'>build 345746802</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/345746803'>pkgsMusl.haskell.compiler.native-bignum.ghc948.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>sqlite-3.53.3</tt> <br /> <a href='https://hydra.nixos.org/build/345746803/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/345746803/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/345746803/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/345746802'>build 345746802</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/345746821'>pkgsMusl.haskell.compiler.native-bignum.ghc96.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>sqlite-3.53.3</tt> <br /> <a href='https://hydra.nixos.org/build/345746821/step/3/log'>log</a>, <a href='https://hydra.nixos.org/build/345746821/step/3/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/345746821/step/3/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/345746802'>build 345746802</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/345746820'>pkgsMusl.haskell.compiler.native-bignum.ghc967.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>sqlite-3.53.3</tt> <br /> <a href='https://hydra.nixos.org/build/345746820/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/345746820/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/345746820/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/345746802'>build 345746802</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/345746806'>pkgsMusl.haskell.compiler.native-bignum.ghc98.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>sqlite-3.53.3</tt> <br /> <a href='https://hydra.nixos.org/build/345746806/step/2/log'>log</a>, <a href='https://hydra.nixos.org/build/345746806/step/2/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/345746806/step/2/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/345746802'>build 345746802</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/345746807'>pkgsMusl.haskell.compiler.native-bignum.ghc984.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>sqlite-3.53.3</tt> <br /> <a href='https://hydra.nixos.org/build/345746807/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/345746807/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/345746807/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/345746802'>build 345746802</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/345746808'>pkgsMusl.haskell.compiler.native-bignum.ghcHEAD.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>sqlite-3.53.3</tt> <br /> <a href='https://hydra.nixos.org/build/345746808/step/4/log'>log</a>, <a href='https://hydra.nixos.org/build/345746808/step/4/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/345746808/step/4/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/345746802'>build 345746802</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/345746817'>pkgsMusl.haskellPackages.hello.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>sqlite-3.53.3</tt> <br /> <a href='https://hydra.nixos.org/build/345746817/step/3/log'>log</a>, <a href='https://hydra.nixos.org/build/345746817/step/3/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/345746817/step/3/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/345746802'>build 345746802</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/345746874'>pkgsMusl.haskellPackages.lens.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>sqlite-3.53.3</tt> <br /> <a href='https://hydra.nixos.org/build/345746874/step/3/log'>log</a>, <a href='https://hydra.nixos.org/build/345746874/step/3/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/345746874/step/3/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/345746802'>build 345746802</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/345746813'>pkgsMusl.haskellPackages.random.x86_64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>sqlite-3.53.3</tt> <br /> <a href='https://hydra.nixos.org/build/345746813/step/5/log'>log</a>, <a href='https://hydra.nixos.org/build/345746813/step/5/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/345746813/step/5/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/345746802'>build 345746802</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+</table>
+</details>
+
+
 ### Still queued
 
 
-<details><summary>8699 issues</summary>
+<details><summary>8663 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -1453,13 +1956,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/345738371'>haskell.packages.ghc948.iserv-proxy.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/345738369'>haskell.packages.ghc948.jailbreak-cabal.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -11022,6 +11518,13 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/345739746'>haskellPackages.bugsnag-hs.x86_64-linux</a></tt>
+</td>
+<td>Queued</td>
+<th>x86_64-linux</th>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/345739806'>haskellPackages.bugsnag-types.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -59986,13 +60489,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/345746822'>muslGHCs</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/345746737'>naproche.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -60266,252 +60762,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/345746794'>pkgsMusl.haskell.compiler.ghc910.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/345746795'>pkgsMusl.haskell.compiler.ghc9103.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/345746800'>pkgsMusl.haskell.compiler.ghc912.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/345746818'>pkgsMusl.haskell.compiler.ghc9123.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/345746802'>pkgsMusl.haskell.compiler.ghc9124.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/345746801'>pkgsMusl.haskell.compiler.ghc9125.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/345746810'>pkgsMusl.haskell.compiler.ghc914.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/345746811'>pkgsMusl.haskell.compiler.ghc9141.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/345746816'>pkgsMusl.haskell.compiler.ghc9142.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/345746788'>pkgsMusl.haskell.compiler.ghc94.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/345746789'>pkgsMusl.haskell.compiler.ghc948.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/345746824'>pkgsMusl.haskell.compiler.ghc96.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/345746823'>pkgsMusl.haskell.compiler.ghc967.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/345746793'>pkgsMusl.haskell.compiler.ghc98.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/345746792'>pkgsMusl.haskell.compiler.ghc984.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/345746790'>pkgsMusl.haskell.compiler.ghc984Binary.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/345746805'>pkgsMusl.haskell.compiler.ghcHEAD.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/345746796'>pkgsMusl.haskell.compiler.native-bignum.ghc910.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/345746797'>pkgsMusl.haskell.compiler.native-bignum.ghc9103.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/345746815'>pkgsMusl.haskell.compiler.native-bignum.ghc912.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/345746819'>pkgsMusl.haskell.compiler.native-bignum.ghc9123.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/345746809'>pkgsMusl.haskell.compiler.native-bignum.ghc9124.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/345746814'>pkgsMusl.haskell.compiler.native-bignum.ghc9125.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/345746798'>pkgsMusl.haskell.compiler.native-bignum.ghc914.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/345746799'>pkgsMusl.haskell.compiler.native-bignum.ghc9141.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/345746812'>pkgsMusl.haskell.compiler.native-bignum.ghc9142.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/345746804'>pkgsMusl.haskell.compiler.native-bignum.ghc94.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/345746803'>pkgsMusl.haskell.compiler.native-bignum.ghc948.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/345746821'>pkgsMusl.haskell.compiler.native-bignum.ghc96.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/345746820'>pkgsMusl.haskell.compiler.native-bignum.ghc967.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/345746806'>pkgsMusl.haskell.compiler.native-bignum.ghc98.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/345746807'>pkgsMusl.haskell.compiler.native-bignum.ghc984.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/345746808'>pkgsMusl.haskell.compiler.native-bignum.ghcHEAD.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/345746817'>pkgsMusl.haskellPackages.hello.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/345746874'>pkgsMusl.haskellPackages.lens.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/345746813'>pkgsMusl.haskellPackages.random.x86_64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -60923,6 +61174,50 @@ Built for evals:
 <table>
 <tr>
 <th>name</th><th>count</th>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/345746802'>x86_64-linux sqlite-3.53.3</a></tt></summary>
+<ul>
+<li>pkgsMusl.haskell.compiler.ghc9103.x86_64-linux</li>
+<li>pkgsMusl.haskell.compiler.ghc912.x86_64-linux</li>
+<li>pkgsMusl.haskell.compiler.ghc9123.x86_64-linux</li>
+<li>pkgsMusl.haskell.compiler.ghc9124.x86_64-linux</li>
+<li>pkgsMusl.haskell.compiler.ghc9125.x86_64-linux</li>
+<li>pkgsMusl.haskell.compiler.ghc914.x86_64-linux</li>
+<li>pkgsMusl.haskell.compiler.ghc9141.x86_64-linux</li>
+<li>pkgsMusl.haskell.compiler.ghc9142.x86_64-linux</li>
+<li>pkgsMusl.haskell.compiler.ghc94.x86_64-linux</li>
+<li>pkgsMusl.haskell.compiler.ghc948.x86_64-linux</li>
+<li>pkgsMusl.haskell.compiler.ghc96.x86_64-linux</li>
+<li>pkgsMusl.haskell.compiler.ghc967.x86_64-linux</li>
+<li>pkgsMusl.haskell.compiler.ghc98.x86_64-linux</li>
+<li>pkgsMusl.haskell.compiler.ghc984.x86_64-linux</li>
+<li>pkgsMusl.haskell.compiler.ghcHEAD.x86_64-linux</li>
+<li>pkgsMusl.haskell.compiler.native-bignum.ghc910.x86_64-linux</li>
+<li>pkgsMusl.haskell.compiler.native-bignum.ghc9103.x86_64-linux</li>
+<li>pkgsMusl.haskell.compiler.native-bignum.ghc912.x86_64-linux</li>
+<li>pkgsMusl.haskell.compiler.native-bignum.ghc9123.x86_64-linux</li>
+<li>pkgsMusl.haskell.compiler.native-bignum.ghc9124.x86_64-linux</li>
+<li>pkgsMusl.haskell.compiler.native-bignum.ghc9125.x86_64-linux</li>
+<li>pkgsMusl.haskell.compiler.native-bignum.ghc914.x86_64-linux</li>
+<li>pkgsMusl.haskell.compiler.native-bignum.ghc9141.x86_64-linux</li>
+<li>pkgsMusl.haskell.compiler.native-bignum.ghc9142.x86_64-linux</li>
+<li>pkgsMusl.haskell.compiler.native-bignum.ghc94.x86_64-linux</li>
+<li>pkgsMusl.haskell.compiler.native-bignum.ghc948.x86_64-linux</li>
+<li>pkgsMusl.haskell.compiler.native-bignum.ghc96.x86_64-linux</li>
+<li>pkgsMusl.haskell.compiler.native-bignum.ghc967.x86_64-linux</li>
+<li>pkgsMusl.haskell.compiler.native-bignum.ghc98.x86_64-linux</li>
+<li>pkgsMusl.haskell.compiler.native-bignum.ghc984.x86_64-linux</li>
+<li>pkgsMusl.haskell.compiler.native-bignum.ghcHEAD.x86_64-linux</li>
+<li>pkgsMusl.haskellPackages.lens.x86_64-linux</li>
+<li>pkgsMusl.haskellPackages.random.x86_64-linux</li>
+<li>muslGHCs</li>
+<li>pkgsMusl.haskellPackages.hello.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>35</td>
 </tr>
 </table>
 
