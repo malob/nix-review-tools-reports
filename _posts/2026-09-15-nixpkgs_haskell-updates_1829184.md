@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:haskell-updates 1829184
+title: nixpkgs:haskell-updates 1829184 (succeeded)
 categories: nixpkgs:haskell-updates
 ---
 # Evals report
 
-*Report built at 2026-09-15 23:52:50 UTC*
+*Report built at 2026-09-16 02:35:03 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>908 issues</summary>
+<details><summary>909 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -9334,26 +9334,11 @@ Built for evals:
 </td>
 <td>Failed</td>
 </tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/345745007'>haskellPackages.skews.x86_64-linux</a></tt>
 </td>
-<td>Queued</td>
-<th>x86_64-linux</th>
+<td>Timed out</td>
 </tr>
 </table>
 </details>
