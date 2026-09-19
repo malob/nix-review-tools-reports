@@ -4,7 +4,7 @@ categories: nixos:release-26.05
 ---
 # Evals report
 
-*Report built at 2026-09-19 13:51:59 UTC*
+*Report built at 2026-09-19 17:00:30 UTC*
 
 Built for evals:
 
@@ -6731,7 +6731,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>798 issues</summary>
+<details><summary>802 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -6773,6 +6773,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>nixos-system-machine-test</tt> <br /> <a href='https://hydra.nixos.org/build/346064796/step/35/log'>log</a>, <a href='https://hydra.nixos.org/build/346064796/step/35/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/346064796/step/35/log/tail'>tail</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/346065341'>nixos.tests.envoy.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>envoy-1.36.5-deps.tar</tt> <br /> <a href='https://hydra.nixos.org/build/346065341/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/346065341/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/346065341/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/346081981'>build 346081981</a>
 </li>
 </ul>
 </details>
@@ -7090,6 +7104,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>python3.13-es-client-9.0.2</tt> <br /> <a href='https://hydra.nixos.org/build/346081453/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/346081453/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/346081453/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/346152913'>build 346152913</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/346081981'>nixpkgs.envoy.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>envoy-1.36.5-deps.tar</tt> <br /> <a href='https://hydra.nixos.org/build/346081981/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/346081981/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/346081981/step/1/log/tail'>tail</a>
 </li>
 </ul>
 </details>
@@ -12765,6 +12793,18 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/346135496'>nixpkgs.pdf-oxide.aarch64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/346180005'>nixpkgs.python314Packages.ospd.aarch64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/346184217'>nixpkgs.python314Packages.qtile-bonsai.aarch64-linux</a></tt>
 </td>
 <td>Timed out</td>
@@ -12788,7 +12828,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>46 issues</summary>
+<details><summary>40 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -12805,13 +12845,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/346065201'>nixos.tests.custom-ca.chromium.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/346065341'>nixos.tests.envoy.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
@@ -12902,13 +12935,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/346076668'>nixpkgs.chromedriver.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/346076730'>nixpkgs.chromium.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -12917,13 +12943,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/346079406'>nixpkgs.decktape.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/346081981'>nixpkgs.envoy.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
@@ -13007,13 +13026,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/346135496'>nixpkgs.pdf-oxide.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/346135694'>nixpkgs.percollate.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -13022,13 +13034,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/346148109'>nixpkgs.puppeteer-cli.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/346180005'>nixpkgs.python314Packages.ospd.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
@@ -13078,13 +13083,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/346204135'>nixpkgs.tests.lake.weak-minimax.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/346207717'>nixpkgs.undetected-chromedriver.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
@@ -13615,6 +13613,17 @@ Built for evals:
 <ul>
 <li>nixos.tests.activation-bashless-image.aarch64-linux</li>
 <li>nixos.tests.activation-bashless-image.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/346081981'>aarch64-linux envoy-1.36.5-deps.tar</a></tt></summary>
+<ul>
+<li>nixos.tests.envoy.aarch64-linux</li>
+<li>nixpkgs.envoy.aarch64-linux</li>
 </ul>
 </details>
 </td>
