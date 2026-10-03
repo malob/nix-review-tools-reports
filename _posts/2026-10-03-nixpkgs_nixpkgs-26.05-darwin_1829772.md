@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-26.05-darwin
 ---
 # Evals report
 
-*Report built at 2026-10-03 10:56:16 UTC*
+*Report built at 2026-10-03 14:32:17 UTC*
 
 Built for evals:
 
@@ -27570,7 +27570,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>438 issues</summary>
+<details><summary>435 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -28951,13 +28951,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/347848932'>lua55Packages.luafilesystem.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/347848955'>lua55Packages.lualdap.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -29036,13 +29029,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/347848974'>lua55Packages.luarocksCheckHook.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/347848957'>lua55Packages.luarocks_bootstrap.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
@@ -29379,13 +29365,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/347849056'>lua55Packages.vusted.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/347849057'>lua55Packages.wrapLua.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
