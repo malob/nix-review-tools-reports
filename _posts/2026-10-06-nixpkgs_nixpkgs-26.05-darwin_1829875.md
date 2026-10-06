@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:nixpkgs-26.05-darwin 1829875
+title: nixpkgs:nixpkgs-26.05-darwin 1829875 (succeeded)
 categories: nixpkgs:nixpkgs-26.05-darwin
 ---
 # Evals report
 
-*Report built at 2026-10-06 01:11:35 UTC*
+*Report built at 2026-10-06 08:24:33 UTC*
 
 Built for evals:
 
@@ -13998,7 +13998,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1574 issues</summary>
+<details><summary>1575 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -28024,26 +28024,11 @@ Built for evals:
 </td>
 <td>Timed out</td>
 </tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/348099699'>diffoscope.aarch64-darwin</a></tt>
 </td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
+<td>Timed out</td>
 </tr>
 </table>
 </details>
