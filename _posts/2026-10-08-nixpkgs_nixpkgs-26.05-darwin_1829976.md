@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:nixpkgs-26.05-darwin 1829976
+title: nixpkgs:nixpkgs-26.05-darwin 1829976 (succeeded)
 categories: nixpkgs:nixpkgs-26.05-darwin
 ---
 # Evals report
 
-*Report built at 2026-10-08 20:26:53 UTC*
+*Report built at 2026-10-09 00:55:10 UTC*
 
 Built for evals:
 
@@ -14070,7 +14070,7 @@ Built for evals:
 ### aarch64-darwin
 
 
-<details><summary>1580 issues</summary>
+<details><summary>1583 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -14627,6 +14627,24 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/348447804'>xmoto.aarch64-darwin</a></tt>
 </td>
 <td>Aborted</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/348396393'>python313Packages.django-valkey.aarch64-darwin</a></tt>
+</td>
+<td>Cancelled</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/348398656'>python313Packages.hishel.aarch64-darwin</a></tt>
+</td>
+<td>Cancelled</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/348416098'>python314Packages.django-valkey.aarch64-darwin</a></tt>
+</td>
+<td>Cancelled</td>
 </tr>
 <tr>
 <td>
@@ -28446,41 +28464,6 @@ Built for evals:
 <tt><a href='https://hydra.nixos.org/build/348438929'>spoolman.aarch64-darwin</a></tt>
 </td>
 <td>Timed out</td>
-</tr>
-</table>
-</details>
-
-
-### Still queued
-
-
-<details><summary>3 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/348396393'>python313Packages.django-valkey.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/348398656'>python313Packages.hishel.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/348416098'>python314Packages.django-valkey.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
 </tr>
 </table>
 </details>
