@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-26.05-darwin
 ---
 # Evals report
 
-*Report built at 2026-10-12 08:25:07 UTC*
+*Report built at 2026-10-12 18:26:55 UTC*
 
 Built for evals:
 
@@ -28478,7 +28478,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>8 issues</summary>
+<details><summary>2 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -28494,52 +28494,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/349085107'>darwin.linux-builder-x86_64.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/349085110'>darwin.linux-builder-x86_64.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/349085106'>darwin.linux-builder.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/349085109'>darwin.linux-builder.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/349085156'>manual</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/349085155'>metrics</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/349085309'>tarball</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 </table>
 </details>
