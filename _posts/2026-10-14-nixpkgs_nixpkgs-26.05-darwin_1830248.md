@@ -1,10 +1,10 @@
 ---
-title: nixpkgs:nixpkgs-26.05-darwin 1830248
+title: nixpkgs:nixpkgs-26.05-darwin 1830248 (succeeded)
 categories: nixpkgs:nixpkgs-26.05-darwin
 ---
 # Evals report
 
-*Report built at 2026-10-14 19:55:40 UTC*
+*Report built at 2026-10-15 06:49:19 UTC*
 
 Built for evals:
 
@@ -12,37 +12,10 @@ Built for evals:
 
  * * * 
 
-### x86_64-linux
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-</tr></thead>
-<tr>
-<td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/349256532'>darwin-tested</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Failed</b> <tt>nixpkgs-review-3.9.0</tt> <br /> <a href='https://hydra.nixos.org/build/349256532/step/5/log'>log</a>, <a href='https://hydra.nixos.org/build/349256532/step/5/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/349256532/step/5/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/349256850'>build 349256850</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-</table>
-</details>
-
-
 ### x86_64-darwin
 
 
-<details><summary>1499 issues</summary>
+<details><summary>1498 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -11443,12 +11416,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/348374311'>nixpkgs-openjdk-updater.x86_64-darwin</a></tt>
-</td>
-<td>Failed</td>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/349256850'>nixpkgs-review.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -28125,27 +28092,6 @@ Built for evals:
 </table>
 </details>
 
-
-### Still queued
-
-
-<details><summary>1 issues</summary>
-<table>
-<thead><tr>
-<th>job</th>
-<th>status</th>
-<th>platform</th>
-</tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/349256519'>darwin.linux-builder.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-</table>
-</details>
-
 ## Problematic dependencies
 
 <table>
@@ -29899,17 +29845,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/349256850'>x86_64-darwin nixpkgs-review-3.9.0</a></tt></summary>
-<ul>
-<li>nix-update.x86_64-darwin</li>
-<li>darwin-tested</li>
-</ul>
-</details>
-</td>
-<td>2</td>
-</tr>
-<tr>
-<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/348390846'>aarch64-darwin podofo-0.10.6</a></tt></summary>
 <ul>
 <li>cie-middleware-linux.aarch64-darwin</li>
@@ -30742,6 +30677,16 @@ Built for evals:
 </details>
 </td>
 <td>2</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/349256850'>x86_64-darwin nixpkgs-review-3.9.0</a></tt></summary>
+<ul>
+<li>nix-update.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>1</td>
 </tr>
 <tr>
 <td>
