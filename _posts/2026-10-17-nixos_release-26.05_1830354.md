@@ -4,7 +4,7 @@ categories: nixos:release-26.05
 ---
 # Evals report
 
-*Report built at 2026-10-17 10:00:55 UTC*
+*Report built at 2026-10-17 11:57:19 UTC*
 
 Built for evals:
 
@@ -1785,29 +1785,6 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>xcbuild-0.1.1-unstable-2019-11-20</tt> <br /> <a href='https://hydra.nixos.org/build/348328582/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/348328582/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/348328582/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/348328577'>build 348328577</a>
-</li>
-</ul>
-</details>
-</td>
-<td>Dependency failed</td>
-</tr>
-<tr>
-<td>
-<details><summary>
-<tt><a href='https://hydra.nixos.org/build/349791595'>tested</a></tt>
-</summary>
-<ul>
-<li>
-<b>=> Failed</b> <tt>-test-run-boot-bios-cdrom</tt> <br /> <a href='https://hydra.nixos.org/build/349791595/step/232/log'>log</a>, <a href='https://hydra.nixos.org/build/349791595/step/232/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/349791595/step/232/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/349791314'>build 349791314</a>
-</li>
-<li>
-<b>=> Aborted</b> <tt>run-nixos-vm</tt> <br /> <a href='https://hydra.nixos.org/build/349791595/step/179/log'>log</a>, <a href='https://hydra.nixos.org/build/349791595/step/179/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/349791595/step/179/log/tail'>tail</a>
-</li>
-<li>
-<b>=> Aborted</b> <tt>boot.json</tt> <br /> <a href='https://hydra.nixos.org/build/349791595/step/2/log'>log</a>, <a href='https://hydra.nixos.org/build/349791595/step/2/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/349791595/step/2/log/tail'>tail</a>
-</li>
-<li>
-<b>=> Aborted</b> <tt>nixos-26.05.12154.650c0bcd50df</tt> <br /> <a href='https://hydra.nixos.org/build/349791595/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/349791595/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/349791595/step/1/log/tail'>tail</a>
 </li>
 </ul>
 </details>
@@ -6629,6 +6606,12 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/349400921'>nixos.tests.jellyfin.x86_64-linux</a></tt>
+</td>
+<td>Timed out</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/349791453'>nixos.tests.nixos-rebuild-install-bootloader.x86_64-linux</a></tt>
 </td>
 <td>Timed out</td>
 </tr>
@@ -12034,7 +12017,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>440 issues</summary>
+<details><summary>436 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -12236,13 +12219,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/349791453'>nixos.tests.nixos-rebuild-install-bootloader.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -14885,20 +14861,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/349791554'>nixpkgs.orca-slicer.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/349791555'>nixpkgs.orca-slicer.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/349406824'>nixpkgs.penpot-desktop.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -14949,13 +14911,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/349791560'>nixpkgs.puppeteer-cli.x86_64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/349791562'>nixpkgs.release-checks</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -15074,13 +15029,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/349791594'>nixpkgs.unstable</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/349791586'>nixpkgs.vhs.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
@@ -15117,6 +15065,13 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/349791591'>nixpkgs.wayback.x86_64-linux</a></tt>
+</td>
+<td>Queued</td>
+<th>x86_64-linux</th>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/349791595'>tested</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
@@ -16099,46 +16054,6 @@ Built for evals:
 </details>
 </td>
 <td>2</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/349791314'>x86_64-linux -test-run-boot-bios-cdrom</a></tt></summary>
-<ul>
-<li>tested</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>x86_64-linux run-nixos-vm</tt></summary>
-<ul>
-<li>tested</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>x86_64-linux boot.json</tt></summary>
-<ul>
-<li>tested</li>
-</ul>
-</details>
-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt>x86_64-linux nixos-26.05.12154.650c0bcd50df</tt></summary>
-<ul>
-<li>tested</li>
-</ul>
-</details>
-</td>
-<td>1</td>
 </tr>
 <tr>
 <td>
