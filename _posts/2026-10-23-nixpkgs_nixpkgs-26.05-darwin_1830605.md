@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-26.05-darwin
 ---
 # Evals report
 
-*Report built at 2026-10-23 18:09:05 UTC*
+*Report built at 2026-10-24 10:14:17 UTC*
 
 Built for evals:
 
@@ -28660,7 +28660,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>509 issues</summary>
+<details><summary>507 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -28701,13 +28701,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/350534162'>darwin-tested</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -29149,13 +29142,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/350534239'>release-checks</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
