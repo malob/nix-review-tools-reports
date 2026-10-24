@@ -4,7 +4,7 @@ categories: nixos:release-26.05
 ---
 # Evals report
 
-*Report built at 2026-10-24 17:48:35 UTC*
+*Report built at 2026-10-24 22:23:44 UTC*
 
 Built for evals:
 
@@ -34,30 +34,12 @@ Built for evals:
 ### x86_64-linux
 
 
-<details><summary>1626 issues</summary>
+<details><summary>1623 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
 <th>status</th>
 </tr></thead>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/350465275'>nixos.dummy.x86_64-linux</a></tt>
-</td>
-<td>Cancelled</td>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/350465280'>nixos.manual.x86_64-linux</a></tt>
-</td>
-<td>Cancelled</td>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/350465282'>nixos.manualHTML.x86_64-linux</a></tt>
-</td>
-<td>Cancelled</td>
-</tr>
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/350465288'>nixos.nixos-configuration-reference-manpage.x86_64-linux</a></tt>
