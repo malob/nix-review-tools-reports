@@ -4,7 +4,7 @@ categories: nixos:release-26.05
 ---
 # Evals report
 
-*Report built at 2026-10-24 22:23:44 UTC*
+*Report built at 2026-10-25 00:46:31 UTC*
 
 Built for evals:
 
@@ -10655,7 +10655,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>887 issues</summary>
+<details><summary>888 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -11501,6 +11501,23 @@ Built for evals:
 <ul>
 <li>
 <b>=> Failed</b> <tt>python3.13-devpi-server-6.19.2</tt> <br /> <a href='https://hydra.nixos.org/build/349403607/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/349403607/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/349403607/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/349406851'>build 349406851</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/348196594'>nixpkgs.dorion.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>webkitgtk-2.54.1+abi=4.1</tt> <br /> <a href='https://hydra.nixos.org/build/348196594/step/2/log'>log</a>, <a href='https://hydra.nixos.org/build/348196594/step/2/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/348196594/step/2/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/348177786'>build 348177786</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>webkitgtk-2.54.1+abi=4.1</tt> <br /> <a href='https://hydra.nixos.org/build/348177786'>build 348177786</a>
 </li>
 </ul>
 </details>
@@ -17247,7 +17264,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>1459 issues</summary>
+<details><summary>1458 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -18779,13 +18796,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/348196594'>nixpkgs.dorion.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
 </tr>
 <tr>
 <td>
@@ -27948,6 +27958,16 @@ Built for evals:
 <ul>
 <li>nixpkgs.cosmocc.x86_64-linux</li>
 <li>nixpkgs.python-cosmopolitan.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>2</td>
+</tr>
+<tr>
+<td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/348177786'>aarch64-linux webkitgtk-2.54.1+abi=4.1</a></tt></summary>
+<ul>
+<li>nixpkgs.dorion.aarch64-linux</li>
 </ul>
 </details>
 </td>
