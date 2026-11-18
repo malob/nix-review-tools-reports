@@ -4,7 +4,7 @@ categories: nixpkgs:nixpkgs-26.05-darwin
 ---
 # Evals report
 
-*Report built at 2026-11-18 12:44:24 UTC*
+*Report built at 2026-11-18 21:04:36 UTC*
 
 Built for evals:
 
@@ -15,7 +15,7 @@ Built for evals:
 ### x86_64-darwin
 
 
-<details><summary>1711 issues</summary>
+<details><summary>1751 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -5450,6 +5450,496 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/354251474'>llvmPackages_23.bintools-unwrapped.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>llvm-23.1.6</tt> <br /> <a href='https://hydra.nixos.org/build/354251474/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/354251474/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/354251474/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/354251499'>build 354251499</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/354251475'>llvmPackages_23.bintools.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>llvm-23.1.6</tt> <br /> <a href='https://hydra.nixos.org/build/354251475/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/354251475/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/354251475/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/354251499'>build 354251499</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/354251487'>llvmPackages_23.bintoolsNoLibc.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>llvm-23.1.6</tt> <br /> <a href='https://hydra.nixos.org/build/354251487/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/354251487/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/354251487/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/354251499'>build 354251499</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/354251467'>llvmPackages_23.bolt.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>llvm-23.1.6</tt> <br /> <a href='https://hydra.nixos.org/build/354251467/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/354251467/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/354251467/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/354251499'>build 354251499</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/354251496'>llvmPackages_23.clang-manpages.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>llvm-23.1.6</tt> <br /> <a href='https://hydra.nixos.org/build/354251496/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/354251496/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/354251496/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/354251499'>build 354251499</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/354251500'>llvmPackages_23.clang-tools.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>llvm-23.1.6</tt> <br /> <a href='https://hydra.nixos.org/build/354251500/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/354251500/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/354251500/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/354251499'>build 354251499</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/354251462'>llvmPackages_23.clang-unwrapped.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>llvm-23.1.6</tt> <br /> <a href='https://hydra.nixos.org/build/354251462/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/354251462/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/354251462/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/354251499'>build 354251499</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/354251493'>llvmPackages_23.clang.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>llvm-23.1.6</tt> <br /> <a href='https://hydra.nixos.org/build/354251493/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/354251493/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/354251493/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/354251499'>build 354251499</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/354251464'>llvmPackages_23.clangNoCompilerRt.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>llvm-23.1.6</tt> <br /> <a href='https://hydra.nixos.org/build/354251464/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/354251464/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/354251464/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/354251499'>build 354251499</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/354251484'>llvmPackages_23.clangNoCompilerRtWithLibc.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>llvm-23.1.6</tt> <br /> <a href='https://hydra.nixos.org/build/354251484/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/354251484/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/354251484/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/354251499'>build 354251499</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/354251472'>llvmPackages_23.clangNoLibc.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>llvm-23.1.6</tt> <br /> <a href='https://hydra.nixos.org/build/354251472/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/354251472/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/354251472/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/354251499'>build 354251499</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/354251470'>llvmPackages_23.clangNoLibcNoRt.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>llvm-23.1.6</tt> <br /> <a href='https://hydra.nixos.org/build/354251470/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/354251470/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/354251470/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/354251499'>build 354251499</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/354251473'>llvmPackages_23.clangNoLibcWithBasicRt.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>llvm-23.1.6</tt> <br /> <a href='https://hydra.nixos.org/build/354251473/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/354251473/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/354251473/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/354251499'>build 354251499</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/354251477'>llvmPackages_23.clangNoLibcxx.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>llvm-23.1.6</tt> <br /> <a href='https://hydra.nixos.org/build/354251477/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/354251477/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/354251477/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/354251499'>build 354251499</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/354251536'>llvmPackages_23.clangUseLLVM.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>llvm-23.1.6</tt> <br /> <a href='https://hydra.nixos.org/build/354251536/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/354251536/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/354251536/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/354251499'>build 354251499</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/354251478'>llvmPackages_23.clangWithLibcAndBasicRt.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>llvm-23.1.6</tt> <br /> <a href='https://hydra.nixos.org/build/354251478/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/354251478/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/354251478/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/354251499'>build 354251499</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/354251488'>llvmPackages_23.clangWithLibcAndBasicRtAndLibcxx.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>llvm-23.1.6</tt> <br /> <a href='https://hydra.nixos.org/build/354251488/step/2/log'>log</a>, <a href='https://hydra.nixos.org/build/354251488/step/2/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/354251488/step/2/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/354251499'>build 354251499</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/354251489'>llvmPackages_23.compiler-rt-libc.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>llvm-23.1.6</tt> <br /> <a href='https://hydra.nixos.org/build/354251489/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/354251489/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/354251489/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/354251499'>build 354251499</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/354251486'>llvmPackages_23.compiler-rt-no-libc.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>llvm-23.1.6</tt> <br /> <a href='https://hydra.nixos.org/build/354251486/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/354251486/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/354251486/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/354251499'>build 354251499</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/354251490'>llvmPackages_23.compiler-rt.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>llvm-23.1.6</tt> <br /> <a href='https://hydra.nixos.org/build/354251490/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/354251490/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/354251490/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/354251499'>build 354251499</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/354251533'>llvmPackages_23.flang.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>llvm-23.1.6</tt> <br /> <a href='https://hydra.nixos.org/build/354251533/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/354251533/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/354251533/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/354251499'>build 354251499</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/354251492'>llvmPackages_23.libclang.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>llvm-23.1.6</tt> <br /> <a href='https://hydra.nixos.org/build/354251492/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/354251492/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/354251492/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/354251499'>build 354251499</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/354251494'>llvmPackages_23.libcxx.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>llvm-23.1.6</tt> <br /> <a href='https://hydra.nixos.org/build/354251494/step/2/log'>log</a>, <a href='https://hydra.nixos.org/build/354251494/step/2/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/354251494/step/2/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/354251499'>build 354251499</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/354251495'>llvmPackages_23.libcxxClang.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>llvm-23.1.6</tt> <br /> <a href='https://hydra.nixos.org/build/354251495/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/354251495/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/354251495/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/354251499'>build 354251499</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/354251527'>llvmPackages_23.libcxxStdenv.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>llvm-23.1.6</tt> <br /> <a href='https://hydra.nixos.org/build/354251527/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/354251527/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/354251527/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/354251499'>build 354251499</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/354251503'>llvmPackages_23.libstdcxxClang.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>llvm-23.1.6</tt> <br /> <a href='https://hydra.nixos.org/build/354251503/step/2/log'>log</a>, <a href='https://hydra.nixos.org/build/354251503/step/2/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/354251503/step/2/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/354251499'>build 354251499</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/354251534'>llvmPackages_23.libunwind.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>llvm-23.1.6</tt> <br /> <a href='https://hydra.nixos.org/build/354251534/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/354251534/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/354251534/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/354251499'>build 354251499</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/354251504'>llvmPackages_23.lld.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>llvm-23.1.6</tt> <br /> <a href='https://hydra.nixos.org/build/354251504/step/2/log'>log</a>, <a href='https://hydra.nixos.org/build/354251504/step/2/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/354251504/step/2/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/354251499'>build 354251499</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/354251517'>llvmPackages_23.lldb-manpages.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>llvm-23.1.6</tt> <br /> <a href='https://hydra.nixos.org/build/354251517/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/354251517/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/354251517/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/354251499'>build 354251499</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/354251510'>llvmPackages_23.lldb.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>llvm-23.1.6</tt> <br /> <a href='https://hydra.nixos.org/build/354251510/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/354251510/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/354251510/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/354251499'>build 354251499</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/354251513'>llvmPackages_23.lldbPlugins.llef.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>llvm-23.1.6</tt> <br /> <a href='https://hydra.nixos.org/build/354251513/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/354251513/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/354251513/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/354251499'>build 354251499</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/354251516'>llvmPackages_23.mlir.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>llvm-23.1.6</tt> <br /> <a href='https://hydra.nixos.org/build/354251516/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/354251516/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/354251516/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/354251499'>build 354251499</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/354251518'>llvmPackages_23.openmp.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>llvm-23.1.6</tt> <br /> <a href='https://hydra.nixos.org/build/354251518/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/354251518/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/354251518/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/354251499'>build 354251499</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/354251525'>llvmPackages_23.stdenv.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>llvm-23.1.6</tt> <br /> <a href='https://hydra.nixos.org/build/354251525/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/354251525/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/354251525/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/354251499'>build 354251499</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/354251522'>llvmPackages_23.systemLibcxxClang.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>llvm-23.1.6</tt> <br /> <a href='https://hydra.nixos.org/build/354251522/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/354251522/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/354251522/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/354251499'>build 354251499</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/353670802'>lock.x86_64-darwin</a></tt>
 </summary>
 <ul>
@@ -9734,6 +10224,51 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/354251553'>tests.cc-wrapper.llvmTests.llvmPackages_23.clang.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>llvm-23.1.6</tt> <br /> <a href='https://hydra.nixos.org/build/354251553/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/354251553/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/354251553/step/1/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/354251499'>build 354251499</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/354251554'>tests.cc-wrapper.llvmTests.llvmPackages_23.libcxx.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>llvm-23.1.6</tt> <br /> <a href='https://hydra.nixos.org/build/354251554/step/3/log'>log</a>, <a href='https://hydra.nixos.org/build/354251554/step/3/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/354251554/step/3/log/tail'>tail</a>, <a href='https://hydra.nixos.org/build/354251499'>build 354251499</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/354251555'>tests.cc-wrapper.supported.x86_64-darwin</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>compiler-rt-libc-18.1.8</tt> <br /> <a href='https://hydra.nixos.org/build/354251555/step/2/log'>log</a>, <a href='https://hydra.nixos.org/build/354251555/step/2/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/354251555/step/2/log/tail'>tail</a>
+</li>
+<li>
+<b>=> Failed</b> <tt>gcc-16.2.0</tt> <br /> <a href='https://hydra.nixos.org/build/354251555/step/1/log'>log</a>, <a href='https://hydra.nixos.org/build/354251555/step/1/log/raw'>raw</a>, <a href='https://hydra.nixos.org/build/354251555/step/1/log/tail'>tail</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/353743090'>tests.checkpointBuildTools.x86_64-darwin</a></tt>
 </summary>
 <ul>
@@ -12273,6 +12808,18 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/353670342'>llvmPackages_18.openmp.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/354251499'>llvmPackages_23.libllvm.x86_64-darwin</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
+<tt><a href='https://hydra.nixos.org/build/354251512'>llvmPackages_23.llvm.x86_64-darwin</a></tt>
 </td>
 <td>Failed</td>
 </tr>
@@ -30113,7 +30660,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>74 issues</summary>
+<details><summary>28 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -30140,13 +30687,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/354251452'>freerdp.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -30192,230 +30732,6 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/354251474'>llvmPackages_23.bintools-unwrapped.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/354251475'>llvmPackages_23.bintools.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/354251487'>llvmPackages_23.bintoolsNoLibc.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/354251467'>llvmPackages_23.bolt.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/354251496'>llvmPackages_23.clang-manpages.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/354251500'>llvmPackages_23.clang-tools.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/354251462'>llvmPackages_23.clang-unwrapped.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/354251493'>llvmPackages_23.clang.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/354251464'>llvmPackages_23.clangNoCompilerRt.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/354251484'>llvmPackages_23.clangNoCompilerRtWithLibc.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/354251472'>llvmPackages_23.clangNoLibc.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/354251470'>llvmPackages_23.clangNoLibcNoRt.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/354251473'>llvmPackages_23.clangNoLibcWithBasicRt.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/354251477'>llvmPackages_23.clangNoLibcxx.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/354251536'>llvmPackages_23.clangUseLLVM.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/354251478'>llvmPackages_23.clangWithLibcAndBasicRt.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/354251488'>llvmPackages_23.clangWithLibcAndBasicRtAndLibcxx.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/354251489'>llvmPackages_23.compiler-rt-libc.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/354251486'>llvmPackages_23.compiler-rt-no-libc.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/354251490'>llvmPackages_23.compiler-rt.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/354251533'>llvmPackages_23.flang.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/354251492'>llvmPackages_23.libclang.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/354251494'>llvmPackages_23.libcxx.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/354251495'>llvmPackages_23.libcxxClang.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/354251527'>llvmPackages_23.libcxxStdenv.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/354251499'>llvmPackages_23.libllvm.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/354251503'>llvmPackages_23.libstdcxxClang.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/354251534'>llvmPackages_23.libunwind.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/354251504'>llvmPackages_23.lld.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/354251517'>llvmPackages_23.lldb-manpages.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/354251510'>llvmPackages_23.lldb.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/354251513'>llvmPackages_23.lldbPlugins.llef.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/354251537'>llvmPackages_23.llvm-manpages.aarch64-darwin</a></tt>
 </td>
 <td>Queued</td>
@@ -30430,66 +30746,10 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/354251512'>llvmPackages_23.llvm.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/354251516'>llvmPackages_23.mlir.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/354251518'>llvmPackages_23.openmp.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/354251525'>llvmPackages_23.stdenv.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/354251522'>llvmPackages_23.systemLibcxxClang.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/354251524'>llvmPackages_23.tblgen.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/354251541'>manual</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/354251539'>medusa.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/354251538'>medusa.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
 </tr>
 <tr>
 <td>
@@ -30511,13 +30771,6 @@ Built for evals:
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/354251546'>release-checks</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-linux</th>
 </tr>
 <tr>
 <td>
@@ -30549,35 +30802,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/354251547'>selenium-server-standalone.aarch64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-darwin</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/354251549'>selenium-server-standalone.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/354251553'>tests.cc-wrapper.llvmTests.llvmPackages_23.clang.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/354251554'>tests.cc-wrapper.llvmTests.llvmPackages_23.libcxx.x86_64-darwin</a></tt>
-</td>
-<td>Queued</td>
-<th>x86_64-darwin</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/354251555'>tests.cc-wrapper.supported.x86_64-darwin</a></tt>
 </td>
 <td>Queued</td>
 <th>x86_64-darwin</th>
@@ -31011,6 +31236,89 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/354251498'>aarch64-darwin llvm-23.1.6</a></tt></summary>
+<ul>
+<li>llvmPackages_23.bintools-unwrapped.aarch64-darwin</li>
+<li>llvmPackages_23.bintools-unwrapped.x86_64-darwin</li>
+<li>llvmPackages_23.bintools.aarch64-darwin</li>
+<li>llvmPackages_23.bintools.x86_64-darwin</li>
+<li>llvmPackages_23.bintoolsNoLibc.aarch64-darwin</li>
+<li>llvmPackages_23.bintoolsNoLibc.x86_64-darwin</li>
+<li>llvmPackages_23.bolt.aarch64-darwin</li>
+<li>llvmPackages_23.bolt.x86_64-darwin</li>
+<li>llvmPackages_23.clang-manpages.aarch64-darwin</li>
+<li>llvmPackages_23.clang-manpages.x86_64-darwin</li>
+<li>llvmPackages_23.clang-tools.aarch64-darwin</li>
+<li>llvmPackages_23.clang-tools.x86_64-darwin</li>
+<li>llvmPackages_23.clang-unwrapped.aarch64-darwin</li>
+<li>llvmPackages_23.clang-unwrapped.x86_64-darwin</li>
+<li>llvmPackages_23.clang.aarch64-darwin</li>
+<li>llvmPackages_23.clang.x86_64-darwin</li>
+<li>llvmPackages_23.clangNoCompilerRt.aarch64-darwin</li>
+<li>llvmPackages_23.clangNoCompilerRt.x86_64-darwin</li>
+<li>llvmPackages_23.clangNoCompilerRtWithLibc.aarch64-darwin</li>
+<li>llvmPackages_23.clangNoCompilerRtWithLibc.x86_64-darwin</li>
+<li>llvmPackages_23.clangNoLibc.aarch64-darwin</li>
+<li>llvmPackages_23.clangNoLibc.x86_64-darwin</li>
+<li>llvmPackages_23.clangNoLibcNoRt.aarch64-darwin</li>
+<li>llvmPackages_23.clangNoLibcNoRt.x86_64-darwin</li>
+<li>llvmPackages_23.clangNoLibcWithBasicRt.aarch64-darwin</li>
+<li>llvmPackages_23.clangNoLibcWithBasicRt.x86_64-darwin</li>
+<li>llvmPackages_23.clangNoLibcxx.aarch64-darwin</li>
+<li>llvmPackages_23.clangNoLibcxx.x86_64-darwin</li>
+<li>llvmPackages_23.clangUseLLVM.aarch64-darwin</li>
+<li>llvmPackages_23.clangUseLLVM.x86_64-darwin</li>
+<li>llvmPackages_23.clangWithLibcAndBasicRt.aarch64-darwin</li>
+<li>llvmPackages_23.clangWithLibcAndBasicRt.x86_64-darwin</li>
+<li>llvmPackages_23.clangWithLibcAndBasicRtAndLibcxx.aarch64-darwin</li>
+<li>llvmPackages_23.clangWithLibcAndBasicRtAndLibcxx.x86_64-darwin</li>
+<li>llvmPackages_23.compiler-rt-libc.aarch64-darwin</li>
+<li>llvmPackages_23.compiler-rt-libc.x86_64-darwin</li>
+<li>llvmPackages_23.compiler-rt-no-libc.aarch64-darwin</li>
+<li>llvmPackages_23.compiler-rt-no-libc.x86_64-darwin</li>
+<li>llvmPackages_23.compiler-rt.aarch64-darwin</li>
+<li>llvmPackages_23.compiler-rt.x86_64-darwin</li>
+<li>llvmPackages_23.flang.aarch64-darwin</li>
+<li>llvmPackages_23.flang.x86_64-darwin</li>
+<li>llvmPackages_23.libclang.aarch64-darwin</li>
+<li>llvmPackages_23.libclang.x86_64-darwin</li>
+<li>llvmPackages_23.libcxx.aarch64-darwin</li>
+<li>llvmPackages_23.libcxx.x86_64-darwin</li>
+<li>llvmPackages_23.libcxxClang.aarch64-darwin</li>
+<li>llvmPackages_23.libcxxClang.x86_64-darwin</li>
+<li>llvmPackages_23.libcxxStdenv.aarch64-darwin</li>
+<li>llvmPackages_23.libcxxStdenv.x86_64-darwin</li>
+<li>llvmPackages_23.libstdcxxClang.aarch64-darwin</li>
+<li>llvmPackages_23.libstdcxxClang.x86_64-darwin</li>
+<li>llvmPackages_23.libunwind.aarch64-darwin</li>
+<li>llvmPackages_23.libunwind.x86_64-darwin</li>
+<li>llvmPackages_23.lld.aarch64-darwin</li>
+<li>llvmPackages_23.lld.x86_64-darwin</li>
+<li>llvmPackages_23.lldb-manpages.aarch64-darwin</li>
+<li>llvmPackages_23.lldb-manpages.x86_64-darwin</li>
+<li>llvmPackages_23.lldb.aarch64-darwin</li>
+<li>llvmPackages_23.lldb.x86_64-darwin</li>
+<li>llvmPackages_23.lldbPlugins.llef.aarch64-darwin</li>
+<li>llvmPackages_23.lldbPlugins.llef.x86_64-darwin</li>
+<li>llvmPackages_23.mlir.aarch64-darwin</li>
+<li>llvmPackages_23.mlir.x86_64-darwin</li>
+<li>llvmPackages_23.openmp.aarch64-darwin</li>
+<li>llvmPackages_23.openmp.x86_64-darwin</li>
+<li>llvmPackages_23.stdenv.aarch64-darwin</li>
+<li>llvmPackages_23.stdenv.x86_64-darwin</li>
+<li>llvmPackages_23.systemLibcxxClang.aarch64-darwin</li>
+<li>llvmPackages_23.systemLibcxxClang.x86_64-darwin</li>
+<li>tests.cc-wrapper.llvmTests.llvmPackages_23.clang.aarch64-darwin</li>
+<li>tests.cc-wrapper.llvmTests.llvmPackages_23.clang.x86_64-darwin</li>
+<li>tests.cc-wrapper.llvmTests.llvmPackages_23.libcxx.aarch64-darwin</li>
+<li>tests.cc-wrapper.llvmTests.llvmPackages_23.libcxx.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>74</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/353647137'>x86_64-darwin gnat-13.4.0</a></tt></summary>
 <ul>
 <li>alire.x86_64-darwin</li>
@@ -31119,56 +31427,11 @@ Built for evals:
 <li>tests.cc-wrapper.llvmTests.llvmPackages_18.libcxx.aarch64-darwin</li>
 <li>tests.cc-wrapper.llvmTests.llvmPackages_18.libcxx.x86_64-darwin</li>
 <li>tests.cc-wrapper.supported.aarch64-darwin</li>
+<li>tests.cc-wrapper.supported.x86_64-darwin</li>
 </ul>
 </details>
 </td>
-<td>45</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/354251498'>aarch64-darwin llvm-23.1.6</a></tt></summary>
-<ul>
-<li>llvmPackages_23.bintools-unwrapped.aarch64-darwin</li>
-<li>llvmPackages_23.bintools.aarch64-darwin</li>
-<li>llvmPackages_23.bintoolsNoLibc.aarch64-darwin</li>
-<li>llvmPackages_23.bolt.aarch64-darwin</li>
-<li>llvmPackages_23.clang-manpages.aarch64-darwin</li>
-<li>llvmPackages_23.clang-tools.aarch64-darwin</li>
-<li>llvmPackages_23.clang-unwrapped.aarch64-darwin</li>
-<li>llvmPackages_23.clang.aarch64-darwin</li>
-<li>llvmPackages_23.clangNoCompilerRt.aarch64-darwin</li>
-<li>llvmPackages_23.clangNoCompilerRtWithLibc.aarch64-darwin</li>
-<li>llvmPackages_23.clangNoLibc.aarch64-darwin</li>
-<li>llvmPackages_23.clangNoLibcNoRt.aarch64-darwin</li>
-<li>llvmPackages_23.clangNoLibcWithBasicRt.aarch64-darwin</li>
-<li>llvmPackages_23.clangNoLibcxx.aarch64-darwin</li>
-<li>llvmPackages_23.clangUseLLVM.aarch64-darwin</li>
-<li>llvmPackages_23.clangWithLibcAndBasicRt.aarch64-darwin</li>
-<li>llvmPackages_23.clangWithLibcAndBasicRtAndLibcxx.aarch64-darwin</li>
-<li>llvmPackages_23.compiler-rt-libc.aarch64-darwin</li>
-<li>llvmPackages_23.compiler-rt-no-libc.aarch64-darwin</li>
-<li>llvmPackages_23.compiler-rt.aarch64-darwin</li>
-<li>llvmPackages_23.flang.aarch64-darwin</li>
-<li>llvmPackages_23.libclang.aarch64-darwin</li>
-<li>llvmPackages_23.libcxx.aarch64-darwin</li>
-<li>llvmPackages_23.libcxxClang.aarch64-darwin</li>
-<li>llvmPackages_23.libcxxStdenv.aarch64-darwin</li>
-<li>llvmPackages_23.libstdcxxClang.aarch64-darwin</li>
-<li>llvmPackages_23.libunwind.aarch64-darwin</li>
-<li>llvmPackages_23.lld.aarch64-darwin</li>
-<li>llvmPackages_23.lldb-manpages.aarch64-darwin</li>
-<li>llvmPackages_23.lldb.aarch64-darwin</li>
-<li>llvmPackages_23.lldbPlugins.llef.aarch64-darwin</li>
-<li>llvmPackages_23.mlir.aarch64-darwin</li>
-<li>llvmPackages_23.openmp.aarch64-darwin</li>
-<li>llvmPackages_23.stdenv.aarch64-darwin</li>
-<li>llvmPackages_23.systemLibcxxClang.aarch64-darwin</li>
-<li>tests.cc-wrapper.llvmTests.llvmPackages_23.clang.aarch64-darwin</li>
-<li>tests.cc-wrapper.llvmTests.llvmPackages_23.libcxx.aarch64-darwin</li>
-</ul>
-</details>
-</td>
-<td>37</td>
+<td>46</td>
 </tr>
 <tr>
 <td>
@@ -31598,6 +31861,27 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/353743073'>aarch64-darwin gcc-16.2.0</a></tt></summary>
+<ul>
+<li>fastStdenv.aarch64-darwin</li>
+<li>fastStdenv.x86_64-darwin</li>
+<li>gcc16.aarch64-darwin</li>
+<li>gcc16.x86_64-darwin</li>
+<li>gcc16Stdenv.aarch64-darwin</li>
+<li>gcc16Stdenv.x86_64-darwin</li>
+<li>gcc_latest.aarch64-darwin</li>
+<li>gcc_latest.x86_64-darwin</li>
+<li>tests.cc-wrapper.gccTests.gcc16Stdenv.aarch64-darwin</li>
+<li>tests.cc-wrapper.gccTests.gcc16Stdenv.x86_64-darwin</li>
+<li>tests.cc-wrapper.supported.aarch64-darwin</li>
+<li>tests.cc-wrapper.supported.x86_64-darwin</li>
+</ul>
+</details>
+</td>
+<td>12</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/353653866'>aarch64-darwin freetype2-0.2.0</a></tt></summary>
 <ul>
 <li>haskellPackages.aztecs-gl-text.aarch64-darwin</li>
@@ -31679,26 +31963,6 @@ Built for evals:
 </details>
 </td>
 <td>12</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/353743073'>aarch64-darwin gcc-16.2.0</a></tt></summary>
-<ul>
-<li>fastStdenv.aarch64-darwin</li>
-<li>fastStdenv.x86_64-darwin</li>
-<li>gcc16.aarch64-darwin</li>
-<li>gcc16.x86_64-darwin</li>
-<li>gcc16Stdenv.aarch64-darwin</li>
-<li>gcc16Stdenv.x86_64-darwin</li>
-<li>gcc_latest.aarch64-darwin</li>
-<li>gcc_latest.x86_64-darwin</li>
-<li>tests.cc-wrapper.gccTests.gcc16Stdenv.aarch64-darwin</li>
-<li>tests.cc-wrapper.gccTests.gcc16Stdenv.x86_64-darwin</li>
-<li>tests.cc-wrapper.supported.aarch64-darwin</li>
-</ul>
-</details>
-</td>
-<td>11</td>
 </tr>
 <tr>
 <td>
